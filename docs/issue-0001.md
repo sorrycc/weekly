@@ -144,7 +144,7 @@ https://github.com/Bhupesh-V/ugit
 
 undo 历史 git 操作，功能很全了，除了 tag、rebase、cherry-pick 和 worktree remove 都支持。
 
-![](https://img.alicdn.com/imgextra/i3/O1CN01d4RFX11RJGSMLhM5A_!!6000000002090-2-tps-736-482.png)
+![](https://img.alicdn.com/imgextra/i1/O1CN01Bg6MMR1qQT51EE4hA_!!6000000005490-1-tps-736-482.gif)
 
 ### 5. mantinedev/mantine
 https://github.com/mantinedev/mantine
