@@ -12,4 +12,5 @@
 
 ### 五月
 
+* [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
 * [第 1 期：rome、slidev、zx](./docs/issue-0001.md)
