@@ -172,11 +172,9 @@ https://github.com/bytedance/guide
 
 ## 🕒 订阅
 
-<p>&nbsp;</p>
+本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
 
-本周刊每周一发布，同步更新在语雀**「mdh/weekly」**和微信公众号。
-
-微信搜索**「云谦」**或者扫描二维码，即可订阅。
+微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
 

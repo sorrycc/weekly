@@ -12,5 +12,6 @@
 
 ### 五月
 
+* [第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4](./docs/issue-0003.md)
 * [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
 * [第 1 期：rome、slidev、zx](./docs/issue-0001.md)
