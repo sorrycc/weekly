@@ -164,8 +164,6 @@ Seamless REST/GraphQL API mocking library for browser and Node.js. 基于 Worker
 
 ## 🕒 订阅
 
-<p>&nbsp;</p>
-
 本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
 
 微信搜索 **「云谦」** 或者扫描二维码，即可订阅。

@@ -15,3 +15,12 @@
 * [第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4](./docs/issue-0003.md)
 * [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
 * [第 1 期：rome、slidev、zx](./docs/issue-0001.md)
+
+## 订阅
+
+本周刊每周一发布，同步更新在语雀 **[「mdh/weekly」](https://www.yuque.com/mdh/weekly)** 和微信公众号。
+
+微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
+
