@@ -1,0 +1,133 @@
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, "PingFang SC", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.5;
+}
+
+body a {
+  color: rgb(0, 122, 170);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+body > p.first {
+  color: rgb(60, 112, 198);
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+p, h1, h2, h3, ul, ol, pre, img {
+  margin: 10px 0;
+}
+
+p.author {
+  color: #999;
+}
+
+h2 {
+  margin-top: 60px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(60, 112, 198);
+  text-align: center;
+}
+
+h2 span {
+  display: inline-block;
+  border-bottom: 2px solid rgb(60, 112, 198);
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: rgb(60, 112, 198);
+}
+
+ul, ol {
+  margin-left: 0px;
+}
+li {
+  margin-left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p > code {
+  font-family: "Operator Mono", Consolas, Monaco, Menlo, monospace;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+  color: rgb(30, 107, 184);
+  background-color: rgba(27, 31, 35, 0.05);
+}
+
+.square {
+  display: none;
+  margin-top: 60px;
+  text-align: center;
+}
+.square img {
+  width: 40px;
+  height: 40px;
+}
+
+.zaikan {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding-right: 30px;
+  background: url(https://img.alicdn.com/imgextra/i4/O1CN01oPJL6R1ujwNiY7wMo_!!6000000006074-2-tps-123-70.png) no-repeat right center;
+  background-size: 30px auto;
+  font-weight: bold;
+}
+
+.zaikan b {
+  background: #abe0e1;
+}
+
+pre {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;
+  font-size: 0.8em;
+}
+
+pre > span.pre-header {
+  content: ' ';
+  display: block;
+  background: url(https://img.alicdn.com/imgextra/i3/O1CN01m0Yx2Q1KIAC3HGMPO_!!6000000001140-55-tps-450-130.svg) 10px 10px / 40px no-repeat rgb(40, 44, 52);
+  height: 30px;
+  width: 100%;
+  margin-bottom: -7px;
+  border-radius: 5px;
+}
+
+pre > code {
+  overflow-x: auto;
+  padding: 16px;
+  color: #abb2bf;
+  display: -webkit-box;
+  font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+  padding-top: 15px;
+  background: #282c34;
+  border-radius: 5px;
+}
+
+
