@@ -12,6 +12,7 @@
 
 ### 五月
 
+* [第 4 期：Chrome 91、Jest 27、TypeScript 4.3](./docs/issue-0004.md)
 * [第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4](./docs/issue-0003.md)
 * [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
 * [第 1 期：rome、slidev、zx](./docs/issue-0001.md)
