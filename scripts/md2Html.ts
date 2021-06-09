@@ -40,7 +40,7 @@ transform(args._[0]);
 
 if (args.watch) {
   console.log('watch');
-  const watcher = chokidar.watch(join(__dirname, 'index.md'), {
+  const watcher = chokidar.watch(join(__dirname, '..', args._[0]), {
     ignoreInitial: true,
   });
   watcher.on('change', () => {
