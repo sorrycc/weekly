@@ -10,9 +10,13 @@
 
 ## 2021
 
+### 六月
+
+* [第 6 期：React 18 Alpha、Vue 3.1](./docs/issue-0006.md)
+* [第 5 期：Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具](./docs/issue-0005.md)
+
 ### 五月
 
-* [第 5 期：Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具](./docs/issue-0005.md)
 * [第 4 期：Chrome 91、Jest 27、TypeScript 4.3](./docs/issue-0004.md)
 * [第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4](./docs/issue-0003.md)
 * [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
