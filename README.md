@@ -12,6 +12,7 @@
 
 ### 六月
 
+* [第 7 期：Next.js 11、Jotai 1](./docs/issue-0007.md)
 * [第 6 期：React 18 Alpha、Vue 3.1](./docs/issue-0006.md)
 * [第 5 期：Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具](./docs/issue-0005.md)
 
