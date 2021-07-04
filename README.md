@@ -10,6 +10,10 @@
 
 ## 2021
 
+### 七月
+
+* [第 9 期：Github Copilot、Temporal、TypeScript 4.4 Beta](./docs/issue-0009.md)
+
 ### 六月
 
 * [第 8 期：Umi 2.5 Beta、ES2021、SWR 1 Beta](./docs/issue-0008.md)
