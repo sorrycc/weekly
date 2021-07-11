@@ -12,6 +12,7 @@
 
 ### 七月
 
+* [第 10 期：Gatsby 3.9、zx 2、npm audit、petite-vue](./docs/issue-0010.md)
 * [第 9 期：Github Copilot、Temporal、TypeScript 4.4 Beta](./docs/issue-0009.md)
 
 ### 六月
