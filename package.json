@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "esno scripts/md2Html.ts",
+    "bootstrap": "esno scripts/bootstrap.ts",
     "serve": "serve ./"
   },
   "devDependencies": {

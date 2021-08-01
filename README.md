@@ -10,6 +10,10 @@
 
 ## 2021
 
+### 八月
+
+* [第 13 期：Yarn 3、React Re-rendering、Just JavaScript](./docs/issue-0013.md)
+
 ### 七月
 
 * [第 12 期：node.new、win 11 with react、手写 React、微前端](./docs/issue-0012.md)
