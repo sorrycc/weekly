@@ -12,6 +12,7 @@
 
 ### 八月
 
+* [第 14 期：Babel 7.15 const enum、Parcel 2 RC、webpack buildHttp](./docs/issue-0014.md)
 * [第 13 期：Yarn 3、React Re-rendering、Just JavaScript](./docs/issue-0013.md)
 
 ### 七月
