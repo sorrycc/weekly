@@ -12,6 +12,7 @@
 
 ### 八月
 
+* [第 16 期：webpack-dev-server 4、astro 0.19、图解 Context 渲染、真实世界的 css-in-js](./docs/issue-0016.md)
 * [第 15 期：Next.js 11.1、DHH 不打包不编译的愿望、图解 useMemo、Vue 3.2](./docs/issue-0015.md)
 * [第 14 期：Babel 7.15 const enum、Parcel 2 RC、webpack buildHttp](./docs/issue-0014.md)
 * [第 13 期：Yarn 3、React Re-rendering、Just JavaScript](./docs/issue-0013.md)
