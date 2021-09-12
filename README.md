@@ -10,6 +10,11 @@
 
 ## 2021
 
+### 九月
+
+* [第 19 期：prettier 2.4、命名速查表、资源引用、React 18、Corepack](./docs/issue-0019.md)
+* [第 18 期：stitches 1、ultra、7GUIs、Clean 架构](./docs/issue-0018.md)
+
 ### 八月
 
 * [第 17 期：unplugin、SWR 1、zx 4、手写 Valtio、领域](./docs/issue-0017.md)
