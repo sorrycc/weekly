@@ -53,7 +53,7 @@ https://web.dev/bundling-non-js-resources/
 
 1. 昨天，`import ... from './image.png` 或 `import ...from 'asset-url:./image.png'`
 2. 今天，`new URL('./image.png', import.meta.url)`
-3. 明天，`await impiort.meta.resolve('./image.png')`
+3. 明天，`await import.meta.resolve('./image.png')`
 
 ### react-render-tracker
 https://github.com/lahmatiy/react-render-tracker
