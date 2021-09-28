@@ -40,8 +40,8 @@ https://github.com/evanw/esbuild/releases/tag/v0.13.0
 
 摘要，
 
-1. 支持强行开启或关闭 esbuild，相比之前的自动识别给予了更多掌控权
-2. 使用 optionalDependencies 安装不同平台依赖，相比之前用的 post-install 脚本更通用，并且没了边界场景的问题，使用时注意选择 npm client，目前 yarn 和 cnpm 暂不支持，会下全量包，慢一点，但不影响使用
+1. 支持强行开启或关闭 tree-shaking，相比之前的自动识别给予了更多掌控权
+2. 使用 optionalDependencies 安装不同平台依赖，相比之前用的 post-install 脚本更通用，并且没了边界场景的问题，使用时注意选择 npm client，目前 yarn 暂不支持，会下全量包，慢一点，但不影响使用
 
 esbuild 的发布邮件每次都能学到点新东西。
 
