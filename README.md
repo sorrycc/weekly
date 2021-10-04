@@ -10,7 +10,12 @@
 
 ## 2021
 
+### 十月
+
+* [第 22 期：TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare](./docs/issue-0021.md)
+
 ### 九月
+
 * [第 21 期：Rome ❤️ Rust、推断式预渲染、motion](./docs/issue-0021.md)
 * [第 20 期：Nuxt 3、øJS、MUI 5、Snowpack 弃坑、astro-repl](./docs/issue-0020.md)
 * [第 19 期：prettier 2.4、命名速查表、资源引用、React 18、Corepack](./docs/issue-0019.md)
