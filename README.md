@@ -2,16 +2,33 @@
 
 计划坚持做一件小事，每周写一份前端周刊。
 
-* 🕒 每周一早上准时更新
+* 🕒 每周一早上 9:00 准时更新
 * 🥊 断更自罚 200 支付宝口令红包
 * 👋 前端文章、工具、信息、Github 库为主，八卦、招聘为辅
 
 欢迎投稿，推荐或自荐文章/工具/资源，请[提交 issue](https://github.com/sorrycc/weekly/issues) 。
 
+## 交流群和志愿者征集
+
+### 交流群
+
+本周刊已开放**「飞书话题群」**，用飞书扫码即可订阅。
+
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01Pokf0R1mYTZgqt2Vc_!!6000000004966-0-tps-1140-1332.jpg" width="215" />
+
+### 征集志愿者
+
+1. 征集 5-10 名 MDH：前端周刊志愿者，报满即止
+2. 加入方式：加入交流群，然后在置顶的征集贴中回复「+1」
+3. 每周需解读 1 篇或以上文章，完成 tl;dr
+4. 采纳的文章发布后在标题署名「编辑：XXX」
+5. 可访问共享的精选文章池
+
 ## 2021
 
 ### 十月
 
+* [第 24 期：​Parcel 2、React Router 6、Nuxt 3、Better Log](./docs/issue-0024.md)
 * [第 23 期：​Astro 0.21、ESLint 8、vite-node、Sanitizer API、Lattice](./docs/issue-0023.md)
 * [第 22 期：TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare](./docs/issue-0022.md)
 
