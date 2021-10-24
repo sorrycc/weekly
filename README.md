@@ -28,6 +28,7 @@
 
 ### 十月
 
+* [第 25 期：​vscode.dev、Aura Theme 2、Node 17、useId](./docs/issue-0025.md)
 * [第 24 期：​Parcel 2、React Router 6、Nuxt 3、Better Log](./docs/issue-0024.md)
 * [第 23 期：​Astro 0.21、ESLint 8、vite-node、Sanitizer API、Lattice](./docs/issue-0023.md)
 * [第 22 期：TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare](./docs/issue-0022.md)
