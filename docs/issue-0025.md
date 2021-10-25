@@ -53,7 +53,7 @@ https://dev.to/daltonmenezes/aura-theme-v2-0-0-is-out-now-565h
 ### TypeScript 4.4 Cheat Sheet
 https://www.sitepen.com/blog/typescript-cheat-sheet
 
-TypeScript 4.4 备忘录，文中通过表格方式较清晰地展示了 TypeScript 的一些使用方式，如平时我们不常用的 &&= 等，值得看看。如果想看比较详细的介绍，可以看 TypeScript 权威指南 （https://www.sitepen.com/blog/update-the-definitive-typescript-guide）这篇文章。
+TypeScript 4.4 备忘录，文中通过表格方式较清晰地展示了 TypeScript 的一些使用方式，如平时我们不常用的 &&= 等，值得看看。如果想看比较详细的介绍，可以看 [TypeScript 权威指南](https://www.sitepen.com/blog/update-the-definitive-typescript-guide) 这篇文章。
 
 ### 3 TypeScript Tricks
 https://www.cstrnt.dev/blog/three-typescript-tricks
@@ -119,7 +119,7 @@ https://www.gatsbyjs.com/docs/reference/release-notes/v4.0/
 
 摘要，
 
-1. 支持并行查询运行 - 构建时间减少多达 40% 
+1. 支持并行查询运行 - 构建时间减少多达 40%
 2. 使用 lmdb-store 提供高效数据访问 - Nodejs >=14.15.0
 3. 支持服务器端渲染 (SSR) - 使用用户访问页面时获取的数据预渲染页面
 4. 支持延迟静态生成 (DSG) - 将页面生成推迟到用户请求，加快构建时间
