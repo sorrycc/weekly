@@ -39,7 +39,7 @@ Bun 基于 Zig 实现，内含多个功能。1）作为 JavaScript/TypeScript/JS
 他内置了阉割版 next.js 功能的脚手架，依赖变更需重新执行 `bun bun --use next`，通过 `bun` 命令启动。我试着添加 antd 依赖，但报错了；支持 bundle css 和 javascript，比如用 `bun bun ./src/index.jsx` 打包文件，速度极快；还可以用来做 task runner，比如 `bun run build`，npm、pnpm 等启动时间需要 170ms，bun 只需 6ms。
 
 能明显感受到 task runner 启动快多了，已设置 `alias br="bun run"` 作为日常使用。
-bun 提速 next.js 和 cra 的方式除了二进制 bin 快以为，还做了一件类似预编译依赖的事，通过 `bun bun` 会生成一份 `node_modules.bun` 文件，内容是依赖的打包产物。
+bun 提速 next.js 和 cra 的方式除了二进制 bin 快以外，还做了一件类似预编译依赖的事，通过 `bun bun` 会生成一份 `node_modules.bun` 文件，内容是依赖的打包产物。
 
 ### coa 和依赖绑定
 https://mp.weixin.qq.com/s/KbmpzvoB1yJlNDEO1p_fJQ
