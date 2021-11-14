@@ -28,6 +28,7 @@
 
 ### 十一月
 
+* [第 28 期：Hydrogen、Chrome Recorder、Umi Contributor](./docs/issue-0028.md)
 * [第 27 期：Bun、coa、React Router 6、CSS in React](./docs/issue-0027.md)
 * [第 26 期：Next.js 12、Umi 4 Beta 1、UnoCSS、Modern.js](./docs/issue-0026.md)
 
