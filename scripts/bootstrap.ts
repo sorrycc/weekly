@@ -47,6 +47,10 @@ DESC
 
 ## 🕒 订阅
 
+本周刊已开放 **「飞书话题群」** ，用飞书扫码即可加入。
+
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01Pokf0R1mYTZgqt2Vc_!!6000000004966-0-tps-1140-1332.jpg" width="215" />
+
 本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
 
 微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
