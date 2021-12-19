@@ -142,7 +142,7 @@ function structuralClone(obj) {
 
 ![](https://lh4.googleusercontent.com/--gyU2qPaNaN8a8g0f0S3zCdHDHImjh0qT2_ePxY7ebbVr31doDjbnKGhUlFeUGSiU2K9eWUnDec4egpzwRUVKRUs_EyGX0YNrux1h4D5YEFguIpTIxoTioO3pfnPf_g1K_prxhv)
 
-又一个 0JS 框架，和 Axios 类似。不一定用他，但可了解背后的思想。
+又一个 0JS 框架，和 Astro 类似。不一定用他，但可了解背后的思想。
 
 Qwik 两大特性是 HTML 的 Resumability 和 JavaScript 的 Fine-Grained Lazy-Loading。
 
