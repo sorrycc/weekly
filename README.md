@@ -8,14 +8,6 @@
 
 欢迎投稿，推荐或自荐文章/工具/资源，请[提交 issue](https://github.com/sorrycc/weekly/issues) 。
 
-## 交流群和志愿者征集
-
-### 交流群
-
-本周刊已开放 **「飞书话题群」** ，用飞书扫码即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i4/O1CN01Pokf0R1mYTZgqt2Vc_!!6000000004966-0-tps-1140-1332.jpg" width="215" />
-
 ## 2021
 
 ### 十二月
