@@ -12,6 +12,7 @@
 
 ### 十二月
 
+* [第 34 期：Vitest、设计模式、Milkdown、防御性 CSS](./docs/issue-0034.md)
 * [第 33 期：Github Wrapped、Rails 7、CRA 5、structuredClone](./docs/issue-0033.md)
 * [第 32 期：React Conf、TailwindCSS 3、Turborepo、ahooks 3](./docs/issue-0032.md)
 * [第 31 期：Fleet、Sandpack、MFSU、SVGR 6、Floating UI](./docs/issue-0031.md)

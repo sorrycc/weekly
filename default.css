@@ -36,6 +36,7 @@ h2 {
   font-weight: bold;
   color: rgb(60, 112, 198);
   text-align: center;
+  margin-bottom: 1.5em;
 }
 
 h2 span {
@@ -130,4 +131,12 @@ pre > code {
   border-radius: 5px;
 }
 
+blockquote {
+  border-left: 5px solid rgb(60, 112, 198);
+  padding: 0px 15px;
+  margin: 0px 0px 20px;
+  color: rgb(60, 112, 198);
+  font-size: 1em;
+  font-weight: bold;
+}
 
