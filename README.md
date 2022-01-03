@@ -8,6 +8,12 @@
 
 欢迎投稿，推荐或自荐文章/工具/资源，请[提交 issue](https://github.com/sorrycc/weekly/issues) 。
 
+## 2022
+
+### 一月
+
+* [The Year of MDH 前端周刊](https://www.yuque.com/mdh/weekly/owagyf)
+
 ## 2021
 
 ### 十二月
