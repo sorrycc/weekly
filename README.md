@@ -12,6 +12,7 @@
 
 ### 一月
 
+* [第 35 期：SEE Conf、手写 Valtio、Turborepo、Chrome 97](./docs/issue-0035.md)
 * [The Year of MDH 前端周刊](https://www.yuque.com/mdh/weekly/owagyf)
 
 ## 2021
