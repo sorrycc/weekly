@@ -12,6 +12,7 @@
 
 ### 一月
 
+* [第 36 期：Hey、浏览器里跑 Vite、Container Query 补丁、Parcel CSS](./docs/issue-0036.md)
 * [第 35 期：SEE Conf、手写 Valtio、Turborepo、Chrome 97](./docs/issue-0035.md)
 * [The Year of MDH 前端周刊](https://www.yuque.com/mdh/weekly/owagyf)
 
