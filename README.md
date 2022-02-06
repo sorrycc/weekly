@@ -10,6 +10,10 @@
 
 ## 2022
 
+### 二月
+
+* [第 39 期：MDX 2、React 2022、Notion API Blog、Sponsor Only 仓库、upgit](./docs/issue-0039.md)
+
 ### 一月
 
 * [第 38 期：Umi 4 RC、HTTPie 3、Deno 2021](./docs/issue-0038.md)
