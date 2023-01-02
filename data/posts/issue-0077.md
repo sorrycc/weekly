@@ -1,10 +1,9 @@
-# MDH 前端周刊第 77 期：Framer Motion 布局动画、Arrow JS、vanilla-extract 入门、antd 5、dumi 2
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/shawn-dearn-sgY1DaqB8AU-unsplash.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：shawndearn @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0077 期，发表于 2022/11/21。</p>
+---
+title: "Framer Motion 布局动画、Arrow JS、vanilla-extract 入门、antd 5、dumi 2"
+titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/shawn-dearn-sgY1DaqB8AU-unsplash.jpg"
+titleImageCaption: "shawndearn @ unsplash"
+publishedAt: "2022/11/21"
+---
 
 本周有这些内容想和你分享：
 
@@ -126,15 +125,3 @@ dumi 1.0 在 2020 年 3 月 2 日正式发布，到今天一共有 80+ 位 Contr
 
 与这份幸运一同到来的，还有许多体验问题的反馈、组件研发的思考、实际项目的场景，加上社区的底层技术栈也在飞速迭代，是时候给 dumi 做一次大升级了，所以我们在今年的 7 月 29 日正式启动了 dumi 2.0 的研发，而在今天，它终于与大家正式见面了！
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "build": "umi build",
+    "dev": "umi dev",
+    "build": "npm run doc:generatePosts && umi build",
     "doc:build": "esno scripts/md2Html.ts",
+    "doc:generatePosts": "esno scripts/generatePosts.ts",
     "doc:serve": "serve ./"
   },
   "devDependencies": {
@@ -13,6 +15,7 @@
     "chokidar": "^3.5.1",
     "esno": "^0.5.0",
     "express": "^4.17.1",
+    "front-matter": "^4.0.2",
     "marked": "^2.0.3",
     "mkdirp": "^1.0.4",
     "prettier": "^2.2.1",

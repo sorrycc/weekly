@@ -1,10 +1,9 @@
-# MDH 前端周刊第 78 期：技术文档框架、CSS Architecture、Tailwind 抽象泄漏、调试战术、Mid Journey
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_blue_big_fish_Japan_anime_style_bc07a0cc-5552-421f-8ccc-a4fed4.png" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：Mid Journey 生成的 Bigfish 群 Logo 。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0078 期，发表于 2022/12/05，将为您带来最新的资讯和分享。</p>
+---
+title: "技术文档框架、CSS Architecture、Tailwind 抽象泄漏、调试战术、Mid Journey"
+titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_blue_big_fish_Japan_anime_style_bc07a0cc-5552-421f-8ccc-a4fed4.png"
+titleImageCaption: "Bigfish 群 Logo with MidJourney"
+publishedAt: "2022/12/05"
+---
 
 这周开始把周刊换了一种形式来写，之前是好文笔记，改成新闻+好文推荐+关于我。主要原因是感觉没那么多好文章值得深入看，又不想拿资讯和低质量文章来凑，也可能是我的阈值变高了，索性就把新闻也加回来，然后文章改成推荐的形式而不是笔记。本文带有大量链接，推荐点击「查看原文」在语雀上查看。
 
@@ -59,15 +58,3 @@
 * 224 - 《CSS 新特性：Layers、嵌套、Scoped、has 伪类》
 * 225 - 《React + TypeScript 最小知识集》
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

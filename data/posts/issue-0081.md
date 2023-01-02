@@ -1,10 +1,9 @@
-# MDH 前端周刊第 81 期：Next.js 13.1、Bun 0.4、WASM napi、React Query
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/CZSsBU.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0081 期，发表于 2023/1/2，将为您带来最新的资讯和分享。</p>
-
-注意：本文带有大量链接，推荐点击「查看原文」在语雀上查看。
+---
+title: "Next.js 13.1、Bun 0.4、WASM napi、React Query"
+titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/CZSsBU.jpg"
+titleImageCaption: ""
+publishedAt: "2023/01/02"
+---
 
 ## 一周新闻
 > 推荐下 YingCi 的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯，也是本文新闻的重要渠道之一。也可订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -60,8 +59,3 @@
 ## 每周一图
 ![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/telegram-cloud-photo-size-5-6104664484024005124-x.jpg)
 
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

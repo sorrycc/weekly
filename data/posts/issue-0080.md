@@ -1,10 +1,9 @@
-# MDH 前端周刊第 80 期：SvelteKit 1、Tauri Mobile、React Router 6.5、useEffectEvent、React Query
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_a_cute_snowman_f68682ad-1019-4a97-b530-533c2909bb39.png" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：A Cute Snowman。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0080 期，发表于 2022/12/19，将为您带来最新的资讯和分享。</p>
+---
+title: "SvelteKit 1、Tauri Mobile、React Router 6.5、useEffectEvent、React Query"
+titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_a_cute_snowman_f68682ad-1019-4a97-b530-533c2909bb39.png"
+titleImageCaption: "A Cute Snowman"
+publishedAt: "2022/12/19"
+---
 
 ## 新闻
 > 推荐下 YingCi 的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯，也是本文新闻的重要渠道之一。也可订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -40,16 +39,3 @@
 * 有点被 Readwise Reader 功能惊艳到，准备弃坑 Instapaper。于是[请 Chatgpt 帮我写信半价付费 Readwise 锁价](https://t.me/yqtalk/45)（需提供身份证信息），之后 Reader 功能出了应该是要涨价的。
 * 家人经历了一次乌龙阳，陪着折腾了 2-3 天，感受了一遍一线防疫的政策、社区、街道和医院。
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 79 期：ChatGPT、Vite 4、SWR 2、Intl.Segmenter
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/dhh4ul.png" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">prompt: illustration. A fantasy adventure set in a world where the three body problem has been solved, allowing for incredible feats of space travel and exploration</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0079 期，发表于 2022/12/12，将为您带来最新的资讯和分享。</p>
+---
+title: "ChatGPT、Vite 4、SWR 2、Intl.Segmenter"
+titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/dhh4ul.png"
+titleImageCaption: "prompt: illustration. A fantasy adventure set in a world where the three body problem has been solved, allowing for incredible feats of space travel and exploration"
+publishedAt: "2022/12/12"
+---
 
 ## 新闻
 > 推荐下 YingCi 的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯，也是本文新闻的重要渠道之一。也可订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -47,16 +46,3 @@
 * 227 - 《一年写 220 多篇文章是什么体验》
 * 226 - 《有了 ChatGPT + Replit，普通人也可借助程序解决问题》
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>
