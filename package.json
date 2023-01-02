@@ -1,9 +1,8 @@
 {
   "scripts": {
-    "build": "esno scripts/md2Html.ts",
-    "bootstrap": "esno scripts/bootstrap.ts",
-    "uploadImages": "esno scripts/uploadImages.ts",
-    "serve": "serve ./"
+    "build": "umi build",
+    "doc:build": "esno scripts/md2Html.ts",
+    "doc:serve": "serve ./"
   },
   "devDependencies": {
     "@types/express": "^4.17.12",
