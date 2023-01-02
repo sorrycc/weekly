@@ -1,24 +1,19 @@
 import { useParams } from 'umi';
-import { useQuery } from '@tanstack/react-query';
-import { Post } from '@/types';
 // @ts-ignore
 import MarkdownIt from 'markdown-it';
+import { usePost } from '@/hooks/usePost';
+import { usePosts } from '@/hooks/usePosts';
 
 const md = new MarkdownIt({
   linkify: true,
 });
 
-export default () => {
+function Main() {
   const params = useParams();
-  const postsQuery = useQuery<Post & { content: string }>([
-    'posts',
-    `${params.issue}.json`,
-  ]);
-  console.log(params);
-  console.log(postsQuery);
-  if (postsQuery.isLoading) return <p>loading...</p>;
-  const { title, content } = postsQuery.data!;
-  console.log(content);
+  const postQuery = usePost(params.issue as string);
+  if (postQuery.isLoading) return <p>loading...</p>;
+  const { title, content } = postQuery.data!;
+
   return (
     <div>
       <h1>{title}</h1>
@@ -27,6 +22,27 @@ export default () => {
           __html: md.render(content),
         }}
       />
+    </div>
+  );
+}
+
+function Sidebar() {
+  const postsQuery = usePosts();
+  if (postsQuery.isLoading) return <p>loading...</p>;
+  return (
+    <div>
+      {postsQuery.data!.map((post) => {
+        return <li key={post.numberStr}>{post.title}</li>;
+      })}
+    </div>
+  );
+}
+
+export default () => {
+  return (
+    <div>
+      <Sidebar />
+      <Main />
     </div>
   );
 };

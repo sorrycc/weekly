@@ -1,11 +1,9 @@
 import React from 'react';
-import { useQuery } from '@tanstack/react-query';
 import { Link } from 'umi';
-import { Post } from '@/types';
+import { usePosts } from '@/hooks/usePosts';
 
 function Posts() {
-  const postsQuery = useQuery<Post[]>(['posts.json']);
-  const posts = postsQuery.data;
+  const postsQuery = usePosts();
   if (postsQuery.isLoading) {
     return <div>Loading...</div>;
   }
@@ -31,7 +29,6 @@ function Posts() {
 export default function Page() {
   return (
     <div>
-      <h1>Page index</h1>
       <Posts />
     </div>
   );
