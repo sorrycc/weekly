@@ -1,6 +1,7 @@
 /node_modules
 /index.html
 /dist
-/.umi-production
-/.umi
+/src/.umi-production
+/src/.umi
 /public/posts.json
+/public/posts
