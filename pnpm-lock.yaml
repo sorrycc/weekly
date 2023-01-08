@@ -12,6 +12,7 @@ specifiers:
   '@types/yargs-parser': ^20.2.0
   axios: ^0.24.0
   chokidar: ^3.5.1
+  clsx: ^1.2.1
   cos-nodejs-sdk-v5: ^2.11.6
   download: ^8.0.0
   esno: ^0.5.0
@@ -46,6 +47,7 @@ devDependencies:
   '@types/react-helmet': 6.1.6
   '@types/yargs-parser': 20.2.1
   chokidar: 3.5.2
+  clsx: 1.2.1
   esno: 0.5.0
   express: 4.17.2
   front-matter: 4.0.2
@@ -3810,6 +3812,11 @@ packages:
     dependencies:
       mimic-response: 1.0.1
     dev: false
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: true
 
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}

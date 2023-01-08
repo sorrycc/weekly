@@ -1,8 +1,36 @@
 import { Outlet, Link } from 'umi';
+import styled from 'styled-components';
 
-export default () => {
+const Wrapper = styled.div`
+  width: 1024px;
+  margin: 0 auto;
+
+  header {
+    display: flex;
+    height: 128px;
+    line-height: 128px;
+    h1 {
+      flex: 1;
+      a {
+        color: #282c34;
+        text-decoration: none;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        li {
+          margin-left: 12px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+`;
+
+export default function Layout() {
   return (
-    <div>
+    <Wrapper>
       <header>
         <h1>
           <Link to="/">MDH 前端周刊</Link>
@@ -17,6 +45,6 @@ export default () => {
       <div>
         <Outlet />
       </div>
-    </div>
+    </Wrapper>
   );
-};
+}

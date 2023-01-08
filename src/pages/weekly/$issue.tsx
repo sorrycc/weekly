@@ -1,10 +1,76 @@
-import { useParams } from 'umi';
+import { useParams, Link } from 'umi';
 // @ts-ignore
 import MarkdownIt from 'markdown-it';
 import { usePost } from '@/hooks/usePost';
 import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import React from 'react';
+import styled from 'styled-components';
+import clsx from 'clsx';
+
+const Wrapper = styled.div`
+  display: flex;
+  aside {
+    width: 250px;
+    margin-right: 24px;
+    li {
+      height: 32px;
+      line-height: 32px;
+      overflow: hidden;
+
+      a {
+        color: #282c34;
+        text-decoration: none;
+      }
+
+      &.active a {
+        color: #b5495b;
+      }
+    }
+  }
+  main {
+    flex: 1;
+    h1 {
+      font-size: 32px;
+    }
+    div.publishedAt {
+      margin-top: 12px;
+      color: #666;
+    }
+  }
+`;
+
+const Post = styled.div`
+  line-height: 1.6;
+
+  a {
+    &:visited {
+      color: purple;
+    }
+  }
+  ul {
+    list-style: circle;
+    padding-left: 20px;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  p {
+    margin: 20px 0;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  blockquote {
+    border-left: 4px solid #dfe2e5;
+    color: #6a737d;
+    padding-left: 16px;
+  }
+`;
 
 const md = new MarkdownIt({
   linkify: true,
@@ -12,43 +78,61 @@ const md = new MarkdownIt({
 
 function Main() {
   const params = useParams();
-  const num = parseInt(params.issue!.replace('issue-', ''), 10);
   const postQuery = usePost(params.issue as string);
   if (postQuery.isLoading) return <p>loading...</p>;
-  const { title, content } = postQuery.data!;
+  const { title, content, numberStr, publishedAt } = postQuery.data!;
+
+  let html = md.render(content);
 
   return (
-    <div>
+    <main>
       <Helmet>
-        <title>{`第 ${num} 期 - MDH 前端周刊`}</title>
+        <title>{`第 ${numberStr} 期 - MDH 前端周刊`}</title>
       </Helmet>
-      <h1>{title}</h1>
-      <div
+      <h1>
+        第 {numberStr} 期：{title}
+      </h1>
+      <div className="publishedAt">发布日期：{publishedAt}</div>
+      <Post
         dangerouslySetInnerHTML={{
-          __html: md.render(content),
+          __html: html,
         }}
       />
-    </div>
+    </main>
   );
 }
 
 function Sidebar() {
   const postsQuery = usePosts();
+  const params = useParams();
   if (postsQuery.isLoading) return <p>loading...</p>;
   return (
-    <div>
-      {postsQuery.data!.map((post) => {
-        return <li key={post.numberStr}>{post.title}</li>;
-      })}
-    </div>
+    <aside>
+      <ul>
+        {postsQuery.data!.map((post) => {
+          return (
+            <li
+              key={post.numberStr}
+              className={clsx({
+                active: post.numberStr === params.issue!.replace('issue-', ''),
+              })}
+            >
+              <Link to={`/weekly/issue-${post.numberStr}`}>
+                第 {post.numberStr} 期：{post.title}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </aside>
   );
 }
 
 export default () => {
   return (
-    <div>
+    <Wrapper>
       <Sidebar />
       <Main />
-    </div>
+    </Wrapper>
   );
 };
