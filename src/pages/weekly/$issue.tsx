@@ -37,6 +37,18 @@ const Wrapper = styled.div`
       margin-top: 12px;
       color: #666;
     }
+    div.titleImage {
+      margin-top: 24px;
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+    div.titleImageCaption {
+      margin-top: 12px;
+      color: #666;
+      text-align: center;
+    }
   }
 `;
 
@@ -80,7 +92,14 @@ function Main() {
   const params = useParams();
   const postQuery = usePost(params.issue as string);
   if (postQuery.isLoading) return <p>loading...</p>;
-  const { title, content, numberStr, publishedAt } = postQuery.data!;
+  const {
+    title,
+    content,
+    numberStr,
+    publishedAt,
+    titleImage,
+    titleImageCaption,
+  } = postQuery.data!;
 
   let html = md.render(content);
 
@@ -93,6 +112,10 @@ function Main() {
         第 {numberStr} 期：{title}
       </h1>
       <div className="publishedAt">发布日期：{publishedAt}</div>
+      <div className="titleImage">
+        <img src={titleImage} alt="headImg" />
+      </div>
+      <div className="titleImageCaption">题图：{titleImageCaption}。</div>
       <Post
         dangerouslySetInnerHTML={{
           __html: html,
