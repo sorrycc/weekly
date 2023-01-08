@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'umi';
 import { usePosts } from '@/hooks/usePosts';
+import { Helmet } from 'react-helmet';
 
 function Posts() {
   const postsQuery = usePosts();
@@ -10,6 +11,9 @@ function Posts() {
 
   return (
     <div>
+      <Helmet>
+        <title>MDH 前端周刊</title>
+      </Helmet>
       <h2>Posts</h2>
       <ul>
         {postsQuery.data!.map((post) => (
