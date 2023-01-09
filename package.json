@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "umi dev",
-    "build": "npm run doc:generatePosts && umi build",
+    "build": "NODE_ENV=production npm run doc:generatePosts && umi build",
     "doc:build": "esno scripts/md2Html.ts",
     "doc:generatePosts": "esno scripts/generatePosts.ts",
     "doc:serve": "serve ./"

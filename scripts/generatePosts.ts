@@ -11,6 +11,9 @@ const posts = fs
     if (file.endsWith('.md')) {
       const content = fs.readFileSync(path.join(sourceDir, file), 'utf-8');
       const { attributes, body } = fm(content);
+      if ((attributes as any).draft && process.env.NODE_ENV === 'production') {
+        return false;
+      }
       const numberStr = file.match(/issue-(\d+)\.md/)![1];
       contents[numberStr] = body;
       return {
