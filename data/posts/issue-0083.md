@@ -1,5 +1,5 @@
 ---
-title: "第 0083 期：React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档"
+title: "React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档"
 titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_A_small_rabbit_peeking_out_of_a_kebab_epic_lighting_0a16d66f-4.png"
 titleImageCaption: "卷饼兔"
 publishedAt: "2023/01/16"
