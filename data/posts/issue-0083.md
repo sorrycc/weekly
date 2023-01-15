@@ -1,6 +1,6 @@
 ---
 title: "React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档"
-titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_A_small_rabbit_peeking_out_of_a_kebab_epic_lighting_0a16d66f-4.png"
+titleImage: "https://res.cloudinary.com/dddrcezbu/image/upload/v1673794355/mdhweekly/hetordmfuv2ajil3fqji.png"
 titleImageCaption: "卷饼兔"
 publishedAt: "2023/01/16"
 ---
@@ -32,16 +32,16 @@ publishedAt: "2023/01/16"
 ## 深度好文
 > 好文推荐。这周好文真多，以下是我全文阅读过的部分。
 
-- 《[Type-safe React Query](https://tkdodo.eu/blog/type-safe-react-query)》，Dominik 的每篇文章都值得深入阅读。React Query 的类型可以定义在哪？1）`useQuery<Todos>`，2）`const queryFn: Promise<Todos>`，3）`axios.get<Todos>`，4）`res.data as Todos`，5）不定义。不定义怎么有类型？用 zod，然后定义 schema，schema 不仅可用于校验后端数据，还会返回类型。
-- 《[Data binding in React: how to work with forms in React](https://www.joshwcomeau.com/react/data-binding/)》，johnwcomeau 的每篇文章也值得阅读，这篇比较新手向，深入解答了面试必问问题「受控和不受控」。
-- 《[Clever Code Considered Harmful](https://www.joshwcomeau.com/career/clever-code-considered-harmful/)》，johnwcomeau 这周的另一篇文章。判断代码好不好的一个标准是，一个初级开发人员，一个职业生涯刚刚起步的人，会不会在理解这段代码时遇到困难？
-- 《[React JS Best Practices From The New Docs](https://sebastiancarlos.medium.com/react-js-best-practices-from-the-new-docs-1c65570e785d)》，Sebastian Carlos 阅读完 React 新官网文档后总结的 160 条笔记。我帮我节省了大量时间，我读完他的笔记后记了 20 多条笔记。但如果有空，还是应该完整阅读 React 的新文档。
-- 《[JavaScript Wrapped 2022](https://vived.io/javascript-wrapped-2022-frontend-weekly-vol-119/)》，作者整理了 TypeScript、React、Angular、Vue、SSR、Node|Deno|Bun 的 2022 发展和 2023 展望，建议熟读。
-- 《[3D in CSS](https://garden.bradwoods.io/notes/css/3d)》，交互式的 3D CSS 教程。主要是 4 个 CSS 属性，包括 perspective、perspectiveOrigin、translateZ 和 rotate3d。
-- 《[Building a fast, animated image gallery with Next.js](https://vercel.com/blog/building-a-fast-animated-image-gallery-with-next-js)》，Vercel 把 Next.js Conf 2022 的照片搬上网，同时把这套代码开源。技术栈包括 Cloudinary、Next.js 图像组件、imagemin、Framer Motion、以及用 ai 生成 alt 文本等。
-- 《[Our top Core Web Vitals recommendations for 2023](https://web.dev/top-cwv-2023/)》，本文 Google DevRel 团队认为在 2023 年提高 Core Web Vitals 性能的最有效方法的最佳实践集合。涉及的性能指标包括 LCP、TTFB、CLS、FID 和 INP，同时给出了每个指标提升的注意点和可执行操作。
-- 《[The hardest part of web dev](https://alexvipond.dev/blog/the-hardest-part-of-web-dev)》，关于 timing 的知识。其中 react 中，1）渲染函数在React更新DOM之前运行，2）useInsertionEffect回调在React更新DOM后运行，但在浏览器重新计算页面布局之前，3）useLayoutEffect回调在浏览器重新计算页面布局后运行（考虑到useInsertionEffect回调注入的任何CSS），但在浏览器重新绘制之前，4）useEffect回调在浏览器完成重绘后运行。
-- 《[Fixing a Memory Leak in a Production Node.js App](https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app)》，kentcdodds 在 production 中修复内存泄漏过程的记录。包括，1）通过 `v8.writeHeapSnapshot` 可创建 heap snapshots，然后[用 Chrome 进行分析](https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots/)，2）使用 lru-cache 确保 cache 不会太大。最后发现问题的根源是用 express-http-proxy 做图片代理导致的。
+- [《Type-safe React Query》](https://tkdodo.eu/blog/type-safe-react-query)，Dominik 的每篇文章都值得深入阅读。React Query 的类型可以定义在哪？1）`useQuery<Todos>`，2）`const queryFn: Promise<Todos>`，3）`axios.get<Todos>`，4）`res.data as Todos`，5）不定义。不定义怎么有类型？用 zod，然后定义 schema，schema 不仅可用于校验后端数据，还会返回类型。
+- [《Data binding in React: how to work with forms in React》](https://www.joshwcomeau.com/react/data-binding/)，johnwcomeau 的每篇文章也值得阅读，这篇比较新手向，深入解答了面试必问问题「受控和不受控」。
+- [《Clever Code Considered Harmful》](https://www.joshwcomeau.com/career/clever-code-considered-harmful/)，johnwcomeau 这周的另一篇文章。判断代码好不好的一个标准是，一个初级开发人员，一个职业生涯刚刚起步的人，会不会在理解这段代码时遇到困难？
+- [《React JS Best Practices From The New Docs》](https://sebastiancarlos.medium.com/react-js-best-practices-from-the-new-docs-1c65570e785d)，Sebastian Carlos 阅读完 React 新官网文档后总结的 160 条笔记。我帮我节省了大量时间，我读完他的笔记后记了 20 多条笔记。但如果有空，还是应该完整阅读 React 的新文档。
+- [《JavaScript Wrapped 2022》](https://vived.io/javascript-wrapped-2022-frontend-weekly-vol-119/)，作者整理了 TypeScript、React、Angular、Vue、SSR、Node|Deno|Bun 的 2022 发展和 2023 展望，建议熟读。
+- [《3D in CSS》](https://garden.bradwoods.io/notes/css/3d)，交互式的 3D CSS 教程。主要是 4 个 CSS 属性，包括 perspective、perspectiveOrigin、translateZ 和 rotate3d。
+- [《Building a fast, animated image gallery with Next.js》](https://vercel.com/blog/building-a-fast-animated-image-gallery-with-next-js)，Vercel 把 Next.js Conf 2022 的照片搬上网，同时把这套代码开源。技术栈包括 Cloudinary、Next.js 图像组件、imagemin、Framer Motion、以及用 ai 生成 alt 文本等。
+- [《Our top Core Web Vitals recommendations for 2023》](https://web.dev/top-cwv-2023/)，本文 Google DevRel 团队认为在 2023 年提高 Core Web Vitals 性能的最有效方法的最佳实践集合。涉及的性能指标包括 LCP、TTFB、CLS、FID 和 INP，同时给出了每个指标提升的注意点和可执行操作。
+- [《The hardest part of web dev》](https://alexvipond.dev/blog/the-hardest-part-of-web-dev)，关于 timing 的知识。其中 react 中，1）渲染函数在React更新DOM之前运行，2）useInsertionEffect回调在React更新DOM后运行，但在浏览器重新计算页面布局之前，3）useLayoutEffect回调在浏览器重新计算页面布局后运行（考虑到useInsertionEffect回调注入的任何CSS），但在浏览器重新绘制之前，4）useEffect回调在浏览器完成重绘后运行。
+- [《Fixing a Memory Leak in a Production Node.js App》](https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app)，kentcdodds 在 production 中修复内存泄漏过程的记录。包括，1）通过 `v8.writeHeapSnapshot` 可创建 heap snapshots，然后[用 Chrome 进行分析](https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots/)，2）使用 lru-cache 确保 cache 不会太大。最后发现问题的根源是用 express-http-proxy 做图片代理导致的。
 
 ## Umi 和我
 > 关于 Umi 和我最近的进展。
@@ -62,6 +62,6 @@ publishedAt: "2023/01/16"
 
 ## 每周一图
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/download-4.jpg)
+![](https://res.cloudinary.com/dddrcezbu/image/upload/v1673794486/mdhweekly/dqitp0ptuuchkh5a5uu3.jpg)
 
 来源：https://vived.io/javascript-wrapped-2022-frontend-weekly-vol-119/
