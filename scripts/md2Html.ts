@@ -3,29 +3,6 @@ import { readFileSync, writeFileSync } from 'fs';
 import marked from 'marked';
 import { join } from 'path';
 import yParser from 'yargs-parser';
-// import prismjs from "prismjs";
-
-// const renderer = new marked.Renderer();
-// renderer.code = function(code, lang, escaped) {
-//   code = this.options.highlight(code, lang);
-//   if (!lang) {
-//     return `<pre><code>${code}</code></pre>`;
-//   }
-
-//   var langClass = "language-" + lang;
-//   return `<pre class="${langClass}"><code class="${langClass}">${code}</code></pre>`;
-// };
-
-// marked.setOptions({
-//   renderer,
-//   highlight: function(code, lang) {
-//     try {
-//       return prismjs.highlight(code, prismjs.languages[lang], lang);
-//     } catch {
-//       return code;
-//     }
-//   }
-// });
 
 function transform(file: string) {
   const content = readFileSync(join(__dirname, '../', file), 'utf-8');
