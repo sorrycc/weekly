@@ -1,5 +1,5 @@
 ---
-title: "TODO"
+title: "tRPC、Zod、慢 Jest、React Debounce、SSSVG"
 titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01ksliRh1fLT6xXEE4w_!!6000000003990-2-tps-1536-1024.png"
 titleImageCaption: "新年快乐兔，㊗️大家新年快乐"
 publishedAt: "2023/01/23"
@@ -29,12 +29,18 @@ draft: true
 ## Umi 和我
 > 关于 Umi 和我最近的进展。
 
-- 。
+- Umi 例行[每周四发一版](https://github.com/umijs/umi/releases)，我觉得有趣的功能包括，1）修复 qiankun 父子应用 core-js 可能冲突的问题，2）优化 create-umi，simple app 模板换成配置式路由，3）修复 hmr 时 process undefined 报错的问题。
+- 年前几天无心工作就做各种收尾，包括把拖了好久的 antd 官网[「项目实战」](https://ant.design/docs/react/practical-projects-cn)文档[更新到了 Umi 4](https://github.com/ant-design/ant-design/pull/40292)。
+- 新的一年准备写小册，于是[梳理了几个课程的介绍、受众、更新频率、收益和时效](https://t.me/yqtalk/141)等，大家可以给点建议我应该先写哪个。
+- 知识星球年终报告说我[一年写了 75W 字](https://t.me/yqtalk/142)，这肯定没有剔除代码块吧。
+- 用 Zerotier 把家里所有电脑和手机都连起来，回老家后也可以无缝连回家里的 NAS 和 Windows 电脑。
 
 ## 星球更新
 > 不知不觉我的知识星球已维护近一年，更了 240 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
 
-- 。
+- 249 - 《读书笔记：终身学习》
+- 248 - 《Flag 2023》
+- 247 - 《Zod 学习笔记》
 
 ## 每周一图
 
