@@ -103,7 +103,6 @@ function Main() {
   } = postQuery.data!;
 
   let html = md.render(content);
-  console.log('test', html);
   const sp = new URLSearchParams(location.search);
   if (sp.has('__mp')) {
     html =
@@ -111,7 +110,7 @@ function Main() {
 <p
   style="font-weight: bold; color: blue;"
 >
-  Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 ${numberStr} 期，发表于
+  ⚡ Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 ${numberStr} 期，发表于
   ${publishedAt}，将为您带来最新的资讯和分享。
 </p>
 <p>注意：本文带有大量链接，推荐点击「查看原文」在语雀上查看。</p>
