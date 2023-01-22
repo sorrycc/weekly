@@ -86,6 +86,7 @@ const Post = styled.div`
 
 const md = new MarkdownIt({
   linkify: true,
+  html: true,
 });
 
 function Main() {
@@ -102,6 +103,7 @@ function Main() {
   } = postQuery.data!;
 
   let html = md.render(content);
+  console.log('test', html);
   const sp = new URLSearchParams(location.search);
   if (sp.has('__mp')) {
     html =

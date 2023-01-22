@@ -1,10 +1,18 @@
 ---
 title: "tRPC、Zod、慢 Jest、React Debounce、SSSVG"
-titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01ksliRh1fLT6xXEE4w_!!6000000003990-2-tps-1536-1024.png"
-titleImageCaption: "新年快乐兔，㊗️大家新年快乐"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01GEitub1gygdrUnDsx_!!6000000004211-0-tps-7008-4672.jpg"
+titleImageCaption: "小娃放烟花，㊗️大家新的一年扬眉兔气、前兔似锦、大展宏兔"
 publishedAt: "2023/01/23"
 draft: true
 ---
+
+## 广告
+
+<strong>半年没做优惠活动了，新年给我的知识星球打个折，优惠 ￥100，史低，￥199 除了看已有的 240+ 日更，还有今年的 230+ 日更，时间截止到初七晚 24 点，限前 100 人，感兴趣的可以考虑入了。</strong>
+
+访问 q.sorrycc.com 了解更多。
+
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01BBwP1T1gQnKgTgzQW_!!6000000004137-2-tps-580-958.png" width="300" />
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
