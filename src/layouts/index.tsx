@@ -1,50 +1,59 @@
-import { Outlet, Link } from 'umi';
+import { Outlet, Link, useLocation } from 'umi';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  width: 1024px;
+const Wrapper = styled.div<{ isPost: boolean }>`
+  max-width: 65ch;
   margin: 0 auto;
 
   header {
-    display: flex;
-    height: 128px;
-    line-height: 128px;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     h1 {
-      flex: 1;
+      font-weight: bold;
+      font-size: ${(p) => (p.isPost ? '1rem' : '2.25rem')};
       a {
-        color: #282c34;
         text-decoration: none;
       }
     }
     nav {
-      ul {
-        display: flex;
-        li {
-          margin-left: 12px;
-          font-size: 20px;
-        }
+      margin-top: 1.4rem;
+      display: ${(p) => (p.isPost ? 'none' : 'flex')};
+      gap: 1rem;
+      a {
+        text-decoration: underline;
+        font-weight: bold;
       }
     }
+  }
+
+  footer {
+    text-align: center;
+    padding: 3rem 0;
+    color: rgb(107 114 128);
+    font-size: 0.875rem;
   }
 `;
 
 export default function Layout() {
+  const location = useLocation();
   return (
-    <Wrapper>
+    <Wrapper isPost={location.pathname.startsWith('/weekly/issue-')}>
       <header>
         <h1>
-          <Link to="/">MDH 前端周刊</Link>
+          <Link to="/">MDH Weekly</Link>
         </h1>
         <nav>
-          <ul>
-            <li>RSS</li>
-            <li>Github</li>
-          </ul>
+          <a href="/weekly">周刊</a>
+          <a href="https://q.sorrycc.com/">知识星球</a>
+          <a href="">投稿</a>
+          <a href="/rss">RSS</a>
+          <a href="https://github.com/sorrycc/weekly">Github</a>
         </nav>
       </header>
       <div>
         <Outlet />
       </div>
+      <footer>MDH Weekly since 2021</footer>
     </Wrapper>
   );
 }

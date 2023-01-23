@@ -31,14 +31,17 @@ const Wrapper = styled.div`
   main {
     flex: 1;
     h1 {
-      font-size: 32px;
+      font-size: 2.25rem;
+      line-height: 1.2;
+      padding-bottom: 1.5rem;
     }
     div.publishedAt {
       margin-top: 12px;
       color: #666;
+      font-style: italic;
     }
     div.titleImage {
-      margin-top: 24px;
+      margin-top: 2rem;
       img {
         width: 100%;
         vertical-align: middle;
@@ -52,7 +55,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const Post = styled.div`
+export const Post = styled.div`
   line-height: 1.6;
 
   a {
@@ -142,7 +145,7 @@ function Main() {
       <h1>
         第 {numberStr} 期：{title}
       </h1>
-      <div className="publishedAt">发布日期：{publishedAt}</div>
+      <div className="publishedAt">{publishedAt}</div>
       <div className="titleImage">
         <img src={titleImage} alt="headImg" />
       </div>
@@ -185,7 +188,6 @@ function Sidebar() {
 export default () => {
   return (
     <Wrapper>
-      <Sidebar />
       <Main />
     </Wrapper>
   );

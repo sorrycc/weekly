@@ -3,50 +3,28 @@ import { Link } from 'umi';
 import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
+// @ts-ignore
+import MarkdownIt from 'markdown-it';
+import { Post } from '@/pages/weekly/$issue';
 
-const PostsWrapper = styled.div`
-  h2 {
-    margin-bottom: 24px;
-  }
-  ul {
-    list-style: circle;
-    padding-left: 24px;
-  }
-  li {
-    height: 30px;
-    line-height: 30px;
-  }
-`;
-
-function Posts() {
-  const postsQuery = usePosts();
-  if (postsQuery.isLoading) {
-    return <div>Loading...</div>;
-  }
-
-  return (
-    <PostsWrapper>
-      <Helmet>
-        <title>MDH 前端周刊</title>
-      </Helmet>
-      <h2>往期周刊</h2>
-      <ul>
-        {postsQuery.data!.map((post) => (
-          <li key={post.numberStr}>
-            <Link to={`/weekly/issue-${post.numberStr}`}>
-              第 {post.numberStr} 期：{post.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </PostsWrapper>
-  );
-}
+const md = new MarkdownIt({
+  linkify: true,
+  html: true,
+});
+const content = require('@/mds/mdh-weekly-introduce.md');
+const html = md.render(content);
 
 export default function Page() {
   return (
     <div>
-      <Posts />
+      <Helmet>
+        <title>MDH 前端周刊</title>
+      </Helmet>
+      <Post
+        dangerouslySetInnerHTML={{
+          __html: html,
+        }}
+      />
     </div>
   );
 }
