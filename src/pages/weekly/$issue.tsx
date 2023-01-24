@@ -1,12 +1,11 @@
 import { useParams, Link } from 'umi';
-// @ts-ignore
-import MarkdownIt from 'markdown-it';
 import { usePost } from '@/hooks/usePost';
 import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import styled from 'styled-components';
 import clsx from 'clsx';
+import { renderMarkdown } from '@/utils/mdUtils';
 
 const Wrapper = styled.div`
   display: flex;
@@ -87,11 +86,6 @@ export const Post = styled.div`
   }
 `;
 
-const md = new MarkdownIt({
-  linkify: true,
-  html: true,
-});
-
 function Main() {
   const params = useParams();
   const postQuery = usePost(params.issue as string);
@@ -105,7 +99,7 @@ function Main() {
     titleImageCaption,
   } = postQuery.data!;
 
-  let html = md.render(content);
+  let html = renderMarkdown(content);
   const sp = new URLSearchParams(location.search);
   if (sp.has('__mp')) {
     html =
