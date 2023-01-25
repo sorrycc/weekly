@@ -1,10 +1,9 @@
-# MDH 前端周刊第 55 期：Mini Next.js、react-query 源码解析、Master Styles、Next.js Layouts
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2ppqcdmosj21hc0u0aez.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：modeze @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0055 期，发表于 2022/05/30。</p>
+---
+title: "Mini Next.js、react-query 源码解析、Master Styles、Next.js Layouts"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01jI0wBM1qQTD7GWlRE_!!6000000005490-0-tps-1920-1080.jpg"
+titleImageCaption: "modeze @ unsplash"
+publishedAt: "2022/05/30"
+---
 
 本周有这些内容想和你分享：
 
@@ -30,7 +29,7 @@ https://hire.jonasgalvez.com.br/2022/may/18/building-a-mini-next-js/
 ## react-query 源码解析
 https://alexkondov.com/reading-source-code-react-query/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2o0ydb0i8j216z0u0424.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01kXHay41zmId5nPlmP_!!6000000006756-0-tps-1547-1080.jpg)
 
 这篇文章的作者也是 Tao of React 的作者。巧的是，这周我也在翻 react-query 的源码。但是印象更深的是源码之外的，如上图，「写个流行库，然后卖个课，Wow！80000x119x6.7378=64143856」。
 
@@ -51,7 +50,7 @@ React Query 的源码组织上把 core 和 react 拆开。core 部分是框架�
 ## Master Styles
 https://styles.master.co/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2o1jvrxiyj21pg0u0q9r.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01p9qBqR1paiSGDvIhn_!!6000000005377-0-tps-2212-1080.jpg)
 
 首页做地很精美！也是吃自己的狗粮，用 Master Styles 实现的。
 
@@ -76,7 +75,7 @@ Master Styles 提供了另一种写样式的方法。这和 tailwind 有点像�
 ## Next.js Layouts
 https://nextjs.org/blog/layouts-rfc
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2o8d7bg2ej225u0u0mz6.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01RaAvWh1UpH74YWVTL_!!6000000002566-0-tps-2802-1080.jpg)
 
 Next.js 终于要支持 Layout 或者说是嵌套路由了，同时还做了相关的渲染优化，但感觉没啥新东西，该做的 Remix 都已经做过一遍了。
 
@@ -106,16 +105,3 @@ Data Mutation 是在路由上新增 action 配置，通过提供封装过的 For
 import { Form } from 'react-router-dom';
 <Form><button type="submit">GO</button></Form>
 ```
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

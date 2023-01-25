@@ -1,10 +1,9 @@
-# MDH 前端周刊第 64 期：Docusaurus 2、React Re-render 指南、避免屎山代码、独立 transform 属性、ugit
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h4yazdtdsnj21hc0u0qj8.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：dotzero @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0064 期，发表于 2022/08/08。</p>
+---
+title: "Docusaurus 2、React Re-render 指南、避免屎山代码、独立 transform 属性、ugit"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01phirsu1r7ypqy7hTi_!!6000000005585-0-tps-1920-1080.jpg"
+titleImageCaption: "dotzero @ unsplash"
+publishedAt: "2022/08/08"
+---
 
 本周有这些内容想和你分享：
 
@@ -17,7 +16,7 @@
 ## Docusaurus 2
 https://docusaurus.io/blog/2022/08/01/announcing-docusaurus-2.0
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4x7rlyfqij20l404g74r.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01oULWsW24I8cpPB5iU_!!6000000007367-0-tps-760-160.jpg)
 
 Docusaurus 是一个静态网站生成器，它可以帮助你在短时间内开发漂亮的文档网站。同时除文档之外，还可用于博客、知识库或 Landing Page。Prettier、Figma Developer、Supabase、StackBliz、Gulp、Tauri、Babel、React Native 等网站都基于 Docusaurus。
 
@@ -35,7 +34,7 @@ Docusaurus 2 带来了一些新能力，
 ## React Re-render 指南
 https://www.developerway.com/posts/react-re-renders-guide
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4y1b7se6ej21zs0q2wl9.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01peVMKE1WiWVO2rGVD_!!6000000002822-0-tps-2584-938.jpg)
 
 什么是 re-render？什么是必要的 re-render 和不必要的 re-render？如果你对这些问题还模模糊糊的，在这篇文章中可以找到答案。
 
@@ -63,7 +62,7 @@ https://www.danielsieger.com/blog/2022/07/25/your-code-doesnt-have-to-be-a-mess.
 ## 独立 transform 属性
 https://web.dev/css-individual-transform-properties/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4yau2yr7aj218g0dcdg3.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01Vf4Su11UvEGHZ4nkG_!!6000000002579-0-tps-1600-480.jpg)
 
 独立 transform 属性已在 Chrome 104、Safari 和 Firefox 已支持（Edge 暂不支持）。
 
@@ -90,7 +89,7 @@ https://web.dev/css-individual-transform-properties/
 ## ugit
 https://github.com/Bhupesh-V/ugit
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4y5ndcmayg21hc0sinpd.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN01HdF3xh1FJTNHZkwcB_!!6000000000466-1-tps-1920-1026.gif)
 
 git 界的 Command + Z，支持 19+ git 命令的撤销。
 
@@ -107,17 +106,4 @@ git 界的 Command + Z，支持 19+ git 命令的撤销。
 
 <p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>
+![](https://img.alicdn.com/imgextra/i3/O1CN01OL18Gq1NiDhRr1gSt_!!6000000001603-0-tps-1035-1395.jpg)

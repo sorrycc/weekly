@@ -1,10 +1,9 @@
-# MDH 前端周刊第 59 期：Umi 4、技术写作、Oh Shit Git、Defensive CSS、Taze
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h3dumfl6ftj218z0u0dij.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：stephenleo1982 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0059 期，发表于 2022/06/27。</p>
+---
+title: "Umi 4、技术写作、Oh Shit Git、Defensive CSS、Taze"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01gCwKvw1Qk05RMbF02_!!6000000002013-0-tps-1619-1080.jpg"
+titleImageCaption: "stephenleo1982 @ unsplash"
+publishedAt: "2022/06/27"
+---
 
 本周有这些内容想和你分享：
 
@@ -17,7 +16,7 @@
 ## Umi 4
 https://mp.weixin.qq.com/s/uLYTWgXoIEPPD-2xUntjEA
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h3eplnif5sj21bx0u0djo.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01ddsEcD1PQvzCrZwPr_!!6000000001836-0-tps-1725-1080.jpg)
 
 Umi 4 现在可以在 npm 上使用了！详见：umijs.org。
 
@@ -26,7 +25,7 @@ Umi 4 现在可以在 npm 上使用了！详见：umijs.org。
 ## 如何利用 Why、What、How 框架更好地写作
 https://eugeneyan.com/writing/writing-docs-why-what-how/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h3mkvadtwhj214u0lejub.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN014TVfAT1OfInM72d9D_!!6000000001732-0-tps-1470-770.jpg)
 
 做项目时，要写三种类型的文档，单页文档、设计文档和 Review 文档，见图1，分别是写于启动前、实施前和完成后。单页文档写给老板看，介绍问题、预期结果、建议的解决方案和其他高层次的点；设计文档程序员可以理解为 RFC，写给同行或下属看，包含方法论、系统设计、实验结果等；Review 文档用于 Review 成功和失败的点。
 
@@ -59,7 +58,7 @@ Git是很难的：搞砸了很容易，而找出如何解决你的错误是他�
 ## Defensive CSS
 https://defensivecss.dev/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h3mko354eoj21jk0qegne.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01DZA5B31UWUsMG8rYr_!!6000000002525-0-tps-2000-950.jpg)
 
 早在2021年12月，作者就写了一篇题为[防御性CSS](https://ishadeed.com/article/defensive-css/)的文章。作者想用一个术语来传达这样一个概念：编写的 CSS 可以防止意外的布局行为，或者至少可以减少这些行为。‌
 
@@ -68,20 +67,6 @@ https://defensivecss.dev/
 ## Taze
 https://github.com/antfu/taze
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h3mjy1yk3uj20so0wmaci.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01AY1zXw1yHmclTN5Bb_!!6000000006554-0-tps-1032-1174.jpg)
 
 一个让你的依赖保鲜的现代 cli 工具，支持定制、支持 monorepo。
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

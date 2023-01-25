@@ -1,10 +1,9 @@
-# MDH 前端周刊第 66 期：中国前端开发者、React Re-Renders、fetchpriority=high、Marta
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h578rg8lkmj21900u0ai3.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：kevin_w_ @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0066 期，发表于 2022/08/22。</p>
+---
+title: "中国前端开发者、React Re-Renders、fetchpriority=high、Marta"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01mgKVEO1oVqcvyUNOS_!!6000000005231-0-tps-1620-1080.jpg"
+titleImageCaption: "kevin_w_ @ unsplash"
+publishedAt: "2022/08/22"
+---
 
 本周有这些内容想和你分享：
 
@@ -37,12 +36,12 @@ https://www.joshwcomeau.com/react/why-react-re-renders/
 
 一个技巧是，借助 React Devtools Chrome 插件，在「设置 > Profiler」里开启「Record why each component rendered while profiling」，再通过录制的方式排查，就能知道每个 re-render 的原因。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5d41afnfjg21hc0u0b2c.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN01CZMeYN1vyQeey6xaB_!!6000000006241-1-tps-1920-1080.gif)
 
 ## fetchpriority=high
 https://addyosmani.com/blog/fetch-priority/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5d5chf9i6j21hc0u077r.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01UNfsoh1GM3DfpMJAm_!!6000000000607-0-tps-1920-1080.jpg)
 
 给 LCP（最大内容渲染）图片加上 `fetchpriority="high"` 可以让图片更快加载，Etsy 基于此让 LCP 速度提升 4%，还有其他站点能提升 20% 到 30%。除了图片，fetchpriority 还可作用于 CSS、字体、脚本 和 iframe。
 
@@ -53,7 +52,7 @@ fetchpriority 和 loading=eager 有啥区别？设置了 eager 的图片和 ifra
 ## Marta
 https://marta.sh/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5d4z3flnqj21cg0u078k.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01RPp66t1d4P7gDknSy_!!6000000003682-0-tps-1744-1080.jpg)
 
 Marta 是一个双窗格文件管理器。用了一周，感觉比原生 Finder 好用不少。大多数时候，你在工作中使用两个并排放置的目录面板。它允许你以快速和有效的方式进行基本的文件操作，如复制或移动文件，因为你可以看到源目录和目标目录，你可以直接复制或移动文件，而不是复制粘贴。
 
@@ -62,27 +61,13 @@ Marta 是以键盘为中心的：大多数操作是通过键盘完成的。所�
 ## TL 沟通
 https://addyosmani.com/blog/communication-tech-lead/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5eqcbu3dij21mk0swgp8.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN012CggOG1J4ayEOTAYw_!!6000000000975-0-tps-2108-1040.jpg)
 
 Addy Osmani 的新作，从 Simplify、Be concise and on point、Communicating with executives、Listen、Be proactive、Be thorough 和 Take notes 7 个维度介绍作为 TL 时如何高效沟通。
 
 ## 浏览器插件开发
 https://daily-dev-tips.com/tags/browser-extensions/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5eqh3e4alj21840hsgpb.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01tPza2T1yBpTSQNpg5_!!6000000006541-0-tps-1588-640.jpg)
 
 简短有用的一系列浏览器插件开发教程。
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

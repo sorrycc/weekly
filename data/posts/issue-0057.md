@@ -1,10 +1,9 @@
-# MDH 前端周刊第 57 期：DX 辐射圈、Npm 库不需要 Bundler、Rustpad、qnm、Plasmo
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h35mtb9l8bj21900u0tdx.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：lux17 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0057 期，发表于 2022/06/13。</p>
+---
+title: "DX 辐射圈、Npm 库不需要 Bundler、Rustpad、qnm、Plasmo"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01YQNfNk1hKDFs0Jit1_!!6000000004258-0-tps-1620-1080.jpg"
+titleImageCaption: "lux17 @ unsplash"
+publishedAt: "2022/06/13"
+---
 
 本周有这些内容想和你分享：
 
@@ -18,7 +17,7 @@
 ## DX 架构辐射圈
 https://dx.tips/circles
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h35fjpmhugj21110ecq48.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN0103c4ME1go9WwcnKbo_!!6000000004188-0-tps-1333-516.jpg)
 
 这张图是关于 DX（开发者体验）的辐射图，主要讲了三件事。
 
@@ -58,7 +57,7 @@ https://cmdcolin.github.io/posts/2022-05-27-youmaynotneedabundler
 ## Rustpad
 https://github.com/ekzhang/rustpad
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h35j6chodzj211t0lutcs.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01WTYUEs1NXECAmpm9N_!!6000000001579-0-tps-1361-786.jpg)
 
 Rustpad 是一个基于操作转换算法的高效和极简的开源协作式文本编辑器。它让用户在浏览器中写代码时进行实时协作。Rustpad 是完全自我托管的，适合放在一个小小的 Docker 镜像中，不需要数据库。
 
@@ -78,7 +77,7 @@ https://fev.al/posts/leet-code/
 ## qnm
 https://github.com/ranyitz/qnm
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h35kkosc0kg20sg0sg7jv.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN0121stg224VsVWnNQi7_!!6000000007397-1-tps-1024-1024.gif)
 
 当调试一个问题时，有时会需要检查 `node_modules` 目录下的模块的安装版本是什么。目前的解决方案，比如运行 `npm list`，不仅速度不够快，而且会打印出太多杂乱的信息。
 
@@ -87,7 +86,7 @@ qnm 可以快速获取这些信息，并试图只过滤出重要的部分，提�
 ## Plasmo
 https://github.com/PlasmoHQ/plasmo
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h35m0zour7g21ac0u0432.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01GamRsq1Sk7QAhpoAe_!!6000000002284-0-tps-1668-1080.jpg)
 
 Plasmo 是 Slogan 是浏览器扩展界的 Next.js。构建你的产品，不再担心配置文件和构建浏览器扩展的奇怪的特殊性。支持所有主流浏览器。
 
@@ -98,16 +97,3 @@ $ pnpm dlx plasmo init example-dir
 $ cd example-dir
 $ pnpm dev
 ```
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

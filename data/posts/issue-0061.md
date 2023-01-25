@@ -1,10 +1,9 @@
-# MDH 前端周刊第 61 期：Bun 公测、React 状态管理新浪潮、前端趋势 2022、Turborepo
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h42asi548sj218z0u0zmd.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：whatispictureperfect @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0061 期，发表于 2022/07/11。</p>
+---
+title: "Bun 公测、React 状态管理新浪潮、前端趋势 2022、Turborepo"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01ATJTdU1TBbBb62XE1_!!6000000002344-0-tps-1619-1080.jpg"
+titleImageCaption: "whatispictureperfect @ unsplash"
+publishedAt: "2022/07/11"
+---
 
 本周有这些内容想和你分享：
 
@@ -17,14 +16,14 @@
 ## Bun 公测
 https://bun.sh/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h425sgz1t1j20qq0ku3zr.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01O7Y3cJ1lk66Zn8wCZ_!!6000000004856-0-tps-962-750.jpg)
 
 随着 Bun 的发布，算是凑齐了 JavaScript 三剑客：Node、Deno 和 Bun。Bun 的官方定义是「Bun is a fast all-in-one JavaScript runtime」。Fast、All-in-one 和 JavaScript Runtime。
 
 ## React 状态管理新浪潮
 https://frontendmastery.com/posts/the-new-wave-of-react-state-management/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h427bsa3k4j218q0p677z.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01XiOAKJ1FKOAMvX5eu_!!6000000000468-0-tps-1610-906.jpg)
 
 这篇文章分析了全局状态库需要解的问题，以及梳理现代流行库对于这些问题的解法。
 
@@ -46,7 +45,7 @@ https://juejin.cn/post/7117208851945881613
 ## Turborepo 两大特性
 https://www.maxpou.fr/turborepo
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h427xeo3wtj20ws0nxwga.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01Pepngr25ZN8xoW7UJ_!!6000000007540-0-tps-1180-861.jpg)
 
 Turborepo 两大特性。1）Pipeline，解决任务依赖问题，尽可能并行和前置执行，2）缓存和远端缓存。
 
@@ -54,18 +53,3 @@ Turborepo 两大特性。1）Pipeline，解决任务依赖问题，尽可能并�
 https://github.com/Brooooooklyn/canvas
 
 0 依赖的 node canvas 库。
-
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

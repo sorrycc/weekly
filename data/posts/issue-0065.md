@@ -1,10 +1,9 @@
-# MDH 前端周刊第 65 期：Suspense、React Query 转 RTK、NodeParty、gum
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h56okbmqymj21e60u0wgb.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：vheath @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0065 期，发表于 2022/08/15。</p>
+---
+title: "Suspense、React Query 转 RTK、NodeParty、gum"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01iPqjP21XCke2ilkwF_!!6000000002888-0-tps-1806-1080.jpg"
+titleImageCaption: "vheath @ unsplash"
+publishedAt: "2022/08/15"
+---
 
 本周有这些内容想和你分享：
 
@@ -33,7 +32,7 @@ React 下一步做什么？1）Cache 组件，允许请求库做与 Suspense + �
 ## React Query 转 RTK
 https://www.basedash.com/blog/why-we-had-to-move-away-from-react-query
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h559hji89uj20xc0pjgov.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01GUj4WD1WSx2ap0B6v_!!6000000002788-0-tps-1200-919.jpg)
 
 本文是作者和 React Query 斗争了一年之后，最终弃 React Query 投 RTK 的故事。
 
@@ -46,14 +45,14 @@ React Query 处理了复杂的缓存，并根据需要重新加载数据。用�
 ## NodeParty
 https://www.yuque.com/antfe/featured/gi7ker
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5527w92u4j210l0kk75m.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01PyOEfR1UFYDhMM2MW_!!6000000002488-0-tps-1317-740.jpg)
 
 支付宝体验科技举办的 NodeParty 已于 8 月 8 日 在线直播。本次 NodeParty 上，CNCF OpenTelemetry 维护者， Node.js、 V8 贡献者吞吞、蚂蚁集团 Node.js 工程师零弌、蚂蚁集团 Node.js 工程师天玎、蚂蚁集团 Node.js 基建负责人天猪、字节跳动 Node.js 基建负责人段潇涵、蚂蚁集团 Node.js 工程师一君多位 Node.js 领域专家带来了 4 个主题分享。
 
 ## gum
 https://github.com/charmbracelet/gum
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h4zekkoevxg20xc0go78z.gif)
+![](https://img.alicdn.com/imgextra/i2/O1CN01upQnFQ1CpaIRM3lHO_!!6000000000130-1-tps-1200-600.gif)
 
 迷人的 shell 脚本工具库，基于 go。
 
@@ -67,28 +66,14 @@ $ gum spin --spinner dot --title "Buying Bubble Gum..." -- sleep 5
 ## cmdk
 https://github.com/pacocoursey/cmdk
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4zqlo4el3j20xc0hidgr.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01bJZ1wD1JoOZlNkfbY_!!6000000001075-0-tps-1200-630.jpg)
 
 ⌘K 是一个命令菜单 React 组件，也可以作为可访问的组合框使用。你渲染 items，它会负责自动过滤和排序。⌘K 支持完全可组合的 API，所以你可以将项目包装在其他组件中，甚至作为静态 JSX。
 
 ## Fluent Emoji
 https://github.com/microsoft/fluentui-emoji
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h552x8pvk0j21d10m8tdd.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01ilkx8F1cvhb34c0Dj_!!6000000003663-0-tps-1765-800.jpg)
 
 Fluent Emoji 是微软提供的熟悉、友好和现代的表情符号集合。黏土风。
 
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 53 期：Markdoc、Module Federation 提速、Umi Client Loader、Solidjs 1.4
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h296t9h7inj21c60u0aas.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：acharki95 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0053 期，发表于 2022/05/16。</p>
+---
+title: "Markdoc、Module Federation 提速、Umi Client Loader、Solidjs 1.4"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01tlDBWP264yTQY2ZtI_!!6000000007609-0-tps-1734-1080.jpg"
+titleImageCaption: "acharki95 @ unsplash"
+publishedAt: "2022/05/16"
+---
 
 本周有这些内容想和你分享：
 
@@ -16,7 +15,7 @@
 ## Markdoc
 https://github.com/markdoc/markdoc
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27pjsa486j21c60m441n.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01HR1rMA1NDXAGp12rG_!!6000000001536-0-tps-1734-796.jpg)
 
 Markdoc 是 Stripe 刚出的文档工具，吸引了不少眼球。他和其他文档工具不同，引入了一种新的 markdown 方言（编写方式），同时可以和任意语言结合使用，目前内置实现了 react 和 html。
 
@@ -42,7 +41,7 @@ Umi is yet another React Framework.
 ## Module Federation 提速
 https://nx.dev/module-federation/faster-builds
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27x7oowcyj20mq0bgt91.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01fewGaT1SohNpdes7X_!!6000000002294-0-tps-818-412.jpg)
 
 Nx 14 起支持利用 Module Federation 提速，和 Umi 的 MFSU 类似，都是基于 Module Federation，但思路不同，粒度也不同。
 
@@ -62,7 +61,7 @@ $ nx serve host —open
 ## Umi Client Loader
 https://next.umijs.org/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h280nw2zrog21hc0u0x6q.gif)
+![](https://img.alicdn.com/imgextra/i2/O1CN01yzmUwd2AJPQ22MXZT_!!6000000008182-1-tps-1920-1080.gif)
 
 如上图，这是 Umi 4 的 Client Loader 特性。
 
@@ -71,7 +70,7 @@ https://next.umijs.org/
 ## Solidjs 1.4
 https://github.com/solidjs/solid/releases/tag/v1.4.0
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h290f9yraog20cb04zab2.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01xIfqsS1adGQEc6sUw_!!6000000003352-1-tps-443-179.gif)
 
 Solidjs 关注一段时间了，属于「叫好不叫座」类的框架。但其 1.4 引入的几个特性也还是挺亮的。
 
@@ -96,16 +95,3 @@ resource()
 // 读取最新的值（有值之后不挂起）
 resource.latest
 ```
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

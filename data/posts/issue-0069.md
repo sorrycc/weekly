@@ -1,10 +1,9 @@
-# MDH 前端周刊第 69 期：10x 工程师、别用默认导出、Preact Signals、CSR 最佳实践
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h61lmeh3mvj21hc0shaar.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：countchris @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0069 期，发表于 2022/09/12。</p>
+---
+title: "10x 工程师、别用默认导出、Preact Signals、CSR 最佳实践"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01r0mTHA26MNWJE0nCx_!!6000000007647-0-tps-1920-1025.jpg"
+titleImageCaption: "countchris @ unsplash"
+publishedAt: "2022/09/12"
+---
 
 本周有这些内容想和你分享：
 
@@ -36,7 +35,7 @@
 ## 人手 10x 工程师
 https://typeofnan.dev/10x-engineering-for-the-rest-of-us/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h60pyjbue2j20in0ac756.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01VefPti1kYMKreNBhT_!!6000000004695-0-tps-671-372.jpg)
 
 你是不是以为一辈子也不可能成为传说中的 10x 工程师？不，你可以的！
 
@@ -47,7 +46,7 @@ https://typeofnan.dev/10x-engineering-for-the-rest-of-us/
 ## 别用默认导出
 https://www.lloydatkinson.net/posts/2022/default-exports-in-javascript-modules-are-terrible/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h60qvl80jjj21900u079q.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01TStazS1HiK5z1oZPk_!!6000000000791-0-tps-1620-1080.jpg)
 
 ESM 模块系统中有两种导出方式，默认导出和具名导出。
 
@@ -74,7 +73,7 @@ export default subtract = (a, b) => a - b;
 ## Preact Signals
 https://preactjs.com/blog/introducing-signals/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h61jp0xt5mj213m0u0q8g.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01y1pEN11gWkTx82pIN_!!6000000004150-0-tps-1426-1080.jpg)
 
 Preact Signal 是啥？1）Preact 框架官方据流方案，2）拥有 .value 属性的对象，3）值更新时，访问 Signal 值的组件会自动更新，4）可以在组件内或组件外使用，5）仅 1.6kB，6）Signal 值变更时 Signal 保持不变（类似 ref），所以可以跳过 Virtual DOM Diffing，从而避免中间经过组件的渲染，参考上图，右边是基于 Signal。
 
@@ -128,7 +127,7 @@ optimization: {
 
 4、预加载异步 Chunk。主要避免出现下图中最后一个资源文件的瀑布流现象，思路是生成和路由对应的 assets 表，然后在 HTML 最前面加入「匹配路由生成 link preload 标签」的脚本。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h61avjt0zlj20yz0633z8.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01XQ5ua71Y4nNom00Rj_!!6000000003006-0-tps-1259-219.jpg)
 
 5、生成静态数据。在 build 阶段从 CMD 或服务器上把数据拉下来，存成 json 或其他格式，用户请求时就只需从本地读取即可，访问本地或就近的 CDN 肯定比访问远程服务器更快。如果要重新生成数据，重新跑 build 或者重新执行脚本就好。
 
@@ -182,34 +181,21 @@ if (navigator.userAgent.includes('Prerender')) sheet.speedy(false);
 ## SWR vs. TanStack Query
 https://blog.logrocket.com/swr-vs-tanstack-query-react/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h61kgvpk4zj20u01bjjyn.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN013ozrb124j9zPqFaso_!!6000000007426-0-tps-1080-1711.jpg)
 
 作者分别用 SWR 和 TanStack Query 库创建了一个 React 应用示例，然后根据 DX 和功能对它们进行了比较，详见上图。
 
 ## Monocraft
 https://github.com/IdreesInc/Monocraft
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5zc7vpivvj21780p4q65.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01GvFpVm1XDfRFpzUij_!!6000000002890-0-tps-1556-904.jpg)
 
 一款模拟 Minecraft UI 的字体，非官方。
 
 ## JavaScript 时间线
 https://blog.risingstack.com/history-of-javascript-on-a-timeline/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h61km61ul0j21pi0u0jue.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01dT6It11oFolSYEp92_!!6000000005196-0-tps-2214-1080.jpg)
 
 如果你对 JavaScript 历史感兴趣，这篇应该是非常全面了。
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

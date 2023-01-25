@@ -1,10 +1,9 @@
-# MDH 前端周刊第 68 期：: vs. ::、SSR 流式渲染、React 新手陷阱、Error Boundary
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h5tfsxzgp4j21930u0tbw.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：nasa @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0068 期，发表于 2022/09/05。</p>
+---
+title: ": vs. ::、SSR 流式渲染、React 新手陷阱、Error Boundary"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01pHa8cu26xTbSfCplB_!!6000000007728-0-tps-1623-1080.jpg"
+titleImageCaption: "nasa @ unsplash"
+publishedAt: "2022/09/05"
+---
 
 本周有这些内容想和你分享：
 
@@ -85,14 +84,14 @@ Suspense 识别 Data Fetching 的 loading 状态是基于 read 方法的返回�
 ## useMemo + useCallback
 https://www.joshwcomeau.com/react/usememo-and-usecallback/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5t6lre0kpj21g60i4ta5.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01IDmUdN1vntXsmq0Va_!!6000000006218-0-tps-1878-652.jpg)
 
 这是一篇很好的 useMemo 和 useCallback 入门文章，但没有引入啥新知识，我就不展开了，感兴趣的可自行阅读。
 
 ## 10 个 React 新手陷阱
 https://medium.com/@imranfarooq0306/10-react-traps-to-avoid-as-react-developer-5570808e346b
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5t6tsgwldj212w0ncwhc.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01DQiZVL1XuGGwD54Fl_!!6000000002983-0-tps-1400-840.jpg)
 
 React 是 unopinionated 的，同样的问题会存在许多不同的解法，这给开发者留下了大量的空间来用自己愚蠢的想法把事情搞砸。在今天的文章中，我们将看看 React 中的 10 个陷阱（反模式），以及改进我们代码的技巧和窍门，同时也可以为前端技术面试做准备。
 
@@ -115,7 +114,7 @@ React 是 unopinionated 的，同样的问题会存在许多不同的解法，�
 ## Error Boundary 指南
 https://meticulous.ai/blog/react-error-boundaries-complete-guide/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5t9n3tlr9j21kr0u03zw.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01usjRiv1QCZAvSruf9_!!6000000001940-0-tps-2043-1080.jpg)
 
 虽然理想情况下是在生产之前捕获错误，但有些错误是会躲过测试的，比如网络错误，而如果没有正确处理，这些错误会导致 React 声明周期崩溃，导致白屏，并最终影响你的用户。正确的方式是提供适当的视觉反馈和潜在的行动指引（例如：重试机制）来优雅的处理这些错误。
 
@@ -179,7 +178,7 @@ https://github.com/frehner/modern-guide-to-packaging-js-library
 ## 禁用 Cookie 后会怎样
 https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5tdxa5x3kj20xx0qg76k.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01RxksTO27O2ZoU2zpV_!!6000000007786-0-tps-1221-952.jpg)
 
 会报错！
 
@@ -227,16 +226,3 @@ webkitRequestFileSystem(
 
 解法很简单也很粗暴，就是加 `try…catch`。
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

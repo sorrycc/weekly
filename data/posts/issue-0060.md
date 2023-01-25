@@ -1,10 +1,9 @@
-# MDH 前端周刊第 60 期：Fresh 1、SPA、框架流行度、1X 工程师、Father 4 RC
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h3u6l02z45j21910u0gpx.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：stephenleo1982 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0060 期，发表于 2022/07/04。</p>
+---
+title: "Fresh 1、SPA、框架流行度、1X 工程师、Father 4 RC"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01EkcYkp1ftMQ3H65FW_!!6000000004064-0-tps-1621-1080.jpg"
+titleImageCaption: "stephenleo1982 @ unsplash"
+publishedAt: "2022/07/04"
+---
 
 本周有这些内容想和你分享：
 
@@ -19,7 +18,7 @@
 ## Fresh 1.0
 https://deno.com/blog/fresh-is-stable
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sgdw9c9gj20650560sl.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN017MTDaf1bFjgu076pi_!!6000000003436-0-tps-221-186.jpg)
 
 Fresh 发布 1.0 了，比想象中快，感觉 RC 才没多久。
 
@@ -28,7 +27,7 @@ Fresh 使用了一种不同的模式：在这种模式下，你默认向客户�
 ## 逃离 SPA
 https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sgujt55aj21e20l87b5.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01nCGIIP1vx3Ss2rarM_!!6000000006238-0-tps-1802-764.jpg)
 
 SPA 已有 10 年的历史，现在回头再看，他是否还是那么酷😎？随着 Astro、Qwik 和 Elder.js 这样的新框架出现，他们基于 MPA，默认 0JS，这让 SPA 的统治地位似乎正在慢慢被撼动。
 
@@ -41,7 +40,7 @@ SPA 已有 10 年的历史，现在回头再看，他是否还是那么酷😎�
 ## 框架流行度
 https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3srkc5184j218g0sydjs.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01MK9eM81g6duA7UcUt_!!6000000004093-0-tps-1600-1042.jpg)
 
 从作者的图上看，「React 一骑绝尘，Vue 已开始走下坡」。
 
@@ -53,22 +52,22 @@ https://1x.engineer/
 ## Remix 数据流
 https://remix.run/blog/remix-data-flow
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3smrnskf5j217c0u0dh7.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01NTNPSM1WaHNQ2oWPj_!!6000000002804-0-tps-1560-1080.jpg)
 
 React 第一次和大家见面时，最引人注目的特点之一是他的「单向数据流」。这在官方文档 [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) 里仍有介绍。用一句话概况即：UI 是状态的函数，或者叫 `ui=fn(state)`。
 
 而后有不少遵从这种思想的数据流方案，比如 Redux、MobX 等，`以` View -> Action -> State 这种循环的单向数据流方式进行。他们的缺点是这个数据流只在客户端运转，而一个应用通常还需要持久化数据和同步数据，这意味着还要有另一条数据流来和服务端做交互。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sqbf8y8zj21e00p0wfm.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN019aRn6F1SPVbJsdnyJ_!!6000000002239-0-tps-1800-900.jpg)
 
 那有没有贯穿服务端和客户端的单向数据流？Remix！哈哈。Remix 将这一理念延伸到持久化数据的 API 层，通过 Loader 和 Action 把数据流串了起来，形成 Loader > Component > Action 的单向数据流。所以在 Remix 中，开发者也无需使用 Redux 等其他数据流方案。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sqh2guogj21400u0wht.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01zEBD7a1MnsyyVVTwB_!!6000000001480-0-tps-1440-1080.jpg)
 
 ## Father 4 RC
 https://zhuanlan.zhihu.com/p/535698336
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sqiphwp0j20y20h1myc.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01Yh805k1cn04bqsyKF_!!6000000003644-0-tps-1226-613.jpg)
 
 father 是面向 npm 库研发的工具，这周会发了 4 的 rc。虽然全程参与了设计，但源码是由 dumi 作者辟起操刀的。
 
@@ -85,7 +84,7 @@ father 4 有啥卖点？
 ## ES2022
 https://2ality.com/2022/06/ecmascript-2022.html
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3sr5vmzq0j20rs0bogm0.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01vGw6wJ2AH7RCxY7F6_!!6000000008177-0-tps-1000-420.jpg)
 
 趁着 ES2022 正式发布，再来学习一遍新特性。
 
@@ -101,15 +100,3 @@ https://2ality.com/2022/06/ecmascript-2022.html
 
 6、class private slots。可以通过 `#` 前缀声明成员为私有，比如 `class Foo { #bar = 1; static #hoo = 2; }`
 
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

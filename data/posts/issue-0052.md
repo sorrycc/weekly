@@ -1,10 +1,9 @@
-# MDH 前端周刊第 52 期：你不需要 UI 框架、useEvent、useTilg、wireit
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h218k5bjucj21990u042w.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：tents_and_tread @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0052 期，发表于 2022/05/09。</p>
+---
+title: "你不需要 UI 框架、useEvent、useTilg、wireit"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01ekUd1C1sDJ3Z8X6Lc_!!6000000005732-0-tps-1629-1080.jpg"
+titleImageCaption: "tents_and_tread @ unsplash"
+publishedAt: "2022/05/09"
+---
 
 本期主要内容有这些：
 
@@ -50,14 +49,14 @@ function useEvent(handler) {
 ## useTilg
 https://github.com/shuding/tilg
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h20zk0xwfej21040dw3z9.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01LdI4Qx1F3RVot6Z3z_!!6000000000431-0-tps-1300-500.jpg)
 
 React 组件调试用的 hooks 工具，可记录谁在哪里为什么更新。实现上用 `React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner.current` 拿到 name 和 id，用 new Error 的堆栈拿到 path 和 logPath 信息，然后利用 useEffect 和 useLayoutEffect 在不用阶段 log 信息。
 
 ## wireit
 https://github.com/google/wireit
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2151m0hkgj208c02b0sn.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01XRb1mA1D59lFfnyrI_!!6000000000164-0-tps-300-83.jpg)
 
 google 出的 npm script 增强工具，和 zx 一样有给人眼前一亮的感觉。相比竞品 turborepo、nx、chomp 和 bazel，wireit 的优点包括是，
 
@@ -80,16 +79,3 @@ https://blog.bitsrc.io/frequently-asked-questions-react-7d54078e58a7
 6、什么是闭包陷阱？
 7、如何做 props 的类型校验？
 8、什么是严格模式？
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

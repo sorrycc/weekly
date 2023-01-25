@@ -1,10 +1,9 @@
-# MDH 前端周刊第 62 期：前端架构、Vite 3、CSS Variables 2、最伟大的程序员
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h48vnuqhfsj20sg0g0gna.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：https://www.barrywebbimages.co.uk/Images/Macro/Slime-Moulds-Myxomycetes/。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0062 期，发表于 2022/07/18。</p>
+---
+title: "前端架构、Vite 3、CSS Variables 2、最伟大的程序员"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN011BHMk31bycVKxI5Xv_!!6000000003534-0-tps-1024-576.jpg"
+titleImageCaption: "https://www.barrywebbimages.co.uk/Images/Macro/Slime-Moulds-Myxomycetes/"
+publishedAt: "2022/07/18"
+---
 
 本周有这些内容想和你分享：
 
@@ -19,7 +18,7 @@
 ## 构建面向未来的前端架构
 https://frontendmastery.com/posts/building-future-facing-frontend-architectures/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h46g97c5jyj21ss0ry77i.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN013SKepG1xG7ZNMKZaq_!!6000000006415-0-tps-2332-1006.jpg)
 
 本文是关于前端架构的组件部分。如果有写过组件，可能都有遇到随着业务迭代而快速增加复杂度，最终写出臃肿不堪难以维护的组件。为啥别人写的代码简洁易懂？缺的是经验吗？不是，缺的是方法论。我觉得此方法同样适用非组件场景。
 
@@ -49,7 +48,7 @@ https://frontendmastery.com/posts/building-future-facing-frontend-architectures/
 ## Vite 3
 https://vitejs.dev/blog/announcing-vite3.html
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h46g9omfoij21o00u0q67.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01SqlaBt1ePIoOHVtZd_!!6000000003863-0-tps-2160-1080.jpg)
 
 Vite 发展好快。周 npm 下载量超 100 万次（虽然和 webpack 的 2100 万+ 还是差不少）。今年开始有大量框架基于 Vite，包括 Nuxt 3、SvelteKit、Astro、Hydrogen、SolidStart 和 Laravel，还有 [Vite Ruby](https://vite-ruby.netlify.app/)，Storybook 也有[基于 Vite 的 Builder](https://github.com/storybookjs/builder-vite)。vitejs.dev 新文档基于 VitePress。
 
@@ -75,7 +74,7 @@ Vite 发展好快。周 npm 下载量超 100 万次（虽然和 webpack 的 2100
 ## CSS Variables 2
 https://www.bram.us/2022/07/08/the-future-of-css-variable-units-powered-by-custom-properties/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h46g9zve3yj20v40m9758.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN019MZ3rO1zOU22NBHpj_!!6000000006704-0-tps-1120-801.jpg)
 
 最近，CSS Working Group 已批准开始 `css-variables-2` 规范的工作，第一个计划增加的是对于「自定义单位」的支持。
 
@@ -120,7 +119,7 @@ elem {
 ## 最伟大的程序员
 https://swizec.com/blog/what-makes-a-great-software-engineer/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h48lb5r4w8j210m0f4djb.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01Occxq11vLxNzVGEUG_!!6000000006157-0-tps-1318-544.jpg)
 
 公司想要雇佣和留住优秀的工程师，大学想要培养优秀的工程师，而年轻的工程师想要成为优秀的工程师。但是，关于什么是优秀的工程师，却没有一个好的定义。
 
@@ -151,18 +150,3 @@ if (import.meta.url.startsWith('file:')) {
   }
 }
 ```
-
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

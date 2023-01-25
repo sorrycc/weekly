@@ -1,10 +1,9 @@
-# MDH 前端周刊第 63 期：迁移最佳实践、程序员成长路径、Story 7 新设计、React Query 4
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h4p5n3gbrvj21c40u07d5.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：seefromthesky @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0063 期，发表于 2022/08/01。</p>
+---
+title: "迁移最佳实践、程序员成长路径、Story 7 新设计、React Query 4"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01aXjeGH1nOgp3LhHu2_!!6000000005080-0-tps-1732-1080.jpg"
+titleImageCaption: "seefromthesky @ unsplash"
+publishedAt: "2022/08/01"
+---
 
 本周有这些内容想和你分享：
 
@@ -29,14 +28,14 @@ https://frontendmastery.com/posts/frontend-migration-guide/
 ## 构建你自己的框架
 https://vercel.com/blog/build-your-own-web-framework
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4oujtjordj21430qhabg.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01KNnlAk1JBSuUqn7Ja_!!6000000000990-0-tps-1443-953.jpg)
 
 基于 Vercel 提供的能力和新的 Build Output API，可以轻松构建你自己的 Web 框架，部署到 Edge 和 Serverless 服务上，支持静态文件、ISR（增量静态文件生成）、Edge 函数、Serverless 函数、自动图片优化、Edge 缓存等。
 
 ## 程序员成长路径
 http://www.engineeringladders.com/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4ozsubgz3j20ku0gwab6.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN014QV18U1sgcP0a3Vve_!!6000000005796-0-tps-750-608.jpg)
 
 主要是上面这张雷达图，包含技术、系统、人、过程、影响力五个维度，不同的岗位角色和职级对能力雷达有不同要求。角色包含开发者、Tech Lead、Technical Program Manager 和 Engineering Manager，参考的是美国科技行业的角色和层级，也可以对标国内大厂的 Job Model。大家可以找找自己所在的位置和考虑之后的成长方向。
 
@@ -57,7 +56,7 @@ https://blog.logrocket.com/advanced-guide-css-has-selector/
 
 `:has` 是 Level 4 选择器，关系型伪类，是用于检查一个元素是否包含某些子元素，将在 Chrome 105 上完全支持，预计其他浏览器也会跟上，Chrome 101 到 104 可在 chrome://flags 里手动开启「Experimental Web Platform features」支持。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4ow1szbu1j20jx0820t2.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01KctL6l1KijIOoYWsP_!!6000000001198-0-tps-717-290.jpg)
 
 ```css
 .selector:has(#id) {}
@@ -72,7 +71,7 @@ https://blog.logrocket.com/advanced-guide-css-has-selector/
 ## Storybook 7 新设计
 https://storybook.js.org/blog/storybook-7-0-design-sneak-peek/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h4p1lu7kmpj21qi0u00wf.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01i2wVFc1XjjA53Q9fT_!!6000000002960-0-tps-2250-1080.jpg)
 
 Storybook 7 还在开发中，新的设计有更大的布局，重新组织的工具栏，更新的图标集，完善的表格元素，已经性能提升。其性能提升的点是针对 Storybook 的 Manager 做预打包，随着工具一起发布，这样启动 Storybook 时就需要做这部分的打包。
 
@@ -82,18 +81,3 @@ https://tanstack.com/blog/announcing-tanstack-query-v4
 React Query 更名为 Tan Query，除了 React，还支持 Vue、Svelte 和 Solid 框架。实现上基于独立的 core，然后分别为不同框架开发特定的框架适配器，让不同框架共享 Tan Query 的 core 逻辑。
 
 V4 变更包括。1）定位变更为「异步状态管理器」，支持任意 Promise；2）完善持久化能力，提供 SyncStoragePersister 和 AsyncStoragePersister 两个接口；3）支持 React 18，使用 useSyncExternalStore 重写 store 绑定逻辑；4）默认做 Queries 跟踪，对于渲染性能有很大提升；5）精简 API。
-
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

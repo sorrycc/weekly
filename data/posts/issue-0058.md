@@ -1,10 +1,9 @@
-# MDH 前端周刊第 58 期：软技能、Moon、tauri 1、Fresh、DX、组件库
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h3dtwfb6vqj215z0u0qaw.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：pizbern @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0058 期，发表于 2022/06/20。</p>
+---
+title: "软技能、Moon、tauri 1、Fresh、DX、组件库"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01Mi8GEL1KIAK9oo145_!!6000000001140-0-tps-1511-1080.jpg"
+titleImageCaption: "pizbern @ unsplash"
+publishedAt: "2022/06/20"
+---
 
 本周有这些内容想和你分享：
 
@@ -20,14 +19,14 @@
 ## 软件工程之软技能
 https://addyosmani.com/blog/software-engineering-soft-parts/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dibrlc8oj21f70u0god.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01IoiinF1HMnTvF9Zgs_!!6000000000744-0-tps-1843-1080.jpg)
 
 Google 工程师 Addy Osmani 的一篇万字长文，分享他从在谷歌浏览器的第一个 10 年中所学到软件工程软技能，这些都是作者记忆犹新的一些教训。我读完一遍之后有不少收获，推荐反复阅读。
 
 ## Moon
 https://moonrepo.dev/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dcj4lesng20m809yawp.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01KbIny91ed2gw8C5Ts_!!6000000003893-1-tps-800-358.gif)
 
 moon 是一个用 Rust 编写的用于基于 JavaScript 项目的版本库管理、组织、编排和通知工具。Moon 中的许多概念在很大程度上受到 Bazel 和其他流行的构建系统的启 发，但为 JavaScript 生态系统量身定做。
 
@@ -36,7 +35,7 @@ moon 是一个用 Rust 编写的用于基于 JavaScript 项目的版本库管理
 ## tauri 1
 https://tauri.app/v1/guides/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dljrnhecj20y80dimyf.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01bqvkKc1NBFBUR6jDa_!!6000000001531-0-tps-1232-486.jpg)
 
 tauri 是基于 web 和轻量级的 rust 后端构建桌面应用的工具包。
 
@@ -47,7 +46,7 @@ JavaScript 开发者过去十年一直在尝试建立跨平台应用的完美方
 ## Fresh
 https://fresh.deno.dev/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h3dra7j3cxg20d20kudpg.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01KG4nDb1DJM2alEsry_!!6000000000195-1-tps-470-750.gif)
 
 @denoland core team 出的框架，类 next.js 的文件系统路由、无构建步骤、TypeScript 开箱即用等。
 
@@ -97,17 +96,3 @@ https://coder-mike.com/blog/2022/06/11/microvium-is-very-small/
 https://www.gabe.pizza/notes-on-component-libraries/
 
 作者是 [DigitalOcean](https://www.digitalocean.com/) UI 基础设施团队成员，负责维护内部组件库 Walrus。本文是作者对维护一个组件库的想法，保留大量软件工程和 social 挑战方面的。
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

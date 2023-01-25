@@ -1,10 +1,9 @@
-# MDH 前端周刊第 56 期：Motion 库对比、编码 10X 提效、React 项目结构、Monorepo
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2xruif5l0j21900u0jwy.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：carltraw @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0056 期，发表于 2022/06/06。</p>
+---
+title: "Motion 库对比、编码 10X 提效、React 项目结构、Monorepo"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN0122KD0c1QxHZjH9GfW_!!6000000002042-0-tps-1620-1080.jpg"
+titleImageCaption: "carltraw @ unsplash"
+publishedAt: "2022/06/06"
+---
 
 本周有这些内容想和你分享：
 
@@ -58,7 +57,7 @@ https://www.developerway.com/posts/react-project-structure
 
 先做分解，分解是让 React 应用可扩展的基石。别把项目看成是单一的项目，而是把他看成是一个个独立黑盒功能的组合，各自有自己的 API 供消费者使用。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2xqprnhq0j21eq0hw0uc.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01cmpdlw1njl2hh2ynR_!!6000000005126-0-tps-1826-644.jpg)
 
 然后使用 Monorepo 架构，把功能提取到子包中，以最适合你的项目的方式来组织你的包。
 
@@ -102,7 +101,7 @@ Monorepo 中依赖管理是个复杂的话题，但基于 yarn/pnpm 等工具却
 ## Histoire
 https://github.com/histoire-dev/histoire
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2xh5wlusrj20z20g6wf4.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN011wnUbh1UvEGLLJvfB_!!6000000002579-0-tps-1262-582.jpg)
 
 一个交互式组件 Playground 的库，类 storybook，但目前仅支持 vue。
 
@@ -145,43 +144,8 @@ https://dev.to/babib/7-shocking-html-tips-you-probably-dont-know-about-ggd
 ## OurMetaverse
 https://github.com/ourmetaverse/our-metaverse
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2q8h9pfj0j21m30u0gs0.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN017anyx51c6PEseqtPT_!!6000000003551-0-tps-2091-1080.jpg)
 
 OurMetaverse 以科幻小说《我们的元宇宙·开端》为起点，是 Web3 创作者经济的一次大胆尝试。通过定义了 ERC721M 支持了未来整个作品集的著作权管理以及对应权益分成，拥有 NFT 就拥有了未来 IP 发展的持续收益。项目官网基于 umi 开发，是一个纯前端的 DApp，[官网代码开源](https://github.com/ourmetaverse/our-metaverse)。
 
 区块链 DApp 开发对前端是很友好的，除了智能合约，只需要前端开发就可以构建一个应用。并且应用可以拥有基于区块链的账号体系和经济系统能力。至于智能合约，Solidity 的语法也大量参考了 JS，甚至它的包管理工具也是用 npm。
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.06.06 已有 410+ 朋友加入，写了 127 篇日更，102 篇每日前端资讯简报，还有大量问题回复。
-
-以下是近期的 11 篇日更。
-
-- 127 - 《框架级 codemod》
-- 126 - 《一个 CD 构建提速方案》 
-- 125 - 《想法：MDH News 信息换信息》
-- 124 - 《最近新收获的工具、技巧和经验 03》
-- 123 - 《前端速通指南》
-- 122 - 《如何提问》
-- 121 - 《cnpm 问题两则》 
-- 120 - 《手撕源码 11：Master Styles》 
-- 119 - 《手撕源码 10：swr（上）》 
-- 118 - 《给新人的建议》 
-- 117 - 《MFSU V4 要来了吗》 
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2y7g4ptn0j20ku0qy0v4.jpg)
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

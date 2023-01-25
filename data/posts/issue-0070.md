@@ -1,10 +1,9 @@
-# MDH 前端周刊第 70 期：React Router 6.4、初高级程序员、2022 JavaScript、单文件 Deno、函数组合、二维码原理
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h6b12sjx9ij21900u0ahs.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：agathadepine @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0070 期，发表于 2022/09/19。</p>
+---
+title: "React Router 6.4、初高级程序员、单文件 Deno、二维码原理"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01lUj4jp25ONdbpPxUE_!!6000000007516-0-tps-1620-1080.jpg"
+titleImageCaption: "agathadepine @ unsplash"
+publishedAt: "2022/09/19"
+---
 
 本周有这些内容想和你分享：
 
@@ -26,7 +25,7 @@
 ## React Router 6.4
 https://github.com/remix-run/react-router/releases/tag/react-router-dom%406.4.0
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6b0sazwtoj21gg0qgmxi.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01QSIXc01f7jE9AGWXY_!!6000000003960-0-tps-1888-952.jpg)
 
 React Router 发布 6.4，大量新功能，包括数据加载/突变/重新验证、错误/中断/竞争条件处理以及支持 Suspense 的加载/骨架 UI 等。
 
@@ -81,7 +80,7 @@ export async function loader() {
 ## 初级程序员 vs. 高级程序员
 https://codewithstyle.info/software-vs-systems/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h69x1bolmqj20ct0ct0tg.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01Bt6zN91UvgelqgAJE_!!6000000002580-0-tps-461-461.jpg)
 
 要分别初级程序员和高级程序员，其中一点是看他们关注的是「软件」还是「系统」。
 
@@ -92,7 +91,7 @@ https://codewithstyle.info/software-vs-systems/
 ## 2022 JavaScirpt 新特性
 https://olivernguyen.io/s/js2022/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h69x935bsvj21f40jkgn9.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01r5GQCd1O5ZtwS200m_!!6000000001654-0-tps-1840-704.jpg)
 
 1、私有属性，class 里以 # 开头的即私有属性或方法。
 
@@ -150,14 +149,14 @@ fetch('/foo').catch(e => {
 ## 单文件 Deno 网站
 https://deno.com/blog/a-whole-website-in-a-single-js-file-continued
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h69yfsoyssj218s0pq76r.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01kF2FKc1vQzjwf5E0B_!!6000000006168-0-tps-1612-926.jpg)
 
 Deno 更新了一篇文档，介绍如何在一个文件中完成网站。并且功能齐全，包含动态 API、动态渲染、动态路由、表单等。
 
 ## 函数组合
 https://medium.com/javascript-scene/why-every-react-developer-should-learn-function-composition-23f41d4db3b1
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6aijmho4mj20u00u6wfg.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN017Gn43U1k7Ky72kyOS_!!6000000004636-0-tps-1080-1086.jpg)
 
 函数组合有很多场景，这篇文章介绍了如何把他用在 React 项目中，换一种代码组织方式，让代码更简洁、优雅和可扩展。
 
@@ -206,7 +205,7 @@ const withLogger = (WrappedComponent) => {
 ## 二维码原理
 https://typefully.com/DanHollick/qr-codes-T7tLlNi
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6ammbem3ij21k80s4wfu.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01TrtfVa1NaQy8kE8tT_!!6000000001586-0-tps-2024-1012.jpg)
 
 这篇文章介绍了二维码的构成。
 
@@ -216,17 +215,3 @@ https://typefully.com/DanHollick/qr-codes-T7tLlNi
 4、Format info 保存二维码的格式信息，包括错误纠正等级、掩码类型、错误纠正格式  
 5、Data 是二维码的字符数据，从右边开始  
 6、Error correction 是 Data 用剩下的空间，用于存储纠正信息
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

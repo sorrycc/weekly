@@ -1,10 +1,9 @@
-# MDH 前端周刊第 67 期：一周新闻、Father 4、选择你的框架、Tauri vs. Electron
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h5mk42uuedj21hc0u0wtf.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-> <p style="color:gray;text-align:center;margin-bottom:3em;">封面图：House of the Dragon。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0067 期，发表于 2022/08/29。</p>
+---
+title: "一周新闻、Father 4、选择你的框架、Tauri vs. Electron"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN017ruCxY1XvdSZd1ZW6_!!6000000002986-0-tps-1920-1080.jpg"
+titleImageCaption: "House of the Dragon"
+publishedAt: "2022/08/29"
+---
 
 本周有这些内容想和你分享：
 
@@ -16,7 +15,7 @@
 - React 组件 composition 进阶
 
 ## 一周新闻
-新增「一周新闻」栏目，一句话介绍本周内发现的前端资讯和发布。
+> 新增「一周新闻」栏目，一句话介绍本周内发现的前端资讯和发布。
 
 * [新一代 NPM 包研发工具 father 4 发布](https://zhuanlan.zhihu.com/p/558192063)
 * [Bun 融资 $7m](https://oven.sh/)，本以为是玩具，感觉能开辟一片天地了
@@ -34,7 +33,7 @@
 ## Father 4
 https://zhuanlan.zhihu.com/p/558192063
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mh8q12axj20y20h1wfk.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01TM43ux1sHt1Bo6iK7_!!6000000005742-0-tps-1226-613.jpg)
 
 约两个月前，我们发布了 father 4 的 RC 版本，在 RC 阶段我们收到了不少尝鲜用户的反馈建议，也持续对 father 4 做了不少优化；今天，终于可以满怀喜悦地和大家分享 father 4 的第一个正式版本了！
 
@@ -52,7 +51,7 @@ https://zhuanlan.zhihu.com/p/558192063
 ## 选择你的框架
 https://www.chooseyourframework.dev/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mh9p9p9yj214c0qgac5.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01N9JIGu1U1oKzSIjgf_!!6000000002458-0-tps-1452-952.jpg)
 
 你是否曾觉得选择一个 JavaScript UI 框架很像挑选一个初始的口袋妖怪？ 我们中的大多数人都没有深刻理解它们之间的比较。 我们挑选了一个，并在接下来的几年里确信它是最好的选择。
 
@@ -61,7 +60,7 @@ https://www.chooseyourframework.dev/
 ## Tauri vs. Electron
 https://www.levminer.com/blog/tauri-vs-electron
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mhjqm1a7j20xc0hitbv.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN013lyQY724Kt0C0cvUm_!!6000000007373-0-tps-1200-630.jpg)
 
 作者分别用 Tauri 和 Electron 实现了 [Authme](https://authme.levminer.com/)，然后从打包、启动时间、性能、后端、应用渲染、安全、自动更新、开发体验共 8 个维度进行了对比。
 
@@ -111,20 +110,6 @@ const Hello: React.FC<PropsWithChildren<HelloProps>> = ({
 ## React 组件 composition 进阶
 https://frontendmastery.com/posts/advanced-react-component-composition-guide/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mjimtw2ej21i40ny0v6.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN011U3fjB1Jhz27mIOIc_!!6000000001061-0-tps-1948-862.jpg)
 
 在这篇文章中，作者深入探讨了用于分解组件和设计可组合 API 的主要原则。
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

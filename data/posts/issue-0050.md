@@ -1,10 +1,9 @@
-# MDH 前端周刊第 50 期：Terminal 指南、Umi 支持 Vite、CSS Toggle、延寿指南
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h1l7fibqbxj21hc0u07b5.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：tetrakiss @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0050 期，发表于 2022/04/25。</p>
+---
+title: "Terminal 指南、Umi 支持 Vite、CSS Toggle、延寿指南"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01y6nJcT1oD4OIDDm3k_!!6000000005190-0-tps-1920-1080.jpg"
+titleImageCaption: "tetrakiss @ unsplash"
+publishedAt: "2022/04/25"
+---
 
 本期主要内容有这些：
 
@@ -21,7 +20,7 @@
 ## Terminal 指南
 https://www.joshwcomeau.com/javascript/terminal-for-js-devs/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1jliytmm6j21240oumy4.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01CHF7yG1mUM6ba2g70_!!6000000004957-0-tps-1372-894.jpg)
 
 现代 Web 开发都需要 Terminal 技能，而要真正擅长 Terminal 则需要很长时间。但如果限定了使用场景，就有捷径可以快速学会，因为 98% 的 Terminal 知识对于使用 React、Angular、Vue 等框架工具并不需要。
 
@@ -36,7 +35,7 @@ https://www.joshwcomeau.com/javascript/terminal-for-js-devs/
 ## Umi 支持 Vue
 https://github.com/umijs/umi-next/releases/tag/v4.0.0-rc.13
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1jgn36bhpj21930u0dhu.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01Xx3pbs1CYBFQ5eLsD_!!6000000000092-0-tps-1623-1080.jpg)
 
 Umi 在 4.0.0-rc.13 中提供了 Vue 支持，记得我在 Umi 2 时画过一张架构图，其中就有 Vue 的一环，Umi 3 时也有过尝试，但那会 Vue 3 还不太成熟，接入时遇到一些坑，这个坑今天总算是补上了。
 
@@ -74,7 +73,7 @@ button { toggle-trigger: mode; }
 ## Mitosis 入门
 https://www.builder.io/blog/mitosis-a-quick-guide
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1jlkjh6enj21hc0u0q7j.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN010euJmI24th6NocARb_!!6000000007449-0-tps-1920-1080.jpg)
 
 Mitosis 读作 [maɪˈtoʊsɪs]，是编译时框架，允许我们用 JSX 写组件，然后编译到原生 JavaScript、Angular、React、Vue 及其他。由于使用的是 JSX 的子集（类似 [Solid JS](https://www.solidjs.com/)），所以可被解析成 JSON 格式，这样会比较容易被序列化成各种框架的不同实现。
 
@@ -141,7 +140,7 @@ https://nilsnh.no/2022/04/09/innovating-beyond-libraries-and-frameworks/
 ## StoryBook 懒编译
 https://storybook.js.org/blog/storybook-lazy-compilation-for-webpack/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1jprejtmig20qo0f0dv6.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN01MU2zVa1qEYubxxJJM_!!6000000005464-1-tps-960-540.gif)
 
 Storybook 6.5 在开发模式下引入 Webpack 5 的 Lazy Compilation（懒编译）功能，启动快 3X，热更快 2X。
 
@@ -201,33 +200,3 @@ https://blog.superhuman.com/24-habits-for-productivity/
 - [react-query 发布 3.35.0](https://github.com/tannerlinsley/react-query/releases/tag/v3.35.0)
 - [redux 发布 4.2.0](https://github.com/reduxjs/redux/releases/tag/v4.2.0)，deprecate createStore，推荐 RTK，其实感觉这种强行推广的做法不太好
 - [ktor 发布 2](https://blog.jetbrains.com/ktor/2022/04/11/ktor-2-0-released/)，Kotlin 开发基础三剑客之一
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.04.25 已有 350+ 朋友加入，写了 103 篇日更，82 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 6 篇日更。
-
-- 103 - 《手撕源码 03：ice-next》
-- 102 - 《手撕源码 02：sveltekit》
-- 101 - 《Umi 如何支持 Vue》
-- 100 - 《手撕源码 01：Astro》
-- 99 - 《新框架发布和应用治理》
-- 98 - 《开源的 Why 和 How》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>
