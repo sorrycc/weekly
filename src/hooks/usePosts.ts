@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'umi';
 import { Post } from '@/types';
 
 export function usePosts() {

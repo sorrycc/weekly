@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'umi';
+import { Link, styled } from 'umi';
 import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
-import styled from 'styled-components';
 
 const PostsWrapper = styled.div`
   h2 {

@@ -1,5 +1,4 @@
-import { Outlet, Link, useLocation } from 'umi';
-import styled from 'styled-components';
+import { Outlet, Link, useLocation, styled } from 'umi';
 
 const Wrapper = styled.div<{ isPost: boolean }>`
   max-width: 65ch;

@@ -1,9 +1,8 @@
-import { useParams, Link } from 'umi';
+import { useParams, Link, styled } from 'umi';
 import { usePost } from '@/hooks/usePost';
 import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import React from 'react';
-import styled from 'styled-components';
 import clsx from 'clsx';
 import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
 import { Toc } from '@/types';

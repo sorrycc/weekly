@@ -1,4 +1,10 @@
 export default {
+  plugins: [
+    '@umijs/plugins/dist/styled-components',
+    '@umijs/plugins/dist/react-query',
+  ],
+  styledComponents: {},
+  reactQuery: {},
   favicons: [
     'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
   ],

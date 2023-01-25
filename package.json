@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "umi dev",
+    "setup": "umi setup",
     "build": "NODE_ENV=production npm run doc:build && umi build",
     "doc:build": "esno scripts/generatePosts.ts"
   },
@@ -12,13 +13,12 @@
     "markdown-toc": "^1.2.0",
     "prettier": "^2.2.1",
     "prettier-plugin-organize-imports": "^1.1.1",
-    "styled-components": "6.0.0-beta.8",
     "typescript": "^4",
-    "umi": "^4.0.41",
+    "umi": "^4.0.47",
+    "@umijs/plugins": "^4.0.47",
     "zx": "^4.2.0"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.20.4",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-helmet": "^6.1.6",
