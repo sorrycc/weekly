@@ -1,6 +1,6 @@
 ---
 title: "技术文档框架、CSS Architecture、Tailwind 抽象泄漏、调试战术、Mid Journey"
-titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01axhuvH1LBaFRSXX6K_!!6000000001261-2-tps-1024-1024.png"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01axhuvH1LBaFRSXX6K_!!6000000001261-2-tps-1024-1024.png_1200x1200.jpg"
 titleImageCaption: "Bigfish 群 Logo with MidJourney"
 publishedAt: "2022/12/05"
 ---

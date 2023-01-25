@@ -1,6 +1,6 @@
 ---
 title: "React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档"
-titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01UzT9I71lUWdO4AOvX_!!6000000004822-2-tps-1536-1024.png"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01UzT9I71lUWdO4AOvX_!!6000000004822-2-tps-1536-1024.png_1200x1200.jpg"
 titleImageCaption: "卷饼兔"
 publishedAt: "2023/01/16"
 ---

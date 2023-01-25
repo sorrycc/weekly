@@ -1,6 +1,6 @@
 ---
 title: "Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒"
-titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01YIpZt11HjhHgKYa6O_!!6000000000794-2-tps-1536-1024.png"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01YIpZt11HjhHgKYa6O_!!6000000000794-2-tps-1536-1024.png_1200x1200.jpg"
 titleImageCaption: "赛博朋克版的托马斯"
 publishedAt: "2023/01/09"
 ---

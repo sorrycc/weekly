@@ -1,6 +1,6 @@
 ---
 title: "Next.js 13.1、Bun 0.4、WASM napi、React Query"
-titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01PXMi871mEKF8pQeTe_!!6000000004922-0-tps-1536-1024.jpg"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01PXMi871mEKF8pQeTe_!!6000000004922-0-tps-1536-1024.jpg_1200x1200.jpg"
 titleImageCaption: ""
 publishedAt: "2023/01/02"
 ---

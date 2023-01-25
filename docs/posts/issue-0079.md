@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT、Vite 4、SWR 2、Intl.Segmenter"
-titleImage: "https://img.alicdn.com/imgextra/i3/O1CN010xZp1Z1hBy7qd3C3a_!!6000000004240-2-tps-2846-1576.png"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN010xZp1Z1hBy7qd3C3a_!!6000000004240-2-tps-2846-1576.png_1200x1200.jpg"
 titleImageCaption: "prompt: illustration. A fantasy adventure set in a world where the three body problem has been solved, allowing for incredible feats of space travel and exploration"
 publishedAt: "2022/12/12"
 ---
