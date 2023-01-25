@@ -16,7 +16,7 @@ MDH 前端周刊源于 2021 年的一次临时起意，通过公开立 Flag + �
 
 <strong>联系我？</strong>
 
-如有需要，你可以在 [Github](https://github.com/sorrycc)、[Twitter](https://twitter.com/chenchengpro)、[知乎](https://www.zhihu.com/people/chenchengpro)、[哔哩哔哩](https://space.bilibili.com/27472034)上找到我，也`可以通过`邮箱 [sorrycc#gmail.com](mailto:sorrycc@gmail.com) 联系到我，或者扫下方二维码加我微信沟通。
+如有需要，你可以在 [Github](https://github.com/sorrycc)、[Twitter](https://twitter.com/chenchengpro)、[知乎](https://www.zhihu.com/people/chenchengpro)、[哔哩哔哩](https://space.bilibili.com/27472034)上找到我，也可以通过邮箱 [sorrycc#gmail.com](mailto:sorrycc@gmail.com) 联系到我，或者扫下方二维码加我微信沟通。
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01wV6LkR1JJi2efMEGz_!!6000000001008-2-tps-2088-2096.png_200x200.jpg" width="200" height="200" style="margin:0;" />
 
