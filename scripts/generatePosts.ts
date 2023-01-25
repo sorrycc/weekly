@@ -68,6 +68,7 @@ posts.slice(0, 20).forEach((post: any) => {
   const content = `
 <div>Hi，第 ${post.number} 期的周刊发布了。</div>
 <div><a href="${link}">点击查看</a></div>
+<div>&nbsp;</div>
 <div>${post.publishedAt}</div>
   `;
   feed.addItem({
@@ -87,7 +88,7 @@ posts.slice(0, 20).forEach((post: any) => {
   });
 });
 fs.writeFileSync(
-  path.join(__dirname, '../public/rss-for-test.xml'),
+  path.join(__dirname, '../public/rss.xml'),
   feed.atom1(),
   'utf-8',
 );
