@@ -3,6 +3,7 @@
     "dev": "umi dev",
     "setup": "umi setup",
     "build": "NODE_ENV=production npm run doc:build && umi build",
+    "doc:bootstrap": "esno scripts/bootstrap.ts",
     "doc:build": "esno scripts/generatePosts.ts"
   },
   "devDependencies": {

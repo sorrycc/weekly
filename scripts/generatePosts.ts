@@ -4,7 +4,7 @@ import { Feed } from 'feed';
 import toc from 'markdown-toc';
 import { parseFrontMatter } from '../src/utils/mdUtils/parseFrontMatter';
 
-const sourceDir = path.join(__dirname, '../data/posts');
+const sourceDir = path.join(__dirname, '../docs/posts');
 const targetFilePath = path.join(__dirname, '../public/posts.json');
 
 const contents: Record<string, string> = {};
