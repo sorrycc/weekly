@@ -1,5 +1,5 @@
 import 'zx/globals';
-import fm from 'front-matter';
+import { parseFrontMatter } from '../src/utils/mdUtils/parseFrontMatter';
 
 const sourceDir = path.join(__dirname, '../data/posts');
 const targetFilePath = path.join(__dirname, '../public/posts.json');
@@ -10,7 +10,7 @@ const posts = fs
   .map((file) => {
     if (file.endsWith('.md')) {
       const content = fs.readFileSync(path.join(sourceDir, file), 'utf-8');
-      const { attributes, body } = fm(content);
+      const { attributes, body } = parseFrontMatter(content);
       if ((attributes as any).draft && process.env.NODE_ENV === 'production') {
         return false;
       }

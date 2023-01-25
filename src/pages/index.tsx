@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Post } from '@/pages/weekly/$issue';
-import { renderMarkdown } from '@/utils/mdUtils';
+import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
 
 const content = require('@/mds/mdh-weekly-introduce.md');
 const html = renderMarkdown(content);

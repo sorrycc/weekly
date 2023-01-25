@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import React from 'react';
 import styled from 'styled-components';
 import clsx from 'clsx';
-import { renderMarkdown } from '@/utils/mdUtils';
+import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
 
 const Wrapper = styled.div`
   display: flex;

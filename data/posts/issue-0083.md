@@ -1,6 +1,6 @@
 ---
 title: "React Query、CSS 3D、JavaScript Wrapped 2022、React 新文档"
-titleImage: "https://res.cloudinary.com/dddrcezbu/image/upload/v1673794355/mdhweekly/hetordmfuv2ajil3fqji.png"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01UzT9I71lUWdO4AOvX_!!6000000004822-2-tps-1536-1024.png"
 titleImageCaption: "卷饼兔"
 publishedAt: "2023/01/16"
 ---
@@ -62,6 +62,6 @@ publishedAt: "2023/01/16"
 
 ## 每周一图
 
-![](https://res.cloudinary.com/dddrcezbu/image/upload/v1673794486/mdhweekly/dqitp0ptuuchkh5a5uu3.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01M4dPis1WC0O17OwMf_!!6000000002751-0-tps-579-431.jpg)
 
 来源：https://vived.io/javascript-wrapped-2022-frontend-weekly-vol-119/

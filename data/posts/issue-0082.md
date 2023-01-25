@@ -1,6 +1,6 @@
 ---
 title: "Lightning CSS、Tailwindcss、HTTPie AI、chalk-next 投毒"
-titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/sorrycc_Thomas_the_Tank_Engine_in_a_cyberpunk_city_78d0dc66-f8a5-4ad4-a0a9-17d97edcea30.png"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01YIpZt11HjhHgKYa6O_!!6000000000794-2-tps-1536-1024.png"
 titleImageCaption: "赛博朋克版的托马斯"
 publishedAt: "2023/01/09"
 ---
@@ -72,6 +72,6 @@ publishedAt: "2023/01/09"
 - 237 - 《2023 年应该如何做事》
 
 ## 每周一图
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/Image.png)
+![](https://img.alicdn.com/imgextra/i4/O1CN01oOPptT1jydRXvVSpK_!!6000000004617-2-tps-721-660.png)
 
 ChatGPT 在反压缩 JS 的同时，还能加上一些有意义的变量名。

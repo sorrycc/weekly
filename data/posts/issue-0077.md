@@ -1,6 +1,6 @@
 ---
 title: "Framer Motion 布局动画、Arrow JS、vanilla-extract 入门、antd 5、dumi 2"
-titleImage: "https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/shawn-dearn-sgY1DaqB8AU-unsplash.jpg"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01qbjFW21oSdr1qZjfK_!!6000000005224-0-tps-1920-1280.jpg"
 titleImageCaption: "shawndearn @ unsplash"
 publishedAt: "2022/11/21"
 ---
@@ -16,7 +16,7 @@ publishedAt: "2022/11/21"
 ## Framer Motion 布局动画
 https://www.nan.fyi/magic-motion
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221118232813.png)
+![](https://img.alicdn.com/imgextra/i3/O1CN01PPLWd228iwGWMOd8W_!!6000000007967-2-tps-1340-554.png)
 
 这是一篇很好的互动式文章，解释了什么是布局动画。
 
@@ -29,7 +29,7 @@ https://www.nan.fyi/magic-motion
 ## Arrow JS
 https://www.arrow-js.com/
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221119164127.png)
+![](https://img.alicdn.com/imgextra/i2/O1CN01gbUq851PARj1qx7bg_!!6000000001800-2-tps-800-418.png)
 
 ArrowJS 是一个实验性的工具，零依赖性，尺寸为 3K min+gzip。他有两个功能，1）可观察的数据，2）声明式/反应式 DOM 渲染。他有 3 个接口，1）r 声明可观察的数据，2）w 跟踪函数内人可观察数据，3）t 模板渲染。
 
@@ -50,7 +50,7 @@ t`
 ## vanilla-extract 入门
 https://www.lekoarts.de/javascript/writing-performant-css-with-vanilla-extract
 
-![oouyfS](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/oouyfS.png)
+![oouyfS](https://img.alicdn.com/imgextra/i1/O1CN01RfVb9u1pCtrGvojqn_!!6000000005325-2-tps-2056-786.png)
 
 基于 vanilla-extract 编写高性能和类型安全的 CSS，这也是作者在新项目中首选的 CSS 方案，它结合了 TypeScript 和 CSS Modules 的优势，在 CSS in JS 和 CSS Modules 之间找了个很好的平衡点，不会像 CSS in JS 一样性能不好，写起来也没有传统 CSS 那么复杂。
 
@@ -98,7 +98,7 @@ export const footer = styleVariants(footerColors, (color) => [
 ## antd 5
 https://www.yuque.com/ant-design/ant-design/cy5nfvdo8oidvwmz
 
-![LvnwbI](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/LvnwbI.png)
+![LvnwbI](https://img.alicdn.com/imgextra/i2/O1CN01kGDtdY1tMkqPAhygO_!!6000000005888-2-tps-1688-674.png)
 
 附 YingCi 的省留版介绍。
 
@@ -119,7 +119,7 @@ https://www.yuque.com/ant-design/ant-design/cy5nfvdo8oidvwmz
 ## dumi 2
 https://zhuanlan.zhihu.com/p/584551696
 
-![tZqzNy](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/tZqzNy.jpg)
+![tZqzNy](https://img.alicdn.com/imgextra/i4/O1CN01r1MsBl1FeXapqkeDF_!!6000000000512-0-tps-1308-654.jpg)
 
 dumi 1.0 在 2020 年 3 月 2 日正式发布，到今天一共有 80+ 位 Contributor、提交 1100+ Commit、为近 4000 个开源项目提供了组件库/站点的文档方案；dumi 作为一个 GitHub 数亿开源项目中的渺小一粒，能有这么多人共同参与、能为这么多项目提供价值，无疑是十分幸运的。
 
