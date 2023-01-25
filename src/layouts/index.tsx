@@ -46,7 +46,7 @@ export default function Layout() {
           <Link to="/weekly">周刊</Link>
           <a href="https://q.sorrycc.com/">知识星球</a>
           <a href="https://github.com/sorrycc/weekly/issues">投稿</a>
-          <a href="/rss">RSS</a>
+          <a href="/rss.xml">RSS</a>
           <a href="https://github.com/sorrycc/weekly">Github</a>
         </nav>
       </header>

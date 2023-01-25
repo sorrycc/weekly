@@ -5,3 +5,4 @@
 /src/.umi
 /public/posts.json
 /public/posts
+/public/*.xml
