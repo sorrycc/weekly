@@ -6,3 +6,11 @@ export type Post = {
   number: number;
   numberStr: string;
 };
+
+export type Toc = {
+  content: string;
+  slug: string;
+  lvl: number;
+  i: number;
+  seen: number;
+}[];

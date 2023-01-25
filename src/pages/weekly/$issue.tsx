@@ -6,6 +6,7 @@ import React from 'react';
 import styled from 'styled-components';
 import clsx from 'clsx';
 import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
+import { Toc } from '@/types';
 
 const Wrapper = styled.div`
   display: flex;
@@ -29,6 +30,28 @@ const Wrapper = styled.div`
   }
   main {
     flex: 1;
+    position: relative;
+    .toc {
+      position: sticky;
+      top: 0;
+      height: 0;
+      .toc-inner {
+        position: absolute;
+        right: -440px;
+        top: 20px;
+        width: 400px;
+        padding-left: 20px;
+        border-left: 2px solid #ccc;
+        line-height: 2;
+        .toc-item-level-3 {
+          padding-left: 40px;
+        }
+        a {
+          color: #666;
+          text-decoration: none;
+        }
+      }
+    }
     h1 {
       font-size: 2.25rem;
       line-height: 1.2;
@@ -93,6 +116,7 @@ function Main() {
   const {
     title,
     content,
+    toc,
     numberStr,
     publishedAt,
     titleImage,
@@ -136,6 +160,7 @@ function Main() {
       <Helmet>
         <title>{`第 ${numberStr} 期 - MDH 前端周刊`}</title>
       </Helmet>
+      <TocRender toc={toc} />
       <h1>
         第 {numberStr} 期：{title}
       </h1>
@@ -150,6 +175,25 @@ function Main() {
         }}
       />
     </main>
+  );
+}
+
+function TocRender(props: { toc: Toc }) {
+  return (
+    <div className="toc">
+      <div className="toc-inner">
+        {props.toc.map((item) => {
+          return (
+            <div
+              key={`toc-${item.content}`}
+              className={`toc-item-level-${item.lvl}`}
+            >
+              <a href={`#${item.slug}`}>{item.content}</a>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 

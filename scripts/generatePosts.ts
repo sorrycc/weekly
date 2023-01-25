@@ -1,7 +1,8 @@
 import 'zx/globals';
 import { Feed } from 'feed';
+// @ts-ignore
+import toc from 'markdown-toc';
 import { parseFrontMatter } from '../src/utils/mdUtils/parseFrontMatter';
-import { Post } from '@/types';
 
 const sourceDir = path.join(__dirname, '../data/posts');
 const targetFilePath = path.join(__dirname, '../public/posts.json');
@@ -33,11 +34,24 @@ fs.writeFileSync(targetFilePath, JSON.stringify(posts, null, 2), 'utf-8');
 console.log('Generate posts.json');
 
 fs.mkdirpSync(path.join(__dirname, '../public/posts'));
+// ref: https://github.com/valeriangalliat/markdown-it-anchor/blob/master/index.js#L3
+const slugify = (s: string) =>
+  encodeURIComponent(String(s).trim().toLowerCase().replace(/\s+/g, '-'));
 posts.forEach((post: any) => {
   const content = contents[post.numberStr];
   fs.writeFileSync(
     path.join(__dirname, '../public/posts', `issue-${post.numberStr}.json`),
-    JSON.stringify({ content, ...post }, null, 2),
+    JSON.stringify(
+      {
+        content,
+        toc: toc(content, {
+          slugify,
+        }).json,
+        ...post,
+      },
+      null,
+      2,
+    ),
     'utf-8',
   );
 });
