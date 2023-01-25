@@ -1,10 +1,9 @@
-# MDH 前端周刊第 49 期：Lexical、TS Compiler、:has、Astro SSR、deno everything
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h1cz3oj1rnj21900u0tc2.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：chrishardyphotography @ unsplash.com。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0049 期，发表于 2022/04/18。</p>
+---
+title: "Lexical、TS Compiler、:has、Astro SSR、deno everything"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01yemQBI1VaRuQvZusb_!!6000000002669-0-tps-1620-1080.jpg"
+titleImageCaption: "chrishardyphotography @ unsplash"
+publishedAt: "2022/04/18"
+---
 
 本期主要内容有这些：
 
@@ -20,7 +19,7 @@
 ## Lexical
 https://github.com/facebook/lexical
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1ctf3ey63j21k40p444t.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01FeWZZ41awxS97Scyi_!!6000000003395-0-tps-2020-904.jpg)
 
 Lexical 是 Facebook 新开源的富文本编辑器框架，主打可扩展性、可靠性、可访问性和性能。核心包仅 22kb（min+gzip），额外的能力和尺寸按需添加。在支持懒加载的框架中，我们可以将插件的加载推迟到用户和编辑器交互时进行，以进一步提升性能。
 
@@ -62,7 +61,7 @@ function Editor() {
 ## TS Compiler 原理
 https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1cpsqw8mtj20ub0u0go6.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01VdZAz41QOvrrQpKiJ_!!6000000001967-0-tps-1091-1080.jpg)
 
 这篇是作者观看「How the TypeScript compiler compiles」视频后的阅读笔记，。TypeScript 编译时（即调用 tsc 时）会经过 Program、Parser、AST、Binder、Emitter、Scanner、Type Checker 的过程，每个环节在 typescript 仓库的 src/compiler 目录下都能找到对应的文件名实现。
 
@@ -72,7 +71,7 @@ https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles
 https://matthiasott.com/notes/css-has-a-parent-selector-now
 https://ishadeed.com/article/css-has-parent-selector/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1ct3byudsj21i80oagr5.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN014mCHyU1Xw5rDtkHDq_!!6000000002987-0-tps-1952-874.jpg)
 
 CSS 中一直没有父选择器，即当子节点满足一定条件时给父节点加样式。这不仅是出于性能考虑，而且还和浏览器渲染机制有关，当子节点渲染后需要 repaint 父节点，而且可能是很多的父节点，这本该是不可能完成的任务，在 Safari 15.4 里通过 `:has()` 选择器解了，这也是目前唯一支持的浏览器，Chrome 101 开始可通过 Flag 开启。
 
@@ -102,7 +101,7 @@ figure img:has(+ figcaption)
 ## Astro SSR
 https://astro.build/blog/experimental-server-side-rendering/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1cuh7w6gvj22080u076y.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN011r7H3C1Kso0XWH1BU_!!6000000001220-0-tps-2600-1080.jpg)
 
 Astro SSR 和我理解的 SSR 不同，好像只有 SS 没有 R。由于 Astro 特别之处是只跑在服务端，所以一些动态的能力会直接在服务端处理完成，好处是更快。
 
@@ -156,7 +155,7 @@ https://www.sitepen.com/blog/doing-it-all-with-deno
 ## React 18 速读
 https://dev.to/shrutikapoor08/react-18-quick-guide-core-concepts-explained-519p
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1cwr95tfdj21240pgad5.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01muV4Pj1Q1ZfXECrcL_!!6000000001916-0-tps-1372-916.jpg)
 
 上图是 React 18 新引入的概念、特性、API 和 Hooks。React 18 在 47 期也介绍过一次，这里再补充下 Suspense + SSR 的部分。
 
@@ -183,7 +182,7 @@ type DateString = `${YYYY}${MM}${DD}`;
 ## 33 个 JavaScript 概念
 https://dev.to/eludadev/33-javascript-concepts-every-beginner-should-know-with-tutorials-4kao
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1cy8b1abbj20u018lk18.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01vKJMB61Lc9DbLYDB6_!!6000000001319-0-tps-1080-1605.jpg)
 
 非常好的入门教程，适用于初学者。
 
@@ -201,36 +200,3 @@ https://dev.to/eludadev/33-javascript-concepts-every-beginner-should-know-with-t
 - [Slidev 发布 0.30.0](https://github.com/slidevjs/slidev/releases/tag/v0.30.0)，内置 vue-starport
 - [Create React App 发布 5.0.1](https://github.com/facebook/create-react-app/releases/tag/v5.0.1)，兼容 react 18
 - [Webstorm 发布 2022.1](https://blog.jetbrains.com/webstorm/2022/04/webstorm-2022-1/)
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.04.04 已有 300+ 朋友加入，写了 97 篇日更，77 篇每日前端资讯简报，还有大量问题回复。
-
-以下是这两周更新的 Umi 4 系列日更。
-
-- 97 - 《Umi 4 特性 09：Umi UI 卷土重来？》
-- 96 - 《Umi 4 特性 08：SSR & SSG》
-- 95 - 《Umi 4 特性 07：微生成器》
-- 94 - 《Umi 4 特性 06：那些小而美的改进（上）》
-- 93 - 《Umi 4 特性 05：稳定白盒性能好的 ESLint》
-- 92 - 《Umi 4 特性 04：build 阶段的构建提速》
-- 91 - 《Umi 4 特性 03：默认最快的请求》
-- 90 - 《Umi 4 特性 02：React Router 6 和新路由》
-- 89 - 《Umi 4 特性 01：MFSU V3》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

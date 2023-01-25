@@ -1,13 +1,11 @@
-# MDH 前端周刊第 37 期：Remix vs. Next、Electron 迟暮、Vitekit、多租户
+---
+title: "Remix vs. Next、Electron 迟暮、Vitekit、多租户"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN0133XIbD1DZqEDuIjHZ_!!6000000000231-0-tps-1920-1440.jpg"
+titleImageCaption: "sigmund @ unsplash"
+publishedAt: "2022/01/24"
+---
 
-**这是 「MDH：前端周刊」 第 0037 期，发表于：2022/01/24，每周一上午 9 点更新，包含前端的趋势和好文，欢迎订阅。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN0133XIbD1DZqEDuIjHZ_!!6000000000231-0-tps-1920-1440.jpg)
-
-封面图：sigmund @ www.unsplash.com 。
-
-❄️ TL;DR
-------
+## ❄️ TL;DR
 
 👉 Remix vs. Next.js<br />
 👉 Webpack 支持 CSS<br />
@@ -20,14 +18,13 @@
 👉 The New Vue<br />
 
 
-⚡ 展开讲讲
-------
+## ⚡ 展开讲讲
 
 ### Remix vs. Next.js
 
 [https://remix.run/blog/remix-vs-next](https://remix.run/blog/remix-vs-next)
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/vEB4-mDy-vGAW57cuyeq1FTU4YTJ5LCJPdypmxyNYLacpst0xLU_yl69gOJNENzL_sfWK8qTDvL5bTjRSzLRodZYGhm_Bd_iFKYzhOEInnFja_fgzR-e5YQmG4qb60ie2lnnLmID.png)
+![](https://img.alicdn.com/imgextra/i1/O1CN01HtWout1NmnfAiFhJ9_!!6000000001613-2-tps-1200-627.png)
 
 一篇介绍 Remix 和 Next.js 区别的文章，由于是 Remix 团队所写，可以辩证地看。
 
@@ -51,7 +48,7 @@ webpack 5.66 终于开始支持 native css，通过 experiments.css 开启，之
 
 [https://codeadrian.github.io/clay.css/](https://codeadrian.github.io/clay.css/)
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/KISlVU1KlB54PK38XC-BeczcjYXSm_D8VXf7ORaTJagvM1u-E9zundn721w5jxFAqdX2ORux9Sm2Sip5fstsLNSUVDtl350qixlJVW25_e7l10OUOonJtknZano3j6WVgzpWysQ0.png)
+![](https://img.alicdn.com/imgextra/i2/O1CN01bWSICa1oBEnxJvPvC_!!6000000005186-2-tps-1600-869.png)
 
 实现可爱黏土风的 CSS 库。
 
@@ -87,7 +84,7 @@ class Foo {
 
 [https://demo.vercel.pub/platforms-starter-kit](https://demo.vercel.pub/platforms-starter-kit)
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/j2nETR1EU2B72c05wD3itKhgzy174IoVLU3DHNn2S-vRwbDEA-mf-uMiCki9DgAwvFYlHaojT9iKQMxcOjG0Hj2tTYlOPukdEklxGEzRAuyNlTlnrw9fuZhYu10p2V2aCszhokiH.png)
+![](https://img.alicdn.com/imgextra/i1/O1CN019g5Cil28BxkRBe5qO_!!6000000007895-2-tps-1600-837.png)
 
 vercal 的多租户模板，适用于 Blog 平台、NoCode 平台、B2B2C 平台等，示例模板基于 next.js、tailwindcss、prisma、planetscale、nextauth 和 vercal 实现。
 
@@ -95,13 +92,13 @@ vercal 的多租户模板，适用于 Blog 平台、NoCode 平台、B2B2C 平台
 
 [https://daniel.haxx.se/blog/2022/01/17/enforcing-the-pyramid-of-open-source/](https://daniel.haxx.se/blog/2022/01/17/enforcing-the-pyramid-of-open-source/)
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/2Z9-zThOMkpzk2_fvK_P0xB6XFBtmKY5FkWrZo3DRdXkFvsD9O6us90fHlWbEC6Csq_NdkOJ_jEImf_YoHlz66eQZxFaupIKoYlOlQyuoMNyDi4ZVGBh2JhyhTXL7aIyjyZiz3rH.png)
+![](https://img.alicdn.com/imgextra/i2/O1CN01lh9fJP1Q17H0voRsq_!!6000000001915-2-tps-1600-900.png)
 
 ### Electron 迟暮
 
 [https://12ft.io/proxy?q=https://medium.com/geekculture/the-end-of-electron-is-near-310467d6415](https://12ft.io/proxy?q=https://medium.com/geekculture/the-end-of-electron-is-near-310467d6415)
 
-​​![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/ft8FzHy2tN1YsJDgOoGur6Skt0WpJ4_pciLX2kxLyUCVXLVcDvfJ795UTx2B6tnJArtI2lQ-Ba2swW9mFASH2-cI9NGUyRAlbr3z_rjLbBXiujyS67vBgx1sRFkS9JfoqzH5wcEi.png) 
+​​![](https://img.alicdn.com/imgextra/i1/O1CN01ziedud1wmLpJXXhOb_!!6000000006350-2-tps-560-560.png) 
 
 作者有点标题党，但 Electron 确实让人又爱又恨。
 
@@ -115,7 +112,7 @@ Electron 非常流行，也被大量公司使用，也有很多成功软件，�
 
 [https://www.youtube.com/watch?v=2KBHvaAWJOA](https://www.youtube.com/watch?v=2KBHvaAWJOA)
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/UNVaegUlkBEA7vEsEOwaXE4zIe7cEKTEcihmRM_FDHGGCPTkqSaz87LKY3EA15xxuj6CtGZ3GaeIT5uRMqwjole1hhIYQ_MjQo46-qWrl0rSTmjLrWMmRKV2FzX1u-uKhQCiSr8u.png)
+![](https://img.alicdn.com/imgextra/i3/O1CN01O7RLya1mLCBTxvTDU_!!6000000004937-2-tps-1600-863.png)
 
 尤大在 VueToronto 的分享，一些摘要，
 
@@ -128,16 +125,3 @@ Electron 非常流行，也被大量公司使用，也有很多成功软件，�
 7、vuejs.org 新官网，暗黑模式，基于 VitePress，默认版本切到 Vue 3<br />
 8、几个新 RFC。1）Ref Transform，用 $ 转换 ref 到 var，用 $$ 反之 2）Props Destructure Transform<br />
 
-## 🕒 订阅
-
-本期刊有几种订阅方式，
-
-1、本期刊已开通 **NewsLetter** 的订阅方式，方便不喜欢公众号阅读的朋友们，访问 **[https://mdhappy.substack.com/](https://mdhappy.substack.com/)** 或扫描下方二维码了解详情。
-
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01fgWXv11SlwvuAiz0i_!!6000000002288-2-tps-422-424.png" width="215" />
-
-2、微信搜索 **「云谦和他的朋友们」** 或扫描下方二维码，在我的公众号订阅更新。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

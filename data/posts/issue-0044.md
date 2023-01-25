@@ -1,10 +1,9 @@
-# MDH 前端周刊第 44 期：JavaScript 类型提案、Turborepo、Headless 组件、Solid.js、依赖管理
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h08bqlb85wj21ak0u0tjh.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：masamasa3 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0044 期，发表于 2022/03/14。</p>
+---
+title: "JavaScript 类型提案、Turborepo、Headless 组件、Solid.js、依赖管理"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01xS4vAW1PJbeEpaduU_!!6000000001820-0-tps-1676-1080.jpg"
+titleImageCaption: "masamasa3 @ unsplash"
+publishedAt: "2022/03/14"
+---
 
 本期主要内容有这些：
 
@@ -18,7 +17,7 @@
 ## JavaScript 类型提案
 https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08n989devj21j60u0aeo.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01z4uo711x7Q2km4Vl4_!!6000000006396-0-tps-1986-1080.jpg)
 
 提案目前 Stage 0，预计 2022 年 3 月会提交 Stage 1。目的是让 JavaScript 拥有类型，比如可以写下面的代码。
 
@@ -30,7 +29,7 @@ function add(a: number, b: number) {
 
 JavaScript 的静态类型大家期待了很多年，终于有望实现。目前另一个流行的方案是[通过 JSDoc 注释的方式在 JavaScript 中使用 TS 类型](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0862b77b8j20qe0bwwfd.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01A28RCd1UzLpCwDHlB_!!6000000002588-0-tps-950-428.jpg)
 
 提案中类型语法和 TypeScript 兼容，除了基础的类型，还包含 Interface、Type、as、Generic 等高级类型。注意类型检测的时机不是在浏览器运行时，而是在开发阶段，比如编辑器、CLI 工具等，浏览器引擎要做的是完全忽略类型语法，比避免性能问题。
 
@@ -43,7 +42,7 @@ JavaScript 的静态类型大家期待了很多年，终于有望实现。目前
 ## Monorepos & Turborepo
 https://vercel.com/blog/monorepos-are-changing-how-teams-build-software
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08708jnrrj210v0n1ab6.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01NKYdGj1y1klCxN80X_!!6000000006519-0-tps-1327-829.jpg)
 
 Monorepo 有不少优点。比如：1）方便跨 package 更新，2）方便协作和调试，3）方便本地开发。但是有个缺点是代码和依赖多了之后，build、ci、test 等会变慢，而 Turborepo 可以解这个问题。
 
@@ -52,7 +51,7 @@ Monorepo 有不少优点。比如：1）方便跨 package 更新，2）方便协
 ## Headless 组件
 https://medium.com/@nirbenyair/headless-components-in-react-and-why-i-stopped-using-ui-libraries-a8208197c268
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h088olrwe5j20t00lq76a.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01FMRb5Y1RorunjMZJR_!!6000000002159-0-tps-1044-782.jpg)
 
 作者来自 Gloat，介绍了把 UI 库从 MUI 迁到 headless 组件的过程。
 
@@ -100,7 +99,7 @@ function Counter() {
 ## 依赖管理的真相
 https://mp.weixin.qq.com/s?__biz=MzI5NjM5NDQxMg%3D%3D&mid=2247495463&idx=1&sn=591c5b3bfcf78f10c718153fe2dc8228#rd
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08ap3iogej20nu0d4dgh.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01ZqXd4p1LSWtsXPE2m_!!6000000001298-0-tps-858-472.jpg)
 
 作者非常详细地从发展的角度历数了 npm、yarn、pnpm 的 deno 的包管理机制。
 
@@ -145,25 +144,3 @@ Parcel 最新版支持了 Library 开发，基于 package.json 中的约定式�
 - [Umi 发布 4.0.0-rc.6](https://github.com/umijs/umi-next/releases/tag/v4.0.0-rc.6)，包含支持 api routes（见[示例](https://github.com/umijs/umi-blog-example)）、vite 打包模式瘦身、monorepo 支持等 13 个改进
 - [React 发布 18 RC](https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html)，附官方升级文档
 - 可沙箱运行 JavaScript 的 [ShadowRealms 提案已到 Stage-3](https://fjolt.com/article/javascript-shadowrealms)
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.3.14 已有 300+ 朋友加入，写了 72 篇日更，54 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 72 - 《我司前端那些事儿》
-- 71 - 《Umi PR CheckList》
-- 70 - 《如何成为 10X 工程师》
-- 69 - 《React 请求机制及其工程化》
-- 68 - 《手写 prettier 插件》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

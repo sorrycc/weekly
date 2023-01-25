@@ -1,10 +1,9 @@
-# MDH 前端周刊第 41 期：State of JS 2021、约定式路由、配置读取的 AOT 和 JIT、Parcel CSS
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1gzk18thmx6j21hc0u07fq.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：地平线 西之绝境。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0041 期，发表于 2022/02/21。</p>
+---
+title: "State of JS 2021、约定式路由、配置读取的 AOT 和 JIT、Parcel CSS"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01yvfRuK1u1yUPZ2Lx1_!!6000000005978-0-tps-1920-1080.jpg"
+titleImageCaption: "地平线 西之绝境"
+publishedAt: "2022/02/21"
+---
 
 本期主要内容有这些：
 
@@ -20,7 +19,7 @@
 ## State of JS 2021
 https://2021.stateofjs.com/zh-Hans/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzk6je9wwoj214y0icabm.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01IMTfkh1Gztg99JStk_!!6000000000694-0-tps-1474-660.jpg)
 
 相比 5 年前，使用 TypeScript 的从 21% 升到 69% ；前端框架虽然变化快，但 React 和 Vue 也已占据框架榜 6 年多，反馈 JS 变化快的开发者从 59% 降低到 38%。
 
@@ -35,7 +34,7 @@ https://gist.github.com/jamiebuilds/86d467ee4353cb316edce8e69ad19237
 
 jamiebuilds 关于约定式路由的想法个人很喜欢，通过把文件系统拍平的方式解上述问题，这样就能在 pages 目录下看到所有路由，见下图。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzk32jkss6j210y0luadg.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01WxSOdM1nUdyEQy7B5_!!6000000005093-0-tps-1330-786.jpg)
 
 ## TypeScript 配置读取的 AOT 和 JIT
 https://github.com/gatsbyjs/gatsby/discussions/34613
@@ -49,7 +48,7 @@ AOT 的缺点是实现难度高，初始速度相对较慢；JIT 的缺点是潜
 ## Next.js vs. Remix
 https://blog.bitsrc.io/remix-vs-next-js-a-detailed-comparison-6ff557f7b41f
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzkbh7szolj212w0mymy9.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN011j9GwN1e6WZTsn5xp_!!6000000003822-0-tps-1400-826.jpg)
 
 作者从路由、数据加载、Session 和 Cookie 的使用、部署、样式 5 个维度进行对比。
 
@@ -69,7 +68,7 @@ https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-reac
 ## Parcel CSS 入门
 https://blog.logrocket.com/getting-started-parcel-css/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzk1zy21tlj21100eugmp.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01xwkUmz1bXb8UtY3xL_!!6000000003475-0-tps-1332-534.jpg)
 
 Parcel CSS 出自 Parcel 团队，基于 Rust，具备 CSS 的解析、编译、压缩和打包能力，上图是作为压缩器，其与 CSSNano 和 ESBuild 速度的对比。
 
@@ -91,14 +90,14 @@ let {code, map} = css.transform({
 ## Github Mermaid
 https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzk2rrexdzj20xc0hidgs.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01RlcD5P1apAiYYiTKj_!!6000000003378-0-tps-1200-630.jpg)
 
 Github 支持 Markdown 里用 Mermaid 画图。Mermaid 目的是做文档的图形化，支持的图表非常丰富，包括流程图、时序图、甘特图、类图、状态图、饼图、行程图等。
 
 ## rich-textarea
 https://github.com/inokawa/rich-textarea
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzkc353kaog20qi0dkhdu.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN019lgER71YN7E0x31PI_!!6000000003046-1-tps-954-488.gif)
 
 基于 React 的自定义 textarea，支持颜色、高亮、文本装饰、自动完成等。
 
@@ -115,26 +114,3 @@ https://github.com/inokawa/rich-textarea
 - [Midway 发布 3.0](https://mp.weixin.qq.com/s/b2CpCCE3-10JB-JkQpCgwg)，新路由和新全栈套件
 - [Parcel CSS 发布 1.3](https://github.com/parcel-bundler/parcel-css/releases/tag/v1.3.0)，支持 Bundle，相比上个版本快 5%，尺寸减少近一半
 - swc 发布新版，支持新的 transform 插件，[意见收集中](https://github.com/swc-project/swc/discussions/3540)
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫「云谦和他的朋友们」。截止 2022.2.21 已有 200+ 朋友加入，写了 52 篇日更，35 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 53 - 《如何在 CJS 中使用 Pure ESM 依赖》
-- 54 - 《unified、remark、rehype 和 mdx》
-- 55 - 《Mermaid》
-- 56 - 《App 推荐：Espanso》
-- 加更：如果我写「前端工程化」小册，大纲会怎么组织
-- 57 - 《当我们聊工程化时，我们在聊什么？》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9tn5k6yj30u011xdj6.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

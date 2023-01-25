@@ -1,10 +1,9 @@
-# MDH 前端周刊第 46 期：Remixing React Router、Umi Blog Stack、Ladle、monorepo、pnpm
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0ndebbf94j21900u03zk.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：uyilman @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0046 期，发表于 2022/03/28。</p>
+---
+title: "Remixing React Router、Umi Blog Stack、Ladle、monorepo、pnpm"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01VYosG11LJMytczuT1_!!6000000001278-0-tps-1620-1080.jpg"
+titleImageCaption: "uyilman @ unsplash"
+publishedAt: "2022/03/28"
+---
 
 本期主要内容有这些：
 
@@ -19,7 +18,7 @@
 ## Remixing React Router
 https://remix.run/blog/remixing-react-router
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n1f5v6fpj21ab0btgnb.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01Vk74Nb1TbhlMT246H_!!6000000002401-0-tps-1667-425.jpg)
 
 Remix 团队计划将 remix 的 loader 和 action 能力带入 react-router，在 loader 中定义初始数据，在 action 中处理 form 提交数据，通过 useLoaderData 获取数据，通过 useTransition 获取表单提交状态等。
 
@@ -31,7 +30,7 @@ Remix 团队计划将 remix 的 loader 和 action 能力带入 react-router，�
 
 带来的好处是初始请求更快（见下图），以及处理数据提交时更优雅，无需 useEffect，无需处理 error/success 状态，无需 cache，无需返回 clean 函数等等。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n3y35230j21ac0cxdhj.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN017rokWE1lVRQlgiljs_!!6000000004824-0-tps-1668-465.jpg)
 
 但真实项目中，直接把请求逻辑放在路由配置里是不合适的，这就需要框架的支持，比如 Remix 和 Umi。
 
@@ -74,7 +73,7 @@ JSON.parse(str, (key, value) => {
 ## UMI Blog Stack
 https://next.umijs.org/docs/tutorials/blog
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n4sjgie8j21b60u0wjj.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01O2rskv1i5O3HkWxO9_!!6000000004361-0-tps-1698-1080.jpg)
 
 基于 Umi 4，手把手教你写一个基于 Serverless 的 Blog 应用，以下是技术栈。
 
@@ -88,13 +87,13 @@ https://next.umijs.org/docs/tutorials/blog
 ## Ladle
 https://www.ladle.dev/blog/introducing-ladle/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n5cttndyj21aw0u0jtw.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01S6sSnm21GMEre7kNF_!!6000000006957-0-tps-1688-1080.jpg)
 
 Uber 工程师开发的 Storybook 竞品，支持 [Component Story Format（CSF）](https://storybook.js.org/docs/react/api/csf)，可直接替换 Storybook。
 
 Uber 有大量应用 Storybook，但由于构建性能、dev 性能、bundle 产物、测试等方面的不好表现，他们决定基于 Vite 重写了一份，性能提升如下。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n5y8a0h3j20ij0bb3yn.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01wlQ9Bi1LYU39X7QPC_!!6000000001311-0-tps-667-407.jpg)
 
 有需要的可通过以下命令 1 分钟上手体验。
 
@@ -108,7 +107,7 @@ $ echo "export const World = () => <p>Hey</p>;" > $ src/hello.stories.tsx
 $ pnpm ladle serve
 ```
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n6ifjau5j21e60nagmr.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01iwxDaw23vhDYXURFY_!!6000000007318-0-tps-1806-838.jpg)
 
 ## typesVersions
 https://antfu.me/notes#types-for-sub-modules
@@ -152,7 +151,7 @@ https://antfu.me/notes#types-for-sub-modules
 ## monorepo 实践
 https://www.yuque.com/docs/share/69ee97ff-42cc-46cf-a409-31967339a9cf
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n9braqulj21120m6407.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01h4vA9C2563nQfMtnn_!!6000000007476-0-tps-1334-798.jpg)
 
 Umi 周会上社区同学 yingci 的分享，基于 pnpm、turborepo、mfsu、qiankun 等的大型项目 monorepo 实践，一个 repo 包含了 60+ 项目。
 
@@ -195,14 +194,3 @@ Turborepo 作者分享了 5 个 pnpm 技巧。
 - [Vercel 支持 pnpm](https://vercel.com/changelog/projects-using-pnpm-can-now-be-deployed-with-zero-configuration)，有 pnpm-lock.yaml 时自动切换到 pnpm 做依赖安装
 - [Chromium WebContainers 结束 Beta 测试](https://blog.stackblitz.com/posts/webcontainers-out-of-beta/)
 - [Firebase Blog 改版](https://firebase.blog/)，基于 astro.build 实现，速度极快
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

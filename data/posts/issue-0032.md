@@ -1,14 +1,11 @@
-# MDH 前端周刊第 32 期：React Conf、TailwindCSS 3、Turborepo、ahooks 3
+---
+title: "React Conf、TailwindCSS 3、Turborepo、ahooks 3"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01lPGkvm1p6wd45vEGn_!!6000000005312-0-tps-1920-1282.jpg"
+titleImageCaption: "anniespratt @ unsplash"
+publishedAt: "2021/12/13"
+---
 
-**这是 「MDH：前端周刊」 第 0032 期，发表于：2021/12/13。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i3/O1CN01lPGkvm1p6wd45vEGn_!!6000000005312-0-tps-1920-1282.jpg)
-
-封面图：anniespratt @ www.unsplash.com 。
-
-
-❄️ TL;DR
-------
+## ❄️ TL;DR
 
 👉 React Conf<br />
 👉 TailwindCSS 3<br />
@@ -20,8 +17,7 @@
 👉 ahooks 3<br />
 👉 happydom<br />
 
-⚡ 展开讲讲
-------
+## ⚡ 展开讲讲
 
 ### React Conf
 
@@ -35,7 +31,7 @@
 
 [https://tailwindcss.com/blog/tailwindcss-v3](https://tailwindcss.com/blog/tailwindcss-v3)
 
-![](https://lh4.googleusercontent.com/pimw-Ak7kt2z7oGgI6F32QUUGtwuGWGZoUv99aMsJ9sQQihwuoeQxmPpXWhhNuwc76bF1yUiA3-srVSkpD80TLuEJjKkBUDYpNtjJOyVK62fkOw7OLnkGy3NhHjbEfXBWbrHX0N_)
+![](https://img.alicdn.com/imgextra/i2/O1CN012PchKI1ugjjqt5bAr_!!6000000006067-0-tps-1600-515.jpg)
 
 摘要，
 
@@ -55,7 +51,7 @@
 
 [https://peeky.dev/](https://peeky.dev/)
 
-![](https://lh4.googleusercontent.com/Qy1dY9eBhlE-LcNgf0-0HwcpdqbHUyg2nMRz_-XbCS7gDQejbCSD3JsEC-UTHCT4yVUvW7NSnOBNQrtJTiJL-QZbfXdUQcRDd1LYOgGnUFvafgB7LKpQfl57QIy8NMXj2ftw2raF)
+![](https://img.alicdn.com/imgextra/i4/O1CN019armMT1XP7LEEq0tV_!!6000000002915-0-tps-921-573.jpg)
 
 摘要，
 
@@ -69,7 +65,7 @@
 
 [https://vercel.com/blog/vercel-acquires-turborepo](https://vercel.com/blog/vercel-acquires-turborepo)
 
-![](https://lh3.googleusercontent.com/8l8P7H7oWbCmWhoEkDSvWmTELyPkehj6YYPmJPQ2k70xhnkAD2VDWdA2FNpnd26I3zIIFQ5Gb8Go4gM5iWgFCJzH_8703BUVZUGZqe4RZsdd_GeZ4029TTdUtcPGM0vl2BDZMVb5)
+![](https://img.alicdn.com/imgextra/i2/O1CN01iJQuqh1Gt1jp9vxr0_!!6000000000679-0-tps-1600-534.jpg)
 
 收购后 Turborepo 开源了，借这个机会仔细看了下，做一些摘要，
 
@@ -89,7 +85,7 @@
 
 [https://sandpack.codesandbox.io/theme](https://sandpack.codesandbox.io/theme)
 
-![](https://lh3.googleusercontent.com/ozRmBbwJbvpkx7M9SxDv5lacArB32or3s_RI8lh4Kj5aKw1-FbccJC1760XFQvy7jBtgiERlcf3cRpXxP29a9MfiooODnFgAVKqNw-otJwrNfSRpjZgTgRIdcVI3vUMJO2TjbM8q)
+![](https://img.alicdn.com/imgextra/i3/O1CN01JeK1nS1pbAqiG48t1_!!6000000005378-0-tps-1600-738.jpg)
 
 支持通过 GUI 的方式配置 sandbox 的色盘，可以导出使用。
 
@@ -97,7 +93,7 @@
 
 [https://remix.run/blog/react-server-components](https://remix.run/blog/react-server-components)
 
-![](https://lh4.googleusercontent.com/tFTEE6COsv4ZwIhD-VIYU1ekm0FbCUJ3TfIa8Y-RBsD8bW1kNyzGVtFZWhKI2ikJACpqDWu7jNeYHoVgn15vOIuK--XqFEw-UhU140l9ZrowEZAOZslb_Zz0soEbKQo84kbu6puR)
+![](https://img.alicdn.com/imgextra/i4/O1CN010BDcrm1sPDM3TNM82_!!6000000005758-0-tps-1600-709.jpg)
 
 摘要，
 
@@ -117,7 +113,7 @@ RSC（React Server Component）是 Render-Fetch，通过 DEMO 对比可以看出
 
 [https://zhuanlan.zhihu.com/p/442434871](https://zhuanlan.zhihu.com/p/442434871)
 
-![](https://lh5.googleusercontent.com/KZSYwb9gdyeGSMgGNe-9WL9l7MoVmBgiKGLAbrjcrqJBSKYCWSyrnLmj6Pse-ol_Mow99x2YqBSMGS-HLgdiMPTb61gsyDvVYTGRd_8VyXS5fFUNma2pvT9f1v3I7gu4EzziuWHN)
+![](https://img.alicdn.com/imgextra/i3/O1CN01943VH41aAPT86plfX_!!6000000003289-0-tps-327-125.jpg)
 
 摘要，
 
@@ -132,17 +128,3 @@ RSC（React Server Component）是 Render-Fetch，通过 DEMO 对比可以看出
 [https://github.com/capricorn86/happy-dom](https://github.com/capricorn86/happy-dom)
 
 A jsdom alternative with support for server side rendering of web components.
-
-## 🕒 订阅
-
-本周刊已开放 **「飞书话题群」** ，用飞书扫码即可加入。
-
-<img src="https://img.alicdn.com/imgextra/i4/O1CN01Pokf0R1mYTZgqt2Vc_!!6000000004966-0-tps-1140-1332.jpg" width="215" />
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

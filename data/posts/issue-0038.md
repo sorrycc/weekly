@@ -1,14 +1,11 @@
-# MDH 前端周刊第 38 期：Umi 4 RC、HTTPie 3、Deno 2021
+---
+title: "Umi 4 RC、HTTPie 3、Deno 2021"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN015IDTVY1aLOu4ZCsua_!!6000000003313-2-tps-1080-607.png"
+titleImageCaption: "僵尸校园"
+publishedAt: "2022/01/31"
+---
 
-**这是 「MDH：前端周刊」 第 0038 期，发表于：2022/01/31，每周一上午 9 点更新，包含前端的趋势和好文，欢迎订阅。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN015IDTVY1aLOu4ZCsua_!!6000000003313-2-tps-1080-607.png)
-
-封面图：僵尸校园。
-
-
-❄️ TL;DR
-------
+## ❄️ TL;DR
 
 👉 Umi 4 RC<br />
 👉 TSC 的 Go 移植版<br />
@@ -21,9 +18,7 @@
 👉 重写 swyx.io<br />
 👉 RepoTracker<br />
 
-
-⚡ 展开讲讲
-------
+## ⚡ 展开讲讲
 
 ### Umi 4 RC
 
@@ -121,16 +116,3 @@ Nx 团队很用心的整理，你想知道的所有关于 monorepo 及其工具�
 
 可以跟踪 repo 数据的简单应用。基于 nuxt 3，部署在 vercel。
 
-## 🕒 订阅
-
-本期刊有几种订阅方式，
-
-1、本期刊已开通 **NewsLetter** 的订阅方式，方便不喜欢公众号阅读的朋友们，访问 **[https://mdhappy.substack.com/](https://mdhappy.substack.com/)** 或扫描下方二维码了解详情。
-
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01fgWXv11SlwvuAiz0i_!!6000000002288-2-tps-422-424.png" width="215" />
-
-2、微信搜索 **「云谦和他的朋友们」** 或扫描下方二维码，在我的公众号订阅更新。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

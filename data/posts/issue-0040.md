@@ -1,10 +1,9 @@
-# MDH 前端周刊第 40 期：Chrome 工作原理、高性能 Hydration、次世代图片格式、渐进式 Favicon
-
-<img src="https://tva1.sinaimg.cn/large/008i3skNly1gzc9qutoxrj30vx0hyjtk.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：师父（SIFU）。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0040 期，发表于 2022/02/14。</p>
+---
+title: "Chrome 工作原理、高性能 Hydration、次世代图片格式、渐进式 Favicon"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01WDz7TO1YjYdEoOqPY_!!6000000003095-0-tps-1149-646.jpg"
+titleImageCaption: "师父（SIFU）"
+publishedAt: "2022/02/14"
+---
 
 本期主要内容有这些：
 
@@ -19,14 +18,14 @@
 ## Chrome 工作原理
 https://developers.google.com/web/updates/2018/09/inside-browser-part1
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9rpr6hfj30xc0irmza.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01OBXkvS1lq3Fcd3S90_!!6000000004869-0-tps-1200-675.jpg)
 
 前端必读，面试必考。作者分了 4 篇文章介绍现代浏览器是如何工作的。
 
 ## 高性能 Hydration
 https://dev.to/this-is-learning/why-efficient-hydration-in-javascript-frameworks-is-so-challenging-1ca3
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9sgjivsj30og06aq3l.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01yn3Vsd1KDaMcDIotQ_!!6000000001130-0-tps-880-226.jpg)
 
 并不是有了 SSR 就能有更好的 SEO 和性能。因为简单的 SSR 不能解决问题，反而让可交互时间相比纯 CSR 变得更长。其中一个原因是注水后的代码更大，包含两份模板、两份数据，分别在 HTML 和 JavaScript 中。这个问题可以称呼为 Double Template Problem 和 Double Data Problem。
 
@@ -44,12 +43,12 @@ https://dev.to/this-is-learning/why-efficient-hydration-in-javascript-frameworks
 
 6、Server Components。比如 React Server Components。在部分注水的基础上，在服务端做静态部分的 re-render 就是 Server Components。优点是在部分注水的基础上，保留页面切换时的客户端数据。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9slketkj30jg06vjrv.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01vRVZGI1QiAVFZqi5V_!!6000000002009-0-tps-700-247.jpg)
 
 ## 次世代图片格式
 https://moonvy.com/blog/post/2022/next-generation-Image-format-2022/
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9sv1hjoj315m0pkac1.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01Pi6EZY1b2SCl5tU9b_!!6000000003407-0-tps-1498-920.jpg)
 
 作者非常看好 JPEG XL ，虽然它的有损压缩不如 AVIF，但比起 JPEG 来说有了非常大的进步，而其无损压缩又有优势，并且在最大图像尺寸、色彩深度上有决定性的优势（在传统的摄影、印刷领域）。另外还是唯一可以无损转换旧有 JPEG 图片到新格式的格式，迁移旧数据不需有所顾虑。只待浏览器支持度能赶上 AVIF 了。
 
@@ -85,7 +84,7 @@ const icon = (
 ## 渐进式 Favicon
 https://web.dev/building-an-adaptive-favicon/
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9t5e1ohj318g0p0q4i.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01jmkmOv1lUWdcutL97_!!6000000004822-0-tps-1600-900.jpg)
 
 实现的效果是 Dark 模式下切换 Favicon 样式。背后原理是因为浏览器支持 SVG，然后 SVG 里可以写样式，样式里又可以写 media query。
 
@@ -101,7 +100,7 @@ https://web.dev/building-an-adaptive-favicon/
 ## Web Components 入门
 https://www.abeautifulsite.net/posts/a-web-components-primer/
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9tav5ihj318g0p0q42.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01QFP5Nd1tCg89f5U0J_!!6000000005866-0-tps-1600-900.jpg)
 
 作者简洁明了地介绍了 Custom Element、Shadow DOM、Light DOM、Slots 这些概念分别是啥意思。
 
@@ -127,25 +126,3 @@ Slots 用于 Custom Element 的嵌套，默认的是 `<slot></slot>`，可以声
 - [font awesome 发布 6](https://fontawesome.com/docs/changelog/)，7000+ 新 icon
 - [Babel 发布 7.17](https://babeljs.io/blog/2022/02/02/7.17.0)，正式的 decorator proposal、RegExp v flag、@babel/register 重写
 - [vue devtools 发布 6](https://github.com/vuejs/devtools/releases/tag/v6.0.0)
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫「云谦和他的朋友们」。截止 2022.2.13 已有 200+ 朋友加入，写了 52 篇日更，35 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 52 - 《装了啥 2022》
-- 51 - 《前端技能自评表》
-- 50 - 《Pure ESM》
-- 49 - 《新入的几个 App》
-- 48 - 《信息处理工具的选择》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/008i3skNly1gzc9tn5k6yj30u011xdj6.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」。如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

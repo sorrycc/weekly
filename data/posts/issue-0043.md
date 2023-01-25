@@ -1,10 +1,9 @@
-# MDH 前端周刊第 43 期：Suspense 基础、2022 CSS 特性、Next.js 迁 Remix、发布 Deno 模块到 Npm
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1gzz33h0s1mj21900u07g3.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：mbenna @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0043 期，发表于 2022/03/07。</p>
+---
+title: "Suspense 基础、2022 CSS 特性、Next.js 迁 Remix、发布 Deno 模块到 Npm"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01loBku51k0vQJl23Pb_!!6000000004622-0-tps-1620-1080.jpg"
+titleImageCaption: "mbenna @ unsplash"
+publishedAt: "2022/03/07"
+---
 
 本期主要内容有这些：
 
@@ -107,25 +106,3 @@ https://mp.weixin.qq.com/s/-fLZe164aWAaPJ55iZ_m2w
 - [MDN 新年换新貌，发布了新的样式](https://hacks.mozilla.org/2022/03/a-new-year-a-new-mdn/)，个人感觉更简洁了
 - [TypeScript 发布 4.6](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6/)
 - [Redux Toolkit 发布 1.8](https://github.com/reduxjs/redux-toolkit/releases/tag/v1.8.0)，新增 Listener Side Effects Middleware，允许在 action dispatch 或状态变更时处理逻辑
-
-## 我的知识星球
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.3.7 已有 250+ 朋友加入，写了 67 篇日更，49 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 67 - 《最近新收获的工具、技巧和经验》
-- 66 - 《Umi 的 Api Routes》
-- 65 - 《如何培养新人进大厂》
-- 64 - 《42 岁前的 42 件事》
-- 63 - 《ESBuild 和 Webpack 的 Tree Shaking 差异及其用途》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入（上周发了个假的优惠券，重新发一遍，新增立减 100 的优惠券，截止到周五）。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzz2ylcd1dj20g40nimyz.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

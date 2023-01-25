@@ -1,10 +1,9 @@
-# MDH 前端周刊第 45 期：React 目录结构、Remix 技术栈、Node 之道、HTTPS、Mintlify
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0ggk1gwmrj214x0matdm.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：艾尔登法环，刚入坑。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0045 期，发表于 2022/03/21。</p>
+---
+title: "React 目录结构、Remix 技术栈、Node 之道、HTTPS、Mintlify"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01F9VnQ11d79UwSkxL7_!!6000000003688-0-tps-1473-802.jpg"
+titleImageCaption: "艾尔登法环，刚入坑"
+publishedAt: "2022/03/21"
+---
 
 本期主要内容有这些：
 
@@ -19,7 +18,7 @@
 ## React 目录结构
 https://www.joshwcomeau.com/react/file-structure/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0f1vqm0bsj21600u077o.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01rcGK3p22Rdbr6HHKy_!!6000000007117-0-tps-1512-1080.jpg)
 
 目录结构有两个大流派，按特性（Feature）组织和按功能（Function）组织？按特性组织比如把搜索相关的组件、hooks、helper、model 全部放在 search 下，以此类推；按功能组织是在 src 下建 components、hooks、helpers，然后所有组件存 src/components，所有 hooks 存 src/hooks，以此类推。
 
@@ -38,14 +37,14 @@ https://www.joshwcomeau.com/react/file-structure/
 
 其中 `index.js` 是为了引用时只需要写 Widget，而不需要 Widget/Widget；但主要内容写在 Widget.js 中，index.js 只是做转发，原因是避免编辑器中出现大量的 index.js 标签而不好识别。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0f2vq80v8j20gy01ewea.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN011v4vCD1RF91KATqNF_!!6000000002081-0-tps-610-50.jpg)
 
 作者还有提 helpers 和 utils 的区别，相信很多同学都是不区分直接用 utils 的。作者做了区分，觉得 helpers 是面向当前产品但不通用的，而 utils 是可以完成一项抽象任务的通用方法。
 
 ## Remix 技术栈
 https://remix.run/blog/remix-stacks
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0f4nwgsxij21hc0tb7d1.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01fW3JQB1OqIIS7aoaC_!!6000000001756-0-tps-1920-1055.jpg)
 
 如果大家做过业务开发，会发现除了研发，还有很多流程上的事，其实是更花时间的。因为要让一个产品上线，除了框架，还有 CI & CD 流程、数据库、Hosting 平台、测试、MOCK、UI 库、样式库等都需要考虑。
 
@@ -56,7 +55,7 @@ https://remix.run/blog/remix-stacks
 ## Node 之道
 https://alexkondov.com/tao-of-node/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0g6zmr1zlj21hc0u0gyl.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01gqiw7n1mCx3TSkNOs_!!6000000004919-0-tps-1920-1080.jpg)
 
 Tao of React 作者的新小册，介绍在 Node 领域他对于组织、代码结构、工具、测试和性能的看法，以下是一些摘录。
 
@@ -117,7 +116,7 @@ React 组件第一行总是会带上 `import React from 'react'`，不管 React 
 ## Mintlify
 https://www.mintlify.com/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0gf980qlog20zk0ku4qr.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN01RRTgJW1E8eOu94Hkt_!!6000000000307-1-tps-1280-750.gif)
 
 Mintlify 可以让 AI 帮你写注释，支持接入 VSCode 和 WebStorm。安装后，比如 Webstorm，选中代码后按 `⌘+⇧+.` 即可生成注释。
 
@@ -136,25 +135,3 @@ Mintlify 可以让 AI 帮你写注释，支持接入 VSCode 和 WebStorm。安�
 - [MDX 发布 2.1](https://github.com/mdx-js/mdx/releases/tag/2.1.0)
 - [zx 发布 6](https://github.com/google/zx/commits/main)
 - [Vite 发布 2.9 Beta](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#290-beta1-2022-03-14)，优化冷启动速度，从 1s 到 500ms
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.3.21 已有 300+ 朋友加入，写了 77 篇日更，59 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 77 - 《火焰图与 Umi Cli 性能 5 倍提升》
-- 76 - 《2022 最潮的 Demo 编写方式》
-- 75 - 《一份新大纲：「极简框架课：手写 Umi」》
-- 74 - 《如何面校招生 2022》
-- 73 - 《程序员如何高效写作》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

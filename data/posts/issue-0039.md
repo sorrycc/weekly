@@ -1,10 +1,9 @@
-# MDH 前端周刊第 39 期：MDX 2、React 2022、Notion API Blog、Sponsor Only 仓库、upgit
-
-**这是 「MDH：前端周刊」 第 0039 期，发表于：2022/02/07。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz2w4bgv8lj318u0u0wkk.jpg)
-
-封面图：kasiape @ www.unsplash.com 。
+---
+title: "MDX 2、React 2022、Notion API Blog、Sponsor Only 仓库、upgit"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01hEpOTk1Drhk7WgvPD_!!6000000000270-0-tps-1614-1080.jpg"
+titleImageCaption: "kasiape @ unsplash"
+publishedAt: "2022/02/07"
+---
 
 
 ## ❄️ TL;DR
@@ -38,7 +37,7 @@ Remix 之前已经聊过很多遍，特点是性能、渐进增强、嵌套路�
 ### 手写 Schema 表单
 https://www.taniarascia.com/schema-based-form-system/
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz1miulag9j30rs0jg3zs.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01Uz3BE41PCjhy5Q8ZB_!!6000000001805-0-tps-1000-700.jpg)
 
 觉得手写表单麻烦吗？试试 Schema 表单吧。
 
@@ -49,7 +48,7 @@ https://www.taniarascia.com/schema-based-form-system/
 ### Notion API Blog
 https://www.coryetzkorn.com/blog/how-the-notion-api-powers-my-blog
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz2vb6aw7nj31c00u0q76.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01W7Nw6H1nnQD7h2ak4_!!6000000005134-0-tps-1728-1080.jpg)
 
 技术栈基于 Next.js、TypeScript 和 Notion API，然后主要是 3 步。
 
@@ -64,7 +63,7 @@ https://www.coryetzkorn.com/blog/how-the-notion-api-powers-my-blog
 ### Sponsor Only 仓库
 https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz2waxt28ej318g0nmq44.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01b5I3WF25medDU5qUc_!!6000000007569-0-tps-1600-850.jpg)
 
 Github 支持 Sponsor Only 仓库，就是某些仓库只有 Sponsor 才能访问。个人感觉 Github 官方开这个功能不太好，会带出一种风气，导致大量私库的出现，和开源的风气背道而驰。
 
@@ -73,30 +72,16 @@ Github 支持 Sponsor Only 仓库，就是某些仓库只有 Sponsor 才能访�
 ### React 故事
 https://www.youtube.com/watch?v=Wm_xI7KntDs
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz2uty7onlj319s0jqgmq.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01ZV6ni01SdhsUCMNmh_!!6000000002270-0-tps-1648-710.jpg)
 
 想知道 React 是如何一步步走到现在的？作者用视频的方式简单幽默做了回顾，从 jQuery 和 Backbone 到 Next.js 和 Remix。对于 React 初学者来说应该挺有意义的。
 
 ### upgit
 https://github.com/pluveto/upgit
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz3l5mlj1yj306a021web.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN013DF7p61sMSyXbdN9q_!!6000000005752-0-tps-226-73.jpg)
 
 内置在 Typora 中的图片上传工具，目前支持上传到 github 或 sm.ms。Typora 之前用 PicGo，但由于太臃肿，Typora 自己实现了一个轻量版的，基于 Go。
 
 我基于这个做了个简单的 ShortCuts，基本可以代替 iPic 的功能了。
 
-
-## 🕒 订阅
-
-本期刊有几种订阅方式，
-
-1、本期刊已开通 **NewsLetter** 的订阅方式，方便不喜欢公众号阅读的朋友们，访问 **[https://mdhappy.substack.com/](https://mdhappy.substack.com/)** 或扫描下方二维码了解详情。
-
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01fgWXv11SlwvuAiz0i_!!6000000002288-2-tps-422-424.png" width="215" />
-
-2、微信搜索 **「云谦和他的朋友们」** 或扫描下方二维码，在我的公众号订阅更新。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

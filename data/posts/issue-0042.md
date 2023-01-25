@@ -1,10 +1,9 @@
-# MDH 前端周刊第 42 期：手写 Babel、手写文本编辑器、阅读 ES 规范
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1gzqwermsnjj21900u0qc6.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：good_citizen @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0042 期，发表于 2022/02/28。</p>
+---
+title: "手写 Babel、手写文本编辑器、阅读 ES 规范"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01pRPZLk1ajDZSoe8K4_!!6000000003365-0-tps-1620-1080.jpg"
+titleImageCaption: "good_citizen @ unsplash"
+publishedAt: "2022/02/28"
+---
 
 本期主要内容有这些：
 
@@ -18,13 +17,13 @@
 ## 手写 Babel 之 Tokenizer
 https://www.nan.fyi/tokenizer
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzqrc9hmiej212i09e0tl.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01Aymgff1W0YU66T2pr_!!6000000002726-0-tps-1386-338.jpg)
 
 编译器的步骤是 Tokenizer、Parser、Transform 和 Generate，上一步的结果是下一步的输入，源码进，修改后的代码出。这篇只介绍第一部分：Tokenizer。
 
 Tokenizer 是把代码转化为一系列机器友好的记号，变成更结构化的数据格式，见下图，把源码转化为区分 keyword、identifier、string 等的 token。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzqrnkfcmmj20u00w8dhs.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01xLdTIy1VwQuwS472B_!!6000000002717-0-tps-1080-1160.jpg)
 
 token 包含单字符 token（比如点、括号、大括号、分号等）、identifier、关键词（function、const 等）、字符串等。实现的方式是逐个字符循环判断，实现详见 156 行的 TypeScript 代码，https://github.com/narendrasss/compiler/blob/main/src/tokenizer.ts 。
 
@@ -33,7 +32,7 @@ token 包含单字符 token（比如点、括号、大括号、分号等）、id
 ## 手写文本编辑器
 https://www.smashingmagazine.com/2022/02/develop-text-editor-web/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzqpu90u7wj21gn0u0abw.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN012YzdSg1nTGmPvrl9d_!!6000000005090-0-tps-1895-1080.jpg)
 
 基于 Textarea 的文本编辑器，摘要如下，
 
@@ -73,7 +72,7 @@ Set {}
 ## React component as Props
 https://www.developerway.com/posts/react-component-as-prop-the-right-way
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzqudl6t96j21n40u0wgz.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01R4hmRK1R5z6CdGDXA_!!6000000002061-0-tps-2128-1080.jpg)
 
 React 中，做一件事通常都有很多方法，把组件作为 props 往下传也不例外，通常有三种方式：
 
@@ -86,7 +85,7 @@ React 中，做一件事通常都有很多方法，把组件作为 props 往下�
 ## gti
 https://r-wos.org/hacks/gti
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzqq1blmv3g20fr054qdb.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01juMab21iK2ipZM7wF_!!6000000004393-1-tps-567-184.gif)
 
 给你的 git 命令加个 ASCII 动画的 Loading 效果。
 
@@ -117,25 +116,3 @@ https://egoist.sh/pnpm-monorepo
 - [Chrome 99 DevTools 更新](https://developer.chrome.com/blog/new-in-devtools-99/)，WebSocket 请求支持慢速比如 Slow 3G、Chrome 插件支持 sourcemap、更好看的 console 样式和格式等
 - [Parcel CSS 发布 1.4](https://twitter.com/devongovett/status/1496516023775903745)，一些具体样式规则的支持与改进
 - [History 发布 5.3](https://github.com/remix-run/history/releases/tag/v5.3.0)，支持所有 export 的 Native ESM 消费方式
-
-## 我的知识星球
-
-我在知识星球开了个专栏，付费的那种。专栏名叫「云谦和他的朋友们」。截止 2022.2.28 已有 200+ 朋友加入，写了 62 篇日更，44 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 5 篇日更。
-
-- 62 - 《高效使用 Chrome 收藏夹》
-- 61 - 《包管理器：npm、yarn、cnpm 和 pnpm（上）》
-- 60 - 《找到依赖：node 和 webpack 的 resolve 机制》
-- 59 - 《App 推荐：Tot》
-- 58 - 《TypeScript 格式配置的 AOT 和 JIT》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入（新增立减 100 的优惠券，截止到周五）。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzs8wwdt4tj20g40nimyz.jpg)
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

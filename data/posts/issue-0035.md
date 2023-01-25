@@ -1,12 +1,12 @@
-# MDH 前端周刊第 35 期：SEE Conf、手写 Valtio、Turborepo、Chrome 97
+---
+title: "SEE Conf、手写 Valtio、Turborepo、Chrome 97"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01m0K3nl1Pqa5hMQ5O4_!!6000000001892-0-tps-2400-1600.jpg"
+titleImageCaption: "我在 SEE Conf 的分享"
+publishedAt: "2022/01/10"
+---
 
-**这是 「MDH：前端周刊」 第 0035 期，发表于：2022/01/10。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
 
-![](https://img.alicdn.com/imgextra/i1/O1CN01m0K3nl1Pqa5hMQ5O4_!!6000000001892-0-tps-2400-1600.jpg)
-
-
-❄️ TL;DR
-------
+## ❄️ TL;DR
 
 👉 SEE Conf<br />
 👉 Monorepo 工具集<br />
@@ -20,8 +20,7 @@
 👉 pnpm 2021<br />
 
 
-⚡ 展开讲讲
-------
+## ⚡ 展开讲讲
 
 ### SEE Conf
 
@@ -151,12 +150,3 @@ nx 和 yarn workspace 是互补的关系，可以一起用；而 turborepo 目�
 
 pnpm 2021 的年报非常精彩。下载相比 2020 多 3 倍，大部分用户来自美国和中国，Github Stars +5000，最大的新用户是字节，大量社区框架和工具切换到 pnpm。
 
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

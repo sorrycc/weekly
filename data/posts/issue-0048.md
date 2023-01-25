@@ -1,10 +1,9 @@
-# MDH 前端周刊第 48 期：Remix Routes、ShadowRealms、Rome Formatter、Umi 4 RC 11
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h14q6p46zzj21900u0gyg.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">dnevozhai @ unsplash</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0048 期，发表于 2022/04/11。</p>
+---
+title: "Remix Routes、ShadowRealms、Rome Formatter、Umi 4 RC 11"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01Ut1yGE1R2mKP0525C_!!6000000002054-0-tps-1620-1080.jpg"
+titleImageCaption: "dnevozhai @ unsplash"
+publishedAt: "2022/04/11"
+---
 
 本期主要内容有这些：
 
@@ -77,14 +76,14 @@ ShadowRealm 目前尚未有落地的浏览器实现，可通过 [shadowrealms-po
 ## Web Maker
 https://github.com/chinchang/web-maker
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h14o38urm8j20yi0k8tb4.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN017TWRbh1OOM8mTL4pK_!!6000000001695-0-tps-1242-728.jpg)
 
 开源的 HTML、CSS、JS 在线 DEMO 工具，类似 CodePen 和 JSFiddle，特点是可离线工作。
 
 ## Rome Formatter
 https://rome.tools/blog/2022/04/05/rome_formatter_release
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h14nzkwkoog21ec0j8b29.gif)
+![](https://img.alicdn.com/imgextra/i4/O1CN014DMMOC1Y18DL8zedI_!!6000000002998-1-tps-1812-692.gif)
 
 Rome Formatter 是基于 Rust 重写后的 Rome 的第一个版本，相比 Prettier，除了快 9-12 倍，还有个重要特点是如上图所示，就算代码里有错误，也能正确格式化，这是我使用 Prettier 经常遇到的问题。
 
@@ -162,13 +161,13 @@ importSource: undefined,
 ## Resumability
 https://www.builder.io/blog/from-static-to-interactive-why-resumability-is-the-best-alternative-to-hydration
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h14ocoa6zqj21660r0taq.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN014hvTgr20cyAzO64Y8_!!6000000006871-0-tps-1518-972.jpg)
 
 Prerender 可以让 HTML 更快出来，通常的办法是 SSR 和 SSR。问题是，现在的应用通常是动态和富交互的，如何给 prerender 的 HTML 加上交互，现代框架的解法是 Hydration。
 
 Hydration 需要加载完整的 JS Bundle、执行代码、关联 event hanlder、恢复应用 state、重建组件树，这一系列的步骤相对来说都是非常慢的，让 TTI 时间变慢。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h14oez3sfej21ht0u0mzo.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01NKzhQt1Sru9W0ABN9_!!6000000002301-0-tps-1937-1080.jpg)
 
 对于 Hydration 慢的问题，社区已在尝试其他解，比如序列化，通过解析 JSON 来恢复页面状态，让可交互时间变得很短。但问题是，状态可以序列化，而事件、组件树要做序列化的难度很大，因为要考虑闭包、Promise、资源引用等。
 
@@ -210,15 +209,3 @@ import x from './package.json' assert { type: 'json' };
 - [RedwoodJS 发布 1](https://community.redwoodjs.com/t/redwood-1-0-is-now-available/2958)，类 Ruby on Rails 的框架
 - [react-query 发布 4.0.0-beta.1](https://github.com/tannerlinsley/react-query/releases/tag/v4.0.0-beta.1)，支持 react 18
 - [Node 18 将内置 test runner](https://fusebit.io/blog/node-testing-comes-to-core/)，通过提供 `node:test` 内置包的形式
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

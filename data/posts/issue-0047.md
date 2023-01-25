@@ -1,10 +1,9 @@
-# MDH 前端周刊第 47 期：React 18、Chrome 100、TypeScript String Literal、Case Police、异步代码 Lint 规则
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0v8qno3q6j21qg0u0qjp.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：欧洲叠石头大赛 2019 冠军。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0047 期，发表于 2022/04/04。</p>
+---
+title: "React 18、Chrome 100、TypeScript String Literal、Case Police"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01z6rW8D1bFHIKRYq0V_!!6000000003435-0-tps-2248-1080.jpg"
+titleImageCaption: "欧洲叠石头大赛 2019 冠军"
+publishedAt: "2022/04/04"
+---
 
 本期主要内容有这些：
 
@@ -19,7 +18,7 @@
 ## React 18
 https://reactjs.org/blog/2022/03/29/react-v18.html
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0waqyc0wdj20zk0jq0u8.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01xgk7yK1XQ28KL7zYP_!!6000000002917-0-tps-1280-710.jpg)
 
 React 18 真的发布了。注意，这不是演习！
 
@@ -38,7 +37,7 @@ React 18 真的发布了。注意，这不是演习！
 ## Chrome 100
 https://developer.chrome.com/en/blog/new-in-chrome-100/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wiyohscdj218g0dc0wt.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01i3WXJs205zex3UYxc_!!6000000006799-0-tps-1600-480.jpg)
 
 Chrome 迎来 100 的三位数版本号，两个重要变化。
 
@@ -70,7 +69,7 @@ screens.addEventListener('screenschange', (e) => {});
 ## TypeScript 字符串字面量类型
 https://lihautan.com/extract-parameters-type-from-string-literal-types-with-typescript/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wja8248qj213y0c0tal.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN017TPQp41KwTB5ml2GW_!!6000000001228-0-tps-1438-432.jpg)
 
 这篇文章教你如何从字符串字面量类型一步步推导出请求参数类型，即从 `/users/[userId]/[postId]/[...args]` 推导出 req.params.userId 等，从而成为合格的「类型体操运动员」。
 
@@ -157,7 +156,7 @@ Promise.reject('An error occurred');
 ## GitLanding
 https://github.com/thieryw/gitlanding
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wmhbyl6nj21kn0u00xq.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01vOP95f1WR7SNlb8UE_!!6000000002784-0-tps-2039-1080.jpg)
 
 适用于 Landing Page 的垂类 React 组件库。
 
@@ -205,34 +204,3 @@ https://medium.com/actiresults/20-productivity-tips-from-developers-to-developer
 - [Vite 发布 2.9.0](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#290-2022-03-30)
 - [react-three-fiber 发布 8](https://docs.pmnd.rs/react-three-fiber/tutorials/v8-migration-guide)，兼容 react 18，支持 react native
 - [MailDev 发布 2](http://maildev.github.io/maildev/)，SMTP server & web interface for viewing and testing emails during development
-
-## 推广
-
-我在知识星球开了个专栏，付费的那种。专栏名叫[「云谦和他的朋友们」](https://mp.weixin.qq.com/s/_23bA1R4t8KiIjCwmr83OQ)。截止 2022.04.04 已有 300+ 朋友加入，写了 90 篇日更，69 篇每日前端资讯简报，还有大量问题回复。
-
-以下是上周的 8 篇日更。
-
-- 90 - 《Bigfish 4 特性 02：React Router 6 和新路由》
-- 89 - 《Bigfish 4 特性 01：MFSU V3》
-- 88 - 《最近新收获的工具、技巧和经验 02》
-- 87 - 《Umi 近期想做的事（二）》
-- 86 - 《分析 import 和 export 的 6 种方式》
-- 85 - 《手写 Umi 三：极简脚手架》
-- 84 - 《手写 Umi 二：路由和 SPA》
-- 83 - 《如何入坑老头环》
-
-<p style="color:#b5495b;"><a style="color:#b5495b;" href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247484448&idx=1&sn=3195bb82d2d2b7d58305c4f1aeae5e0d">点击此处查看详情</a>或扫下方二维码加入。</p>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h08blrtribj20sr12rgpn.jpg)
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-以上就是本期我的分享。如果需要文内资讯的链接，请点击「查看原文」进入语雀查看。持续更新不易，如果你喜欢本周刊，请转发给你的朋友，告诉他们到这里来订阅，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>
