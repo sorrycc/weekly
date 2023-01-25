@@ -43,7 +43,7 @@ export default function Layout() {
           <Link to="/">MDH Weekly</Link>
         </h1>
         <nav>
-          <Link to="/weekly">周刊</Link>
+          <Link to="/weekly">往期周刊</Link>
           <a href="https://q.sorrycc.com/">知识星球</a>
           <a href="https://github.com/sorrycc/weekly/issues">投稿</a>
           <a href="/rss.xml">RSS</a>

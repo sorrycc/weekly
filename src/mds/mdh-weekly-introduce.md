@@ -6,6 +6,12 @@ MDH 前端周刊源于 2021 年的一次临时起意，通过公开立 Flag + �
 
 我叫陈成（sorrycc），曾就职于阿里巴巴，取花名「云谦」，后转岗到蚂蚁集团，工作至今。阿里 & 蚂蚁 10 年 + 老前端、ZJU、P8、[Umi](https://github.com/umijs/umi) & [Dva](https://github.com/dvajs/dva) 等开源库作者，蚂蚁中台框架 Owner，「MDH 前端周刊」作者，热爱开源、分享、写作。
 
+<strong>如何订阅？</strong>
+
+你可以通过 [RSS](/rss.xml) 的方式订阅；也可扫下方二维码关注我的公众号，然后每周一早上 9 点会准时收到推送。
+
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01PBdSNj1SIBGJTJn52_!!6000000002223-2-tps-840-855.png_200x200.jpg" width="200" height="200" style="margin:0;" />
+
 <strong>联系我？</strong>
 
 如有需要，你可以在 [Github](https://github.com/sorrycc)、[Twitter](https://twitter.com/chenchengpro)、[知乎](https://www.zhihu.com/people/chenchengpro)、[哔哩哔哩](https://space.bilibili.com/27472034)上找到我，也`可以通过`邮箱 [sorrycc#gmail.com](mailto:sorrycc@gmail.com) 联系到我，或者扫下方二维码加我微信沟通。
