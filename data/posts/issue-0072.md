@@ -1,12 +1,9 @@
-# MDH 前端周刊第 72 期：Qwik City、Umi x Valtio、再见 useEvent、React 18 快在哪
-
-<img src="https://tva1.sinaimg.cn/large/006y8mN6ly1h6q5smyvbdj31900u041e.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：nicholasjio @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0072 期，发表于 2022/10/03。<span style="color:red;font-weight:bold;">同时，从本期开始，准备尝试个小规则，如果「文章点赞量 >= 50」，则继续周更继续更新，否则，就偷个懒，隔一周更新。</span></p>
-
-
+---
+title: "Qwik City、Umi x Valtio、再见 useEvent、React 18 快在哪"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01X2gZ9e26pgs4HdC2n_!!6000000007711-0-tps-1620-1080.jpg"
+titleImageCaption: "nicholasjio @ unsplash"
+publishedAt: "2022/10/03"
+---
 
 本周有这些内容想和你分享：
 
@@ -22,7 +19,7 @@
 ## Qwik City
 https://www.builder.io/blog/qwik-and-qwik-city-have-reached-beta
 
-![](https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F5f8db18f68c74f6f9919f3877b6246b4?format=webp&width=2000)
+![](https://img.alicdn.com/imgextra/i4/O1CN01Apaiux1MTjYmuqvt0_!!6000000001436-2-tps-2586-1516.png)
 
 Qwik 在推出 Beta 版时，同时推出了他们的框架 Qwik City。
 
@@ -58,7 +55,7 @@ valtio 的特点是外部多 Store + 基于 Proxy。1）个人用不惯 jotai �
 ## Chrome 发布流程
 https://developer.chrome.com/en/blog/chrome-updates/
 
-![](https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/hlWZ6vcwjIBjagdnkVUS.jpeg?auto=format&w=1600)
+![](https://img.alicdn.com/imgextra/i2/O1CN01D5rGhU1XkdxHKg6x9_!!6000000002962-2-tps-3190-1588.png)
 
 Chrome 每个月都会更新版本，他们是如何确保发布稳定性和修复问题的，以下是一些摘录。
 
@@ -85,14 +82,14 @@ https://www.reddit.com/r/reactjs/comments/xmr9tg/comment/ippsuin/
 ## TypeScript 入门教程
 https://www.totaltypescript.com/tutorials/beginners-typescript
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6q47uf4njj30f30kqmy9.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN0126Zamb1nb3VryloSh_!!6000000005107-0-tps-543-746.jpg)
 
 Matt 的免费 TypeScript 入门教程，以问题和答案的形式。看完入门教程，还可以看看他的 TypeScript Tips 系列，包含不少有用的进阶小技巧。
 
 ## Dracula UI
 https://ui.draculatheme.com/
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6q5kp8qt1j30xc0hiaaw.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01Y2xH3V25Oq27GEYir_!!6000000007517-0-tps-1200-630.jpg)
 
 刚开源，特点如下。
 
@@ -105,20 +102,6 @@ https://ui.draculatheme.com/
 ## VSCode 宠物插件
 https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
 
-![](https://github.com/tonybaloney/vscode-pet/raw/master/screenshots/screenshot.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01mKZUUe1hPi0XfbWEK_!!6000000004270-1-tps-1384-686.gif)
 
 装个宠物插件，提升开发体验，哈哈。在你的代码编辑器中放入一只无聊的小猫、一只热情的狗、一条好动的蛇、一只橡皮鸭或 Clippy，还能互动。。
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 71 期：satisfies、JavaScript 框架、防挡弹幕、Mac 设置、npm 包最佳实践
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h6iznc0l3aj21dv0u0abi.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：anniespratt @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0071 期，发表于 2022/09/26。</p>
+---
+title: "satisfies、JavaScript 框架、防挡弹幕、Mac 设置、npm 包最佳实践"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01W8I0Q11qrwyUfUOjV_!!6000000005550-0-tps-1795-1080.jpg"
+titleImageCaption: "anniespratt @ unsplash"
+publishedAt: "2022/09/26"
+---
 
 本周有这些内容想和你分享：
 
@@ -52,7 +51,7 @@ foo.blue.startsWith('o');
 ## 新一波 JavaScript 框架
 https://frontendmastery.com/posts/the-new-wave-of-javascript-web-frameworks/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6irde8ub2j21lu0owdj6.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01unUt6t1y3aLHC9z87_!!6000000006523-0-tps-2082-896.jpg)
 
 作者从 Web 之初、CGI、PHP 开始讲起，讲 JavaScript 历史画卷一幅幅展开，既有 Ajax、jQuery、Backbone、YUI 等一代代的 JavaScript 库前辈，又有 Astro、Fresh、Remix 等新一波的 JavaScript 框架。推荐阅读，从中可以了解为什么会有这些库和框架，以及他们都是为了解什么而生的？
 
@@ -61,7 +60,7 @@ https://frontendmastery.com/posts/the-new-wave-of-javascript-web-frameworks/
 ## B 站防挡弹幕
 https://juejin.cn/post/7141012605535010823
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6is1s0a78j21hb0u0q4o.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN015l3oLa1QhFiJCDxEB_!!6000000002007-0-tps-1919-1080.jpg)
 
 我一直以为这和前端技术无关。没想到只要一行 CSS + 通过分割算法自动生成的遮罩图即可实现。
 
@@ -73,7 +72,7 @@ https://juejin.cn/post/7141012605535010823
 
 上图的遮罩图片如下。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6is7zasruj20jy09sjs4.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01rvLoND1LRc6u9T6EB_!!6000000001296-0-tps-718-352.jpg)
 
 ## 设置 Mac 新电脑
 https://cpojer.net/posts/set-up-a-new-mac-fast
@@ -88,7 +87,7 @@ Jest 作者换了新 Mac 之后的快速配置方法，以下是一些记录。
 ## npm 包最佳实践
 https://snyk.io/blog/best-practices-create-modern-npm-package/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6ivyzk2aej21sa0qejwn.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01YMjeKd25o1omPX2ry_!!6000000007572-0-tps-2314-950.jpg)
 
 简要流程如下，
 
@@ -106,21 +105,21 @@ https://snyk.io/blog/best-practices-create-modern-npm-package/
 ## cli 最佳实践
 https://clig.dev/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6iz2wfcn9j21v80u0n0n.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01GwpWsn1axPqZ57IM4_!!6000000003396-0-tps-2420-1080.jpg)
 
 如果你有写命令行的需求，推荐阅读本文及其「Further reading」中推荐的文章。
 
 ## 用 Node 写 Shell 脚本
 https://exploringjs.com/nodejs-shell-scripting/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6ixu3iowyj20el0kuq3l.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01bzyY3r1koOCSz8mB2_!!6000000004730-0-tps-525-750.jpg)
 
 Dr. Axel Rauschmayer 的新书，HTML 版本免费。
 
 ## tauri 快速上手
 https://blog.logrocket.com/tauri-electron-comparison-migration-guide/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6iykfokxnj20ka0fujrr.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN017IW9UC1ge4ohLPaOp_!!6000000004166-0-tps-730-570.jpg)
 
 快速上手 3 命令。
 
@@ -133,20 +132,7 @@ $ npm run tauri build
 ## Ezno
 https://kaleidawave.github.io/posts/introducing-ezno/
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6irjaehehj20xc0hh404.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01JDHPF61CWo3XquVfO_!!6000000000089-0-tps-1200-629.jpg)
 
 一个 JavaScript 编译器，作者是年仅 21 岁的 UK 小哥。Ezno 内核是类型校验器，与 tsc 类似。
 
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

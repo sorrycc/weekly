@@ -1,10 +1,9 @@
-# MDH 前端周刊第 75 期：CSS-in-JS、Node 18、完美提交、ChiselStrike、Ultra
-
-<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h7vim0cehmj31900u0myx.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：clemy32 @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0075 期，发表于 2022/11/07。</p>
+---
+title: "CSS-in-JS、Node 18、完美提交、ChiselStrike、Ultra"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01jniA2y1rzZAsm3YhQ_!!6000000005702-0-tps-1620-1080.jpg"
+titleImageCaption: "封面图：clemy32 @ unsplash"
+publishedAt: "2022/11/07"
+---
 
 本周有这些内容想和你分享：
 
@@ -88,7 +87,7 @@ firstArg foo
 
 啥时候需要用到这个功能？为了性能。相同的程序基于快照运行会快很多（1 倍以内）。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h7tfvvymd3j30ka03ywf2.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01EY0K0a1Pr2Yn01gkH_!!6000000001893-0-tps-730-142.jpg)
 
 ## 完美提交
 https://simonwillison.net/2022/Oct/29/the-perfect-commit/
@@ -113,7 +112,7 @@ https://simonwillison.net/2022/Oct/29/the-perfect-commit/
 ## ChiselStrike
 https://github.com/chiselstrike/chiselstrike
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h7u48nxz49j30ys0r9tcr.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN011WPSlY1HUaDR2oAuw_!!6000000000761-0-tps-1252-981.jpg)
 
 ChiselStrike 可以用于快速原型。我们只要通过 TypeScript 声明类似下方代码的 Model，ChiselStrike 就会为我们生成 curd 的 REST API。同时支持 Filter、Limit、Sort 等功能。场景上还有搜索、分页、授权、关系等功能也是支持的。
 
@@ -134,17 +133,10 @@ export default BlogPost.crud();
 ## Ultra
 https://github.com/nachoaldamav/ultra
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h7u4oh3iq3j30zs0cegmj.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01M4stcN1Cl0Ko1B2fE_!!6000000000120-0-tps-1288-446.jpg)
 
 Ultra 是个极轻量和快速的 package client 工具，使用和 pnpm 一样的安装机制，缓存到 .ultra-cache 目录，同时为每个依赖创建 hard link。据官方数据看，比 pnpm、npm、yarn 都快，只比 bun 慢一点。但我测下来却不是，如下图。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h7u4pojh88g30p60hpb1m.gif)
+![](https://img.alicdn.com/imgextra/i3/O1CN01QNAof221CEfhvzXX9_!!6000000006948-1-tps-906-637.gif)
 
 由于其比较轻量，比较适合对 package client 工具感兴趣的阅读源码入门。
-
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

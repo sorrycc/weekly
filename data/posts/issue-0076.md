@@ -1,10 +1,9 @@
-# MDH 前端周刊第 76 期：可扩展的 CSS、TanStack Router、Solid Start Beta、npm query、Rome 10、Gastby 5
-
-<img src="https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/anastasiia-mazurok-ks4dmJmPeVQ-unsplash.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：saahthay @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0076 期，发表于 2022/11/14。</p>
+---
+title: "可扩展的 CSS、TanStack Router、Solid Start Beta、npm query、Rome 10"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01UBOASE1juVsSjAjby_!!6000000004608-0-tps-1920-1273.jpg"
+titleImageCaption: "封面图：saahthay @ unsplash"
+publishedAt: "2022/11/14"
+---
 
 本周有这些内容想和你分享：
 
@@ -20,7 +19,7 @@
 ## 可扩展的 CSS
 https://frontendmastery.com/posts/the-evolution-of-scalable-css/
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221113232436.png)
+![](https://img.alicdn.com/imgextra/i3/O1CN01adNlFU1WEklA58kyn_!!6000000002757-2-tps-1658-762.png)
 
 传统 CSS 为啥难以维护？有几大难题。1）全局命名空间，任何东西都可能影响到其他东西，（注：[CSS Cascade Layers](https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/) 是这个问题的解之一）2）命名困难，需要为每个 class 和 id 想个名字，3）重构 CSS 困难，维护到后期只做样式添加而不敢删除，也可能由于不清楚依赖关系而存在大量的无用代码，4）调试 CSS 困难，需要在脑子里模拟 CSS 的定位、对齐、背景、边界等。
 
@@ -37,7 +36,7 @@ https://frontendmastery.com/posts/the-evolution-of-scalable-css/
 ## TanStack Router
 https://tanstack.com/router/v1
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221113234319.png)
+![](https://img.alicdn.com/imgextra/i2/O1CN01voT0ho1hvljVqSWZH_!!6000000004340-2-tps-1526-788.png)
 
 Tanner 公布了他的新项目：一个 100% 类型安全、与框架无关的路由路由方案。100% 的类型安全意味着路由器从路由定义到渲染都是完全推断的，所以你在任何地方都能得到自动完成，你不必担心编写不安全的路由。
 
@@ -55,7 +54,7 @@ Tanner 公布了他的新项目：一个 100% 类型安全、与框架无关的�
 ## Solid Start Beta
 https://www.solidjs.com/blog/introducing-solidstart
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221111175524.png)
+![](https://img.alicdn.com/imgextra/i4/O1CN01eAYQwL1pL8zDKLca9_!!6000000005343-2-tps-2534-1166.png)
 
 SolidStart 已进入 Beta 阶段。
 
@@ -109,7 +108,7 @@ npm query "[name*=gulp]" | jq 'map(.name)|join("\n")' -r | xargs -I {} npm unins
 ## Stately.ai
 https://swizec.com/blog/when-your-brain-is-breaking-try-stately-ai/
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221109130222.png)
+![](https://img.alicdn.com/imgextra/i3/O1CN01aqRf6U1LJMyuj919u_!!6000000001278-2-tps-1312-664.png)
 
 作者觉得，当你的大脑已经容不下复杂的逻辑时，试试 xstate 和 stately.ai 吧。xstate 是处理状态机的库，可以避免我们写出下面这种大量三元表达式的代码；后者是前者的可视化工具，先画出状态机，合作完成它，然后再导出到代码中，将其插入 xstate，与喜欢的 UI 库结合使用。
 
@@ -138,7 +137,7 @@ return (
 ## Rome 10
 https://rome.tools/blog/2022/11/08/rome-10.html
 
-![Ewf4Yc](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/Ewf4Yc.jpg)
+![Ewf4Yc](https://img.alicdn.com/imgextra/i2/O1CN018zbhXx1nLwRjwBxyw_!!6000000005074-0-tps-4081-2000.jpg)
 
 Rome 发布 10，这是用 Rust 重写依赖的第一个稳定版本。Rome是一个雄心勃勃的项目，旨在将几十个前端语言工具统一到一个从零开始的、易于使用的工具中。这个版本包含 linter 和 formatter 两个工具，用于代替 eslint 和 prettier，内置支持 JavaScript 和 TypeScript。
 
@@ -161,14 +160,14 @@ Rome 包尺寸为 8.7M，我本地尝试用 Rome Format 代替 Prettier 执行�
 
 重点是快，以下是和 prettier 的对比。
 
-![f1f20eIeRqLJnLLU](https://image-1256177414.cos.ap-shanghai.myqcloud.com/uPic/f1f20eIeRqLJnLLU.gif)
+![f1f20eIeRqLJnLLU](https://img.alicdn.com/imgextra/i1/O1CN01hrA6An1I6b5PzMqYN_!!6000000000844-1-tps-900-360.gif)
 
 最后说下我理解的 Rome 目前的缺点。1）IDE 支持差，比如 WebStorm 还不能方便地支持，2）不支持扩展，比如除了 prettier 内置规则，我还会用 package.json 排序和 import 语句排序，3）可配置的功能点少，对比下配置文档就能感受到，4）暂不支持 TS 4.9 的 satisfies 语法。
 
 ## Gastby 5
 https://www.gatsbyjs.com/blog/gatsby-5/
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/20221110103214.png)
+![](https://img.alicdn.com/imgextra/i4/O1CN01Df4g4O1YGhg0WHcti_!!6000000003032-2-tps-1200-600.png)
 
 Gatsby 5.0 正式发布。包括 Gatsby Slice API，允许在修改布局元素（页眉、页脚……）时改善构建时间，并在测试版中支持服务器组件，允许部分水化。还有新的 Head/Script 组件，GraphiQL v2，等等。
 
@@ -194,19 +193,6 @@ export const loader = async () => {
 
 可达到的瀑布流如下。
 
-![](https://image-1256177414.cos.ap-shanghai.myqcloud.com/picgo/199844432-2ef6e085-c141-4637-a735-ff0d92998ce0.gif)
+![](https://img.alicdn.com/imgextra/i2/O1CN01VmdYI31gWkTqcmfoR_!!6000000004150-1-tps-880-368.gif)
 
 这和在组件里用 useEffect 有啥区别？useEffect 的方式，不能做到所有请求并行发起，相比之下会慢一些。「The earlier you initiate a fetch, the better, because the sooner it starts, the sooner it can finish.」
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

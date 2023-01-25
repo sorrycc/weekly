@@ -1,10 +1,9 @@
-# MDH 前端周刊第 73 期：TypeScript 10 年、最快前端模板、whyframe、template 元素
-
-<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h78nznj63ij31hc0sn7b8.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：filmazzarino @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0073 期，发表于 2022/10/17。</p>
+---
+title: "TypeScript 10 年、最快前端模板、whyframe、template 元素"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01PfgvCg1OlFwbPpEYg_!!6000000001745-0-tps-1920-1031.jpg"
+titleImageCaption: "封面图：filmazzarino @ unsplash"
+publishedAt: "2022/10/17"
+---
 
 本周有这些内容想和你分享：
 
@@ -51,7 +50,7 @@ Jest 作者梳理了他认为最快的 2022 最快前端工具集以及与之配
 ## whyframe
 https://whyframe.dev/
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h78d91mr3gj31c40qete1.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01xCljXE1a2cjkPO3fN_!!6000000003272-0-tps-1732-950.jpg)
 
 whyframe 是基于构建工具改进 iframe 编写方式的方案。适用于给组件库写文档，或者给文章写 example 的场景。支持 vue、react、svelte、webpack、vite 等。
 
@@ -68,7 +67,7 @@ whyframe 是基于构建工具改进 iframe 编写方式的方案。适用于给
 ## 手写 React 渲染器
 https://www.markcodes.dev/posts/build-react-custom-renderer-part-1
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h74zn8qmxmj31jj0msjtt.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01kzZqGS1Rup3sVgZBU_!!6000000002172-0-tps-1999-820.jpg)
 
 由于有 react-reconciler，让自定义 React 渲染器变地相当简单。
 
@@ -125,7 +124,7 @@ render(<App />, document.getElementById('root'))
 ## 吐槽 React
 https://dinosaurs-with-jetpacks.com/posts/react-problems
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h74z427qe9j309a08eaai.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01iqV1691LeRCNfoHY9_!!6000000001324-0-tps-334-302.jpg)
 
 作者吐槽了基于 React 开发项目的问题，感觉比较激进，但有些又是值得思考的。
 
@@ -138,7 +137,7 @@ https://dinosaurs-with-jetpacks.com/posts/react-problems
 ## template 元素
 https://kittygiraudel.com/2022/09/30/templating-in-html/
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h78ncdoez2j320g0u0wmn.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01QIPOop1Xl6Lt3Yt7B_!!6000000002963-0-tps-2608-1080.jpg)
 
 这是我遗漏的知识点。`<template>` 元素用于保存 HTML 模板，同时他里面的内容是不可见的。
 
@@ -171,7 +170,7 @@ if ('content' in document.createElement('template')) {
 ## lazygit
 https://github.com/jesseduffield/lazygit
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h74zfdubyjg30rs0h4nex.gif)
+![](https://img.alicdn.com/imgextra/i1/O1CN01DXZSmK1HK36Si5KJL_!!6000000000738-1-tps-1000-616.gif)
 
 git 命令的 terminal UI 工具，基于 Go 实现。对于不够熟悉 git 的同学来说，由于启动非常快，某些场景下可代替 Sourcetree 使用。
 
@@ -202,17 +201,3 @@ $ knip --reporter codeowners
 @org/owner src/components/Registration.tsx: Registration, default
 @org/owner src/components/Products.tsx: ProductsList, default
 ```
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>

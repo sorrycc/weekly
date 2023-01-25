@@ -1,10 +1,9 @@
-# MDH 前端周刊第 74 期：use、htmx、Stately Studio、TypeRunner、画中画
-
-<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h7fk6btttzj31900u0qa5.jpg" style="margin:0;padding:0;vertical-align:middle;" />
-
-<p style="color:gray;text-align:center;margin-bottom:3em;">封面图：charlespostiaux @ unsplash。</p>
-
-<p style="color:blue;font-weight:bold;">Hi，我是云谦，欢迎打开新一期的「MDH：前端周刊」，这是第 0074 期，发表于 2022/10/24。</p>
+---
+title: "use、htmx、Stately Studio、TypeRunner、画中画"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01ZgkHKo1uI0Lg0FnyH_!!6000000006013-0-tps-1620-1080.jpg"
+titleImageCaption: "封面图：charlespostiaux @ unsplash"
+publishedAt: "2022/10/24"
+---
 
 本周有这些内容想和你分享：
 
@@ -42,7 +41,7 @@ function Note({ id }) {
 ## htmx
 https://htmx.org/
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7cza7myx3j30z60c83z7.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN018nYPnH1qJbGcGrZwG_!!6000000005475-0-tps-1266-440.jpg)
 
 htmx 在 DjangoCon 2022 的分享《Moving From React to htmx，代码行数减少 67%，依赖从 255 降到 9》之后引发了一些关注和讨论。
 
@@ -64,14 +63,14 @@ htmx 在 DjangoCon 2022 的分享《Moving From React to htmx，代码行数减�
 ## Stately Studio 1
 https://stately.ai/blog/introducing-stately-studio-10
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7cyb4mt2kj31e50u0ae0.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01Oem75w1Q5hEbeStMI_!!6000000001925-0-tps-1805-1080.jpg)
 
 Stately Studio 1 发布，作者是 David K. Piano，他也是 XState 的作者。Stately Studio 除了让应用逻辑可视化，把加入了团队协作的功能。这让我想到了狼叔的 [imove](https://github.com/i5ting/imove)。
 
 ## TypeRunner
 https://github.com/marcj/TypeRunner
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7cyj2nmbej31ck0u0gnc.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN012QJe2T1gdA1i0S1sc_!!6000000004164-0-tps-1748-1080.jpg)
 
 TypeRunner 解两个问题，1）TSC 慢，2）跨语言类型计算。作者写了 30K LoC 来验证概念。实现方式是先基于 TypeScript-to-bytecode 编译器，然后在自定义的虚拟机中运行字节码。数据显示，这种方法相比 tsc 提高一百到几千倍。
 
@@ -82,7 +81,7 @@ https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c522
 
 我们分别对比下不好的和好的错误提示。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7czuuw4jzj30zk0m8ab7.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN01LaiEUg20DmOMWJj6i_!!6000000006816-0-tps-1280-800.jpg)
 
 先看不好的。
 
@@ -91,7 +90,7 @@ https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c522
 3、推卸责任。比如「无法连接到三方服务」。尽量把重点放在问题上，而不是导致问题的行动上。  
 4、太官方的说辞。比如「稍后尝试」。知道原因而不告诉用户，是不好的。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7bjkc4hpaj30zk0m8406.jpg)
+![](https://img.alicdn.com/imgextra/i1/O1CN01XyGohv1QUQcYTiIsk_!!6000000001979-0-tps-1280-800.jpg)
 
 再看好的。
 
@@ -104,7 +103,7 @@ https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c522
 ## 两步实现画中画
 https://www.matuzo.at/blog/2022/100daysof-day17/
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7aeetn2ijj30uk0jr0uj.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01UCtEXt1KUzPeg4h3t_!!6000000001168-0-tps-1100-711.jpg)
 
 没想到这么简单。
 
@@ -126,17 +125,3 @@ if (document.pictureInPictureElement) {
   filter: blur(5px);
 }
 ```
-
-
-## 周刊一锅端
-
-- [**早早聊的 18 个成长宝藏库**](https://mp.weixin.qq.com/s/3yLbUwqzSy2gFHXkO0PICg)：前端早早鸟，前端早早跑
-- [**云谦和他的朋友们**](https://mp.weixin.qq.com/s/NGux3r0P1JJH_z4-vfeksQ)：Umi、Dva 等库作者
-- [**DEX 周刊**](https://newsletter.dex.group/)：关于产品、设计、前端、软件的精华资讯邮件列表
-- [**前端食堂**](https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ)：你的前端食堂，吃好每一顿饭
-
-## 小结
-
-如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们[到这里来订阅](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600)，这是对我最大的帮助。下期见！
-
-<p style="color:#b5495b;">MDH，让开发者有笑容 :)</p>
