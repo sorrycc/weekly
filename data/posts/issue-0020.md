@@ -1,10 +1,9 @@
-# MDH 前端周刊第 20 期：Nuxt 3、øJS、MUI 5、Snowpack 弃坑、astro-repl
-
-**这是 「MDH：前端周刊」 第 0020 期，发表于：2021/09/20。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01iaBamD1D8opYCAp6K_!!6000000000172-0-tps-1920-1239.jpg)
-
-封面图：jezael @ www.unsplash.com 。
+---
+title: "Nuxt 3、øJS、MUI 5、Snowpack 弃坑、astro-repl"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01iaBamD1D8opYCAp6K_!!6000000000172-0-tps-1920-1239.jpg"
+titleImageCaption: "jezael @ unsplash"
+publishedAt: "2021/09/20"
+---
 
 
 ## ❄️ TL;DR
@@ -127,14 +126,3 @@ https://github.com/marmelab/gremlins.js
 ![](https://img.alicdn.com/imgextra/i2/O1CN01KmFuHe20wCi7AM719_!!6000000006913-1-tps-689-626.gif)
 
 有趣的库，看图就知道是做什么的了吧。
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

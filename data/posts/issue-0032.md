@@ -21,7 +21,7 @@ publishedAt: "2021/12/13"
 
 ### React Conf
 
-[https://www.youtube.com/watch?v=FZ0cG47msEk&list=PLNG\_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa](https://www.youtube.com/watch?v=FZ0cG47msEk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa)
+https://www.youtube.com/watch?v=FZ0cG47msEk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa
 
 时间少的推荐看《Keynote》和《React without memo》。其中 React Forget 印象比较深，通过编译时解决问题的典范，可以让开发者不用写 useMemo、useCallback 和 React.memo。
 
@@ -29,7 +29,7 @@ publishedAt: "2021/12/13"
 
 ### TailwindCSS 3
 
-[https://tailwindcss.com/blog/tailwindcss-v3](https://tailwindcss.com/blog/tailwindcss-v3)
+https://tailwindcss.com/blog/tailwindcss-v3
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN012PchKI1ugjjqt5bAr_!!6000000006067-0-tps-1600-515.jpg)
 
@@ -49,7 +49,7 @@ publishedAt: "2021/12/13"
 
 ### Peeky
 
-[https://peeky.dev/](https://peeky.dev/)
+https://peeky.dev/
 
 ![](https://img.alicdn.com/imgextra/i4/O1CN019armMT1XP7LEEq0tV_!!6000000002915-0-tps-921-573.jpg)
 
@@ -63,7 +63,7 @@ publishedAt: "2021/12/13"
 
 ### Vercel 收购 Turborepo
 
-[https://vercel.com/blog/vercel-acquires-turborepo](https://vercel.com/blog/vercel-acquires-turborepo)
+https://vercel.com/blog/vercel-acquires-turborepo
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN01iJQuqh1Gt1jp9vxr0_!!6000000000679-0-tps-1600-534.jpg)
 
@@ -77,7 +77,7 @@ publishedAt: "2021/12/13"
 
 ### React 支持 Web Components
 
-[https://codesandbox.io/s/shy-tdd-8b4tq?file=/src/App.js](https://codesandbox.io/s/shy-tdd-8b4tq?file=/src/App.js)
+https://codesandbox.io/s/shy-tdd-8b4tq?file=/src/App.js
 
 3 年的 RFC 终于实现了，虽然我对 Web Components 的场景比较存疑，RFC 详见 [https://github.com/facebook/react/issues/11347](https://github.com/facebook/react/issues/11347)
 
@@ -111,7 +111,7 @@ RSC（React Server Component）是 Render-Fetch，通过 DEMO 对比可以看出
 
 ### ahooks 3
 
-[https://zhuanlan.zhihu.com/p/442434871](https://zhuanlan.zhihu.com/p/442434871)
+https://zhuanlan.zhihu.com/p/442434871
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01943VH41aAPT86plfX_!!6000000003289-0-tps-327-125.jpg)
 
@@ -125,6 +125,6 @@ RSC（React Server Component）是 Render-Fetch，通过 DEMO 对比可以看出
 
 ### happydom
 
-[https://github.com/capricorn86/happy-dom](https://github.com/capricorn86/happy-dom)
+https://github.com/capricorn86/happy-dom
 
 A jsdom alternative with support for server side rendering of web components.

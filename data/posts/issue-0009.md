@@ -1,10 +1,9 @@
-# MDH 前端周刊第 9 期：Github Copilot、Temporal、TypeScript 4.4 Beta
-
-**这是 「MDH：前端周刊」 第 0009 期，发表于：2021/07/05。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i3/O1CN01M88lNS1bcAyih1haj_!!6000000003485-0-tps-4032-3024.jpg)
-
-封面图：千岛湖 @ 2021.7.4 。
+---
+title: "GitHub Copilot、Temporal、TypeScript 4.4 Beta"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01M88lNS1bcAyih1haj_!!6000000003485-0-tps-4032-3024.jpg"
+titleImageCaption: "千岛湖 @ 2021.7.4"
+publishedAt: "2021/07/05"
+---
 
 ## ❄️ TL;DR
 
@@ -73,15 +72,3 @@ GMTC 2021 演讲《字节跳动的现代 Web 开发实践》全文，期待 Mode
 
 ### 程序员的酒后真言
 https://www.ruanyifeng.com/blog/2021/06/drunk-post-of-a-programmer.html
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
-

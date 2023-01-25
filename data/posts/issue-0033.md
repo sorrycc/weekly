@@ -21,14 +21,12 @@ publishedAt: "2021/12/20"
 ## ⚡ 展开讲讲
 
 ### 12 Days of Web
-
-[https://12daysofweb.dev/](https://12daysofweb.dev/)
+https://12daysofweb.dev/
 
 每年结束都会有这种日更数周的活动，内容包含 HTML、CSS 和 JavaScript，从已更 6 天内容来看，质量不错。
 
 ### Github Wrapped
-
-[https://wrapped.run/](https://wrapped.run/)
+https://wrapped.run/
 
 ![](https://img.alicdn.com/imgextra/i1/O1CN01CtEC5g26ryqtpirV3_!!6000000007716-0-tps-1600-942.jpg)
 
@@ -37,8 +35,7 @@ publishedAt: "2021/12/20"
 其中视频的动态生成是基于 remotion.dev。
 
 ### Rails 7
-
-[https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision)
+https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01Muy6BN1qK3fHh76gg_!!6000000005476-0-tps-200-200.jpg)
 
@@ -70,18 +67,16 @@ $ ./bin/importmap json
 令人意外的是，他们大胆地直接用 es-module-shims 把这套用在生产上。怪不得 es-module-shims 最近频繁发版。
 
 ### Create React App 5
-
-[https://github.com/facebook/create-react-app/releases/tag/v5.0.0](https://github.com/facebook/create-react-app/releases/tag/v5.0.0)
+https://github.com/facebook/create-react-app/releases/tag/v5.0.0
 
 终于发大版本了，没啥大变化。一是依赖库的大版本更新，包括 Webpack 5、Jest 27、ESLint 8、PostCSS 8；二是支持 Tailwind CSS。
 
 ### await.ops
-
-[https://github.com/tc39/proposal-await.ops](https://github.com/tc39/proposal-await.ops)
+https://github.com/tc39/proposal-await.ops
 
 await.ops 提案，刚发现，还挺喜欢这个语法糖，😎。比如可以用 await.all 代替 await Promise.all，示例如下。
 
-```javascript
+```ts
 // before
 await Promise.all(users.map(async x => fetchProfile(x.id)))
 
@@ -90,8 +85,7 @@ await.all users.map(async x => fetchProfile(x.id))
 ```
 
 ### structuredClone
-
-[https://web.dev/structured-clone/](https://web.dev/structured-clone/)
+https://web.dev/structured-clone/
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN0107BTcJ2AMcBtsRpzY_!!6000000008189-0-tps-600-371.jpg)
 
@@ -112,8 +106,7 @@ function structuralClone(obj) {
 ```
 
 ### qwik
-
-[https://github.com/BuilderIO/qwik](https://github.com/BuilderIO/qwik)
+https://github.com/BuilderIO/qwik
 
 ![](https://img.alicdn.com/imgextra/i1/O1CN01TMiQIx1RmZw3M9Bf6_!!6000000002154-0-tps-1600-588.jpg)
 
@@ -128,14 +121,12 @@ Resumability 需以 DOM 为中心设计框架，事件、绑定、状态等要�
 Fine-Grained Lazy-Loading（细粒度懒加载）是其第二特性。主要是要「细」，现代框架通常可以实现路由或组件级的按需渲染，但粒度还不够细。细是啥意思？比如 <parent><middle><child /></middle></parent>，三级组件之间不耦合，如果只针对 middle 做 re-render，那 parent 和 child 的模板和事件代码就不应该被下载。
 
 ### react-router 6 完全指南
-
-[https://ui.dev/react-router-tutorial/](https://ui.dev/react-router-tutorial/)
+https://ui.dev/react-router-tutorial/
 
 写地特别详细，推荐搭配官网文档一起阅读。
 
 ### Rust for JavaScript peeps
+https://github.com/yoshuawuyts/rust-for-js-peeps
 
-[https://github.com/yoshuawuyts/rust-for-js-peeps](https://github.com/yoshuawuyts/rust-for-js-peeps)
-
-来自 ​yoshuawuyts 的 Rust 入门教程，解释从 JavaScript 开发者的角度看，Rust 是长什么样的。很喜欢这个作者，当初做 dva 就部分参考了他的 choo。
+来自 yoshuawuyts 的 Rust 入门教程，解释从 JavaScript 开发者的角度看，Rust 是长什么样的。很喜欢这个作者，当初做 dva 就部分参考了他的 choo。
 

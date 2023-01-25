@@ -1,11 +1,9 @@
-# MDH 前端周刊第 26 期：Next.js 12、Umi 4 Beta 1、UnoCSS、Modern.js
-
-**这是 「MDH：前端周刊」 第 0026 期，发表于：2021/11/01。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i3/O1CN01ReGXhM1ifZFQdWMiW_!!6000000004440-0-tps-1920-1278.jpg)
-
-封面图：joz_big @ www.unsplash.com 。
-
+---
+title: "Next.js 12、Umi 4 Beta 1、UnoCSS、Modern.js"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01ReGXhM1ifZFQdWMiW_!!6000000004440-0-tps-1920-1278.jpg"
+titleImageCaption: "joz_big @ unsplash"
+publishedAt: "2021/11/01"
+---
 
 ## ❄️ TL;DR
 
@@ -139,13 +137,3 @@ https://babeljs.io/blog/2021/10/29/7.16.0
 * 🔀 支持 `.mts` 和 `.cts`，分别采用 `module` 和 `script` 的 source type
 * 🌴 默认开启已到 Stage 4 的 `Class static blocks`
 
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

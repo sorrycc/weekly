@@ -1,11 +1,9 @@
-
-# MDH 前端周刊第 5 期：Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具
-
-**这是 「MDH：前端周刊」 第 0005 期，发表于：2021/06/07。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN01iUtNIF1XiLqkT20eZ_!!6000000002957-0-tps-1920-1272.jpg)
-
-封面图：Sergi Ferrete @ www.unsplash.com 。
+---
+title: "Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01iUtNIF1XiLqkT20eZ_!!6000000002957-0-tps-1920-1272.jpg"
+titleImageCaption: "Sergi Ferrete @ unsplash"
+publishedAt: "2021/06/07"
+---
 
 ## ⬆️ 发布
 
@@ -195,13 +193,3 @@ https://movie.douban.com/subject/35133009/
 
 ### 3. 🎮 双人成行 ☆☆☆☆☆
 http://www.vgtime.com/game/11835.jhtml
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

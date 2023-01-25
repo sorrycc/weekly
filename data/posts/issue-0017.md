@@ -1,10 +1,9 @@
-# MDH 前端周刊第 17 期：unplugin、SWR 1、zx 4、手写 Valtio、领域
-
-**这是 「MDH：前端周刊」 第 0017 期，发表于：2021/08/30。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN014PujEY20lDCRHiSSQ_!!6000000006889-0-tps-1920-1280.jpg)
-
-封面图：sickle @ www.unsplash.com 。
+---
+title: "unplugin、SWR 1、zx 4、手写 Valtio、领域"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN014PujEY20lDCRHiSSQ_!!6000000006889-0-tps-1920-1280.jpg"
+titleImageCaption: "sickle @ unsplash"
+publishedAt: "2021/08/30"
+---
 
 
 ## ❄️ TL;DR
@@ -124,11 +123,3 @@ https://mp.weixin.qq.com/s/lFQhP9LvjN2BBxUkZl3YCg
 2. 可是，什么是「领域」？它跟兴趣、项目有什么区别，又有什么联系？为什么你必须认真地思考，自己要往哪个方向发展？
 3. 你所在领域，最重要的问题是什么，为什么你没有致力于其中之一？ -- Richard Hamming
 
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

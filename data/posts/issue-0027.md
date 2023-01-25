@@ -1,10 +1,9 @@
-# MDH 前端周刊第 27 期：Bun、coa、React Router 6、CSS in React
-
-**这是 「MDH：前端周刊」 第 0027 期，发表于：2021/11/08。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01zLokPV27xIz06flj3_!!6000000007863-2-tps-1080-606.png)
-
-封面图：国王排名。
+---
+title: "Bun、coa、React Router 6、CSS in React"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01zLokPV27xIz06flj3_!!6000000007863-2-tps-1080-606.png"
+titleImageCaption: "国王排名"
+publishedAt: "2021/11/08"
+---
 
 ## ❄️ TL;DR
 
@@ -139,12 +138,3 @@ https://mp.weixin.qq.com/s?__biz=Mzg2ODQ1OTExOA==&mid=2247494459&idx=1&sn=6b134d
 
 2021 年，Web 开发整体上仍然处于比较低效的状态，各种开发，部署工具仍未很好的收敛，开发者仍然要面对选择框架，选择各种库，选择部署方式，沟通前后端接口等，一个完整的 Web 应用开发会牵扯很多不同的工种，而不同分工之间的协作却是很低效的，本文旨在能够很好的梳理当下 Web 开发的 "困局"，以及我们通过何种方式，能够走出这些困局，解放生产力，希望能给未来的工具发展给出一定的预测和启发。
 
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

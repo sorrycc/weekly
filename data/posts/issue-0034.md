@@ -21,10 +21,9 @@ publishedAt: "2021/12/27"
 ## ⚡ 展开讲讲
 
 ### Vitest
+https://github.com/vitest-dev/vitest
 
-[https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
-
-​​![](https://img.alicdn.com/imgextra/i4/O1CN010lGoZN2AM9nJnm108_!!6000000008188-0-tps-330-330.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN010lGoZN2AM9nJnm108_!!6000000008188-0-tps-330-330.jpg)
 
 Vitest 开源了，今天翻了翻，做一些摘要。感兴趣的可以用 [stackblitz.com](https://stackblitz.com/edit/node-xifxdq) 先跑个 DEMO。
 
@@ -37,8 +36,7 @@ Vitest 顾名思义是 Vite + Test。作为测试工具，对标的是 Jest，�
 技术栈是方面调研过程中最有趣的事，看 Vitest 的技术栈基本上可了解测试相关的各种底层库。比如 tinypool 用于基于 worker 的多线程，chai 用于断言，tinyspy 用于 mocking，jsdom 或 happy-dom 用于 DOM mocking，c8 用于代码覆盖率。
 
 ### 设计模式
-
-[https://www.patterns.dev/](https://www.patterns.dev/)
+https://www.patterns.dev/
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN01bNA00T1DgFqQaEFrf_!!6000000000245-0-tps-1600-730.jpg)
 
@@ -49,16 +47,14 @@ Addy Osmani 出品，免费电子书。
 过去 5 年，React 发展迅猛，是目前下载量最多的框架，见上图。基于 React 的流行，以及新版本 React 引入的 Hooks，传统设计模式需要修改、优化，同时也需要新的设计模式来解决相关问题。
 
 ### Milkdown
-
-[https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
+https://github.com/Saul-Mirone/milkdown
 
 ![](https://img.alicdn.com/imgextra/i4/O1CN01iFczPy1fdmx9TiHMu_!!6000000004030-1-tps-880-447.gif)
 
 插件驱动的 WYSIWYG Markdown 编辑器框架。
 
 ### 防御性 CSS
-
-[https://ishadeed.com/article/defensive-css/](https://ishadeed.com/article/defensive-css/)
+https://ishadeed.com/article/defensive-css/
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01fSqDqJ1nwa8E9H0h9_!!6000000005154-0-tps-1600-497.jpg)
 
@@ -67,8 +63,7 @@ CSS 是静态的，但 HTML 内容是动态的，所以虽然当时是正常的�
 我个人的想法是这些点是否可以通过工程化的方式解决，因为要每个开发者都去记那么多细碎的点，DX 实在不怎么样。
 
 ### Web 最好的时光
-
-[https://www.simeongriggs.dev/there-has-never-been-a-better-time-to-build-websites](https://www.simeongriggs.dev/there-has-never-been-a-better-time-to-build-websites)
+https://www.simeongriggs.dev/there-has-never-been-a-better-time-to-build-websites
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01A6ZrFu1bjVR30EP05_!!6000000003501-0-tps-1176-394.jpg)
 
@@ -77,24 +72,21 @@ CSS 是静态的，但 HTML 内容是动态的，所以虽然当时是正常的�
 作者的组合是 Google + YouTube + Remix + Tailwind.css + Github Copilot + Sanity。Google + Youtube 用于学习；Remix 和 Next.js 框架交相辉映，虽然作者更推崇 Remix，但新项目还是用了 Next.js；Tailwind.css 用于根治 CSS 问题；Github Copilot 解手动上 Stack Overflow 搜索 + Copy 的问题；Sanity 是作者认为最好的 CMS。
 
 ### TDesign
-
-[https://github.com/Tencent/tdesign](https://github.com/Tencent/tdesign)
+https://github.com/Tencent/tdesign
 
 ![](https://img.alicdn.com/imgextra/i1/O1CN01fu6R771IFIc1N250N_!!6000000000863-0-tps-1600-900.jpg)
 
 TDesign 是来自腾讯内部近 300 名设计师与开发者共同打造，经由 500+ 项目使用、验证和锤炼过的企业级设计体系， 秉承包容、多元、进化、连接的价值观，TDesign 期望与用户、行业及合作伙伴等一起打造具有竞争力的产品体验。
 
 ### svemix
-
-[https://github.com/svemix/svemix](https://github.com/svemix/svemix)
+https://github.com/svemix/svemix
 
 The Full-Stack addition to SvelteKit. Write your server code inside svelte files, handle sessions, forms and SEO easily.
 
 Remix 的 Svelte 版本。
 
 ### HTTP/3
-
-[https://requestmetrics.com/web-performance/http3-is-fast](https://requestmetrics.com/web-performance/http3-is-fast)
+https://requestmetrics.com/web-performance/http3-is-fast
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01Rx9XPV1yhtCDDjpyR_!!6000000006611-0-tps-1144-353.jpg)
 

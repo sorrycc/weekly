@@ -1,26 +1,9 @@
-# MDH 前端周刊第 24 期：Parcel 2、React Router 6、Nuxt 3、Better Log
-
-**这是 「MDH：前端周刊」 第 0024 期，发表于：2021/10/18。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i4/O1CN01XEd7gT1epPI24ozll_!!6000000003920-0-tps-1920-1151.jpg)
-
-封面图：sadmink @ www.unsplash.com 。
-
-## 🙋‍♂️ 交流群和志愿者征集
-
-### 交流群
-
-本周刊已开放**「飞书话题群」**，用飞书扫码即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i4/O1CN01Pokf0R1mYTZgqt2Vc_!!6000000004966-0-tps-1140-1332.jpg" width="215" />
-
-### 征集志愿者
-
-1. 征集 5-10 名 MDH：前端周刊志愿者，报满即止
-2. 加入方式：加入交流群，然后在置顶的征集贴中回复「+1」
-3. 每周需解读 1 篇或以上文章，完成 tl;dr
-4. 采纳的文章发布后在标题署名「编辑：XXX」
-5. 可访问共享的精选文章池
+---
+title: "Parcel 2、React Router 6、Nuxt 3、Better Log"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01XEd7gT1epPI24ozll_!!6000000003920-0-tps-1920-1151.jpg"
+titleImageCaption: "sadmink @ unsplash"
+publishedAt: "2021/10/18"
+---
 
 ## ❄️ TL;DR
 
@@ -160,11 +143,3 @@ https://scribe.rip/codex/introducing-sapling-a-vs-code-extension-for-traversing-
 2. 实现上基于 VS Code Extension API 和 VS Code Webview API
 3. 在你选择 root 文件后，会用 `@babel/parser` 分析语法树，找到依赖组件，递归分析，得出组件树
 
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 6 期：React 18 Alpha、Vue 3.1
-
-**这是 「MDH：前端周刊」 第 0006 期，发表于：2021/06/14。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN01Rjp1r023WxhwQhBTI_!!6000000007264-0-tps-1920-1278.jpg)
-
-封面图：Marek Okon @ www.unsplash.com 。
+---
+title: "React 18 Alpha、Vue 3.1"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01Rjp1r023WxhwQhBTI_!!6000000007264-0-tps-1920-1278.jpg"
+titleImageCaption: "Marek Okon @ unsplash"
+publishedAt: "2021/06/14"
+---
 
 ## ⬆️ 发布
 
@@ -148,15 +147,4 @@ https://github.com/peng-zhihui/XUAN-Bike<br />
 ![](https://img.alicdn.com/imgextra/i3/O1CN01DOpaeH27O2S2ytFgo_!!6000000007786-2-tps-1456-793.png)
 
 推荐人：海康-8年-xx
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
 

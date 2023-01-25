@@ -1,10 +1,9 @@
-# MDH 前端周刊第 1 期：rome、slidev、zx
-
-**这是 「MDH：前端周刊」 第 0001 期，发表于：2021/05/10。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01Q93IFG1zkvJLH40c6_!!6000000006753-2-tps-2560-1440.png)
-
-封面图：基于下文介绍的 RH12503/triangula 生成的三角艺术图。
+---
+title: "rome、slidev、zx"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01Q93IFG1zkvJLH40c6_!!6000000006753-2-tps-2560-1440.png"
+titleImageCaption: "基于下文介绍的 RH12503/triangula 生成的三角艺术图"
+publishedAt: "2021/05/10"
+---
 
 ## ⬆️ 头条
 
@@ -167,14 +166,4 @@ https://github.com/fregante/github-issue-link-status
 为 issue 和 PR 链接着色，快速识别他们的打开、关闭、合并状态。
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01mRfzXG1kB00KfQzPU_!!6000000004644-2-tps-1280-800.png)
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
 

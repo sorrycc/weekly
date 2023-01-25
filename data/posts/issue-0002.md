@@ -1,10 +1,9 @@
-# MDH 前端周刊第 2 期：babel、deno、0kb JavaScript
-
-**这是 「MDH：前端周刊」 第 0002 期，发表于：2021/05/17。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i3/O1CN011cTW8v1eTsdkp1ad5_!!6000000003873-0-tps-5952-3525.jpg)
-
-封面图：2021.5.15，富阳树石村，摄影师：猪罐头。
+---
+title: "babel、deno、0kb JavaScript"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN011cTW8v1eTsdkp1ad5_!!6000000003873-0-tps-5952-3525.jpg"
+titleImageCaption: "2021.5.15，富阳树石村，摄影师：猪罐头"
+publishedAt: "2021/05/17"
+---
 
 ## ⬆️ 头条
 
@@ -169,13 +168,3 @@ https://github.com/bytedance/guide
 基于 React 的新功能引导组件。
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN010FjvP71PDByPFpktH_!!6000000001806-2-tps-2726-834.png)
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

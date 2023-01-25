@@ -1,11 +1,9 @@
-# MDH 前端周刊第 19 期：prettier 2.4、命名速查表、资源引用、React 18、Corepack
-
-**这是 「MDH：前端周刊」 第 0019 期，发表于：2021/09/13。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i3/O1CN01iVGJtG1Xr3OfHUmXa_!!6000000002976-0-tps-1920-1080.jpg)
-
-封面图：hadijasaidi @ www.unsplash.com 。
-
+---
+title: "prettier 2.4、命名速查表、资源引用、React 18、Corepack"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01iVGJtG1Xr3OfHUmXa_!!6000000002976-0-tps-1920-1080.jpg"
+titleImageCaption: "hadijasaidi @ unsplash"
+publishedAt: "2021/09/13"
+---
 
 ## ❄️ TL;DR
 
@@ -91,13 +89,3 @@ https://my-room-in-3d.vercel.app/
 https://nodejs.org/en/blog/release/v16.9.0/
 
 Node 16.9 开始提供 corepack，可不安装 yarn 或 pnpm 而直接使用，就像 npm 一样。
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

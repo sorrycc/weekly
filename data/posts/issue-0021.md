@@ -1,11 +1,9 @@
-# MDH 前端周刊第 21 期：Rome ❤️ Rust、推断式预渲染、motion
-
-**这是 「MDH：前端周刊」 第 0021 期，发表于：2021/09/27。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01kyG3kF1SGnyGn4S45_!!6000000002220-0-tps-1920-1280.jpg)
-
-封面图：silasbaisch @ www.unsplash.com 。
-
+---
+title: "Rome ❤️ Rust、推断式预渲染、motion"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01kyG3kF1SGnyGn4S45_!!6000000002220-0-tps-1920-1280.jpg"
+titleImageCaption: "silasbaisch @ unsplash"
+publishedAt: "2021/09/27"
+---
 
 ## ❄️ TL;DR
 
@@ -55,7 +53,7 @@ https://github.com/gvergnaud/ts-pattern
 
 The exhaustive Pattern Matching library for TypeScript with smart type inference.
 
-```javascript
+```ts
 import { match, select } from 'ts-pattern';
 
 type Data =
@@ -80,12 +78,3 @@ https://motion.dev/
 
 动画库，基于 Web Animations API 实现，在尺寸和性能方面考虑较多。sponsor-only repo，默认不开源码，Sponsor $5/month 后才有源码权限。  
 
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

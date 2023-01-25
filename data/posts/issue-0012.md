@@ -1,12 +1,9 @@
-
-# MDH 前端周刊第 12 期：node.new、win 11 with react、手写 React、微前端
-
-**这是 「MDH：前端周刊」 第 0012 期，发表于：2021/07/26。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01AGDCcR1QTy748Rll8_!!6000000001978-0-tps-1920-1080.jpg)
-
-封面图：sergioxu @ www.unsplash.com 。
-
+---
+title: "node.new、win 11 with react、手写 React、微前端"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01AGDCcR1QTy748Rll8_!!6000000001978-0-tps-1920-1080.jpg"
+titleImageCaption: "sergioxu @ unsplash"
+publishedAt: "2021/07/26"
+---
 
 ## ❄️ TL;DR
 
@@ -95,14 +92,3 @@ https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/
 2. **Extending tutorials**，教程之外发散性地扩展，发挥自己的想象力
 3. **Building related projects**，比如教程教你写了 webpack clone，可以自行写个 vite clone
 4. **Learning in public**，公开告诉别人你在学某个东西，比如通过博客的形式，好处多多
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

@@ -1,11 +1,9 @@
-# MDH 前端周刊第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4
-
-
-**这是 「MDH：前端周刊」 第 0003 期，发表于：2021/05/24。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01TA2ShI1I2TOdhCsP9_!!6000000000835-2-tps-1610-906.png)
-
-封面图：2021.5.21，上海。
+---
+title: "WebContainer、Parcel 2 Beta 3、Sublime Text 4"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01TA2ShI1I2TOdhCsP9_!!6000000000835-2-tps-1610-906.png"
+titleImageCaption: "2021.5.21，上海"
+publishedAt: "2021/05/24"
+---
 
 ## ⬆️ 头条
 
@@ -161,13 +159,3 @@ https://github.com/mswjs/msw
 Seamless REST/GraphQL API mocking library for browser and Node.js. 基于 Worker 实现，在网络层拦截。
 
 ![](https://img.alicdn.com/imgextra/i3/O1CN01m1QLEN1v0QdtxjliT_!!6000000006110-2-tps-2538-1814.png)
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

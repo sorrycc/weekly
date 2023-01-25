@@ -1,10 +1,9 @@
-# MDH 前端周刊第 11 期：useContextSelector、react-gui、wrap、fre conf
-
-**这是 「MDH：前端周刊」 第 0011 期，发表于：2021/07/19。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN01shZbgL1ZVBhr7ghIB_!!6000000003199-0-tps-1920-1080.jpg)
-
-封面图：dayee @ www.unsplash.com 。
+---
+title: "useContextSelector、react-gui、wrap、fre conf"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01shZbgL1ZVBhr7ghIB_!!6000000003199-0-tps-1920-1080.jpg"
+titleImageCaption: "dayee @ unsplash"
+publishedAt: "2021/07/19"
+---
 
 ## ❄️ TL;DR
 
@@ -86,14 +85,3 @@ https://t.bilibili.com/546781918403455918
 ![](https://img.alicdn.com/imgextra/i2/O1CN01BrT5Zc1uiZD0OdVUC_!!6000000006071-2-tps-1932-1060.png)
 
 周三（7.21）晚，我会分享 MFSU 相关内容，《Webpack 提速 10 倍の秘密》。
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
-

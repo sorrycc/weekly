@@ -1,11 +1,9 @@
-# MDH 前端周刊第 14 期：Babel 7.15 const enum、Parcel 2 RC、webpack buildHttp
-
-**这是 「MDH：前端周刊」 第 0014 期，发表于：2021/08/09。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN017IqX5R24PvFLqUNNV_!!6000000007384-0-tps-1920-1281.jpg)
-
-封面图：vorosbenisop @ www.unsplash.com 。
-
+---
+title: "Babel 7.15 const enum、Parcel 2 RC、webpack buildHttp"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN017IqX5R24PvFLqUNNV_!!6000000007384-0-tps-1920-1281.jpg"
+titleImageCaption: "vorosbenisop @ unsplash"
+publishedAt: "2021/08/09"
+---
 
 ## ❄️ TL;DR
 
@@ -97,14 +95,3 @@ https://www.yuque.com/surfacew/fe/uqr4ug
 https://juejin.cn/post/6992018709439053837
 
 源码也是同理，我们按照电磁轨道炮的思路一步步来，先搞清楚最核心的基础部分，慢慢的再一步步去进阶。这样的学习方法比我们肯定一上来就去拆解一个完整版的电磁轨道炮要强得多。
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

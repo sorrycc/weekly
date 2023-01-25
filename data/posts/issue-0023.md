@@ -1,11 +1,9 @@
-# MDH 前端周刊第 23 期：Astro 0.21、ESLint 8、vite-node、Sanitizer API、Lattice
-
-**这是 「MDH：前端周刊」 第 0023 期，发表于：2021/10/11。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01VK8VIp1atIBU6fjej_!!6000000003387-0-tps-1920-1281.jpg)
-
-封面图：huguesdb @ www.unsplash.com 。
-
+---
+title: "Astro 0.21、ESLint 8、vite-node、Sanitizer API、Lattice"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01VK8VIp1atIBU6fjej_!!6000000003387-0-tps-1920-1281.jpg"
+titleImageCaption: "huguesdb @ unsplash"
+publishedAt: "2021/10/11"
+---
 
 ## ❄️ TL;DR
 
@@ -183,14 +181,3 @@ https://press.stripe.com/
 * 《Get Together》: 社区管理
 * 《High Growth》: 创业
 * 《An Elegant Puzzle》: 工程师管理
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 10 期：Gatsby 3.9、zx 2、npm audit、petite-vue
-
-**这是 「MDH：前端周刊」 第 0010 期，发表于：2021/07/12。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01QaWCSq1h1Qu1F0N1m_!!6000000004217-0-tps-1920-1280.jpg)
-
-封面图：ethanrobertson @ www.unsplash.com 。
+---
+title: "Gatsby 3.9、zx 2、npm audit、petite-vue"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01QaWCSq1h1Qu1F0N1m_!!6000000004217-0-tps-1920-1280.jpg"
+titleImageCaption: "ethanrobertson @ unsplash"
+publishedAt: "2021/07/12"
+---
 
 ## ❄️ TL;DR
 
@@ -115,15 +114,3 @@ setTimeout(() => {
 https://mp.weixin.qq.com/s?__biz=MzI3NTM5NDgzOA==&mid=2247498317&idx=1&sn=206a8e3b63810c9d1700cb8e22c2fd94
 
 转：petite-vue 是Vue对于渐进增强进行优化的一种 distribution。它提供了与标准Vue相同的模板语法和响应式性心智模型，它是专门为在由服务器渲染具有少量交互的页面而存在的。服务端渲染一般会有注水（hydrate）过程，而在petite-vue要做的事情比较简单，被称为"洒水（sprinkling）"。
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
-

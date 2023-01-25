@@ -1,11 +1,9 @@
-# MDH 前端周刊第 18 期：stitches 1、ultra、7GUIs、Clean 架构
-
-**这是 「MDH：前端周刊」 第 0018 期，发表于：2021/09/06。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i4/O1CN01qviG801rgmpf6baUl_!!6000000005661-0-tps-1920-824.jpg)
-
-封面图：chen1909 @ www.unsplash.com 。
-
+---
+title: "stitches 1、ultra、7GUIs、Clean 架构"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01qviG801rgmpf6baUl_!!6000000005661-0-tps-1920-824.jpg"
+titleImageCaption: "chen1909 @ unsplash"
+publishedAt: "2021/09/06"
+---
 
 ## ❄️ TL;DR
 
@@ -15,7 +13,6 @@
 👉 7GUIs<br />
 👉 Clean Architecture on Frontend<br />
 👉 学会提问<br />
-
 
 ## ⚡ 展开讲讲
 
@@ -76,12 +73,3 @@ https://m.weibo.cn/status/4677350521832901
 
 比如请求类提问，「我正在尝试A，但是遇到了困难。到目前为止，我已经试过B，结果是C；试过D，结果是E；但现在我走不下去了，想问问你能否给我提出相关的建议？」
 
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

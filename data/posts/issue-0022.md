@@ -1,11 +1,9 @@
-# MDH 前端周刊第 22 期：TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare
-
-**这是 「MDH：前端周刊」 第 0022 期，发表于：2021/10/04。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN01fVpTSj1fHnqGXutrM_!!6000000003982-0-tps-1920-1280.jpg)
-
-封面图：willfrancis @ www.unsplash.com 。
-
+---
+title: "TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01fVpTSj1fHnqGXutrM_!!6000000003982-0-tps-1920-1280.jpg"
+titleImageCaption: "willfrancis @ unsplash"
+publishedAt: "2021/10/04"
+---
 
 ## ❄️ TL;DR
 
@@ -68,13 +66,3 @@ Your `<head>` is the single biggest render-blocking part of your page—ensuring
 https://github.com/cloudflare/miniflare
 
 Fully-local simulator for Cloudflare Workers.
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

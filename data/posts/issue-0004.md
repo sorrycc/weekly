@@ -1,8 +1,9 @@
-# MDH 前端周刊第 4 期：Chrome 91、Jest 27、TypeScript 4.3
-
-**这是 「MDH：前端周刊」 第 0004 期，发表于：2021/05/31。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN013aF1IR1sTKnGa0IBm_!!6000000005767-0-tps-1280-853.jpg)
+---
+title: "Chrome 91、Jest 27、TypeScript 4.3"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN013aF1IR1sTKnGa0IBm_!!6000000005767-0-tps-1280-853.jpg"
+titleImageCaption: "? @ unsplash"
+publishedAt: "2021/05/31"
+---
 
 ## ⬆️ 发布
 
@@ -188,13 +189,3 @@ https://www.xiaoyuzhoufm.com/episode/60adeef7fc45ae56ca571f23
 
 ### 5. 御赐小仵作 ☆☆☆☆
 https://movie.douban.com/subject/32581207/
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

@@ -1,10 +1,9 @@
-# MDH 前端周刊第 7 期：Next.js 11、Jotai 1
-
-**这是 「MDH：前端周刊」 第 0007 期，发表于：2021/06/21。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i4/O1CN01QttfqN1mbgK1WWTcZ_!!6000000004973-0-tps-1920-1272.jpg)
-
-封面图：ryland_dean @ www.unsplash.com 。
+---
+title: "Next.js 11、Jotai 1"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01QttfqN1mbgK1WWTcZ_!!6000000004973-0-tps-1920-1272.jpg"
+titleImageCaption: "ryland_dean @ unsplash"
+publishedAt: "2021/06/21"
+---
 
 ## ⬆️ 发布
 
@@ -238,14 +237,3 @@ http://www.vgtime.com/game/11920.jhtml
 https://mp.weixin.qq.com/s/4m3KFR5cB8jl9O4MX0GHGA
 
 ![](https://img.alicdn.com/imgextra/i4/O1CN01D99QCh29Z9IOdMG2b_!!6000000008081-2-tps-640-434.png)
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
-

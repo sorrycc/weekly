@@ -1,11 +1,9 @@
-# MDH 前端周刊第 13 期：Yarn 3、React Re-rendering、Just JavaScript
-
-**这是 「MDH：前端周刊」 第 0013 期，发表于：2021/08/02。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i2/O1CN015auNSV1QPqY9B0l1D_!!6000000001969-0-tps-1920-1277.jpg)
-
-封面图：rayhennessy @ www.unsplash.com 。
-
+---
+title: "Yarn 3、React Re-rendering、Just JavaScript"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN015auNSV1QPqY9B0l1D_!!6000000001969-0-tps-1920-1277.jpg"
+titleImageCaption: "rayhennessy @ unsplash"
+publishedAt: "2021/08/02"
+---
 
 ## ❄️ TL;DR
 
@@ -109,14 +107,3 @@ https://blog.jetbrains.com/webstorm/2021/07/webstorm-2021-2/
 ![](https://img.alicdn.com/imgextra/i2/O1CN01Jce8ue1D0ZgjNQ5bd_!!6000000000154-1-tps-1400-700.gif)
 
 看了一遍，比较有用的就这个 rename react useState 的功能。
-
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

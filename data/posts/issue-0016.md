@@ -1,11 +1,9 @@
-# MDH 前端周刊第 16 期：webpack-dev-server 4、astro 0.19、图解 Context 渲染、真实世界的 css-in-js
-
-**这是 「MDH：前端周刊」 第 0016 期，发表于：2021/08/23。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
-
-![](https://img.alicdn.com/imgextra/i1/O1CN01Ip6Ei51nWvqJOhjeY_!!6000000005098-0-tps-1920-1280.jpg)
-
-封面图：robsonhmorgan @ www.unsplash.com 。
-
+---
+title: "webpack-dev-server 4、astro 0.19、图解 Context 渲染、真实世界的 css-in-js"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01Ip6Ei51nWvqJOhjeY_!!6000000005098-0-tps-1920-1280.jpg"
+titleImageCaption: "robsonhmorgan @ unsplash"
+publishedAt: "2021/08/23"
+---
 
 ## ❄️ TL;DR
 
@@ -47,7 +45,7 @@ https://astro.build/blog/astro-019
 ### 图解 Context 渲染
 https://alexsidorenko.com/blog/react-render-context/
 
-![](https://alexsidorenko.com/3ecd83046e386565c069560e8c20823c/no-context.gif)
+![](undefined)
 
 Alex Sidorenko React Render 系列文章的第 5 篇。如果已看完前四篇，这篇其实没啥新内容，之前的概念套到 Context 里一样适用。比如：
 
@@ -98,13 +96,3 @@ Marc Andreessen 是硅谷著名风投机构 A16Z 的联合创始人，以下是�
 6. **一天只处理两次邮件**，处理这类信息会带来完成的快感，但很可惜这些事情都是不太紧急多半不重要的，可以试着把微信和钉钉这么处理
 7. **藏在耳机中**，人们对于打扰一个戴耳机的人会更有负罪感
 8. **不要轻易答应**，很多时候大脑同意的时候，心里是不同意的。但是由于拒绝很难受，就会口是心非的答应。然后自己的时间就被堆积满了别人发起的邀请，而忽略了自己真正重要的事情
-
-## 🕒 订阅
-
-本周刊每周一发布，同步更新在语雀 **「mdh/weekly」** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）

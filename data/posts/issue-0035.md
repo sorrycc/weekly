@@ -23,8 +23,7 @@ publishedAt: "2022/01/10"
 ## ⚡ 展开讲讲
 
 ### SEE Conf
-
-[https://seeconf.antfin.com/](https://seeconf.antfin.com/)
+https://seeconf.antfin.com/
 
 ![](https://img.alicdn.com/imgextra/i1/O1CN01TUcOKM1Gvm2Pd36CU_!!6000000000685-2-tps-1600-802.png)
 
@@ -33,16 +32,14 @@ publishedAt: "2022/01/10"
 这也是我第一次对着镜头分享，看不到观众反馈的感觉有点奇妙，只能脑补大家的热情。
 
 ### Monorepo 工具集
-
-[https://turborepo.org/docs/guides/complimentary-tools](https://turborepo.org/docs/guides/complimentary-tools)
+https://turborepo.org/docs/guides/complimentary-tools
 
 包含 turporepo 推荐的 monorepo 工具集，在此可以找到每个子领域的推荐方案和备选方案。多看别人的依赖推荐开阔下思路，还可以避免自己造低级轮子。
 
 比如用 changesets 做版本和 changelog 管理，用 husky + lint-staged 管理 linting，用 cypress + github action + playwright 做测试，用 mrm、codemod 和 jscodeshift 做 codemod，用 plop 做 codegen，用 pulumi 做 Infrastructure as Code，用 yalc 替换 npm link，用 verdaccio 当私有 npm registry。
 
 ### 手写 Valtio 的 React 部分
-
-[https://blog.axlight.com/posts/how-valtio-proxy-state-works-react-part/](https://blog.axlight.com/posts/how-valtio-proxy-state-works-react-part/)
+https://blog.axlight.com/posts/how-valtio-proxy-state-works-react-part/
 
 Valtio 教你手写 Valtio 的第二篇，关于 React。
 
@@ -66,7 +63,7 @@ Valtio 对此还有个 useSnapshot 的上层封装，包含 useSyncExternalStore
 ```javascript
 import { proxy, useSnapshot } from 'valtio';
 // 定义数据
-const state = proxy({ nested: { count: 0, text: 'hello' }, others: \[\] });
+const state = proxy({ nested: { count: 0, text: 'hello' }, others: [] });
 const TextComponent = () => {
   // 使用数据
   const snap = useSnapshot(state);
@@ -75,8 +72,7 @@ const TextComponent = () => {
 ```
 
 ### 2022 首个大趋势：TurboRepo
-
-[https://dev.to/swyx/why-turborepo-will-be-the-first-big-trend-of-2022-4gfj](https://dev.to/swyx/why-turborepo-will-be-the-first-big-trend-of-2022-4gfj)
+https://dev.to/swyx/why-turborepo-will-be-the-first-big-trend-of-2022-4gfj
 
 作者在文中详细介绍了 TruboRepo 的 WHY、What 和 HOW，还有 FUTURE。
 
@@ -87,8 +83,7 @@ TurboRepo 提速的基本思路是利用缓存，让做过的事不做第二遍�
 TurboRepo 74% 的代码基于 Go 实现，这也说明「用 JS 写 JS 工具」的时代已经过去，为了更好的性能，大家更愿意选择高门槛的其他语言。
 
 ### pnpm 6.25
-
-[https://github.com/pnpm/pnpm/releases/tag/v6.25.0](https://github.com/pnpm/pnpm/releases/tag/v6.25.0)
+https://github.com/pnpm/pnpm/releases/tag/v6.25.0
 
 支持配置 node-linker，可选 isolated、hoisted 和 pnp。isolated 是 pnpm 现有方式，hoisted 是 npm & yarn 那种拍平的目录结构，pnp 是 yarn 2 的 pnp 结构。
 
@@ -97,8 +92,7 @@ TurboRepo 74% 的代码基于 Go 实现，这也说明「用 JS 写 JS 工具」
 此外有趣的是，yarn 3.1 也支持了 pnpm 的 linker 方式。
 
 ### Chrome 97
-
-[https://developer.chrome.com/zh/blog/new-in-devtools-97/](https://developer.chrome.com/zh/blog/new-in-devtools-97/)
+https://developer.chrome.com/zh/blog/new-in-devtools-97/
 
 ![](https://img.alicdn.com/imgextra/i4/O1CN01f39i3m1sEDm63f5Y0_!!6000000005734-2-tps-1600-1081.png)
 
@@ -109,8 +103,7 @@ Chrome 97 有两个值得关注的更新。
 二是 Record 面板的更新，包含 Record、Replay 和 Measure 三大功能，更好用了，此外还能导出 puppeteer 脚本。想到的一个场景是用户遇到问题时可以引导他通过这个功能导出 puppeteer 脚本给开发者 replay，会非常有价值。
 
 ### nx vs. turborepo
-
-[https://nx.dev/guides/turbo-and-nx](https://nx.dev/guides/turbo-and-nx)
+https://nx.dev/guides/turbo-and-nx
 
 ![](https://img.alicdn.com/imgextra/i4/O1CN01x6dz5J1FhHtfp4uAH_!!6000000000518-1-tps-1920-1080.gif)
 
@@ -119,8 +112,7 @@ Chrome 97 有两个值得关注的更新。
 nx 和 yarn workspace 是互补的关系，可以一起用；而 turborepo 目前是 nx 的子集，并且从 nx 里「学习」了不少功能，没有一起用的意义。turborepo 目前还是个小项目，仅 5K 行代码，很多 nx 支持的功能 turborepo 并不支持。nx 还有配套的 nx cloud，可以做分布式的缓存和任务执行，分布式缓存和 turborepo 的 remote caching 是同一个功能。等等。
 
 ### 2021 JavaScript Rising Stars
-
-[https://risingstars.js.org/2021/en](https://risingstars.js.org/2021/en)
+https://risingstars.js.org/2021/en
 
 摘要，
 
@@ -135,16 +127,14 @@ nx 和 yarn workspace 是互补的关系，可以一起用；而 turborepo 目�
 9、CSS in JS 部分，vanilla-extract 增长最快，也是我非常喜欢的一个方案<br />
 
 ### 从实现原理看低代码
-
-[https://zhuanlan.zhihu.com/p/451340998](https://zhuanlan.zhihu.com/p/451340998)
+https://zhuanlan.zhihu.com/p/451340998
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN01HFxTx723Kb3tWet67_!!6000000007237-2-tps-1600-799.png)
 
 作者在低代码领域探索了很多年，从2015 开始研发低代码前端渲染（amis），从 2018 年开研发后端低代码数据模型，发布了爱速搭低代码平台，这些年调研过了几乎所有市面上的相关技术和产品，发现虽然每家产品细节都不太一样，但在底层技术上却只有少数几种方案，因此我们认为不同产品间的最大区别是实现原理，了解这些实现原理就能知道各个低代码平台的优缺点，所以本文将会介绍目前已知的各种低代码实现方案，从实现原理角度看低代码。
 
 ### pnpm 2021
-
-[https://pnpm.io/blog/2021/12/29/yearly-update](https://pnpm.io/blog/2021/12/29/yearly-update)
+https://pnpm.io/blog/2021/12/29/yearly-update
 
 ![](https://img.alicdn.com/imgextra/i2/O1CN01B1NGje20jNdziJ8HD_!!6000000006885-2-tps-585-498.png)
 
