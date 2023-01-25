@@ -14,7 +14,9 @@ export default function Page() {
       </Helmet>
       <Post
         dangerouslySetInnerHTML={{
-          __html: html,
+          __html: html
+            .replace('%LAST_NUMBER%', LAST_NUMBER)
+            .replace('%LAST_PUBLISHED_AT%', LAST_PUBLISHED_AT),
         }}
       />
     </div>

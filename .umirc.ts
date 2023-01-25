@@ -10,4 +10,8 @@ export default {
     config.module.rule('asset').exclude.add(REG).end();
     config.module.rule('md').test(REG).type('asset/source').end();
   },
+  define: {
+    LAST_PUBLISHED_AT: require('./public/posts.json')[0].publishedAt,
+    LAST_NUMBER: require('./public/posts.json')[0].number,
+  },
 };
