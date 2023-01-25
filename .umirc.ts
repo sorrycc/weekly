@@ -1,8 +1,12 @@
 export default {
   plugins: [
+    '@umijs/plugins/dist/analytics',
     '@umijs/plugins/dist/styled-components',
     '@umijs/plugins/dist/react-query',
   ],
+  analytics: {
+    ga_v2: 'G-JJ5DHZ4KZ9',
+  },
   styledComponents: {},
   reactQuery: {},
   favicons: [
