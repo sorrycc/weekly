@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.0.2",
+    "@umijs/plugins": "^4.0.47",
     "esno": "^0.5.0",
     "feed": "^4.2.2",
     "front-matter": "^4.0.2",
@@ -16,17 +17,17 @@
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",
     "umi": "^4.0.47",
-    "@umijs/plugins": "^4.0.47",
     "zx": "^4.2.0"
   },
   "dependencies": {
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-helmet": "^6.1.6",
+    "@vercel/analytics": "^0.1.8",
+    "clsx": "^1.2.1",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.6",
     "markdown-it-table-of-contents": "^0.6.0",
-    "clsx": "^1.2.1",
     "react-helmet": "^6.1.0"
   }
 }
