@@ -157,7 +157,7 @@ function Main() {
   return (
     <main>
       <Helmet>
-        <title>{`第 ${numberStr} 期 - MDH 前端周刊`}</title>
+        <title>{`第 ${numberStr} 期：${title} - MDH 前端周刊`}</title>
       </Helmet>
       <TocRender toc={toc} />
       <h1>

@@ -37,7 +37,7 @@ function Posts() {
   return (
     <PostsWrapper>
       <Helmet>
-        <title>周刊 - MDH 前端周刊</title>
+        <title>往期周刊 - MDH 前端周刊</title>
       </Helmet>
       <ul>
         {postsQuery.data!.map((post) => (
