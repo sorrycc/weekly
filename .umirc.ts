@@ -10,7 +10,7 @@ export default defineConfig({
     {
       rel: 'alternate',
       type: 'application/rss+xml',
-      title: '订阅 MDH Weekly 前端周刊',
+      title: 'MDH Weekly 前端周刊',
       href: 'https://mdhweekly.com/rss.xml',
     },
   ],
