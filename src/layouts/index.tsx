@@ -1,5 +1,4 @@
 import { Outlet, Link, useLocation, styled } from 'umi';
-import { Analytics } from '@vercel/analytics/react';
 
 const Wrapper = styled.div<{ isPost: boolean }>`
   max-width: 65ch;
@@ -54,7 +53,6 @@ export default function Layout() {
         <Outlet />
       </div>
       <footer>MDH Weekly since 2021</footer>
-      <Analytics />
     </Wrapper>
   );
 }
