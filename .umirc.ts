@@ -1,8 +1,18 @@
-export default {
+import { defineConfig } from 'umi';
+
+export default defineConfig({
   plugins: [
     '@umijs/plugins/dist/analytics',
     '@umijs/plugins/dist/styled-components',
     '@umijs/plugins/dist/react-query',
+  ],
+  links: [
+    {
+      rel: 'alternate',
+      type: 'application/rss+xml',
+      title: '订阅 MDH Weekly 前端周刊',
+      href: 'https://mdhweekly.com/rss.xml',
+    },
   ],
   analytics: {
     ga_v2: 'G-JJ5DHZ4KZ9',
@@ -24,4 +34,4 @@ export default {
     LAST_PUBLISHED_AT: require('./public/posts.json')[0].publishedAt,
     LAST_NUMBER: require('./public/posts.json')[0].number,
   },
-};
+});
