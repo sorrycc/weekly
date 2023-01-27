@@ -8,6 +8,7 @@ specifiers:
   '@umijs/plugins': ^4.0.47
   '@vercel/analytics': ^0.1.8
   clsx: ^1.2.1
+  dayjs: ^1.11.7
   esno: ^0.5.0
   feed: ^4.2.2
   front-matter: ^4.0.2
@@ -38,6 +39,7 @@ dependencies:
 devDependencies:
   '@types/node': 15.14.9
   '@umijs/plugins': 4.0.47_ofjx7rc4pggivjjkjopjm26ckm
+  dayjs: 1.11.7
   esno: 0.5.0
   feed: 4.2.2
   front-matter: 4.0.2

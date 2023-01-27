@@ -3,12 +3,13 @@
     "dev": "umi dev",
     "setup": "umi setup",
     "build": "NODE_ENV=production npm run doc:build && umi build",
-    "doc:bootstrap": "esno scripts/bootstrap.ts",
+    "bootstrap": "esno scripts/bootstrap.ts",
     "doc:build": "esno scripts/generatePosts.ts"
   },
   "devDependencies": {
     "@types/node": "^15.0.2",
     "@umijs/plugins": "^4.0.47",
+    "dayjs": "^1.11.7",
     "esno": "^0.5.0",
     "feed": "^4.2.2",
     "front-matter": "^4.0.2",

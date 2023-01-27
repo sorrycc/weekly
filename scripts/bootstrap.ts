@@ -1,65 +1,54 @@
-import { readdirSync, writeFileSync } from 'fs';
-import { join } from 'path';
+import 'zx/globals';
+import dayjs from 'dayjs';
+import assert from 'assert';
 
-function findIssueNum() {
-  const dir = join(__dirname, '../docs/');
-  const files = readdirSync(dir);
-  let num = 0;
-  files.forEach((file) => {
-    const m = file.match(/issue-(\d+)\.md/);
-    if (m && m[1]) {
-      const currNum = parseInt(m[1], 10);
-      if (currNum > num) {
-        num = currNum;
-      }
-    }
-  });
-  return num;
-}
-
-const prevNum = findIssueNum();
-const num = prevNum + 1;
-const paddedNum = String(num).padStart(4, '0');
-const fileName = `issue-${paddedNum}.md`;
-
-writeFileSync(
-  join(__dirname, '../docs/', fileName),
+const posts = require('../public/posts.json');
+const publishedAt = dayjs(posts[0].publishedAt)
+  .add(7, 'day')
+  .format('YYYY-MM-DD');
+const content =
   `
-# MDH 前端周刊第 ${num} 期：TODO
+---
+title: "WIP"
+titleImage: ""
+titleImageCaption: ""
+publishedAt: "${publishedAt}"
+draft: true
+---
 
-**这是 「MDH：前端周刊」 第 ${paddedNum} 期，发表于：2022/TODO。本期刊开源（GitHub: sorrycc/weekly），欢迎 issue 区投稿，推荐或自荐项目。**
+## 一周要事
 
-TODO
+。
 
-封面图：sergioxu @ www.unsplash.com 。
+## 一周新闻
+> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
+- 。
 
-## ❄️ TL;DR
+## 深度好文
+> 好文推荐。这周好文真多，以下是我全文阅读过的部分。
 
-👉 node.new<br />
+- 。
 
-## ⚡ 展开讲讲
+## Umi 和我
+> 关于 Umi 和我最近的进展。
 
-### node.new
-https://twitter.com/stackblitz/status/1414617135616245761
+- 。
 
-DESC
+## 求职招聘
+> 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单，有求职需求的请在 https://docs.qq.com/form/page/DY291a3BOdGR3TnRT 填写表单。
 
-## 🕒 订阅
+- 。
 
-本期刊有几种订阅方式，
+## 每周一图
 
-1、本期刊已开通 **NewsLetter** 的订阅方式，方便不喜欢公众号阅读的朋友们，访问 **[https://mdhappy.substack.com/](https://mdhappy.substack.com/)** 或扫描下方二维码了解详情。
+。
 
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01fgWXv11SlwvuAiz0i_!!6000000002288-2-tps-422-424.png" width="215" />
-
-2、微信搜索 **「云谦和他的朋友们」** 或扫描下方二维码，在我的公众号订阅更新。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
-（完）
-  `.trim() + `\n`,
-  'utf-8',
-);
-
-console.log(`bootstrap docs/${fileName}`);
+`.trim() + '\n';
+const nextNum = posts[0].number + 1;
+const nextNumStr = nextNum.toString().padStart(4, '0');
+const filePath = path.join('docs', 'posts', `issue-${nextNumStr}.md`);
+const absFilePath = path.join(__dirname, '..', filePath);
+assert(!fs.existsSync(absFilePath), `File ${filePath} already exists`);
+fs.writeFileSync(absFilePath, content, 'utf-8');
+console.log(`Bootstrap ${filePath}`);
