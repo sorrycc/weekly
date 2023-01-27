@@ -9,9 +9,11 @@ import { Toc } from '@/types';
 
 const Wrapper = styled.div`
   display: flex;
+
   aside {
     width: 250px;
     margin-right: 24px;
+
     li {
       height: 32px;
       line-height: 32px;
@@ -27,47 +29,62 @@ const Wrapper = styled.div`
       }
     }
   }
+
   main {
     flex: 1;
     position: relative;
+
     .toc {
       position: sticky;
       top: 0;
       height: 0;
+
       .toc-inner {
         position: absolute;
         right: -440px;
         top: 20px;
         width: 400px;
         padding-left: 20px;
-        border-left: 2px solid #ccc;
+        border-left: 3px solid #e3e3e3;
         line-height: 2;
+        font-size: 0.8rem;
+
         .toc-item-level-3 {
           padding-left: 40px;
         }
+
         a {
           color: #666;
           text-decoration: none;
         }
+
+        a:hover {
+          text-decoration: underline;
+        }
       }
     }
+
     h1 {
       font-size: 2.25rem;
       line-height: 1.2;
       padding-bottom: 1.5rem;
     }
+
     div.publishedAt {
       margin-top: 12px;
       color: #666;
       font-style: italic;
     }
+
     div.titleImage {
       margin-top: 2rem;
+
       img {
         width: 100%;
         vertical-align: middle;
       }
     }
+
     div.titleImageCaption {
       margin-top: 12px;
       color: #666;
