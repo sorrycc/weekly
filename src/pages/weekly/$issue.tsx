@@ -4,6 +4,7 @@ import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import clsx from 'clsx';
+import Balancer from 'react-wrap-balancer';
 import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
 import { Toc } from '@/types';
 
@@ -178,7 +179,9 @@ function Main() {
       </Helmet>
       <TocRender toc={toc} />
       <h1>
-        第 {numberStr} 期：{title}
+        <Balancer>
+          第 {numberStr} 期：{title}
+        </Balancer>
       </h1>
       <div className="publishedAt">{publishedAt}</div>
       <div className="titleImage">
