@@ -1,92 +1,27 @@
-# MDH 前端周刊
+# MDH Weekly 前端周刊
 
-计划坚持做一件小事，每周写一份前端周刊。
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png" width="120" height="120" style="margin:0;" />
 
-🕒 每周一早上 9:00 准时更新<br />
-🥊 断更自罚 200 支付宝口令红包<br />
-👋 前端文章、工具、信息、Github 库为主，八卦、招聘为辅<br />
+MDH 前端周刊源于 2021 年的一次临时起意，通过公开立 Flag + 断更自罚 200 红包的方式，意外地坚持了下来。截止 %LAST_PUBLISHED_AT% 已更 %LAST_NUMBER% 期。内容包括每周社区的一周新闻、深度好文、Umi 和我、招聘/求职等，每篇深度好文我都会仔细阅读，然后贴上自己的笔记或心得。
 
-欢迎投稿，推荐或自荐文章/工具/资源，请[提交 issue](https://github.com/sorrycc/weekly/issues) 。
+每个人都很忙，大部分同学可能没时间跟进社区的变化，但了解前沿知识对技能成长、方案决策是很有帮助的，不管是做基建还是业务的同学，要做出技术改变业务的事，有大量输入会带来更多灵感。远的不说，我个人做 Umi 开发时，就会时常从周刊里翻资料。希望借此周刊能让大家用最少的时间了解前端社区变化。
 
-## 2022
+<strong>关于我？</strong>
 
-### 二月
+我叫陈成（sorrycc），曾就职于阿里巴巴，取花名「云谦」，后转岗到蚂蚁集团，工作至今。阿里 & 蚂蚁 10 年 + 老前端、ZJU、P8、[Umi](https://github.com/umijs/umi) & [Dva](https://github.com/dvajs/dva) 等开源库作者，蚂蚁中台框架 Owner，「MDH 前端周刊」作者，热爱开源、分享、写作。
 
-* [第 39 期：MDX 2、React 2022、Notion API Blog、Sponsor Only 仓库、upgit](./docs/issue-0039.md)
+<strong>如何订阅？</strong>
 
-### 一月
+你可以通过 [RSS](/rss.xml) 的方式订阅；也可扫下方二维码关注我的公众号，然后每周一早上 9 点会准时收到推送。
 
-* [第 38 期：Umi 4 RC、HTTPie 3、Deno 2021](./docs/issue-0038.md)
-* [第 37 期：Remix vs. Next、Electron 迟暮、Vitekit、多租户](./docs/issue-0037.md)
-* [第 36 期：Hey、浏览器里跑 Vite、Container Query 补丁、Parcel CSS](./docs/issue-0036.md)
-* [第 35 期：SEE Conf、手写 Valtio、Turborepo、Chrome 97](./docs/issue-0035.md)
-* [The Year of MDH 前端周刊](https://www.yuque.com/mdh/weekly/owagyf)
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01PBdSNj1SIBGJTJn52_!!6000000002223-2-tps-840-855.png_200x200.jpg" width="200" height="200" style="margin:0;" />
 
-## 2021
+<strong>联系我？</strong>
 
-### 十二月
+如有需要，你可以在 [Github](https://github.com/sorrycc)、[Twitter](https://twitter.com/chenchengpro)、[知乎](https://www.zhihu.com/people/chenchengpro)、[哔哩哔哩](https://space.bilibili.com/27472034)上找到我，也可以通过邮箱 [sorrycc#gmail.com](mailto:sorrycc@gmail.com) 联系到我，或者扫下方二维码加我微信沟通。
 
-* [第 34 期：Vitest、设计模式、Milkdown、防御性 CSS](./docs/issue-0034.md)
-* [第 33 期：Github Wrapped、Rails 7、CRA 5、structuredClone](./docs/issue-0033.md)
-* [第 32 期：React Conf、TailwindCSS 3、Turborepo、ahooks 3](./docs/issue-0032.md)
-* [第 31 期：Fleet、Sandpack、MFSU、SVGR 6、Floating UI](./docs/issue-0031.md)
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01wV6LkR1JJi2efMEGz_!!6000000001008-2-tps-2088-2096.png_200x200.jpg" width="200" height="200" style="margin:0;" />
 
-### 十一月
+<strong>周刊不够看？还有我的付费星球。</strong>
 
-* [第 30 期：Remix 1、Lightweight Deps、Anti Trojan Source](./docs/issue-0030.md)
-* [第 29 期：React 18 Beta、React Location、wrangler 2](./docs/issue-0029.md)
-* [第 28 期：Hydrogen、Chrome Recorder、Umi Contributor](./docs/issue-0028.md)
-* [第 27 期：Bun、coa、React Router 6、CSS in React](./docs/issue-0027.md)
-* [第 26 期：Next.js 12、Umi 4 Beta 1、UnoCSS、Modern.js](./docs/issue-0026.md)
-
-### 十月
-
-* [第 25 期：vscode.dev、Aura Theme 2、Node 17、useId](./docs/issue-0025.md)
-* [第 24 期：Parcel 2、React Router 6、Nuxt 3、Better Log](./docs/issue-0024.md)
-* [第 23 期：Astro 0.21、ESLint 8、vite-node、Sanitizer API、Lattice](./docs/issue-0023.md)
-* [第 22 期：TypeScript 4.5、React 反模式、Vite 2.6、Partytown、miniflare](./docs/issue-0022.md)
-
-### 九月
-
-* [第 21 期：Rome ❤️ Rust、推断式预渲染、motion](./docs/issue-0021.md)
-* [第 20 期：Nuxt 3、øJS、MUI 5、Snowpack 弃坑、astro-repl](./docs/issue-0020.md)
-* [第 19 期：prettier 2.4、命名速查表、资源引用、React 18、Corepack](./docs/issue-0019.md)
-* [第 18 期：stitches 1、ultra、7GUIs、Clean 架构](./docs/issue-0018.md)
-
-### 八月
-
-* [第 17 期：unplugin、SWR 1、zx 4、手写 Valtio、领域](./docs/issue-0017.md)
-* [第 16 期：webpack-dev-server 4、astro 0.19、图解 Context 渲染、真实世界的 css-in-js](./docs/issue-0016.md)
-* [第 15 期：Next.js 11.1、DHH 不打包不编译的愿望、图解 useMemo、Vue 3.2](./docs/issue-0015.md)
-* [第 14 期：Babel 7.15 const enum、Parcel 2 RC、webpack buildHttp](./docs/issue-0014.md)
-* [第 13 期：Yarn 3、React Re-rendering、Just JavaScript](./docs/issue-0013.md)
-
-### 七月
-
-* [第 12 期：node.new、win 11 with react、手写 React、微前端](./docs/issue-0012.md)
-* [第 11 期：useContextSelector、react-gui、wrap、fre conf](./docs/issue-0011.md)
-* [第 10 期：Gatsby 3.9、zx 2、npm audit、petite-vue](./docs/issue-0010.md)
-* [第 9 期：Github Copilot、Temporal、TypeScript 4.4 Beta](./docs/issue-0009.md)
-
-### 六月
-
-* [第 8 期：Umi 2.5 Beta、ES2021、SWR 1 Beta](./docs/issue-0008.md)
-* [第 7 期：Next.js 11、Jotai 1](./docs/issue-0007.md)
-* [第 6 期：React 18 Alpha、Vue 3.1](./docs/issue-0006.md)
-* [第 5 期：Lighthouse 8、Chrome 92、手写测试框架、Unbundled 开发工具](./docs/issue-0005.md)
-
-### 五月
-
-* [第 4 期：Chrome 91、Jest 27、TypeScript 4.3](./docs/issue-0004.md)
-* [第 3 期：WebContainer、Parcel 2 Beta 3、Sublime Text 4](./docs/issue-0003.md)
-* [第 2 期：babel、deno、0kb JavaScript](./docs/issue-0002.md)
-* [第 1 期：rome、slidev、zx](./docs/issue-0001.md)
-
-## 订阅
-
-本周刊每周一发布，同步更新在语雀 **[「mdh/weekly」](https://www.yuque.com/mdh/weekly)** 和微信公众号。
-
-微信搜索 **「云谦」** 或者扫描二维码，即可订阅。
-
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01jmrjUx1yw5LcPFMx0_!!6000000006642-0-tps-430-430.jpg" width="215" />
-
+我在知识星球开了个专栏，付费的那种，专栏名叫[「云谦和他的朋友们」](https://q.sorrycc.com)。截止 2023.01.23 已有 600+ 朋友加入，写了 249 篇日更短文。日更内容比较发散，包括个人经历、代码框架、面试晋升、趋势分析、工作方法相关的观点、新技术调研笔记、Umi 一手信息，以及几份计划中小册「前端工程化」「极简框架课：手写 Umi」「高效程序员」的试更。
