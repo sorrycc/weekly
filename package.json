@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "umi dev",
     "setup": "umi setup",
-    "build": "NODE_ENV=production npm run doc:build && umi build",
+    "build": "NODE_ENV=production npm run doc:build && npm run docaid:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
     "doc:build": "esno scripts/buildDocs.ts",
     "docaid:build": "pnpm --filter docaid build",
