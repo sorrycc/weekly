@@ -1,61 +1,51 @@
 import 'zx/globals';
 import { Feed } from 'feed';
-// @ts-ignore
-import toc from 'markdown-toc';
-import { parseFrontMatter } from '../src/utils/mdUtils/parseFrontMatter';
+import { parseDocs } from 'docaid';
 
 const sourceDir = path.join(__dirname, '../docs/posts');
-const targetFilePath = path.join(__dirname, '../public/posts.json');
+const targetPostPath = path.join(__dirname, '../public/posts.json');
+const targetPostsDir = path.join(__dirname, '../public/posts');
+fs.mkdirpSync(targetPostsDir);
 
-const contents: Record<string, string> = {};
-const posts = fs
-  .readdirSync(sourceDir)
-  .map((file) => {
-    if (file.endsWith('.md')) {
-      const content = fs.readFileSync(path.join(sourceDir, file), 'utf-8');
-      const { attributes, body } = parseFrontMatter(content);
-      if ((attributes as any).draft && process.env.NODE_ENV === 'production') {
-        return false;
-      }
-      const numberStr = file.match(/issue-(\d+)\.md/)![1];
-      contents[numberStr] = body;
-      return {
-        ...(attributes as object),
-        number: parseInt(numberStr, 10),
-        numberStr,
-      };
-    } else {
-      return false;
-    }
-  })
-  .filter(Boolean)
-  .sort((a: any, b: any) => (b.number > a.number ? 1 : -1));
-fs.writeFileSync(targetFilePath, JSON.stringify(posts, null, 2), 'utf-8');
-console.log('Generate posts.json');
+const docs = parseDocs(sourceDir, {
+  ignoreDraft: process.env.NODE_ENV === 'production',
+  sort: {
+    key: 'number',
+  },
+  transform(doc, context) {
+    const numberStr = context.file.match(/issue-(\d+)\.md/)![1];
+    return {
+      ...doc,
+      number: parseInt(numberStr, 10),
+      numberStr,
+    };
+  },
+});
 
-fs.mkdirpSync(path.join(__dirname, '../public/posts'));
-// ref: https://github.com/valeriangalliat/markdown-it-anchor/blob/master/index.js#L3
-const slugify = (s: string) =>
-  encodeURIComponent(String(s).trim().toLowerCase().replace(/\s+/g, '-'));
-posts.forEach((post: any) => {
-  const content = contents[post.numberStr];
+docs.forEach((doc: any) => {
   fs.writeFileSync(
-    path.join(__dirname, '../public/posts', `issue-${post.numberStr}.json`),
-    JSON.stringify(
-      {
-        content,
-        toc: toc(content, {
-          slugify,
-        }).json,
-        ...post,
-      },
-      null,
-      2,
-    ),
+    path.join(targetPostsDir, `issue-${doc.numberStr}.json`),
+    JSON.stringify(doc, null, 2),
     'utf-8',
   );
 });
 console.log('Write posts to public/posts');
+
+fs.writeFileSync(
+  targetPostPath,
+  JSON.stringify(
+    docs.map((doc) => {
+      const newDoc = { ...doc };
+      delete newDoc.content;
+      delete newDoc.toc;
+      return newDoc;
+    }),
+    null,
+    2,
+  ),
+  'utf-8',
+);
+console.log('Generate posts.json');
 
 const feed = new Feed({
   id: 'https://mdhweekly.com/',
@@ -76,7 +66,7 @@ const feed = new Feed({
     link: 'https://sorrycc.com/',
   },
 });
-posts.slice(0, 20).forEach((post: any) => {
+docs.slice(0, 20).forEach((post: any) => {
   const title = `第 ${post.number} 期：${post.title}`;
   const link = `https://mdhweekly.com/weekly/issue-${post.numberStr}`;
   const content = `

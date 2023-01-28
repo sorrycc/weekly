@@ -19,8 +19,10 @@
   },
   "dependencies": {
     "@types/markdown-it": "^12.2.3",
+    "front-matter": "^4.0.2",
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.6"
+    "markdown-it-anchor": "^8.6.6",
+    "markdown-toc": "^1.2.0"
   },
   "devDependencies": {
     "father": "^4.1.3"

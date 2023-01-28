@@ -15,8 +15,6 @@
     "dayjs": "^1.11.7",
     "esno": "^0.5.0",
     "feed": "^4.2.2",
-    "front-matter": "^4.0.2",
-    "markdown-toc": "^1.2.0",
     "prettier": "^2.2.1",
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",

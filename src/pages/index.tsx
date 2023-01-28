@@ -15,6 +15,7 @@ export default function Page() {
       <Post
         dangerouslySetInnerHTML={{
           __html: html
+            // @ts-ignore
             .replace('%LAST_NUMBER%', LAST_NUMBER)
             .replace('%LAST_PUBLISHED_AT%', LAST_PUBLISHED_AT),
         }}
