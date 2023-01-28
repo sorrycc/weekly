@@ -12,12 +12,10 @@ importers:
       '@vercel/analytics': ^0.1.8
       clsx: ^1.2.1
       dayjs: ^1.11.7
+      docaid: 0.0.1-alpha.1
       esno: ^0.5.0
       feed: ^4.2.2
       front-matter: ^4.0.2
-      markdown-it: ^13.0.1
-      markdown-it-anchor: ^8.6.6
-      markdown-it-table-of-contents: ^0.6.0
       markdown-toc: ^1.2.0
       prettier: ^2.2.1
       prettier-plugin-organize-imports: ^1.1.1
@@ -32,15 +30,13 @@ importers:
       '@types/react-helmet': 6.1.6
       '@vercel/analytics': 0.1.8
       clsx: 1.2.1
-      markdown-it: 13.0.1
-      markdown-it-anchor: 8.6.6_markdown-it@13.0.1
-      markdown-it-table-of-contents: 0.6.0
       react-helmet: 6.1.0
       react-wrap-balancer: 0.4.0
     devDependencies:
       '@types/node': 15.14.9
       '@umijs/plugins': 4.0.47_ofjx7rc4pggivjjkjopjm26ckm
       dayjs: 1.11.7
+      docaid: link:docaid
       esno: 0.5.0
       feed: 4.2.2
       front-matter: 4.0.2
@@ -53,7 +49,14 @@ importers:
 
   docaid:
     specifiers:
+      '@types/markdown-it': ^12.2.3
       father: ^4.1.3
+      markdown-it: ^13.0.1
+      markdown-it-anchor: ^8.6.6
+    dependencies:
+      '@types/markdown-it': 12.2.3
+      markdown-it: 13.0.1
+      markdown-it-anchor: 8.6.6_ea7kj7wzjkld5jo2noyjqxi764
     devDependencies:
       father: 4.1.3
 
@@ -3033,6 +3036,21 @@ packages:
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
+
+  /@types/linkify-it/3.0.2:
+    resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
+    dev: false
+
+  /@types/markdown-it/12.2.3:
+    resolution: {integrity: sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==}
+    dependencies:
+      '@types/linkify-it': 3.0.2
+      '@types/mdurl': 1.0.2
+    dev: false
+
+  /@types/mdurl/1.0.2:
+    resolution: {integrity: sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==}
+    dev: false
 
   /@types/minimatch/5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
@@ -6954,18 +6972,14 @@ packages:
     resolution: {integrity: sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=}
     dev: true
 
-  /markdown-it-anchor/8.6.6_markdown-it@13.0.1:
+  /markdown-it-anchor/8.6.6_ea7kj7wzjkld5jo2noyjqxi764:
     resolution: {integrity: sha512-jRW30YGywD2ESXDc+l17AiritL0uVaSnWsb26f+68qaW9zgbIIr1f4v2Nsvc0+s0Z2N3uX6t/yAw7BwCQ1wMsA==}
     peerDependencies:
       '@types/markdown-it': '*'
       markdown-it: '*'
     dependencies:
+      '@types/markdown-it': 12.2.3
       markdown-it: 13.0.1
-    dev: false
-
-  /markdown-it-table-of-contents/0.6.0:
-    resolution: {integrity: sha512-jHvEjZVEibyW97zEYg19mZCIXO16lHbvRaPDkEuOfMPBmzlI7cYczMZLMfUvwkhdOVQpIxu3gx6mgaw46KsNsQ==}
-    engines: {node: '>6.4.0'}
     dev: false
 
   /markdown-it/13.0.1:

@@ -14,7 +14,13 @@
     "docaid": "bin/docaid.js"
   },
   "scripts": {
-    "build": "father build"
+    "build": "father build",
+    "dev": "father dev"
+  },
+  "dependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6"
   },
   "devDependencies": {
     "father": "^4.1.3"

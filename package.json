@@ -9,6 +9,7 @@
     "docaid:dev": "pnpm --filter docaid dev"
   },
   "devDependencies": {
+    "docaid": "0.0.1-alpha.1",
     "@types/node": "^15.0.2",
     "@umijs/plugins": "^4.0.47",
     "dayjs": "^1.11.7",
@@ -28,9 +29,6 @@
     "@types/react-helmet": "^6.1.6",
     "@vercel/analytics": "^0.1.8",
     "clsx": "^1.2.1",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.6",
-    "markdown-it-table-of-contents": "^0.6.0",
     "react-helmet": "^6.1.0",
     "react-wrap-balancer": "^0.4.0"
   }

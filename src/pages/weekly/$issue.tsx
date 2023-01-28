@@ -5,26 +5,22 @@ import { Helmet } from 'react-helmet';
 import React from 'react';
 import clsx from 'clsx';
 import Balancer from 'react-wrap-balancer';
-import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
+import { toHtml } from 'docaid/client';
 import { Toc } from '@/types';
 
 const Wrapper = styled.div`
   display: flex;
-
   aside {
     width: 250px;
     margin-right: 24px;
-
     li {
       height: 32px;
       line-height: 32px;
       overflow: hidden;
-
       a {
         color: #282c34;
         text-decoration: none;
       }
-
       &.active a {
         color: #b5495b;
       }
@@ -39,7 +35,6 @@ const Wrapper = styled.div`
       position: sticky;
       top: 0;
       height: 0;
-
       .toc-inner {
         position: absolute;
         right: -440px;
@@ -140,7 +135,7 @@ function Main() {
     titleImageCaption,
   } = postQuery.data!;
 
-  let html = renderMarkdown(content);
+  let html = toHtml(content);
   const sp = new URLSearchParams(location.search);
   if (sp.has('__mp')) {
     html =

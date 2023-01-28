@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Post } from '@/pages/weekly/$issue';
-import { renderMarkdown } from '@/utils/mdUtils/renderMarkdown';
+import { toHtml } from 'docaid/client';
 
 const content = require('@/mds/mdh-weekly-introduce.md');
-const html = renderMarkdown(content);
+const html = toHtml(content);
 
 export default function Page() {
   return (
