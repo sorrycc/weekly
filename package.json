@@ -4,7 +4,9 @@
     "setup": "umi setup",
     "build": "NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
-    "doc:build": "esno scripts/generatePosts.ts"
+    "doc:build": "esno scripts/buildDocs.ts",
+    "docaid:build": "pnpm --filter docaid build",
+    "docaid:dev": "pnpm --filter docaid dev"
   },
   "devDependencies": {
     "@types/node": "^15.0.2",
