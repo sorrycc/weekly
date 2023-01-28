@@ -14,7 +14,6 @@
     "@umijs/plugins": "^4.0.47",
     "dayjs": "^1.11.7",
     "esno": "^0.5.0",
-    "feed": "^4.2.2",
     "prettier": "^2.2.1",
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",
