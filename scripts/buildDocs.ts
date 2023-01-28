@@ -1,6 +1,5 @@
 import 'zx/globals';
-import { parseDocs } from 'docaid';
-import { generateRSS } from '../docaid/src/utils/generateRSS';
+import { parseDocs, generateRSS } from 'docaid';
 
 const sourceDir = path.join(__dirname, '../docs/posts');
 const targetPostPath = path.join(__dirname, '../public/posts.json');
