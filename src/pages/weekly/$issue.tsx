@@ -1,127 +1,10 @@
-import { useParams, Link, styled } from 'umi';
+import { useParams } from 'umi';
 import { usePost } from '@/hooks/usePost';
-import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 import React from 'react';
-import clsx from 'clsx';
-import Balancer from 'react-wrap-balancer';
-import { toHtml } from 'docaid/client';
-import { Toc } from '@/types';
+import { toHtml, Doc } from 'docaid/client';
 
-const Wrapper = styled.div`
-  display: flex;
-  aside {
-    width: 250px;
-    margin-right: 24px;
-    li {
-      height: 32px;
-      line-height: 32px;
-      overflow: hidden;
-      a {
-        color: #282c34;
-        text-decoration: none;
-      }
-      &.active a {
-        color: #b5495b;
-      }
-    }
-  }
-
-  main {
-    flex: 1;
-    position: relative;
-
-    .toc {
-      position: sticky;
-      top: 0;
-      height: 0;
-      .toc-inner {
-        position: absolute;
-        right: -440px;
-        top: 20px;
-        width: 400px;
-        padding-left: 20px;
-        border-left: 3px solid #e3e3e3;
-        line-height: 2;
-        font-size: 0.8rem;
-
-        .toc-item-level-3 {
-          padding-left: 40px;
-        }
-
-        a {
-          color: #666;
-          text-decoration: none;
-        }
-
-        a:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-
-    h1 {
-      font-size: 2.25rem;
-      line-height: 1.2;
-      padding-bottom: 1.5rem;
-    }
-
-    div.publishedAt {
-      margin-top: 12px;
-      color: #666;
-      font-style: italic;
-    }
-
-    div.titleImage {
-      margin-top: 2rem;
-
-      img {
-        width: 100%;
-        vertical-align: middle;
-      }
-    }
-
-    div.titleImageCaption {
-      margin-top: 12px;
-      color: #666;
-      text-align: center;
-    }
-  }
-`;
-
-export const Post = styled.div`
-  line-height: 1.6;
-
-  a {
-    &:visited {
-      color: purple;
-    }
-  }
-  ul {
-    list-style: circle;
-    padding-left: 20px;
-  }
-  h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 50px;
-  }
-  p {
-    margin: 20px 0;
-  }
-  img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-  }
-  blockquote {
-    border-left: 4px solid #dfe2e5;
-    color: #6a737d;
-    padding-left: 16px;
-  }
-`;
-
-function Main() {
+export default () => {
   const params = useParams();
   const postQuery = usePost(params.issue as string);
   if (postQuery.isLoading) return <p>loading...</p>;
@@ -166,81 +49,27 @@ function Main() {
   MDH，让开发者有笑容 :)
 </p>
 `;
-
   return (
-    <main>
+    <>
       <Helmet>
         <title>{`第 ${numberStr} 期：${title} - MDH 前端周刊`}</title>
       </Helmet>
-      <TocRender toc={toc} />
-      <h1>
-        <Balancer>
-          第 {numberStr} 期：{title}
-        </Balancer>
-      </h1>
-      <div className="publishedAt">{publishedAt}</div>
-      <div className="titleImage">
-        <img src={titleImage} alt="headImg" />
-      </div>
-      <div className="titleImageCaption">题图：{titleImageCaption}。</div>
-      <Post
-        dangerouslySetInnerHTML={{
-          __html: html,
+      <Doc
+        title={{
+          content: title,
+          balance: true,
         }}
+        publishedAt={publishedAt}
+        headImg={{
+          src: titleImage,
+          alt: titleImageCaption,
+        }}
+        toc={{
+          data: toc,
+          leftPadding: 40,
+        }}
+        contentHtml={html}
       />
-    </main>
-  );
-}
-
-function TocRender(props: { toc: Toc }) {
-  return (
-    <div className="toc">
-      <div className="toc-inner">
-        {props.toc.map((item) => {
-          return (
-            <div
-              key={`toc-${item.content}`}
-              className={`toc-item-level-${item.lvl}`}
-            >
-              <a href={`#${item.slug}`}>{item.content}</a>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-function Sidebar() {
-  const postsQuery = usePosts();
-  const params = useParams();
-  if (postsQuery.isLoading) return <p>loading...</p>;
-  return (
-    <aside>
-      <ul>
-        {postsQuery.data!.map((post) => {
-          return (
-            <li
-              key={post.numberStr}
-              className={clsx({
-                active: post.numberStr === params.issue!.replace('issue-', ''),
-              })}
-            >
-              <Link to={`/weekly/issue-${post.numberStr}`}>
-                第 {post.numberStr} 期：{post.title}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </aside>
-  );
-}
-
-export default () => {
-  return (
-    <Wrapper>
-      <Main />
-    </Wrapper>
+    </>
   );
 };

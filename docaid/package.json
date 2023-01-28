@@ -18,13 +18,15 @@
     "dev": "father dev"
   },
   "dependencies": {
+    "@babel/runtime": "^7",
     "@types/markdown-it": "^12.2.3",
     "feed": "^4.2.2",
     "front-matter": "^4.0.2",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.6",
     "markdown-toc": "^1.2.0",
-    "@babel/runtime": "^7"
+    "react-wrap-balancer": "^0.4.0",
+    "styled-components": "^6.0.0-beta.9"
   },
   "devDependencies": {
     "father": "^4.1.3"
