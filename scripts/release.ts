@@ -22,6 +22,7 @@ import getGitRepoInfo from 'git-repo-info';
   await $`git commit -am "release: ${pkgName}@${newVersion}"`;
   await $`git tag ${pkgName}v${newVersion}`;
   await $`git push origin ${branch} --tags`;
+  await $`pnpm i`;
 })().catch((e) => {
   console.error(e);
   process.exit(1);
