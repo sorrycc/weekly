@@ -13,7 +13,7 @@
     "@types/node": "^15.0.2",
     "@umijs/plugins": "^4.0.47",
     "dayjs": "^1.11.7",
-    "docaid": "0.0.1",
+    "docaid": "0.0.2",
     "esno": "^0.5.0",
     "git-repo-info": "^2.1.1",
     "prettier": "^2.2.1",
