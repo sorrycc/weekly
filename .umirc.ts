@@ -22,6 +22,7 @@ export default defineConfig({
   reactQuery: {},
   docaid: {
     title: 'MDH Weekly 前端周刊',
+    headTitle: 'MDH Weekly',
     siteUrl: 'https://mdhweekly.com/',
     // @ts-ignore
     transform(doc: any) {
@@ -32,6 +33,14 @@ export default defineConfig({
         numberStr,
       };
     },
+    navs: [
+      { title: '往期周刊', path: '/weekly' },
+      { title: '知识星球', href: 'https://q.sorrycc.com/' },
+      { title: '投稿', href: 'https://github.com/sorrycc/weekly/issues' },
+      { title: 'RSS', href: '/rss.xml' },
+      { title: 'Github', href: 'https://github.com/sorrycc/weekly' },
+    ],
+    copyright: 'MDH Weekly since 2021',
     rss: {
       weekly: {
         default: true,

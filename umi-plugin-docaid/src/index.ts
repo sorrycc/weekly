@@ -1,4 +1,5 @@
 import { IApi } from 'umi';
+import { lodash } from 'umi/plugin-utils';
 import { buildDocs } from './buildDocs';
 import path from 'path';
 import fs from 'fs';
@@ -12,9 +13,12 @@ export default (api: IApi) => {
       schema(Joi) {
         return Joi.object({
           title: Joi.string(),
+          headTitle: Joi.string(),
           siteUrl: Joi.string()
             .pattern(/\/$/)
             .message(`siteUrl must ends with '/'`),
+          navs: Joi.array().items(Joi.object()),
+          copyright: Joi.string(),
           rss: Joi.object(),
           transform: Joi.function(),
           docDir: Joi.string(),
@@ -83,10 +87,23 @@ export default (api: IApi) => {
         });
       }
     });
-
     api.writeTmpFile({
       path: 'singleDocMap.json',
       content: JSON.stringify(singleDocMap, null, 2),
+    });
+    api.writeTmpFile({
+      path: 'config.json',
+      content: JSON.stringify(
+        lodash.pick(api.config.docaid, [
+          'title',
+          'headTitle',
+          'siteUrl',
+          'navs',
+          'copyright',
+        ]),
+        null,
+        2,
+      ),
     });
   });
 

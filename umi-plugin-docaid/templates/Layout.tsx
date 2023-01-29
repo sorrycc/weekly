@@ -1,4 +1,4 @@
-import { Outlet, Link, useLocation, styled } from 'umi';
+import { Outlet, Link, useLocation, styled, useDocAidConfig } from 'umi';
 
 const Wrapper = styled.div<{ isPost: boolean }>`
   max-width: 65ch;
@@ -35,24 +35,31 @@ const Wrapper = styled.div<{ isPost: boolean }>`
 
 export default function Layout() {
   const location = useLocation();
+  const { headTitle, navs, copyright } = useDocAidConfig();
   return (
     <Wrapper isPost={location.pathname.startsWith('/weekly/issue-')}>
       <header>
         <h1>
-          <Link to="/">MDH Weekly</Link>
+          <Link to="/">{headTitle}</Link>
         </h1>
         <nav>
-          <Link to="/weekly">往期周刊</Link>
-          <a href="https://q.sorrycc.com/">知识星球</a>
-          <a href="https://github.com/sorrycc/weekly/issues">投稿</a>
-          <a href="/rss.xml">RSS</a>
-          <a href="https://github.com/sorrycc/weekly">Github</a>
+          {navs.map((nav, index) => {
+            return nav.path ? (
+              <Link key={index} to={nav.path}>
+                {nav.title}
+              </Link>
+            ) : (
+              <a key={index} href={nav.href}>
+                {nav.title}
+              </a>
+            );
+          })}
         </nav>
       </header>
       <div>
         <Outlet />
       </div>
-      <footer>MDH Weekly since 2021</footer>
+      <footer>{copyright}</footer>
     </Wrapper>
   );
 }
