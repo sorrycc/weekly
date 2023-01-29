@@ -1,18 +1,8 @@
-import 'zx/globals';
-import dayjs from 'dayjs';
-import assert from 'assert';
-
-const weekly = require('../public/weekly.json');
-const publishedAt = dayjs(weekly[0].publishedAt)
-  .add(7, 'day')
-  .format('YYYY-MM-DD');
-const content =
-  `
 ---
 title: "WIP"
 titleImage: ""
 titleImageCaption: ""
-publishedAt: "${publishedAt}"
+publishedAt: "2023-02-06"
 draft: true
 ---
 
@@ -43,12 +33,3 @@ draft: true
 ## 每周一图
 
 。
-
-`.trim() + '\n';
-const nextNum = weekly[0].number + 1;
-const nextNumStr = nextNum.toString().padStart(4, '0');
-const filePath = path.join('docs', 'weekly', `issue-${nextNumStr}.md`);
-const absFilePath = path.join(__dirname, '..', filePath);
-assert(!fs.existsSync(absFilePath), `File ${filePath} already exists`);
-fs.writeFileSync(absFilePath, content, 'utf-8');
-console.log(`Bootstrap ${filePath}`);
