@@ -44,7 +44,7 @@ function Image(props: { className?: string; src: string; alt?: string }) {
       <div className="image">
         <img src={props.src} alt={props.alt} />
       </div>
-      <div className="caption">{props.alt}</div>
+      <div className="caption">题图：{props.alt}。</div>
     </div>
   );
 }

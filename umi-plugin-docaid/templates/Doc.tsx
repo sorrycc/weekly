@@ -53,7 +53,7 @@ export default () => {
       </Helmet>
       <Doc
         title={{
-          content: title!,
+          content: title,
           balance: true,
         }}
         publishedAt={publishedAt}

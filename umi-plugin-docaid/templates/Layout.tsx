@@ -8,7 +8,7 @@ const Wrapper = styled.div<{ $isPost: boolean }>`
     padding-top: 90px;
     padding-bottom: 46px;
     h1 {
-      font-weight: bold;
+      font-weight: 800;
       font-size: ${(p) => (p.$isPost ? 'var(--16px)' : 'var(--36px)')};
       a {
         text-decoration: none;

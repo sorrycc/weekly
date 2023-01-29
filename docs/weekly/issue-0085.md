@@ -1,9 +1,8 @@
 ---
-title: "WIP"
-titleImage: ""
-titleImageCaption: ""
+title: "MDH Weekly 官网、2023 趋势、CSS Wish List、Astro"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01BRrPZE1mdW1rELIkf_!!6000000004977-2-tps-1536-1024.png_1200x1200.jpg"
+titleImageCaption: "烟花兔"
 publishedAt: "2023/01/30"
-draft: true
 ---
 
 ## 一周要事
@@ -77,8 +76,8 @@ MDH 前端周刊终于有自己的官网了，地址是 mdhweekly.com ！新年�
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单，有求职需求的请在 https://docs.qq.com/form/page/DY291a3BOdGR3TnRT 填写表单。
 
-* 「浩鲸科技」：招聘 React 前端开发，base 地「福建福州」，要求「熟悉 Umi 全家桶，并对低代码平台有一定的了解，能独立研发组件资产」，薪资范围「10-18k」，联系方式「448627663@qq.com」或「18050322490 加微信」。
-* 「Yingci」：我正在寻找一份北上杭的前端开发工作，擅长 React、toB、中后台、工程化，联系方式「钉钉 xnsakina」或「i@sakina.moe」。
+- 「浩鲸科技」：招聘 React 前端开发，base 地「福建福州」，要求「熟悉 Umi 全家桶，并对低代码平台有一定的了解，能独立研发组件资产」，薪资范围「10-18k」，联系方式「448627663@qq.com」或「18050322490 加微信」。
+- 「Yingci」：我正在寻找一份北上杭的前端开发工作，擅长 React、toB、中后台、工程化，联系方式「钉钉 xnsakina」或「i@sakina.moe」。
 
 ## 每周一图
 

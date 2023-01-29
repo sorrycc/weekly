@@ -54,6 +54,7 @@ export const Doc = styled.div`
     font-size: 2.25rem; /* 36px */
     line-height: 1.2;
     padding-bottom: 24px;
+    font-weight: 800;
   }
   div.publishedAt {
     margin-top: 12px;
