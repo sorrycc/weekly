@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, styled } from 'umi';
-import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
+import { useDoc } from '@/hooks/useDoc';
 
 const PostsWrapper = styled.div`
   li {
@@ -23,7 +23,7 @@ const PostsWrapper = styled.div`
 `;
 
 function Posts() {
-  const postsQuery = usePosts();
+  const postsQuery = useDoc<any>();
   if (postsQuery.isLoading) {
     return <div>Loading...</div>;
   }
@@ -34,7 +34,7 @@ function Posts() {
         <title>往期周刊 - MDH 前端周刊</title>
       </Helmet>
       <ul>
-        {postsQuery.data!.map((post) => (
+        {postsQuery.data!.map((post: any) => (
           <li key={post.numberStr}>
             <Link to={`/weekly/issue-${post.numberStr}`}>
               <strong>{post.numberStr} 期</strong>：{post.title}

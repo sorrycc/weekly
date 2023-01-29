@@ -1,12 +1,10 @@
-import { useParams } from 'umi';
-import { usePost } from '@/hooks/usePost';
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import { Doc } from 'docaid/client';
+import { useDoc } from '@/hooks/useDoc';
 
 export default () => {
-  const params = useParams();
-  const postQuery = usePost(params.issue as string);
+  const postQuery = useDoc<any>();
   if (postQuery.isLoading) return <p>loading...</p>;
   const {
     title,
