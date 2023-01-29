@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation, styled, useDocAidConfig } from 'umi';
 
-const Wrapper = styled.div<{ isPost: boolean }>`
+const Wrapper = styled.div<{ $isPost: boolean }>`
   max-width: 65ch;
   margin: 0 auto;
 
@@ -9,14 +9,14 @@ const Wrapper = styled.div<{ isPost: boolean }>`
     padding-bottom: 46px;
     h1 {
       font-weight: bold;
-      font-size: ${(p) => (p.isPost ? 'var(--16px)' : 'var(--36px)')};
+      font-size: ${(p) => (p.$isPost ? 'var(--16px)' : 'var(--36px)')};
       a {
         text-decoration: none;
       }
     }
     nav {
       margin-top: 20px;
-      display: ${(p) => (p.isPost ? 'none' : 'flex')};
+      display: ${(p) => (p.$isPost ? 'none' : 'flex')};
       gap: 16px;
       a {
         text-decoration: underline;
@@ -37,7 +37,7 @@ export default function Layout() {
   const location = useLocation();
   const { headTitle, navs, copyright } = useDocAidConfig();
   return (
-    <Wrapper isPost={location.pathname.startsWith('/weekly/issue-')}>
+    <Wrapper $isPost={location.pathname.startsWith('/weekly/issue-')}>
       <header>
         <h1>
           <Link to="/">{headTitle}</Link>
