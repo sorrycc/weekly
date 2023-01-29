@@ -23,6 +23,7 @@ export default (api: IApi) => {
   });
 
   api.onStart(async () => {
+    if (!['dev', 'build'].includes(api.name)) return;
     if (api.config.docaid.buildDocsSeparately) return;
     const docsDir = path.join(
       api.paths.cwd,
@@ -38,15 +39,19 @@ export default (api: IApi) => {
   api.registerCommand({
     name: 'docaid',
     async fn({ args }) {
-      const docsDir = path.join(
-        api.paths.cwd,
-        api.config.docaid.docDir || 'docs',
-      );
-      await buildDocs(docsDir, {
-        output: path.join(api.paths.cwd, 'public'),
-        config: api.config.docaid,
-        watch: args.watch,
-      });
+      if (args._[0] === 'build') {
+        const docsDir = path.join(
+          api.paths.cwd,
+          api.config.docaid.docDir || 'docs',
+        );
+        await buildDocs(docsDir, {
+          output: path.join(api.paths.cwd, 'public'),
+          config: api.config.docaid,
+          watch: args.watch,
+        });
+      } else {
+        throw new Error(`Unknown command ${args._[0]}`);
+      }
     },
   });
 

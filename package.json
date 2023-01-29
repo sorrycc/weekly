@@ -4,7 +4,7 @@
     "setup": "umi setup",
     "build": "npm run docaid:build && npm run umi-plugin-docaid:build && NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
-    "doc:build": "esno scripts/buildDocs.ts",
+    "doc:build": "umi docaid build",
     "docaid:build": "pnpm --filter docaid build",
     "docaid:dev": "pnpm --filter docaid dev",
     "docaid:release": "pnpm --filter docaid release",

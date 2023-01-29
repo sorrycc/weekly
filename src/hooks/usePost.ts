@@ -8,5 +8,5 @@ export function usePost(id: string) {
       html: string;
       toc: Toc;
     }
-  >(['posts', `${id}.json`]);
+  >(['weekly', `${id}.json`]);
 }
