@@ -65,7 +65,7 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-4-6-beta/
 
 其中一个特性是 constructor 构造函数中，允许在调用 super 前写非 this 代码。这是由于 JavaScript 的限制，super 前不能调用 this，TypeScript 之前出于实现的原因，规定不能执行所有代码。
 
-```js
+```ts
 class Foo {
   constructor() {
     // 之前会报错

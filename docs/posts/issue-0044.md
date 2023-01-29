@@ -21,7 +21,7 @@ https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascri
 
 提案目前 Stage 0，预计 2022 年 3 月会提交 Stage 1。目的是让 JavaScript 拥有类型，比如可以写下面的代码。
 
-```js
+```ts
 function add(a: number, b: number) {
   return a + b;
 }
@@ -72,7 +72,7 @@ https://typeofnan.dev/solid-js-feels-like-what-i-always-wanted-react-to-be/
 
 比如计数器。
 
-```js
+```ts
 // react
 function Counter() {
   const [count, setCount] = useState(0);
@@ -117,7 +117,7 @@ https://parceljs.org/getting-started/library/
 
 Parcel 最新版支持了 Library 开发，基于 package.json 中的约定式配置。
 
-```js
+```ts
 {
   "name": "my-library",
   "version": "1.0.0",

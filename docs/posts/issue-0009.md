@@ -53,7 +53,7 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-4-4-beta/
 
 最好用的功能是 Control Flow Analysis of Aliased Conditions，
 
-```js
+```ts
 function foo(arg: unknown) {
     if (typeof arg === "string") {
         // TypeScirpt 4.4 之前会报错

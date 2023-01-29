@@ -86,7 +86,7 @@ React Router 这个版本引入了一套 Data API，和 react-query、swr 是竞
 
 Data Loading 是在路由上新增 loader 配置，然后通过 useLoaderData hook 在组件内使用。
 
-```jsx
+```tsx
 // 第一步：定义 loader
 <Route loader={() => fetch(API).then(res => res.json)} />
 
@@ -97,7 +97,7 @@ const data = useLoaderData();
 
 Data Mutation 是在路由上新增 action 配置，通过提供封装过的 Form 组件代理表单提交的请求处理。
 
-```jsx
+```tsx
 // 第一步：定义 action
 <Route action={({ request }) => {}} />
 

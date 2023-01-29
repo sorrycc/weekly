@@ -81,7 +81,7 @@ https://github.com/ericclemmons/click-to-component
 
 见名知意，如上图，点击组件后在编辑器中打开源码。同类实现有 [react-dev-inspector](https://github.com/zthxxx/react-dev-inspector)，以及蚂蚁内网也有个叫 findCode 的 umi 插件。click-to-component 的有点是接入简单，只要使用了 [babel-plugin-transform-react-jsx-source](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx-source) 的项目都可通过组件一键接入。
 
-```js
+```ts
 import { ClickToComponent } from 'click-to-react-component';
 <ClickToComponent />
 ```

@@ -47,7 +47,7 @@ Valtio 教你手写 Valtio 的第二篇，关于 React。
 
 有个要考虑的点是 automatic render optimization。比如 obj = { count: 0, text: 'hello' }，而组件 A 只依赖 obj.text，此时 obj.count++ 了，最理想的情况下组件 A 是不应该触发 rerender 的。基础解法是在 proxy 的 getter 里记录访问过的属性，从而知道是否应该触发 rerender。Valtio 这部分的实现在 [proxy-compare](https://github.com/dai-shi/proxy-compare) 里。
 
-```javascript
+```ts
 const obj = new Proxy(originObj, {
   get: (target, property) => {
     accessedProperties.push(property);
@@ -60,7 +60,7 @@ const obj = new Proxy(originObj, {
 
 Valtio 对此还有个 useSnapshot 的上层封装，包含 useSyncExternalStore 和 proxy-compare。用 proxy 定义数据，用 useSnapshot 访问和修改数据，这就是 Valtio 对外提供的极简 API。
 
-```javascript
+```ts
 import { proxy, useSnapshot } from 'valtio';
 // 定义数据
 const state = proxy({ nested: { count: 0, text: 'hello' }, others: [] });

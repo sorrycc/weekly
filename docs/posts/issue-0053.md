@@ -76,7 +76,7 @@ Solidjs 关注一段时间了，属于「叫好不叫座」类的框架。但其
 
 1、createStore 支持 Top Level 的数组。之前不能传数组，只能嵌套在一个对象里才能正常使用，这会让人感到困惑。
 
-```js
+```ts
 const [todos, setTodos] = createStore([
   { id: 1, title: "Thing I have to do", done: false },
   { id: 2, title: "Learn a New Framework", done: false }
@@ -88,7 +88,7 @@ setTodos(1, done, true);
 
 2、createResource 支持通过 resource.latest 访问旧的值，可用来实现上图的效果。有些场景的数据切换效果，会希望在新数据加载到之前，先显示旧的数据。
 
-```js
+```ts
 const [resource] = createResource(source, fetcher)
 // 正常访问
 resource()

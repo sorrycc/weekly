@@ -104,7 +104,7 @@ https://medium.com/@ebaytechblog/rethink-modals-management-in-react-cf3b6804223d
 
 React 组件里的 Modal 部分，应该写在哪，怎么管理其状态，应该困扰过不少朋友。ebay 的开发者提供了一套方案，包含创建、注册和使用 Modal。使用 Modal 提供了多种形态，命令式直接调、结合 hooks 用 useModal 等，并且可以和 redux 结合，方便在 redux devtool 中查看 modal 状态。
 
-```javascript
+```ts
 import NiceModal, { useModal } from '@ebay/nice-modal-react';
 import HelloModal from './HelloModal';
 // ...
@@ -128,7 +128,7 @@ https://www.floating-ui.com/
 
 比如：
 
-```javascript
+```ts
 import {computePosition} from '@floating-ui/dom';
 
 const button = document.querySelector('#button');

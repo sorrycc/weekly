@@ -49,7 +49,7 @@ https://dmitripavlutin.com/typescript-unknown-vs-any/
 
 相同的是 unknown 和 any 都可接收任意值，不同的是 unknown 的值必须 type check 或 type assertion 后才可使用，否则报错。 推荐用 any 的地方优先用 unknown，因为 unknown 至少类型安全。
 
-```js
+```ts
 function invokeAnything(callback: unknown) {
   // you cannot operate on `unknown` type 
   // before doing a type check or type assertion

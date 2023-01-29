@@ -22,7 +22,7 @@ Framer Motion 和 Motion One 是同一个作者 Matt Perry 的作品，作者做
 
 比如要实现 scale 2 的动画，两者的写法分别是这样的。
 
-```jsx
+```tsx
 // Frame Motion
 return <motion.div animate={{ scale: 2 }} />
 

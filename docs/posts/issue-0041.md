@@ -72,7 +72,7 @@ https://blog.logrocket.com/getting-started-parcel-css/
 
 Parcel CSS 出自 Parcel 团队，基于 Rust，具备 CSS 的解析、编译、压缩和打包能力，上图是作为压缩器，其与 CSSNano 和 ESBuild 速度的对比。
 
-```js
+```ts
 const css = require('@parcel/css');
 let {code, map} = css.transform({
   filename: 'style.css',

@@ -40,7 +40,7 @@ https://github.com/google/zx
 
 google 出的工具，通过 JavaScript 的方式编写 shell 脚本，同时提供 fetch、chalk、fs 等辅助库，正在 umi 中尝鲜，搭配 esno 使用更佳，直接用 TypeScript 编写脚本。
 
-```javascript
+```ts
 #!/usr/bin/env node
 
 import { $ } from 'zx';
@@ -99,7 +99,7 @@ https://nan.fyi/debugger
 
 基本思路是在 DebuggerStatement 里把上下文变量存起来，基于 Babel。文章写的很用心，包括图和代码的实时编辑功能，另外个人觉得把 debugger 加上段。
 
-```javascript
+```ts
 export default ({ types: t }) => {
   return {
     visitor: {

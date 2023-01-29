@@ -39,7 +39,7 @@ $ pnpm i lexical @lexical/react
 
 封装 Editor 组件。
 
-```js
+```ts
 import LexicalComposer from '@lexical/react/LexicalComposer';
 import LexicalPlainTextPlugin from '@lexical/react/LexicalPlainTextPlugin';
 import LexicalContentEditable from '@lexical/react/LexicalContentEditable';
@@ -107,7 +107,7 @@ Astro SSR 和我理解的 SSR 不同，好像只有 SS 没有 R。由于 Astro �
 
 比如权限校验。
 
-```astro
+```
 ---
 import { getUser } from '../api/index.js';
 const user = await getUser(Astro.request);
@@ -125,7 +125,7 @@ https://spin.atomicobject.com/2022/04/11/export-web-components/
 
 解法是通过 Web Component，把 React 组件打包通过以下代码打包为 Web Component。
 
-```js
+```ts
 import ReactDOM from 'react-dom';
 const Foo = (props) => <h1>Hello {props.name}</h1>
 class FooComponent extends HTMLElement {

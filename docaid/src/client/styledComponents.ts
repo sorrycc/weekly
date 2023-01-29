@@ -18,6 +18,22 @@ export const Article = styled.article`
   }
   p {
     margin: 20px 0;
+    code {
+      padding: 0.2em 0.4em;
+      background: #eff1f3;
+      white-space: break-spaces;
+    }
+  }
+  code {
+    font-size: 85%;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+      Liberation Mono, monospace;
+  }
+  pre {
+    background: #f6f8fa !important;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
   }
   img {
     display: block;

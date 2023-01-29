@@ -31,7 +31,7 @@ React 团队发布一个 RFC，提供 useEvent hook，解 hooks 存在的闭包�
 
 简化版实现。
 
-```js
+```ts
 function useEvent(handler) {
     const handlerRef = useRef(null);
     // 视图渲染前及每次 shouldUpdate 时更新 handlerRef.current

@@ -70,7 +70,7 @@ https://github.com/reactwg/react-18/discussions/111
 1. `useId` 即完善后的 `useOpaqueIdentifier`，用于生成唯一 id，支持 SSR，支持 hydration
 2. 应用场景比如可访问性中 label 的 htmlFor，`const id = useId(); <label htmlFor={id+'firstName'} />`
 
-```javascript
+```ts
 function Checkbox() {
   const id = useId();
   return (

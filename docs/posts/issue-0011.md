@@ -23,14 +23,14 @@ https://github.com/facebook/react/commit/a0bb10a86c1949f478aada58f790426b9e07435
 
 之前是这样，
 
-```js
+```ts
 const context = useContext(Context);
 const whatIReallyNeed = context.selectedField;
 ```
 
 现在可以这样，
 
-```js
+```ts
 const whatIReallyNeed = useContextSelector(Context, c => c.selectedField);
 ```
 
@@ -65,7 +65,7 @@ https://css-tricks.com/how-to-cancel-pending-api-requests-to-show-correct-data/
 * debounce 能缓解，但治标不治本
 * 解决方案是使用 AbortController，不仅可以取消请求，还可以取消 event listener
 
-```js
+```ts
 const abortController = new AbortController();
 const signal = abortController.signal;
 fetch(url, { signal });

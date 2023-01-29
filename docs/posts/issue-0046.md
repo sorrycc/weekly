@@ -24,7 +24,7 @@ Remix 团队计划将 remix 的 loader 和 action 能力带入 react-router，�
 
 开发者要关心的是，在 react-router 层增加两个配置项，loader 和 action，分别处理上述任务，还是非常友好的。
 
-```js
+```ts
 <Route path="/" element={<App />} loader={} action={} />
 ```
 
@@ -43,7 +43,7 @@ https://dev.to/siddharthshyniben/5-secret-features-of-json-you-didnt-know-about-
 
 直接上代码。
 
-```js
+```ts
 // 正常用
 JSON.stringify(foo)
 JSON.stringify(foo, null, 2)

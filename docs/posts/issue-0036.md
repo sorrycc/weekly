@@ -45,7 +45,7 @@ https://css-tricks.com/a-new-container-query-polyfill-that-just-works/
 
 可以提前用上 Container Query 了。该补丁依赖 ResizeObserver、MutationObserver 和 :is()。因此，Chrome/Edge 88+、Firefox 78+ 和 Safari 14+ 的浏览器都可以用上。
 
-```js
+```ts
 const supportsContainerQueries = "container" in document.documentElement.style;
 
 if (!supportsContainerQueries) {
@@ -76,7 +76,7 @@ https://survivejs.com/blog/how-to-tame-dev-deps/
 
 以下是新增 prettier 依赖和配置的示例，
 
-```js
+```ts
 const { json, packageJson } = require("mrm-core");
 const prettierConfig = require("./.prettierrc.json");
 

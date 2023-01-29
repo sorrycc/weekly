@@ -26,7 +26,7 @@ https://babeljs.io/blog/2021/07/26/7.15.0
 * 支持 Hack-style pipeline operator，见下述代码块
 * 支持 TypeScript 里使用 const enum 和 namespace alias
 
-```js
+```ts
 // Input
 "World"
   |> `Hello, ${#}!`

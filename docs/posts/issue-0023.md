@@ -54,7 +54,7 @@ https://web.dev/sanitizer/
 
 前端经常需要处理不可信的字符串，然后渲染到 HTML，一不小心就会触发 XSS 问题，比如 `<img onerror=alert(0) />` 的 onerror handler。Sanitizer API 提案就是解的这个问题。
 
-```javascript
+```ts
 const $div = document.querySelector('div');
 const user_input = `<em>hello world</em><img src="" onerror=alert(0)>`;
 
@@ -104,7 +104,7 @@ https://github.com/reduxjs/react-redux/releases/tag/v8.0.0-alpha.0
 * `useSyncExternalStore` 目前 Level 2，并且不用等 18 发布，可以先用 use-sync-external-store，兼容 React 16、17 和 18
 * 产物 target 为 ES2017，不再支持 IE11，如有 ES5 需求，需要手动编译这部分依赖
 
-```javascript
+```ts
 import { useSyncExternalStoreExtra } from 'use-sync-external-store/extra';
 
 // React-Redux v8 alpha code in useSelector()
@@ -132,7 +132,7 @@ https://netflixtechblog.com/how-we-build-micro-frontends-with-lattice-22b8635f77
 * 提供一套插件体系，Pluggable 扩展子组件，usePluggableState 扩展属性，PluginHost 加载子模块，...
 * 目前还在设计阶段，未谈到是否有开源计划
 
-```javascript
+```ts
 import { Pluggable, PluginHost, usePluggableState } from '@netflix-internal/rgt-components/lib/lattice';
 import { getDefaultRoutes } from '../routes';
 import { Content, Header, Router } from './components';

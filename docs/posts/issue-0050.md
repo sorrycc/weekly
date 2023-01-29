@@ -101,7 +101,7 @@ RTK 在 Redux 的基础上提供了很多 Util 方法，包括设置 Store、创
 
 RTK 可以减少很多脚手架代码，比如创建 TODO。
 
-```js
+```ts
 import { createSlice } from '@reduxjs/toolkit'
 
 const todosSlice = createSlice({

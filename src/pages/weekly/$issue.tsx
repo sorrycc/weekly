@@ -2,7 +2,7 @@ import { useParams } from 'umi';
 import { usePost } from '@/hooks/usePost';
 import { Helmet } from 'react-helmet';
 import React from 'react';
-import { toHtml, Doc } from 'docaid/client';
+import { Doc } from 'docaid/client';
 
 export default () => {
   const params = useParams();
@@ -10,16 +10,15 @@ export default () => {
   if (postQuery.isLoading) return <p>loading...</p>;
   const {
     title,
-    content,
+    html: originHtml,
     toc,
     numberStr,
     publishedAt,
     titleImage,
     titleImageCaption,
-  } = postQuery.data!;
-
-  let html = toHtml(content);
+  } = postQuery.data || {};
   const sp = new URLSearchParams(location.search);
+  let html = originHtml;
   if (sp.has('__mp')) {
     html =
       `
@@ -56,16 +55,16 @@ export default () => {
       </Helmet>
       <Doc
         title={{
-          content: title,
+          content: title!,
           balance: true,
         }}
         publishedAt={publishedAt}
         headImg={{
-          src: titleImage,
+          src: titleImage!,
           alt: titleImageCaption,
         }}
         toc={{
-          data: toc,
+          data: toc!,
           leftPadding: 40,
         }}
         contentHtml={html}

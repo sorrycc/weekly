@@ -43,7 +43,7 @@ Chrome 迎来 100 的三位数版本号，两个重要变化。
 
 1、支持 Multi-Screen Window Placement API，可以检测是否有接多个屏幕，获取屏幕详细信息，请求开启全屏等，适用场景比如文稿演示。
 
-```js
+```ts
 // 特性检测
 'getScreenDetails' in window;
 
@@ -75,7 +75,7 @@ https://lihautan.com/extract-parameters-type-from-string-literal-types-with-type
 
 真实场景比如 react-router，其中 Route 的 render 方法也有类似实现，
 
-```js
+```ts
 <Route path="/user/:username" render={(props) => {
   // Type 'foo' does not exist on type '{ username: string }'
   const { foo } = props.match.params;
@@ -131,7 +131,7 @@ https://maximorlov.com/linting-rules-for-asynchronous-code-in-javascript/
 
 摘录其中一些规则和错误用法。
 
-```js
+```ts
 // Promise executor 不要加 async，原因是 async 内的错误会被吃掉
 new Promise(async (resolve, reject) => {});
 

@@ -63,7 +63,7 @@ https://benadam.me/thoughts/react-svg-sprites/
 
 后来改用 Inline SVG，代码如下。缺点是会重复，每使用一次就重复一次。
 
-```js
+```ts
 const icon = (
   <svg viewBox="0 0 24 24" width={16} height={16}>
     <path d="...">
@@ -73,7 +73,7 @@ const icon = (
 
 作者给的解法是 Inline SVG + SVG Sprites，然后 sprite.svg 再通过 link + preload 预加载来避免闪屏问题。
 
-```js
+```ts
 const icon = (
   <svg viewBox="0 0 24 24" width={16} height={16}>
     <use href="sprite.svg#icon" />

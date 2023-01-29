@@ -5,6 +5,7 @@ export function usePost(id: string) {
   return useQuery<
     Post & {
       content: string;
+      html: string;
       toc: Toc;
     }
   >(['posts', `${id}.json`]);

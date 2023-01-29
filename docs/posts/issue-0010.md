@@ -90,7 +90,7 @@ https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/
 
 以上 import 后拿到的是值还是引用，都是不同的。一个例子如下，
 
-```javascript
+```ts
 // module.js
 export let thing = 'initial';
 

@@ -50,6 +50,7 @@ importers:
       markdown-it-anchor: ^8.6.6
       markdown-toc: ^1.2.0
       react-wrap-balancer: ^0.4.0
+      shiki: ^0.13.0
       styled-components: ^6.0.0-beta.9
     dependencies:
       '@babel/runtime': 7.20.7
@@ -60,6 +61,7 @@ importers:
       markdown-it-anchor: 8.6.6_ea7kj7wzjkld5jo2noyjqxi764
       markdown-toc: 1.2.0
       react-wrap-balancer: 0.4.0
+      shiki: 0.13.0
       styled-components: 6.0.0-beta.9
     devDependencies:
       father: 4.1.3_5ogh6sofyeixiop5ianti6gq3u
@@ -6589,6 +6591,10 @@ packages:
     resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
     dev: true
 
+  /jsonc-parser/3.2.0:
+    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
+    dev: false
+
   /jsonfile/4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
@@ -8883,6 +8889,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /shiki/0.13.0:
+    resolution: {integrity: sha512-QucKtRFyoHgivnde/6tXu+7ZfUhcg02qiFlUSa4X0jQvHVKdtrimWPlbg+q06H2EeNSuj9DcMhtB18GgtDLsmw==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.7.0
+      vscode-textmate: 8.0.0
+    dev: false
+
   /side-channel/1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
     dependencies:
@@ -9627,6 +9641,14 @@ packages:
   /vm-browserify/1.1.2:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==}
     dev: true
+
+  /vscode-oniguruma/1.7.0:
+    resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
+    dev: false
+
+  /vscode-textmate/8.0.0:
+    resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
+    dev: false
 
   /walker/1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}

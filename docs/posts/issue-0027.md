@@ -86,7 +86,7 @@ https://www.ctnicholas.dev/articles/how-to-use-nextjs-middleware
 
 利用 Next.js 12 的 Middleware 和 Vercel Edge Function 可以做啥？作者给了一些例子，包括重定向、Rewriting、权限控制、访问统计、基于地理位置信息的访问过滤、基于当地时间的亮暗主题切换。
 
-```javascript
+```ts
 // /pages/swede-feels/_middleware.js
 import { NextResponse } from 'next/server';
 	

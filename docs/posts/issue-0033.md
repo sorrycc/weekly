@@ -98,7 +98,7 @@ https://web.dev/structured-clone/
 * structuredClone 的边界场景处理处于前二者中间，性能方面，小结构没 JSON 快，大结构和 JSON 差不多
 * structuredClone 其实不算新出，因为之前很多场景的背后是通过他实现的，只不过这次露出给开发者使用，所以用一些 hack 的手法早就能用上其特性了，比如图中的 MessageChannel、History API 和 Notification API
 
-```javascript
+```ts
 // 示例：用 Notification 实现 structuralClone
 function structuralClone(obj) {
   return new Notification('', {data: obj, silent: true}).data;

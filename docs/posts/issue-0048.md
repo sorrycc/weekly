@@ -46,7 +46,7 @@ ShadowRealm 可以想象成改进版的 eval，会为每个实例分配不同的
 
 包含两个 API。evaluate 用于同步执行代码，注意代码中不能包含静态 import，但动态 import() 是允许的；importValue 用于导入外部文件中的方法，第二个参数是 specifier，当前提案中必须提供。
 
-```js
+```ts
 const sr = new ShadowRealm();
 
 // 执行代码
@@ -59,7 +59,7 @@ sum('hello', 'world'); // helloworld
 
 importValue 在未来还可和 Module blocks 提案搭配使用，减少不必要的 reexport 临时文件，
 
-```js
+```ts
 module insideCode {
  export { runTests } from 'test-framework';
  import './my-tests.js';
@@ -107,13 +107,13 @@ lint 有两种用法，1）仅使用 umi 提供的规则配置，然后用项目
 
 用法 1 是在 .eslintrc 和 .stylelintrc里扩展 umi 的配置，
 
-```js
+```ts
 {
   "extends": "umi/eslint"
 }
 ```
 
-```js
+```ts
 {
   "extends": "umi/stylelint"
 }
@@ -139,7 +139,7 @@ $ open http://dev.prod.domain/
 
 越来越多的库使用 node: 前缀的 import，比如 chalk、file-type 等 sindresorhus 提供的依赖。之前会报 UnhandledSchemaError 的错误，现在通过 NormalModuleReplacementPlugin 替换资源 request 进行了修复。
 
-```js
+```ts
 import { join } from 'node:path';
 join;
 ```
@@ -148,7 +148,7 @@ join;
 
 原因是，babel-preset-react 中的配置项 runtime 和 importSource 是要搭配使用的，比如 runtime 设置为 classic 而 importSource 设置为 react 时会报错。
 
-```js
+```ts
 // 如果 react >= 17
 runtime: 'automatic',
 importSource: 'react',
@@ -182,7 +182,7 @@ https://simonplend.com/whats-new-in-node-js-core-march-2022-edition/
 
 2、Node 16.14 和 Node 17.3 支持 `AbortSignal.timeout()`，可用于自动取消 fetch
 
-```js
+```ts
 try {
   const signal = AbortSignal.timeout(2000);
   await fetch(url, { signal });
@@ -195,7 +195,7 @@ try {
 
 4、Node 17.1 和 Node 16.14 支持 ES Modules 里 import JSON 文件，需要 `--experimental-json-modules` 开启，17.5 之后不需要 Flag
 
-```js
+```ts
 import x from './package.json' assert { type: 'json' };
 ```
 

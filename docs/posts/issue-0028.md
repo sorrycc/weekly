@@ -67,7 +67,7 @@ Tailwind CSS 之前使用会生成数 M 的 CSS，让加载和更新 CSS 的性�
 如果大家还记得，Facebook 中间还尝试过 prepack，也是 AOT 的尝试，在保证运行结果一致的前提下，改变源码，让性能更快，产物更小。目前已弃坑。
 
 
-```javascript
+```ts
 (function () {
 function hello() { return 'hello'; }
 function world() { return 'world'; }

@@ -76,7 +76,7 @@ https://blog.axlight.com/posts/how-valtio-proxy-state-works-vanilla-part/
 
 代码，
 
-```javascript
+```ts
 let version = 0;
 let lastVersion;
 let lastSnapshot;

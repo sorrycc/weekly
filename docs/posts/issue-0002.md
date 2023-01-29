@@ -137,7 +137,7 @@ https://github.com/microsoft/folio
 
 微软出的测试框架，Jest 有竞品了。
 
-```javascript
+```ts
 test('insert an entry', async ({ table }) => {
   await table.insert({ username: 'folio', password: 'testing' });
   const entry = await table.query({ username: 'folio' });

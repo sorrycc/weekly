@@ -59,7 +59,7 @@ https://www.bram.us/2021/07/28/execute-es-modules-on-the-cli/
 
 验证效果，
 
-```js
+```ts
 ":" //#;exec /usr/bin/env node --input-type=module - $@<$0
 
 import process from 'process'
@@ -77,7 +77,7 @@ https://github.com/expo/use-unmount-signal
 
 useUnmountSignal is a React Hook to cancel promises when a component is unmounted. It uses the W3C-standard AbortSignal API to notify compatible promises when the calling component is unmounted.
 
-```js
+```ts
 import useUnmountSignal from 'use-unmount-signal';
 
 function Example() {

@@ -54,7 +54,7 @@ devjar 是跑在浏览器中的 esm bundless 代码预览器。作者是 [huozhi
 
 四步尝鲜，
 
-```js
+```ts
 // 第一步：import
 import { useLiveCode } from 'devjar';
 
@@ -81,7 +81,7 @@ https://dev.to/justinschroeder/introducing-autoanimate-add-motion-to-your-apps-w
 
 以 React 为例，只需三步。
 
-```js
+```ts
 // 第一步：导入 useAutoAnimate Hook
 import { useAutoAnimate } from '@formkit/auto-animate/react';
 
