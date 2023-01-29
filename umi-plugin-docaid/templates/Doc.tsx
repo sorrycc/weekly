@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import { Doc } from 'docaid/client';
-import { useDoc } from '@/hooks/useDoc';
+import { useDoc } from './useDoc';
 
 export default () => {
   const postQuery = useDoc<any>();

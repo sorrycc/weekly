@@ -12,7 +12,11 @@
   "scripts": {
     "build": "father build",
     "dev": "father dev",
+    "doctor": "father doctor",
     "release": "esno ../scripts/release.ts --pkg umi-plugin-docaid"
+  },
+  "dependencies": {
+    "react-helmet": "^6.1.0"
   },
   "peerDependencies": {
     "docaid": "^0.0.2"
@@ -27,7 +31,8 @@
     "plugin"
   ],
   "files": [
-    "dist"
+    "dist",
+    "templates"
   ],
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"

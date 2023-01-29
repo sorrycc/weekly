@@ -16,6 +16,7 @@
   "scripts": {
     "build": "father build",
     "dev": "father dev",
+    "doctor": "father doctor",
     "release": "esno ../scripts/release.ts --pkg docaid"
   },
   "dependencies": {

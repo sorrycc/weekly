@@ -1,8 +1,11 @@
 import { IApi } from 'umi';
 import { buildDocs } from './buildDocs';
 import path from 'path';
+import fs from 'fs';
 
 export default (api: IApi) => {
+  let singleDocMap: Record<string, string> = {};
+
   api.describe({
     key: 'docaid',
     config: {
@@ -60,4 +63,84 @@ export default (api: IApi) => {
     config.module.rule('asset').exclude.add(REG).end();
     config.module.rule('md').test(REG).type('asset/source').end();
   });
+
+  api.addRuntimePlugin(() => {
+    return [withTmpPath('runtime.tsx')];
+  });
+
+  api.onGenerateFiles(() => {
+    const templateDir = path.join(__dirname, '../templates');
+    fs.readdirSync(templateDir).forEach((f) => {
+      if (fs.statSync(path.join(templateDir, f)).isFile()) {
+        api.writeTmpFile({
+          path: f,
+          content: fs.readFileSync(path.join(templateDir, f), 'utf-8'),
+        });
+      }
+    });
+
+    api.writeTmpFile({
+      path: 'singleDocMap.json',
+      content: JSON.stringify(singleDocMap, null, 2),
+    });
+  });
+
+  api.modifyRoutes(() => {
+    const routes: Record<string, any> = {};
+    const docsDir = path.join(
+      api.paths.cwd,
+      api.config.docaid.docDir || 'docs',
+    );
+    const userLayoutFile = path.join(api.paths.absSrcPath, 'layouts/index.tsx');
+    const layoutFile = fs.existsSync(userLayoutFile)
+      ? userLayoutFile
+      : withTmpPath('Layout.tsx');
+    const layoutId = '@docaid/layout';
+    routes[layoutId] = {
+      id: layoutId,
+      path: '/',
+      absPath: '/',
+      file: layoutFile,
+      parentId: undefined,
+    };
+    // reset
+    singleDocMap = {};
+    for (const f of fs.readdirSync(docsDir)) {
+      const filePath = path.join(docsDir, f);
+      if (f.endsWith('.md')) {
+        const name = f.replace(/\.md$/, '');
+        const file = withTmpPath('SingleDoc.tsx');
+        const path = `/${name === 'README' ? '' : name}`;
+        singleDocMap[path] = fs.readFileSync(filePath, 'utf-8');
+        const id = `@docaid/${name}`;
+        routes[id] = {
+          id,
+          path,
+          absPath: path,
+          file,
+          parentId: layoutId,
+        };
+      } else if (fs.statSync(filePath).isDirectory()) {
+        routes[`@docaid/${f}`] = {
+          id: `@docaid/${f}`,
+          path: `/${f}`,
+          absPath: `/${f}`,
+          file: withTmpPath('DocIndex.tsx'),
+          parentId: layoutId,
+        };
+        routes[`@docaid/${f}/:id`] = {
+          id: `@docaid/${f}/:id`,
+          path: `/${f}/:id`,
+          absPath: `/${f}/:id`,
+          file: withTmpPath('Doc.tsx'),
+          parentId: layoutId,
+        };
+      }
+    }
+    return routes;
+  });
+
+  function withTmpPath(p: string) {
+    return path.join(api.paths.absTmpPath, 'plugin-docaid', p);
+  }
 };

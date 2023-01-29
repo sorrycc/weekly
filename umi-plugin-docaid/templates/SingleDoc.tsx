@@ -1,11 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { toHtml, Doc } from 'docaid/client';
-
-const content = require('@/mds/mdh-weekly-introduce.md');
-const html = toHtml(content);
+import { useLocation } from 'umi';
+// @ts-ignore
+import singleDocMap from './singleDocMap';
 
 export default function Page() {
+  const { pathname } = useLocation();
+  const html = toHtml(singleDocMap[pathname]);
   return (
     <div>
       <Helmet>

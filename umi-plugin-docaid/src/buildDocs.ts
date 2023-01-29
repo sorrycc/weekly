@@ -37,6 +37,7 @@ export async function buildDocs(root: string, opts: IOpts) {
         ignoreInitial: true,
       })
       .on('all', async (_event, file) => {
+        if (!file.endsWith('.md')) return;
         console.log('File changed: ', file);
         const dir = winPath(file)
           .replace(addSlash(winPath(root)), '')
