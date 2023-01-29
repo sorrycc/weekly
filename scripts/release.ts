@@ -18,11 +18,11 @@ import getGitRepoInfo from 'git-repo-info';
   const rootPkg = require(rootPkgPath);
   rootPkg.devDependencies[pkgName] = newVersion;
   fs.writeFileSync(rootPkgPath, JSON.stringify(rootPkg, null, 2));
+  await $`pnpm i`;
 
   await $`git commit -am "release: ${pkgName}@${newVersion}"`;
   await $`git tag ${pkgName}v${newVersion}`;
   await $`git push origin ${branch} --tags`;
-  await $`pnpm i`;
 })().catch((e) => {
   console.error(e);
   process.exit(1);
