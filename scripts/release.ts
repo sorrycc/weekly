@@ -8,9 +8,8 @@ import assert from 'assert';
   assert(fs.existsSync(pkgPath), `pkg ${pkgName} not exists`);
   await $`cd ${pkgPath} && npm run build`;
   await $`cd ${pkgPath} && npm version patch`;
-  const newVersion = (
-    await $`cd ${pkgPath} && npm view . version`
-  ).stdout.trim();
+  const newVersion = require(path.join(pkgPath, 'package.json')).version;
+  await $`cd ${pkgPath} && npm publish`;
   await $`git commit -am "release: ${pkgName}@${newVersion}"`;
   await $`git tag ${pkgName}v${newVersion}`;
   await $`git push --tags`;
