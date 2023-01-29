@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Post } from '@/pages/weekly/$issue';
 import { toHtml, Doc } from 'docaid/client';
 
 const content = require('@/mds/mdh-weekly-introduce.md');

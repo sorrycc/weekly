@@ -4,17 +4,12 @@ import { usePosts } from '@/hooks/usePosts';
 import { Helmet } from 'react-helmet';
 
 const PostsWrapper = styled.div`
-  h2 {
-    margin-bottom: 24px;
-  }
-  ul {
-    list-style: none;
-  }
   li {
-    height: 1.75rem;
-    line-height: 1.75rem;
-    margin: 0.5rem 0;
+    height: 28px;
+    line-height: 28px;
+    margin: 8px 0;
     display: flex;
+    gap: 8px;
     a {
       text-decoration: none;
       overflow: hidden;
@@ -23,7 +18,6 @@ const PostsWrapper = styled.div`
     em {
       color: rgb(156 163 175);
       font-style: italic;
-      margin-left: 0.5rem;
     }
   }
 `;

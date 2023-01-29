@@ -63,6 +63,25 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/*
+  More
+*/
+html {
+  // base font-size for rem
+  font-size: 16px;
+  // css variables for dx
+  --14px: 0.875rem;
+  --15px: 0.9375rem;
+  --16px: 1rem;
+  --17px: 1.0625rem;
+  --18px: 1.125rem;
+  --19px: 1.1875rem;
+  --20px: 1.25rem;
+  --21px: 1.3125rem;
+  --28px: 1.75rem;
+  --36px: 2.25rem;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -70,8 +89,5 @@ ul {
 
 a {
   color: #18181b;
-  // &:hover {
-  //   color: #b5495b !important;
-  // }
 }
 `;

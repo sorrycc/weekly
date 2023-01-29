@@ -12,7 +12,7 @@ export const Article = styled.article`
     padding-left: 20px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
     font-weight: bold;
     margin-top: 50px;
   }
@@ -35,9 +35,9 @@ export const Doc = styled.div`
   flex: 1;
   position: relative;
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.25rem; /* 36px */
     line-height: 1.2;
-    padding-bottom: 1.5rem;
+    padding-bottom: 24px;
   }
   div.publishedAt {
     margin-top: 12px;
@@ -45,7 +45,7 @@ export const Doc = styled.div`
     font-style: italic;
   }
   div.headImg {
-    margin-top: 2rem;
+    margin-top: 32px;
     img {
       width: 100%;
       vertical-align: middle;
@@ -70,7 +70,7 @@ export const Toc = styled.div`
     padding-left: 20px;
     border-left: 3px solid #e3e3e3;
     line-height: 2;
-    font-size: 0.8rem;
+    font-size: 0.875rem; /* 14px */
   }
   a {
     color: #666;

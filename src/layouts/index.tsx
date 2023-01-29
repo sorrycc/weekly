@@ -5,19 +5,19 @@ const Wrapper = styled.div<{ isPost: boolean }>`
   margin: 0 auto;
 
   header {
-    padding-top: 6rem;
-    padding-bottom: 3rem;
+    padding-top: 90px;
+    padding-bottom: 46px;
     h1 {
       font-weight: bold;
-      font-size: ${(p) => (p.isPost ? '1rem' : '2.25rem')};
+      font-size: ${(p) => (p.isPost ? 'var(--16px)' : 'var(--36px)')};
       a {
         text-decoration: none;
       }
     }
     nav {
-      margin-top: 1.4rem;
+      margin-top: 20px;
       display: ${(p) => (p.isPost ? 'none' : 'flex')};
-      gap: 1rem;
+      gap: 16px;
       a {
         text-decoration: underline;
         font-weight: bold;
@@ -27,9 +27,9 @@ const Wrapper = styled.div<{ isPost: boolean }>`
 
   footer {
     text-align: center;
-    padding: 3rem 0;
+    padding: 48px 0;
     color: rgb(107 114 128);
-    font-size: 0.875rem;
+    font-size: var(--14px);
   }
 `;
 
