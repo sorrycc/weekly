@@ -49,6 +49,7 @@ function Image(props: { className?: string; src: string; alt?: string }) {
   );
 }
 
+// TODO: support remote contentHtml
 export function Doc(props: {
   title?: {
     content: string;

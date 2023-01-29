@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'umi';
-import { globalCSS } from '@/globalCSS';
+import { globalCSS } from 'docaid/client';
 
 export const reactQuery = {
   queryClient: {
