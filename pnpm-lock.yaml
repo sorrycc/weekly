@@ -20,7 +20,7 @@ importers:
       react-helmet: ^6.1.0
       typescript: ^4
       umi: ^4.0.47
-      umi-plugin-docaid: 0.0.1
+      umi-plugin-docaid: 0.0.2
       zx: ^4.2.0
     dependencies:
       '@types/react': 18.0.26
