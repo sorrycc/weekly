@@ -30,8 +30,8 @@ export const Article = styled.article`
       Liberation Mono, monospace;
   }
   pre {
-    background: #f6f8fa !important;
-    padding: 16px;
+    border: 1px solid #eff0f1;
+    padding: 10px 1em;
     overflow: auto;
     line-height: 1.45;
   }
