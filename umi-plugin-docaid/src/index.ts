@@ -72,9 +72,14 @@ export default (api: IApi) => {
     const templateDir = path.join(__dirname, '../templates');
     fs.readdirSync(templateDir).forEach((f) => {
       if (fs.statSync(path.join(templateDir, f)).isFile()) {
+        const reactHelmetPath = path.dirname(
+          require.resolve('react-helmet/package.json'),
+        );
         api.writeTmpFile({
           path: f,
-          content: fs.readFileSync(path.join(templateDir, f), 'utf-8'),
+          content: fs
+            .readFileSync(path.join(templateDir, f), 'utf-8')
+            .replace(`from 'react-helmet'`, `from '${reactHelmetPath}'`),
         });
       }
     });
