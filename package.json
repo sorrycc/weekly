@@ -6,7 +6,8 @@
     "bootstrap": "esno scripts/bootstrap.ts",
     "doc:build": "esno scripts/buildDocs.ts",
     "docaid:build": "pnpm --filter docaid build",
-    "docaid:dev": "pnpm --filter docaid dev"
+    "docaid:dev": "pnpm --filter docaid dev",
+    "docaid:release": "pnpm --filter docaid release"
   },
   "devDependencies": {
     "docaid": "0.0.1-alpha.1",
