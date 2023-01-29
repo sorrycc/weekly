@@ -1,0 +1,35 @@
+{
+  "name": "umi-plugin-docaid",
+  "version": "0.0.1-alpha.0",
+  "description": "",
+  "homepage": "https://github.com/sorrycc/weekly/tree/master/umi-plugin-docaid#readme",
+  "bugs": "https://github.com/sorrycc/weekly/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorrycc/weekly"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "father build",
+    "dev": "father dev",
+    "release": "esno ../scripts/release.ts --pkg umi-plugin-docaid"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "father": "^4.1.3",
+    "umi": "^4.0.47"
+  },
+  "keywords": [
+    "umi",
+    "umi plugin",
+    "plugin"
+  ],
+  "files": [
+    "dist"
+  ],
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+  ],
+  "license": "MIT"
+}

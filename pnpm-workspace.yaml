@@ -1,2 +1,3 @@
 packages:
   - 'docaid'
+  - 'umi-plugin-docaid'

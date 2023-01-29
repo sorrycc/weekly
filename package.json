@@ -2,12 +2,15 @@
   "scripts": {
     "dev": "umi dev",
     "setup": "umi setup",
-    "build": "npm run docaid:build && NODE_ENV=production npm run doc:build && umi build",
+    "build": "npm run docaid:build && npm run umi-plugin-docaid:build && NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
     "doc:build": "esno scripts/buildDocs.ts",
     "docaid:build": "pnpm --filter docaid build",
     "docaid:dev": "pnpm --filter docaid dev",
-    "docaid:release": "pnpm --filter docaid release"
+    "docaid:release": "pnpm --filter docaid release",
+    "umi-plugin-docaid:build": "pnpm --filter umi-plugin-docaid build",
+    "umi-plugin-docaid:dev": "pnpm --filter umi-plugin-docaid dev",
+    "umi-plugin-docaid:release": "pnpm --filter umi-plugin-docaid release"
   },
   "devDependencies": {
     "@types/node": "^15.0.2",
@@ -20,6 +23,7 @@
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",
     "umi": "^4.0.47",
+    "umi-plugin-docaid": "0.0.1-alpha.0",
     "zx": "^4.2.0"
   },
   "dependencies": {
