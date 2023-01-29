@@ -14,7 +14,8 @@
     "dev": "father dev",
     "release": "esno ../scripts/release.ts --pkg umi-plugin-docaid"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "docaid": "^0.0.2"
   },
   "devDependencies": {
     "father": "^4.1.3",

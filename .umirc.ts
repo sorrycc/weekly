@@ -20,7 +20,46 @@ export default defineConfig({
   },
   styledComponents: {},
   reactQuery: {},
-  docaid: {},
+  docaid: {
+    title: 'MDH Weekly 前端周刊',
+    siteUrl: 'https://mdhweekly.com/',
+    // @ts-ignore
+    transform(doc: any) {
+      const numberStr = doc.file.match(/issue-(\d+)\.md/)![1];
+      return {
+        ...doc,
+        number: parseInt(numberStr, 10),
+        numberStr,
+      };
+    },
+    rss: {
+      posts: {
+        default: true,
+        feedOpts: {
+          image:
+            'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
+          copyright: 'MDH Weekly since 2021',
+          author: {
+            name: 'Chen Cheng',
+            email: 'sorrycc@gmail.com',
+            link: 'https://sorrycc.com/',
+          },
+        },
+        transform(data: any, { doc }: any) {
+          return {
+            ...data,
+            title: `第 ${doc.number} 期：${doc.title}`,
+            content: `
+<div>Hi，第 ${doc.number} 期的周刊发布了。</div>
+<div><a href="${data.link}">点击查看</a></div>
+<div>&nbsp;</div>
+<div>${doc.publishedAt}</div>
+  `,
+          };
+        },
+      },
+    },
+  },
   favicons: [
     'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
   ],

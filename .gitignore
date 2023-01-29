@@ -3,6 +3,5 @@
 /dist
 /src/.umi-production
 /src/.umi
-/public/posts.json
-/public/posts
+/public/**/*.json
 /public/*.xml

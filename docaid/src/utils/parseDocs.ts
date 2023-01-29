@@ -24,7 +24,7 @@ export async function parseDocs(
       key: string;
     };
     ignoreDraft?: boolean;
-    transform?: (doc: any, context: { file: string }) => any;
+    transform?: (doc: any) => any;
     shiki?: {
       themes: string[];
       langs: Lang[];
@@ -77,11 +77,11 @@ export async function parseDocs(
         ...(attributes as object),
         content: body,
         html,
+        file,
         toc: toc(body, { slugify }).json,
       };
       if (opts.transform) {
-        const context = { file };
-        data = opts.transform(data, context);
+        data = opts.transform(data);
       }
       return data;
     })
