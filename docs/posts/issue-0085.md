@@ -27,7 +27,30 @@ MDH 前端周刊终于有自己的官网了，地址是 mdhweekly.com ！新年�
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
-- 。
+- Github mobile 端支持查看 [Github actions](https://github.blog/2023-01-20-bringing-github-actions-to-github-mobile/) 。
+- Github 现在 block 屏蔽用户时[可以添加备注](https://github.blog/changelog/2023-01-20-add-notes-when-blocking-users/)。
+- CRA 已经 5 个月没更新，积累了 [1500+](https://github.com/facebook/create-react-app/issues) 个 issue 。
+- 知名前端 Youtuber Theo 提议将 CRA 从 react 文档[除名](https://github.com/reactjs/reactjs.org/pull/5487)，[Parcel](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1399360209)、[Tailwind](https://twitter.com/adamwathan/status/1616938902966640641) 作者表示同意。
+- esbuild [0.17.4](https://github.com/evanw/esbuild/releases/tag/v0.17.4) 发布，支持更细粒度的 inject 。
+- [Solidjs](https://github.com/solidjs/solid) 已经有 25k stars 了。
+- [Shadcnui](https://github.com/shadcn/ui) ：在仓库没有任何代码的情况下，仅靠一个 README 画饼获得了 [1000](https://archive.ph/oaS9S) stars ，最终登顶[Trending 榜一](https://twitter.com/shadcn/status/1618586155032903681) 。
+- [Deno 2023](https://deno.com/blog/deno-in-2022) 新愿景：稳定的 npm 兼容、壮大 fresh 框架。
+- Safari [16.3](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/) 发布。
+- Vitest 每周 npm 下载量达到 [100w](https://twitter.com/sheremet_va/status/1617636737328775170) 。
+- Dan 表示 React beta 新文档站离正式上线[只差一个落地页](https://twitter.com/dan_abramov/status/1617858054908973056)了。
+- 全部框架相比，Qwik 的手机端页面 [核心指标](https://datastudio.google.com/u/0/reporting/55bc8fad-44c2-4280-aa0b-5f3f0cd3d2be/page/M6ZPC?params=%7B%22df44%22:%22include%25EE%2580%25800%25EE%2580%2580IN%25EE%2580%2580ALL%25EE%2580%2580WordPress%25EE%2580%2580Wix%25EE%2580%2580AngularJS%25EE%2580%2580Angular%25EE%2580%2580Next.js%25EE%2580%2580Nuxt.js%25EE%2580%2580SvelteKit%25EE%2580%2580Remix%25EE%2580%2580Qwik%22%7D) 第一。
+- Astro [v2.0.0](https://astro.build/blog/astro-2/) 发布，markdown 体验改良，底层由 Vite 4 支持。
+- Nuxt [v3.1.0](https://github.com/nuxt/nuxt/releases/v3.1.0) 发布，Experiment Server Component 等。
+- 不同运行时在 w3c 中的[唯一标识](https://runtime-keys.proposal.wintercg.org/)：阿里云是 edge-routine ，vercel 是 edge-light 等。
+- Bun 现在可以通过 [npm](https://www.npmjs.com/package/bun) 安装。
+- 已经有 [1 亿用户](https://github.blog/2023-01-25-100-million-developers-and-counting/)在使用 Github 。
+- npm [v9.4.0](https://github.com/npm/cli/releases/tag/v9.4.0) 发布，支持符号链接的依赖安装策略。
+- 基于 nextjs 的全栈模板 [create-t3-app](https://twitter.com/t3dotgg/status/1618417228034232324) 下载量已经超过 remix 。
+- Rollup [新文档](https://rollupjs.org/)由 Vitepress 驱动。
+- TypeScript [v5.0.0-beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-beta/) 发布，默认开启 [新装饰器](https://github.com/tc39/proposal-decorators) 等。
+- [Redux 作者](https://twitter.com/acemarke/status/1618630292520177668)和 [Theo](https://twitter.com/t3dotgg/status/1618465858275381249) 指出 redux sagas 应该被禁用。
+- Deno [v1.3.0](https://deno.com/blog/v1.30) 发布，内置 nodejs 模块等。
+- [Vue 3](https://github.com/vuejs/core) 将 Jest 迁移至 Vitest 。
 
 ## 深度好文
 > 好文推荐。这周好文真多，以下是我全文阅读过的部分。
@@ -54,7 +77,8 @@ MDH 前端周刊终于有自己的官网了，地址是 mdhweekly.com ！新年�
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单，有求职需求的请在 https://docs.qq.com/form/page/DY291a3BOdGR3TnRT 填写表单。
 
-* 「浩鲸科技」招聘 React 前端开发，base 地「福建福州」，要求「熟悉 Umi 全家桶，并对低代码平台有一定的了解，能独立研发组件资产」，薪资范围「10-18k」，联系方式「448627663@qq.com」或「18050322490 加微信」。
+* 「浩鲸科技」：招聘 React 前端开发，base 地「福建福州」，要求「熟悉 Umi 全家桶，并对低代码平台有一定的了解，能独立研发组件资产」，薪资范围「10-18k」，联系方式「448627663@qq.com」或「18050322490 加微信」。
+* 「Yingci」：我正在寻找一份北上杭的前端开发工作，擅长 React 、toB 、中后台 、工程化 ，联系方式「钉钉 xnsakina」或「i@sakina.moe」。
 
 ## 每周一图
 
