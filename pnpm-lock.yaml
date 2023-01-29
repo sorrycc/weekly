@@ -12,8 +12,9 @@ importers:
       '@vercel/analytics': ^0.1.8
       clsx: ^1.2.1
       dayjs: ^1.11.7
-      docaid: 0.0.1-alpha.1
+      docaid: 0.0.1
       esno: ^0.5.0
+      git-repo-info: ^2.1.1
       prettier: ^2.2.1
       prettier-plugin-organize-imports: ^1.1.1
       react-helmet: ^6.1.0
@@ -33,6 +34,7 @@ importers:
       dayjs: 1.11.7
       docaid: link:docaid
       esno: 0.5.0
+      git-repo-info: 2.1.1
       prettier: 2.5.1
       prettier-plugin-organize-imports: 1.1.1_x6wm2jvdvbogarhdtlkhrpydvi
       typescript: 4.5.4
@@ -5796,6 +5798,11 @@ packages:
 
   /git-hooks-list/1.0.3:
     resolution: {integrity: sha512-Y7wLWcrLUXwk2noSka166byGCvhMtDRpgHdzCno1UQv/n/Hegp++a2xBWJL1lJarnKD3SWaljD+0z1ztqxuKyQ==}
+    dev: true
+
+  /git-repo-info/2.1.1:
+    resolution: {integrity: sha512-8aCohiDo4jwjOwma4FmYFd3i97urZulL8XL24nIPxuE+GZnfsAyy/g2Shqx6OjUiFKUXZM+Yy+KHnOmmA3FVcg==}
+    engines: {node: '>= 4.0'}
     dev: true
 
   /glob-parent/5.1.2:
