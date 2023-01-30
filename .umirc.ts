@@ -29,8 +29,25 @@ export default defineConfig({
       const numberStr = doc.file.match(/issue-(\d+)\.md/)![1];
       return {
         ...doc,
+        metaTitle: `第 ${numberStr} 期：${doc.title}`,
         number: parseInt(numberStr, 10),
         numberStr,
+        html: `
+${doc.html}
+<h2>小结</h2>
+<p>
+  如果你喜欢 MDH 前端周刊，请转发给你的朋友，告诉他们
+  <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ%3D%3D&mid=2247484802&idx=1&sn=caa84339125510680d435a40280a6600#wechat_redirect">
+    到这里来订阅
+  </a>
+  ，这是对我最大的帮助。下期见！
+</p>
+<p
+  style="color: #b5495b"
+>
+  MDH，让开发者有笑容 :)
+</p>
+`.trim(),
       };
     },
     navs: [
@@ -57,7 +74,7 @@ export default defineConfig({
         transform(data: any, { doc }: any) {
           return {
             ...data,
-            title: `第 ${doc.number} 期：${doc.title}`,
+            title: `第 ${doc.numberStr} 期：${doc.title}`,
             content: `
 <div>Hi，第 ${doc.number} 期的周刊发布了。</div>
 <div><a href="${data.link}">点击查看</a></div>

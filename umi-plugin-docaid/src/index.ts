@@ -1,8 +1,9 @@
 import { IApi } from 'umi';
 import { lodash } from 'umi/plugin-utils';
-import { buildDocs } from './buildDocs';
+import { parseDoc } from 'docaid';
 import path from 'path';
 import fs from 'fs';
+import { buildDocs } from './buildDocs';
 
 export default (api: IApi) => {
   let singleDocMap: Record<string, string> = {};
@@ -41,6 +42,12 @@ export default (api: IApi) => {
       config: api.config.docaid,
       watch: api.name === 'dev',
     });
+  });
+
+  api.addTmpGenerateWatcherPaths(() => {
+    return process.env.DOCAID_DEBUG
+      ? [path.join(__dirname, '../templates')]
+      : [];
   });
 
   api.registerCommand({
@@ -107,7 +114,7 @@ export default (api: IApi) => {
     });
   });
 
-  api.modifyRoutes(() => {
+  api.modifyRoutes(async () => {
     const routes: Record<string, any> = {};
     const docsDir = path.join(
       api.paths.cwd,
@@ -133,7 +140,7 @@ export default (api: IApi) => {
         const name = f.replace(/\.md$/, '');
         const file = withTmpPath('SingleDoc.tsx');
         const path = `/${name === 'README' ? '' : name}`;
-        singleDocMap[path] = fs.readFileSync(filePath, 'utf-8');
+        singleDocMap[path] = await parseDoc(filePath, {});
         const id = `@docaid/${name}`;
         routes[id] = {
           id,
