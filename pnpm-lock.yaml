@@ -8,6 +8,7 @@ importers:
       '@types/react': ^18
       '@types/react-dom': ^18
       '@umijs/plugins': ^4.0.47
+      create-docaid: 0.0.1
       dayjs: ^1.11.7
       docaid: 0.0.5
       esno: ^0.5.0
@@ -23,6 +24,7 @@ importers:
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.10
       '@umijs/plugins': 4.0.47_ofjx7rc4pggivjjkjopjm26ckm
+      create-docaid: link:create-docaid
       dayjs: 1.11.7
       docaid: link:docaid
       esno: 0.5.0
