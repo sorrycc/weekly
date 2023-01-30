@@ -23,7 +23,7 @@
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",
     "umi": "^4.0.47",
-    "umi-plugin-docaid": "0.0.2",
+    "umi-plugin-docaid": "0.0.3",
     "zx": "^4.2.0"
   },
   "dependencies": {
