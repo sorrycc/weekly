@@ -9,7 +9,7 @@ importers:
       '@types/react-dom': ^18
       '@umijs/plugins': ^4.0.47
       dayjs: ^1.11.7
-      docaid: 0.0.4
+      docaid: 0.0.5
       esno: ^0.5.0
       git-repo-info: ^2.1.1
       prettier: ^2.2.1
