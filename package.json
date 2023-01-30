@@ -10,9 +10,14 @@
     "docaid:release": "pnpm --filter docaid release",
     "umi-plugin-docaid:build": "pnpm --filter umi-plugin-docaid build",
     "umi-plugin-docaid:dev": "pnpm --filter umi-plugin-docaid dev",
-    "umi-plugin-docaid:release": "pnpm --filter umi-plugin-docaid release"
+    "umi-plugin-docaid:release": "pnpm --filter umi-plugin-docaid release",
+    "create-docaid:build": "pnpm --filter create-docaid build",
+    "create-docaid:dev": "pnpm --filter create-docaid dev",
+    "create-docaid:release": "pnpm --filter create-docaid release"
   },
   "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "@types/node": "^15.0.2",
     "@umijs/plugins": "^4.0.47",
     "dayjs": "^1.11.7",
@@ -25,13 +30,5 @@
     "umi": "^4.0.47",
     "umi-plugin-docaid": "0.0.3",
     "zx": "^4.2.0"
-  },
-  "dependencies": {
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/react-helmet": "^6.1.6",
-    "@vercel/analytics": "^0.1.8",
-    "clsx": "^1.2.1",
-    "react-helmet": "^6.1.0"
   }
 }

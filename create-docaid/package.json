@@ -1,37 +1,34 @@
 {
-  "name": "umi-plugin-docaid",
-  "version": "0.0.3",
+  "name": "create-docaid",
+  "version": "0.0.1-alpha.0",
   "description": "",
-  "homepage": "https://github.com/sorrycc/weekly/tree/master/umi-plugin-docaid#readme",
+  "homepage": "https://github.com/sorrycc/weekly/tree/master/create-docaid#readme",
   "bugs": "https://github.com/sorrycc/weekly/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/sorrycc/weekly"
   },
-  "main": "dist/index.js",
+  "bin": {
+    "create-docaid": "bin/create-docaid.js"
+  },
   "scripts": {
     "build": "father build",
     "dev": "father dev",
     "doctor": "father doctor",
-    "release": "esno ../scripts/release.ts --pkg umi-plugin-docaid"
+    "release": "esno ../scripts/release.ts --pkg create-docaid"
   },
   "dependencies": {
-    "@types/react-helmet": "^6.1.6",
-    "react-helmet": "^6.1.0"
-  },
-  "peerDependencies": {
-    "docaid": "^0.0.2"
+    "fast-glob": "^3.2.12"
   },
   "devDependencies": {
-    "father": "^4.1.3",
-    "umi": "^4.0.47"
+    "father": "^4.1.3"
   },
   "keywords": [
-    "umi",
-    "umi plugin",
-    "plugin"
+    "docaid",
+    "boilerplate"
   ],
   "files": [
+    "bin",
     "dist",
     "templates"
   ],

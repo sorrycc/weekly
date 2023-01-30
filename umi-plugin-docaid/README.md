@@ -1,3 +1,3 @@
-# docaid
+# umi-plugin-docaid
 
-docaid is a tool to help you build documentation project.
+docaid plugin for umi.

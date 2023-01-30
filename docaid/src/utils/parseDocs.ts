@@ -83,7 +83,7 @@ async function getMd(opts: IOpts) {
   return md;
 }
 
-export async function parseDoc(filePath: string, opts: IOpts, extraData: any) {
+export async function parseDoc(filePath: string, opts: IOpts, extraData?: any) {
   const md = await getMd(opts);
   const content = fs.readFileSync(filePath, 'utf-8');
   const { attributes, body } = fm(content);

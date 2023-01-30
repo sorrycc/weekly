@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/src/.umi-production
+/src/.umi
+/.umi-production
+/.umi
+/public/**/*.json
+/public/*.xml
