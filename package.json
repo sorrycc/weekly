@@ -13,7 +13,8 @@
     "umi-plugin-docaid:release": "pnpm --filter umi-plugin-docaid release",
     "create-docaid:build": "pnpm --filter create-docaid build",
     "create-docaid:dev": "pnpm --filter create-docaid dev",
-    "create-docaid:release": "pnpm --filter create-docaid release"
+    "create-docaid:release": "pnpm --filter create-docaid release",
+    "release": "npm run docaid:release && npm run umi-plugin-docaid:release && npm run create-docaid:release"
   },
   "devDependencies": {
     "@types/react": "^18",
