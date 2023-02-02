@@ -1,4 +1,11 @@
-import { Outlet, Link, useLocation, styled, useDocAidConfig } from 'umi';
+import {
+  Outlet,
+  Link,
+  useLocation,
+  styled,
+  useDocAidConfig,
+  useDocAidTheme,
+} from 'umi';
 
 const Wrapper = styled.div<{ $isPost: boolean }>`
   max-width: 65ch;
@@ -33,7 +40,7 @@ const Wrapper = styled.div<{ $isPost: boolean }>`
   }
 `;
 
-export default function Layout() {
+export function DefaultLayout() {
   const location = useLocation();
   const { headTitle, navs, copyright } = useDocAidConfig();
   return (
@@ -62,4 +69,10 @@ export default function Layout() {
       <footer>{copyright}</footer>
     </Wrapper>
   );
+}
+
+export default function Layout() {
+  const theme = useDocAidTheme();
+  const Component = theme.Layout || DefaultLayout;
+  return <Component />;
 }
