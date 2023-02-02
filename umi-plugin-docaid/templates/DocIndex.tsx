@@ -1,5 +1,11 @@
 import React from 'react';
-import { Link, styled, useDocAidConfig, useLocation } from 'umi';
+import {
+  Link,
+  styled,
+  useDocAidConfig,
+  useDocAidTheme,
+  useLocation,
+} from 'umi';
 import { Helmet } from 'react-helmet';
 import { useDoc } from './useDoc';
 
@@ -24,10 +30,11 @@ const PostsWrapper = styled.div`
 
 function Posts() {
   const config = useDocAidConfig();
+  const theme = useDocAidTheme();
   const { pathname } = useLocation();
   const activeNav = config.navs.find((nav) => nav.path === pathname);
-  const postsQuery = useDoc<any>();
-  if (postsQuery.isLoading) {
+  const docQuery = useDoc<any>();
+  if (docQuery.isLoading) {
     return <div>Loading...</div>;
   }
 
@@ -37,12 +44,12 @@ function Posts() {
         <title>{`${activeNav?.title || ''} - ${config.title}`}</title>
       </Helmet>
       <ul>
-        {postsQuery.data!.map((post: any) => (
-          <li key={post.numberStr}>
-            <Link to={post.path}>
-              <strong>{post.numberStr} 期</strong>：{post.title}
+        {docQuery.data!.map((doc: any) => (
+          <li key={doc.numberStr}>
+            <Link to={doc.path}>
+              <theme.DocIndexTitle doc={doc} />
             </Link>
-            <em>{post.publishedAt}</em>
+            <em>{doc.publishedAt}</em>
           </li>
         ))}
       </ul>

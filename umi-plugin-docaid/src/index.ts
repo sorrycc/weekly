@@ -94,6 +94,23 @@ export default (api: IApi) => {
         });
       }
     });
+    const themePath = path.join(api.cwd, 'theme.tsx');
+    const userTheme = fs.existsSync(themePath);
+    api.writeTmpFile({
+      path: 'index.ts',
+      content: `
+import config from './config.json';
+import * as defaultTheme from './defaultTheme';
+${userTheme ? `import * as theme from '${themePath}';` : 'const theme = {};'}
+
+export function useDocAidConfig() {
+  return config;
+}
+export function useDocAidTheme() {
+  return { ...defaultTheme, ...theme };
+}
+      `,
+    });
     api.writeTmpFile({
       path: 'singleDocMap.json',
       content: JSON.stringify(singleDocMap, null, 2),
