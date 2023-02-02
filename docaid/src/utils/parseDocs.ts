@@ -39,7 +39,7 @@ export async function parseDocs(dir: string, opts: IOpts = {}) {
       fs.readdirSync(dir).map(async (file) => {
         if (!file.endsWith('.md')) return false;
         const ret = await parseDoc(path.join(dir, file), opts, { file });
-        return { ...ret, file };
+        return ret ? { ...ret, file } : false;
       }),
     )
   ).filter(Boolean);
