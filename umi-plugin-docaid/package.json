@@ -20,7 +20,8 @@
     "react-helmet": "^6.1.0"
   },
   "peerDependencies": {
-    "docaid": "^0.0.2"
+    "docaid": "^0.0.2",
+    "umi": "4"
   },
   "devDependencies": {
     "father": "^4.1.3",
