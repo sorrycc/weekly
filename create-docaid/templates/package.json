@@ -6,8 +6,8 @@
   },
   "devDependencies": {
     "@umijs/plugins": "^4.0.47",
-    "docaid": "0.0.4",
+    "docaid": "^0.0.6",
     "umi": "^4.0.47",
-    "umi-plugin-docaid": "^0.0.3"
+    "umi-plugin-docaid": "^0.0.5"
   }
 }
