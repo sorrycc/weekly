@@ -39,7 +39,7 @@ function Posts() {
       <ul>
         {postsQuery.data!.map((post: any) => (
           <li key={post.numberStr}>
-            <Link to={`/weekly/issue-${post.numberStr}`}>
+            <Link to={post.path}>
               <strong>{post.numberStr} 期</strong>：{post.title}
             </Link>
             <em>{post.publishedAt}</em>

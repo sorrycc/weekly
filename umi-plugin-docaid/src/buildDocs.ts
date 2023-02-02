@@ -27,7 +27,7 @@ export async function buildDocs(root: string, opts: IOpts) {
       fs.statSync(path.join(root, dir)).isDirectory() &&
       dir.charAt(0) !== '.'
     ) {
-      await buildDoc(path.join(root, dir), opts);
+      await buildDoc(root, dir, opts);
     }
   }
   if (opts.watch) {
@@ -44,7 +44,7 @@ export async function buildDocs(root: string, opts: IOpts) {
           .split('/')[0];
         const targetDir = path.join(root, dir);
         if (fs.existsSync(targetDir) && fs.statSync(targetDir).isDirectory()) {
-          buildDoc(targetDir, opts).catch((e) => {
+          buildDoc(root, dir, opts).catch((e) => {
             console.error(e);
           });
         }
@@ -56,11 +56,10 @@ function addSlash(path: string) {
   return path.endsWith('/') ? path : `${path}/`;
 }
 
-export async function buildDoc(root: string, opts: IOpts) {
-  const name = path.basename(root);
-  const outputDir = path.join(opts.output, name);
+export async function buildDoc(root: string, dir: string, opts: IOpts) {
+  const outputDir = path.join(opts.output, dir);
   fs.mkdirSync(outputDir, { recursive: true });
-  const docs: any[] = await parseDocs(root, {
+  const docs: any[] = await parseDocs(path.join(root, dir), {
     ignoreDraft: process.env.NODE_ENV === 'production',
     sort: {
       key: 'number',
@@ -69,6 +68,7 @@ export async function buildDoc(root: string, opts: IOpts) {
   });
   docs.forEach((doc: any) => {
     const fileWithoutExt = path.basename(doc.file, path.extname(doc.file));
+    doc.path = `/${dir}/${fileWithoutExt}`;
     fs.writeFileSync(
       path.join(outputDir, `${fileWithoutExt}.json`),
       JSON.stringify(doc, null, 2),
@@ -76,7 +76,7 @@ export async function buildDoc(root: string, opts: IOpts) {
     );
   });
   fs.writeFileSync(
-    path.join(opts.output, `${name}.json`),
+    path.join(opts.output, `${dir}.json`),
     JSON.stringify(
       docs.map((doc) => {
         const newDoc = { ...doc };
@@ -92,15 +92,15 @@ export async function buildDoc(root: string, opts: IOpts) {
     'utf-8',
   );
   fs.writeFileSync(
-    path.join(opts.output, `${name}.full.json`),
+    path.join(opts.output, `${dir}.full.json`),
     JSON.stringify(docs, null, 2),
     'utf-8',
   );
-  console.log(`Build docs for ${name}`);
+  console.log(`Build docs for ${dir}`);
 
-  const rssOpts = opts.config.rss?.[name];
+  const rssOpts = opts.config.rss?.[dir];
   if (rssOpts) {
-    const rssFileName = rssOpts.default ? 'rss.xml' : `${name}.rss.xml`;
+    const rssFileName = rssOpts.default ? 'rss.xml' : `${dir}.rss.xml`;
     const rss = generateRSS({
       feedOpts: {
         link: opts.config.siteUrl,
@@ -113,10 +113,7 @@ export async function buildDoc(root: string, opts: IOpts) {
       docItems: docs.slice(0, rssOpts.limit || 20).map((doc) => {
         const ret = {
           title: doc.title,
-          link: `${opts.config.siteUrl}${name}/${doc.file.replace(
-            /\.md$/,
-            '',
-          )}`,
+          link: `${opts.config.siteUrl}${dir}/${doc.file.replace(/\.md$/, '')}`,
           // TODO: support full content by default
           content: '',
           date: new Date(doc.publishedAt),
@@ -126,6 +123,6 @@ export async function buildDoc(root: string, opts: IOpts) {
     });
     const output = path.join(opts.output, rssFileName);
     fs.writeFileSync(output, rss, 'utf-8');
-    console.log(`Build rss for ${name}`);
+    console.log(`Build rss for ${dir}`);
   }
 }
