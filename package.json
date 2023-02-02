@@ -31,6 +31,6 @@
     "umi": "^4.0.47",
     "umi-plugin-docaid": "0.0.5",
     "zx": "^4.2.0",
-    "create-docaid": "0.0.3"
+    "create-docaid": "0.0.4"
   }
 }
