@@ -5,7 +5,7 @@ import assert from 'assert';
 const weekly = require('../public/weekly.json');
 const publishedAt = dayjs(weekly[0].publishedAt)
   .add(7, 'day')
-  .format('YYYY-MM-DD');
+  .format('YYYY/MM/DD');
 const content =
   `
 ---

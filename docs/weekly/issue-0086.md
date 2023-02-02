@@ -2,7 +2,7 @@
 title: "WIP"
 titleImage: ""
 titleImageCaption: ""
-publishedAt: "2023-02-06"
+publishedAt: "2023/02/06"
 draft: true
 ---
 
