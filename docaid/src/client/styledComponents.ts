@@ -50,6 +50,10 @@ export const Article = styled.article`
 export const Doc = styled.div`
   flex: 1;
   position: relative;
+  font-family: 'LXGW WenKai', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
   h1 {
     font-size: 2.25rem; /* 36px */
     line-height: 1.2;
