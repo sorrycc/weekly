@@ -14,6 +14,7 @@ export default defineConfig({
   mfsu: false,
   hash: true,
   docaid: {
+    theme: 'leerob',
     title: 'Docaid',
     headTitle: 'Docaid',
     siteUrl: 'https://your-site.com/',

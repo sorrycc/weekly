@@ -14,6 +14,7 @@ export default (api: IApi) => {
       schema(Joi) {
         return Joi.object({
           title: Joi.string(),
+          theme: Joi.string().valid('randy', 'leerob'),
           headTitle: Joi.string(),
           siteUrl: Joi.string()
             .pattern(/\/$/)
@@ -100,14 +101,23 @@ export default (api: IApi) => {
       path: 'index.ts',
       content: `
 import config from './config.json';
-import * as defaultTheme from './defaultTheme';
-${userTheme ? `import * as theme from '${themePath}';` : 'const theme = {};'}
 
 export function useDocAidConfig() {
   return config;
 }
 export function useDocAidTheme() {
-  return { ...defaultTheme, ...theme };
+  const defaultTheme = require('./defaultTheme');
+${
+  userTheme
+    ? `const userCustomTheme = require('${themePath}');`
+    : 'const userCustomTheme = {};'
+}
+${
+  api.config.docaid.theme
+    ? `const userConfigTheme = require('./${api.config.docaid.theme}Theme');`
+    : 'const userConfigTheme = {};'
+}
+  return { ...defaultTheme, ...userConfigTheme, ...userCustomTheme };
 }
       `,
     });
