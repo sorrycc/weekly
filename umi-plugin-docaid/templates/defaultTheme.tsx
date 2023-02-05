@@ -15,14 +15,22 @@ export const Navs = (props: any) => {
   return (
     <nav>
       {(props.navs || navs).map((nav: any, index: number) => {
+        let className = undefined;
+        if (nav.path && props.activeNav && props.activeNav.path === nav.path) {
+          className = 'active';
+        }
         return nav.path ? (
-          <Link key={index} to={nav.path}>
-            {nav.title}
-          </Link>
+          <div>
+            <Link key={index} to={nav.path} className={className}>
+              {nav.title}
+            </Link>
+          </div>
         ) : (
-          <a key={index} href={nav.href}>
-            {nav.title}
-          </a>
+          <div>
+            <a key={index} href={nav.href}>
+              {nav.title}
+            </a>
+          </div>
         );
       })}
     </nav>
@@ -76,6 +84,9 @@ export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
 `;
 
 export const DocListWrapper = styled.div`
+  h1 {
+    display: none;
+  }
   li {
     height: 28px;
     line-height: 28px;

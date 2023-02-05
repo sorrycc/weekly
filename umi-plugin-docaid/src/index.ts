@@ -13,8 +13,9 @@ export default (api: IApi) => {
     config: {
       schema(Joi) {
         return Joi.object({
+          logo: Joi.string(),
           title: Joi.string(),
-          theme: Joi.string().valid('randy', 'leerob'),
+          theme: Joi.string().valid('leerob'),
           headTitle: Joi.string(),
           siteUrl: Joi.string()
             .pattern(/\/$/)
@@ -129,6 +130,7 @@ ${
       path: 'config.json',
       content: JSON.stringify(
         lodash.pick(api.config.docaid, [
+          'logo',
           'title',
           'headTitle',
           'siteUrl',

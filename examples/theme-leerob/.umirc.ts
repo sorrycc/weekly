@@ -14,13 +14,16 @@ export default defineConfig({
   mfsu: false,
   hash: true,
   docaid: {
+    logo: 'https://img.alicdn.com/imgextra/i1/O1CN01FwDVoc1YGhgE28l5B_!!6000000003032-2-tps-200-200.png',
     theme: 'leerob',
     title: 'Docaid',
     headTitle: 'Docaid',
     siteUrl: 'https://your-site.com/',
     navs: [
-      { title: 'Posts', path: '/posts' },
-      { title: 'RSS', href: '/rss.xml' },
+      { title: 'home', path: '/' },
+      { title: 'about', path: '/about' },
+      { title: 'blog', path: '/posts' },
+      { title: 'rss', href: '/rss.xml' },
     ],
     copyright: 'Docaid',
     rss: {

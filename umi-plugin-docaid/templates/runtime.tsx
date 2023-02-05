@@ -4,7 +4,8 @@ import { globalCSS } from 'docaid/client';
 export function rootContainer(container: any) {
   const theme = useDocAidTheme();
   const GlobalStyle = createGlobalStyle`
-    ${theme.globalCSS || globalCSS}
+    ${globalCSS}
+    ${theme.globalCSS}
   `;
   return (
     <>

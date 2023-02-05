@@ -3,6 +3,10 @@ import { Link, useDocAidConfig, useDocAidTheme, useLocation } from 'umi';
 import { Helmet } from 'react-helmet';
 import { useDoc } from './useDoc';
 
+function upperFirst(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function Posts() {
   const config = useDocAidConfig();
   const theme = useDocAidTheme();
@@ -18,6 +22,7 @@ function Posts() {
       <Helmet>
         <title>{`${activeNav?.title || ''} - ${config.title}`}</title>
       </Helmet>
+      <h1>{upperFirst(activeNav?.title || '')}</h1>
       <ul>
         {docQuery.data!.map((doc: any) => (
           <li key={doc.numberStr}>
