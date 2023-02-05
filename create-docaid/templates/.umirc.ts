@@ -14,6 +14,7 @@ export default defineConfig({
   mfsu: false,
   hash: true,
   docaid: {
+    logo: 'https://img.alicdn.com/imgextra/i1/O1CN01FwDVoc1YGhgE28l5B_!!6000000003032-2-tps-200-200.png',
     title: 'Docaid',
     headTitle: 'Docaid',
     siteUrl: 'https://your-site.com/',
