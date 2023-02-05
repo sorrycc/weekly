@@ -55,10 +55,11 @@ draft: true
 - Umi 例行[每周四发一版](https://github.com/umijs/umi/releases)，我觉得有趣的功能包括，1）增加 prepare 阶段，大功能，这个阶段会用 esbuild 跑一遍源码文件的编译，以此来拿到各种源码信息，幽灵依赖检测、icons 方案、mfsu 依赖分析、esmi 依赖分析都会基于此，2）优化了 Umi 的启动速度，方法就是通过懒加载模块，那怎么知道哪些地方慢呢？我们做了个功能可以收集每个插件的每个 hook 的执行时间，3）更新 did you know 数据，提供更多 Tips。
 - 冲着[把 Umi 排在 Next.js 之前](https://t.me/yqtalk/158)，买了一本卡颂的「React 设计原理」，到了但还没拆。
 - 做了一段时间的[心理建设](https://t.me/yqtalk/155)后买了[新的 MBP](https://t.me/yqtalk/157)，这几天每天都要查一遍发货了没，预计生产力 +1。
-- 把 Obsidian、mdhweekly 官网、语雀的字体都[换成霞鹜文楷](https://t.me/yqtalk/163)，生产力瞬间 +1。
-- 买了刘飞的 [Midjourney进阶创意库｜2023](https://xiaobot.net/p/MJ2023)，有收获，Prompt 水平 +1。
+- 把 Obsidian、MDH Weekly 官网、语雀的字体都[换成霞鹜文楷](https://t.me/yqtalk/163)，生产力瞬间 +1。
+- 买了刘飞的 [Midjourney进阶创意库｜2023](https://xiaobot.net/p/MJ2023?refer=d88359e1-b1a7-464e-ad5a-dea9cc210c33)，有收获，Prompt 水平 +1。
 - GMTC 2023 北京的专题被合到其他专题，出品人经验 -1。
 - 调整了时间安排，把读书时间挪到中午，然后晚上挤出 1 个小时把英语学习安排进去，向 pigcan 请教了学习方法，他说要「read aloud」，我想到了李阳，目前已开始实施。
+- 完成今年第一篇 9h+ 长文，预计下周发。
 
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单，有求职需求的请在 https://docs.qq.com/form/page/DY291a3BOdGR3TnRT 填写表单。
