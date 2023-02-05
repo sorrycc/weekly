@@ -83,7 +83,7 @@ export default (api: IApi) => {
 
   api.onGenerateFiles(() => {
     const templateDir = path.join(__dirname, '../templates');
-    // TODO: auto resolved all pakcage.json deps, but exclude `@types/*`
+    // TODO: auto resolve all pakcage.json deps, but exclude `@types/*`
     const depResolvedMap = ['react-helmet', 'framer-motion'].reduce<
       Record<string, string>
     >((memo, dep) => {
