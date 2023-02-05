@@ -24,14 +24,16 @@ function Posts() {
       </Helmet>
       <h1>{upperFirst(activeNav?.title || '')}</h1>
       <ul>
-        {docQuery.data!.map((doc: any) => (
-          <li key={doc.numberStr}>
-            <Link to={doc.path}>
-              <theme.DocIndexTitle doc={doc} />
-            </Link>
-            <em>{doc.publishedAt}</em>
-          </li>
-        ))}
+        {docQuery.data!.map((doc: any) => {
+          return (
+            <li key={doc.path}>
+              <Link to={doc.path}>
+                <theme.DocIndexTitle doc={doc} />
+              </Link>
+              <em>{doc.publishedAt}</em>
+            </li>
+          )
+        })}
       </ul>
     </theme.DocListWrapper>
   );

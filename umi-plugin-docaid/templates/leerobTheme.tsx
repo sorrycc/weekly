@@ -1,4 +1,11 @@
 import { styled, useDocAidConfig, Link } from 'umi';
+import { Fragment, useRef, useEffect } from 'react';
+import { motion } from 'framer-motion';
+
+// https://www.framer.com/motion/layout-animations/###border-radius-or-box-shadows-are-behaving-strangely
+const NavLinkBackgroundMotion = styled(motion.div)`
+  border-radius: 0.375rem;
+`;
 
 export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
   max-width: 52rem;
@@ -27,10 +34,6 @@ export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
         font-family: '__kaisei_a0a918', '__kaisei_Fallback_a0a918';
         text-decoration: none;
         color: #737373;
-        &.active {
-          background: rgb(245 245 245);
-          border-radius: 0.375rem;
-        }
         &:hover {
           color: rgb(38 38 38);
         }
@@ -83,5 +86,74 @@ export const HeadTitle = (props: any) => {
         <img src={config.logo} width="60" />
       </Link>
     </h1>
+  );
+};
+
+export const Navs = (props: any) => {
+  const { navs } = useDocAidConfig();
+  const mountedRef = useRef(false);
+
+  useEffect(() => {
+    if (!mountedRef.current) {
+      mountedRef.current = true;
+    }
+  }, [])
+
+  return (
+    <nav>
+      {(props.navs || navs).map((nav: any, index: number) => {
+        let className = undefined;
+        const isActive =
+          nav.path && props.activeNav && props.activeNav.path === nav.path;
+        if (isActive) {
+          className = 'active';
+        }
+        return (
+          <Fragment key={index}>
+            {nav.path ? (
+              <div>
+                <Link
+                  to={nav.path}
+                  className={className}
+                  style={{ position: 'relative' }}
+                >
+                  {nav.title}
+                  {isActive && (
+                    <NavLinkBackgroundMotion
+                      layoutId="nav-link-background"
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        top: 0,
+                        height: '100%',
+                        background: 'rgb(245 245 245)',
+                        zIndex: -1,
+                      }}
+                      animate={{
+                        width: '100%',
+                        opacity: 1
+                      }}
+                      initial={mountedRef.current ? false : {
+                        width: 0,
+                        opacity: 0.2
+                      }}
+                      transition={{
+                        type: 'spring',
+                        stiffness: 350,
+                        damping: 30,
+                      }}
+                    />
+                  )}
+                </Link>
+              </div>
+            ) : (
+              <div>
+                <a href={nav.href}>{nav.title}</a>
+              </div>
+            )}
+          </Fragment>
+        );
+      })}
+    </nav>
   );
 };

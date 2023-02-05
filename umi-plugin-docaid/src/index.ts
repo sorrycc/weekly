@@ -83,16 +83,24 @@ export default (api: IApi) => {
 
   api.onGenerateFiles(() => {
     const templateDir = path.join(__dirname, '../templates');
+    // TODO: auto resolved all pakcage.json deps, but exclude `@types/*`
+    const depResolvedMap = ['react-helmet', 'framer-motion'].reduce<
+      Record<string, string>
+    >((memo, dep) => {
+      memo[dep] = path.dirname(require.resolve(`${dep}/package.json`));
+      return memo;
+    }, {});
     fs.readdirSync(templateDir).forEach((f) => {
       if (fs.statSync(path.join(templateDir, f)).isFile()) {
-        const reactHelmetPath = path.dirname(
-          require.resolve('react-helmet/package.json'),
-        );
+        let content = fs.readFileSync(path.join(templateDir, f), 'utf-8');
+        Object.entries(depResolvedMap).forEach(([dep, resolvedPath]) => {
+          content = content
+            .replace(`from '${dep}'`, `from '${resolvedPath}'`)
+            .replace(`from "${dep}"`, `from '${resolvedPath}'`);
+        });
         api.writeTmpFile({
           path: f,
-          content: fs
-            .readFileSync(path.join(templateDir, f), 'utf-8')
-            .replace(`from 'react-helmet'`, `from '${reactHelmetPath}'`),
+          content,
         });
       }
     });
