@@ -13,7 +13,28 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
-- 。
+- [Astro 官方](https://houston.astro.build/)和 [Remix 社区](https://remix.polymath.chat/)推出了自己的 AI 文档，基于 OpenAI 智能解答。
+- 代码编写 PPT 工具 Slidev 支持了幻灯片一样的[切换动画](https://twitter.com/antfu7/status/1619536044311089154)。
+- [PS5 的用户界面](https://twitter.com/syke/status/1619413099861413889)由 React Native 编写。
+- 现在 CSS 属性已经有 [570](https://www.w3.org/Style/CSS/all-properties.en.html) 个了。
+- [Import maps](https://caniuse.com/import-maps) 即将获得跨浏览器平台的支持性。
+- 模块联邦作者 Zack Jackson 近几周在投入 [Rust Webpack](https://twitter.com/ScriptedAlchemy/status/1619951813687660544) ，30 天内会[开源](https://twitter.com/ScriptedAlchemy/status/1621220073192189952)。
+- Nextjs 原生支持配置页面级 [SEO](https://twitter.com/leeerob/status/1619743437577912321) 属性。
+- [Nextjs](https://github.com/vercel/next.js) 有 100k stars 了，高于 CRA 的 98k stars 。
+- Dan 表示 [CRA](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) 将变成一个 React 项目启动器，本身不再和某个框架强绑定。
+- Tailwind v4 的[愿景](https://twitter.com/adamwathan/status/1620261896611061760)是在 css 中完成配置，无需 js 配置文件。
+- Jotai [v2.0.0](https://github.com/pmndrs/jotai/releases/tag/v2.0.0) 发布，API 推陈出新，支持 React 外修改数据。
+- Bun [v0.5.2](https://bun.sh/blog/bun-v0.5.2) 发布，支持运行 Webassembly 等。
+- Astro 获得 [StackShare](https://stackshare.io/posts/top-developer-tools-2022#new) 技术工具奖第一名。
+- [Apple music](https://music.apple.com/cn/browse) 站点由 [svelte](https://svelte.dev/blog/whats-new-in-svelte-february-2023) 编写。
+- Instagram 旗下新产品 [Artifact](https://artifact.news/) 由 sveltekit 编写。
+- Nextra [v2](https://the-guild.dev/blog/nextra-2) 发布，体系化的 mdx 支持。
+- Nodejs [v19.6.0](https://nodejs.org/en/blog/release/v19.6.0/) 发布，内置 npm v9.4.0 支持符号链接安装依赖策略。
+- [Github](https://github.blog/changelog/2023-02-02-add-more-social-links-to-your-user-profile/) 个人资料支持添加更多社交媒体链接。
+- Netlify [收购](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/) Gatsby 。
+- Alibaba Chengzhong Wu 同学的 tc39 提案 [async context](https://github.com/tc39/proposal-async-context) 进入 stage 1 。
+- Vscode [v1.75](https://code.visualstudio.com/updates/v1_75) 发布，多配置文件预设化，可打包导入导出等。
+- TC 39 最新一次[会议](https://twitter.com/robpalmer2/status/1621234674327605248)推进了 Change Array by Copy 等提案。
 
 ## 深度好文
 > 好文推荐。这周好文真多，以下是我全文阅读过的部分。
