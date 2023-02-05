@@ -17,7 +17,7 @@ importers:
       prettier-plugin-organize-imports: ^1.1.1
       typescript: ^4
       umi: ^4.0.47
-      umi-plugin-docaid: 0.0.5
+      umi-plugin-docaid: 0.0.6
       zx: ^4.2.0
     devDependencies:
       '@types/node': 15.14.9
@@ -82,7 +82,7 @@ importers:
       '@umijs/plugins': 4.0.47
       docaid: 0.0.6
       umi: 4.0.47
-      umi-plugin-docaid: link:../../umi-plugin-docaid
+      umi-plugin-docaid: 0.0.5_docaid@0.0.6+umi@4.0.47
 
   umi-plugin-docaid:
     specifiers:
@@ -3025,7 +3025,6 @@ packages:
     resolution: {integrity: sha512-ZKcoOdW/Tg+kiUbkFCBtvDw0k3nD4HJ/h/B9yWxN4uDO8OkRksWTO+EL+z/Qu3aHTeTll3Ro0Cc/8UhwBCMG5A==}
     dependencies:
       '@types/react': 18.0.26
-    dev: false
 
   /@types/react/18.0.26:
     resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==}
@@ -8920,7 +8919,6 @@ packages:
       prop-types: 15.8.1
       react-fast-compare: 3.2.0
       react-side-effect: 2.1.2
-    dev: false
 
   /react-intl/3.12.1:
     resolution: {integrity: sha512-cgumW29mwROIqyp8NXStYsoIm27+8FqnxykiLSawWjOxGIBeLuN/+p2srei5SRIumcJefOkOIHP+NDck05RgHg==}
@@ -9066,7 +9064,6 @@ packages:
     resolution: {integrity: sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==}
     peerDependencies:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
-    dev: false
 
   /react-sortable-hoc/2.0.0:
     resolution: {integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==}
@@ -9953,6 +9950,20 @@ packages:
 
   /uc.micro/1.0.6:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
+
+  /umi-plugin-docaid/0.0.5_docaid@0.0.6+umi@4.0.47:
+    resolution: {integrity: sha512-VVPrYjh/o6A39yvA+posRlOupbmKE+pdzKKAs03wx0Db4jwlAiV3PtGNVHu2Oz4tr1c0xoiFclYcK/kyxEQ3oQ==}
+    peerDependencies:
+      docaid: ^0.0.2
+      umi: '4'
+    dependencies:
+      '@types/react-helmet': 6.1.6
+      docaid: 0.0.6
+      react-helmet: 6.1.0
+      umi: 4.0.47
+    transitivePeerDependencies:
+      - react
+    dev: true
 
   /umi/4.0.47:
     resolution: {integrity: sha512-oMoEF5xUW+SZ1AVpgd8e1kKt4LyhPiFWmsGlIpe5Ed0kAOguTinD3WAY49Tw/aAIBLoazu/y290SCRxQoAb18g==}
