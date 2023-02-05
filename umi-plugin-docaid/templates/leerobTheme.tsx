@@ -34,6 +34,9 @@ export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
         font-family: '__kaisei_a0a918', '__kaisei_Fallback_a0a918';
         text-decoration: none;
         color: #737373;
+        &.active {
+          color: rgb(38 38 38);
+        }
         &:hover {
           color: rgb(38 38 38);
         }
