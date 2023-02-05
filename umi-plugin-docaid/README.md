@@ -13,4 +13,14 @@ docaid plugin for umi.
 
 - Layout：全局布局
 - DocIndexTitle: 文档列表标题
+- Footer
+- Navs
+- HeadTitle
+- LayoutWrapper
+- DocListWrapper
+- ArticleWrapper
+- TocWrapper
+- DocWrapper
+- Loading
+- globalCSS：全局样式
 

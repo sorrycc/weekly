@@ -1,11 +1,11 @@
-import { createGlobalStyle } from 'umi';
+import { createGlobalStyle, useDocAidTheme } from 'umi';
 import { globalCSS } from 'docaid/client';
 
-const GlobalStyle = createGlobalStyle`
-  ${globalCSS}
-`;
-
 export function rootContainer(container: any) {
+  const theme = useDocAidTheme();
+  const GlobalStyle = createGlobalStyle`
+    ${theme.globalCSS || globalCSS}
+  `;
   return (
     <>
       <GlobalStyle />

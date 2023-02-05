@@ -1,11 +1,12 @@
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import { Doc } from 'docaid/client';
-import { useDocAidConfig } from 'umi';
+import { useDocAidConfig, useDocAidTheme } from 'umi';
 import { useDoc } from './useDoc';
 
 export default () => {
   const config = useDocAidConfig();
+  const theme = useDocAidTheme();
   const postQuery = useDoc<any>();
   if (postQuery.isLoading) return <p>loading...</p>;
   const {
@@ -52,6 +53,11 @@ export default () => {
           leftPadding: 40,
         }}
         contentHtml={html}
+        styledComponents={{
+          Article: theme.ArticleWrapper,
+          Toc: theme.TocWrapper,
+          Doc: theme.DocWrapper,
+        }}
       />
     </>
   );

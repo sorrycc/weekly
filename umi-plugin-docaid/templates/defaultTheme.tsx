@@ -1,4 +1,5 @@
 import { Link, styled, useDocAidConfig } from 'umi';
+import React from 'react';
 
 export const DocIndexTitle = (props: any) => {
   return <>{props.doc.title}</>;
@@ -37,6 +38,10 @@ export const HeadTitle = (props: any) => {
   );
 };
 
+export const Loading = () => {
+  return <div>Loading...</div>;
+};
+
 export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
   max-width: 65ch;
   margin: 0 auto;
@@ -67,5 +72,24 @@ export const LayoutWrapper = styled.div<{ $isPost: boolean }>`
     padding: 48px 0;
     color: rgb(107 114 128);
     font-size: var(--14px);
+  }
+`;
+
+export const DocListWrapper = styled.div`
+  li {
+    height: 28px;
+    line-height: 28px;
+    margin: 8px 0;
+    display: flex;
+    gap: 8px;
+    a {
+      text-decoration: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    em {
+      color: rgb(156 163 175);
+      font-style: italic;
+    }
   }
 `;
