@@ -1,14 +1,23 @@
 ---
-title: "WIP：吐槽 React、React 清依赖小技巧、Darkmode、霞鹜文楷"
-titleImage: ""
-titleImageCaption: ""
+title: "CRA 未来、吐槽 React、React 清依赖小技巧、Darkmode"
+titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01iX86PB1WSUe91ZFbZ_!!6000000002787-0-tps-1920-1281.jpg_1200x1200.jpg"
+titleImageCaption: "dannyhowe @ unsplash"
 publishedAt: "2023/02/06"
-draft: true
 ---
 
 ## 一周要事
 
-关于 docaid。
+![](https://img.alicdn.com/imgextra/i3/O1CN01jehsGC1PV3Y59U06z_!!6000000001845-2-tps-1990-1274.png)
+
+和大家介绍个新的文档工具「docaid」。
+
+这段时间先是把 mdhweekly 官网搭了起来；然后发现有些和文档以及 markdown 相关的功能可以下层为一个库，比如解析 docs 目录生成元信息、生成 rss、页面上把 markdown 或 html 渲染出来等等，于是沉淀了 docaid 库，包含一些 node 侧的函数和 browser 侧的组件；再然后发现 docaid 库太底层，基于这个搭还是需要自己做不少脚手架和组件层的事，于是往上封装了 umi-plugin-docaid 库，以及与之配套的 create-docaid 脚手架。
+
+如果大家有静态博客需求，可以通过 `pnpm create docaid` 尝鲜，建出来后长上面这样。我会把他用在个人的多个静态网站，所以会持续维护和增加功能。
+
+昨晚（2023.2.5）为了验证主题的能力，还新增了一个博客主题叫「leerob」，借鉴自 leerob.io ，见下图。
+
+![](https://img.alicdn.com/imgextra/i3/O1CN01MLr1dc1L2sitvISM7_!!6000000001242-1-tps-828-496.gif)
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -39,6 +48,7 @@ draft: true
 ## 深度好文
 > 好文推荐。这周好文真多，以下是我全文阅读过的部分。
 
+- [《The Future of Create React App and Why It Exists》](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741)。Dan 写了篇长文梳理了 CRA 的问题和规划。一些问题包括，1）脚手架的困境，一旦 clone 就很难再更新，然后你的项目配置会逐渐变得陈旧，要么放弃，要么需要花大量精力换新，2）因为是 CSR 所以有空 HTML 的问题，但 Dan 也并不喜欢 MPA，比如 astro，混用多种技术影响 DX，完整的页面刷新让客户端状态失效影响 UX，3）请求瀑布问题，比较好的解法是让数据获取和路由结合，这就需要元框架，4）懒加载（await import）问题，引入额外的请求瀑布，解法是数据获取+路由+构建工具，一样也需要元框架。Dan 期望 CRA 具备 SSG and SSR, automatic code splitting, no client-server waterfalls, route prefetching, navigation preserving client UI state 等功能，然后考虑多 CRA 的多条路，决定不做了，把 CRA 变成一个社区方案的启动器。
 - [《React I Love You, But You're Bringing Me Down》](https://marmelab.com/blog/2022/09/20/react-i-love-you.html)。骂得好，哈哈，爱之深，责之切啊。如果你想吐槽 React，照着念就完了。1）表单没有稳定官方方案，一路用社区库过来，目前相对好的是 [Formik](https://formik.org/) 和 [React-hook-form](https://react-hook-form.com/)，看看人家 Svelte，2）Context 太敏感，一碰就 re-render，为了性能而拆大量的 Provider 瀑布流组件，太难看了，提供一个 useContextSelector 有那么难吗？3）关于 DOM 和 ref，React.forwardRef + TypeScript 写通用组件太难了，同时 ref 不仅仅是 关于 dom，每次用 ref 都是因为 useEffect API 太奇怪，换句话说，refs 是对 react 创造的问题的一种解决方案，4）关于 useEffect，需要阅读一篇 [61 页](https://t.me/yqtalk/164) 的论文才能用好也太难了，看看人家 Solid.js，5）关于 Hooks 规则，[Rules of Hooks](https://reactjs.org/docs/hooks-rules.html) 不容易记住，6）关于老父亲 Facebook，略。那作者为啥还留下？因为「It's the ecosystem, stupid.」
 - [《Why React isn't dying》](https://tkdodo.eu/blog/why-react-isnt-dying)。来自 TkDodo，有点像是对前一篇文章的回应，解释为啥 React 不会挂（或者短期不会挂）。其实前一篇文章已经给出答案了，是「生态」。1）React 有人，React 占据了大部分前端工作，2）React 有库，React 社区拥有大量最好的三方库。的确，现在已经有一些解决方案在某些方面 "比React更好"。更现代，更高性能，不同的范式，"真正的反应式"，… 但是要打败 React，让大量开发者和生态迁移过去，需要有比 React 「好地多」的东西，现在的这些优点还不够。同时，React 虽然不是最好的，有更好的方案，但对于现在的大部分项目来说，React 已经「足够好」。
 - [《Little React Things: Cleaning up dependencies - Zeke Hernandez》](https://www.zekehernandez.com/posts/cleaning-up-dependencies)。Zeke Hernandez 介绍了一个减少列表项 rerender 的小技巧，虽然对用户来说性能提升不明显，但至少打开 react devtool 的「Highlight Updates」时会看起来很爽，这就够了。方法是，event handler 用 useCallback 包一下，同时清空依赖，没有依赖就不会触发 event handler 生成新的了。那依赖怎么清？1） setState 无需写入依赖，2）setState 用 function 的形式。
