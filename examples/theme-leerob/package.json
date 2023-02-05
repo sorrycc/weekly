@@ -1,0 +1,16 @@
+{
+  "name": "example-theme-leerob",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "umi dev",
+    "setup": "umi setup",
+    "build": "umi build"
+  },
+  "devDependencies": {
+    "@umijs/plugins": "^4.0.47",
+    "docaid": "0.0.6",
+    "umi": "^4.0.47",
+    "umi-plugin-docaid": "0.0.5"
+  }
+}
