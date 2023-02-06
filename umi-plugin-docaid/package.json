@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@types/react-helmet": "^6.1.6",
+    "framer-motion": "^9.0.1",
     "react-helmet": "^6.1.0"
   },
   "peerDependencies": {

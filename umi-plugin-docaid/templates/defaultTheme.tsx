@@ -1,5 +1,5 @@
 import { Link, styled, useDocAidConfig } from 'umi';
-import React from 'react';
+import React, { Fragment } from 'react';
 
 export const DocIndexTitle = (props: any) => {
   return <>{props.doc.title}</>;
@@ -19,18 +19,20 @@ export const Navs = (props: any) => {
         if (nav.path && props.activeNav && props.activeNav.path === nav.path) {
           className = 'active';
         }
-        return nav.path ? (
-          <div>
-            <Link key={index} to={nav.path} className={className}>
-              {nav.title}
-            </Link>
-          </div>
-        ) : (
-          <div>
-            <a key={index} href={nav.href}>
-              {nav.title}
-            </a>
-          </div>
+        return (
+          <Fragment key={index}>
+            {nav.path ? (
+              <div>
+                <Link to={nav.path} className={className}>
+                  {nav.title}
+                </Link>
+              </div>
+            ) : (
+              <div>
+                <a href={nav.href}>{nav.title}</a>
+              </div>
+            )}
+          </Fragment>
         );
       })}
     </nav>
