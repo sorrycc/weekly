@@ -13,7 +13,28 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
-- 。
+- [WebStorm](https://astro.build/blog/astro-webstorm-support/) 现在支持开发 Astro 。
+- [CodeSandbox](https://twitter.com/codesandbox/status/1621542331349454848) 已有 200 万注册用户。
+- 使用 eslint 的用户中有[超过 70%](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/) 为 TypeScript 开发者。
+- pnpm [v7.27.0](https://github.com/pnpm/pnpm/releases/tag/v7.27.0) 发布，以正则匹配并发启动多命令等。
+- NextUI [v2](https://github.com/nextui-org/nextui/discussions/1035) 的 css 方案由 Stitches 迁移至 Tailwind 。
+- Vercel [Edge Config](https://vercel.com/templates/next.js/maintenance-page) Beta 可用，一个边缘 KV 存储。
+- Nodejs 正在向新的 URL 解析器 [ada](https://github.com/ada-url/ada) 迁移。
+- Shopify [官网](https://www.shopify.com/)迁移至 remix 。
+- Chrome [v110](https://developer.chrome.com/en/blog/new-in-chrome-110/) 发布，支持配置画中画伪类等。
+- [Volar](https://github.com/volarjs) 将独立出组织，研发框架无关的嵌入式语言服务。
+- React 团队核心成员 [Andrew](https://twitter.com/acdlite/status/1623353741750546439) 加入 Vercel 。
+- Github [Team Discussions](https://github.blog/changelog/2023-02-08-sunset-notice-team-discussions/) 即将弃用。
+- Electron [v23](https://www.electronjs.org/zh/blog/electron-23-0) 发布，自带 Chromium 110 等。
+- IOS [在未来](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/)可能允许使用非 Webkit 的浏览器引擎，Google 进行了 Blink 的[相关探索](https://www.theregister.com/2023/02/03/googles_chromium_ios/)。
+- 在 2022 年，[Safari](https://wpt.fyi/interop-2022) 是 Interop 实现程度最高的浏览器。
+- lighthouse [v10](https://developer.chrome.com/en/blog/lighthouse-10-0/) 发布，移除 TTI 指标等。
+- Chrome [v111](https://developer.chrome.com/en/blog/chrome-111-beta/) 计划增强 css 函数计算，包括 Color Level 4 、数学函数等。
+- Vue 3 使用 [esbuild](https://github.com/vuejs/core/commit/124373db50eafb46c59b362dda1bdb18c3bfc5e4#diff-47407fecafdf5f5cd55403c3de457833ddf9b6fab45253c04e1dc4c7cb4495b1R13) 替换了 rollup 进行构建。
+- Nuxt [v3.2.0](https://github.com/nuxt/nuxt/releases/tag/v3.2.0) 发布，配套信息全面的 devtools 等。
+- Bun [v0.6.5](https://bun.sh/blog/bun-v0.5.6) 发布，提供 docker 镜像。
+- Github 公测多 PR 时的[分组 CI](https://github.blog/changelog/2023-02-08-pull-request-merge-queue-public-beta/) 能力，无需排队等待资源。
+- Vue Amsterdam 2023 本周举行，现场[反照](https://elk.zone/m.webtoo.ls/@Akryum)与[视频](https://twitter.com/themarcba/status/1624350244258422788)。
 
 ## 深度好文
 > 好文推荐。以下是我全文阅读过的部分。
