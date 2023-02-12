@@ -3,12 +3,7 @@ title: "re-render、Resumable React、ESLint 性能、监控"
 titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01B3wSrC28JI5bpyIii_!!6000000007911-2-tps-1536-1024.png_1200x1200.jpg"
 titleImageCaption: "Bigfish x 情人节"
 publishedAt: "2023/02/13"
-draft: true
 ---
-
-## 一周要事
-
-。
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -34,7 +29,7 @@ draft: true
 - Nuxt [v3.2.0](https://github.com/nuxt/nuxt/releases/tag/v3.2.0) 发布，配套信息全面的 devtools 等。
 - Bun [v0.6.5](https://bun.sh/blog/bun-v0.5.6) 发布，提供 docker 镜像。
 - Github 公测多 PR 时的[分组 CI](https://github.blog/changelog/2023-02-08-pull-request-merge-queue-public-beta/) 能力，无需排队等待资源。
-- Vue Amsterdam 2023 本周举行，现场[反照](https://elk.zone/m.webtoo.ls/@Akryum)与[视频](https://twitter.com/themarcba/status/1624350244258422788)。
+- Vue Amsterdam 2023 本周举行，现场[照片](https://elk.zone/m.webtoo.ls/@Akryum)与[视频](https://twitter.com/themarcba/status/1624350244258422788)。
 
 ## 深度好文
 > 好文推荐。以下是我全文阅读过的部分。
@@ -57,6 +52,7 @@ draft: true
 - 上周六在 B 站做了次直播，主题是「Mac 配置方法」，错过的朋友们可以看[录播](https://www.bilibili.com/video/BV1e14y1c7aJ/)。准备尝试每周六晚 9:00 - 11:00 在 B 站直播会，固定时间，这周的主题是「TODO」，感兴趣的请预约。
 - Mac Mini +1，还没想好用他来干啥…
 - 读完《营销笔记》，读书 Flag 完成率 5/24，感觉定少了。
+- 升级到 ChatGPT Plus，基于 [Depay](https://depay.depay.one/web-app/register-h5?invitCode=861133&lang=zh-cn) + [币安](https://t.me/yqtalk/193)。
 
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单。
@@ -67,7 +63,7 @@ draft: true
 ## 星球更新
 > 不知不觉我的知识星球已维护近一年，更了 260 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
 
-- 260 - 《我的读书方法》
+- 260 - 《ChatGPT Plus、虚拟信用卡、Depay、币安》
 - 259 - 《程序员高效工作法》
 - 258 - 《读书笔记：营销笔记》
 - 257 - 《如何从 0 开始配置 MacBookPro》
