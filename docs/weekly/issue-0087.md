@@ -1,7 +1,7 @@
 ---
 title: "re-render、Resumable React、ESLint 性能、监控"
-titleImage: "https://img.alicdn.com/imgextra/i3/O1CN015a21vF1uzVytGKVO9_!!6000000006108-49-tps-1536-1024.webp_1200x1200.jpg"
-titleImageCaption: "爱心兔"
+titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01B3wSrC28JI5bpyIii_!!6000000007911-2-tps-1536-1024.png_1200x1200.jpg"
+titleImageCaption: "Bigfish x 情人节"
 publishedAt: "2023/02/13"
 draft: true
 ---
@@ -54,7 +54,7 @@ draft: true
 
 - Umi 例行每周四发一版，我觉得有趣的功能包括，1）纯类型体操实现的 [history.push 和 history.replace 的完整路由的类型提示](https://github.com/umijs/umi/pull/10417)，2）新增 confetti 插件，唯一的作用就是在 dev/build 后给你[撒个花](https://t.me/yqtalk/176)。
 - MacBook Pro 到货了，花几个小时从 0 开始做配置，再花几个小时把过程整理成文章[《如何从 0 开始配置 Mac》](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247486068&idx=1&sn=ad5bc7fabbcc23b3f022b72170202f34&chksm=a68090e291f719f4149d896924e9776c305a0c20d22b093432a1579bf05689db8574a1f1c2b2&scene=178&cur_album_id=2199691505051729920#rd)，并在周六晚做了一次 B 站直播。
-- 上周六在 B 站做了次直播，主题是[「Mac 配置方法」](https://t.bilibili.com/760573996058017817)。准备尝试每周六晚 9:00 - 11:00 在 B 站直播会，固定时间，这周的主题是「TODO」，感兴趣的请预约。
+- 上周六在 B 站做了次直播，主题是「Mac 配置方法」，错过的朋友们可以看[录播](https://www.bilibili.com/video/BV1e14y1c7aJ/)。准备尝试每周六晚 9:00 - 11:00 在 B 站直播会，固定时间，这周的主题是「TODO」，感兴趣的请预约。
 - Mac Mini +1，还没想好用他来干啥…
 - 读完《营销笔记》，读书 Flag 完成率 5/24，感觉定少了。
 
@@ -63,7 +63,6 @@ draft: true
 
 - 「浩鲸科技」：招聘 React 前端开发，base 地「福建福州」，要求「熟悉 Umi 全家桶，并对低代码平台有一定的了解，能独立研发组件资产」，薪资范围「10-18k」，联系方式「448627663@qq.com」或「18050322490 加微信」。
 - 「重庆腾讯CSIG全资子公司」：招聘智慧零售前端开发工程师，base 地「重庆渝北」，要求「计算机或相关专业本科及以上，掌握前端相关技能」，此岗位为腾讯集团旗下全资子公司编制岗位，薪资范围「15-25k*14」，联系方式「微信号：lishuzuishuai」。
-- 「美餐网」：招聘「前端开发工程师」，base 地「北京-朝阳区-酒仙桥」，做「做基建/DX/提效相关的工作，面向内部开发人员，23年有计划做内部开源（github）」，薪资「20k-40k」，联系方式「zhaodonghao586@outlook.com」。
 
 ## 星球更新
 > 不知不觉我的知识星球已维护近一年，更了 260 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。

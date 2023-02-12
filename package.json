@@ -2,19 +2,9 @@
   "scripts": {
     "dev": "umi dev",
     "setup": "umi setup",
-    "build": "npm run docaid:build && npm run umi-plugin-docaid:build && NODE_ENV=production npm run doc:build && umi build",
+    "build": "NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
-    "doc:build": "umi docaid build",
-    "docaid:build": "pnpm --filter docaid build",
-    "docaid:dev": "pnpm --filter docaid dev",
-    "docaid:release": "pnpm --filter docaid release",
-    "umi-plugin-docaid:build": "pnpm --filter umi-plugin-docaid build",
-    "umi-plugin-docaid:dev": "pnpm --filter umi-plugin-docaid dev",
-    "umi-plugin-docaid:release": "pnpm --filter umi-plugin-docaid release",
-    "create-docaid:build": "pnpm --filter create-docaid build",
-    "create-docaid:dev": "pnpm --filter create-docaid dev",
-    "create-docaid:release": "pnpm --filter create-docaid release",
-    "release": "npm run docaid:release && npm run umi-plugin-docaid:release && npm run create-docaid:release"
+    "doc:build": "umi docaid build"
   },
   "devDependencies": {
     "@types/react": "^18",
@@ -22,15 +12,14 @@
     "@types/node": "^15.0.2",
     "@umijs/plugins": "^4.0.47",
     "dayjs": "^1.11.7",
-    "docaid": "0.0.7",
     "esno": "^0.5.0",
     "git-repo-info": "^2.1.1",
     "prettier": "^2.2.1",
     "prettier-plugin-organize-imports": "^1.1.1",
     "typescript": "^4",
     "umi": "^4.0.47",
-    "umi-plugin-docaid": "0.0.7",
-    "zx": "^4.2.0",
-    "create-docaid": "0.0.7"
+    "docaid": "^0.0.8",
+    "umi-plugin-docaid": "^0.0.8",
+    "zx": "^4.2.0"
   }
 }

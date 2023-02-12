@@ -1,4 +1,0 @@
-
-# About
-
-It's cc.
