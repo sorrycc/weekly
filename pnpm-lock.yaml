@@ -16,7 +16,7 @@ importers:
       prettier-plugin-organize-imports: ^1.1.1
       typescript: ^4
       umi: ^4.0.47
-      umi-plugin-docaid: ^0.0.8
+      umi-plugin-docaid: ^0.0.9
       zx: ^4.2.0
     devDependencies:
       '@types/node': 15.14.9
@@ -31,7 +31,7 @@ importers:
       prettier-plugin-organize-imports: 1.1.1_x6wm2jvdvbogarhdtlkhrpydvi
       typescript: 4.5.4
       umi: 4.0.47_nbhehjo7x6a7s4cukt4huzikve
-      umi-plugin-docaid: 0.0.8_docaid@0.0.8+umi@4.0.47
+      umi-plugin-docaid: 0.0.9_docaid@0.0.8+umi@4.0.47
       zx: 4.2.0
 
 packages:
@@ -9293,8 +9293,8 @@ packages:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
     dev: true
 
-  /umi-plugin-docaid/0.0.8_docaid@0.0.8+umi@4.0.47:
-    resolution: {integrity: sha512-0b8ufyuQi4QEULl/E15Ap1T+nxhWEHGf0NcNnUJvuslxpmMNSS85b4d9mynMcI2BlkWksvNK8SCwBac1aR2+dw==}
+  /umi-plugin-docaid/0.0.9_docaid@0.0.8+umi@4.0.47:
+    resolution: {integrity: sha512-cwshMeC3x1x+J7vSI7qJrzKFDT7pLcxwo8fUHR/RxvA9xu41bQsPZpn83WrrZNR5f3cTpsvWsu8saLGWgxScrw==}
     peerDependencies:
       docaid: ^0.0.2
       umi: '4'

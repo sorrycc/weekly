@@ -19,7 +19,7 @@
     "typescript": "^4",
     "umi": "^4.0.47",
     "docaid": "^0.0.8",
-    "umi-plugin-docaid": "^0.0.8",
+    "umi-plugin-docaid": "^0.0.9",
     "zx": "^4.2.0"
   }
 }

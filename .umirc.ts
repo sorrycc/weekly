@@ -75,12 +75,6 @@ ${doc.html}
           return {
             ...data,
             title: `第 ${doc.numberStr} 期：${doc.title}`,
-            content: `
-<div>Hi，第 ${doc.number} 期的周刊发布了。</div>
-<div><a href="${data.link}">点击查看</a></div>
-<div>&nbsp;</div>
-<div>${doc.publishedAt}</div>
-  `,
           };
         },
       },
