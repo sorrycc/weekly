@@ -6,10 +6,6 @@ publishedAt: "2023/02/27"
 draft: true
 ---
 
-## 一周要事
-
-。
-
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
@@ -61,7 +57,7 @@ draft: true
 - 点亮了 AI 答疑机器人的技能书，[基于 UMI 文档实现了个 POC](https://t.me/yqtalk/218)。发现这个技能树入门只要几分钟，但深入还是要花不少时间的。
 - 体验结果出炉，所有异常指标都下降了，应该和这几个月的每天 1 小时运动有关。
 - 把上周到的 Mac Mini 开箱了，然后用之前整理的[《如何从 0 开始配置 MacBook Pro》](https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero)配置了一遍。他的第一个任务是 24 小时跑 ChatGPT Telegram 机器人服务。
-- [八方旅人2](https://store.steampowered.com/app/1971650/_II/?l=tchinese) 发售，已入坑。
+- [八方旅人2](https://store.steampowered.com/app/1971650/_II/?l=tchinese) 发售，[已入坑](https://t.me/yqtalk/223)。
 
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单。
