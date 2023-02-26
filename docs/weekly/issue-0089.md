@@ -13,7 +13,30 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
-- 。
+- [parcel](https://github.com/parcel-bundler/parcel/issues/4155) 支持了 exports map 。
+- babel [v7.21.0](https://babeljs.io/blog/2023/02/20/7.21.0) 发布，TypeScript v5 支持等。
+- CodeSandbox 支持了 [Python](https://codesandbox.io/blog/introducing-python-support-in-codesandbox) 、[Deno](https://twitter.com/CompuIves/status/1628038056618991618) 开发。
+- Chrome devtools 提出修改 response header 的 [RFC](https://twitter.com/ChromeDevTools/status/1627654304180981762) 。
+- esbuild [v0.17.10](https://github.com/evanw/esbuild/releases/tag/v0.17.10) 发布，支持捆绑含有嵌套语法的 css 。
+- pnpm [v8.0.0-alpha.0](https://github.com/pnpm/pnpm/releases/tag/v8.0.0-alpha.0) 发布，默认安装对等依赖项等。
+- [Turborepo](https://twitter.com/anthonysheww/status/1628116626506907648) 周下载量近 100w 次。
+- Node [v19.7.0](https://nodejs.org/en/blog/release/v19.7.0/) 发布，增强 url 解析等。
+- Netflix TV [界面](https://twitter.com/sebastienlorber/status/1628391651835011076)基于 React 。
+- [SvelteKit](https://svelte.dev/blog/streaming-snapshots-sveltekit) 新增 snapshot 等功能。
+- React Native [v0.72](https://twitter.com/robjhogan/status/1628460899714449416) 发布，实验性支持符号链接等。
+- Vercel [cron](https://vercel.com/blog/cron-jobs) 作业已正式可用。
+- Turborepo [v1.8.0](https://turbo.build/blog/turbo-1-8-0) 发布，支持项目粒度配置等。
+- msw [v1.1.0](https://github.com/mswjs/msw/releases/tag/v1.1.0) 发布，支持 Node fetch 。
+- Next.js [v13.2](https://nextjs.org/blog/next-13-2) 发布，Turbopack 改进等。
+- unocss [v0.50.0](https://github.com/unocss/unocss/releases/tag/v0.50.0) 发布，实验性支持 postcss 插件方式使用。
+- Nodejs 实现了部分[细粒度权限](https://github.com/nodejs/node/pull/44004)。
+- TypeScript 部分代码降级到 [var](https://github.com/microsoft/TypeScript/issues/52924) 声明变量。
+- Vue 文档新增 [signal](https://vuejs.org/guide/extras/reactivity-in-depth.html#connection-to-signals) 部分。
+- Deno [v1.31](https://deno.com/blog/v1.31) 发布，增强 npm 支持等。
+- [Marko](https://twitter.com/MarkoDevTeam/status/1629248515930030083) 支持 TypeScript 。
+- Expo [v48](https://blog.expo.dev/expo-sdk-48-ccb8302e231) 发布，使用 Hermes 引擎等。
+- Vitest [v0.29.0](https://github.com/vitest-dev/vitest/releases/tag/v0.29.0) 发布，支持依赖优化等。
+- Bun [新文档](https://bun.sh/docs)上线。
 
 ## 深度好文
 > 好文推荐。以下是我全文阅读过的部分。
