@@ -8,7 +8,7 @@ draft: true
 
 ## 一周要事
 
-。
+TODO。
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
@@ -16,7 +16,7 @@ draft: true
 - 。
 
 ## 深度好文
-> 好文推荐。本周开始，好文总结部分尝试用 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本，先试运行一段时间，有疑问可以留言反馈。
+> 好文推荐。本周开始，好文总结部分尝试用 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本，先试运行一段时间，有建议可留言反馈。
 
 - [《Oops, You Wrote a Database》](https://dx.tips/oops-database)。本文作者讲述了一种关于开发人员对于简单持久性的糟糕判断的情况，即最初可能只是需要一些基本的键值存储，但随着项目的发展，不断地添加新功能，最终可能就自己开发了一个完整的数据库系统。文章中提到，对于团队而言，开发者们手动去维护和解决数据持久性问题是没有必要的。文章建议团队可以使用成熟的数据库解决方案，并在此基础上根据实际需求进行扩展和调整，这样可以让开发人员更专注于业务逻辑的开发，同时也能更好地保证应用的性能、稳定性和数据安全性。
 - [《Demystifying Create React Signals Internals · Daishi Kato's blog》](https://blog.axlight.com/posts/demystifying-create-react-signals-internals/)。本文主要介绍了 create-react-signals 库的内部工作原理，这个库的主要目的是将 React 组件中的状态管理从 React 自身分离出来，并使用 signals 来实现状态管理。Signals 是一种包含订阅、获取和设置值等功能的存储对象。文章讲解了如何使用自定义 JSX 转换器将 Signals 转换为可在 React 中使用的组件，以及如何处理对象类型的信号和跳过 diffing 等问题。作者认为，Signals 仍然是 React 中一个开放的研究领域，而使用 Observable 作为新的基元可以进一步探索这种方法。
@@ -38,19 +38,30 @@ draft: true
 - [《Three ways to activate an inspector in Node.js | pawelgrzybek.com》](https://pawelgrzybek.com/three-ways-to-activate-an-inspector-in-node-js/)。本文介绍了三种激活 Node.js inspector 的方法，其中一种是使用 NODE_OPTIONS 环境变量来调试间接运行 Node 的进程。如果您是 Node.js 调试器的新手，可以查看作者之前发布的两篇文章：“在 Google Chrome 中进行基本的 Node.js 调试” 和 “解释 Visual Studio Code 调试器中的继续、步过、步入和步出操作”。
 
 ## Umi 和我
-> 关于 Umi 和我最近的进展。
+> 关于 Umi 和我最近的进展。欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)。
 
-- 。
+- Umi 例行每周四发一版，我觉得有趣的功能包括，1）新增 `esbuild.esbuildMinifyIIFE` 配置项，解 esbuild 压缩时 helpers 命名冲突的问题，2）新增 `umi deadcode` 命令，执行后会告诉你有哪些文件没有被用到，3）新增 `helmet` 配置项，允许配为 `false` 不引入 react-helmet-async 模块，减少一点尺寸。
+- ChatGPT API 更新，速度快很多，价格还减少到 1/10，这周社区基本都为着这个转了。我也做了些事，1）在 Replit 上搭了个 ChatGPT API 的代理服务器，给[「二狗」Siri](https://t.me/yqtalk/240) 用，快多了，2）实现了一个简单的工具，[输入是 url，输出是文章总结](https://t.me/yqtalk/234)，也是这篇周刊「深度好文」的内容来源，3）在 2 的基础上支持了 BILIBILI 的视频总结。
+- 第一次尝试公众号付费，发布了几周前写的[《程序员高效工作法》](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247486134&idx=1&sn=c69256f02f74feb1477b142656346407&chksm=a680902091f719368b94f2d97e72f27e9e51f1d6b3f1edee9a20e781b35f6ab1e8d817335303&scene=178&cur_album_id=2199691505051729920#rd)，截止 2023.3.4，共有 58 人付费人数。
+- [玩了几小时「卧龙」](https://t.me/yqtalk/238)，然后实在受不了 PC 版的优化，3070ti 的显卡感觉帧率明显不行，准备等买的 ps5 版到了再重新玩了…
+- TODO：mdh weekly with chatgpt
+	- news.mdhweekly.com
 
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单。
 
-- 。
+- 「即时设计」：招前端工程师、前端实习生，base 地「北京朝阳区达美中心」，技术栈要求「React、TypeScript、WASM，专注图形学」，薪资范围「15k——30K * 15」，联系方式「shenchen.shao@js.design」。
+- 「字节跳动-懂车帝」：招Web前端，base 地「字节跳动-懂车帝」，要求熟悉React、TS、小程序等，有汽车/ToB行业经验者优先，薪资范围「(18-36K) * 15」，联系方式「微信号：bukasy」。
+- 「网易-智慧企业」：招高级 Web 前端工程师，base 地「杭州」，要求「精通 Vue 全家桶或者擅长商业 SDK 开发，有安全或者 ToB 行业经验者优先」，薪资范围「(15k-30k)*16」，联系方式「微信：smthok」。
+- 「中移信息技术有限公司」：招前端开发工程师，base 地「深圳市福田区」，要求「计算机或相关专业本科及以上，掌握vue全家桶、electron、低代码相关，此岗位为中国移动正式员工」，薪资范围「年薪40-60万」，联系方式「微信号：baidu____或手机号：15013669204」。
+- 「字节跳动」：招资深前端工程师/前端专家，base 地「北京大钟寺/上海科技绿洲/杭州八方城/深圳」，要求「太长，略」，薪资范围「30-60K」，联系方式「微信：zxry622」。
 
 ## 星球更新
 > 不知不觉我的知识星球已维护近一年，更了 260 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
 
-- 。
+- 269 - 《基于 ChatGPT 的 URL 系统》
+- 268 - 《我的 RSS 订阅》
+- 267 - 《读书笔记：交办的技术》
 
 ## 每周一图
 
