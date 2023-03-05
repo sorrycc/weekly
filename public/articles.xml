@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度文章</title>
-    <updated>2023-03-05T15:06:01.474Z</updated>
+    <updated>2023-03-05T15:08:07.835Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度文章 from MDH Weekly</subtitle>
@@ -12,132 +12,132 @@
         <id>https://stackoverflow.blog/2023/02/27/stop-saying-technical-debt/</id>
         <link href="https://stackoverflow.blog/2023/02/27/stop-saying-technical-debt/"/>
         <updated>2023-03-05T12:53:44.743Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://stackoverflow.blog/2023/02/27/stop-saying-technical-debt/">Stop saying “technical debt”</a></p><p><strong>概要：</strong></p><p>开发团队常常陷入技术债务的泥潭，每次发布新功能都会遇到各种问题。但是，这种情况往往是我们自己给自己挖的坑。我们试图通过使用 “技术债务” 这个词来让商业人士、设计师、产品经理和工程师达成共识，但这个词在不同人看来意义不同，导致沟通困难。如果我们将技术债务等同于糟糕的代码，就会误以为前任开发人员干得不好，而实际上可能是有某些限制。我们应该选择一些可衡量的指标来评估系统的质量，如维护负荷。我们可以跟非工程团队的人谈论这个数字，让他们帮助我们减少维护负荷。为了最小化维护负荷的增长，我们需要进行良好的代码管理，包括记录系统、从代码中恢复上下文和为未来的更改进行设计。如果我们能够在保持日常代码管理例程的同时，跟踪维护任务的来源并解决这些问题，那么我们就可以实现负载增长为负数，即代码随时间变得更易于维护。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://stackoverflow.blog/2023/02/27/stop-saying-technical-debt/">Stop saying “technical debt”</a></p><p><strong>概要：</strong></p><p>开发团队常常陷入技术债务的泥潭，每次发布新功能都会遇到各种问题。但是，这种情况往往是我们自己给自己挖的坑。我们试图通过使用 “技术债务” 这个词来让商业人士、设计师、产品经理和工程师达成共识，但这个词在不同人看来意义不同，导致沟通困难。如果我们将技术债务等同于糟糕的代码，就会误以为前任开发人员干得不好，而实际上可能是有某些限制。我们应该选择一些可衡量的指标来评估系统的质量，如维护负荷。我们可以跟非工程团队的人谈论这个数字，让他们帮助我们减少维护负荷。为了最小化维护负荷的增长，我们需要进行良好的代码管理，包括记录系统、从代码中恢复上下文和为未来的更改进行设计。如果我们能够在保持日常代码管理例程的同时，跟踪维护任务的来源并解决这些问题，那么我们就可以实现负载增长为负数，即代码随时间变得更易于维护。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[在 Node.js 中激活检查员的三种方法 | pawelgrzybek.com]]></title>
         <id>https://pawelgrzybek.com/three-ways-to-activate-an-inspector-in-node-js/</id>
         <link href="https://pawelgrzybek.com/three-ways-to-activate-an-inspector-in-node-js/"/>
         <updated>2023-03-04T01:07:48.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://pawelgrzybek.com/three-ways-to-activate-an-inspector-in-node-js/">Three ways to activate an inspector in Node.js | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了三种激活 Node.js inspector 的方法，其中一种是使用 NODE_OPTIONS 环境变量来调试间接运行 Node 的进程。如果您是 Node.js 调试器的新手，可以查看作者之前发布的两篇文章：“在 Google Chrome 中进行基本的 Node.js 调试” 和 “解释 Visual Studio Code 调试器中的继续、步过、步入和步出操作”。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/three-ways-to-activate-an-inspector-in-node-js/">Three ways to activate an inspector in Node.js | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了三种激活 Node.js inspector 的方法，其中一种是使用 NODE_OPTIONS 环境变量来调试间接运行 Node 的进程。如果您是 Node.js 调试器的新手，可以查看作者之前发布的两篇文章：“在 Google Chrome 中进行基本的 Node.js 调试” 和 “解释 Visual Studio Code 调试器中的继续、步过、步入和步出操作”。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[你不需要构建步骤]]></title>
         <id>https://deno.com/blog/you-dont-need-a-build-step</id>
         <link href="https://deno.com/blog/you-dont-need-a-build-step"/>
         <updated>2023-03-03T04:36:45.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://deno.com/blog/you-dont-need-a-build-step">You Don't Need a Build Step</a></p><p><strong>概要：</strong></p><p>本文探讨了为什么现代 Web 开发需要构建步骤，以及如何使用 Deno 和 Fresh 等工具实现无需构建的开发。文章介绍了构建步骤的来龙去脉，包括编译、压缩、打包和代码分割等过程，并列举了一些流行的构建工具。作者认为，构建步骤是现代 Web 开发不可避免的一部分，但也带来了复杂性和长时间的构建时间。使用 Deno 和 Fresh 可以实现无需构建的开发，从而提高开发效率和代码质量。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/you-dont-need-a-build-step">You Don't Need a Build Step</a></p><p><strong>概要：</strong></p><p>本文探讨了为什么现代 Web 开发需要构建步骤，以及如何使用 Deno 和 Fresh 等工具实现无需构建的开发。文章介绍了构建步骤的来龙去脉，包括编译、压缩、打包和代码分割等过程，并列举了一些流行的构建工具。作者认为，构建步骤是现代 Web 开发不可避免的一部分，但也带来了复杂性和长时间的构建时间。使用 Deno 和 Fresh 可以实现无需构建的开发，从而提高开发效率和代码质量。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决技术债务的 25% 规则]]></title>
         <id>https://shopify.engineering/technical-debt-25-percent-rule</id>
         <link href="https://shopify.engineering/technical-debt-25-percent-rule"/>
         <updated>2023-03-03T04:35:51.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://shopify.engineering/technical-debt-25-percent-rule">The 25 Percent Rule for Tackling Technical Debt</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了技术债务的不同类型，并提出了一种 “25% 规则”，即每周花费 10％的时间解决日常技术债务，另外 10％的时间解决每周技术债务，剩下的 5％用于处理每月和每年的技术债务。作者认为，解决技术债务并不是大规模修复的问题，而是通过文化建设来实现。通过改进日常工作中的代码、庆祝重构代码的能力以及知道何时选择好的而不是完美的，可以帮助解决技术债务问题。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://shopify.engineering/technical-debt-25-percent-rule">The 25 Percent Rule for Tackling Technical Debt</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了技术债务的不同类型，并提出了一种 “25% 规则”，即每周花费 10％的时间解决日常技术债务，另外 10％的时间解决每周技术债务，剩下的 5％用于处理每月和每年的技术债务。作者认为，解决技术债务并不是大规模修复的问题，而是通过文化建设来实现。通过改进日常工作中的代码、庆祝重构代码的能力以及知道何时选择好的而不是完美的，可以帮助解决技术债务问题。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[介绍 Signia]]></title>
         <id>https://tldraw.substack.com/p/introducing-signia</id>
         <link href="https://tldraw.substack.com/p/introducing-signia"/>
         <updated>2023-03-03T04:34:49.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://tldraw.substack.com/p/introducing-signia">Introducing Signia</a></p><p><strong>概要：</strong></p><p>数字协作白板 tldraw 的开发团队发布了其核心反应式状态管理系统的开源项目 Signia。该库是用于使用基于逻辑时钟的新惰性反应模型处理细粒度反应值（称为 “信号”）的原始库，它诞生的原因是需要高效地处理经常更改的大型派生不可变集合。除了核心库之外，还发布了与 React 绑定的内容。Signia 的 API 类似于 Jotai、@preact/signals 和 Recoil 等类库，其主要区别特征是具有增量派生和内置支持回滚的事务。Signia 的反应性系统基于单个整数，即全局逻辑时钟，每当更新根状态值时，该时钟就会递增。比较时钟值允许 Signia 始终缓存派生值，而不管它们是否正在被积极观察。Signia 的响应式系统基于逻辑时钟和差异，可以实现增量计算派生值。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tldraw.substack.com/p/introducing-signia">Introducing Signia</a></p><p><strong>概要：</strong></p><p>数字协作白板 tldraw 的开发团队发布了其核心反应式状态管理系统的开源项目 Signia。该库是用于使用基于逻辑时钟的新惰性反应模型处理细粒度反应值（称为 “信号”）的原始库，它诞生的原因是需要高效地处理经常更改的大型派生不可变集合。除了核心库之外，还发布了与 React 绑定的内容。Signia 的 API 类似于 Jotai、@preact/signals 和 Recoil 等类库，其主要区别特征是具有增量派生和内置支持回滚的事务。Signia 的反应性系统基于单个整数，即全局逻辑时钟，每当更新根状态值时，该时钟就会递增。比较时钟值允许 Signia 始终缓存派生值，而不管它们是否正在被积极观察。Signia 的响应式系统基于逻辑时钟和差异，可以实现增量计算派生值。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI 现在已经成为它所承诺不会成为的一切：企业、闭源和盈利。]]></title>
         <id>https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit</id>
         <link href="https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit"/>
         <updated>2023-03-03T04:20:33.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit">OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit</a></p><p><strong>概要：</strong></p><p>OpenAI, the AI research organization co-founded by Elon Musk and others, has shifted from its original non-profit mission to one of profit and secrecy, according to this Vice report. OpenAI was established in 2015 to advance digital intelligence for the benefit of humanity as a whole, unconstrained by financial return. However, the company has since become a for-profit entity, partnered with Microsoft and Bain, and is at the centre of an AI chatbot arms race. Critics argue that OpenAI is driven by speed and profit, rather than transparency and positive human impact, and that it is unleashing flawed technology that will increase workplace automation at the expense of human employees.</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit">OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit</a></p><p><strong>概要：</strong></p><p>OpenAI, the AI research organization co-founded by Elon Musk and others, has shifted from its original non-profit mission to one of profit and secrecy, according to this Vice report. OpenAI was established in 2015 to advance digital intelligence for the benefit of humanity as a whole, unconstrained by financial return. However, the company has since become a for-profit entity, partnered with Microsoft and Bain, and is at the centre of an AI chatbot arms race. Critics argue that OpenAI is driven by speed and profit, rather than transparency and positive human impact, and that it is unleashing flawed technology that will increase workplace automation at the expense of human employees.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[MRSK：随时随地部署 Web 应用程序]]></title>
         <id>https://mrsk.dev/</id>
         <link href="https://mrsk.dev/"/>
         <updated>2023-03-03T04:17:25.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://mrsk.dev/">MRSK: Deploy web apps anywhere</a></p><p><strong>概要：</strong></p><p>MRSK 是一个用于部署 Web 应用程序的工具，它使用 Docker 在裸机和云 VM 之间部署 Web 应用程序，而且没有停机时间。它使用动态反向代理 Traefik 来保持请求，同时启动新的应用程序容器并停止旧的容器。它可以无缝地跨多个主机使用 SSHKit 执行命令。虽然它最初是为 Rails 应用程序构建的，但它也适用于任何可以使用 Docker 进行容器化的 Web 应用程序。MRSK 旨在将商业平台提供的先进人体工程学方法带到部署 Web 应用程序的任何地方，从低成本的云选项到自己的裸金属。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://mrsk.dev/">MRSK: Deploy web apps anywhere</a></p><p><strong>概要：</strong></p><p>MRSK 是一个用于部署 Web 应用程序的工具，它使用 Docker 在裸机和云 VM 之间部署 Web 应用程序，而且没有停机时间。它使用动态反向代理 Traefik 来保持请求，同时启动新的应用程序容器并停止旧的容器。它可以无缝地跨多个主机使用 SSHKit 执行命令。虽然它最初是为 Rails 应用程序构建的，但它也适用于任何可以使用 Docker 进行容器化的 Web 应用程序。MRSK 旨在将商业平台提供的先进人体工程学方法带到部署 Web 应用程序的任何地方，从低成本的云选项到自己的裸金属。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[通过 SSH 远程访问您的 Repls]]></title>
         <id>https://blog.replit.com/ssh</id>
         <link href="https://blog.replit.com/ssh"/>
         <updated>2023-03-03T04:14:52.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://blog.replit.com/ssh">Remote Access to Your Repls via SSH</a></p><p><strong>概要：</strong></p><p>Replit, a cloud-based coding platform, has added the ability to remotely access its Repls using SSH to all of its paid plans. Users subscribed to a paid plan can add their SSH keys and work with their Repl remotely. The move allows users to take full advantage of Replit's power while continuing to use their local development environment. Replit puts every Repl into its own container that runs once a connection is opened to it. Inside that container, an SSH server handles all remote access needs. A proxy receives the connection, verifies keys and routes the SSH connection through an encrypted SSH tunnel to the Repl.</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/ssh">Remote Access to Your Repls via SSH</a></p><p><strong>概要：</strong></p><p>Replit, a cloud-based coding platform, has added the ability to remotely access its Repls using SSH to all of its paid plans. Users subscribed to a paid plan can add their SSH keys and work with their Repl remotely. The move allows users to take full advantage of Replit's power while continuing to use their local development environment. Replit puts every Repl into its own container that runs once a connection is opened to it. Inside that container, an SSH server handles all remote access needs. A proxy receives the connection, verifies keys and routes the SSH connection through an encrypted SSH tunnel to the Repl.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT 校对扩展程序适用于 Popclip。]]></title>
         <id>https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/</id>
         <link href="https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/"/>
         <updated>2023-03-03T01:27:12.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/">ChatGPT Proofreader extension for Popclip</a></p><p><strong>概要：</strong></p><p>OpenAI 发布了新的 ChatGPT API，解决了旧 API 存在的问题，并提供了更多的特性，如显式定义角色、选择性去掉会话中的信息、返回多个结果供选择等。一位开发者基于这个 API 做了一个名为 ChatGPT Proofreader 的扩展，提供了中英文润色功能。使用者只需在 Popclip 中选中文字并点击相应图标即可实现润色。此外，该开发者在 Twitter 上总结了 ChatGPT API 的优点，包括以上提到的特性以及使用 logit_bias 参数调整屏蔽特定词汇的功能，使用 temperature/top_p 参数调整结果相关性和准确性等。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/">ChatGPT Proofreader extension for Popclip</a></p><p><strong>概要：</strong></p><p>OpenAI 发布了新的 ChatGPT API，解决了旧 API 存在的问题，并提供了更多的特性，如显式定义角色、选择性去掉会话中的信息、返回多个结果供选择等。一位开发者基于这个 API 做了一个名为 ChatGPT Proofreader 的扩展，提供了中英文润色功能。使用者只需在 Popclip 中选中文字并点击相应图标即可实现润色。此外，该开发者在 Twitter 上总结了 ChatGPT API 的优点，包括以上提到的特性以及使用 logit_bias 参数调整屏蔽特定词汇的功能，使用 temperature/top_p 参数调整结果相关性和准确性等。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 LangChain.js 进行问答（Q&A）]]></title>
         <id>https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs</id>
         <link href="https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs"/>
         <updated>2023-03-03T00:28:53.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs">Question & Answer (Q&A) using LangChain.js</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 LangChain.js 库中的 Text Splitter、HNSWLib、OpenAIEmbeddings 和 Vector DBQA Chain 等工具进行问答系统的构建。其中，需要先安装 HNSWLib，并下载一份 State of the Union Speech 文件作为测试数据。通过复制代码并执行命令即可得到问答结果。总体来说，使用 LangChain.js 构建自定义问答系统非常简单。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs">Question & Answer (Q&A) using LangChain.js</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 LangChain.js 库中的 Text Splitter、HNSWLib、OpenAIEmbeddings 和 Vector DBQA Chain 等工具进行问答系统的构建。其中，需要先安装 HNSWLib，并下载一份 State of the Union Speech 文件作为测试数据。通过复制代码并执行命令即可得到问答结果。总体来说，使用 LangChain.js 构建自定义问答系统非常简单。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[与行业合作推进 CHIPS - Chrome 开发者]]></title>
         <id>https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/</id>
         <link href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/"/>
         <updated>2023-03-03T00:05:36.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/">Working with the industry to evolve CHIPS - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Cookies Having Independent Partitioned State (CHIPS) 是一种隐私沙箱技术，允许开发人员将 cookie 选择为 “分区” 存储，每个顶级站点有单独的 cookie 存储器。 CHIPS 的示例用例包括任何需要跨站子资源的会话或持久状态的情况，该状态仅限于用户在单个顶级站点上的活动，例如第三方聊天小部件、地图嵌入、子资源 CDN 负载平衡、无头 CMS 提供商等。 CHIPS 正在开发中，旨在成为开放网络标准。它正在隐私 CG 中进行讨论，并已经进行了 7 个月的起源试验，在此期间，Chrome 团队收到了有益的反馈。在开发过程中，团队与关键利益相关者合作，探索了这些反馈，从而得出了更新的设计，更好地服务于 Web 生态系统。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/">Working with the industry to evolve CHIPS - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Cookies Having Independent Partitioned State (CHIPS) 是一种隐私沙箱技术，允许开发人员将 cookie 选择为 “分区” 存储，每个顶级站点有单独的 cookie 存储器。 CHIPS 的示例用例包括任何需要跨站子资源的会话或持久状态的情况，该状态仅限于用户在单个顶级站点上的活动，例如第三方聊天小部件、地图嵌入、子资源 CDN 负载平衡、无头 CMS 提供商等。 CHIPS 正在开发中，旨在成为开放网络标准。它正在隐私 CG 中进行讨论，并已经进行了 7 个月的起源试验，在此期间，Chrome 团队收到了有益的反馈。在开发过程中，团队与关键利益相关者合作，探索了这些反馈，从而得出了更新的设计，更好地服务于 Web 生态系统。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript 信号的演变]]></title>
         <id>https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob</id>
         <link href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob"/>
         <updated>2023-03-03T00:01:10.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob">The Evolution of Signals in JavaScript</a></p><p><strong>概要：</strong></p><p>“Signals” 是一种前端技术，最早可以追溯到 20 世纪 60 年代的研究。它们在 JavaScript 中的应用可以追溯到最初的声明式 JavaScript 框架，并在多年间以不同的名称出现过。现在，它们似乎又回到了人们的视野中，出现在各种框架中。这篇文章介绍了 Signals 的历史和背景，并讨论了其未来的发展趋势。同时，作者还介绍了一些使用 Signals 的 JavaScript 框架，如 SolidJS、Vue、Preact 等。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob">The Evolution of Signals in JavaScript</a></p><p><strong>概要：</strong></p><p>“Signals” 是一种前端技术，最早可以追溯到 20 世纪 60 年代的研究。它们在 JavaScript 中的应用可以追溯到最初的声明式 JavaScript 框架，并在多年间以不同的名称出现过。现在，它们似乎又回到了人们的视野中，出现在各种框架中。这篇文章介绍了 Signals 的历史和背景，并讨论了其未来的发展趋势。同时，作者还介绍了一些使用 Signals 的 JavaScript 框架，如 SolidJS、Vue、Preact 等。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[React 与 Signals：10 年后]]></title>
         <id>https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71</id>
         <link href="https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71"/>
         <updated>2023-03-02T23:58:13.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71">React vs Signals: 10 Years Later</a></p><p><strong>概要：</strong></p><p>本文探讨了 JavaScript 中的信号（Signals）技术，以及它与 React 的区别和联系。信号是一种细粒度的响应式编程技术，可以用于前端开发中的数据流管理。尽管在 React 和虚拟 DOM 的兴起中，信号被认为是不可预测和危险的模式，但实际上信号从未消失，而是以第三方库或框架的形式存在。本文介绍了 SolidJS，这是一种新型的信号技术，它采用了组合、单向数据流和显式变异等原则，并将所有东西都视为 Effect，与 React 不同的是，它不会将所有操作视为纯函数，而是通过隔离更新来实现状态变化。作者认为，React 曾经 “修复” 了前端开发，但现在信号技术的复兴又将其推向了新的竞争时代。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71">React vs Signals: 10 Years Later</a></p><p><strong>概要：</strong></p><p>本文探讨了 JavaScript 中的信号（Signals）技术，以及它与 React 的区别和联系。信号是一种细粒度的响应式编程技术，可以用于前端开发中的数据流管理。尽管在 React 和虚拟 DOM 的兴起中，信号被认为是不可预测和危险的模式，但实际上信号从未消失，而是以第三方库或框架的形式存在。本文介绍了 SolidJS，这是一种新型的信号技术，它采用了组合、单向数据流和显式变异等原则，并将所有东西都视为 Effect，与 React 不同的是，它不会将所有操作视为纯函数，而是通过隔离更新来实现状态变化。作者认为，React 曾经 “修复” 了前端开发，但现在信号技术的复兴又将其推向了新的竞争时代。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[我不确定我是否理解了这篇文章。我认为... — DEV 社区]]></title>
         <id>https://dev.to/dan_abramov/comment/256g9</id>
         <link href="https://dev.to/dan_abramov/comment/256g9"/>
         <updated>2023-03-02T23:57:13.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://dev.to/dan_abramov/comment/256g9">I'm not sure I understood this article. I think... — DEV Community</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 和 Solid 在处理渲染逻辑上的不同策略。React 的核心思想是，应该能够编写渲染逻辑，使其在初始化和更新时都能够运行，并且不会与传递的数据不同步。Solid 则只有模板中的 “空洞” 是响应式的，因此不能像 React 那样使用 if 语句和控制流。作者认为，Solid 的优点在于可以避免部分逻辑的重新执行，但这并不是最终的理想状态。通过编译器，可以实现在不重组代码的情况下自动确定 “组”，以达到类似 useMemo 的优化效果。最后，作者指出 React 不需要将渲染逻辑从内向外编写才能实现更新，这是 React 默认具备的响应性。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/dan_abramov/comment/256g9">I'm not sure I understood this article. I think... — DEV Community</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 和 Solid 在处理渲染逻辑上的不同策略。React 的核心思想是，应该能够编写渲染逻辑，使其在初始化和更新时都能够运行，并且不会与传递的数据不同步。Solid 则只有模板中的 “空洞” 是响应式的，因此不能像 React 那样使用 if 语句和控制流。作者认为，Solid 的优点在于可以避免部分逻辑的重新执行，但这并不是最终的理想状态。通过编译器，可以实现在不重组代码的情况下自动确定 “组”，以达到类似 useMemo 的优化效果。最后，作者指出 React 不需要将渲染逻辑从内向外编写才能实现更新，这是 React 默认具备的响应性。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Actions 导入器现已正式推出 | GitHub 博客]]></title>
         <id>https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/</id>
         <link href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/"/>
         <updated>2023-03-02T14:53:17.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/">GitHub Actions Importer is now generally available | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 推出了 GitHub Actions Importer，这是一款可帮助用户从 Azure DevOps、CircleCI、GitLab、Jenkins 和 Travis CI 迁移到 GitHub Actions 的工具。该产品是官方 GitHub CLI 的扩展，从今天开始任何 GitHub 用户都可以免费使用。GitHub Actions 提供强大的本地 CI/CD 功能，使得开发人员可以在 GitHub 上轻松启用和维护 CI/CD 工作流程，无需安装、集成和维护第三方工具。GitHub Actions Importer 采用分阶段方法简化迁移过程，包括计划、测试和迁移三个阶段。未来几个月，GitHub 将继续增强和更新 GitHub Actions Importer，以支持更多的 CI/CD 工具。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/">GitHub Actions Importer is now generally available | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 推出了 GitHub Actions Importer，这是一款可帮助用户从 Azure DevOps、CircleCI、GitLab、Jenkins 和 Travis CI 迁移到 GitHub Actions 的工具。该产品是官方 GitHub CLI 的扩展，从今天开始任何 GitHub 用户都可以免费使用。GitHub Actions 提供强大的本地 CI/CD 功能，使得开发人员可以在 GitHub 上轻松启用和维护 CI/CD 工作流程，无需安装、集成和维护第三方工具。GitHub Actions Importer 采用分阶段方法简化迁移过程，包括计划、测试和迁移三个阶段。未来几个月，GitHub 将继续增强和更新 GitHub Actions Importer，以支持更多的 CI/CD 工具。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT 编程用例示例 - RisingStack Engineering]]></title>
         <id>https://blog.risingstack.com/chatgpt-use-case-examples-for-programming/</id>
         <link href="https://blog.risingstack.com/chatgpt-use-case-examples-for-programming/"/>
         <updated>2023-03-02T14:41:22.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://blog.risingstack.com/chatgpt-use-case-examples-for-programming/">ChatGPT use case examples for programming - RisingStack Engineering</a></p><p><strong>概要：</strong></p><p>本文介绍了一些人们如何在职业网页开发中使用 GPT 等 “AI” 工具。作者分享了他的同事们使用 GPT 和各种变异体的经验，以帮助读者更好地理解它们的实用性。例如，Code GPT 是一个 VS Code 插件，可以从注释提示中生成代码、生成单元测试、查找问题、重构代码、记录和解释代码、以及提出问题。ChatGPT 则可用于编写 Mongo 查询、代替 StackOverflow 等。然而，作者指出，使用这些工具时需要小心检查生成的内容，因为 GPT 会产生虚幻的结果。此外，尽管 “AI” 不会大规模取代就业岗位，但它将提高生产力，就像 Photoshop 是更好的画笔一样。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.risingstack.com/chatgpt-use-case-examples-for-programming/">ChatGPT use case examples for programming - RisingStack Engineering</a></p><p><strong>概要：</strong></p><p>本文介绍了一些人们如何在职业网页开发中使用 GPT 等 “AI” 工具。作者分享了他的同事们使用 GPT 和各种变异体的经验，以帮助读者更好地理解它们的实用性。例如，Code GPT 是一个 VS Code 插件，可以从注释提示中生成代码、生成单元测试、查找问题、重构代码、记录和解释代码、以及提出问题。ChatGPT 则可用于编写 Mongo 查询、代替 StackOverflow 等。然而，作者指出，使用这些工具时需要小心检查生成的内容，因为 GPT 会产生虚幻的结果。此外，尽管 “AI” 不会大规模取代就业岗位，但它将提高生产力，就像 Photoshop 是更好的画笔一样。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[多使用地图，少使用物品]]></title>
         <id>https://www.builder.io/blog/maps</id>
         <link href="https://www.builder.io/blog/maps"/>
         <updated>2023-03-02T14:28:39.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://www.builder.io/blog/maps">Use Maps More and Objects Less</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中对象和映射的区别，以及何时应该使用哪种数据结构。虽然对象可以存储任意键值对，但是在需要频繁添加和删除键的情况下，使用映射比使用普通对象更好。映射还解决了对象存在的一些问题，如内置键问题和迭代问题。此外，映射还具有保留键顺序、支持不同类型键等优点。文章还介绍了 WeakMap 和 Set 等相关概念，并讨论了如何将映射和集合转换为对象和数组进行序列化和反序列化。最后，根据数据结构的特性，建议在有固定键集的情况下使用对象，在需要频繁添加和删除键的情况下使用映射，在需要重复元素且顺序重要的情况下使用数组，在不需要重复元素且顺序不重要的情况下使用集合。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/maps">Use Maps More and Objects Less</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中对象和映射的区别，以及何时应该使用哪种数据结构。虽然对象可以存储任意键值对，但是在需要频繁添加和删除键的情况下，使用映射比使用普通对象更好。映射还解决了对象存在的一些问题，如内置键问题和迭代问题。此外，映射还具有保留键顺序、支持不同类型键等优点。文章还介绍了 WeakMap 和 Set 等相关概念，并讨论了如何将映射和集合转换为对象和数组进行序列化和反序列化。最后，根据数据结构的特性，建议在有固定键集的情况下使用对象，在需要频繁添加和删除键的情况下使用映射，在需要重复元素且顺序重要的情况下使用数组，在不需要重复元素且顺序不重要的情况下使用集合。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[介绍 ChatGPT 和 Whisper API。]]></title>
         <id>https://openai.com/blog/introducing-chatgpt-and-whisper-apis</id>
         <link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis"/>
         <updated>2023-03-02T14:27:06.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">Introducing ChatGPT and Whisper APIs</a></p><p><strong>概要：</strong></p><p>OpenAI 宣布，其 ChatGPT 和 Whisper 模型现已可用于 API，让开发者能够使用尖端的语言和语音转文本功能。通过一系列系统级别的优化，自去年 12 月以来，ChatGPT 的成本降低了 90％；现在将这些节省成本传递给 API 用户。开发者现在可以在 API 中使用我们的开源 Whisper large-v2 模型，获得更快速、更具成本效益的结果。Snap Inc.、Quizlet、Instacart 和 Shopify 等公司已经开始使用 ChatGPT API 和 Whisper API。OpenAI 还改进了 API 服务条款以更好地满足开发者的需求。同时，OpenAI 还提供专用实例，使开发者能够深入控制特定模型版本和系统性能。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">Introducing ChatGPT and Whisper APIs</a></p><p><strong>概要：</strong></p><p>OpenAI 宣布，其 ChatGPT 和 Whisper 模型现已可用于 API，让开发者能够使用尖端的语言和语音转文本功能。通过一系列系统级别的优化，自去年 12 月以来，ChatGPT 的成本降低了 90％；现在将这些节省成本传递给 API 用户。开发者现在可以在 API 中使用我们的开源 Whisper large-v2 模型，获得更快速、更具成本效益的结果。Snap Inc.、Quizlet、Instacart 和 Shopify 等公司已经开始使用 ChatGPT API 和 Whisper API。OpenAI 还改进了 API 服务条款以更好地满足开发者的需求。同时，OpenAI 还提供专用实例，使开发者能够深入控制特定模型版本和系统性能。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[在 Replit 上随时随地部署 Cloudflare Worker]]></title>
         <id>https://blog.replit.com/cloudflare-workers</id>
         <link href="https://blog.replit.com/cloudflare-workers"/>
         <updated>2023-03-02T14:23:22.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文标题：</strong></p><p><a href="https://blog.replit.com/cloudflare-workers">Deploy a Cloudflare Worker from Replit – anytime, anywhere</a></p><p><strong>概要：</strong></p><p>Cloudflare 与 Replit 合作，使开发人员能够轻松地将 Cloudflare Workers（无服务器函数）部署到全球网络，并随时随地从任何设备管理其项目。使用 Cloudflare Workers 模板，可以在 Replit 项目中直接构建无服务器函数，并将其部署到覆盖全球 275 个位置的高度可扩展、低延迟的 JavaScript 执行环境中。开发人员可以使用 Cloudflare Workers 在 Replit 上构建 API、处理网站上的表单提交、进行 A/B 测试以及在边缘缓存内容等。通过 Cloudflare 和 Replit 提供的工具和资源，开发人员可以专注于开发出色的应用程序。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/cloudflare-workers">Deploy a Cloudflare Worker from Replit – anytime, anywhere</a></p><p><strong>概要：</strong></p><p>Cloudflare 与 Replit 合作，使开发人员能够轻松地将 Cloudflare Workers（无服务器函数）部署到全球网络，并随时随地从任何设备管理其项目。使用 Cloudflare Workers 模板，可以在 Replit 项目中直接构建无服务器函数，并将其部署到覆盖全球 275 个位置的高度可扩展、低延迟的 JavaScript 执行环境中。开发人员可以使用 Cloudflare Workers 在 Replit 上构建 API、处理网站上的表单提交、进行 A/B 测试以及在边缘缓存内容等。通过 Cloudflare 和 Replit 提供的工具和资源，开发人员可以专注于开发出色的应用程序。</p>]]></content>
     </entry>
 </feed>
