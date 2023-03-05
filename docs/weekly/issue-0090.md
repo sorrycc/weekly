@@ -3,15 +3,18 @@ title: "Signals、Signia、Replit、ChatGPT、CHIPS、技术债"
 titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01xUHzjd1fClawQpRcR_!!6000000003971-2-tps-1536-1024.png_1200x1200.jpg"
 titleImageCaption: "Macro Photography, Miniature People, Apple"
 publishedAt: "2023/03/06"
-draft: true
 ---
 
 ## 一周要事
 
-TODO。
+![](https://img.alicdn.com/imgextra/i3/O1CN010xNExu1qokDDG3L8W_!!6000000005543-0-tps-2176-1404.jpg_1200x1200.jpg)
+
+我们新增了「MDH Weekly · 深度好文」的 RSS 订阅服务，欢迎使用 Reeder、Readwise 等客户端订阅。该服务通常会在每天中午为大家推荐与前端相关的好文，并且为文章标题和概要提供中文翻译和总结，这两个功能均是 Powered by ChatGPT。这将大大节约我们的时间，让我们更快地完成文章阅读。根据我的经验，至少有一半以上的文章只需要浏览概要即可。将文章大致浏览一遍后，在脑海中留下一个大概的印象，以便需要时能够搜索到或回忆起来即可。
+
+**注：订阅链接是 https://mdhweekly.com/articles.xml 。**
 
 ## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
+> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
 - tanstack query [v5.0.0-alpha.0](https://github.com/TanStack/query/releases/tag/v5.0.0-alpha.0) 发布，传参方式改变等。
 - eslint [v8.35.0](https://github.com/eslint/eslint/releases/tag/v8.35.0) 发布，内置规则复用包等。
