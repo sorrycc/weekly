@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
-    <title>MDH Weekly · 深度文章</title>
-    <updated>2023-03-05T15:08:07.835Z</updated>
+    <title>MDH Weekly · 深度好文</title>
+    <updated>2023-03-05T15:15:50.322Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
-    <subtitle>深度文章 from MDH Weekly</subtitle>
+    <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
     <entry>
         <title type="html"><![CDATA[停止使用 “技术债务” 的说法。]]></title>
