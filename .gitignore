@@ -6,4 +6,4 @@
 /.umi-production
 /.umi
 /public/**/*.json
-/public/*.xml
+/public/rss.xml

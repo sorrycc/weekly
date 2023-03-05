@@ -53,7 +53,7 @@ ${doc.html}
     navs: [
       { title: '往期周刊', path: '/weekly' },
       { title: '知识星球', href: 'https://q.sorrycc.com/' },
-      { title: '投稿', href: 'https://github.com/sorrycc/weekly/issues' },
+      { title: '深度文章 RSS', href: '/articles.xml' },
       { title: 'RSS', href: '/rss.xml' },
       { title: 'Github', href: 'https://github.com/sorrycc/weekly' },
     ],
