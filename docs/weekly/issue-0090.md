@@ -13,7 +13,19 @@ TODO。
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
 
-- 。
+- tanstack query [v5.0.0-alpha.0](https://github.com/TanStack/query/releases/tag/v5.0.0-alpha.0) 发布，传参方式改变等。
+- eslint [v8.35.0](https://github.com/eslint/eslint/releases/tag/v8.35.0) 发布，内置规则复用包等。
+- zx [v7.2.0](https://github.com/google/zx/releases/tag/7.2.0) 发布，新增 retry 函数等。
+- Github action 实验性[提供](https://github.blog/2023-03-01-github-actions-introducing-faster-github-hosted-x64-macos-runners/) 12 核 macOS 机器。
+- Github action 支持自动从其他 CICD 平台[迁移](https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/)。
+- Gtihub 个人资料支持配置[性别代词](https://github.blog/changelog/2023-03-01-add-pronouns-to-your-github-profile/)。
+- TypeScript [v5.0.1-rc](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/) 发布，新装饰器位置调整等。
+- Vscode [v1.76](https://code.visualstudio.com/updates/v1_76) 发布，快速切换预设等。
+- Volar 支持了 Web IDE 环境的[类型提示](https://github.com/volarjs/vscode-typescript-web)。
+- remix [v1.14.0](https://github.com/remix-run/remix/releases/tag/remix%401.14.0) 发布，支持热更新等。
+- React Native 仓库将[迁移](https://github.com/facebook/react-native/pull/36270)至 monorepo 。
+- pnpm [v7.29.0-0](https://github.com/pnpm/pnpm/releases/tag/v7.29.0-0) 发布，可配置去除重复对等依赖项等。
+- React 文档新增[井字棋](https://beta.reactjs.org/learn/tutorial-tic-tac-toe)教程。
 
 ## 深度好文
 > 好文推荐。本周开始，好文总结部分尝试用 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本，先试运行一段时间，有建议可留言反馈。
