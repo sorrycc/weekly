@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-06T06:22:07.445Z</updated>
+    <updated>2023-03-06T16:19:52.672Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 tRPC 和 React 的全栈 TypeScript]]></title>
+        <id>https://www.robinwieruch.de/react-trpc/</id>
+        <link href="https://www.robinwieruch.de/react-trpc/"/>
+        <updated>2023-03-06T14:43:59.460Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/react-trpc/">Full-Stack TypeScript with tRPC and React</a></p><p><strong>概要：</strong></p><p>tRPC 是一种使用 TypeScript 在全栈应用程序中创建完全类型安全 API 的方法。 tRPC 服务器应用程序生成具有类型安全函数的类型安全路由器（例如 CRUD 操作：创建用户，按标识符获取用户，获取所有用户），客户端应用程序可以直接调用这些函数。 在幕后，仍然使用 HTTP 在客户端和服务器之间通信。相比 GraphQL 和 REST，tRPC 主要用于较小的项目，其中不需要协调许多服务（例如 GraphQL），或者我们不一定按照标准化的 RESTful 方法工作。但是，随时可以从 tRPC 迁移到 GraphQL / REST，因为 tRPC 最终只是服务器上的函数，可以直接在 REST 路由器或 GraphQL 解析器中使用。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oxy 是 Cloudflare 基于 Rust 的下一代代理框架。]]></title>
         <id>https://blog.cloudflare.com/introducing-oxy/</id>
