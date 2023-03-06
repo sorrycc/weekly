@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-05T15:15:50.322Z</updated>
+    <updated>2023-03-06T04:54:40.525Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[我喜欢用 Rust 来创业。但我不会再选择它了。]]></title>
+        <id>https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again</id>
+        <link href="https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again"/>
+        <updated>2023-03-06T04:46:28.915Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again">I love building a startup in Rust. I wouldn't pick it again.</a></p><p><strong>概要：</strong></p><p>该文章介绍了一家初创公司在选择编程语言时的经验教训。作者表示，尽管他非常喜欢 Rust 语言，但如果重新开始，他不会再次选择它。作者解释了他们最初选择 Rust 的原因，包括安全性和代码可读性等方面。然而，作者认为，在初创阶段，快速迭代比构建高效的代码更为重要。此外，对于不熟悉 Rust 的新员工来说，学习曲线也较陡峭。作者建议，在确定产品方向并需要构建高性能系统时，再考虑使用 Rust 语言。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优秀工程师和卓越工程师的区别]]></title>
+        <id>https://www.intercom.com/blog/traits-of-exceptional-engineers/</id>
+        <link href="https://www.intercom.com/blog/traits-of-exceptional-engineers/"/>
+        <updated>2023-03-06T04:44:50.950Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.intercom.com/blog/traits-of-exceptional-engineers/">The difference between good and great engineers</a></p><p><strong>概要：</strong></p><p>Intercom's former Senior Director of Demand Generation, Brian Kotlyar, has outlined six traits that make exceptional engineers. These include ambition and determination, habitual simplification, the ability to debug anything quickly, a willingness to help others be great, knowing what is valuable, and being creative and positive. Kotlyar said engineering culture is shaped by the people hired, the actions they take, and the traits that are rewarded and celebrated.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[36 种不同的生活方式]]></title>
+        <id>https://chrisguillebeau.com/36-ways</id>
+        <link href="https://chrisguillebeau.com/36-ways"/>
+        <updated>2023-03-06T04:43:13.118Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://chrisguillebeau.com/36-ways">36 Ways to Live Differently</a></p><p><strong>概要：</strong></p><p>这篇文章提供了一些方法，可以让你生活得更好。通过不断接触新的思想和实践，你可以学会不同的思考方式和生活方式。文章列举了一系列方法，包括认识到生活中的隐含规则、学会记笔记、思考与自己观点相反的政治党派或宗教信仰等等。此外，文章还提醒读者要注意身体感受，避免比较、远离负面人物、保持乐观等等。最后，作者强调了三个重要的方面：学习、行动和善良。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 React-Spring 创建动画：全面指南]]></title>
+        <id>https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/</id>
+        <link href="https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/"/>
+        <updated>2023-03-06T04:40:36.350Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/">Creating Animations in React with React-Spring: A Comprehensive Guide</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在 React 中实现动画效果。作者介绍了 React-Spring 这个流行的 JavaScript 库，它提供了一组强大的钩子，可以用于向组件添加动画效果。文章详细介绍了如何安装和使用 React-Spring，并提供了许多示例代码来展示如何创建简单的淡入淡出和滑动动画，以及更复杂的动画效果，如关键帧和动画序列。最后，作者总结了使用 React-Spring 的好处，包括简化的 API、React Native 支持、良好的性能和互动性等，并推荐开发人员通过探索 React-Spring 文档并尝试本文介绍的示例来学习如何使用该库创建动画效果。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[停止使用 “技术债务” 的说法。]]></title>
         <id>https://stackoverflow.blog/2023/02/27/stop-saying-technical-debt/</id>
