@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-07T04:37:06.979Z</updated>
+    <updated>2023-03-07T06:58:37.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Apple: M2 Eaten Dust for Security | Programmer's Cat]]></title>
+        <id>https://catcoding.me/p/apple-perf/</id>
+        <link href="https://catcoding.me/p/apple-perf/"/>
+        <updated>2023-03-07T06:58:22.093Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://catcoding.me/p/apple-perf/">苹果：为了安全让 M2 吃灰 | 程序员的喵</a></p><p><strong>概要：</strong></p><p>该文章介绍了作者在使用苹果 M2 Pro 电脑时发现的一个让人大跌眼镜的设计：系统在运行任何软件之前都会进行校验和检查，以确保其不是恶意软件。这个过程需要通过网络请求与苹果服务器通信，导致性能下降。作者在编译 Rust 编译器项目时发现，相同测试用例的 Linux 虚拟机只需要 1.5 分钟，而 M2 Pro 需要 16 分钟。经过调查，作者发现关闭 System Integrity Protection（SIP）可以显著提高性能，但苹果回应称这是 “设计使然”。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如果我明天去世了，我的网络应用程序会持续多久？]]></title>
         <id>https://casparwre.de/blog/webapp-afterlife/</id>
@@ -211,12 +218,5 @@
         <link href="https://www.builder.io/blog/maps"/>
         <updated>2023-03-02T14:28:39.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/maps">Use Maps More and Objects Less</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中对象和映射的区别，以及何时应该使用哪种数据结构。虽然对象可以存储任意键值对，但是在需要频繁添加和删除键的情况下，使用映射比使用普通对象更好。映射还解决了对象存在的一些问题，如内置键问题和迭代问题。此外，映射还具有保留键顺序、支持不同类型键等优点。文章还介绍了 WeakMap 和 Set 等相关概念，并讨论了如何将映射和集合转换为对象和数组进行序列化和反序列化。最后，根据数据结构的特性，建议在有固定键集的情况下使用对象，在需要频繁添加和删除键的情况下使用映射，在需要重复元素且顺序重要的情况下使用数组，在不需要重复元素且顺序不重要的情况下使用集合。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 ChatGPT 和 Whisper API。]]></title>
-        <id>https://openai.com/blog/introducing-chatgpt-and-whisper-apis</id>
-        <link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis"/>
-        <updated>2023-03-02T14:27:06.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">Introducing ChatGPT and Whisper APIs</a></p><p><strong>概要：</strong></p><p>OpenAI 宣布，其 ChatGPT 和 Whisper 模型现已可用于 API，让开发者能够使用尖端的语言和语音转文本功能。通过一系列系统级别的优化，自去年 12 月以来，ChatGPT 的成本降低了 90％；现在将这些节省成本传递给 API 用户。开发者现在可以在 API 中使用我们的开源 Whisper large-v2 模型，获得更快速、更具成本效益的结果。Snap Inc.、Quizlet、Instacart 和 Shopify 等公司已经开始使用 ChatGPT API 和 Whisper API。OpenAI 还改进了 API 服务条款以更好地满足开发者的需求。同时，OpenAI 还提供专用实例，使开发者能够深入控制特定模型版本和系统性能。</p>]]></content>
     </entry>
 </feed>
