@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-06T16:19:52.672Z</updated>
+    <updated>2023-03-07T01:01:26.534Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[比 Vite 快 5 倍？2ms HMR？Farm：基于 Rust 的极速构建引擎！]]></title>
+        <id>https://zhuanlan.zhihu.com/p/611603260</id>
+        <link href="https://zhuanlan.zhihu.com/p/611603260"/>
+        <updated>2023-03-07T00:53:35.167Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://zhuanlan.zhihu.com/p/611603260">比 Vite 快 5 倍? 2ms HMR？Farm：基于 Rust 的极速构建引擎！</a></p><p><strong>概要：</strong></p><p>Farm 是一个使用 Rust 编写的构建引擎，比 Webpack 快 10 倍以上，比 Vite 快 5 倍。它支持 Html、Css、Js、Jsx、Ts、Tsx、静态资源等模块的编译能力，并且采用按需编译，在加载时编译除首屏需要的模块外的其他模块，理论上对任意规模的项目都能支持秒启动。所有能力都由插件实现，支持 Rust 和 Js 插件。Farm 在开发环境和生产环境下的编译行为保持一致，同时自动根据依赖关系、资源大小等因素将项目拆分成小 bundle，解决了 bundle 模式的缓存命中问题以及 unbundle 模式的请求数量问题。目前 Farm 已经更新到 0.3 版本，但生产环境优化还在开发中，所以请谨慎使用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 初学者常见错误]]></title>
+        <id>https://www.joshwcomeau.com/react/common-beginner-mistakes/</id>
+        <link href="https://www.joshwcomeau.com/react/common-beginner-mistakes/"/>
+        <updated>2023-03-07T00:46:48.674Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/react/common-beginner-mistakes/">Common Beginner Mistakes with React</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 React 开发中常见的 9 种陷阱，包括：使用零进行条件判断、直接修改状态、未生成 key、缺少空格、在更改状态后访问它、返回多个元素、从不受控制到受控制的转换、缺少样式括号和异步效果函数。对于每种陷阱，文章都提供了解决方法，并给出了示例代码。此外，作者还介绍了他正在开发的在线课程 The Joy of React，旨在帮助人们建立自己的 React 直觉。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[@githubnext/github-copilot-cli
+
+请注意，这是一个英文文本，无法直接翻译为中文。如果您需要更多帮助，请提供更多上下文或详细信息。]]></title>
+        <id>https://www.npmjs.com/package/@githubnext/github-copilot-cli#whats-the-point-of-the-eval-and-alias-stuff</id>
+        <link href="https://www.npmjs.com/package/@githubnext/github-copilot-cli#whats-the-point-of-the-eval-and-alias-stuff"/>
+        <updated>2023-03-07T00:46:09.662Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.npmjs.com/package/@githubnext/github-copilot-cli#whats-the-point-of-the-eval-and-alias-stuff">@githubnext/github-copilot-cli</a></p><p><strong>概要：</strong></p><p>GitHub Copilot CLI 是一个命令行体验，可以让 GitHub Copilot 在命令行中帮助你。它将自然语言转换为 shell 命令，并具有不同领域的模式。安装后，您可以使用以下三个命令：??：将自然语言翻译为任意 shell 命令；git?：将自然语言翻译为 Git 命令；gh?：将自然语言翻译为 GitHub CLI 命令。GitHub Copilot CLI 还会尝试逐步分解并解释建议的命令将做什么。要使用 GitHub Copilot CLI，您必须拥有对 GitHub Copilot 的访问权限。支持的平台包括 Linux 上的 zsh 等，但可能会向您建议在您的平台或终端上无法运行的命令。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用 tRPC 和 React 的全栈 TypeScript]]></title>
         <id>https://www.robinwieruch.de/react-trpc/</id>
