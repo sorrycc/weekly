@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-07T01:01:26.534Z</updated>
+    <updated>2023-03-07T04:37:06.979Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如果我明天去世了，我的网络应用程序会持续多久？]]></title>
+        <id>https://casparwre.de/blog/webapp-afterlife/</id>
+        <link href="https://casparwre.de/blog/webapp-afterlife/"/>
+        <updated>2023-03-07T04:19:32.094Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://casparwre.de/blog/webapp-afterlife/">If I died tomorrow, how long would my webapp keep running?</a></p><p><strong>概要：</strong></p><p>一位名为 “Hacker News” 的开发人员在其博客上分享了一个问题：如果他突然去世，他的 Web 应用程序会运行多久？他估计，只要数据库、域和云服务继续运作，该应用程序将无限期在线。但是，他也考虑到了可能导致应用程序离线的几种情况，例如自然灾害、基础设施故障、技术故障、产品故障、安全漏洞或恶意攻击以及付款故障。最后，他认为最有可能导致应用程序离线的是付款故障。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沙虫审计]]></title>
+        <id>https://docs.sandworm.dev/</id>
+        <link href="https://docs.sandworm.dev/"/>
+        <updated>2023-03-07T04:18:38.995Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://docs.sandworm.dev/">Sandworm Audit</a></p><p><strong>概要：</strong></p><p>Sandworm 是一个免费的开源命令行工具，可帮助 JavaScript 开发人员扫描项目和依赖项中的漏洞、许可证和其他问题。它支持自定义许可证策略，并提供 JSON 问题和许可证使用报告以及易于理解的 SVG 依赖树和树状图形可视化。此外，它还可以覆盖安全漏洞和包许可证信息，并生成所有依赖项和许可证信息的 CSV 文件。用户可以在终端中运行 Sandworm Audit 作为命令行工具，或者使用.sandworm.config.json 配置文件进行配置。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何为你完全不了解的项目做出贡献？]]></title>
+        <id>https://grifel.dev/how-to-contribute-without-knowledge</id>
+        <link href="https://grifel.dev/how-to-contribute-without-knowledge"/>
+        <updated>2023-03-07T04:16:38.129Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://grifel.dev/how-to-contribute-without-knowledge">How to contribute to a project you have no idea about</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 Bun 的 JavaScript/TypeScript 运行时，它与 Deno/Node 类似，但具有更快的启动时间。作者通过编写测试套件来测试 Bun 的性能，并在测试过程中遇到了问题。作者分享了自己处理问题的方法，包括询问前任维护者、规范功能 / 问题、运行测试、编写测试用例并更改代码等步骤。最后，作者强调了测试套件的重要性，特别是在开源项目中，因为测试套件可以降低进入门槛，使得更多人可以参与项目。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[比 Vite 快 5 倍？2ms HMR？Farm：基于 Rust 的极速构建引擎！]]></title>
         <id>https://zhuanlan.zhihu.com/p/611603260</id>
@@ -197,12 +218,5 @@
         <link href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis"/>
         <updated>2023-03-02T14:27:06.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">Introducing ChatGPT and Whisper APIs</a></p><p><strong>概要：</strong></p><p>OpenAI 宣布，其 ChatGPT 和 Whisper 模型现已可用于 API，让开发者能够使用尖端的语言和语音转文本功能。通过一系列系统级别的优化，自去年 12 月以来，ChatGPT 的成本降低了 90％；现在将这些节省成本传递给 API 用户。开发者现在可以在 API 中使用我们的开源 Whisper large-v2 模型，获得更快速、更具成本效益的结果。Snap Inc.、Quizlet、Instacart 和 Shopify 等公司已经开始使用 ChatGPT API 和 Whisper API。OpenAI 还改进了 API 服务条款以更好地满足开发者的需求。同时，OpenAI 还提供专用实例，使开发者能够深入控制特定模型版本和系统性能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 Replit 上随时随地部署 Cloudflare Worker]]></title>
-        <id>https://blog.replit.com/cloudflare-workers</id>
-        <link href="https://blog.replit.com/cloudflare-workers"/>
-        <updated>2023-03-02T14:23:22.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/cloudflare-workers">Deploy a Cloudflare Worker from Replit – anytime, anywhere</a></p><p><strong>概要：</strong></p><p>Cloudflare 与 Replit 合作，使开发人员能够轻松地将 Cloudflare Workers（无服务器函数）部署到全球网络，并随时随地从任何设备管理其项目。使用 Cloudflare Workers 模板，可以在 Replit 项目中直接构建无服务器函数，并将其部署到覆盖全球 275 个位置的高度可扩展、低延迟的 JavaScript 执行环境中。开发人员可以使用 Cloudflare Workers 在 Replit 上构建 API、处理网站上的表单提交、进行 A/B 测试以及在边缘缓存内容等。通过 Cloudflare 和 Replit 提供的工具和资源，开发人员可以专注于开发出色的应用程序。</p>]]></content>
     </entry>
 </feed>
