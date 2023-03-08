@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-08T00:39:41.135Z</updated>
+    <updated>2023-03-08T04:46:43.989Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[PaLM-E：一种具有身体多模态的语言模型]]></title>
+        <id>https://palm-e.github.io/</id>
+        <link href="https://palm-e.github.io/"/>
+        <updated>2023-03-08T04:25:27.547Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://palm-e.github.io/">PaLM-E: An Embodied Multimodal Language Model</a></p><p><strong>概要：</strong></p><p>本文介绍了一种新的语言模型 ——PaLM-E，它将真实世界的连续传感器模态直接纳入语言模型中，从而建立单词和感知之间的联系。PaLM-E 的输入是交错的多模态句子，包括视觉、连续状态估计和文本输入编码。我们与预训练的大型语言模型一起，对这些编码进行端到端训练，用于多个具体化任务，包括序列机器人操作规划、视觉问答和字幕制作。评估表明，PaLM-E 可以解决各种具体化推理任务，从不同的观察模态、多个具体化形式中获得积极转移，并保留通用语言能力。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么 Turborepo 从 Go 迁移到 Rust - Vercel]]></title>
         <id>https://vercel.com/blog/turborepo-migration-go-rust</id>
@@ -211,12 +218,5 @@
         <link href="https://dev.to/dan_abramov/comment/256g9"/>
         <updated>2023-03-02T23:57:13.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/dan_abramov/comment/256g9">I'm not sure I understood this article. I think... — DEV Community</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 和 Solid 在处理渲染逻辑上的不同策略。React 的核心思想是，应该能够编写渲染逻辑，使其在初始化和更新时都能够运行，并且不会与传递的数据不同步。Solid 则只有模板中的 “空洞” 是响应式的，因此不能像 React 那样使用 if 语句和控制流。作者认为，Solid 的优点在于可以避免部分逻辑的重新执行，但这并不是最终的理想状态。通过编译器，可以实现在不重组代码的情况下自动确定 “组”，以达到类似 useMemo 的优化效果。最后，作者指出 React 不需要将渲染逻辑从内向外编写才能实现更新，这是 React 默认具备的响应性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions 导入器现已正式推出 | GitHub 博客]]></title>
-        <id>https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/</id>
-        <link href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/"/>
-        <updated>2023-03-02T14:53:17.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/">GitHub Actions Importer is now generally available | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 推出了 GitHub Actions Importer，这是一款可帮助用户从 Azure DevOps、CircleCI、GitLab、Jenkins 和 Travis CI 迁移到 GitHub Actions 的工具。该产品是官方 GitHub CLI 的扩展，从今天开始任何 GitHub 用户都可以免费使用。GitHub Actions 提供强大的本地 CI/CD 功能，使得开发人员可以在 GitHub 上轻松启用和维护 CI/CD 工作流程，无需安装、集成和维护第三方工具。GitHub Actions Importer 采用分阶段方法简化迁移过程，包括计划、测试和迁移三个阶段。未来几个月，GitHub 将继续增强和更新 GitHub Actions Importer，以支持更多的 CI/CD 工具。</p>]]></content>
     </entry>
 </feed>
