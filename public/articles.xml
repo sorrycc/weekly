@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-08T04:46:43.989Z</updated>
+    <updated>2023-03-09T09:46:37.432Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[WTF 是代码提取？]]></title>
+        <id>https://www.builder.io/blog/wtf-is-code-extraction</id>
+        <link href="https://www.builder.io/blog/wtf-is-code-extraction"/>
+        <updated>2023-03-09T09:45:53.821Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/wtf-is-code-extraction">WTF Is Code Extraction</a></p><p><strong>概要：</strong></p><p>本文介绍了一种新的开发方式 —— 代码共存（code collocation），即将服务器端和客户端代码放在同一个文件中。作者认为这种方式可以提高开发效率，因为大部分代码都在两个位置上运行，没有必要将它们分开成不同的文件。然而，由于服务器端和客户端有不同的限制，需要将它们分开并创建代码包。文章介绍了三种策略：导出抽取、函数抽取和闭包抽取，并详细解释了如何使用这些策略来实现代码共存。最后，作者还介绍了一种称为 “标记函数” 的方法，可以让开发者自定义标记以及相应的转换过程。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the most important thing for an engineer to achieve in their growth journey? 
+
+工程师在成长过程中最重要的是什么？]]></title>
+        <id>https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html</id>
+        <link href="https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html"/>
+        <updated>2023-03-09T04:58:28.196Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html">工程师成长到最后最重要的是什么？</a></p><p><strong>概要：</strong></p><p>本文讨论了工程师成长到最后，最重要的是什么。作者认为，显性知识可以通过书本或其他媒体学习，而隐性知识则是那些难以言述的知识，只能通过找到擅长某一领域的人进行反馈和训练来获得。因此，当工程师成长到一定阶段时，需要搞明白自己需要什么并找到能够提供有效训练的人。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PaLM-E：一种具有身体多模态的语言模型]]></title>
         <id>https://palm-e.github.io/</id>
@@ -204,19 +220,5 @@
         <link href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob"/>
         <updated>2023-03-03T00:01:10.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob">The Evolution of Signals in JavaScript</a></p><p><strong>概要：</strong></p><p>“Signals” 是一种前端技术，最早可以追溯到 20 世纪 60 年代的研究。它们在 JavaScript 中的应用可以追溯到最初的声明式 JavaScript 框架，并在多年间以不同的名称出现过。现在，它们似乎又回到了人们的视野中，出现在各种框架中。这篇文章介绍了 Signals 的历史和背景，并讨论了其未来的发展趋势。同时，作者还介绍了一些使用 Signals 的 JavaScript 框架，如 SolidJS、Vue、Preact 等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 与 Signals：10 年后]]></title>
-        <id>https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71</id>
-        <link href="https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71"/>
-        <updated>2023-03-02T23:58:13.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71">React vs Signals: 10 Years Later</a></p><p><strong>概要：</strong></p><p>本文探讨了 JavaScript 中的信号（Signals）技术，以及它与 React 的区别和联系。信号是一种细粒度的响应式编程技术，可以用于前端开发中的数据流管理。尽管在 React 和虚拟 DOM 的兴起中，信号被认为是不可预测和危险的模式，但实际上信号从未消失，而是以第三方库或框架的形式存在。本文介绍了 SolidJS，这是一种新型的信号技术，它采用了组合、单向数据流和显式变异等原则，并将所有东西都视为 Effect，与 React 不同的是，它不会将所有操作视为纯函数，而是通过隔离更新来实现状态变化。作者认为，React 曾经 “修复” 了前端开发，但现在信号技术的复兴又将其推向了新的竞争时代。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我不确定我是否理解了这篇文章。我认为... — DEV 社区]]></title>
-        <id>https://dev.to/dan_abramov/comment/256g9</id>
-        <link href="https://dev.to/dan_abramov/comment/256g9"/>
-        <updated>2023-03-02T23:57:13.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/dan_abramov/comment/256g9">I'm not sure I understood this article. I think... — DEV Community</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 和 Solid 在处理渲染逻辑上的不同策略。React 的核心思想是，应该能够编写渲染逻辑，使其在初始化和更新时都能够运行，并且不会与传递的数据不同步。Solid 则只有模板中的 “空洞” 是响应式的，因此不能像 React 那样使用 if 语句和控制流。作者认为，Solid 的优点在于可以避免部分逻辑的重新执行，但这并不是最终的理想状态。通过编译器，可以实现在不重组代码的情况下自动确定 “组”，以达到类似 useMemo 的优化效果。最后，作者指出 React 不需要将渲染逻辑从内向外编写才能实现更新，这是 React 默认具备的响应性。</p>]]></content>
     </entry>
 </feed>
