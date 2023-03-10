@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-09T09:46:37.432Z</updated>
+    <updated>2023-03-10T09:25:47.264Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GPT-4 将于下周推出，微软德国表示它将是多模态的。]]></title>
+        <id>https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html</id>
+        <link href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html"/>
+        <updated>2023-03-10T09:23:26.503Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html">GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany</a></p><p><strong>概要：</strong></p><p>Microsoft Germany has announced that it will introduce GPT-4 next week. The announcement was made during a hybrid information event entitled "AI in Focus - Digital Kickoff". Andreas Braun, CTO Microsoft Germany and Lead Data & AI STU, called LLM a "game changer" because they teach machines to understand natural language. The technology has come so far that it basically "works in all languages". Marianne Janik, CEO of Microsoft Germany, spoke across the board about disruption through AI in companies. Disruption does not necessarily mean job losses. It will take "many experts to make the use of AI value-adding", Janik emphasised. Clemens Sieber, Senior AI Specialist, provided insights into practical AI use and concrete use cases that their teams are currently working on, but also into technical backgrounds.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WTF 是代码提取？]]></title>
         <id>https://www.builder.io/blog/wtf-is-code-extraction</id>
@@ -213,12 +220,5 @@
         <link href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/"/>
         <updated>2023-03-03T00:05:36.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/">Working with the industry to evolve CHIPS - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Cookies Having Independent Partitioned State (CHIPS) 是一种隐私沙箱技术，允许开发人员将 cookie 选择为 “分区” 存储，每个顶级站点有单独的 cookie 存储器。 CHIPS 的示例用例包括任何需要跨站子资源的会话或持久状态的情况，该状态仅限于用户在单个顶级站点上的活动，例如第三方聊天小部件、地图嵌入、子资源 CDN 负载平衡、无头 CMS 提供商等。 CHIPS 正在开发中，旨在成为开放网络标准。它正在隐私 CG 中进行讨论，并已经进行了 7 个月的起源试验，在此期间，Chrome 团队收到了有益的反馈。在开发过程中，团队与关键利益相关者合作，探索了这些反馈，从而得出了更新的设计，更好地服务于 Web 生态系统。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript 信号的演变]]></title>
-        <id>https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob</id>
-        <link href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob"/>
-        <updated>2023-03-03T00:01:10.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob">The Evolution of Signals in JavaScript</a></p><p><strong>概要：</strong></p><p>“Signals” 是一种前端技术，最早可以追溯到 20 世纪 60 年代的研究。它们在 JavaScript 中的应用可以追溯到最初的声明式 JavaScript 框架，并在多年间以不同的名称出现过。现在，它们似乎又回到了人们的视野中，出现在各种框架中。这篇文章介绍了 Signals 的历史和背景，并讨论了其未来的发展趋势。同时，作者还介绍了一些使用 Signals 的 JavaScript 框架，如 SolidJS、Vue、Preact 等。</p>]]></content>
     </entry>
 </feed>
