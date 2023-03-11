@@ -30,7 +30,6 @@ draft: true
 - Nodejs [官网](https://nodejs.org/en/)迁移到 Nextjs 实现。
 - Nx [v15.8](https://github.com/nrwl/nx/releases) 发布，使用 Rust 计算哈希等。
 - Million [v2](https://twitter.com/aidenybai/status/1634060432372813829) 发布，加速 React 组件。
-- 基于 Rust 的构建工具 [Rspack](https://www.rspack.dev/) 开源。
 - Chrome [v112](https://developer.chrome.com/en/blog/chrome-112-beta/) Beta 发布，css 嵌套支持等。
 - Github 全面推行 [2FA](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/) 。
 
