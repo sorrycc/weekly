@@ -34,7 +34,6 @@ draft: true
 - 基于 Rust 的构建工具 [Rspack](https://www.rspack.dev/) 开源。
 - Chrome [v112](https://developer.chrome.com/en/blog/chrome-112-beta/) Beta 发布，css 嵌套支持等。
 - Github 全面推行 [2FA](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/) 。
-- React Query 迁移到 [vitest](https://github.com/TanStack/query/pull/5097) 。
 
 ## 深度好文
 > 好文推荐。本周开始，好文总结部分尝试用 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本，先试运行一段时间，有疑问可以留言反馈。
