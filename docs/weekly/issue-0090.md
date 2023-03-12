@@ -59,8 +59,6 @@ publishedAt: "2023/03/06"
 - ChatGPT API 更新，速度快很多，价格还减少到 1/10，这周社区基本都为着这个转了。我也做了些事，1）在 Replit 上搭了个 ChatGPT API 的代理服务器，给[「二狗」Siri](https://t.me/yqtalk/240) 用，快多了，2）实现了一个简单的工具，[输入是 url，输出是文章总结](https://t.me/yqtalk/234)，也是这篇周刊「深度好文」的内容来源，3）在 2 的基础上支持了 BILIBILI 的视频总结。
 - 第一次尝试公众号付费，发布了几周前写的[《程序员高效工作法》](https://mp.weixin.qq.com/s?__biz=MjM5NDgyODI4MQ==&mid=2247486134&idx=1&sn=c69256f02f74feb1477b142656346407&chksm=a680902091f719368b94f2d97e72f27e9e51f1d6b3f1edee9a20e781b35f6ab1e8d817335303&scene=178&cur_album_id=2199691505051729920#rd)，截止 2023.3.4，共有 58 人付费人数。
 - [玩了几小时「卧龙」](https://t.me/yqtalk/238)，游戏是好游戏，但是 PC 版的优化太差了，3070ti 的显卡读感觉帧率明显不行，一顿一顿的，不够流畅。准备等买的 ps5 版到了再重新玩了…
-- TODO：mdh weekly with chatgpt
-	- news.mdhweekly.com
 
 ## 求职招聘
 > 试运行，免费刊登。因为从一些朋友那了解到，目前工作并没那么好找，希望通过这个板块互通有无，能帮助到一些需要的同学们。有招聘需求的同学请在 https://docs.qq.com/form/page/DY0dZYlliZHFpdmdj 填写表单。
