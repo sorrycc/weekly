@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-10T09:25:47.264Z</updated>
+    <updated>2023-03-13T12:23:22.748Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[理查德・塔尔斯 | TypeScript 技术面试]]></title>
+        <id>https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html</id>
+        <link href="https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html"/>
+        <updated>2023-03-13T12:20:09.749Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html">Richard Towers | Typescripting the technical interview</a></p><p><strong>概要：</strong></p><p>这篇文章是一篇以 Aphyr 的 Typing the technical interview 为蓝本的技术面试题解析。在这个故事中，主人公接受了一个 N-Queens 编程问题的挑战，并通过 TypeScript 实现了一个解决方案。文章通过描述主人公与面试官 Criss 的对话，展示了如何使用 TypeScript 来解决编程问题。整个过程充满了符号、神秘和幽默感。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么前端世界忽略了 Web 组件・保罗・阿姆斯特朗]]></title>
+        <id>https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/</id>
+        <link href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/"/>
+        <updated>2023-03-13T12:17:44.062Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/">Why the frontend world ignores Web Components • Paul Armstrong</a></p><p><strong>概要：</strong></p><p>Web Components 一直被认为是为浏览器而非开发人员设计的，因此前端开发人员更倾向于使用 React、Angular、Vue 等框架。Web Components 存在测试性、缺乏统一框架、跨组件状态管理和三种语言等问题，这些都使得它们难以维护且不易上手。此外，Web Components 在文档和教程方面也存在不足，使得开发人员难以快速掌握其使用方法。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Hooks 是一个错误吗？| jakelazaroff.com]]></title>
+        <id>https://jakelazaroff.com/words/were-react-hooks-a-mistake/</id>
+        <link href="https://jakelazaroff.com/words/were-react-hooks-a-mistake/"/>
+        <updated>2023-03-13T12:16:56.889Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jakelazaroff.com/words/were-react-hooks-a-mistake/">Were React Hooks a Mistake? | jakelazaroff.com</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 编程模型的不同之处，以及为什么有些人更喜欢使用 signal-based components。作者认为，人们对组件的心理模型与 React 中的函数组件和 hooks 的工作方式不匹配。与类组件相比，signal-based components 更加相似。文章还介绍了 Solid 等信号驱动框架，并讨论了它们与 React hooks 之间的区别和权衡。最后，作者总结说，现在的框架似乎正在尝试在 hooks 的可组合性和类的稳定性之间取得平衡。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remotion Blog - 在 React 中优雅地管理状态和渲染]]></title>
+        <id>https://remotion.com/blog/untangling-state-in-react</id>
+        <link href="https://remotion.com/blog/untangling-state-in-react"/>
+        <updated>2023-03-13T12:16:19.910Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remotion.com/blog/untangling-state-in-react">Remotion Blog – Elegantly managing state and renders in React</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中简化状态管理的方法。作者指出，React 状态更像是时间快照而不是常规 JavaScript 变量。设置状态只会在下一次渲染时更改它。React 批处理状态更新，并且仅在调用事件处理程序中的所有代码后才进行呈现。文章还介绍了 useState 钩子的作用和使用方法，以及如何通过传递更新程序函数来解决 React 队列状态更改更新的问题。最后，作者建议读者查阅 React 官方文档以了解更多信息。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 React Query 防抖请求]]></title>
+        <id>https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/</id>
+        <link href="https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/"/>
+        <updated>2023-03-13T12:16:06.389Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/">Debouncing requests with React Query</a></p><p><strong>概要：</strong></p><p>本文介绍了 React Query 库的一些优势，如默认防止对同一资源的同时请求，并能够像传递简单参数一样轻松地缓存响应。然而，该库不提供反弹功能，因此需要将其包装在一个简单的抽象中，以满足这种需求。作者提出了一种方法来扩展 React Query 以添加新功能，代码行数少于 40 行。通过动画演示，展示了反弹的实际效果，使用反弹后，应用程序只触发了 1 个请求并交换了 294 B 的数据，请求减少了 91％，传输的数据减少了 99％。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主题切换]]></title>
+        <id>https://toggles.dev/</id>
+        <link href="https://toggles.dev/"/>
+        <updated>2023-03-13T12:14:32.521Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://toggles.dev/">Theme Toggles</a></p><p><strong>概要：</strong></p><p>Theme Toggles 是一款易于使用的动画切换集合，旨在切换浅色和深色模式。它是一个模块化库，旨在提供足够的自定义功能。它与 Tailwindcss 等实用 CSS 框架非常配合使用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[零努力类型安全]]></title>
+        <id>https://svelte.dev/blog/zero-config-type-safety</id>
+        <link href="https://svelte.dev/blog/zero-config-type-safety"/>
+        <updated>2023-03-13T12:08:39.558Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/zero-config-type-safety">Zero-effort type safety</a></p><p><strong>概要：</strong></p><p>SvelteKit 现在可以自动生成类型注释，无需手动添加。通过在 SvelteKit 应用程序中添加类型注释，可以实现网络全面的类型安全性。现在，SvelteKit 框架可以为我们类型化 load 和 data，这是计算机所擅长的 —— 让我们专注于创造性的工作。使用 VSCode 的用户只需升级到最新版本的 Svelte 扩展即可，其他编辑器的扩展也可以使用此功能，只要它们支持 Language Server Protocol 和 TypeScript 插件。此外，该功能还与最新版本的 CLI 诊断工具 svelte-check 兼容。这项功能需要对语言服务器和 TypeScript 插件进行更改，以便在正确的位置自动插入正确的类型，并告诉 TypeScript 使用我们的虚拟增强文件而不是原始未经过类型化的文件。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GPT-4 将于下周推出，微软德国表示它将是多模态的。]]></title>
         <id>https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html</id>
@@ -171,54 +220,5 @@
         <link href="https://shopify.engineering/technical-debt-25-percent-rule"/>
         <updated>2023-03-03T04:35:51.000Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://shopify.engineering/technical-debt-25-percent-rule">The 25 Percent Rule for Tackling Technical Debt</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了技术债务的不同类型，并提出了一种 “25% 规则”，即每周花费 10％的时间解决日常技术债务，另外 10％的时间解决每周技术债务，剩下的 5％用于处理每月和每年的技术债务。作者认为，解决技术债务并不是大规模修复的问题，而是通过文化建设来实现。通过改进日常工作中的代码、庆祝重构代码的能力以及知道何时选择好的而不是完美的，可以帮助解决技术债务问题。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Signia]]></title>
-        <id>https://tldraw.substack.com/p/introducing-signia</id>
-        <link href="https://tldraw.substack.com/p/introducing-signia"/>
-        <updated>2023-03-03T04:34:49.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tldraw.substack.com/p/introducing-signia">Introducing Signia</a></p><p><strong>概要：</strong></p><p>数字协作白板 tldraw 的开发团队发布了其核心反应式状态管理系统的开源项目 Signia。该库是用于使用基于逻辑时钟的新惰性反应模型处理细粒度反应值（称为 “信号”）的原始库，它诞生的原因是需要高效地处理经常更改的大型派生不可变集合。除了核心库之外，还发布了与 React 绑定的内容。Signia 的 API 类似于 Jotai、@preact/signals 和 Recoil 等类库，其主要区别特征是具有增量派生和内置支持回滚的事务。Signia 的反应性系统基于单个整数，即全局逻辑时钟，每当更新根状态值时，该时钟就会递增。比较时钟值允许 Signia 始终缓存派生值，而不管它们是否正在被积极观察。Signia 的响应式系统基于逻辑时钟和差异，可以实现增量计算派生值。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI 现在已经成为它所承诺不会成为的一切：企业、闭源和盈利。]]></title>
-        <id>https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit</id>
-        <link href="https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit"/>
-        <updated>2023-03-03T04:20:33.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit">OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit</a></p><p><strong>概要：</strong></p><p>OpenAI, the AI research organization co-founded by Elon Musk and others, has shifted from its original non-profit mission to one of profit and secrecy, according to this Vice report. OpenAI was established in 2015 to advance digital intelligence for the benefit of humanity as a whole, unconstrained by financial return. However, the company has since become a for-profit entity, partnered with Microsoft and Bain, and is at the centre of an AI chatbot arms race. Critics argue that OpenAI is driven by speed and profit, rather than transparency and positive human impact, and that it is unleashing flawed technology that will increase workplace automation at the expense of human employees.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MRSK：随时随地部署 Web 应用程序]]></title>
-        <id>https://mrsk.dev/</id>
-        <link href="https://mrsk.dev/"/>
-        <updated>2023-03-03T04:17:25.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://mrsk.dev/">MRSK: Deploy web apps anywhere</a></p><p><strong>概要：</strong></p><p>MRSK 是一个用于部署 Web 应用程序的工具，它使用 Docker 在裸机和云 VM 之间部署 Web 应用程序，而且没有停机时间。它使用动态反向代理 Traefik 来保持请求，同时启动新的应用程序容器并停止旧的容器。它可以无缝地跨多个主机使用 SSHKit 执行命令。虽然它最初是为 Rails 应用程序构建的，但它也适用于任何可以使用 Docker 进行容器化的 Web 应用程序。MRSK 旨在将商业平台提供的先进人体工程学方法带到部署 Web 应用程序的任何地方，从低成本的云选项到自己的裸金属。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[通过 SSH 远程访问您的 Repls]]></title>
-        <id>https://blog.replit.com/ssh</id>
-        <link href="https://blog.replit.com/ssh"/>
-        <updated>2023-03-03T04:14:52.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/ssh">Remote Access to Your Repls via SSH</a></p><p><strong>概要：</strong></p><p>Replit, a cloud-based coding platform, has added the ability to remotely access its Repls using SSH to all of its paid plans. Users subscribed to a paid plan can add their SSH keys and work with their Repl remotely. The move allows users to take full advantage of Replit's power while continuing to use their local development environment. Replit puts every Repl into its own container that runs once a connection is opened to it. Inside that container, an SSH server handles all remote access needs. A proxy receives the connection, verifies keys and routes the SSH connection through an encrypted SSH tunnel to the Repl.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT 校对扩展程序适用于 Popclip。]]></title>
-        <id>https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/</id>
-        <link href="https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/"/>
-        <updated>2023-03-03T01:27:12.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reorx.com/makers-daily/003-chatgpt-proofreader-extension-popclip/">ChatGPT Proofreader extension for Popclip</a></p><p><strong>概要：</strong></p><p>OpenAI 发布了新的 ChatGPT API，解决了旧 API 存在的问题，并提供了更多的特性，如显式定义角色、选择性去掉会话中的信息、返回多个结果供选择等。一位开发者基于这个 API 做了一个名为 ChatGPT Proofreader 的扩展，提供了中英文润色功能。使用者只需在 Popclip 中选中文字并点击相应图标即可实现润色。此外，该开发者在 Twitter 上总结了 ChatGPT API 的优点，包括以上提到的特性以及使用 logit_bias 参数调整屏蔽特定词汇的功能，使用 temperature/top_p 参数调整结果相关性和准确性等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 LangChain.js 进行问答（Q&A）]]></title>
-        <id>https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs</id>
-        <link href="https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs"/>
-        <updated>2023-03-03T00:28:53.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://langchainers.hashnode.dev/question-answer-qa-using-langchainjs">Question & Answer (Q&A) using LangChain.js</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 LangChain.js 库中的 Text Splitter、HNSWLib、OpenAIEmbeddings 和 Vector DBQA Chain 等工具进行问答系统的构建。其中，需要先安装 HNSWLib，并下载一份 State of the Union Speech 文件作为测试数据。通过复制代码并执行命令即可得到问答结果。总体来说，使用 LangChain.js 构建自定义问答系统非常简单。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[与行业合作推进 CHIPS - Chrome 开发者]]></title>
-        <id>https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/</id>
-        <link href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/"/>
-        <updated>2023-03-03T00:05:36.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/working-with-the-industry-to-evolve-chips/">Working with the industry to evolve CHIPS - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Cookies Having Independent Partitioned State (CHIPS) 是一种隐私沙箱技术，允许开发人员将 cookie 选择为 “分区” 存储，每个顶级站点有单独的 cookie 存储器。 CHIPS 的示例用例包括任何需要跨站子资源的会话或持久状态的情况，该状态仅限于用户在单个顶级站点上的活动，例如第三方聊天小部件、地图嵌入、子资源 CDN 负载平衡、无头 CMS 提供商等。 CHIPS 正在开发中，旨在成为开放网络标准。它正在隐私 CG 中进行讨论，并已经进行了 7 个月的起源试验，在此期间，Chrome 团队收到了有益的反馈。在开发过程中，团队与关键利益相关者合作，探索了这些反馈，从而得出了更新的设计，更好地服务于 Web 生态系统。</p>]]></content>
     </entry>
 </feed>
