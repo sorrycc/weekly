@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-14T04:32:45.221Z</updated>
+    <updated>2023-03-14T15:20:02.021Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何在 React 中拖放]]></title>
+        <id>https://www.robinwieruch.de/react-drag-and-drop/</id>
+        <link href="https://www.robinwieruch.de/react-drag-and-drop/"/>
+        <updated>2023-03-14T14:53:16.247Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/react-drag-and-drop/">How to Drag and Drop in React</a></p><p><strong>概要：</strong></p><p>本文是一篇 React 教程，通过实例讲解如何在 React 中使用拖放功能。您将逐步学习如何创建一个 DnD 组件，首先作为垂直列表，然后作为水平列表，并在其中进行大量自定义示例。我们将使用 react-beautiful-dnd 进行此 React 教程。文章介绍了如何使用 useState Hook 初始化状态列表，如何使用 Droppable 和 Draggable 组件以及如何使用 render prop 模式提供更多控制权。最后，您将学习如何将垂直拖放列表转换为水平拖放列表。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[创造一个 “成功之坑”]]></title>
         <id>https://thecuriousleader.work/posts/create-the-pit-of-success/</id>
@@ -213,12 +220,5 @@
         <link href="https://www.intercom.com/blog/traits-of-exceptional-engineers/"/>
         <updated>2023-03-06T04:44:50.950Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.intercom.com/blog/traits-of-exceptional-engineers/">The difference between good and great engineers</a></p><p><strong>概要：</strong></p><p>Intercom's former Senior Director of Demand Generation, Brian Kotlyar, has outlined six traits that make exceptional engineers. These include ambition and determination, habitual simplification, the ability to debug anything quickly, a willingness to help others be great, knowing what is valuable, and being creative and positive. Kotlyar said engineering culture is shaped by the people hired, the actions they take, and the traits that are rewarded and celebrated.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[36 种不同的生活方式]]></title>
-        <id>https://chrisguillebeau.com/36-ways</id>
-        <link href="https://chrisguillebeau.com/36-ways"/>
-        <updated>2023-03-06T04:43:13.118Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://chrisguillebeau.com/36-ways">36 Ways to Live Differently</a></p><p><strong>概要：</strong></p><p>这篇文章提供了一些方法，可以让你生活得更好。通过不断接触新的思想和实践，你可以学会不同的思考方式和生活方式。文章列举了一系列方法，包括认识到生活中的隐含规则、学会记笔记、思考与自己观点相反的政治党派或宗教信仰等等。此外，文章还提醒读者要注意身体感受，避免比较、远离负面人物、保持乐观等等。最后，作者强调了三个重要的方面：学习、行动和善良。</p>]]></content>
     </entry>
 </feed>
