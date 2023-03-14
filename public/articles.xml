@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-14T04:27:01.593Z</updated>
+    <updated>2023-03-14T04:32:45.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[创造一个 “成功之坑”]]></title>
+        <id>https://thecuriousleader.work/posts/create-the-pit-of-success/</id>
+        <link href="https://thecuriousleader.work/posts/create-the-pit-of-success/"/>
+        <updated>2023-03-14T04:30:19.173Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://thecuriousleader.work/posts/create-the-pit-of-success/">Create a "pit of success"</a></p><p><strong>概要：</strong></p><p>本文介绍了一种名为 “三重循环技术领导” 的领导策略，旨在帮助技术领导者创造一个成功不可避免的环境，从而提高信任、内在动机和工作满意度。该策略基于双循环学习和组织和系统原则，并使用广泛接受的教练原则来构建系统性教练技能集。实现这种方法需要通过三个循环（行动、适应和意识）迭代解决团队遇到的问题，并实施最佳解决方案。同时，需要掌握主动倾听、达成明确协议、提出有力问题、推动前进行动和对自己和他人负责等技能。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Git 2.40 的亮点 | GitHub 博客]]></title>
         <id>https://github.blog/2023-03-13-highlights-from-git-2-40/</id>
@@ -213,12 +220,5 @@
         <link href="https://chrisguillebeau.com/36-ways"/>
         <updated>2023-03-06T04:43:13.118Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://chrisguillebeau.com/36-ways">36 Ways to Live Differently</a></p><p><strong>概要：</strong></p><p>这篇文章提供了一些方法，可以让你生活得更好。通过不断接触新的思想和实践，你可以学会不同的思考方式和生活方式。文章列举了一系列方法，包括认识到生活中的隐含规则、学会记笔记、思考与自己观点相反的政治党派或宗教信仰等等。此外，文章还提醒读者要注意身体感受，避免比较、远离负面人物、保持乐观等等。最后，作者强调了三个重要的方面：学习、行动和善良。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 React-Spring 创建动画：全面指南]]></title>
-        <id>https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/</id>
-        <link href="https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/"/>
-        <updated>2023-03-06T04:40:36.350Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://voskan.host/2023/02/08/creating-animations-in-react-with-react-spring/">Creating Animations in React with React-Spring: A Comprehensive Guide</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在 React 中实现动画效果。作者介绍了 React-Spring 这个流行的 JavaScript 库，它提供了一组强大的钩子，可以用于向组件添加动画效果。文章详细介绍了如何安装和使用 React-Spring，并提供了许多示例代码来展示如何创建简单的淡入淡出和滑动动画，以及更复杂的动画效果，如关键帧和动画序列。最后，作者总结了使用 React-Spring 的好处，包括简化的 API、React Native 支持、良好的性能和互动性等，并推荐开发人员通过探索 React-Spring 文档并尝试本文介绍的示例来学习如何使用该库创建动画效果。</p>]]></content>
     </entry>
 </feed>
