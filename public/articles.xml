@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-14T15:20:02.021Z</updated>
+    <updated>2023-03-15T04:48:41.378Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - nedbat/watchgha：实时显示当前 GitHub 操作运行情况]]></title>
+        <id>https://github.com/nedbat/watchgha</id>
+        <link href="https://github.com/nedbat/watchgha"/>
+        <updated>2023-03-15T04:17:54.551Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/nedbat/watchgha">GitHub - nedbat/watchgha: Live display of current GitHub action runs</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 “watch_gha_runs” 的 Python 包，它提供了一个命令，可以监视 GitHub Action 的运行状态。用户只需提供 GitHub 仓库的 URL 和分支名称，即可显示该分支上最新的 GitHub Action 运行状态。如果有任何正在进行的运行，则每秒钟刷新一次以显示当前状态。此外，该命令还提供了丰富的输出信息，包括运行和任务的状态、步骤等。作者表示，该代码目前存在一些问题，需要进一步完善。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[获取用户后，我学到了 4 件事情]]></title>
+        <id>https://basementcommunity.bearblog.dev/things-i-learned/</id>
+        <link href="https://basementcommunity.bearblog.dev/things-i-learned/"/>
+        <updated>2023-03-15T04:17:02.961Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://basementcommunity.bearblog.dev/things-i-learned/">4 things i learned after getting users</a></p><p><strong>概要：</strong></p><p>文章介绍了作者在运营一个以用户生成内容为主的网站时所学到的四件事情。首先，无论你做什么，总会有人滥用你的网站。其次，你需要一个性能监控系统。第三，你需要优化你的 SQL 查询。最后，你需要听取用户的反馈和建议。在文章中，作者分享了他是如何应对这些问题的，并提供了一些解决方案。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何在 React 中拖放]]></title>
         <id>https://www.robinwieruch.de/react-drag-and-drop/</id>
@@ -206,19 +220,5 @@
         <link href="https://blog.cloudflare.com/introducing-oxy/"/>
         <updated>2023-03-06T06:19:45.974Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/introducing-oxy/">Oxy is Cloudflare's Rust-based next generation proxy framework</a></p><p><strong>概要：</strong></p><p>Oxy 是一款使用 Rust 编程语言开发的现代代理框架，是 Cloudflare 项目的基础之一，包括 Zero Trust Gateway、iCloud Private Relay 第二跳代理和内部出口路由服务。Oxy 利用了 Cloudflare 多年构建高负载代理的经验，实现了最新的通信协议，可以轻松构建可容纳大量每日流量的复杂服务。Oxy 支持多种通信协议，包括 HTTP 1/2/3、TCP 和 UDP 流量等，可以在 OSI 模型的多个层次上分析和操作流量。同时，它还支持 TLS 加密和安全认证，并提供全面的监控和分析功能。Oxy 的设计符合 Cloudflare 的迭代式开发方法，可以根据应用程序要求进行定制，允许工程师调整每个组件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我喜欢用 Rust 来创业。但我不会再选择它了。]]></title>
-        <id>https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again</id>
-        <link href="https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again"/>
-        <updated>2023-03-06T04:46:28.915Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again">I love building a startup in Rust. I wouldn't pick it again.</a></p><p><strong>概要：</strong></p><p>该文章介绍了一家初创公司在选择编程语言时的经验教训。作者表示，尽管他非常喜欢 Rust 语言，但如果重新开始，他不会再次选择它。作者解释了他们最初选择 Rust 的原因，包括安全性和代码可读性等方面。然而，作者认为，在初创阶段，快速迭代比构建高效的代码更为重要。此外，对于不熟悉 Rust 的新员工来说，学习曲线也较陡峭。作者建议，在确定产品方向并需要构建高性能系统时，再考虑使用 Rust 语言。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[优秀工程师和卓越工程师的区别]]></title>
-        <id>https://www.intercom.com/blog/traits-of-exceptional-engineers/</id>
-        <link href="https://www.intercom.com/blog/traits-of-exceptional-engineers/"/>
-        <updated>2023-03-06T04:44:50.950Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.intercom.com/blog/traits-of-exceptional-engineers/">The difference between good and great engineers</a></p><p><strong>概要：</strong></p><p>Intercom's former Senior Director of Demand Generation, Brian Kotlyar, has outlined six traits that make exceptional engineers. These include ambition and determination, habitual simplification, the ability to debug anything quickly, a willingness to help others be great, knowing what is valuable, and being creative and positive. Kotlyar said engineering culture is shaped by the people hired, the actions they take, and the traits that are rewarded and celebrated.</p>]]></content>
     </entry>
 </feed>
