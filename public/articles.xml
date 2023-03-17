@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-16T07:12:08.185Z</updated>
+    <updated>2023-03-17T03:05:45.179Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[介绍 Warp AI]]></title>
+        <id>https://www.warp.dev/blog/introducing-warp-ai</id>
+        <link href="https://www.warp.dev/blog/introducing-warp-ai"/>
+        <updated>2023-03-17T02:43:41.376Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.warp.dev/blog/introducing-warp-ai">Introducing Warp AI</a></p><p><strong>概要：</strong></p><p>Warp AI 是一款内置于终端的人工智能，旨在帮助开发人员更高效地工作。用户可以通过向 Warp AI 提问来掌握终端的使用方法，包括解释错误、建议修复方案、编写脚本等。Warp AI 与终端输入和输出的交互方式是其最大优势，它可以将 AI 生成的命令直接运行，而无需复制 / 粘贴或切换上下文。此外，Warp AI 还具有隐私和安全保护措施，只有用户明确输入的内容才会离开本地计算机。目前，Warp AI 已经推出免费试用版，未来将成为付费计划的一部分。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布 v6.9.0・remix-run/react-router]]></title>
+        <id>https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0</id>
+        <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0"/>
+        <updated>2023-03-16T07:16:32.246Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0">Release v6.9.0 · remix-run/react-router</a></p><p><strong>概要：</strong></p><p>React Router 发布了 6.9.0 版本，支持使用 React 组件定义路由元素和错误元素字段。此外，还引入了 Lazy Route Modules，以保持应用程序包的小巧和支持代码分割路由。此功能通过 lazy () 路由属性实现，是一个异步函数，解析路由定义的非匹配部分。该版本还修复了一些问题，并改进了上下文提供程序的记忆化，以避免不必要的重新渲染。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Execa 7 的无 Shell 脚本 | ITNEXT]]></title>
         <id>https://itnext.io/shell-free-scripts-with-execa-7-885fb3b42f83</id>
@@ -206,19 +220,5 @@
         <link href="https://catcoding.me/p/apple-perf/"/>
         <updated>2023-03-07T06:58:22.093Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://catcoding.me/p/apple-perf/">苹果：为了安全让 M2 吃灰 | 程序员的喵</a></p><p><strong>概要：</strong></p><p>该文章介绍了作者在使用苹果 M2 Pro 电脑时发现的一个让人大跌眼镜的设计：系统在运行任何软件之前都会进行校验和检查，以确保其不是恶意软件。这个过程需要通过网络请求与苹果服务器通信，导致性能下降。作者在编译 Rust 编译器项目时发现，相同测试用例的 Linux 虚拟机只需要 1.5 分钟，而 M2 Pro 需要 16 分钟。经过调查，作者发现关闭 System Integrity Protection（SIP）可以显著提高性能，但苹果回应称这是 “设计使然”。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如果我明天去世了，我的网络应用程序会持续多久？]]></title>
-        <id>https://casparwre.de/blog/webapp-afterlife/</id>
-        <link href="https://casparwre.de/blog/webapp-afterlife/"/>
-        <updated>2023-03-07T04:19:32.094Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://casparwre.de/blog/webapp-afterlife/">If I died tomorrow, how long would my webapp keep running?</a></p><p><strong>概要：</strong></p><p>一位名为 “Hacker News” 的开发人员在其博客上分享了一个问题：如果他突然去世，他的 Web 应用程序会运行多久？他估计，只要数据库、域和云服务继续运作，该应用程序将无限期在线。但是，他也考虑到了可能导致应用程序离线的几种情况，例如自然灾害、基础设施故障、技术故障、产品故障、安全漏洞或恶意攻击以及付款故障。最后，他认为最有可能导致应用程序离线的是付款故障。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[沙虫审计]]></title>
-        <id>https://docs.sandworm.dev/</id>
-        <link href="https://docs.sandworm.dev/"/>
-        <updated>2023-03-07T04:18:38.995Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://docs.sandworm.dev/">Sandworm Audit</a></p><p><strong>概要：</strong></p><p>Sandworm 是一个免费的开源命令行工具，可帮助 JavaScript 开发人员扫描项目和依赖项中的漏洞、许可证和其他问题。它支持自定义许可证策略，并提供 JSON 问题和许可证使用报告以及易于理解的 SVG 依赖树和树状图形可视化。此外，它还可以覆盖安全漏洞和包许可证信息，并生成所有依赖项和许可证信息的 CSV 文件。用户可以在终端中运行 Sandworm Audit 作为命令行工具，或者使用.sandworm.config.json 配置文件进行配置。</p>]]></content>
     </entry>
 </feed>
