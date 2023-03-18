@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-17T03:05:45.179Z</updated>
+    <updated>2023-03-18T10:18:23.491Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[JulesBlom.com - React API 地图]]></title>
+        <id>https://julesblom.com/writing/map-of-react-api</id>
+        <link href="https://julesblom.com/writing/map-of-react-api"/>
+        <updated>2023-03-18T10:14:09.488Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://julesblom.com/writing/map-of-react-api">JulesBlom.com - Map of React API</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种学习 React API 的方法，即通过将其组织成一个空间地图来帮助理解。作者将 React 的不同部分联系在一起，形成了一个可供探索的结构，并在 “推荐阅读” 部分中添加了一些经过筛选的优质博客文章链接，以便更好地理解 React API。此外，作者还提出了一些未实现的想法，例如将 JSX 语法扩展包括在地图中，以及将 React DevTools、eslint-plugin-react-hooks 和 eslint-plugin-react 等工具添加到地图中。最后，作者感谢所有为 React 文档做出贡献的人和所有撰写收集的文章的作者。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[介绍 Warp AI]]></title>
         <id>https://www.warp.dev/blog/introducing-warp-ai</id>
@@ -213,12 +220,5 @@
         <link href="https://vercel.com/blog/framework-defined-infrastructure"/>
         <updated>2023-03-08T00:38:30.242Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/framework-defined-infrastructure">Framework-defined infrastructure – Vercel</a></p><p><strong>概要：</strong></p><p>框架定义的基础设施（FdI）是基础设施即代码（IaC）的演变，它自动提供源自框架和写在其中的应用程序的基础设施。FdI使用构建时的程序来解析写给框架的源代码，理解代码背后的意图，然后生成运行软件所需的IaC配置。这就通过真正的无服务器架构实现了更可预测、成本更低、风险更小的DevOps。FdI对服务器、消息队列和无服务器功能等云基元进行了抽象，使其成为框架概念的单纯实现细节。它提供了不同目标基础设施供应商之间的可移植性，消除了在生产中运行应用程序的基础设施的手动配置需求，并对预先审查的安全服务进行了标准化。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple: M2 Eaten Dust for Security | Programmer's Cat]]></title>
-        <id>https://catcoding.me/p/apple-perf/</id>
-        <link href="https://catcoding.me/p/apple-perf/"/>
-        <updated>2023-03-07T06:58:22.093Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://catcoding.me/p/apple-perf/">苹果：为了安全让 M2 吃灰 | 程序员的喵</a></p><p><strong>概要：</strong></p><p>该文章介绍了作者在使用苹果 M2 Pro 电脑时发现的一个让人大跌眼镜的设计：系统在运行任何软件之前都会进行校验和检查，以确保其不是恶意软件。这个过程需要通过网络请求与苹果服务器通信，导致性能下降。作者在编译 Rust 编译器项目时发现，相同测试用例的 Linux 虚拟机只需要 1.5 分钟，而 M2 Pro 需要 16 分钟。经过调查，作者发现关闭 System Integrity Protection（SIP）可以显著提高性能，但苹果回应称这是 “设计使然”。</p>]]></content>
     </entry>
 </feed>
