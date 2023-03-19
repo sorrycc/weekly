@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-18T10:18:23.491Z</updated>
+    <updated>2023-03-19T07:34:36.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - gajus/turbowatch：Node.js 的极速文件变更检测器和任务编排工具。]]></title>
+        <id>https://github.com/gajus/turbowatch/</id>
+        <link href="https://github.com/gajus/turbowatch/"/>
+        <updated>2023-03-19T07:34:09.828Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/gajus/turbowatch/">GitHub - gajus/turbowatch: Extremely fast file change detector and task orchestrator for Node.js.</a></p><p><strong>概要：</strong></p><p>Turbowatch 是一个用于 Node.js 的极快文件更改检测器和任务编排器。它可用于自动化响应文件更改的任何操作，例如运行（并自动重新启动）长时间运行的进程（如您的 Node.js 应用程序）或构建资产（如 Docker 镜像）。Turbowatch 提供了单个抽象来执行所有文件观察操作，并允许链接任意操作。它还支持日志记录、重试、防抖动、中断工作流、并发工作流等功能。Turbowatch 旨在为具有数十个或数百个相互依赖的构建步骤的单体库或其他复杂工作空间提供更多控制。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JulesBlom.com - React API 地图]]></title>
         <id>https://julesblom.com/writing/map-of-react-api</id>
@@ -213,12 +220,5 @@
         <link href="https://vercel.com/blog/turborepo-migration-go-rust"/>
         <updated>2023-03-08T00:38:52.418Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/turborepo-migration-go-rust">Why Turborepo is migrating from Go to Rust – Vercel</a></p><p><strong>概要：</strong></p><p>Turborepo 是一个用于 JavaScript 和 TypeScript 代码库的高性能构建系统。该系统通过增量构建、并行执行和远程缓存来避免重复工作。随着使用量的增加和产品需求的变化，Turborepo 决定从 Go 逐步迁移到 Rust。该迁移主要基于 Rust 的正确性、强大的生态系统以及开发人员的愉悦度等因素。Turborepo 正在采取渐进式的迁移方式，目前已经实现了 “Rust-Go-Rust Sandwich” 的状态，即 Rust 是入口点，可以选择使用 Rust 或 Go 来实现特定命令的功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[框架定义的基础设施 - Vercel]]></title>
-        <id>https://vercel.com/blog/framework-defined-infrastructure</id>
-        <link href="https://vercel.com/blog/framework-defined-infrastructure"/>
-        <updated>2023-03-08T00:38:30.242Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/framework-defined-infrastructure">Framework-defined infrastructure – Vercel</a></p><p><strong>概要：</strong></p><p>框架定义的基础设施（FdI）是基础设施即代码（IaC）的演变，它自动提供源自框架和写在其中的应用程序的基础设施。FdI使用构建时的程序来解析写给框架的源代码，理解代码背后的意图，然后生成运行软件所需的IaC配置。这就通过真正的无服务器架构实现了更可预测、成本更低、风险更小的DevOps。FdI对服务器、消息队列和无服务器功能等云基元进行了抽象，使其成为框架概念的单纯实现细节。它提供了不同目标基础设施供应商之间的可移植性，消除了在生产中运行应用程序的基础设施的手动配置需求，并对预先审查的安全服务进行了标准化。</p>]]></content>
     </entry>
 </feed>
