@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-19T11:53:00.613Z</updated>
+    <updated>2023-03-19T13:47:03.557Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[本地 CSS 嵌套已经到达 | pawelgrzybek.com]]></title>
+        <id>https://pawelgrzybek.com/native-css-nesting-landed/</id>
+        <link href="https://pawelgrzybek.com/native-css-nesting-landed/"/>
+        <updated>2023-03-19T13:45:47.967Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/native-css-nesting-landed/">Native CSS nesting landed | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了原生 CSS 嵌套的语法和用法，并与 Sass 的嵌套规则进行了比较。作者表示，原生 CSS 嵌套的语法应该对于熟悉 Sass 的人来说很容易理解。此外，文章还提到，CSS 嵌套是 CSS Nesting 规范的第一个版本，随着规范的演进，其功能和语法可能会发生变化。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - xenova/transformers.js：在您的浏览器中运行🤗变形金刚！]]></title>
         <id>https://github.com/xenova/transformers.js</id>
@@ -211,12 +218,5 @@
         <link href="https://toggles.dev/"/>
         <updated>2023-03-13T12:14:32.521Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://toggles.dev/">Theme Toggles</a></p><p><strong>概要：</strong></p><p>Theme Toggles 是一款易于使用的动画切换集合，旨在切换浅色和深色模式。它是一个模块化库，旨在提供足够的自定义功能。它与 Tailwindcss 等实用 CSS 框架非常配合使用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[零努力类型安全]]></title>
-        <id>https://svelte.dev/blog/zero-config-type-safety</id>
-        <link href="https://svelte.dev/blog/zero-config-type-safety"/>
-        <updated>2023-03-13T12:08:39.558Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/zero-config-type-safety">Zero-effort type safety</a></p><p><strong>概要：</strong></p><p>SvelteKit 现在可以自动生成类型注释，无需手动添加。通过在 SvelteKit 应用程序中添加类型注释，可以实现网络全面的类型安全性。现在，SvelteKit 框架可以为我们类型化 load 和 data，这是计算机所擅长的 —— 让我们专注于创造性的工作。使用 VSCode 的用户只需升级到最新版本的 Svelte 扩展即可，其他编辑器的扩展也可以使用此功能，只要它们支持 Language Server Protocol 和 TypeScript 插件。此外，该功能还与最新版本的 CLI 诊断工具 svelte-check 兼容。这项功能需要对语言服务器和 TypeScript 插件进行更改，以便在正确的位置自动插入正确的类型，并告诉 TypeScript 使用我们的虚拟增强文件而不是原始未经过类型化的文件。</p>]]></content>
     </entry>
 </feed>
