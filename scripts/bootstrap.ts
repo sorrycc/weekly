@@ -21,7 +21,7 @@ draft: true
 。
 
 ## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。也欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)作为补充。
+> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
 - 。
 
@@ -31,7 +31,7 @@ draft: true
 - 。
 
 ## Umi 和我
-> 关于 Umi 和我最近的进展。
+> 关于 Umi 和我最近的进展。欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)。
 
 - Umi 例行每周四发一版，我觉得有趣的功能包括，1）。
 - 。
