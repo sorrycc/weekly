@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-19T07:34:36.256Z</updated>
+    <updated>2023-03-19T09:14:46.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[介绍 react.dev]]></title>
+        <id>https://react.dev/blog/2023/03/16/introducing-react-dev</id>
+        <link href="https://react.dev/blog/2023/03/16/introducing-react-dev"/>
+        <updated>2023-03-19T08:44:54.669Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/03/16/introducing-react-dev">Introducing react.dev</a></p><p><strong>概要：</strong></p><p>React 官方文档网站已经更新，现在的网址是 react.dev。新网站教授使用函数组件和 Hooks 的现代 React，并包括了图表、插图、挑战和 600 多个交互式示例。旧版 React 文档网站已移至 legacy.reactjs.org。新网站分为 “学习 React” 和 “API 参考” 两个主要部分，前者是一个自定进度的课程，后者提供每个 React API 的详细信息和用法示例。新网站还添加了很多沙盒，让用户可以快速玩转 React API、探索想法并检查理解。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - anc95/ChatGPT-CodeReview: 🐥 由 ChatGPT 驱动的代码审查机器人]]></title>
+        <id>https://github.com/anc95/ChatGPT-CodeReview</id>
+        <link href="https://github.com/anc95/ChatGPT-CodeReview"/>
+        <updated>2023-03-19T08:33:11.569Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/anc95/ChatGPT-CodeReview">GitHub - anc95/ChatGPT-CodeReview: 🐥 A code review bot powered by ChatGPT</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 CodeReview BOT 的代码审查机器人，它由 ChatGPT 驱动。该机器人可以在创建新的 Pull 请求时自动进行代码审查，并在 PR 时间轴 / 文件更改部分显示审查信息。此外，当您更新拉取请求时，cr 机器人将重新审查更改的文件。使用方法包括安装、配置和使用，同时提供了使用 Github Actions 和自托管两种方式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[未来保障您的混音应用程序]]></title>
+        <id>https://remix.run/blog/future-flags</id>
+        <link href="https://remix.run/blog/future-flags"/>
+        <updated>2023-03-19T08:02:31.022Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remix.run/blog/future-flags">Future Proofing Your Remix App</a></p><p><strong>概要：</strong></p><p>Remix, a web development framework, has introduced "Future Flags" to make major version upgrades smoother for users. Future Flags are feature flags for future features that allow developers to opt into breaking changes for the next version individually as they are released in the current version. This means that developers can adopt features incrementally and work out any kinks incrementally before releasing v2. Eventually, deprecation warnings will be added to the v1 releases to nudge users to the new behaviour. Then in v2, the old v1 approach is removed, along with the deprecations and flags, making the flagged behaviour the new default in v2.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 “安全 npm”，一个 Socket npm 包装器 - Socket]]></title>
+        <id>https://socket.dev/blog/introducing-safe-npm</id>
+        <link href="https://socket.dev/blog/introducing-safe-npm"/>
+        <updated>2023-03-19T07:42:04.069Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://socket.dev/blog/introducing-safe-npm">Introducing "safe npm", a Socket npm Wrapper - Socket</a></p><p><strong>概要：</strong></p><p>Socket 推出了一款名为 “safe npm” 的 CLI 工具，用于保护开发人员在使用 npm install 时免受恶意软件、拼写错误、安装脚本、抗议软件和遥测等方面的影响。该工具透明地包装了 npm 命令，并在安装过程中保护开发人员免受恶意软件、拼写错误、安装脚本、抗议软件、遥测等 11 种问题的影响。当开发人员尝试安装恶意或风险包时，Socket 会暂停安装并告知开发人员相关风险。开发人员可以选择停止安装并保护其计算机，也可以继续并接受风险。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - gajus/turbowatch：Node.js 的极速文件变更检测器和任务编排工具。]]></title>
         <id>https://github.com/gajus/turbowatch/</id>
@@ -190,35 +218,5 @@
         <link href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html"/>
         <updated>2023-03-10T09:23:26.503Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html">GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany</a></p><p><strong>概要：</strong></p><p>Microsoft Germany has announced that it will introduce GPT-4 next week. The announcement was made during a hybrid information event entitled "AI in Focus - Digital Kickoff". Andreas Braun, CTO Microsoft Germany and Lead Data & AI STU, called LLM a "game changer" because they teach machines to understand natural language. The technology has come so far that it basically "works in all languages". Marianne Janik, CEO of Microsoft Germany, spoke across the board about disruption through AI in companies. Disruption does not necessarily mean job losses. It will take "many experts to make the use of AI value-adding", Janik emphasised. Clemens Sieber, Senior AI Specialist, provided insights into practical AI use and concrete use cases that their teams are currently working on, but also into technical backgrounds.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WTF 是代码提取？]]></title>
-        <id>https://www.builder.io/blog/wtf-is-code-extraction</id>
-        <link href="https://www.builder.io/blog/wtf-is-code-extraction"/>
-        <updated>2023-03-09T09:45:53.821Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/wtf-is-code-extraction">WTF Is Code Extraction</a></p><p><strong>概要：</strong></p><p>本文介绍了一种新的开发方式 —— 代码共存（code collocation），即将服务器端和客户端代码放在同一个文件中。作者认为这种方式可以提高开发效率，因为大部分代码都在两个位置上运行，没有必要将它们分开成不同的文件。然而，由于服务器端和客户端有不同的限制，需要将它们分开并创建代码包。文章介绍了三种策略：导出抽取、函数抽取和闭包抽取，并详细解释了如何使用这些策略来实现代码共存。最后，作者还介绍了一种称为 “标记函数” 的方法，可以让开发者自定义标记以及相应的转换过程。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is the most important thing for an engineer to achieve in their growth journey? 
-
-工程师在成长过程中最重要的是什么？]]></title>
-        <id>https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html</id>
-        <link href="https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html"/>
-        <updated>2023-03-09T04:58:28.196Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://chinese.catchen.me/2023/02/engineer-career-growth-endgame.html">工程师成长到最后最重要的是什么？</a></p><p><strong>概要：</strong></p><p>本文讨论了工程师成长到最后，最重要的是什么。作者认为，显性知识可以通过书本或其他媒体学习，而隐性知识则是那些难以言述的知识，只能通过找到擅长某一领域的人进行反馈和训练来获得。因此，当工程师成长到一定阶段时，需要搞明白自己需要什么并找到能够提供有效训练的人。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PaLM-E：一种具有身体多模态的语言模型]]></title>
-        <id>https://palm-e.github.io/</id>
-        <link href="https://palm-e.github.io/"/>
-        <updated>2023-03-08T04:25:27.547Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://palm-e.github.io/">PaLM-E: An Embodied Multimodal Language Model</a></p><p><strong>概要：</strong></p><p>本文介绍了一种新的语言模型 ——PaLM-E，它将真实世界的连续传感器模态直接纳入语言模型中，从而建立单词和感知之间的联系。PaLM-E 的输入是交错的多模态句子，包括视觉、连续状态估计和文本输入编码。我们与预训练的大型语言模型一起，对这些编码进行端到端训练，用于多个具体化任务，包括序列机器人操作规划、视觉问答和字幕制作。评估表明，PaLM-E 可以解决各种具体化推理任务，从不同的观察模态、多个具体化形式中获得积极转移，并保留通用语言能力。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么 Turborepo 从 Go 迁移到 Rust - Vercel]]></title>
-        <id>https://vercel.com/blog/turborepo-migration-go-rust</id>
-        <link href="https://vercel.com/blog/turborepo-migration-go-rust"/>
-        <updated>2023-03-08T00:38:52.418Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/turborepo-migration-go-rust">Why Turborepo is migrating from Go to Rust – Vercel</a></p><p><strong>概要：</strong></p><p>Turborepo 是一个用于 JavaScript 和 TypeScript 代码库的高性能构建系统。该系统通过增量构建、并行执行和远程缓存来避免重复工作。随着使用量的增加和产品需求的变化，Turborepo 决定从 Go 逐步迁移到 Rust。该迁移主要基于 Rust 的正确性、强大的生态系统以及开发人员的愉悦度等因素。Turborepo 正在采取渐进式的迁移方式，目前已经实现了 “Rust-Go-Rust Sandwich” 的状态，即 Rust 是入口点，可以选择使用 Rust 或 Go 来实现特定命令的功能。</p>]]></content>
     </entry>
 </feed>
