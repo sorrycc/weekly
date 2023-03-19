@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-19T09:14:46.309Z</updated>
+    <updated>2023-03-19T11:53:00.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - xenova/transformers.js：在您的浏览器中运行🤗变形金刚！]]></title>
+        <id>https://github.com/xenova/transformers.js</id>
+        <link href="https://github.com/xenova/transformers.js"/>
+        <updated>2023-03-19T09:17:05.588Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/xenova/transformers.js">GitHub - xenova/transformers.js: Run 🤗 Transformers in your browser!</a></p><p><strong>概要：</strong></p><p>Transformers.js 是一个可以在浏览器中运行的🤗 Transformers 库，支持 BERT、ALBERT、DistilBERT、T5、T5v1.1、FLAN-T5、GPT2、BART、CodeGen、Whisper、CLIP、Vision Transformer 和 VisionEncoderDecoder 等模型，可用于各种任务，包括遮蔽语言建模、文本分类、文本到文本生成、翻译、摘要、问答、文本生成、自动语音识别、图像分类、零样本图像分类和图像到文本。用户可以通过 https://xenova.github.io/transformers.js/ 体验 demo。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[介绍 react.dev]]></title>
         <id>https://react.dev/blog/2023/03/16/introducing-react-dev</id>
@@ -211,12 +218,5 @@
         <link href="https://svelte.dev/blog/zero-config-type-safety"/>
         <updated>2023-03-13T12:08:39.558Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/zero-config-type-safety">Zero-effort type safety</a></p><p><strong>概要：</strong></p><p>SvelteKit 现在可以自动生成类型注释，无需手动添加。通过在 SvelteKit 应用程序中添加类型注释，可以实现网络全面的类型安全性。现在，SvelteKit 框架可以为我们类型化 load 和 data，这是计算机所擅长的 —— 让我们专注于创造性的工作。使用 VSCode 的用户只需升级到最新版本的 Svelte 扩展即可，其他编辑器的扩展也可以使用此功能，只要它们支持 Language Server Protocol 和 TypeScript 插件。此外，该功能还与最新版本的 CLI 诊断工具 svelte-check 兼容。这项功能需要对语言服务器和 TypeScript 插件进行更改，以便在正确的位置自动插入正确的类型，并告诉 TypeScript 使用我们的虚拟增强文件而不是原始未经过类型化的文件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-4 将于下周推出，微软德国表示它将是多模态的。]]></title>
-        <id>https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html</id>
-        <link href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html"/>
-        <updated>2023-03-10T09:23:26.503Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html">GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany</a></p><p><strong>概要：</strong></p><p>Microsoft Germany has announced that it will introduce GPT-4 next week. The announcement was made during a hybrid information event entitled "AI in Focus - Digital Kickoff". Andreas Braun, CTO Microsoft Germany and Lead Data & AI STU, called LLM a "game changer" because they teach machines to understand natural language. The technology has come so far that it basically "works in all languages". Marianne Janik, CEO of Microsoft Germany, spoke across the board about disruption through AI in companies. Disruption does not necessarily mean job losses. It will take "many experts to make the use of AI value-adding", Janik emphasised. Clemens Sieber, Senior AI Specialist, provided insights into practical AI use and concrete use cases that their teams are currently working on, but also into technical backgrounds.</p>]]></content>
     </entry>
 </feed>
