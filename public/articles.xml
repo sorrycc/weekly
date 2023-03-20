@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-20T04:11:15.886Z</updated>
+    <updated>2023-03-20T13:07:16.442Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[你需要知道平衡！CSS 平衡！| pawelgrzybek.com]]></title>
+        <id>https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/</id>
+        <link href="https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/"/>
+        <updated>2023-03-20T13:06:23.086Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/">You need to know the balance! CSS balance! | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了 CSS Text Module Level 4 的一项新功能 ——text-wrap: balance。该功能可以在多行文本中更好地分配剩余空间，避免出现排版上的问题。然而，由于其算法需要大量资源，目前仅限于文本长度较短的情况下使用。规范草案将此限制设置为 10 行，但当前的 Google Chrome Canary 实现将此功能限制为 4 行。未来，可能不再需要 React Wrap Balancer 等工具。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么我们将 package.json 支持添加到 Deno 中]]></title>
         <id>https://deno.com/blog/package-json-support</id>
@@ -211,12 +218,5 @@
         <link href="https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html"/>
         <updated>2023-03-13T12:20:09.749Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html">Richard Towers | Typescripting the technical interview</a></p><p><strong>概要：</strong></p><p>这篇文章是一篇以 Aphyr 的 Typing the technical interview 为蓝本的技术面试题解析。在这个故事中，主人公接受了一个 N-Queens 编程问题的挑战，并通过 TypeScript 实现了一个解决方案。文章通过描述主人公与面试官 Criss 的对话，展示了如何使用 TypeScript 来解决编程问题。整个过程充满了符号、神秘和幽默感。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么前端世界忽略了 Web 组件・保罗・阿姆斯特朗]]></title>
-        <id>https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/</id>
-        <link href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/"/>
-        <updated>2023-03-13T12:17:44.062Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/">Why the frontend world ignores Web Components • Paul Armstrong</a></p><p><strong>概要：</strong></p><p>Web Components 一直被认为是为浏览器而非开发人员设计的，因此前端开发人员更倾向于使用 React、Angular、Vue 等框架。Web Components 存在测试性、缺乏统一框架、跨组件状态管理和三种语言等问题，这些都使得它们难以维护且不易上手。此外，Web Components 在文档和教程方面也存在不足，使得开发人员难以快速掌握其使用方法。</p>]]></content>
     </entry>
 </feed>
