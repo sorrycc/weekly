@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-19T13:47:03.557Z</updated>
+    <updated>2023-03-20T04:11:15.886Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么我们将 package.json 支持添加到 Deno 中]]></title>
+        <id>https://deno.com/blog/package-json-support</id>
+        <link href="https://deno.com/blog/package-json-support"/>
+        <updated>2023-03-20T04:08:58.299Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/package-json-support">Why We Added package.json Support to Deno</a></p><p><strong>概要：</strong></p><p>Deno 最新版本的发布引入了一个重大变化：通过支持 package.json，提供了增强的 Node 和 NPM 兼容性。这一更新引发了关于我们的优先级是否发生了变化的问题，因为 Deno 长期以来一直被视为与 Node 不同的道路开拓者。事实上，在第一个 Deno 演示中，明确提到了 package.json 是一个遗憾。因此，许多用户对此发展感到惊讶。本文将解决这些问题，分享我们不断发展的思想，并概述我们的未来目标。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 useImperativeHandle 进行细调 refs]]></title>
+        <id>https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/</id>
+        <link href="https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/"/>
+        <updated>2023-03-20T04:07:57.935Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/">Fine-tuning refs with useImperativeHandle</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中使用 refs 和 useImperativeHandle 的方法。Refs 是一种用于在组件之间传递数据的机制，可以让你访问 DOM 节点并使用原生 JavaScript DOM API 对其进行操作。useImperativeHandle 允许你自定义要公开的 ref 处理程序，以便只公开子组件的特定方法。然而，需要注意的是，在 React 中，最好不要使用 refs 来实现可以通过 props 实现的命令式行为，因为这违反了 React 的核心原则。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重复自己，做更多的事情，重新书写一切。]]></title>
+        <id>https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and</id>
+        <link href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and"/>
+        <updated>2023-03-19T14:25:34.198Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and">Repeat yourself, do more than one thing, and rewrite everything</a></p><p><strong>概要：</strong></p><p>编程中的常见建议 “不要重复自己”（DRY）可能会导致更多问题，而不是解决问题。过于严格地遵循这个原则可能会导致程序员创建一个具有四个布尔标志和一系列行为矩阵的函数，并在更改代码时需要小心地进行导航。将事物分成简单的单元可能会导致笨拙的组合和协调交叉变化的困难。避免重写意味着它们通常被推迟到没有成功的机会。但是，有时候遵循这个建议的最佳方法是做相反的事情：采用特性开关并不断重写代码，将事物汇集在一起以便更容易管理它们之间的协调，并重复自己以避免在一个函数中实现所有内容。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不要使用过时的机器人]]></title>
+        <id>https://fvsch.com/stale-bots</id>
+        <link href="https://fvsch.com/stale-bots"/>
+        <updated>2023-03-19T14:24:50.555Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fvsch.com/stale-bots">Don’t use stale bots</a></p><p><strong>概要：</strong></p><p>本文讨论了软件项目中的 “过时机器人” 问题。过时机器人是指在一段时间内没有活动的情况下，自动将问题标记为 “已关闭” 的自动化流程。使用过时机器人会导致用户体验变差，因为它们可能会关闭具有很好复现步骤、截图和评论的问题，这会让用户觉得他们的努力不被重视。此外，过时机器人也会导致重复问题增加，因为关闭的问题不会出现在搜索结果中。文章建议替代过时机器人的方法包括：接受大量开放问题、设置问题筛选流程、制定项目管理计划等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本地 CSS 嵌套已经到达 | pawelgrzybek.com]]></title>
         <id>https://pawelgrzybek.com/native-css-nesting-landed/</id>
@@ -190,33 +218,5 @@
         <link href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/"/>
         <updated>2023-03-13T12:17:44.062Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://paularmstrong.dev/blog/2023/03/13/why-we-do-not-write-web-components/">Why the frontend world ignores Web Components • Paul Armstrong</a></p><p><strong>概要：</strong></p><p>Web Components 一直被认为是为浏览器而非开发人员设计的，因此前端开发人员更倾向于使用 React、Angular、Vue 等框架。Web Components 存在测试性、缺乏统一框架、跨组件状态管理和三种语言等问题，这些都使得它们难以维护且不易上手。此外，Web Components 在文档和教程方面也存在不足，使得开发人员难以快速掌握其使用方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Hooks 是一个错误吗？| jakelazaroff.com]]></title>
-        <id>https://jakelazaroff.com/words/were-react-hooks-a-mistake/</id>
-        <link href="https://jakelazaroff.com/words/were-react-hooks-a-mistake/"/>
-        <updated>2023-03-13T12:16:56.889Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jakelazaroff.com/words/were-react-hooks-a-mistake/">Were React Hooks a Mistake? | jakelazaroff.com</a></p><p><strong>概要：</strong></p><p>本文探讨了 React 编程模型的不同之处，以及为什么有些人更喜欢使用 signal-based components。作者认为，人们对组件的心理模型与 React 中的函数组件和 hooks 的工作方式不匹配。与类组件相比，signal-based components 更加相似。文章还介绍了 Solid 等信号驱动框架，并讨论了它们与 React hooks 之间的区别和权衡。最后，作者总结说，现在的框架似乎正在尝试在 hooks 的可组合性和类的稳定性之间取得平衡。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remotion Blog - 在 React 中优雅地管理状态和渲染]]></title>
-        <id>https://remotion.com/blog/untangling-state-in-react</id>
-        <link href="https://remotion.com/blog/untangling-state-in-react"/>
-        <updated>2023-03-13T12:16:19.910Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remotion.com/blog/untangling-state-in-react">Remotion Blog – Elegantly managing state and renders in React</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中简化状态管理的方法。作者指出，React 状态更像是时间快照而不是常规 JavaScript 变量。设置状态只会在下一次渲染时更改它。React 批处理状态更新，并且仅在调用事件处理程序中的所有代码后才进行呈现。文章还介绍了 useState 钩子的作用和使用方法，以及如何通过传递更新程序函数来解决 React 队列状态更改更新的问题。最后，作者建议读者查阅 React 官方文档以了解更多信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 React Query 防抖请求]]></title>
-        <id>https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/</id>
-        <link href="https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/"/>
-        <updated>2023-03-13T12:16:06.389Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rafaelcamargo.com/blog/deboucing-requests-with-react-query/">Debouncing requests with React Query</a></p><p><strong>概要：</strong></p><p>本文介绍了 React Query 库的一些优势，如默认防止对同一资源的同时请求，并能够像传递简单参数一样轻松地缓存响应。然而，该库不提供反弹功能，因此需要将其包装在一个简单的抽象中，以满足这种需求。作者提出了一种方法来扩展 React Query 以添加新功能，代码行数少于 40 行。通过动画演示，展示了反弹的实际效果，使用反弹后，应用程序只触发了 1 个请求并交换了 294 B 的数据，请求减少了 91％，传输的数据减少了 99％。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[主题切换]]></title>
-        <id>https://toggles.dev/</id>
-        <link href="https://toggles.dev/"/>
-        <updated>2023-03-13T12:14:32.521Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://toggles.dev/">Theme Toggles</a></p><p><strong>概要：</strong></p><p>Theme Toggles 是一款易于使用的动画切换集合，旨在切换浅色和深色模式。它是一个模块化库，旨在提供足够的自定义功能。它与 Tailwindcss 等实用 CSS 框架非常配合使用。</p>]]></content>
     </entry>
 </feed>
