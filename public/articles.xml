@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-21T04:29:04.099Z</updated>
+    <updated>2023-03-21T04:34:23.647Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Dagster、dbt 和 BigQuery 追踪假的 GitHub Star 黑市 | Dagster 博客]]></title>
+        <id>https://dagster.io/blog/fake-stars</id>
+        <link href="https://dagster.io/blog/fake-stars"/>
+        <updated>2023-03-21T04:34:12.852Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dagster.io/blog/fake-stars">Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery | Dagster Blog</a></p><p><strong>概要：</strong></p><p>GitHub stars 是 GitHub 上社交证明的主要指标之一。然而，虚假的 stars 也会影响高风险决策，如企业使用哪些项目、哪些创业公司获得资金以及哪些公司有才华的专业人士加入。Dagster 团队发现了一些新的开源项目突然在几天内获得数百个星星，这让他们产生了怀疑。因此，他们购买了一些虚假的 stars，并通过 GitHub REST API 和 GitHub Archive 数据库运行了一些 repos 测试。他们采用了两种方法来识别虚假 stars：识别明显的伪造和识别复杂的伪造。最终，他们发现了一个简单的 “低活跃度” 启发式，可以检测到许多（但不是全部）涉嫌伪造的账户。另外，他们使用了无监督聚类技术来识别更复杂的虚假账户。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端开发的终结]]></title>
         <id>https://www.joshwcomeau.com/blog/the-end-of-frontend-development/</id>
@@ -211,12 +218,5 @@
         <link href="https://tinybuddha.com/blog/10-ways-to-slow-down-and-still-get-things-done/"/>
         <updated>2023-03-14T04:11:15.793Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tinybuddha.com/blog/10-ways-to-slow-down-and-still-get-things-done/">10 Ways to Slow Down and Still Get Things Done</a></p><p><strong>概要：</strong></p><p>这篇文章提出了一些方法，帮助人们在日常生活中放慢节奏。作者认为，即使是工业和数字革命承诺提高生产力，让人们可以少工作、过更平衡的生活，但事实并非如此。随着技术进步，我们比以往任何时候都要工作更长时间，而且具有讽刺意味的是，我们在经济上越来越困难，并且每年都会积累更多的债务。因此，作者建议大家可以自由地选择工作时间，但如果你感到压力大或与当下脱节，可能需要尝试一些方法来放松自己。这些方法包括：缓慢地吃饭、起床后花 15 分钟什么也不做、欣赏美丽的图片、选择一个单一任务等。通过这些小改变，人们可以在不影响生产力的情况下减缓生活的节奏。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一次删除多个 Git 标签]]></title>
-        <id>https://rafaelcamargo.com/blog/deleting-multiple-git-tags-at-once/</id>
-        <link href="https://rafaelcamargo.com/blog/deleting-multiple-git-tags-at-once/"/>
-        <updated>2023-03-14T04:09:31.045Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rafaelcamargo.com/blog/deleting-multiple-git-tags-at-once/">Deleting multiple Git tags at once</a></p><p><strong>概要：</strong></p><p>本文介绍了如何删除 Git 项目中的多个标签。可以通过传递要删除的标签列表来一次性删除多个标签，也可以使用过滤器列出所有现有标签并按条件删除。如果需要删除所有标签，则可以运行相应的命令。无论是进行本地还是远程清理，上述任何命令都可以几乎立即完成工作，节省宝贵的时间。</p>]]></content>
     </entry>
 </feed>
