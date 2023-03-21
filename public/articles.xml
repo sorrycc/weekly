@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-21T04:34:23.647Z</updated>
+    <updated>2023-03-21T04:36:18.538Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[编写你自己的响应式信号库]]></title>
+        <id>https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/</id>
+        <link href="https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/"/>
+        <updated>2023-03-21T04:35:53.580Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/">Writing Your Own Reactive Signal Library</a></p><p><strong>概要：</strong></p><p>近来，前端领域出现了对细粒度反应性的新发现，这是一种通过使用三个主要原语：信号、效果和备忘录来构建反应式用户界面的风格。最近，我们看到像 Angular、Preact 和 Qwik 这样的框架在其现有框架中添加了信号。当然，SolidJS 是我选择的框架，创建者 Ryan Carniato 也引领了前端框架中信号的流行趋势。
+
+什么是信号？
+
+“信号” 这个名字并不特别描述性，所以它可能会让人感到有点困惑，不知道它提供了什么好处，以及它与 RxJS Observables 之类的东西有何不同。SolidJS 提供了一个很好的定义：
+
+信号是事件发射器，它们保存订阅列表。每当它们的值发生变化时，它们就会通知其订阅者。
+
+- SolidJS 文档
+
+如果这不完全有意义，不用担心 —— 我们将通过编写自己的信号来学习！
+
+为什么要创建自己的信号？
+
+如果所有这些库都已经提供了信号原语，为什么我们要编写自己的信号呢？实际上，主要是作为一种学习体验！我不一定建议使用我们编写的内容来代替 Solid 等框架，因为它包含了针对不同边缘情况的更高级优化。相反，这种做法将帮助您更好地理解 Solid 和反应性的工作方式。
+
+基础知识
+
+对于我们的基本反应系统，我们将创建两个原语：createSignal 和 createEffect。备忘录（又称 createMemo）是反应性的第</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SPA 视图过渡在 Chrome 111 中实现 - Chrome 开发者]]></title>
+        <id>https://developer.chrome.com/blog/spa-view-transitions-land/</id>
+        <link href="https://developer.chrome.com/blog/spa-view-transitions-land/"/>
+        <updated>2023-03-21T04:35:25.858Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/spa-view-transitions-land/">SPA view transitions land in Chrome 111 - Chrome Developers</a></p><p><strong>概要：</strong></p><p>View Transition API 是一种可以在单个步骤中更新 DOM 的 API，同时生成两种状态之间的动画过渡。该功能目前只在 Chrome 浏览器上可用，但可以作为逐步增强使用。View Transitions API 设计成可以跨同源文档工作，下一步将优化它的性能和扩展性。该 API 还支持多种扩展，包括文档之间的转换、组合器驱动的动画、范围转换、嵌套转换组、转换类别等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用 Dagster、dbt 和 BigQuery 追踪假的 GitHub Star 黑市 | Dagster 博客]]></title>
         <id>https://dagster.io/blog/fake-stars</id>
@@ -204,19 +236,5 @@
         <link href="https://github.blog/2023-03-13-highlights-from-git-2-40/"/>
         <updated>2023-03-14T04:19:29.946Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-13-highlights-from-git-2-40/">Highlights from Git 2.40 | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>Git 2.40 已发布，来自 88 位贡献者的功能和错误修复中有 30 位是新面孔。该版本增加了一些新特性，如支持 Emacs 的 git jump、支持 --use-mailmap 选项的 git cat-file -s 和 --batch-check 等。此外，该版本还将 git bisect 和 git add --interactive 完全实现为本地内置程序，并对 CI 基础架构进行了一些底层改进。这个版本也标志着 Git 从 Perl 或 Shell 实现的旧部分到更现代的 C 等价物的长期努力的结束。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - pgrok/pgrok：穷人版 ngrok - 通过 SSH 远程端口转发的多租户 HTTP 反向隧道解决方案]]></title>
-        <id>https://github.com/pgrok/pgrok</id>
-        <link href="https://github.com/pgrok/pgrok"/>
-        <updated>2023-03-14T04:17:38.254Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/pgrok/pgrok">GitHub - pgrok/pgrok: Poor man's ngrok - a multi-tenant HTTP reverse tunnel solution through SSH remote port forwarding</a></p><p><strong>概要：</strong></p><p>pgrok 是一个基于 SSH 协议的多租户 HTTP 反向隧道解决方案，旨在为需要将本地开发环境暴露到公共互联网的小团队提供稳定的子域名，并通过 OIDC 协议由 SSO 进行门控。它可以作为 ngrok 企业版的替代品，但不建议将其放在生产系统中使用。pgrok 要求用户拥有自己的域名和 SSO 提供商。对于个人和生产系统，建议购买 ngrok。该项目的目标是为那些不熟悉服务器操作的社区经理、销售和产品经理等人员提供更好的用户体验。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 种放慢节奏却能完成任务的方法]]></title>
-        <id>https://tinybuddha.com/blog/10-ways-to-slow-down-and-still-get-things-done/</id>
-        <link href="https://tinybuddha.com/blog/10-ways-to-slow-down-and-still-get-things-done/"/>
-        <updated>2023-03-14T04:11:15.793Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tinybuddha.com/blog/10-ways-to-slow-down-and-still-get-things-done/">10 Ways to Slow Down and Still Get Things Done</a></p><p><strong>概要：</strong></p><p>这篇文章提出了一些方法，帮助人们在日常生活中放慢节奏。作者认为，即使是工业和数字革命承诺提高生产力，让人们可以少工作、过更平衡的生活，但事实并非如此。随着技术进步，我们比以往任何时候都要工作更长时间，而且具有讽刺意味的是，我们在经济上越来越困难，并且每年都会积累更多的债务。因此，作者建议大家可以自由地选择工作时间，但如果你感到压力大或与当下脱节，可能需要尝试一些方法来放松自己。这些方法包括：缓慢地吃饭、起床后花 15 分钟什么也不做、欣赏美丽的图片、选择一个单一任务等。通过这些小改变，人们可以在不影响生产力的情况下减缓生活的节奏。</p>]]></content>
     </entry>
 </feed>
