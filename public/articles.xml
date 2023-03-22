@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-22T13:51:17.766Z</updated>
+    <updated>2023-03-22T14:38:53.170Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot X：AI 动力的开发者体验 | GitHub 博客]]></title>
+        <id>https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/</id>
+        <link href="https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/"/>
+        <updated>2023-03-22T14:38:23.977Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/">GitHub Copilot X: The AI-powered developer experience | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub Copilot X 是 GitHub 的新一代 AI 辅助开发工具，它将 AI 引入整个开发生命周期中。除了自动完成注释和代码外，Copilot X 还支持聊天和语音交互，并在 pull requests、命令行和文档中提供 AI 支持。Copilot X 基于 OpenAI 的 GPT-4 模型，可以为开发人员生成单元测试、修复错误等。此外，Copilot X 还支持针对文档的 ChatGPT 接口，让开发人员能够快速获取关于 React、Azure Docs 和 MDN 等文档的答案。GitHub 希望通过 Copilot X 改变开发者的工作方式，提高其生产力和创造力。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何在 2023 年开始一个 React 项目]]></title>
         <id>https://www.robinwieruch.de/react-starter/</id>
@@ -231,12 +238,5 @@
         <link href="https://basementcommunity.bearblog.dev/things-i-learned/"/>
         <updated>2023-03-15T04:17:02.961Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://basementcommunity.bearblog.dev/things-i-learned/">4 things i learned after getting users</a></p><p><strong>概要：</strong></p><p>文章介绍了作者在运营一个以用户生成内容为主的网站时所学到的四件事情。首先，无论你做什么，总会有人滥用你的网站。其次，你需要一个性能监控系统。第三，你需要优化你的 SQL 查询。最后，你需要听取用户的反馈和建议。在文章中，作者分享了他是如何应对这些问题的，并提供了一些解决方案。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在 React 中拖放]]></title>
-        <id>https://www.robinwieruch.de/react-drag-and-drop/</id>
-        <link href="https://www.robinwieruch.de/react-drag-and-drop/"/>
-        <updated>2023-03-14T14:53:16.247Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/react-drag-and-drop/">How to Drag and Drop in React</a></p><p><strong>概要：</strong></p><p>本文是一篇 React 教程，通过实例讲解如何在 React 中使用拖放功能。您将逐步学习如何创建一个 DnD 组件，首先作为垂直列表，然后作为水平列表，并在其中进行大量自定义示例。我们将使用 react-beautiful-dnd 进行此 React 教程。文章介绍了如何使用 useState Hook 初始化状态列表，如何使用 Droppable 和 Draggable 组件以及如何使用 render prop 模式提供更多控制权。最后，您将学习如何将垂直拖放列表转换为水平拖放列表。</p>]]></content>
     </entry>
 </feed>
