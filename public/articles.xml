@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-21T04:36:18.538Z</updated>
+    <updated>2023-03-22T13:51:17.766Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何在 2023 年开始一个 React 项目]]></title>
+        <id>https://www.robinwieruch.de/react-starter/</id>
+        <link href="https://www.robinwieruch.de/react-starter/"/>
+        <updated>2023-03-22T04:52:06.786Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/react-starter/">How to start a React Project in 2023</a></p><p><strong>概要：</strong></p><p>本文介绍了几种新 React 项目的起始套件，包括 React with Vite、React with Next、React with Astro 等。作者对每种套件的优缺点、开发者所需技能水平以及针对 React 开发者提供的特性进行了分析，并给出了不同需求的三种解决方案。最后，文章总结了一些关于 React 起始项目的思考和建议。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[服务器首选框架 - HackMD]]></title>
+        <id>https://hackmd.io/@0u1u3zEAQAO0iYWVAStEvw/rJFCoM4Di</id>
+        <link href="https://hackmd.io/@0u1u3zEAQAO0iYWVAStEvw/rJFCoM4Di"/>
+        <updated>2023-03-22T04:34:33.396Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackmd.io/@0u1u3zEAQAO0iYWVAStEvw/rJFCoM4Di">Server First Framework - HackMD</a></p><p><strong>概要：</strong></p><p>该文章提出了一个名为 “Server First Framework” 的框架概念，预计将于 2023 年推出。作者认为，虽然过去十年的单页面应用程序（SPA）教会了我们很多东西，但我们现在携带了太多负担。设计面向服务器的框架时，要避免使用过多的同构倾向。
+
+该框架的初始页面呈现与 Islands 框架非常相似。所有组件都是经过服务器渲染并发送到浏览器的。客户端组件道具被序列化，并启动任何资源内部的客户端组件。客户端组件被收集并且被水合（如果流式传输可用）。对于后续的导航，路由器将使用下一个 URL（包括当前 URL）请求服务器。服务器能够处理它以确定需要呈现哪些路由部分。同时，客户端请求下一个 URL 所需的所有 Islands 以加载代码。服务器仅呈现新路由部分，跳过呈现客户端组件，但仍然序列化道具。客户端接收响应，并能够使用 HTML 差异交换路由输出。在核心部分，变异遵循 MPA 的模式。您发送数据，服务器响应表示该更改的新标记。您可以将其视为表单提交。该请求响应下一页，因此处理程序可能会使用重定向 / 无效返回语法，即使它们都作为同一服务器响应的一部分进行处理。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[编写你自己的响应式信号库]]></title>
         <id>https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/</id>
@@ -222,19 +238,5 @@
         <link href="https://www.robinwieruch.de/react-drag-and-drop/"/>
         <updated>2023-03-14T14:53:16.247Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/react-drag-and-drop/">How to Drag and Drop in React</a></p><p><strong>概要：</strong></p><p>本文是一篇 React 教程，通过实例讲解如何在 React 中使用拖放功能。您将逐步学习如何创建一个 DnD 组件，首先作为垂直列表，然后作为水平列表，并在其中进行大量自定义示例。我们将使用 react-beautiful-dnd 进行此 React 教程。文章介绍了如何使用 useState Hook 初始化状态列表，如何使用 Droppable 和 Draggable 组件以及如何使用 render prop 模式提供更多控制权。最后，您将学习如何将垂直拖放列表转换为水平拖放列表。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[创造一个 “成功之坑”]]></title>
-        <id>https://thecuriousleader.work/posts/create-the-pit-of-success/</id>
-        <link href="https://thecuriousleader.work/posts/create-the-pit-of-success/"/>
-        <updated>2023-03-14T04:30:19.173Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://thecuriousleader.work/posts/create-the-pit-of-success/">Create a "pit of success"</a></p><p><strong>概要：</strong></p><p>本文介绍了一种名为 “三重循环技术领导” 的领导策略，旨在帮助技术领导者创造一个成功不可避免的环境，从而提高信任、内在动机和工作满意度。该策略基于双循环学习和组织和系统原则，并使用广泛接受的教练原则来构建系统性教练技能集。实现这种方法需要通过三个循环（行动、适应和意识）迭代解决团队遇到的问题，并实施最佳解决方案。同时，需要掌握主动倾听、达成明确协议、提出有力问题、推动前进行动和对自己和他人负责等技能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git 2.40 的亮点 | GitHub 博客]]></title>
-        <id>https://github.blog/2023-03-13-highlights-from-git-2-40/</id>
-        <link href="https://github.blog/2023-03-13-highlights-from-git-2-40/"/>
-        <updated>2023-03-14T04:19:29.946Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-13-highlights-from-git-2-40/">Highlights from Git 2.40 | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>Git 2.40 已发布，来自 88 位贡献者的功能和错误修复中有 30 位是新面孔。该版本增加了一些新特性，如支持 Emacs 的 git jump、支持 --use-mailmap 选项的 git cat-file -s 和 --batch-check 等。此外，该版本还将 git bisect 和 git add --interactive 完全实现为本地内置程序，并对 CI 基础架构进行了一些底层改进。这个版本也标志着 Git 从 Perl 或 Shell 实现的旧部分到更现代的 C 等价物的长期努力的结束。</p>]]></content>
     </entry>
 </feed>
