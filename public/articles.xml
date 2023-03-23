@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-23T00:04:46.680Z</updated>
+    <updated>2023-03-23T00:40:15.519Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[无限混音 - Vercel]]></title>
+        <id>https://vercel.com/blog/vercel-remix-integration-with-edge-functions-support</id>
+        <link href="https://vercel.com/blog/vercel-remix-integration-with-edge-functions-support"/>
+        <updated>2023-03-23T00:39:59.131Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-remix-integration-with-edge-functions-support">Remix without Limits – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel has announced an advanced integration with Remix, a server-rendered React framework. The integration allows developers to stream content dynamically using Node.js and Edge runtimes, build serverless APIs with Remix and a route loader, use powerful cache headers like stale-while-revalidate for advanced caching, and run data mutations inside Serverless or Edge Functions. The integration also supports both Node.js and Web/Edge-oriented runtimes on a per-route basis, enabling developers to take advantage of the best parts of both. Additionally, Vercel's Edge Network Cache supports caching loader responses and newer caching headers like stale-if-error.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[实验室：我们正在进行的工作 ——2023 年 3 月 ——React]]></title>
         <id>https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023</id>
@@ -231,12 +238,5 @@
         <link href="https://blog.logrocket.com/product-management/mockup-definition-types-how-to-create/"/>
         <updated>2023-03-15T06:15:12.060Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/product-management/mockup-definition-types-how-to-create/">What is a mockup? Definition, types, and how to create one - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了在产品管理中使用 Mockup 的最佳实践。Mockup 是产品想法的视觉表现，可以帮助定义、沟通和验证产品愿景，并与管理层、开发团队、跨职能团队甚至客户进行共享。Mockup 包括设计和功能元素，如颜色、字体、信息架构、按钮点击等，提供最基本的框架来帮助您可视化和讨论产品想法或设计。文章还介绍了创建 Mockup 的不同类型和最佳实践，以及持续更新 Mockup 的过程和好处。Mockup 可以提高沟通效率、减少开发成本、改进用户体验等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深入探究 TanStack 查询中的突变 - LogRocket 博客]]></title>
-        <id>https://blog.logrocket.com/deep-dive-mutations-tanstack-query/</id>
-        <link href="https://blog.logrocket.com/deep-dive-mutations-tanstack-query/"/>
-        <updated>2023-03-15T06:14:19.143Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/deep-dive-mutations-tanstack-query/">A deep dive into mutations in TanStack Query - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>TanStack Query 是一个用于在 React 应用程序中获取、缓存、同步和更新异步数据的最佳库之一。它非常易于使用，具有零配置，并帮助您解决状态管理问题并控制应用程序的数据，以避免其控制您。 TanStack Query 有三个主要概念：查询、变异和查询失效。本文将重点介绍变异，包括变异的副作用、失效和并行实现。通过使用 useMutation Hook，可以轻松地处理所有更新、创建和删除请求。同时，乐观更新是使用 TanStack Query 变异的关键优势之一。</p>]]></content>
     </entry>
 </feed>
