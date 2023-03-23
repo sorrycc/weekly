@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-22T15:41:51.940Z</updated>
+    <updated>2023-03-23T00:04:46.680Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[实验室：我们正在进行的工作 ——2023 年 3 月 ——React]]></title>
+        <id>https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023</id>
+        <link href="https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023"/>
+        <updated>2023-03-23T00:04:10.043Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023">React Labs: What We've Been Working On – March 2023 – React</a></p><p><strong>概要：</strong></p><p>React Labs 发布了最新的研究进展，包括 React Server Components、Asset Loading、Document Metadata、React Optimizing Compiler、Offscreen Rendering 和 Transition Tracing 等。其中，React Server Components 是由 React 团队设计的一种新的应用架构，它结合了服务器中心多页面应用程序的简单 “请求 / 响应” 模型和客户端中心单页面应用程序的无缝交互性，同时提供了一种新的组件类型 ——Server Components，它们可以在构建期间运行，也可以在服务器上运行，让您无需构建 API 即可访问数据层。另外，React Labs 还在开发 Suspense、Transition Tracing 等功能，以提高 React 的性能和用户体验。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[那么，您已经安装了 `fzf`。现在该怎么办？]]></title>
         <id>https://andrew-quinn.me/fzf/</id>
@@ -231,12 +238,5 @@
         <link href="https://blog.logrocket.com/deep-dive-mutations-tanstack-query/"/>
         <updated>2023-03-15T06:14:19.143Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/deep-dive-mutations-tanstack-query/">A deep dive into mutations in TanStack Query - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>TanStack Query 是一个用于在 React 应用程序中获取、缓存、同步和更新异步数据的最佳库之一。它非常易于使用，具有零配置，并帮助您解决状态管理问题并控制应用程序的数据，以避免其控制您。 TanStack Query 有三个主要概念：查询、变异和查询失效。本文将重点介绍变异，包括变异的副作用、失效和并行实现。通过使用 useMutation Hook，可以轻松地处理所有更新、创建和删除请求。同时，乐观更新是使用 TanStack Query 变异的关键优势之一。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - nedbat/watchgha：实时显示当前 GitHub 操作运行情况]]></title>
-        <id>https://github.com/nedbat/watchgha</id>
-        <link href="https://github.com/nedbat/watchgha"/>
-        <updated>2023-03-15T04:17:54.551Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/nedbat/watchgha">GitHub - nedbat/watchgha: Live display of current GitHub action runs</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 “watch_gha_runs” 的 Python 包，它提供了一个命令，可以监视 GitHub Action 的运行状态。用户只需提供 GitHub 仓库的 URL 和分支名称，即可显示该分支上最新的 GitHub Action 运行状态。如果有任何正在进行的运行，则每秒钟刷新一次以显示当前状态。此外，该命令还提供了丰富的输出信息，包括运行和任务的状态、步骤等。作者表示，该代码目前存在一些问题，需要进一步完善。</p>]]></content>
     </entry>
 </feed>
