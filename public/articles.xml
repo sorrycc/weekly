@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-23T00:40:15.519Z</updated>
+    <updated>2023-03-23T00:58:38.184Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[您可能不需要的钩子]]></title>
+        <id>https://reacttraining.com/blog/hooks-you-probably-dont-need</id>
+        <link href="https://reacttraining.com/blog/hooks-you-probably-dont-need"/>
+        <updated>2023-03-23T00:45:31.085Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reacttraining.com/blog/hooks-you-probably-dont-need">Hooks You Probably Don't Need</a></p><p><strong>概要：</strong></p><p>本文介绍了 React Hooks 中一些不太常用的 Hook，包括 useDebugValue ()、useInsertionEffect ()、useImperativeHandle ()、useSyncExternalStore ()、useDeferredValue ()、useEffect () 和 useLayoutEffect ()。作者将这些 Hook 按照使用频率分为三类：不太可能使用的（红色）、偶尔会使用的（橙色）和根据具体情况而定的（绿色）。其中，useDebugValue () 用于在 DevTools 中为自定义 Hook 创建标签以进行调试；useInsertionEffect () 主要面向 CSS-in-JS 库开发者；useImperativeHandle () 用于限制或自定义向父组件暴露的 DOM 元素 API；useSyncExternalStore () 适用于第三方状态管理库或公开可变值和事件的浏览器 API；useDeferredValue () 用于显示过时内容并在加载新内容时延迟重新渲染 UI；useEffect () 用于处理渲染阶段的副作用，如数据获取；useLayoutEffect () 则用于在 UI 渲染前运行同步副作用。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无限混音 - Vercel]]></title>
         <id>https://vercel.com/blog/vercel-remix-integration-with-edge-functions-support</id>
@@ -231,12 +238,5 @@
         <link href="https://nuxt.com/blog/v3-3"/>
         <updated>2023-03-15T10:13:09.696Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-3">Nuxt 3.3 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt.js 发布了新版本，增加了本地模块开发、自动重启服务器和性能优化等功能。该版本还提供了一些新的组件和可组合函数，包括错误处理组件 <NuxtClientFallback> 和处理不受信任用户输入的 useHeadSafe 可组合函数。此外，该版本还改进了类型定义和 Nitro 引擎，支持自定义配置模式，并且有更好的 Chrome DevTools 支持。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[模型是什么？定义、类型以及如何创建 ——LogRocket 博客]]></title>
-        <id>https://blog.logrocket.com/product-management/mockup-definition-types-how-to-create/</id>
-        <link href="https://blog.logrocket.com/product-management/mockup-definition-types-how-to-create/"/>
-        <updated>2023-03-15T06:15:12.060Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/product-management/mockup-definition-types-how-to-create/">What is a mockup? Definition, types, and how to create one - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了在产品管理中使用 Mockup 的最佳实践。Mockup 是产品想法的视觉表现，可以帮助定义、沟通和验证产品愿景，并与管理层、开发团队、跨职能团队甚至客户进行共享。Mockup 包括设计和功能元素，如颜色、字体、信息架构、按钮点击等，提供最基本的框架来帮助您可视化和讨论产品想法或设计。文章还介绍了创建 Mockup 的不同类型和最佳实践，以及持续更新 Mockup 的过程和好处。Mockup 可以提高沟通效率、减少开发成本、改进用户体验等。</p>]]></content>
     </entry>
 </feed>
