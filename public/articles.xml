@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-24T04:20:48.032Z</updated>
+    <updated>2023-03-24T23:56:11.415Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[新的 React 文档似乎假装单页面应用程序不再存在 | Wasp]]></title>
+        <id>https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist</id>
+        <link href="https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist"/>
+        <updated>2023-03-24T15:27:16.772Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist">New React docs pretend SPAs don't exist anymore | Wasp</a></p><p><strong>概要：</strong></p><p>React 发布了新文档，网址为 https://react.dev/。虽然它看起来很棒，并且有很多改进，但引起社区关注的一个部分是 “开始一个新的 React 项目”。强烈建议启动新的 React 项目的方法是使用 Next.js 等框架，而传统的使用打包程序（如 Vite 或 CRA）的路线则相当不被推荐。Next.js 是一个很棒的框架，其受欢迎程度的上升在很大程度上归功于通过服务器端渲染（SSR）实现 SEO 优化的回归。对于依赖于 SEO 的静态站点和页面，使用提供 SSR 的框架确实是有意义的。但是，对于典型的单页应用程序（SPA）呢？那些生活在认证后面（根本不需要 SEO）的仪表板式工具，以及 React 最初设计的应用程序，仍然存在。新的 React 文档 - 使用框架，除非您的应用程序具有 “异常” 约束新文档对于在启动新的 React 项目时使用框架提出了一个相当强烈的主张。即使您阅读了 “我可以在没有框架的情况下使用 React” 部分（默认情况下隐藏在折叠切换后面），您也必须经过一堵劝说您不使用框架是个坏主意的墙。仅在最后，才提到其他选项，例如 Vite 和 Parcel：即使如此，在允许您 “不使用” 框架之前，您首先必须承认您的应用程序具有异常约束（并且没有给出任何可能的示例）。感觉就像你在所有警告的情况下做这件事</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通过 WebAssembly 使用 Pages 功能，您可以选择任何语言。]]></title>
+        <id>https://blog.cloudflare.com/pages-functions-with-webassembly/</id>
+        <link href="https://blog.cloudflare.com/pages-functions-with-webassembly/"/>
+        <updated>2023-03-24T14:51:04.691Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/pages-functions-with-webassembly/">Use the language of your choice with Pages Functions via WebAssembly</a></p><p><strong>概要：</strong></p><p>Cloudflare 宣布支持 WebAssembly，允许开发者使用除 JavaScript 以外的其他语言构建 Pages Functions 项目。WebAssembly 是一种类似汇编的低级语言，可实现接近本地性能的运行，并提供 C/C++、C# 或 Rust 等编程语言的编译目标，使它们可以与 JavaScript 一起运行。在 Cloudflare Pages Functions 中，WebAssembly 模块的导入方式与 Workers 类似，用户可以将.wasm 文件作为 WebAssembly 模块导入，然后直接从 Functions 中使用。这项工作还支持导入文本和二进制模块类型，这些非标准化模块对于需要导入原始文本块（如 HTML 文件）或原始数据块（如图像）的用户非常有用。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从 ts-node 迁移到 Bun | johnnyreilly]]></title>
         <id>https://johnnyreilly.com/migrating-from-ts-node-to-bun</id>
@@ -224,19 +238,5 @@
         <link href="https://github.com/gajus/turbowatch/"/>
         <updated>2023-03-19T07:34:09.828Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/gajus/turbowatch/">GitHub - gajus/turbowatch: Extremely fast file change detector and task orchestrator for Node.js.</a></p><p><strong>概要：</strong></p><p>Turbowatch 是一个用于 Node.js 的极快文件更改检测器和任务编排器。它可用于自动化响应文件更改的任何操作，例如运行（并自动重新启动）长时间运行的进程（如您的 Node.js 应用程序）或构建资产（如 Docker 镜像）。Turbowatch 提供了单个抽象来执行所有文件观察操作，并允许链接任意操作。它还支持日志记录、重试、防抖动、中断工作流、并发工作流等功能。Turbowatch 旨在为具有数十个或数百个相互依赖的构建步骤的单体库或其他复杂工作空间提供更多控制。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JulesBlom.com - React API 地图]]></title>
-        <id>https://julesblom.com/writing/map-of-react-api</id>
-        <link href="https://julesblom.com/writing/map-of-react-api"/>
-        <updated>2023-03-18T10:14:09.488Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://julesblom.com/writing/map-of-react-api">JulesBlom.com - Map of React API</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种学习 React API 的方法，即通过将其组织成一个空间地图来帮助理解。作者将 React 的不同部分联系在一起，形成了一个可供探索的结构，并在 “推荐阅读” 部分中添加了一些经过筛选的优质博客文章链接，以便更好地理解 React API。此外，作者还提出了一些未实现的想法，例如将 JSX 语法扩展包括在地图中，以及将 React DevTools、eslint-plugin-react-hooks 和 eslint-plugin-react 等工具添加到地图中。最后，作者感谢所有为 React 文档做出贡献的人和所有撰写收集的文章的作者。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Warp AI]]></title>
-        <id>https://www.warp.dev/blog/introducing-warp-ai</id>
-        <link href="https://www.warp.dev/blog/introducing-warp-ai"/>
-        <updated>2023-03-17T02:43:41.376Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.warp.dev/blog/introducing-warp-ai">Introducing Warp AI</a></p><p><strong>概要：</strong></p><p>Warp AI 是一款内置于终端的人工智能，旨在帮助开发人员更高效地工作。用户可以通过向 Warp AI 提问来掌握终端的使用方法，包括解释错误、建议修复方案、编写脚本等。Warp AI 与终端输入和输出的交互方式是其最大优势，它可以将 AI 生成的命令直接运行，而无需复制 / 粘贴或切换上下文。此外，Warp AI 还具有隐私和安全保护措施，只有用户明确输入的内容才会离开本地计算机。目前，Warp AI 已经推出免费试用版，未来将成为付费计划的一部分。</p>]]></content>
     </entry>
 </feed>
