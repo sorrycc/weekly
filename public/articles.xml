@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-23T00:58:38.184Z</updated>
+    <updated>2023-03-24T00:06:44.673Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Vite 5・vitejs/vite・讨论 #12466]]></title>
+        <id>https://github.com/vitejs/vite/discussions/12466</id>
+        <link href="https://github.com/vitejs/vite/discussions/12466"/>
+        <updated>2023-03-24T00:02:52.735Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vitejs/vite/discussions/12466">Vite 5 · vitejs/vite · Discussion #12466</a></p><p><strong>概要：</strong></p><p>Vite 开始讨论下一个主要版本的需求，以收集来自下游生态系统和用户的早期反馈。Vite 5 将在 2023 年 9 月 11 日发布，支持 Node 14 和 Node 16，不支持非活动 LTS 版本（Node 15、Node 17、Node 19）。Vite 5 的开发将重点关注性能方面的改进，并可能引入一些破坏性变化。同时，Vite 还在考虑将 vite-node 移动到 Vite 核心作为 SSR 的替代方案。开发者可以在 Vite 5 的里程碑中跟踪新问题和 PR。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get a cool NPM package name? 
+
+如何获得一个酷炫的 NPM 包名？]]></title>
+        <id>https://unix.bio/posts/how-to-get-npm-package-name</id>
+        <link href="https://unix.bio/posts/how-to-get-npm-package-name"/>
+        <updated>2023-03-23T15:11:49.813Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://unix.bio/posts/how-to-get-npm-package-name">怎样获得一个很酷的 NPM 包名</a></p><p><strong>概要：</strong></p><p>本文介绍了如何通过 NPM 的争议政策来申请将占位包的所有权转移给自己。对于长期没有更新或仅仅是占位的包，NPM 工作人员会在 4 周后自动将包的 owner 设置为申请者的用户名。申请者需要发送邮件至包的所有者并抄送 support@npmjs.com，并说明申请转移的原因、包名以及自己的 npm username。值得注意的是，如果要转移的包存在商标版权侵犯或者是占位问题，NPM 工作人员将立刻处理。关于组织与用户名的转移，组织可以直接联系 support@npmjs.com，而用户名的转移则被认为是 “几乎不可能的”。如果发现包含违反当地法律、不合适的内容、侵权等问题，可以举报滥用。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[您可能不需要的钩子]]></title>
         <id>https://reacttraining.com/blog/hooks-you-probably-dont-need</id>
@@ -222,21 +238,5 @@
         <link href="https://www.builder.io/blog/history-of-reactivity"/>
         <updated>2023-03-15T15:56:57.155Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/history-of-reactivity">A Brief History of Reactivity</a></p><p><strong>概要：</strong></p><p>本文探讨了响应式编程在不同框架中的演变历程。作者分享了自己在使用 Macromedia Flex、AngularJS、React、Knockout、Svelte、RxJS、Vue、MobX 和 SolidJS 等框架时的经验和见解。文章指出，随着框架的发展，人们越来越注重细粒度的响应式系统，以便更好地管理状态和提高性能。作者介绍了 Qwik 框架的特点，该框架将组件序列化为 HTML，从而实现了无缝的客户端渲染和服务器端渲染的切换。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 年每个前端开发人员都应该知道的 6 个 CSS 片段]]></title>
-        <id>https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/</id>
-        <link href="https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/"/>
-        <updated>2023-03-15T15:34:42.142Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/">6 CSS snippets every front-end developer should know in 2023</a></p><p><strong>概要：</strong></p><p>本文介绍了六个有用的 CSS 技巧，包括使用容器查询、创建滚动吸附效果、避免使用 grid 的 position: absolute、快速制作圆形、使用层叠样式表（cascade layers）控制变体和使用逻辑属性（logical properties）来减少代码量。其中，容器查询是经过多年等待后在 2023 年终于得到了浏览器支持；滚动吸附可以帮助实现系统滚动 UX，并提供有意义的停止点；使用层叠样式表可以方便地插入新的变体，而不必担心它们会干扰原有的变体；逻辑属性可以根据书写模式和文档方向自动调整样式，从而减少代码量。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt 3.3・Nuxt
-
-努克斯特 3.3・努克斯特]]></title>
-        <id>https://nuxt.com/blog/v3-3</id>
-        <link href="https://nuxt.com/blog/v3-3"/>
-        <updated>2023-03-15T10:13:09.696Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-3">Nuxt 3.3 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt.js 发布了新版本，增加了本地模块开发、自动重启服务器和性能优化等功能。该版本还提供了一些新的组件和可组合函数，包括错误处理组件 <NuxtClientFallback> 和处理不受信任用户输入的 useHeadSafe 可组合函数。此外，该版本还改进了类型定义和 Nitro 引擎，支持自定义配置模式，并且有更好的 Chrome DevTools 支持。</p>]]></content>
     </entry>
 </feed>
