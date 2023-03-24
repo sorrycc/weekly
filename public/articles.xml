@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-24T00:06:44.673Z</updated>
+    <updated>2023-03-24T04:20:48.032Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[从 ts-node 迁移到 Bun | johnnyreilly]]></title>
+        <id>https://johnnyreilly.com/migrating-from-ts-node-to-bun</id>
+        <link href="https://johnnyreilly.com/migrating-from-ts-node-to-bun"/>
+        <updated>2023-03-24T04:20:05.669Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://johnnyreilly.com/migrating-from-ts-node-to-bun">Migrating from ts-node to Bun | johnnyreilly</a></p><p><strong>概要：</strong></p><p>本文介绍了如何将一个使用 ts-node 编写的控制台应用程序迁移到 Bun，以及在迁移过程中遇到的一些问题和解决方案。作者发现 Bun 比 ts-node 快 50%，并且迁移过程相对容易。他认为这让他对 Bun 充满信心，并期待未来更多地使用它。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加速 JavaScript 生态系统 - npm 脚本]]></title>
+        <id>https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/</id>
+        <link href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/"/>
+        <updated>2023-03-24T04:19:12.641Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/">Speeding up the JavaScript ecosystem - npm scripts</a></p><p><strong>概要：</strong></p><p>本文介绍了如何优化 JavaScript 中常用的 “npm scripts”，以减少其约 400 毫秒的开销。作者通过分析 npm CLI 的代码结构，发现大部分时间都花费在加载组成 npm CLI 的模块上。作者通过惰性加载、减小模块图等方式，将运行 npm scripts 的时间从 400 毫秒降至 22 毫秒。作者指出，JavaScript 工具中普遍存在的问题是没有简便的方法来缩短模块图，因此可以考虑在发布时将代码打包，以减少加载时间。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通过针对高密度显示进行优化，将图像大小减半。]]></title>
+        <id>https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/</id>
+        <link href="https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/"/>
+        <updated>2023-03-24T04:18:06.088Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/">Halve the size of images by optimising for high density displays</a></p><p><strong>概要：</strong></p><p>本文探讨了高密度屏幕的普及程度以及如何为其优化图像。作者指出，80% 的用户使用 DPR（设备像素比）为 1.5 或更高的屏幕，因此在设计网站时需要考虑到这一点。对于高密度屏幕，需要将图像压缩至用户的设备像素而不是 CSS 像素，以确保图像清晰度。作者提供了一种简单的方法来处理图像，即将最大尺寸乘以 2 并使用较低质量进行编码，以便在高密度屏幕上始终显示清晰的图像。此外，作者还介绍了一种更加完整的方法，包括使用 <picture> 和 < source > 标签，在不同的屏幕分辨率下提供不同的图像，并提供了示例代码。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vite 5・vitejs/vite・讨论 #12466]]></title>
         <id>https://github.com/vitejs/vite/discussions/12466</id>
@@ -217,26 +238,5 @@
         <link href="https://www.warp.dev/blog/introducing-warp-ai"/>
         <updated>2023-03-17T02:43:41.376Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.warp.dev/blog/introducing-warp-ai">Introducing Warp AI</a></p><p><strong>概要：</strong></p><p>Warp AI 是一款内置于终端的人工智能，旨在帮助开发人员更高效地工作。用户可以通过向 Warp AI 提问来掌握终端的使用方法，包括解释错误、建议修复方案、编写脚本等。Warp AI 与终端输入和输出的交互方式是其最大优势，它可以将 AI 生成的命令直接运行，而无需复制 / 粘贴或切换上下文。此外，Warp AI 还具有隐私和安全保护措施，只有用户明确输入的内容才会离开本地计算机。目前，Warp AI 已经推出免费试用版，未来将成为付费计划的一部分。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v6.9.0・remix-run/react-router]]></title>
-        <id>https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0</id>
-        <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0"/>
-        <updated>2023-03-16T07:16:32.246Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0">Release v6.9.0 · remix-run/react-router</a></p><p><strong>概要：</strong></p><p>React Router 发布了 6.9.0 版本，支持使用 React 组件定义路由元素和错误元素字段。此外，还引入了 Lazy Route Modules，以保持应用程序包的小巧和支持代码分割路由。此功能通过 lazy () 路由属性实现，是一个异步函数，解析路由定义的非匹配部分。该版本还修复了一些问题，并改进了上下文提供程序的记忆化，以避免不必要的重新渲染。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Execa 7 的无 Shell 脚本 | ITNEXT]]></title>
-        <id>https://itnext.io/shell-free-scripts-with-execa-7-885fb3b42f83</id>
-        <link href="https://itnext.io/shell-free-scripts-with-execa-7-885fb3b42f83"/>
-        <updated>2023-03-16T06:20:44.073Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://itnext.io/shell-free-scripts-with-execa-7-885fb3b42f83">Shell-free scripts with Execa 7 | ITNEXT</a></p><p><strong>概要：</strong></p><p>Google 近期推出了一个名为 zx 的项目，将 shell 脚本和 JavaScript 语言结合起来。这个项目利用 7 年历史的 Node 模块 Execa，使命令和进程易于执行，并提供了类似于 zx 的模式，但采用更简单的纯 JavaScript 方法。使用 Execa，不需要记忆任何 shell 语法，几乎所有特定于 shell 的功能都可以在 JavaScript 中表达。此外，Execa 还具有安全、跨平台和高效等优点。它没有要求任何特殊的二进制文件，也不包含任何实用程序，专注于小型和模块化。除此之外，Execa 还添加了一些额外的选项，如优雅终止、清理、交错输出等，可用于设置单个或多个命令。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[反应性简史]]></title>
-        <id>https://www.builder.io/blog/history-of-reactivity</id>
-        <link href="https://www.builder.io/blog/history-of-reactivity"/>
-        <updated>2023-03-15T15:56:57.155Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/history-of-reactivity">A Brief History of Reactivity</a></p><p><strong>概要：</strong></p><p>本文探讨了响应式编程在不同框架中的演变历程。作者分享了自己在使用 Macromedia Flex、AngularJS、React、Knockout、Svelte、RxJS、Vue、MobX 和 SolidJS 等框架时的经验和见解。文章指出，随着框架的发展，人们越来越注重细粒度的响应式系统，以便更好地管理状态和提高性能。作者介绍了 Qwik 框架的特点，该框架将组件序列化为 HTML，从而实现了无缝的客户端渲染和服务器端渲染的切换。</p>]]></content>
     </entry>
 </feed>
