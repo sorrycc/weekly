@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-24T23:56:11.415Z</updated>
+    <updated>2023-03-25T00:13:43.608Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[从 Web SQL 到 SQLite Wasm：数据库迁移指南 - Chrome 开发者]]></title>
+        <id>https://developer.chrome.com/en/blog/from-web-sql-to-sqlite-wasm/</id>
+        <link href="https://developer.chrome.com/en/blog/from-web-sql-to-sqlite-wasm/"/>
+        <updated>2023-03-25T00:01:43.981Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/from-web-sql-to-sqlite-wasm/">From Web SQL to SQLite Wasm: the database migration guide - Chrome Developers</a></p><p><strong>概要：</strong></p><p>本文介绍了如何将现有的 Web SQL 数据库迁移到基于 SQLite 数据库、编译为 Web Assembly（Wasm）并由 Origin Private File System 支持的 SQLite Wasm。作者提供了四个步骤，包括将 Web SQL 数据库翻译成 SQL 语句、导入数据到 SQLite Wasm、释放 Web SQL 存储空间以及在迁移后使用数据。通过这种方式，用户不会注意到他们的数据已经被迁移到 SQLite Wasm 中，并且不再存在于 Web SQL 中。虽然这个过程可能需要一些初始努力，但更强大、灵活和未来可扩展的数据库解决方案的好处使得它值得投资。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新的 React 文档似乎假装单页面应用程序不再存在 | Wasp]]></title>
         <id>https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist</id>
@@ -231,12 +238,5 @@
         <link href="https://socket.dev/blog/introducing-safe-npm"/>
         <updated>2023-03-19T07:42:04.069Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://socket.dev/blog/introducing-safe-npm">Introducing "safe npm", a Socket npm Wrapper - Socket</a></p><p><strong>概要：</strong></p><p>Socket 推出了一款名为 “safe npm” 的 CLI 工具，用于保护开发人员在使用 npm install 时免受恶意软件、拼写错误、安装脚本、抗议软件和遥测等方面的影响。该工具透明地包装了 npm 命令，并在安装过程中保护开发人员免受恶意软件、拼写错误、安装脚本、抗议软件、遥测等 11 种问题的影响。当开发人员尝试安装恶意或风险包时，Socket 会暂停安装并告知开发人员相关风险。开发人员可以选择停止安装并保护其计算机，也可以继续并接受风险。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - gajus/turbowatch：Node.js 的极速文件变更检测器和任务编排工具。]]></title>
-        <id>https://github.com/gajus/turbowatch/</id>
-        <link href="https://github.com/gajus/turbowatch/"/>
-        <updated>2023-03-19T07:34:09.828Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/gajus/turbowatch/">GitHub - gajus/turbowatch: Extremely fast file change detector and task orchestrator for Node.js.</a></p><p><strong>概要：</strong></p><p>Turbowatch 是一个用于 Node.js 的极快文件更改检测器和任务编排器。它可用于自动化响应文件更改的任何操作，例如运行（并自动重新启动）长时间运行的进程（如您的 Node.js 应用程序）或构建资产（如 Docker 镜像）。Turbowatch 提供了单个抽象来执行所有文件观察操作，并允许链接任意操作。它还支持日志记录、重试、防抖动、中断工作流、并发工作流等功能。Turbowatch 旨在为具有数十个或数百个相互依赖的构建步骤的单体库或其他复杂工作空间提供更多控制。</p>]]></content>
     </entry>
 </feed>
