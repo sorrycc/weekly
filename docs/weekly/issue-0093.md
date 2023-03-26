@@ -9,7 +9,20 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
-- 。
+ - Npm [细粒度权限令牌](https://github.blog/changelog/2023-03-21-general-availability-of-granular-access-token-on-npm/)正式发布
+ - framer motion [v10.6](https://www.framer.com/motion/animate-function/#controls) 发布，支持控制动画。
+ - Bun [v0.5.8](https://bun.sh/blog/bun-v0.5.8) 发布，测试加强等。
+ - prettier [v2.8.5](https://github.com/prettier/prettier/blob/main/CHANGELOG.md#285) 发布，支持 TS 5 。
+ - [zod](https://github.com/colinhacks/zod) 20k stars。
+ - Github 推出 [Copilot-x](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) 支持更多 AI 能力。
+ - Vercel Edge 支持部署 [remix](https://vercel.com/blog/vercel-remix-integration-with-edge-functions-support) 。
+ - Deno [v1.32](https://deno.com/blog/v1.32) 发布，增强 Nodejs 兼容等。
+ - Vite [v4.3.0-beta.0](https://github.com/vitejs/vite/blob/v4.3.0-beta.0/packages/vite/CHANGELOG.md) 发布，性能优化等。
+ - Hexo [v7.0.0-rc.1](https://github.com/hexojs/hexo/releases/tag/v7.0.0-rc1) 发布，准备迁移 TS 。
+ - playwright [v1.32.0](https://github.com/microsoft/playwright/releases/tag/v1.32.0) 发布，新 UI 等。
+ - [eslint-community](https://github.com/eslint-community) 组织成立。
+ - ChatGPT 推出[插件](https://openai.com/blog/chatgpt-plugins)功能。
+ - Docker Hub 表示 Free team [不会被取消](https://www.docker.com/developers/free-team-faq/)。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
