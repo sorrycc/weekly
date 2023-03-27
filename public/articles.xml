@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-25T00:13:43.608Z</updated>
+    <updated>2023-03-27T08:23:00.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT + 代码解释器 = 魔法]]></title>
+        <id>https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/</id>
+        <link href="https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/"/>
+        <updated>2023-03-27T06:26:08.425Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/">ChatGPT + Code Interpreter = Magic</a></p><p><strong>概要：</strong></p><p>OpenAI 正在测试在 ChatGPT 中运行代码和使用第三方插件的能力。OpenAI 宣布正在为 ChatGPT 开发插件，以扩展其功能。插件范围从像 WolframAlpha 和 OpenTable 这样的第三方工具，到我们的浏览插件和代码解释器，可以生成代码、运行代码、上传和下载从 csv 数据到图像的文件，并在 ChatGPT 界面内评估输出。目前，代码解释器使用 Python 和一小部分库运行。除了生成代码外，代码解释器还可以分析输出并在另一个函数中使用它。此外，ChatGPT 还可以分析数据（如电子表格），然后执行诸如制图之类的函数，因此对于编码和研究都是非常强大的工具。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从 Web SQL 到 SQLite Wasm：数据库迁移指南 - Chrome 开发者]]></title>
         <id>https://developer.chrome.com/en/blog/from-web-sql-to-sqlite-wasm/</id>
@@ -231,12 +238,5 @@
         <link href="https://remix.run/blog/future-flags"/>
         <updated>2023-03-19T08:02:31.022Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remix.run/blog/future-flags">Future Proofing Your Remix App</a></p><p><strong>概要：</strong></p><p>Remix, a web development framework, has introduced "Future Flags" to make major version upgrades smoother for users. Future Flags are feature flags for future features that allow developers to opt into breaking changes for the next version individually as they are released in the current version. This means that developers can adopt features incrementally and work out any kinks incrementally before releasing v2. Eventually, deprecation warnings will be added to the v1 releases to nudge users to the new behaviour. Then in v2, the old v1 approach is removed, along with the deprecations and flags, making the flagged behaviour the new default in v2.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 “安全 npm”，一个 Socket npm 包装器 - Socket]]></title>
-        <id>https://socket.dev/blog/introducing-safe-npm</id>
-        <link href="https://socket.dev/blog/introducing-safe-npm"/>
-        <updated>2023-03-19T07:42:04.069Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://socket.dev/blog/introducing-safe-npm">Introducing "safe npm", a Socket npm Wrapper - Socket</a></p><p><strong>概要：</strong></p><p>Socket 推出了一款名为 “safe npm” 的 CLI 工具，用于保护开发人员在使用 npm install 时免受恶意软件、拼写错误、安装脚本、抗议软件和遥测等方面的影响。该工具透明地包装了 npm 命令，并在安装过程中保护开发人员免受恶意软件、拼写错误、安装脚本、抗议软件、遥测等 11 种问题的影响。当开发人员尝试安装恶意或风险包时，Socket 会暂停安装并告知开发人员相关风险。开发人员可以选择停止安装并保护其计算机，也可以继续并接受风险。</p>]]></content>
     </entry>
 </feed>
