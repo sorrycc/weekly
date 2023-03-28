@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-28T02:37:30.299Z</updated>
+    <updated>2023-03-28T14:33:01.098Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[发布 v8.0.0・pnpm/pnpm]]></title>
+        <id>https://github.com/pnpm/pnpm/releases/tag/v8.0.0</id>
+        <link href="https://github.com/pnpm/pnpm/releases/tag/v8.0.0"/>
+        <updated>2023-03-28T14:23:03.802Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/pnpm/pnpm/releases/tag/v8.0.0">Release v8.0.0 · pnpm/pnpm</a></p><p><strong>概要：</strong></p><p>pnpm 发布了最新版本 v8，其中包括一些重要的更改和更新。首先，不再支持 Node.js 14，但是 pnpm 会随着 Node.js 一起打包，因此无论您安装哪个 Node.js 版本，pnpm 都将使用必要的 Node.js 运行时。其次，大多数配置更改与对等依赖关系有关，其中 auto-install-peers、dedupe-peer-dependents 和 resolve-peers-from-workspace-root 等设置已默认启用。此外，还采用了 Lockfile v6，该格式通过从软件包 ID 中删除哈希来提高锁定文件的可读性，并对导入器部分中的字段进行了一些重新排列。同时，pnpm-lock.yaml 文件也更加抗 git 合并冲突。最后，直接依赖项现在会被去重，如果一个依赖项同时存在于项目和工作区根目录中，则只会链接到工作区根目录。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 Svelte 的想法]]></title>
+        <id>https://tyhopp.com/notes/thoughts-on-svelte</id>
+        <link href="https://tyhopp.com/notes/thoughts-on-svelte"/>
+        <updated>2023-03-28T04:41:01.088Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tyhopp.com/notes/thoughts-on-svelte">Thoughts on Svelte</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在一个月内使用 Svelte 和 SvelteKit 构建个人 RSS 阅读器的经验，并分享了对 Svelte 的看法。作者认为 Svelte 的组件格式、内置存储和事件分发 API 是其优点，但反应语句、等待块和过渡动画 API 则是其缺点。作者表示，Svelte 适合个人项目，但可能不适合大型企业项目。最后，作者更新了一些评论，解决了对过渡动画 API 的疑虑。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React 漫游 tabindex]]></title>
         <id>https://www.joshuawootonn.com/react-roving-tabindex</id>
@@ -224,19 +238,5 @@
         <link href="https://pawelgrzybek.com/native-css-nesting-landed/"/>
         <updated>2023-03-19T13:45:47.967Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/native-css-nesting-landed/">Native CSS nesting landed | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了原生 CSS 嵌套的语法和用法，并与 Sass 的嵌套规则进行了比较。作者表示，原生 CSS 嵌套的语法应该对于熟悉 Sass 的人来说很容易理解。此外，文章还提到，CSS 嵌套是 CSS Nesting 规范的第一个版本，随着规范的演进，其功能和语法可能会发生变化。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - xenova/transformers.js：在您的浏览器中运行🤗变形金刚！]]></title>
-        <id>https://github.com/xenova/transformers.js</id>
-        <link href="https://github.com/xenova/transformers.js"/>
-        <updated>2023-03-19T09:17:05.588Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/xenova/transformers.js">GitHub - xenova/transformers.js: Run 🤗 Transformers in your browser!</a></p><p><strong>概要：</strong></p><p>Transformers.js 是一个可以在浏览器中运行的🤗 Transformers 库，支持 BERT、ALBERT、DistilBERT、T5、T5v1.1、FLAN-T5、GPT2、BART、CodeGen、Whisper、CLIP、Vision Transformer 和 VisionEncoderDecoder 等模型，可用于各种任务，包括遮蔽语言建模、文本分类、文本到文本生成、翻译、摘要、问答、文本生成、自动语音识别、图像分类、零样本图像分类和图像到文本。用户可以通过 https://xenova.github.io/transformers.js/ 体验 demo。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 react.dev]]></title>
-        <id>https://react.dev/blog/2023/03/16/introducing-react-dev</id>
-        <link href="https://react.dev/blog/2023/03/16/introducing-react-dev"/>
-        <updated>2023-03-19T08:44:54.669Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/03/16/introducing-react-dev">Introducing react.dev</a></p><p><strong>概要：</strong></p><p>React 官方文档网站已经更新，现在的网址是 react.dev。新网站教授使用函数组件和 Hooks 的现代 React，并包括了图表、插图、挑战和 600 多个交互式示例。旧版 React 文档网站已移至 legacy.reactjs.org。新网站分为 “学习 React” 和 “API 参考” 两个主要部分，前者是一个自定进度的课程，后者提供每个 React API 的详细信息和用法示例。新网站还添加了很多沙盒，让用户可以快速玩转 React API、探索想法并检查理解。</p>]]></content>
     </entry>
 </feed>
