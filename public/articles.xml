@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-27T08:23:00.168Z</updated>
+    <updated>2023-03-28T02:37:30.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[React 漫游 tabindex]]></title>
+        <id>https://www.joshuawootonn.com/react-roving-tabindex</id>
+        <link href="https://www.joshuawootonn.com/react-roving-tabindex"/>
+        <updated>2023-03-28T02:36:10.958Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshuawootonn.com/react-roving-tabindex">React roving tabindex</a></p><p><strong>概要：</strong></p><p>本文介绍了 roving tabindex 的概念，即在组内跟踪焦点以便记住上一个聚焦的元素。作者使用 React 创建了一个按钮列表，并通过添加键盘导航来实现 roving tabindex 功能。文章详细讲解了如何从列表中获取元素顺序、如何在 onKeyDown 中找到当前焦点元素的索引并进行下一步操作，以及如何将状态移动到 context 中以实现可重用性等问题。最后，作者还提到了一些需要注意的地方，例如在 Safari 中 onClick 事件不会触发 onFocus 等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[构建 Ghostwriter 聊天程序]]></title>
+        <id>https://blog.replit.com/ghostwriter-building</id>
+        <link href="https://blog.replit.com/ghostwriter-building"/>
+        <updated>2023-03-27T16:33:36.516Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/ghostwriter-building">Building Ghostwriter Chat</a></p><p><strong>概要：</strong></p><p>Replit 推出了一款名为 Ghostwriter Chat 的人工智能（AI）辅助编程工具。Ghostwriter Chat 是一个基于大型语言模型（LLM）的聊天应用程序，可帮助开发人员在不离开 IDE 的情况下解决问题。该工具可以利用文件上下文、聊天历史记录和程序输出等信息来帮助用户编写代码、回答问题或调试错误。Ghostwriter Debugger 是 Replit 的另一个 AI 工具，可在出现错误时自动警告用户，并允许单击即可进行调试。随着 AI 和 LLMs 变得更加强大，Ghostwriter Chat 将继续改进，未来版本将变得更加智能、更快、更强大。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT + 代码解释器 = 魔法]]></title>
         <id>https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/</id>
@@ -224,19 +238,5 @@
         <link href="https://react.dev/blog/2023/03/16/introducing-react-dev"/>
         <updated>2023-03-19T08:44:54.669Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/03/16/introducing-react-dev">Introducing react.dev</a></p><p><strong>概要：</strong></p><p>React 官方文档网站已经更新，现在的网址是 react.dev。新网站教授使用函数组件和 Hooks 的现代 React，并包括了图表、插图、挑战和 600 多个交互式示例。旧版 React 文档网站已移至 legacy.reactjs.org。新网站分为 “学习 React” 和 “API 参考” 两个主要部分，前者是一个自定进度的课程，后者提供每个 React API 的详细信息和用法示例。新网站还添加了很多沙盒，让用户可以快速玩转 React API、探索想法并检查理解。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - anc95/ChatGPT-CodeReview: 🐥 由 ChatGPT 驱动的代码审查机器人]]></title>
-        <id>https://github.com/anc95/ChatGPT-CodeReview</id>
-        <link href="https://github.com/anc95/ChatGPT-CodeReview"/>
-        <updated>2023-03-19T08:33:11.569Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/anc95/ChatGPT-CodeReview">GitHub - anc95/ChatGPT-CodeReview: 🐥 A code review bot powered by ChatGPT</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 CodeReview BOT 的代码审查机器人，它由 ChatGPT 驱动。该机器人可以在创建新的 Pull 请求时自动进行代码审查，并在 PR 时间轴 / 文件更改部分显示审查信息。此外，当您更新拉取请求时，cr 机器人将重新审查更改的文件。使用方法包括安装、配置和使用，同时提供了使用 Github Actions 和自托管两种方式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[未来保障您的混音应用程序]]></title>
-        <id>https://remix.run/blog/future-flags</id>
-        <link href="https://remix.run/blog/future-flags"/>
-        <updated>2023-03-19T08:02:31.022Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remix.run/blog/future-flags">Future Proofing Your Remix App</a></p><p><strong>概要：</strong></p><p>Remix, a web development framework, has introduced "Future Flags" to make major version upgrades smoother for users. Future Flags are feature flags for future features that allow developers to opt into breaking changes for the next version individually as they are released in the current version. This means that developers can adopt features incrementally and work out any kinks incrementally before releasing v2. Eventually, deprecation warnings will be added to the v1 releases to nudge users to the new behaviour. Then in v2, the old v1 approach is removed, along with the deprecations and flags, making the flagged behaviour the new default in v2.</p>]]></content>
     </entry>
 </feed>
