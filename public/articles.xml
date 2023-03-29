@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-29T01:06:04.340Z</updated>
+    <updated>2023-03-29T01:07:17.161Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[宣布 GitHub Actions 扩展适用于 VS Code | GitHub 博客]]></title>
+        <id>https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/</id>
+        <link href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/"/>
+        <updated>2023-03-29T01:07:07.609Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/">Announcing the GitHub Actions extension for VS Code | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 发布了官方的 GitHub Actions VS Code 扩展程序的公共测试版。该扩展程序支持编写和编辑工作流程，并帮助用户管理工作流程运行，无需离开 IDE。使用该扩展程序，用户可以在不离开编辑器的情况下管理工作流程，轻松监控存储库中的工作流程运行，取消和重新运行它们，或者为手动触发的工作流程触发新的运行。此外，用户还可以列出所有受支持级别（组织、存储库和环境）的可用密钥和变量。扩展程序提供了语法高亮、集成文档、验证和代码完成等功能，以提高编辑工作流程的体验。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[介绍 Nuxt DevTools・Nuxt]]></title>
         <id>https://nuxt.com/blog/introducing-nuxt-devtools</id>
@@ -231,12 +238,5 @@
         <link href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and"/>
         <updated>2023-03-19T14:25:34.198Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and">Repeat yourself, do more than one thing, and rewrite everything</a></p><p><strong>概要：</strong></p><p>编程中的常见建议 “不要重复自己”（DRY）可能会导致更多问题，而不是解决问题。过于严格地遵循这个原则可能会导致程序员创建一个具有四个布尔标志和一系列行为矩阵的函数，并在更改代码时需要小心地进行导航。将事物分成简单的单元可能会导致笨拙的组合和协调交叉变化的困难。避免重写意味着它们通常被推迟到没有成功的机会。但是，有时候遵循这个建议的最佳方法是做相反的事情：采用特性开关并不断重写代码，将事物汇集在一起以便更容易管理它们之间的协调，并重复自己以避免在一个函数中实现所有内容。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不要使用过时的机器人]]></title>
-        <id>https://fvsch.com/stale-bots</id>
-        <link href="https://fvsch.com/stale-bots"/>
-        <updated>2023-03-19T14:24:50.555Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fvsch.com/stale-bots">Don’t use stale bots</a></p><p><strong>概要：</strong></p><p>本文讨论了软件项目中的 “过时机器人” 问题。过时机器人是指在一段时间内没有活动的情况下，自动将问题标记为 “已关闭” 的自动化流程。使用过时机器人会导致用户体验变差，因为它们可能会关闭具有很好复现步骤、截图和评论的问题，这会让用户觉得他们的努力不被重视。此外，过时机器人也会导致重复问题增加，因为关闭的问题不会出现在搜索结果中。文章建议替代过时机器人的方法包括：接受大量开放问题、设置问题筛选流程、制定项目管理计划等。</p>]]></content>
     </entry>
 </feed>
