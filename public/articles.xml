@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-29T01:07:17.161Z</updated>
+    <updated>2023-03-29T04:31:17.670Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么工程师需要写作]]></title>
+        <id>https://www.developing.dev/p/why-engineers-need-to-write</id>
+        <link href="https://www.developing.dev/p/why-engineers-need-to-write"/>
+        <updated>2023-03-29T02:58:58.691Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developing.dev/p/why-engineers-need-to-write">Why Engineers Need To Write</a></p><p><strong>概要：</strong></p><p>本文讨论了写作在软件工程中的重要性。软件工程师需要写技术问题、代码评论和设计文档等，因为编写软件是协作的过程。优秀的写作能力可以提高软件工程师的效率和影响力。此外，写作还是影响他人最可扩展的方式之一。即使未来 AI 工具可以代替我们写作，写作仍然有价值，因为它可以强制将思维转化为连贯的逻辑叙述，同时也能够激发更多的创意。因此，写作对于软件工程师来说是一项必备技能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.3：扩展的颜色调色板、ESM/TS 支持、逻辑属性等 - Tailwind CSS]]></title>
+        <id>https://tailwindcss.com/blog/tailwindcss-v3-3</id>
+        <link href="https://tailwindcss.com/blog/tailwindcss-v3-3"/>
+        <updated>2023-03-29T02:03:43.886Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tailwindcss.com/blog/tailwindcss-v3-3">Tailwind CSS v3.3: Extended color palette, ESM/TS support, logical properties, and more - Tailwind CSS</a></p><p><strong>概要：</strong></p><p>Tailwind CSS 发布了 3.3 版本，带来了用户一直期待的一些新功能以及一些未知但有用的新功能。其中包括扩展颜色调色板、ESM 和 TypeScript 支持、简化 RTL 支持、精细调整渐变颜色停止位置、一键截断多行文本、新的行高修改器、无 var () 的 CSS 变量、可配置字体变量设置、新的列表样式图像工具和连字符工具等。此外，该版本还添加了更多的逻辑属性实用程序，以便在 LTR 和 RTL 语言之间进行样式设置。升级项目只需从 npm 安装最新版本即可。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个完整的视觉指南，帮助理解 Node.js 事件循环]]></title>
+        <id>https://www.builder.io/blog/visual-guide-to-nodejs-event-loop</id>
+        <link href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop"/>
+        <updated>2023-03-29T01:11:57.940Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop">A Complete Visual Guide to Understanding the Node.js Event Loop</a></p><p><strong>概要：</strong></p><p>本文介绍了 Node.js 事件循环的视觉指南。文章首先回顾了 JavaScript 中的异步编程，然后介绍了 Node.js 运行时和其核心组件之一的 libuv 库。接着，文章解释了在 Node.js 运行时中代码执行的过程，并探讨了 libuv 如何处理异步操作。最后，文章详细介绍了事件循环的工作原理和不同队列的优先级顺序。通过这篇文章，读者可以更好地理解 Node.js 事件循环，从而编写出更高效的应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 和 Rust：全栈开发的创新方法]]></title>
+        <id>https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development</id>
+        <link href="https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development"/>
+        <updated>2023-03-29T01:11:41.118Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development">Next.js and Rust: An Innovative Approach to Full-Stack Development</a></p><p><strong>概要：</strong></p><p>Shuttle, a cloud development platform, has released a Node.js CLI package that allows users to quickly create an application with a Rust backend using Axum, a popular Rust web framework. The article focuses on the Rust side of the app, which is a notes app with a login portal that can register users and reset passwords. The frontend uses React.js/Next.js. Shuttle simplifies deployment by allowing users to define infrastructure directly in their code without the need for external files. The article provides step-by-step instructions on how to set up the backend, including creating a router and adding CRUD functionality. Deployment with shuttle is also covered.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[宣布 GitHub Actions 扩展适用于 VS Code | GitHub 博客]]></title>
         <id>https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/</id>
@@ -210,33 +238,5 @@
         <link href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/"/>
         <updated>2023-03-21T04:25:39.556Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/">The End of Front-End Development</a></p><p><strong>概要：</strong></p><p>很多初入行的开发者越来越担心人工智能的崛起，他们看到了像 GPT-4 这样的工具越来越令人印象深刻的演示，担心等到他们精通 HTML/CSS/JS 时，就没有任何工作机会了。然而，作者并不认为 Web 开发人员的工作将会消失。虽然 AI 会改变一些事情，但并不是人们所说的那种可怕的方式。作者认为最有可能的情况是，像 GPT-4 这样的工具将被整合到开发工具中，用于增强熟练开发人员的能力。而且，如果每个开发人员都变得更有效率，那么需求肯定会超过供应，因此总的开发人员数量可能会增加。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你需要知道平衡！CSS 平衡！| pawelgrzybek.com]]></title>
-        <id>https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/</id>
-        <link href="https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/"/>
-        <updated>2023-03-20T13:06:23.086Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/you-need-to-know-the-balance-css-balance/">You need to know the balance! CSS balance! | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了 CSS Text Module Level 4 的一项新功能 ——text-wrap: balance。该功能可以在多行文本中更好地分配剩余空间，避免出现排版上的问题。然而，由于其算法需要大量资源，目前仅限于文本长度较短的情况下使用。规范草案将此限制设置为 10 行，但当前的 Google Chrome Canary 实现将此功能限制为 4 行。未来，可能不再需要 React Wrap Balancer 等工具。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么我们将 package.json 支持添加到 Deno 中]]></title>
-        <id>https://deno.com/blog/package-json-support</id>
-        <link href="https://deno.com/blog/package-json-support"/>
-        <updated>2023-03-20T04:08:58.299Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/package-json-support">Why We Added package.json Support to Deno</a></p><p><strong>概要：</strong></p><p>Deno 最新版本的发布引入了一个重大变化：通过支持 package.json，提供了增强的 Node 和 NPM 兼容性。这一更新引发了关于我们的优先级是否发生了变化的问题，因为 Deno 长期以来一直被视为与 Node 不同的道路开拓者。事实上，在第一个 Deno 演示中，明确提到了 package.json 是一个遗憾。因此，许多用户对此发展感到惊讶。本文将解决这些问题，分享我们不断发展的思想，并概述我们的未来目标。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 useImperativeHandle 进行细调 refs]]></title>
-        <id>https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/</id>
-        <link href="https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/"/>
-        <updated>2023-03-20T04:07:57.935Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/">Fine-tuning refs with useImperativeHandle</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中使用 refs 和 useImperativeHandle 的方法。Refs 是一种用于在组件之间传递数据的机制，可以让你访问 DOM 节点并使用原生 JavaScript DOM API 对其进行操作。useImperativeHandle 允许你自定义要公开的 ref 处理程序，以便只公开子组件的特定方法。然而，需要注意的是，在 React 中，最好不要使用 refs 来实现可以通过 props 实现的命令式行为，因为这违反了 React 的核心原则。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[重复自己，做更多的事情，重新书写一切。]]></title>
-        <id>https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and</id>
-        <link href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and"/>
-        <updated>2023-03-19T14:25:34.198Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and">Repeat yourself, do more than one thing, and rewrite everything</a></p><p><strong>概要：</strong></p><p>编程中的常见建议 “不要重复自己”（DRY）可能会导致更多问题，而不是解决问题。过于严格地遵循这个原则可能会导致程序员创建一个具有四个布尔标志和一系列行为矩阵的函数，并在更改代码时需要小心地进行导航。将事物分成简单的单元可能会导致笨拙的组合和协调交叉变化的困难。避免重写意味着它们通常被推迟到没有成功的机会。但是，有时候遵循这个建议的最佳方法是做相反的事情：采用特性开关并不断重写代码，将事物汇集在一起以便更容易管理它们之间的协调，并重复自己以避免在一个函数中实现所有内容。</p>]]></content>
     </entry>
 </feed>
