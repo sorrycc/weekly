@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-28T14:33:01.098Z</updated>
+    <updated>2023-03-29T01:06:04.340Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[介绍 Nuxt DevTools・Nuxt]]></title>
+        <id>https://nuxt.com/blog/introducing-nuxt-devtools</id>
+        <link href="https://nuxt.com/blog/introducing-nuxt-devtools"/>
+        <updated>2023-03-28T15:22:48.486Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/introducing-nuxt-devtools">Introducing Nuxt DevTools · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt DevTools 是一种新工具，旨在帮助开发人员了解 Nuxt 应用程序并进一步提高开发体验。该工具提供了更好的透明度，可以找到性能瓶颈并帮助您管理应用程序和配置。它作为实验性模块发布，并在安装后添加一个小图标，点击它将打开 DevTools 面板。该工具包括许多功能，如页面、组件、导入、模块、挂钩、应用程序配置、负载和数据、终端等。Nuxt DevTools 还可以扩展，允许模块贡献其自己的视图，以提供其集成的交互式数据和游乐场。未来，Nuxt DevTools 计划添加更多功能，同时探索以更直观和有趣的方式呈现数据的方法。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布 v8.0.0・pnpm/pnpm]]></title>
         <id>https://github.com/pnpm/pnpm/releases/tag/v8.0.0</id>
@@ -231,12 +238,5 @@
         <link href="https://fvsch.com/stale-bots"/>
         <updated>2023-03-19T14:24:50.555Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fvsch.com/stale-bots">Don’t use stale bots</a></p><p><strong>概要：</strong></p><p>本文讨论了软件项目中的 “过时机器人” 问题。过时机器人是指在一段时间内没有活动的情况下，自动将问题标记为 “已关闭” 的自动化流程。使用过时机器人会导致用户体验变差，因为它们可能会关闭具有很好复现步骤、截图和评论的问题，这会让用户觉得他们的努力不被重视。此外，过时机器人也会导致重复问题增加，因为关闭的问题不会出现在搜索结果中。文章建议替代过时机器人的方法包括：接受大量开放问题、设置问题筛选流程、制定项目管理计划等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[本地 CSS 嵌套已经到达 | pawelgrzybek.com]]></title>
-        <id>https://pawelgrzybek.com/native-css-nesting-landed/</id>
-        <link href="https://pawelgrzybek.com/native-css-nesting-landed/"/>
-        <updated>2023-03-19T13:45:47.967Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/native-css-nesting-landed/">Native CSS nesting landed | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>本文介绍了原生 CSS 嵌套的语法和用法，并与 Sass 的嵌套规则进行了比较。作者表示，原生 CSS 嵌套的语法应该对于熟悉 Sass 的人来说很容易理解。此外，文章还提到，CSS 嵌套是 CSS Nesting 规范的第一个版本，随着规范的演进，其功能和语法可能会发生变化。</p>]]></content>
     </entry>
 </feed>
