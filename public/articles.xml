@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-29T04:50:53.263Z</updated>
+    <updated>2023-03-30T00:20:08.118Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[从 Create React App (CRA) 迁移到 Vite]]></title>
+        <id>https://www.robinwieruch.de/vite-create-react-app/</id>
+        <link href="https://www.robinwieruch.de/vite-create-react-app/"/>
+        <updated>2023-03-29T09:29:25.243Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/vite-create-react-app/">Migrate to Vite from Create React App (CRA)</a></p><p><strong>概要：</strong></p><p>本文介绍了如何将现有的 Create React App（CRA）项目迁移到 Vite，以创建一个现代的 React 单页应用程序。作者提供了一份快速迁移指南，包括安装 Vite 和相关依赖、更改 package.json 文件中的脚本、重命名 JSX 文件的扩展名等步骤。此外，如果需要保留 ESLint、TypeScript、react-testing-library 等配置，作者还提供了相应的教程链接。最后，作者列举了一些可能出现的问题及其解决方案。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么工程师需要写作]]></title>
         <id>https://www.developing.dev/p/why-engineers-need-to-write</id>
@@ -231,12 +238,5 @@
         <link href="https://dagster.io/blog/fake-stars"/>
         <updated>2023-03-21T04:34:12.852Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dagster.io/blog/fake-stars">Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery | Dagster Blog</a></p><p><strong>概要：</strong></p><p>GitHub stars 是 GitHub 上社交证明的主要指标之一。然而，虚假的 stars 也会影响高风险决策，如企业使用哪些项目、哪些创业公司获得资金以及哪些公司有才华的专业人士加入。Dagster 团队发现了一些新的开源项目突然在几天内获得数百个星星，这让他们产生了怀疑。因此，他们购买了一些虚假的 stars，并通过 GitHub REST API 和 GitHub Archive 数据库运行了一些 repos 测试。他们采用了两种方法来识别虚假 stars：识别明显的伪造和识别复杂的伪造。最终，他们发现了一个简单的 “低活跃度” 启发式，可以检测到许多（但不是全部）涉嫌伪造的账户。另外，他们使用了无监督聚类技术来识别更复杂的虚假账户。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[前端开发的终结]]></title>
-        <id>https://www.joshwcomeau.com/blog/the-end-of-frontend-development/</id>
-        <link href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/"/>
-        <updated>2023-03-21T04:25:39.556Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/blog/the-end-of-frontend-development/">The End of Front-End Development</a></p><p><strong>概要：</strong></p><p>很多初入行的开发者越来越担心人工智能的崛起，他们看到了像 GPT-4 这样的工具越来越令人印象深刻的演示，担心等到他们精通 HTML/CSS/JS 时，就没有任何工作机会了。然而，作者并不认为 Web 开发人员的工作将会消失。虽然 AI 会改变一些事情，但并不是人们所说的那种可怕的方式。作者认为最有可能的情况是，像 GPT-4 这样的工具将被整合到开发工具中，用于增强熟练开发人员的能力。而且，如果每个开发人员都变得更有效率，那么需求肯定会超过供应，因此总的开发人员数量可能会增加。</p>]]></content>
     </entry>
 </feed>
