@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-30T00:20:08.118Z</updated>
+    <updated>2023-03-30T09:50:47.903Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[成为一名千倍工程师或者不惜一切尝试。]]></title>
+        <id>https://kadekillary.work/posts/1000x-eng/</id>
+        <link href="https://kadekillary.work/posts/1000x-eng/"/>
+        <updated>2023-03-30T00:58:12.217Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kadekillary.work/posts/1000x-eng/">become a 1000x engineer or die tryin'</a></p><p><strong>概要：</strong></p><p>本文介绍如何通过一系列命令行包装函数来使用 OpenAI API 提高程序员的生产力。作者首先介绍了如何获取 OpenAI API 密钥，然后演示了如何使用 API 来回答各种问题、生成数据集、创建图像等。作者认为，未来的开发者生产力将会是一个重要的竞争优势，而采用借助人工智能的工作流程可能会更加高效。虽然这并不意味着程序员将被替代，但它提供了一种解决模糊领域中更大问题的有趣新方法。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布罗马 v12 版本发布]]></title>
+        <id>https://rome.tools/blog/2023/03/28/rome12/</id>
+        <link href="https://rome.tools/blog/2023/03/28/rome12/"/>
+        <updated>2023-03-30T00:31:32.694Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rome.tools/blog/2023/03/28/rome12/">Announcing Rome v12</a></p><p><strong>概要：</strong></p><p>Rome 版本 12 已推出，新增了 JSON 支持、新的 lint 规则、导入排序等功能。Rome 现在支持 JSON 文件，用户可以通过 CLI 或 LSP 格式化 JSON 文件，并在解析 JSON 文件时使用 Rome 的诊断工具。此外，Rome 还支持 TypeScript 4.7 和 TypeScript 5.0 的所有新功能。该版本还提供了导入排序功能，用户可以通过配置文件控制该功能。Rome 还增强了配置文件的诊断和恢复功能，以及自动发现配置文件和指定配置文件路径的功能。该版本还添加了新的 lint 规则和更多配置选项。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从 Create React App (CRA) 迁移到 Vite]]></title>
         <id>https://www.robinwieruch.de/vite-create-react-app/</id>
@@ -224,19 +238,5 @@
 基础知识
 
 对于我们的基本反应系统，我们将创建两个原语：createSignal 和 createEffect。备忘录（又称 createMemo）是反应性的第</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SPA 视图过渡在 Chrome 111 中实现 - Chrome 开发者]]></title>
-        <id>https://developer.chrome.com/blog/spa-view-transitions-land/</id>
-        <link href="https://developer.chrome.com/blog/spa-view-transitions-land/"/>
-        <updated>2023-03-21T04:35:25.858Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/spa-view-transitions-land/">SPA view transitions land in Chrome 111 - Chrome Developers</a></p><p><strong>概要：</strong></p><p>View Transition API 是一种可以在单个步骤中更新 DOM 的 API，同时生成两种状态之间的动画过渡。该功能目前只在 Chrome 浏览器上可用，但可以作为逐步增强使用。View Transitions API 设计成可以跨同源文档工作，下一步将优化它的性能和扩展性。该 API 还支持多种扩展，包括文档之间的转换、组合器驱动的动画、范围转换、嵌套转换组、转换类别等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Dagster、dbt 和 BigQuery 追踪假的 GitHub Star 黑市 | Dagster 博客]]></title>
-        <id>https://dagster.io/blog/fake-stars</id>
-        <link href="https://dagster.io/blog/fake-stars"/>
-        <updated>2023-03-21T04:34:12.852Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dagster.io/blog/fake-stars">Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery | Dagster Blog</a></p><p><strong>概要：</strong></p><p>GitHub stars 是 GitHub 上社交证明的主要指标之一。然而，虚假的 stars 也会影响高风险决策，如企业使用哪些项目、哪些创业公司获得资金以及哪些公司有才华的专业人士加入。Dagster 团队发现了一些新的开源项目突然在几天内获得数百个星星，这让他们产生了怀疑。因此，他们购买了一些虚假的 stars，并通过 GitHub REST API 和 GitHub Archive 数据库运行了一些 repos 测试。他们采用了两种方法来识别虚假 stars：识别明显的伪造和识别复杂的伪造。最终，他们发现了一个简单的 “低活跃度” 启发式，可以检测到许多（但不是全部）涉嫌伪造的账户。另外，他们使用了无监督聚类技术来识别更复杂的虚假账户。</p>]]></content>
     </entry>
 </feed>
