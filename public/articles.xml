@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-03-30T09:50:55.048Z</updated>
+    <updated>2023-03-31T05:27:19.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[发布 react-router@6.10.0・remix-run/react-router]]></title>
+        <id>https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0</id>
+        <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0"/>
+        <updated>2023-03-31T05:26:36.504Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0">Release react-router@6.10.0 · remix-run/react-router</a></p><p><strong>概要：</strong></p><p>React Router 6.10.0 发布，增加了一些数据路由标志，包括 future.v7_normalizeFormMethod，可以将 useNavigation () 和 useFetcher () 的 formMethod 字段规范化为大写 HTTP 方法，以与 fetch ()（以及某些 Remix）行为对齐。此外，还修复了一些错误，并更新了 @remix-run/web-fetch@4.3.3。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[成为一名千倍工程师或者不惜一切尝试。]]></title>
         <id>https://kadekillary.work/posts/1000x-eng/</id>
@@ -213,30 +220,5 @@
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackmd.io/@0u1u3zEAQAO0iYWVAStEvw/rJFCoM4Di">Server First Framework - HackMD</a></p><p><strong>概要：</strong></p><p>该文章提出了一个名为 “Server First Framework” 的框架概念，预计将于 2023 年推出。作者认为，虽然过去十年的单页面应用程序（SPA）教会了我们很多东西，但我们现在携带了太多负担。设计面向服务器的框架时，要避免使用过多的同构倾向。
 
 该框架的初始页面呈现与 Islands 框架非常相似。所有组件都是经过服务器渲染并发送到浏览器的。客户端组件道具被序列化，并启动任何资源内部的客户端组件。客户端组件被收集并且被水合（如果流式传输可用）。对于后续的导航，路由器将使用下一个 URL（包括当前 URL）请求服务器。服务器能够处理它以确定需要呈现哪些路由部分。同时，客户端请求下一个 URL 所需的所有 Islands 以加载代码。服务器仅呈现新路由部分，跳过呈现客户端组件，但仍然序列化道具。客户端接收响应，并能够使用 HTML 差异交换路由输出。在核心部分，变异遵循 MPA 的模式。您发送数据，服务器响应表示该更改的新标记。您可以将其视为表单提交。该请求响应下一页，因此处理程序可能会使用重定向 / 无效返回语法，即使它们都作为同一服务器响应的一部分进行处理。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[编写你自己的响应式信号库]]></title>
-        <id>https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/</id>
-        <link href="https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/"/>
-        <updated>2023-03-21T04:35:53.580Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/">Writing Your Own Reactive Signal Library</a></p><p><strong>概要：</strong></p><p>近来，前端领域出现了对细粒度反应性的新发现，这是一种通过使用三个主要原语：信号、效果和备忘录来构建反应式用户界面的风格。最近，我们看到像 Angular、Preact 和 Qwik 这样的框架在其现有框架中添加了信号。当然，SolidJS 是我选择的框架，创建者 Ryan Carniato 也引领了前端框架中信号的流行趋势。
-
-什么是信号？
-
-“信号” 这个名字并不特别描述性，所以它可能会让人感到有点困惑，不知道它提供了什么好处，以及它与 RxJS Observables 之类的东西有何不同。SolidJS 提供了一个很好的定义：
-
-信号是事件发射器，它们保存订阅列表。每当它们的值发生变化时，它们就会通知其订阅者。
-
-- SolidJS 文档
-
-如果这不完全有意义，不用担心 —— 我们将通过编写自己的信号来学习！
-
-为什么要创建自己的信号？
-
-如果所有这些库都已经提供了信号原语，为什么我们要编写自己的信号呢？实际上，主要是作为一种学习体验！我不一定建议使用我们编写的内容来代替 Solid 等框架，因为它包含了针对不同边缘情况的更高级优化。相反，这种做法将帮助您更好地理解 Solid 和反应性的工作方式。
-
-基础知识
-
-对于我们的基本反应系统，我们将创建两个原语：createSignal 和 createEffect。备忘录（又称 createMemo）是反应性的第</p>]]></content>
     </entry>
 </feed>
