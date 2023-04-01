@@ -13,7 +13,29 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
-- 。
+ - [AsyncContext](https://github.com/tc39/proposal-async-context) 提案进入 Stage 2 。
+ - [Import Assert](https://github.com/tc39/proposal-import-attributes) 提案更名进入 Stage 3 。
+ - esbuild [v0.17.14](https://github.com/evanw/esbuild/releases/tag/v0.17.14) 发布，支持 TS 5 等。
+ - Prisma [30k](https://github.com/prisma/prisma) stars 。
+ - [Import maps](https://web.dev/import-maps-in-all-modern-browsers/) 现在跨浏览器支持。
+ - Vue 3 新增 [defineOptions](https://github.com/vuejs/core/pull/5738) 。
+ - Pnpm [v8.0](https://github.com/pnpm/pnpm/releases/tag/v8.0.0) 发布，选项调整等。
+ - Rome [v12](https://rome.tools/blog/2023/03/28/rome12/) 发布，支持 TS 5 等。
+ - Tailwind [v3.3](https://tailwindcss.com/blog/tailwindcss-v3-3) 发布，支持更多工具类等。
+ - Safari [v16.4](https://webkit.org/blog/13966/webkit-features-in-safari-16-4/) 发布，支持 property 等。
+ - Vercel Serverless 支持[流式传输](https://twitter.com/vercel/status/1640818809249443841)。
+ - Vercel 支持 Pnpm [v8](https://vercel.com/changelog/automatic-pnpm-v8-support) 。
+ - Netlify 企业使用最多的框架是 [Nextjs](https://www.netlify.com/blog/framework-popularity-on-netlify/) 。
+ - shadcn ui [10k](https://github.com/shadcn/ui) stars 。
+ - React Native Storybook [6.5](https://storybook.js.org/blog/storybook-for-react-native-6-5/) 发布，新 CSF 格式等。
+ - CSS [三角函数](https://web.dev/css-trig-functions/)已普遍可用。
+ - Safari [v16.5 Beta](https://developer.apple.com/documentation/safari-release-notes/safari-16_5-release-notes) 支持 Nested CSS 。
+ - Font-Awesome [v6.4.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/6.4.0) 发布，新增图标等。
+ - Github actions vscode [扩展](https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/)发布。
+ - qwik [v0.100.0](https://github.com/BuilderIO/qwik/releases/tag/v0.100.0) 发布，准备弃用 API 等。
+ - Vscode [v1.77](https://code.visualstudio.com/updates/v1_77) 发布，a11y 改进等。
+ - Storybook [v7.0.0](https://github.com/storybookjs/storybook/releases/tag/v7.0.0) 发布，支持多框架等。
+ - Twitter 公开推荐[算法](https://github.com/twitter/the-algorithm)。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
