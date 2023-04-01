@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-01T04:37:37.626Z</updated>
+    <updated>2023-04-01T05:22:21.362Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[你并不太老（转向人工智能）]]></title>
+        <id>https://www.latent.space/p/not-old</id>
+        <link href="https://www.latent.space/p/not-old"/>
+        <updated>2023-04-01T05:21:47.837Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.latent.space/p/not-old">You Are Not Too Old (To Pivot Into AI)</a></p><p><strong>概要：</strong></p><p>本文讨论了职业转型的话题，特别是在人工智能领域。作者分享了自己从金融行业转型到软件工程和开发者关系的经历，并提出了一些原因，说明为什么你不会太老而无法进行职业转型。首先，人工智能领域的潜力非常广泛，增长速度很快。其次，学习人工智能的时间比你想象的要短。第三，除了成为专业机器学习研究员外，还有其他许多贡献领域，例如软件工程和产品化。最后，挑战自己对大脑有益，可以帮助建立认知储备，防止神经退行性疾病的发生。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Qwik 达到了 RC 里程碑。]]></title>
         <id>https://www.builder.io/blog/qwik-rc-milestone</id>
@@ -211,12 +218,5 @@
         <link href="https://unix.bio/posts/how-to-get-npm-package-name"/>
         <updated>2023-03-23T15:11:49.813Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://unix.bio/posts/how-to-get-npm-package-name">怎样获得一个很酷的 NPM 包名</a></p><p><strong>概要：</strong></p><p>本文介绍了如何通过 NPM 的争议政策来申请将占位包的所有权转移给自己。对于长期没有更新或仅仅是占位的包，NPM 工作人员会在 4 周后自动将包的 owner 设置为申请者的用户名。申请者需要发送邮件至包的所有者并抄送 support@npmjs.com，并说明申请转移的原因、包名以及自己的 npm username。值得注意的是，如果要转移的包存在商标版权侵犯或者是占位问题，NPM 工作人员将立刻处理。关于组织与用户名的转移，组织可以直接联系 support@npmjs.com，而用户名的转移则被认为是 “几乎不可能的”。如果发现包含违反当地法律、不合适的内容、侵权等问题，可以举报滥用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[您可能不需要的钩子]]></title>
-        <id>https://reacttraining.com/blog/hooks-you-probably-dont-need</id>
-        <link href="https://reacttraining.com/blog/hooks-you-probably-dont-need"/>
-        <updated>2023-03-23T00:45:31.085Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reacttraining.com/blog/hooks-you-probably-dont-need">Hooks You Probably Don't Need</a></p><p><strong>概要：</strong></p><p>本文介绍了 React Hooks 中一些不太常用的 Hook，包括 useDebugValue ()、useInsertionEffect ()、useImperativeHandle ()、useSyncExternalStore ()、useDeferredValue ()、useEffect () 和 useLayoutEffect ()。作者将这些 Hook 按照使用频率分为三类：不太可能使用的（红色）、偶尔会使用的（橙色）和根据具体情况而定的（绿色）。其中，useDebugValue () 用于在 DevTools 中为自定义 Hook 创建标签以进行调试；useInsertionEffect () 主要面向 CSS-in-JS 库开发者；useImperativeHandle () 用于限制或自定义向父组件暴露的 DOM 元素 API；useSyncExternalStore () 适用于第三方状态管理库或公开可变值和事件的浏览器 API；useDeferredValue () 用于显示过时内容并在加载新内容时延迟重新渲染 UI；useEffect () 用于处理渲染阶段的副作用，如数据获取；useLayoutEffect () 则用于在 UI 渲染前运行同步副作用。</p>]]></content>
     </entry>
 </feed>
