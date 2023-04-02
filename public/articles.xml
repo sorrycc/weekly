@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-01T05:22:21.362Z</updated>
+    <updated>2023-04-02T13:58:40.498Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[头脑风暴提出问题，而不是想法 —— 骡子设计]]></title>
+        <id>https://www.muledesign.com/blog/brainstorm-questions</id>
+        <link href="https://www.muledesign.com/blog/brainstorm-questions"/>
+        <updated>2023-04-02T13:51:07.934Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.muledesign.com/blog/brainstorm-questions">Brainstorm Questions Not Ideas — Mule Design</a></p><p><strong>概要：</strong></p><p>本文指出，我们过分高估了设计中 “想法” 的重要性。有意义的创新建立在对现有概念、对象和情境的新颖联系上，而不是为了自我满足的原创性。我们所赞美的闪光点通常是对世界的敏锐观察，通过批判性思维和评论得到改进。然而，因为许多人在学校和职业生涯中都因为有正确答案和聪明的想法而受到奖励和称赞，设计中的质疑和评论可能会变得非常不舒服。因此，与其沉浸在群体思维的舒适枕头中，还不如开始提出问题。一个快速有效的解决方法是停止与团队一起集思广益，而是开始一起集思广益提出问题。本文提供了一些运行对话的步骤。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 Socket AI - ChatGPT 驱动的威胁分析 - Socket]]></title>
+        <id>https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis</id>
+        <link href="https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis"/>
+        <updated>2023-04-01T05:32:32.600Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis">Introducing Socket AI – ChatGPT-Powered Threat Analysis - Socket</a></p><p><strong>概要：</strong></p><p>Socket 宣布推出基于人工智能的源代码分析解决方案，利用 ChatGPT 检查每个 npm 和 PyPI 包。当检测到包中存在潜在问题时，Socket 会将其标记并请求 ChatGPT 对其进行总结。Socket 的 AI 警告应视为建议而非绝对分析，因为 LLMs 的限制意味着跨文件分析等任务仍需持续改进。此外，Socket 还在不断增强静态分析功能，未来预计将进一步整合 LLMs，实现更复杂的 AI 引导分析。Socket 希望通过集中分析，为开发者提供最大的受益和保护，并以最小的成本摊销运行 AI 分析所有共享开源依赖项的费用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS 遮罩 - Ahmad Shadeed]]></title>
+        <id>https://ishadeed.com/article/css-masking/</id>
+        <link href="https://ishadeed.com/article/css-masking/"/>
+        <updated>2023-04-01T05:23:43.789Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://ishadeed.com/article/css-masking/">CSS Masking - Ahmad Shadeed</a></p><p><strong>概要：</strong></p><p>本文介绍了 CSS 遮罩的定义、用法和几个实际应用案例。遮罩是一种隐藏元素部分内容而不删除它的技术，可以使用形状或渐变来显示或隐藏元素的部分内容。在 CSS 中，有几种方法可以遮罩元素，包括 mask 属性、clip-path 属性和 SVG <mask>。本文主要关注 mask 属性，它类似于 background 属性，并且可以使用图像和渐变进行遮罩。作者提供了许多实际应用案例，包括淡化图像、遮罩文本内容、遮罩列表、有趣的图像效果等。最后，作者推荐了一些进一步学习 CSS 遮罩的资源。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你并不太老（转向人工智能）]]></title>
         <id>https://www.latent.space/p/not-old</id>
@@ -195,28 +216,5 @@
         <link href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/"/>
         <updated>2023-03-24T04:19:12.641Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/">Speeding up the JavaScript ecosystem - npm scripts</a></p><p><strong>概要：</strong></p><p>本文介绍了如何优化 JavaScript 中常用的 “npm scripts”，以减少其约 400 毫秒的开销。作者通过分析 npm CLI 的代码结构，发现大部分时间都花费在加载组成 npm CLI 的模块上。作者通过惰性加载、减小模块图等方式，将运行 npm scripts 的时间从 400 毫秒降至 22 毫秒。作者指出，JavaScript 工具中普遍存在的问题是没有简便的方法来缩短模块图，因此可以考虑在发布时将代码打包，以减少加载时间。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[通过针对高密度显示进行优化，将图像大小减半。]]></title>
-        <id>https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/</id>
-        <link href="https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/"/>
-        <updated>2023-03-24T04:18:06.088Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/">Halve the size of images by optimising for high density displays</a></p><p><strong>概要：</strong></p><p>本文探讨了高密度屏幕的普及程度以及如何为其优化图像。作者指出，80% 的用户使用 DPR（设备像素比）为 1.5 或更高的屏幕，因此在设计网站时需要考虑到这一点。对于高密度屏幕，需要将图像压缩至用户的设备像素而不是 CSS 像素，以确保图像清晰度。作者提供了一种简单的方法来处理图像，即将最大尺寸乘以 2 并使用较低质量进行编码，以便在高密度屏幕上始终显示清晰的图像。此外，作者还介绍了一种更加完整的方法，包括使用 <picture> 和 < source > 标签，在不同的屏幕分辨率下提供不同的图像，并提供了示例代码。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vite 5・vitejs/vite・讨论 #12466]]></title>
-        <id>https://github.com/vitejs/vite/discussions/12466</id>
-        <link href="https://github.com/vitejs/vite/discussions/12466"/>
-        <updated>2023-03-24T00:02:52.735Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vitejs/vite/discussions/12466">Vite 5 · vitejs/vite · Discussion #12466</a></p><p><strong>概要：</strong></p><p>Vite 开始讨论下一个主要版本的需求，以收集来自下游生态系统和用户的早期反馈。Vite 5 将在 2023 年 9 月 11 日发布，支持 Node 14 和 Node 16，不支持非活动 LTS 版本（Node 15、Node 17、Node 19）。Vite 5 的开发将重点关注性能方面的改进，并可能引入一些破坏性变化。同时，Vite 还在考虑将 vite-node 移动到 Vite 核心作为 SSR 的替代方案。开发者可以在 Vite 5 的里程碑中跟踪新问题和 PR。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get a cool NPM package name? 
-
-如何获得一个酷炫的 NPM 包名？]]></title>
-        <id>https://unix.bio/posts/how-to-get-npm-package-name</id>
-        <link href="https://unix.bio/posts/how-to-get-npm-package-name"/>
-        <updated>2023-03-23T15:11:49.813Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://unix.bio/posts/how-to-get-npm-package-name">怎样获得一个很酷的 NPM 包名</a></p><p><strong>概要：</strong></p><p>本文介绍了如何通过 NPM 的争议政策来申请将占位包的所有权转移给自己。对于长期没有更新或仅仅是占位的包，NPM 工作人员会在 4 周后自动将包的 owner 设置为申请者的用户名。申请者需要发送邮件至包的所有者并抄送 support@npmjs.com，并说明申请转移的原因、包名以及自己的 npm username。值得注意的是，如果要转移的包存在商标版权侵犯或者是占位问题，NPM 工作人员将立刻处理。关于组织与用户名的转移，组织可以直接联系 support@npmjs.com，而用户名的转移则被认为是 “几乎不可能的”。如果发现包含违反当地法律、不合适的内容、侵权等问题，可以举报滥用。</p>]]></content>
     </entry>
 </feed>
