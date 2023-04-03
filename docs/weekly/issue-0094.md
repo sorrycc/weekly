@@ -3,12 +3,7 @@ title: "Socket AI、CSS 遮罩、Qwik RC、Source Map、1000X 工程师、Rome 1
 titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01AjgrL01ifZMDpdUyP_!!6000000004440-2-tps-1344-896.png_1200x1200.jpg"
 titleImageCaption: "Cute and adorable cartoon Korean girl, along side pet"
 publishedAt: "2023/04/03"
-draft: true
 ---
-
-## 一周要事
-
-。
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
@@ -68,6 +63,7 @@ draft: true
 
 - Umi 例行每周四发一版，我觉得有趣的功能包括，1）create-umi 支持从 npm 模版创建项目，2）自动检测 esbuild 压缩后 helper 会导致 var 变量冲突的问题。
 - 新学到小 Tip +1，随时带「指甲刀」，永远保持合适的指甲长度敲击键盘。
+- 学习了下 embedding，把我之前[写的文章录到机器人里](https://t.me/yqtalk/317)了，可以回答问题。
 
 ## 星球更新
 > 不知不觉我的知识星球已维护近一年，更了 280 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
