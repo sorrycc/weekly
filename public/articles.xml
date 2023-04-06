@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-06T09:31:39.604Z</updated>
+    <updated>2023-04-06T12:31:36.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么你今天应该写一篇博客文章]]></title>
+        <id>https://dzone.com//articles/why-you-should-write-blog-post</id>
+        <link href="https://dzone.com//articles/why-you-should-write-blog-post"/>
+        <updated>2023-04-06T12:28:53.407Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dzone.com//articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></p><p><strong>概要：</strong></p><p>本文列举了维护博客的几个原因，包括技术备忘录、分享知识、职业简历、记录人生和保持联系等。博客可以成为你未来自己的技术备忘录，也可以与他人分享你的发现，同时也是展示你职业能力和价值观的一个平台。此外，博客还可以成为记录你人生的一部分，帮助你保持与远方朋友的联系。无论如何，开始写博客吧，即使你认为自己没有什么好写的或者不够好的写手。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023 年从两个角度学习 React]]></title>
         <id>https://www.robinwieruch.de/learning-react/</id>
@@ -209,12 +216,5 @@
         <link href="https://blog.replit.com/ghostwriter-building"/>
         <updated>2023-03-27T16:33:36.516Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/ghostwriter-building">Building Ghostwriter Chat</a></p><p><strong>概要：</strong></p><p>Replit 推出了一款名为 Ghostwriter Chat 的人工智能（AI）辅助编程工具。Ghostwriter Chat 是一个基于大型语言模型（LLM）的聊天应用程序，可帮助开发人员在不离开 IDE 的情况下解决问题。该工具可以利用文件上下文、聊天历史记录和程序输出等信息来帮助用户编写代码、回答问题或调试错误。Ghostwriter Debugger 是 Replit 的另一个 AI 工具，可在出现错误时自动警告用户，并允许单击即可进行调试。随着 AI 和 LLMs 变得更加强大，Ghostwriter Chat 将继续改进，未来版本将变得更加智能、更快、更强大。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT + 代码解释器 = 魔法]]></title>
-        <id>https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/</id>
-        <link href="https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/"/>
-        <updated>2023-03-27T06:26:08.425Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://andrewmayneblog.wordpress.com/2023/03/23/chatgpt-code-interpreter-magic/">ChatGPT + Code Interpreter = Magic</a></p><p><strong>概要：</strong></p><p>OpenAI 正在测试在 ChatGPT 中运行代码和使用第三方插件的能力。OpenAI 宣布正在为 ChatGPT 开发插件，以扩展其功能。插件范围从像 WolframAlpha 和 OpenTable 这样的第三方工具，到我们的浏览插件和代码解释器，可以生成代码、运行代码、上传和下载从 csv 数据到图像的文件，并在 ChatGPT 界面内评估输出。目前，代码解释器使用 Python 和一小部分库运行。除了生成代码外，代码解释器还可以分析输出并在另一个函数中使用它。此外，ChatGPT 还可以分析数据（如电子表格），然后执行诸如制图之类的函数，因此对于编码和研究都是非常强大的工具。</p>]]></content>
     </entry>
 </feed>
