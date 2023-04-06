@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-06T12:31:36.687Z</updated>
+    <updated>2023-04-06T15:24:09.206Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Chrome 推出 WebGPU - Chrome 开发者]]></title>
+        <id>https://developer.chrome.com/blog/webgpu-release/</id>
+        <link href="https://developer.chrome.com/blog/webgpu-release/"/>
+        <updated>2023-04-06T12:38:50.463Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/webgpu-release/">Chrome ships WebGPU - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Chrome 团队宣布，WebGPU 现在默认在 Chrome 113 中可用，目前处于 Beta 渠道。WebGPU 是一种新的 Web 图形 API，提供了显著的优势，例如相同图形的 JavaScript 工作量大大减少，机器学习模型推断提高了三倍以上。这是由于更灵活的 GPU 编程和访问 WebGL 无法提供的高级功能。此次 WebGPU 的首次发布可在 ChromeOS、macOS 和 Windows 上使用，其他平台的支持将在今年晚些时候推出。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chakra UI 的未来]]></title>
+        <id>https://www.adebayosegun.com/blog/the-future-of-chakra-ui</id>
+        <link href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui"/>
+        <updated>2023-04-06T12:32:22.229Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui">The future of Chakra UI</a></p><p><strong>概要：</strong></p><p>Chakra UI is a popular open-source component library for building accessible user interfaces (UIs) with React. The project's creator, Segun Adebayo, has announced plans to transition Chakra UI into a "Design System Infrastructure" to meet the changing expectations of component libraries. The plan includes breaking down the monolithic codebase into smaller, independent projects that are framework-agnostic and easy to maintain. Some of the new projects include Panda, a zero-runtime CSS-in-JS system; Zag, a low-level state machine library used to build all the components in Chakra UI; Ark, a headless component library based on Zag.js; and Ultra, a SaaS platform for creating, managing, and distributing design tokens.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么你今天应该写一篇博客文章]]></title>
         <id>https://dzone.com//articles/why-you-should-write-blog-post</id>
@@ -202,19 +216,5 @@
         <link href="https://tyhopp.com/notes/thoughts-on-svelte"/>
         <updated>2023-03-28T04:41:01.088Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tyhopp.com/notes/thoughts-on-svelte">Thoughts on Svelte</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在一个月内使用 Svelte 和 SvelteKit 构建个人 RSS 阅读器的经验，并分享了对 Svelte 的看法。作者认为 Svelte 的组件格式、内置存储和事件分发 API 是其优点，但反应语句、等待块和过渡动画 API 则是其缺点。作者表示，Svelte 适合个人项目，但可能不适合大型企业项目。最后，作者更新了一些评论，解决了对过渡动画 API 的疑虑。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 漫游 tabindex]]></title>
-        <id>https://www.joshuawootonn.com/react-roving-tabindex</id>
-        <link href="https://www.joshuawootonn.com/react-roving-tabindex"/>
-        <updated>2023-03-28T02:36:10.958Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshuawootonn.com/react-roving-tabindex">React roving tabindex</a></p><p><strong>概要：</strong></p><p>本文介绍了 roving tabindex 的概念，即在组内跟踪焦点以便记住上一个聚焦的元素。作者使用 React 创建了一个按钮列表，并通过添加键盘导航来实现 roving tabindex 功能。文章详细讲解了如何从列表中获取元素顺序、如何在 onKeyDown 中找到当前焦点元素的索引并进行下一步操作，以及如何将状态移动到 context 中以实现可重用性等问题。最后，作者还提到了一些需要注意的地方，例如在 Safari 中 onClick 事件不会触发 onFocus 等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[构建 Ghostwriter 聊天程序]]></title>
-        <id>https://blog.replit.com/ghostwriter-building</id>
-        <link href="https://blog.replit.com/ghostwriter-building"/>
-        <updated>2023-03-27T16:33:36.516Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/ghostwriter-building">Building Ghostwriter Chat</a></p><p><strong>概要：</strong></p><p>Replit 推出了一款名为 Ghostwriter Chat 的人工智能（AI）辅助编程工具。Ghostwriter Chat 是一个基于大型语言模型（LLM）的聊天应用程序，可帮助开发人员在不离开 IDE 的情况下解决问题。该工具可以利用文件上下文、聊天历史记录和程序输出等信息来帮助用户编写代码、回答问题或调试错误。Ghostwriter Debugger 是 Replit 的另一个 AI 工具，可在出现错误时自动警告用户，并允许单击即可进行调试。随着 AI 和 LLMs 变得更加强大，Ghostwriter Chat 将继续改进，未来版本将变得更加智能、更快、更强大。</p>]]></content>
     </entry>
 </feed>
