@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-06T15:24:09.206Z</updated>
+    <updated>2023-04-07T04:25:33.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[程序员被打断：中断和上下文切换的真正成本]]></title>
+        <id>https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/</id>
+        <link href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/"/>
+        <updated>2023-04-07T04:23:25.035Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a></p><p><strong>概要：</strong></p><p>编程中的中断和上下文切换是直接影响程序员日常生产力的两个最昂贵因素。虽然没有永久避免它们的方法，但有一些有趣的策略可以最小化它们的影响。根据各种科学研究，经过中断后需要至少 10-15 分钟才能重新进入 “区域”（Parnin:10，vanSolingen:98）。基于任务的复杂性和你的精神能量，肯定需要更多的时间。当你有很多未完成的代码时，中断发生时，返回到流状态可能会更具挑战性。在编程人员中，这个概念是众所周知的，但可能只有少数人听说过双钟表匠寓言，它完美地捕捉了所有这些细节，即使对于非程序员来说也是如此。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 13.3]]></title>
+        <id>https://nextjs.org/blog/next-13-3</id>
+        <link href="https://nextjs.org/blog/next-13-3"/>
+        <updated>2023-04-07T02:03:49.198Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/next-13-3">Next.js 13.3</a></p><p><strong>概要：</strong></p><p>Next.js 13.3 发布，新增了社区请求的流行功能，包括：基于文件的元数据 API、动态 Open Graph 图像、应用程序路由器的静态导出、并行路由和拦截等。其中，基于文件的元数据 API 可以方便地自定义页面以改善 SEO 和 Web 共享；动态 Open Graph 图像可以使用 JSX、HTML 和 CSS 生成 OG 图像；应用程序路由器的静态导出支持完全静态导出，可避免在客户端加载不必要的 JavaScript 代码，减小捆绑大小并实现更快的页面加载；并行路由和拦截可以同时在同一视图中呈现一个或多个页面，如复杂的仪表板或模态框。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 推出 WebGPU - Chrome 开发者]]></title>
         <id>https://developer.chrome.com/blog/webgpu-release/</id>
@@ -202,19 +216,5 @@
         <link href="https://nuxt.com/blog/introducing-nuxt-devtools"/>
         <updated>2023-03-28T15:22:48.486Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/introducing-nuxt-devtools">Introducing Nuxt DevTools · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt DevTools 是一种新工具，旨在帮助开发人员了解 Nuxt 应用程序并进一步提高开发体验。该工具提供了更好的透明度，可以找到性能瓶颈并帮助您管理应用程序和配置。它作为实验性模块发布，并在安装后添加一个小图标，点击它将打开 DevTools 面板。该工具包括许多功能，如页面、组件、导入、模块、挂钩、应用程序配置、负载和数据、终端等。Nuxt DevTools 还可以扩展，允许模块贡献其自己的视图，以提供其集成的交互式数据和游乐场。未来，Nuxt DevTools 计划添加更多功能，同时探索以更直观和有趣的方式呈现数据的方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v8.0.0・pnpm/pnpm]]></title>
-        <id>https://github.com/pnpm/pnpm/releases/tag/v8.0.0</id>
-        <link href="https://github.com/pnpm/pnpm/releases/tag/v8.0.0"/>
-        <updated>2023-03-28T14:23:03.802Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/pnpm/pnpm/releases/tag/v8.0.0">Release v8.0.0 · pnpm/pnpm</a></p><p><strong>概要：</strong></p><p>pnpm 发布了最新版本 v8，其中包括一些重要的更改和更新。首先，不再支持 Node.js 14，但是 pnpm 会随着 Node.js 一起打包，因此无论您安装哪个 Node.js 版本，pnpm 都将使用必要的 Node.js 运行时。其次，大多数配置更改与对等依赖关系有关，其中 auto-install-peers、dedupe-peer-dependents 和 resolve-peers-from-workspace-root 等设置已默认启用。此外，还采用了 Lockfile v6，该格式通过从软件包 ID 中删除哈希来提高锁定文件的可读性，并对导入器部分中的字段进行了一些重新排列。同时，pnpm-lock.yaml 文件也更加抗 git 合并冲突。最后，直接依赖项现在会被去重，如果一个依赖项同时存在于项目和工作区根目录中，则只会链接到工作区根目录。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于 Svelte 的想法]]></title>
-        <id>https://tyhopp.com/notes/thoughts-on-svelte</id>
-        <link href="https://tyhopp.com/notes/thoughts-on-svelte"/>
-        <updated>2023-03-28T04:41:01.088Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tyhopp.com/notes/thoughts-on-svelte">Thoughts on Svelte</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在一个月内使用 Svelte 和 SvelteKit 构建个人 RSS 阅读器的经验，并分享了对 Svelte 的看法。作者认为 Svelte 的组件格式、内置存储和事件分发 API 是其优点，但反应语句、等待块和过渡动画 API 则是其缺点。作者表示，Svelte 适合个人项目，但可能不适合大型企业项目。最后，作者更新了一些评论，解决了对过渡动画 API 的疑虑。</p>]]></content>
     </entry>
 </feed>
