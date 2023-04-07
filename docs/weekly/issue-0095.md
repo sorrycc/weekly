@@ -1,7 +1,7 @@
 ---
 title: "WIP"
-titleImage: ""
-titleImageCaption: ""
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01smQ8uI1WMXVxnEPvt_!!6000000002774-2-tps-1344-896.png_1200x1200.jpg"
+titleImageCaption: "an asian city, in the style of japanese traditional art influence"
 publishedAt: "2023/04/10"
 draft: true
 ---
@@ -24,13 +24,15 @@ draft: true
 > 关于 Umi 和我最近的进展。欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)。
 
 - Umi 例行每周四发一版，我觉得有趣的功能包括，1）。
-- 。
+- 制作了[几个 Twitter List 的 RSS 订阅源](https://t.me/yqtalk/320)，欢迎订阅。功能有两个，1）把 twitter list 转成 rss，可以加各种 filter 提升信噪比，比如只包含带链接和 Fav 数大于 200 的，2）把标题用 DeepL 翻译成中文。
 
 ## 星球更新
-> 不知不觉我的知识星球已维护近一年，更了 270 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
+> 不知不觉我的知识星球已维护近一年，更了 280 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
 
-- 。
+- 285 - 《MiniCC 和 OpenAI Embedding》
+- 284 - 《手写 Toy Bundler》
+- 283 - 《前端方向和出品人选题》
 
 ## 每周一图
 
-。
+![](https://img.alicdn.com/imgextra/i1/O1CN01naZcT81LhBaxkXm3i_!!6000000001330-0-tps-500-621.jpg)

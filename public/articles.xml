@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-07T04:25:33.299Z</updated>
+    <updated>2023-04-07T08:25:58.580Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何成为一名 - 10x 工程师]]></title>
+        <id>https://taylor.town/-10x</id>
+        <link href="https://taylor.town/-10x"/>
+        <updated>2023-04-07T04:26:48.406Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://taylor.town/-10x">How to be a -10x Engineer</a></p><p><strong>概要：</strong></p><p>本文指出，虽然 “10 倍工程师” 可能是神话，但确实存在 “-10 倍工程师”。为了成为一名 “-10 倍工程师”，可以采用以下策略：使 10 个工程师的输出无效；尽可能在开发过程中更改需求以避免责任；创建 400 小时的忙碌工作；让团队执行类似于工作的任务；创建毫无意义的仪式等。此外，还可以浪费 400 小时的编译 / 构建时间，编写毫无意义的测试，将 10 个工程师困在技术讨论中等等。文章最后呼吁不要雇佣 “0 倍工程师” 和 “-1 倍工程师”，并且不要阻止 “-1 倍工程师” 被解雇。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[程序员被打断：中断和上下文切换的真正成本]]></title>
         <id>https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/</id>
@@ -209,12 +216,5 @@
         <link href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/"/>
         <updated>2023-03-29T01:07:07.609Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/">Announcing the GitHub Actions extension for VS Code | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 发布了官方的 GitHub Actions VS Code 扩展程序的公共测试版。该扩展程序支持编写和编辑工作流程，并帮助用户管理工作流程运行，无需离开 IDE。使用该扩展程序，用户可以在不离开编辑器的情况下管理工作流程，轻松监控存储库中的工作流程运行，取消和重新运行它们，或者为手动触发的工作流程触发新的运行。此外，用户还可以列出所有受支持级别（组织、存储库和环境）的可用密钥和变量。扩展程序提供了语法高亮、集成文档、验证和代码完成等功能，以提高编辑工作流程的体验。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Nuxt DevTools・Nuxt]]></title>
-        <id>https://nuxt.com/blog/introducing-nuxt-devtools</id>
-        <link href="https://nuxt.com/blog/introducing-nuxt-devtools"/>
-        <updated>2023-03-28T15:22:48.486Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/introducing-nuxt-devtools">Introducing Nuxt DevTools · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt DevTools 是一种新工具，旨在帮助开发人员了解 Nuxt 应用程序并进一步提高开发体验。该工具提供了更好的透明度，可以找到性能瓶颈并帮助您管理应用程序和配置。它作为实验性模块发布，并在安装后添加一个小图标，点击它将打开 DevTools 面板。该工具包括许多功能，如页面、组件、导入、模块、挂钩、应用程序配置、负载和数据、终端等。Nuxt DevTools 还可以扩展，允许模块贡献其自己的视图，以提供其集成的交互式数据和游乐场。未来，Nuxt DevTools 计划添加更多功能，同时探索以更直观和有趣的方式呈现数据的方法。</p>]]></content>
     </entry>
 </feed>
