@@ -13,7 +13,25 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
-- 。
+ - remix [v1.15.0](https://github.com/remix-run/remix/releases/tag/remix%401.15.0) 发布，API 更名等。
+ - valtio [v2](https://github.com/pmndrs/valtio/discussions/703) RFC，设计更改等。
+ - Vue 3 新增 [defineSlots](https://github.com/vuejs/core/pull/7982) 。
+ - Node [v20](https://github.com/nodejs/release#release-schedule) 将于 4.18 发布。
+ - Angular 支持 [hyration](https://github.com/angular/angular/pull/49666) 。
+ - [contentlayer](https://github.com/contentlayerdev/contentlayer/releases/tag/v0.3.1) 支持 RSC 。
+ - Github 开启[组织赞助](https://github.blog/2023-04-04-whats-new-with-github-sponsors/)。
+ - Electron [v24](https://www.electronjs.org/zh/blog/electron-24-0) 发布，API 更改等。
+ - Bun [v0.5.9](https://bun.sh/blog/bun-v0.5.9) 发布，测试功能改进等。
+ - Angular Signals [RFC](https://github.com/angular/angular/discussions/49685) 。
+ - Chrome [v112](https://developer.chrome.com/en/blog/new-in-chrome-112/) 发布，CSS 嵌套支持等。
+ - Unocss [10k](https://github.com/unocss/unocss) stars 。
+ - [WebGPU](https://developer.chrome.com/en/blog/webgpu-release/) 在 Chrome 113 默认启用。
+ - 暂停 Chrome 扩展 Manifest [v2](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/zQ77HkGmK9E/m/HjaaCIG-BQAJ) 的淘汰。
+ - Vercel [Edge Config](https://vercel.com/blog/vercel-edge-config-is-now-generally-available) 已普遍可用。
+ - Nextjs [v13.3](https://nextjs.org/blog/next-13-3) 发布，新路由约定等。
+ - Vue v3.3 新增 [`defineModel`](https://github.com/vuejs/core/pull/8018) 。
+ - AWS Lambda 支持[流式](https://aws.amazon.com/cn/about-aws/whats-new/2023/04/aws-lambda-response-payload-streaming/)响应。
+ - Vite [v4.3](https://twitter.com/sapphi_red/status/1644647019661893633) 比 Turbopack 启动快。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
