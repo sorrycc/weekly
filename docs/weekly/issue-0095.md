@@ -3,12 +3,7 @@ title: "-10x 工程师、Next.js、WebGPU、Chakra UI、写作"
 titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01oVK5W11FifB6TjCaM_!!6000000000521-2-tps-1456-816.png_1200x1200.jpg"
 titleImageCaption: "an asian city, in the style of japanese traditional art influence"
 publishedAt: "2023/04/10"
-draft: true
 ---
-
-## 一周要事
-
-。
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
