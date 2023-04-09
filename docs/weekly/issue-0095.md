@@ -49,7 +49,7 @@ draft: true
 > 关于 Umi 和我最近的进展。欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)。
 
 - Umi 偷懒了，每周未发版。
-- 制作了[几个 Twitter List 的 RSS 订阅源](https://t.me/yqtalk/320)，包含前端、AI，欢迎订阅。功能有两个，1）把 twitter list 转成 rss，可以加各种 filter 提升信噪比，比如只包含带链接和 Fav 数大于 200 的，2）把标题用 DeepL 翻译成中文。
+- 付费 rss.app，然后基于此制作了[几个 Twitter List 的 RSS 订阅源](https://t.me/yqtalk/320)，包含前端、AI，欢迎订阅。功能有两个，1）把 twitter list 转成 rss，可以加各种 filter 提升信噪比，比如只包含带链接和 Fav 数大于 200 的，2）把标题用 DeepL 翻译成中文。
 - 受邀成为 [GIAC 2023 深圳](https://giac.msup.com.cn/2023sz/home)的出品人，梳理了前端方向，并确定一些方向、团队和同学做分享，都是我自己也想听的内容，哈哈。
 - 梳理了一些 SOP，包括币安转账 SOP、MDH 周刊写作和发布 SOP、日更写作 SOP 等，不再需要把这些内容记录在脑子里了，感觉换个人也能完成 MDH 周刊的写作了。
 
