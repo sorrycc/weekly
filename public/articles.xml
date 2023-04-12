@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-12T04:28:27.429Z</updated>
+    <updated>2023-04-12T04:39:50.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Replit 赏金：打造和推出 MVP 的最佳场所]]></title>
+        <id>https://blog.replit.com/bounties-nat-dev</id>
+        <link href="https://blog.replit.com/bounties-nat-dev"/>
+        <updated>2023-04-12T04:39:27.047Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/bounties-nat-dev">Replit Bounties: The Best Place to Build and Launch MVPs</a></p><p><strong>概要：</strong></p><p>Nat Friedman, former CEO of GitHub, has launched a new project called nat.dev, a playground for developers to test and compare different large language models (LLMs). The project was created through Replit Bounties, a marketplace where anyone can work with software creators from the Replit community. Zain Huda, a software engineer at Meta, was selected as the developer to execute the full vision for the bounty after impressing Friedman with a working prototype of his vision. The website went on to become the most popular LLM-comparison tool in February 2023 and the team had to implement a credit system to mitigate costs. In April 2023, Nat open sourced the code to allow others to build their own playgrounds.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DRY vs SoC，一个艰难的选择 | Swizec Teller]]></title>
+        <id>https://swizec.com/blog/dry-vs-soc-a-difficult-choice/</id>
+        <link href="https://swizec.com/blog/dry-vs-soc-a-difficult-choice/"/>
+        <updated>2023-04-12T04:38:08.724Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://swizec.com/blog/dry-vs-soc-a-difficult-choice/">DRY vs SoC, a difficult choice | Swizec Teller</a></p><p><strong>概要：</strong></p><p>本文探讨了软件工程中两个重要的概念：DRY（不要重复自己）和 SoC（关注点分离）。作者指出，这两个概念并不是针对代码的规则，而是针对概念的规则。在应用这些概念时，需要关注的是业务概念是否相同，如果相同则可以使用 DRY，否则需要进行关注点分离。作者还提供了一些示例来说明如何应用这些概念。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3.4 · Nuxt]]></title>
         <id>https://nuxt.com/blog/v3-4</id>
@@ -202,19 +216,5 @@
         <link href="https://www.developing.dev/p/why-engineers-need-to-write"/>
         <updated>2023-03-29T02:58:58.691Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developing.dev/p/why-engineers-need-to-write">Why Engineers Need To Write</a></p><p><strong>概要：</strong></p><p>本文讨论了写作在软件工程中的重要性。软件工程师需要写技术问题、代码评论和设计文档等，因为编写软件是协作的过程。优秀的写作能力可以提高软件工程师的效率和影响力。此外，写作还是影响他人最可扩展的方式之一。即使未来 AI 工具可以代替我们写作，写作仍然有价值，因为它可以强制将思维转化为连贯的逻辑叙述，同时也能够激发更多的创意。因此，写作对于软件工程师来说是一项必备技能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.3：扩展的颜色调色板、ESM/TS 支持、逻辑属性等 - Tailwind CSS]]></title>
-        <id>https://tailwindcss.com/blog/tailwindcss-v3-3</id>
-        <link href="https://tailwindcss.com/blog/tailwindcss-v3-3"/>
-        <updated>2023-03-29T02:03:43.886Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tailwindcss.com/blog/tailwindcss-v3-3">Tailwind CSS v3.3: Extended color palette, ESM/TS support, logical properties, and more - Tailwind CSS</a></p><p><strong>概要：</strong></p><p>Tailwind CSS 发布了 3.3 版本，带来了用户一直期待的一些新功能以及一些未知但有用的新功能。其中包括扩展颜色调色板、ESM 和 TypeScript 支持、简化 RTL 支持、精细调整渐变颜色停止位置、一键截断多行文本、新的行高修改器、无 var () 的 CSS 变量、可配置字体变量设置、新的列表样式图像工具和连字符工具等。此外，该版本还添加了更多的逻辑属性实用程序，以便在 LTR 和 RTL 语言之间进行样式设置。升级项目只需从 npm 安装最新版本即可。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一个完整的视觉指南，帮助理解 Node.js 事件循环]]></title>
-        <id>https://www.builder.io/blog/visual-guide-to-nodejs-event-loop</id>
-        <link href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop"/>
-        <updated>2023-03-29T01:11:57.940Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop">A Complete Visual Guide to Understanding the Node.js Event Loop</a></p><p><strong>概要：</strong></p><p>本文介绍了 Node.js 事件循环的视觉指南。文章首先回顾了 JavaScript 中的异步编程，然后介绍了 Node.js 运行时和其核心组件之一的 libuv 库。接着，文章解释了在 Node.js 运行时中代码执行的过程，并探讨了 libuv 如何处理异步操作。最后，文章详细介绍了事件循环的工作原理和不同队列的优先级顺序。通过这篇文章，读者可以更好地理解 Node.js 事件循环，从而编写出更高效的应用程序。</p>]]></content>
     </entry>
 </feed>
