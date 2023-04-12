@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-07T08:25:58.580Z</updated>
+    <updated>2023-04-12T04:28:27.429Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[3.4 · Nuxt]]></title>
+        <id>https://nuxt.com/blog/v3-4</id>
+        <link href="https://nuxt.com/blog/v3-4"/>
+        <updated>2023-04-12T04:20:53.077Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-4">Nuxt 3.4 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt.js, the open-source framework for building Vue.js applications, has released version 3.4, which includes experimental support for Chromium-based browsers' new View Transitions API. This allows native browser transitions between unrelated elements on different pages. The release also features enhanced payload handling, including support for rich JavaScript types such as regular expressions, dates, Map and Set and BigInt, as well as NuxtError and Vue-specific objects like ref, reactive, shallowRef and shallowReactive. Other upgrades include better context transforms, object-syntax Nuxt plugins, and improvements to layers.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - ds300/lazyrepo: 用于 npm/pnpm/yarn monorepos 的缓存任务运行器。]]></title>
+        <id>https://github.com/ds300/lazyrepo</id>
+        <link href="https://github.com/ds300/lazyrepo"/>
+        <updated>2023-04-11T13:28:51.241Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/ds300/lazyrepo">GitHub - ds300/lazyrepo: Caching task runner for npm/pnpm/yarn monorepos.</a></p><p><strong>概要：</strong></p><p>lazyrepo 是一个针对 npm/pnpm/yarn monorepos 的零配置缓存任务运行器。它适合于 turborepo 所开创的领域：使 package.json “scripts” 扩展，而无需采用像 nx、bazel、rush 或 buck 这样的大型工业级构建系统。lazyrepo 非常快速，尽管它是用 TypeScript 编写而不是一些年轻、英俊、聪明、有趣的系统语言，但它比 turborepo 要快得多。除了性能之外，lazyrepo 还带来了一些重要的生活质量改善。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何成为一名 - 10x 工程师]]></title>
         <id>https://taylor.town/-10x</id>
@@ -202,19 +216,5 @@
         <link href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop"/>
         <updated>2023-03-29T01:11:57.940Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop">A Complete Visual Guide to Understanding the Node.js Event Loop</a></p><p><strong>概要：</strong></p><p>本文介绍了 Node.js 事件循环的视觉指南。文章首先回顾了 JavaScript 中的异步编程，然后介绍了 Node.js 运行时和其核心组件之一的 libuv 库。接着，文章解释了在 Node.js 运行时中代码执行的过程，并探讨了 libuv 如何处理异步操作。最后，文章详细介绍了事件循环的工作原理和不同队列的优先级顺序。通过这篇文章，读者可以更好地理解 Node.js 事件循环，从而编写出更高效的应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 和 Rust：全栈开发的创新方法]]></title>
-        <id>https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development</id>
-        <link href="https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development"/>
-        <updated>2023-03-29T01:11:41.118Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://joshmo.hashnode.dev/nextjs-and-rust-an-innovative-approach-to-full-stack-development">Next.js and Rust: An Innovative Approach to Full-Stack Development</a></p><p><strong>概要：</strong></p><p>Shuttle, a cloud development platform, has released a Node.js CLI package that allows users to quickly create an application with a Rust backend using Axum, a popular Rust web framework. The article focuses on the Rust side of the app, which is a notes app with a login portal that can register users and reset passwords. The frontend uses React.js/Next.js. Shuttle simplifies deployment by allowing users to define infrastructure directly in their code without the need for external files. The article provides step-by-step instructions on how to set up the backend, including creating a router and adding CRUD functionality. Deployment with shuttle is also covered.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 GitHub Actions 扩展适用于 VS Code | GitHub 博客]]></title>
-        <id>https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/</id>
-        <link href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/"/>
-        <updated>2023-03-29T01:07:07.609Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/">Announcing the GitHub Actions extension for VS Code | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub 发布了官方的 GitHub Actions VS Code 扩展程序的公共测试版。该扩展程序支持编写和编辑工作流程，并帮助用户管理工作流程运行，无需离开 IDE。使用该扩展程序，用户可以在不离开编辑器的情况下管理工作流程，轻松监控存储库中的工作流程运行，取消和重新运行它们，或者为手动触发的工作流程触发新的运行。此外，用户还可以列出所有受支持级别（组织、存储库和环境）的可用密钥和变量。扩展程序提供了语法高亮、集成文档、验证和代码完成等功能，以提高编辑工作流程的体验。</p>]]></content>
     </entry>
 </feed>
