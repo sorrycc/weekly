@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-13T00:30:43.950Z</updated>
+    <updated>2023-04-13T04:41:46.876Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Replit 部署 - 从想法到生产的最快方式]]></title>
+        <id>https://blog.replit.com/deployments-launch</id>
+        <link href="https://blog.replit.com/deployments-launch"/>
+        <updated>2023-04-13T04:39:32.564Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/deployments-launch">Replit Deployments - the fastest way from idea → production</a></p><p><strong>概要：</strong></p><p>Replit has launched its Deployments feature, which separates development and production environments to allow users to work on their app without affecting live users. It also enables users to add features and fix bugs and only deploy to users when ready. The feature includes isolated VM resources for improved security and performance, custom domain linking, and control over when apps are released to users. Replit Deployments is built on Google Cloud Platform and offers industry-leading security features such as data encryption in transit and at rest. The company is planning to add more features in the coming weeks and months.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用 LLM 替换我的最好的朋友，训练了 50 万个群聊消息]]></title>
+        <id>https://www.izzy.co/blogs/robo-boys.html</id>
+        <link href="https://www.izzy.co/blogs/robo-boys.html"/>
+        <updated>2023-04-13T04:16:32.348Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.izzy.co/blogs/robo-boys.html">Replacing my best friends with an LLM trained on 500,000 group chat messages</a></p><p><strong>概要：</strong></p><p>作者用一个大型语言模型训练了他和他的好友们在大学时期使用的聊天记录，并通过 Modal 和 Hex 完成了这个项目。作者将原始聊天数据转换成了可供微调的格式，然后使用 LLaMa 进行微调。最终，作者将模型部署到了 Modal 上，并建立了一个类似于 iMessage 的前端界面，使得所有人都可以与 “机器人男孩” 聊天。作者强烈鼓励大家尝试这种无聊但复杂的 AI 项目，因为它是一个入门级别的 AI 项目，可以让你更深入地了解 LLMs 以及如何针对特定场景进行微调。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RFC：`next/third-parties`・vercel/next.js・讨论 #48256]]></title>
         <id>https://github.com/vercel/next.js/discussions/48256</id>
@@ -202,19 +216,5 @@
         <link href="https://web.dev/source-maps/"/>
         <updated>2023-03-31T14:48:37.426Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://web.dev/source-maps/">What are source maps?</a></p><p><strong>概要：</strong></p><p>本文介绍了源代码映射（source maps）的基本知识，以及它们如何生成和改善调试体验。随着现代网页应用程序变得越来越复杂，开发人员使用各种工具来构建网页，这些工具需要一个构建过程将代码转换成浏览器可以理解的标准 HTML、JavaScript 和 CSS。然而，优化性能的压缩和合并文件会使调试变得更加困难，源代码映射就是为了解决这个问题而存在的。源代码映射是以 “.map” 结尾的文件，包含了关于编译后的代码如何映射回原始代码的重要信息，使开发人员能够轻松地进行调试。大多数构建工具都可以生成源代码映射文件，例如 Vite、webpack、Rollup、Parcel、esbuild 等。此外，源代码映射还支持扩展，开发人员可以自定义字段来帮助集中精力处理代码。但源代码映射也存在一</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[目前，每两个新的 Npm 软件包中就有一个是 SEO 垃圾邮件。]]></title>
-        <id>https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now</id>
-        <link href="https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now"/>
-        <updated>2023-03-31T14:46:19.968Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.sandworm.dev/one-in-two-new-npm-packages-is-seo-spam-right-now">One In Two New Npm Packages Is SEO Spam Right Now</a></p><p><strong>概要：</strong></p><p>据报道，超过一半（约 185,000 个）提交到 npm 的新软件包都是 SEO 垃圾邮件。这些空软件包只有一个 README 文件，其中包含指向各种恶意网站的链接。大多数垃圾邮件软件包来自一个针对俄语用户的 Telegram 频道。这些软件包的名称设置为与各种敏感主题的搜索匹配，如乌克兰战争或俄罗斯天然气公司的投资决策。另外，还出现了承诺免费 Fortnite V-Bucks 的虚假软件包。研究人员正在将所有已识别的垃圾邮件软件包报告给 npm。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何拥有充裕的时间]]></title>
-        <id>https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993</id>
-        <link href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993"/>
-        <updated>2023-03-31T14:10:41.035Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993">How to have buckets of time</a></p><p><strong>概要：</strong></p><p>本文介绍了一种管理时间的技巧，即将相关任务放入一个桶中，让这个桶积累直到满，然后一次性处理。这与试图在数不清的打断管道中捕捉每个任务形成对比，如果你让它们滴答滴答地流逝，它们会将你的一天淹没。作者强调，时间并不是稀缺资源，注意力才是，找到你的桶，培养耐心让它们填满，然后逐个清空。这是 10 倍生产力的窍门。</p>]]></content>
     </entry>
 </feed>
