@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-12T04:39:53.809Z</updated>
+    <updated>2023-04-13T00:30:43.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[RFC：`next/third-parties`・vercel/next.js・讨论 #48256]]></title>
+        <id>https://github.com/vercel/next.js/discussions/48256</id>
+        <link href="https://github.com/vercel/next.js/discussions/48256"/>
+        <updated>2023-04-13T00:21:35.665Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vercel/next.js/discussions/48256">RFC: `next/third-parties` · vercel/next.js · Discussion #48256</a></p><p><strong>概要：</strong></p><p>Next.js 计划推出 next/third-parties 包，以简化开发人员在应用程序中加载流行第三方库的体验。该包将提供预配置的包装器组件，以确保流行的第三方资源能够高效加载，并随着最佳实践的演变而持续高效。为了避免增加 Next.js 的安装 / 包大小，这个包可以单独存在于核心 next 库之外，但仍然在同一个 monorepo 中。此外，Next.js 还将考虑支持其他流行的第三方库，例如 Sentry、DataDog 和 Facebook Pixel。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何快速制作「九宫格」拼图：基于 ImageMagick 和快捷指令的方案 | 少数派会员 π+Prime]]></title>
+        <id>https://sspai.com/prime/story/tile-cropping-magick-shortcuts</id>
+        <link href="https://sspai.com/prime/story/tile-cropping-magick-shortcuts"/>
+        <updated>2023-04-13T00:21:18.160Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sspai.com/prime/story/tile-cropping-magick-shortcuts">怎样快速制作「九宫格」拼图：基于 ImageMagick 和快捷指令的方案 ｜ 少数派会员  π+Prime</a></p><p><strong>概要：</strong></p><p>本文介绍如何通过 ImageMagick 或快捷指令，简单免费地制作九宫格拼图。九宫格的制作往往需要第三方软件辅助，也是乱收费和侵犯隐私的重灾区。作者推荐基于 ImageMagick 的终端脚本版本；快捷指令版本可以作为 iOS 平台的后备方案。其中，-background 用来指定背景色，可以是颜色名称、HEX 值或 RGB 值等，不指定则默认用白色。-margin 用来指定四周的额外留白，接受的值是相对于原图长边的百分比，不指定则默认不额外留白。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - shadcn/taxonomy：一个使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。]]></title>
+        <id>https://github.com/shadcn/taxonomy</id>
+        <link href="https://github.com/shadcn/taxonomy"/>
+        <updated>2023-04-13T00:18:33.348Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/shadcn/taxonomy">GitHub - shadcn/taxonomy: An open source application built using the new router, server components and everything new in Next.js 13.</a></p><p><strong>概要：</strong></p><p>这是一个使用 Next.js 13 和服务器组件构建的开源应用程序，包括身份验证、订阅、API 路由、静态页面等功能。作者正在使用此项目作为实验来测试现代应用程序在 Next.js 13 和服务器组件中的工作方式。该应用程序使用 Radix UI 构建 UI 组件，使用 Prisma ORM 管理数据库，使用 Stripe 实现订阅功能，并使用 Zod 进行验证。目前还存在一些问题，例如 GitHub 身份验证不可用，但作者会继续更新并改进该应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布 v1.32.0・microsoft/playwright]]></title>
+        <id>https://github.com/microsoft/playwright/releases/tag/v1.32.0</id>
+        <link href="https://github.com/microsoft/playwright/releases/tag/v1.32.0"/>
+        <updated>2023-04-13T00:16:33.115Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/microsoft/playwright/releases/tag/v1.32.0">Release v1.32.0 · microsoft/playwright</a></p><p><strong>概要：</strong></p><p>Playwright v1.32 发布了 UI Mode（预览版），该模式允许您探索、运行和调试测试，并带有内置的观察模式。新的 API 包括页面.routeFromHAR () 和 browserContext.routeFromHAR () 中的选项 option: updateMode 和 option: updateContent，以及 TestInfo.testId 的新属性和 Tracing.startChunk () 方法中的新选项名称。注意：组件测试有一个重大变化，现在 @playwright/experimental-ct-react 仅支持 React 18。此版本还针对以下稳定通道进行了测试：Google Chrome 111 和 Microsoft Edge 111。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 WordPress Playground 和 WebAssembly 在浏览器中构建 WordPress 体验 - Chrome 开发者]]></title>
+        <id>https://developer.chrome.com/en/blog/wordpress-playground/</id>
+        <link href="https://developer.chrome.com/en/blog/wordpress-playground/"/>
+        <updated>2023-04-13T00:06:26.166Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/wordpress-playground/">Build in-browser WordPress experiences with WordPress Playground and WebAssembly - Chrome Developers</a></p><p><strong>概要：</strong></p><p>WordPress Playground 是一个完整的 WordPress 技术堆栈，包括 PHP 和数据库，直接在浏览器中运行。用户可以免费使用和定制嵌入在 playground.wordpress.net 上的 WordPress。此外，用户还可以将 WordPress Playground 嵌入到应用程序中，并使用 JavaScript 进行控制。该文章介绍了 WordPress Playground 如何帮助 WordPress 开发人员、它是如何工作的以及它对 WordPress 未来的意义。WordPress Playground 还支持 WebAssembly PHP，这使得用户可以在不安装 WordPress 的情况下使用它。最后，该文章提出了未来可能出现的一些新功能，例如交互式教程、多人编辑会话、分布式 WordPress 等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Replit 赏金：打造和推出 MVP 的最佳场所]]></title>
         <id>https://blog.replit.com/bounties-nat-dev</id>
@@ -181,40 +216,5 @@
         <link href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993"/>
         <updated>2023-03-31T14:10:41.035Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993">How to have buckets of time</a></p><p><strong>概要：</strong></p><p>本文介绍了一种管理时间的技巧，即将相关任务放入一个桶中，让这个桶积累直到满，然后一次性处理。这与试图在数不清的打断管道中捕捉每个任务形成对比，如果你让它们滴答滴答地流逝，它们会将你的一天淹没。作者强调，时间并不是稀缺资源，注意力才是，找到你的桶，培养耐心让它们填满，然后逐个清空。这是 10 倍生产力的窍门。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 react-router@6.10.0・remix-run/react-router]]></title>
-        <id>https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0</id>
-        <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0"/>
-        <updated>2023-03-31T05:26:36.504Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/react-router/releases/tag/react-router%406.10.0">Release react-router@6.10.0 · remix-run/react-router</a></p><p><strong>概要：</strong></p><p>React Router 6.10.0 发布，增加了一些数据路由标志，包括 future.v7_normalizeFormMethod，可以将 useNavigation () 和 useFetcher () 的 formMethod 字段规范化为大写 HTTP 方法，以与 fetch ()（以及某些 Remix）行为对齐。此外，还修复了一些错误，并更新了 @remix-run/web-fetch@4.3.3。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[成为一名千倍工程师或者不惜一切尝试。]]></title>
-        <id>https://kadekillary.work/posts/1000x-eng/</id>
-        <link href="https://kadekillary.work/posts/1000x-eng/"/>
-        <updated>2023-03-30T00:58:12.217Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kadekillary.work/posts/1000x-eng/">become a 1000x engineer or die tryin'</a></p><p><strong>概要：</strong></p><p>本文介绍如何通过一系列命令行包装函数来使用 OpenAI API 提高程序员的生产力。作者首先介绍了如何获取 OpenAI API 密钥，然后演示了如何使用 API 来回答各种问题、生成数据集、创建图像等。作者认为，未来的开发者生产力将会是一个重要的竞争优势，而采用借助人工智能的工作流程可能会更加高效。虽然这并不意味着程序员将被替代，但它提供了一种解决模糊领域中更大问题的有趣新方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布罗马 v12 版本发布]]></title>
-        <id>https://rome.tools/blog/2023/03/28/rome12/</id>
-        <link href="https://rome.tools/blog/2023/03/28/rome12/"/>
-        <updated>2023-03-30T00:31:32.694Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rome.tools/blog/2023/03/28/rome12/">Announcing Rome v12</a></p><p><strong>概要：</strong></p><p>Rome 版本 12 已推出，新增了 JSON 支持、新的 lint 规则、导入排序等功能。Rome 现在支持 JSON 文件，用户可以通过 CLI 或 LSP 格式化 JSON 文件，并在解析 JSON 文件时使用 Rome 的诊断工具。此外，Rome 还支持 TypeScript 4.7 和 TypeScript 5.0 的所有新功能。该版本还提供了导入排序功能，用户可以通过配置文件控制该功能。Rome 还增强了配置文件的诊断和恢复功能，以及自动发现配置文件和指定配置文件路径的功能。该版本还添加了新的 lint 规则和更多配置选项。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从 Create React App (CRA) 迁移到 Vite]]></title>
-        <id>https://www.robinwieruch.de/vite-create-react-app/</id>
-        <link href="https://www.robinwieruch.de/vite-create-react-app/"/>
-        <updated>2023-03-29T09:29:25.243Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/vite-create-react-app/">Migrate to Vite from Create React App (CRA)</a></p><p><strong>概要：</strong></p><p>本文介绍了如何将现有的 Create React App（CRA）项目迁移到 Vite，以创建一个现代的 React 单页应用程序。作者提供了一份快速迁移指南，包括安装 Vite 和相关依赖、更改 package.json 文件中的脚本、重命名 JSX 文件的扩展名等步骤。此外，如果需要保留 ESLint、TypeScript、react-testing-library 等配置，作者还提供了相应的教程链接。最后，作者列举了一些可能出现的问题及其解决方案。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么工程师需要写作]]></title>
-        <id>https://www.developing.dev/p/why-engineers-need-to-write</id>
-        <link href="https://www.developing.dev/p/why-engineers-need-to-write"/>
-        <updated>2023-03-29T02:58:58.691Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developing.dev/p/why-engineers-need-to-write">Why Engineers Need To Write</a></p><p><strong>概要：</strong></p><p>本文讨论了写作在软件工程中的重要性。软件工程师需要写技术问题、代码评论和设计文档等，因为编写软件是协作的过程。优秀的写作能力可以提高软件工程师的效率和影响力。此外，写作还是影响他人最可扩展的方式之一。即使未来 AI 工具可以代替我们写作，写作仍然有价值，因为它可以强制将思维转化为连贯的逻辑叙述，同时也能够激发更多的创意。因此，写作对于软件工程师来说是一项必备技能。</p>]]></content>
     </entry>
 </feed>
