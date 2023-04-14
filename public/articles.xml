@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-13T04:41:46.876Z</updated>
+    <updated>2023-04-14T01:21:32.213Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT 的工作原理：深入探究 | Dan Hollick 🇿🇦]]></title>
+        <id>https://typefully.com/DanHollick/yA3ppZC</id>
+        <link href="https://typefully.com/DanHollick/yA3ppZC"/>
+        <updated>2023-04-14T00:40:29.438Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://typefully.com/DanHollick/yA3ppZC">How ChatGPT works: a deep dive | Dan Hollick 🇿🇦</a></p><p><strong>概要：</strong></p><p>本文介绍了大型语言模型 ChatGPT 的工作原理。这些模型通过计算输入和输出之间的概率来预测下一个单词或符号。为了实现这一点，它们使用神经网络来处理输入并生成输出的概率。在简单的情况下，神经网络由输入层、隐藏层和输出层组成，其中每个神经元都与相邻层中的神经元相连，并具有一个权重。当输入值通过神经元时，它会乘以该神经元的权重，并将结果传递给下一层中的所有神经元。然后，神经元将这些值相加，并将结果压缩到 - 1 到 1 之间，并将其传递给下一层中的每个神经元。最后一个隐藏层的神经元也是如此，但是将值压缩到 0 到 1 之间，并将其传递到输出层。在训练神经网络时，我们提供已知答案的图像，并计算答案和网络计算的概</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在页面退出时显示未保存的表单数据警告。]]></title>
+        <id>https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit</id>
+        <link href="https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit"/>
+        <updated>2023-04-14T00:40:07.652Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit">Display Warning for Unsaved Form Data on Page Exit</a></p><p><strong>概要：</strong></p><p>本文介绍了如何实现一个 FormPrompt 组件，以提高 Web 应用程序的用户体验。该组件可以在用户尝试离开具有未保存更改的页面时发出警告。作者讨论了使用纯 JavaScript 的 beforeunload 事件处理此类情况，以及使用 React Router v5 中的 Prompt 组件和 React Router v6 中的 useBeforeUnload 和 unstable_useBlocker 钩子的 React 特定解决方案。最后，作者演示了在前一篇文章中稍作修改的多步骤表单示例中如何使用 FormPrompt 组件。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon CodeWhisperer，个人免费使用，现已普遍提供 | Amazon Web Services]]></title>
+        <id>https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/"/>
+        <updated>2023-04-14T00:38:09.328Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/">Amazon CodeWhisperer, Free for Individual Use, is Now Generally Available | Amazon Web Services</a></p><p><strong>概要：</strong></p><p>Amazon CodeWhisperer 是一款实时 AI 编码助手，现已正式推出。它可以帮助开发人员快速、安全地编写代码，而无需离开他们的 IDE 进行研究。CodeWhisperer 可以在多个 IDE 中使用，包括 Visual Studio Code、IntelliJ IDEA 等，并支持 Python、Java、JavaScript、TypeScript 和 C# 等多种语言。此外，它还具有筛选可能被认为是有偏见或不公平的代码建议的功能，以及扫描生成和开发人员编写的代码以查找难以检测的漏洞并提供修复建议的安全扫描功能。CodeWhisperer 的个人版免费使用，可通过电子邮件注册。专业版则提供了更多的管理功能和安全扫描限制。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Replit 部署 - 从想法到生产的最快方式]]></title>
         <id>https://blog.replit.com/deployments-launch</id>
@@ -195,26 +216,5 @@
         <link href="https://www.builder.io/blog/qwik-rc-milestone"/>
         <updated>2023-04-01T04:00:57.355Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/qwik-rc-milestone">Qwik Reaches RC Milestone</a></p><p><strong>概要：</strong></p><p>Qwik 发布了 v1 Release Candidate 版本，这是一个重要的里程碑。Qwik 是一款现代化的 Web 应用程序框架，设计用于即时启动应用程序，无论应用程序大小如何。Qwik 使用一种创新的方法，“流式” 地向最终用户传输 JavaScript 块，从而自动消除了其他框架中需要的许多手动性能优化，从而实现更好的开发人员体验。Qwik 采用熟悉、简洁和易于使用的设计，使用众所周知的 JSX 语法、带有 hooks API 风格的函数组件，并通过利用信号实现反应式。 Qwik 的独特 JavaScript 流式处理功能由可恢复执行模型提供支持，实现了无与伦比的用户体验和最高的 Google Core-Web-Vitals 分数。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Zod 和 JSDoc 进行 JavaScript 类型定义]]></title>
-        <id>https://blog.jim-nielsen.com/2023/types-in-jsdoc-with-zod/</id>
-        <link href="https://blog.jim-nielsen.com/2023/types-in-jsdoc-with-zod/"/>
-        <updated>2023-04-01T04:00:35.354Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.jim-nielsen.com/2023/types-in-jsdoc-with-zod/">Types in JavaScript With Zod and JSDoc</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在纯 JavaScript 文件中使用 JSDoc 注释和 Zod 类型库来推断类型。通过这种方法，可以在编写代码时获得类型提示和检查，并在运行时使用类型。这种方法不需要编译、转换或配置任何东西，因此非常适合小型项目。文章还提供了一些示例代码和资源链接，以帮助读者更好地理解和实践这种方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter 的推荐算法]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
-        <updated>2023-04-01T03:57:17.404Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm">Twitter's Recommendation Algorithm</a></p><p><strong>概要：</strong></p><p>Twitter 公布了其推荐算法的工作原理，该算法将每天发布的大约 5 亿条推文缩减到最终出现在用户设备上的少数优质推文。Twitter 的推荐系统由许多相互连接的服务和作业组成，包括从不同的推荐来源提取最佳推文、使用机器学习模型对每个推文进行排名、过滤掉用户已屏蔽的推文等。这篇博客将介绍算法如何为用户的时间轴选择推文。Twitter 还开源了其推荐算法的代码，以提供给用户更多透明度。未来，Twitter 计划提供更多关于推文出现在用户时间轴上的原因的可见性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[什么是源代码映射？]]></title>
-        <id>https://web.dev/source-maps/</id>
-        <link href="https://web.dev/source-maps/"/>
-        <updated>2023-03-31T14:48:37.426Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://web.dev/source-maps/">What are source maps?</a></p><p><strong>概要：</strong></p><p>本文介绍了源代码映射（source maps）的基本知识，以及它们如何生成和改善调试体验。随着现代网页应用程序变得越来越复杂，开发人员使用各种工具来构建网页，这些工具需要一个构建过程将代码转换成浏览器可以理解的标准 HTML、JavaScript 和 CSS。然而，优化性能的压缩和合并文件会使调试变得更加困难，源代码映射就是为了解决这个问题而存在的。源代码映射是以 “.map” 结尾的文件，包含了关于编译后的代码如何映射回原始代码的重要信息，使开发人员能够轻松地进行调试。大多数构建工具都可以生成源代码映射文件，例如 Vite、webpack、Rollup、Parcel、esbuild 等。此外，源代码映射还支持扩展，开发人员可以自定义字段来帮助集中精力处理代码。但源代码映射也存在一</p>]]></content>
     </entry>
 </feed>
