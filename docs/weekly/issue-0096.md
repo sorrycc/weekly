@@ -1,14 +1,9 @@
 ---
-title: "WIP"
+title: "lazyrepo、CodeWhisperer、taxonomy、playwright UI Mode、Wordpress Playground"
 titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01RKI3ju1VALM0za1pD_!!6000000002612-0-tps-1456-816.jpg_1200x1200.jpg"
 titleImageCaption: "rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance"
 publishedAt: "2023/04/17"
-draft: true
 ---
-
-## 一周要事
-
-。
 
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
@@ -42,13 +37,16 @@ draft: true
 - Umi 例行每周四发一版，我觉得有趣的功能包括，1）无。
 - [周末玩了下「大侠立志传」](https://t.me/yqtalk/325)，好玩！开放世界、武功秘籍、腰缠万贯、妻妾成群、门派帮派、城镇村落、武林霸主，可以满足对于武侠的各种想象。
 - [Umi 的 Copilot for PRs 通过了](https://t.me/yqtalk/327)，但是感觉新鲜感过了，没啥感觉。
-- 美嘉欣大脚好便宜，vs. Traxxas。
-- 激活了 giffgaff。
+- 美嘉欣大脚好便宜，是 Traxxas 的 1/10。
+- 买了一张 giffgaff 卡，还没想好用到哪。
 - [高效工作的一上午是这样的](https://t.me/yqtalk/335)。
+- 之前用 Depay 注册的 ChatGPT Plus 失效了，信用卡被封，换 Nobepay 成功了，[送钱都这么难](https://t.me/yqtalk/336)。
+- 逐渐适应了习惯用二倍速刷剧和看教学视频。
 
 ## 星球更新
-> 不知不觉我的知识星球已维护近一年，更了 270 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
+> 不知不觉我的知识星球已维护近一年，更了 280 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
 
+- 288 - 《SOP》
 - 287 - 《a == 1 && a == 2 && a == 3》
 - 286 - 《手撕源码 31：magicast》
 

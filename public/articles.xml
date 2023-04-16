@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-14T01:21:32.213Z</updated>
+    <updated>2023-04-16T15:00:02.884Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[到期与长期知识]]></title>
+        <id>https://collabfund.com/blog/expiring-vs-lt-knowledge/</id>
+        <link href="https://collabfund.com/blog/expiring-vs-lt-knowledge/"/>
+        <updated>2023-04-16T14:54:36.131Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://collabfund.com/blog/expiring-vs-lt-knowledge/">Expiring vs. Long-Term Knowledge</a></p><p><strong>概要：</strong></p><p>根据麻省理工学院的捐赠基金，我们所消费的大部分信息的半衰期是以天或月计算的。虽然这种即将到期的知识可以帮助今天的决策，但它没有长期价值。长期的知识，例如了解为什么会发生某事，并且有可能再次发生，更难被注意到，因为它被埋藏在书中，而不是在头条新闻中爆料。然而，它的好处是巨大的，因为它很少过期，并随着时间的推移而复合，这意味着它可以被翻译并与其他主题互动。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有两种类型的软件工程师]]></title>
+        <id>https://registerspill.thorstenball.com/p/two-types-of-software-engineers</id>
+        <link href="https://registerspill.thorstenball.com/p/two-types-of-software-engineers"/>
+        <updated>2023-04-16T14:53:19.613Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://registerspill.thorstenball.com/p/two-types-of-software-engineers">Two types of software engineers</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了两种软件工程师的思维方式。第一种类型认为问题很容易解决，只需要要求人们做 X 即可。而第二种类型则认为问题很难解决，因为它需要人们去做 X。第一种类型认为只要不是技术问题就很容易解决，因为 “我们可以要求人们做 X”。而第二种类型则认为这很难，因为它不是技术问题。作者称第一种类型的工程师相信大写字母 E 的工程学，认为存在着冷酷、坚实的真理；有数学和物理；是应用科学。而第二种类型的工程师则更注重人，他们知道在所有的工程工作（和问题）中，人是核心所在。他们接受了事情变得混乱的事实，并迎接了一个更大的挑战，尽管这会带来混乱，但仍然要做出有价值和有影响力的工作。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿伦德・范・贝伦（Arend van Beelen jr.）]]></title>
+        <id>https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer</id>
+        <link href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer"/>
+        <updated>2023-04-16T14:50:52.717Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer">Arend van Beelen jr.</a></p><p><strong>概要：</strong></p><p>本文讨论了成为最有价值的程序员（MVP）的概念。与 “最小可行产品” 类似，MVP 并不是一个具体的概念，而是一个追求的目标。这篇文章提供了一些建议，帮助程序员成为更有价值的人，包括不要过度关注代码风格、正确性、DRY 和性能，而是关注业务需求、解决问题以及与同事沟通。此外，作者还提到了保持身心健康的重要性，因为只有这样才能保持高效率和创造力。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“过度从事工作” 的赚钱者利用 ChatGPT 来接受更多全职工作。]]></title>
+        <id>https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs</id>
+        <link href="https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs"/>
+        <updated>2023-04-16T12:06:35.817Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs">‘Overemployed’ Hustlers Exploit ChatGPT To Take On Even More Full-Time Jobs</a></p><p><strong>概要：</strong></p><p>The COVID-19 pandemic has led to a rise in multi-job hustlers who use artificial intelligence (AI) chatbots to automate their work, according to an article by Vice's Motherboard. The overemployed community refers to themselves as the "overemployed" and use AI tools such as OpenAI's ChatGPT to create reports, presentations, and even cover letters for job applications. The article raises concerns about the potential effects of AI on the international job market, but for those using the technology, it has become an opportunity to increase income or ease the burden of holding down multiple jobs. However, members of the overemployed community are aware that what they're doing is frowned upon by corporate leaders and have requested anonymity to avoid losing their jobs.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT 的工作原理：深入探究 | Dan Hollick 🇿🇦]]></title>
         <id>https://typefully.com/DanHollick/yA3ppZC</id>
@@ -188,33 +216,5 @@
         <link href="https://www.muledesign.com/blog/brainstorm-questions"/>
         <updated>2023-04-02T13:51:07.934Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.muledesign.com/blog/brainstorm-questions">Brainstorm Questions Not Ideas — Mule Design</a></p><p><strong>概要：</strong></p><p>本文指出，我们过分高估了设计中 “想法” 的重要性。有意义的创新建立在对现有概念、对象和情境的新颖联系上，而不是为了自我满足的原创性。我们所赞美的闪光点通常是对世界的敏锐观察，通过批判性思维和评论得到改进。然而，因为许多人在学校和职业生涯中都因为有正确答案和聪明的想法而受到奖励和称赞，设计中的质疑和评论可能会变得非常不舒服。因此，与其沉浸在群体思维的舒适枕头中，还不如开始提出问题。一个快速有效的解决方法是停止与团队一起集思广益，而是开始一起集思广益提出问题。本文提供了一些运行对话的步骤。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Socket AI - ChatGPT 驱动的威胁分析 - Socket]]></title>
-        <id>https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis</id>
-        <link href="https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis"/>
-        <updated>2023-04-01T05:32:32.600Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis">Introducing Socket AI – ChatGPT-Powered Threat Analysis - Socket</a></p><p><strong>概要：</strong></p><p>Socket 宣布推出基于人工智能的源代码分析解决方案，利用 ChatGPT 检查每个 npm 和 PyPI 包。当检测到包中存在潜在问题时，Socket 会将其标记并请求 ChatGPT 对其进行总结。Socket 的 AI 警告应视为建议而非绝对分析，因为 LLMs 的限制意味着跨文件分析等任务仍需持续改进。此外，Socket 还在不断增强静态分析功能，未来预计将进一步整合 LLMs，实现更复杂的 AI 引导分析。Socket 希望通过集中分析，为开发者提供最大的受益和保护，并以最小的成本摊销运行 AI 分析所有共享开源依赖项的费用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS 遮罩 - Ahmad Shadeed]]></title>
-        <id>https://ishadeed.com/article/css-masking/</id>
-        <link href="https://ishadeed.com/article/css-masking/"/>
-        <updated>2023-04-01T05:23:43.789Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://ishadeed.com/article/css-masking/">CSS Masking - Ahmad Shadeed</a></p><p><strong>概要：</strong></p><p>本文介绍了 CSS 遮罩的定义、用法和几个实际应用案例。遮罩是一种隐藏元素部分内容而不删除它的技术，可以使用形状或渐变来显示或隐藏元素的部分内容。在 CSS 中，有几种方法可以遮罩元素，包括 mask 属性、clip-path 属性和 SVG <mask>。本文主要关注 mask 属性，它类似于 background 属性，并且可以使用图像和渐变进行遮罩。作者提供了许多实际应用案例，包括淡化图像、遮罩文本内容、遮罩列表、有趣的图像效果等。最后，作者推荐了一些进一步学习 CSS 遮罩的资源。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你并不太老（转向人工智能）]]></title>
-        <id>https://www.latent.space/p/not-old</id>
-        <link href="https://www.latent.space/p/not-old"/>
-        <updated>2023-04-01T05:21:47.837Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.latent.space/p/not-old">You Are Not Too Old (To Pivot Into AI)</a></p><p><strong>概要：</strong></p><p>本文讨论了职业转型的话题，特别是在人工智能领域。作者分享了自己从金融行业转型到软件工程和开发者关系的经历，并提出了一些原因，说明为什么你不会太老而无法进行职业转型。首先，人工智能领域的潜力非常广泛，增长速度很快。其次，学习人工智能的时间比你想象的要短。第三，除了成为专业机器学习研究员外，还有其他许多贡献领域，例如软件工程和产品化。最后，挑战自己对大脑有益，可以帮助建立认知储备，防止神经退行性疾病的发生。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwik 达到了 RC 里程碑。]]></title>
-        <id>https://www.builder.io/blog/qwik-rc-milestone</id>
-        <link href="https://www.builder.io/blog/qwik-rc-milestone"/>
-        <updated>2023-04-01T04:00:57.355Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/qwik-rc-milestone">Qwik Reaches RC Milestone</a></p><p><strong>概要：</strong></p><p>Qwik 发布了 v1 Release Candidate 版本，这是一个重要的里程碑。Qwik 是一款现代化的 Web 应用程序框架，设计用于即时启动应用程序，无论应用程序大小如何。Qwik 使用一种创新的方法，“流式” 地向最终用户传输 JavaScript 块，从而自动消除了其他框架中需要的许多手动性能优化，从而实现更好的开发人员体验。Qwik 采用熟悉、简洁和易于使用的设计，使用众所周知的 JSX 语法、带有 hooks API 风格的函数组件，并通过利用信号实现反应式。 Qwik 的独特 JavaScript 流式处理功能由可恢复执行模型提供支持，实现了无与伦比的用户体验和最高的 Google Core-Web-Vitals 分数。</p>]]></content>
     </entry>
 </feed>
