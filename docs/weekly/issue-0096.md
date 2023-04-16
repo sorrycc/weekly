@@ -13,7 +13,13 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
 
-- 。
+ - Vitest [v0.30.0](https://github.com/vitest-dev/vitest/releases/tag/v0.30.0) 发布，支持工作区等。
+ - Pnpm [v8.2.9](https://github.com/pnpm/pnpm/releases/tag/v8.2.0) 发布，支持环境变量等。
+ - Nuxt [v3.4](https://nuxt.com/blog/v3-4) 发布，支持插件对象等。
+ - Firefox [v112](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/112) 发布，支持 inert 等。
+ - Nodejs [v18.16.0](https://nodejs.org/en/blog/release/v18.16.0) 发布，Backport 新 URL 解析器等。
+ - Turborepo [v1.9.0](https://turbo.build/blog/turbo-1-9-0) 发布，新增模板等。
+ - 通过 wasm 在浏览器中运行 [PHP](https://www.npmjs.com/package/@php-wasm/node) 。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
