@@ -1,5 +1,5 @@
 ---
-title: "lazyrepo、CodeWhisperer、taxonomy、playwright UI Mode、Wordpress Playground"
+title: "lazyrepo、CodeWhisperer、taxonomy、playwright UI Mode、Wordpress Playground、最有价值程序员"
 titleImage: "https://img.alicdn.com/imgextra/i2/O1CN01RKI3ju1VALM0za1pD_!!6000000002612-0-tps-1456-816.jpg_1200x1200.jpg"
 titleImageCaption: "rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance"
 publishedAt: "2023/04/17"
@@ -30,6 +30,9 @@ publishedAt: "2023/04/17"
 - [《发布 v1.32.0・microsoft/playwright》](https://github.com/microsoft/playwright/releases/tag/v1.32.0)。Playwright v1.32 发布了 UI Mode（预览版），该模式允许您探索、运行和调试测试，并带有内置的观察模式。
 - [《使用 WordPress Playground 和 WebAssembly 在浏览器中构建 WordPress 体验 - Chrome 开发者》](https://developer.chrome.com/en/blog/wordpress-playground/)。WordPress Playground 是一个完整的 WordPress 技术堆栈，包括 PHP 和数据库，直接在浏览器中运行。用户可以免费使用和定制嵌入在 playground.wordpress.net 上的 WordPress。此外，用户还可以将 WordPress Playground 嵌入到应用程序中，并使用 JavaScript 进行控制。
 - [《DRY vs SoC，一个艰难的选择 | Swizec Teller》](https://swizec.com/blog/dry-vs-soc-a-difficult-choice/)。本文探讨了软件工程中两个重要的概念：DRY（不要重复自己）和 SoC（关注点分离）。作者指出，这两个概念并不是针对代码的规则，而是针对概念的规则。在应用这些概念时，需要关注的是业务概念是否相同，如果相同则可以使用 DRY，否则需要进行关注点分离。作者还提供了一些示例来说明如何应用这些概念。
+- [《到期与长期知识》](https://collabfund.com/blog/expiring-vs-lt-knowledge/)。根据麻省理工学院的捐赠基金，我们所消费的大部分信息的半衰期是以天或月计算的。虽然这种即将到期的知识可以帮助今天的决策，但它没有长期价值。长期的知识，例如了解为什么会发生某事，并且有可能再次发生，更难被注意到，因为它被埋藏在书中，而不是在头条新闻中爆料。然而，它的好处是巨大的，因为它很少过期，并随着时间的推移而复合，这意味着它可以被翻译并与其他主题互动。
+- [《有两种类型的软件工程师》](https://registerspill.thorstenball.com/p/two-types-of-software-engineers)。这篇文章探讨了两种软件工程师的思维方式。第一种类型认为问题很容易解决，只需要要求人们做 X 即可。而第二种类型则认为问题很难解决，因为它需要人们去做 X。第一种类型认为只要不是技术问题就很容易解决，因为 “我们可以要求人们做 X”。而第二种类型则认为这很难，因为它不是技术问题。作者称第一种类型的工程师相信大写字母 E 的工程学，认为存在着冷酷、坚实的真理；有数学和物理；是应用科学。而第二种类型的工程师则更注重人，他们知道在所有的工程工作（和问题）中，人是核心所在。他们接受了事情变得混乱的事实，并迎接了一个更大的挑战，尽管这会带来混乱，但仍然要做出有价值和有影响力的工作。
+- [《最有价值程序员》](https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer)。本文讨论了成为最有价值的程序员（MVP）的概念。与 “最小可行产品” 类似，MVP 并不是一个具体的概念，而是一个追求的目标。这篇文章提供了一些建议，帮助程序员成为更有价值的人，包括不要过度关注代码风格、正确性、DRY 和性能，而是关注业务需求、解决问题以及与同事沟通。此外，作者还提到了保持身心健康的重要性，因为只有这样才能保持高效率和创造力。
 
 ## Umi 和我
 > 关于 Umi 和我最近的进展。欢迎订阅我的 Telegrame 频道[《云谦的自说自话》](https://t.me/yqtalk)。
