@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-16T15:00:02.884Z</updated>
+    <updated>2023-04-17T00:30:32.353Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Windi CSS]]></title>
+        <id>https://windicss.org/posts/sunsetting.html</id>
+        <link href="https://windicss.org/posts/sunsetting.html"/>
+        <updated>2023-04-17T00:25:55.750Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://windicss.org/posts/sunsetting.html">Windi CSS</a></p><p><strong>概要：</strong></p><p>Windi CSS 宣布将停止维护。Windi CSS 是一个用于解决 Tailwind 的性能问题的框架，其高效和强大的按需方法激发了 Tailwind 实现他们的 “JIT” 引擎。该项目已经开发出了许多增强开发人员体验的功能，包括 Variant Group、Shortcuts、Attributify Mode 和 Visual Analyzer 等。然而，由于团队成员追求新机会，他们无法再继续积极地开发和维护该项目，因此决定停止维护 Windi CSS。虽然不会添加新功能，但仍会提供安全修复程序。对于新项目，建议考虑 UnoCSS 或 Tailwind CSS 等替代方案。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[故意破坏 React Query 的 API]]></title>
+        <id>https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose</id>
+        <link href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose"/>
+        <updated>2023-04-17T00:22:40.984Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose">Breaking React Query's API on purpose</a></p><p><strong>概要：</strong></p><p>React Query在其即将发布的v5版本中删除了useQuery的回调。做出这个决定是因为回调不一致，可能导致错误，特别是在用于状态同步时。虽然一些用户对失去直观的API表示担忧，但React Query建议使用全局缓存级回调或Query上的元字段来代替。移除回调是一个例子，说明主要的版本跳跃可以用来纠正次优的设计决策。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[到期与长期知识]]></title>
         <id>https://collabfund.com/blog/expiring-vs-lt-knowledge/</id>
@@ -202,19 +216,5 @@
         <link href="https://steveklabnik.com/writing/rusts-golden-rule"/>
         <updated>2023-04-02T14:09:41.420Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://steveklabnik.com/writing/rusts-golden-rule">Rust's Golden Rule</a></p><p><strong>概要：</strong></p><p>本文介绍了 Rust 的一个设计原则：签名即契约。这个原则指出，当函数体与函数签名相矛盾时，函数签名优先；签名是正确的，函数体是错误的。这个原则使得 Rust 具有模块化和内存安全等优点，但也导致一些问题，如 “借用分裂” 或 “部分借用”。作者认为，这个原则让他在解决问题时更关注函数签名而不是函数体，同时也影响了类型之间的关系和测试驱动开发。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于我的演讲风格的一些想法]]></title>
-        <id>https://surfingcomplexity.blog/2023/03/25/some-thoughts-on-my-presentation-style/</id>
-        <link href="https://surfingcomplexity.blog/2023/03/25/some-thoughts-on-my-presentation-style/"/>
-        <updated>2023-04-02T14:09:25.134Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://surfingcomplexity.blog/2023/03/25/some-thoughts-on-my-presentation-style/">Some thoughts on my presentation style</a></p><p><strong>概要：</strong></p><p>这篇文章总结了演讲者如何制作幻灯片，作者的目标是确保每张幻灯片都传达一个概念。他使用单个句子或图像作为背景来实现这一点，并将演讲分成许多小的、独立的 “块”，以便听众可以在下一个块到来时重新定位自己。此外，作者还手绘了所有的图表，并使用了 Deckset 工具生成幻灯片。最后，作者建议演讲者在演讲中引起观众的情感共鸣，而不是试图传达过多的信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[头脑风暴提出问题，而不是想法 —— 骡子设计]]></title>
-        <id>https://www.muledesign.com/blog/brainstorm-questions</id>
-        <link href="https://www.muledesign.com/blog/brainstorm-questions"/>
-        <updated>2023-04-02T13:51:07.934Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.muledesign.com/blog/brainstorm-questions">Brainstorm Questions Not Ideas — Mule Design</a></p><p><strong>概要：</strong></p><p>本文指出，我们过分高估了设计中 “想法” 的重要性。有意义的创新建立在对现有概念、对象和情境的新颖联系上，而不是为了自我满足的原创性。我们所赞美的闪光点通常是对世界的敏锐观察，通过批判性思维和评论得到改进。然而，因为许多人在学校和职业生涯中都因为有正确答案和聪明的想法而受到奖励和称赞，设计中的质疑和评论可能会变得非常不舒服。因此，与其沉浸在群体思维的舒适枕头中，还不如开始提出问题。一个快速有效的解决方法是停止与团队一起集思广益，而是开始一起集思广益提出问题。本文提供了一些运行对话的步骤。</p>]]></content>
     </entry>
 </feed>
