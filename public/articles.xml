@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-18T05:05:19.282Z</updated>
+    <updated>2023-04-18T06:04:26.036Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[ECMAScript 2023 有什么新特性 | pawelgrzybek.com]]></title>
+        <id>https://pawelgrzybek.com/whats-new-in-ecmascript-2023/</id>
+        <link href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/"/>
+        <updated>2023-04-18T06:01:20.978Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/">What's new in ECMAScript 2023 | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>JavaScript 的新功能列表已经确定，最终版本的 ECMAScript 规范预计将于 6 月底发布。这些新功能包括在 Array 和 TypedArray 原型上添加 findLast () 和 findLastIndex () 方法、标准化 Hashbang 语法、允许使用符号作为 WeakMap 键以及在 Array.prototype 上添加返回新副本的方法等。这些功能都已达到第 4 阶段，并预计将包含在即将发布的 ECMAScript 版本中。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[编程游乐场列表]]></title>
         <id>https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/</id>
@@ -209,12 +216,5 @@
         <link href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui"/>
         <updated>2023-04-06T12:32:22.229Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui">The future of Chakra UI</a></p><p><strong>概要：</strong></p><p>Chakra UI is a popular open-source component library for building accessible user interfaces (UIs) with React. The project's creator, Segun Adebayo, has announced plans to transition Chakra UI into a "Design System Infrastructure" to meet the changing expectations of component libraries. The plan includes breaking down the monolithic codebase into smaller, independent projects that are framework-agnostic and easy to maintain. Some of the new projects include Panda, a zero-runtime CSS-in-JS system; Zag, a low-level state machine library used to build all the components in Chakra UI; Ark, a headless component library based on Zag.js; and Ultra, a SaaS platform for creating, managing, and distributing design tokens.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么你今天应该写一篇博客文章]]></title>
-        <id>https://dzone.com//articles/why-you-should-write-blog-post</id>
-        <link href="https://dzone.com//articles/why-you-should-write-blog-post"/>
-        <updated>2023-04-06T12:28:53.407Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dzone.com//articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></p><p><strong>概要：</strong></p><p>本文列举了维护博客的几个原因，包括技术备忘录、分享知识、职业简历、记录人生和保持联系等。博客可以成为你未来自己的技术备忘录，也可以与他人分享你的发现，同时也是展示你职业能力和价值观的一个平台。此外，博客还可以成为记录你人生的一部分，帮助你保持与远方朋友的联系。无论如何，开始写博客吧，即使你认为自己没有什么好写的或者不够好的写手。</p>]]></content>
     </entry>
 </feed>
