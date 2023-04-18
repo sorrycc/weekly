@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-18T06:04:26.036Z</updated>
+    <updated>2023-04-18T08:13:42.392Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[一个 README 模板 - 带有自动生成的目录・Matthias Ott - 用户体验设计师]]></title>
+        <id>https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents</id>
+        <link href="https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents"/>
+        <updated>2023-04-18T08:11:21.420Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents">A README Template – With an Automatically Generated Table of Contents · Matthias Ott – User Experience Designer</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何在项目中编写 README 文件，作者提供了一个包含重要部分的模板，并且还介绍了一个自动生成目录的工具 DocToc。此外，作者还推荐了一个名为 Readme.so 的编辑器，可以通过拖放和调整文本来创建个性化的 README 文件。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - yoavbls/pretty-ts-errors：🔵 在 VSCode 中使 TypeScript 错误更漂亮和易读 🎀]]></title>
+        <id>https://github.com/yoavbls/pretty-ts-errors</id>
+        <link href="https://github.com/yoavbls/pretty-ts-errors"/>
+        <updated>2023-04-18T07:00:29.280Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/yoavbls/pretty-ts-errors">GitHub - yoavbls/pretty-ts-errors: 🔵 Make TypeScript errors prettier and human-readable in VSCode 🎀</a></p><p><strong>概要：</strong></p><p>这是一个名为“Pretty TypeScript Errors”的Visual Studio Code扩展，旨在让TypeScript错误变得更加美观和易于阅读。当类型的复杂性增加时，TypeScript错误会变得越来越混乱。这个扩展能帮助您更好地理解错误信息。主要功能包括：为错误信息中的类型提供语法高亮，支持深色和浅色主题；在错误信息中的类型旁边提供一个按钮，可以跳转到相关类型声明；提供一个按钮，可以将您导航到typescript.tv，那里有详细的解释，有时还有视频；提供一个按钮，可以将您导航到ts-error-translator，那里可以用简单的英语阅读错误。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ECMAScript 2023 有什么新特性 | pawelgrzybek.com]]></title>
         <id>https://pawelgrzybek.com/whats-new-in-ecmascript-2023/</id>
@@ -202,19 +216,5 @@
         <link href="https://nextjs.org/blog/next-13-3"/>
         <updated>2023-04-07T02:03:49.198Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/next-13-3">Next.js 13.3</a></p><p><strong>概要：</strong></p><p>Next.js 13.3 发布，新增了社区请求的流行功能，包括：基于文件的元数据 API、动态 Open Graph 图像、应用程序路由器的静态导出、并行路由和拦截等。其中，基于文件的元数据 API 可以方便地自定义页面以改善 SEO 和 Web 共享；动态 Open Graph 图像可以使用 JSX、HTML 和 CSS 生成 OG 图像；应用程序路由器的静态导出支持完全静态导出，可避免在客户端加载不必要的 JavaScript 代码，减小捆绑大小并实现更快的页面加载；并行路由和拦截可以同时在同一视图中呈现一个或多个页面，如复杂的仪表板或模态框。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 推出 WebGPU - Chrome 开发者]]></title>
-        <id>https://developer.chrome.com/blog/webgpu-release/</id>
-        <link href="https://developer.chrome.com/blog/webgpu-release/"/>
-        <updated>2023-04-06T12:38:50.463Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/webgpu-release/">Chrome ships WebGPU - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Chrome 团队宣布，WebGPU 现在默认在 Chrome 113 中可用，目前处于 Beta 渠道。WebGPU 是一种新的 Web 图形 API，提供了显著的优势，例如相同图形的 JavaScript 工作量大大减少，机器学习模型推断提高了三倍以上。这是由于更灵活的 GPU 编程和访问 WebGL 无法提供的高级功能。此次 WebGPU 的首次发布可在 ChromeOS、macOS 和 Windows 上使用，其他平台的支持将在今年晚些时候推出。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chakra UI 的未来]]></title>
-        <id>https://www.adebayosegun.com/blog/the-future-of-chakra-ui</id>
-        <link href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui"/>
-        <updated>2023-04-06T12:32:22.229Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.adebayosegun.com/blog/the-future-of-chakra-ui">The future of Chakra UI</a></p><p><strong>概要：</strong></p><p>Chakra UI is a popular open-source component library for building accessible user interfaces (UIs) with React. The project's creator, Segun Adebayo, has announced plans to transition Chakra UI into a "Design System Infrastructure" to meet the changing expectations of component libraries. The plan includes breaking down the monolithic codebase into smaller, independent projects that are framework-agnostic and easy to maintain. Some of the new projects include Panda, a zero-runtime CSS-in-JS system; Zag, a low-level state machine library used to build all the components in Chakra UI; Ark, a headless component library based on Zag.js; and Ultra, a SaaS platform for creating, managing, and distributing design tokens.</p>]]></content>
     </entry>
 </feed>
