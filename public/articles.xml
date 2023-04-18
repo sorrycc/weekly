@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-17T00:30:32.353Z</updated>
+    <updated>2023-04-18T05:05:19.282Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[编程游乐场列表]]></title>
+        <id>https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/</id>
+        <link href="https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/"/>
+        <updated>2023-04-18T04:54:42.797Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/">A list of programming playgrounds</a></p><p><strong>概要：</strong></p><p>本文介绍了一些编程工具，包括编译器、着色器、Arduino/IoT、CSS/HTML/JS、正则表达式、DNS、nginx、varnish、SQLite、SQL、Git、.NET bytecode、Python bytecode、数据格式、编程语言等等。这些工具可以帮助程序员在浏览器中快速测试和调试代码，并提高开发效率。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 LangChainJS 支持多个 JS 环境]]></title>
+        <id>https://blog.langchain.dev/js-envs/</id>
+        <link href="https://blog.langchain.dev/js-envs/"/>
+        <updated>2023-04-18T04:47:37.003Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.langchain.dev/js-envs/">Announcing LangChainJS Support for Multiple JS Environments</a></p><p><strong>概要：</strong></p><p>LangChain.js 宣布支持在浏览器、Cloudflare Workers、Vercel/Next.js、Deno、Supabase Edge Functions 等多个 JavaScript 环境中运行。该库最初只能在 Node.js 上运行，但收到了许多用户的请求，要求在其他环境中使用。为了实现这一目标，开发团队对代码进行了修改，例如将其转换为 ESM 格式，并使用 fetch 替换了 OpenAI 请求。此外，他们还重新设计了第三方集成的暴露方式，以避免不必要的代码加载和打包问题。虽然这些更改可能会导致某些旧代码无法正常工作，但该团队表示他们已经尽力确保兼容性，并欢迎社区贡献者提交更多测试用例。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[负载均衡]]></title>
+        <id>https://samwho.dev/load-balancing/</id>
+        <link href="https://samwho.dev/load-balancing/"/>
+        <updated>2023-04-18T04:47:05.157Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://samwho.dev/load-balancing/">Load Balancing</a></p><p><strong>概要：</strong></p><p>本文讨论了负载均衡算法的不同类型，以及它们在 HTTP 请求分发中的应用。从最简单的 “轮询” 算法开始，到更复杂的 “加权轮询” 和 “最小连接数” 算法，再到结合了动态加权轮询和最小连接数的 “峰值指数加权移动平均” 算法。文章还讨论了优化 HTTP 负载均衡算法的目标是延迟而不是丢失请求，并提供了一些实际模拟数据来支持这些算法的比较和评估。最后，作者还提供了一个交互式的模拟器，可以让读者自己尝试调整参数并观察结果。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SvelteKit 的干净前端架构：前言]]></title>
+        <id>https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/</id>
+        <link href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/"/>
+        <updated>2023-04-18T04:46:27.277Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/">Clean Frontend Architecture with SvelteKit: Preface</a></p><p><strong>概要：</strong></p><p>本文介绍了什么是干净的前端设计和架构，以及如何避免应用程序成为遗留代码。作者提到，干净的设计模式独立于技术决策和外部副作用，因此可以在应用程序框架内或外创建干净的设计。同时，干净的设计也不需要软件工程师拥有数学分析和功能编程的博士学位，只需要编写干净的代码即可。本文还介绍了一些实践指南，包括发现用例、使用网关处理外部依赖、域建模、服务器端路由和组件、验收测试和将站点部署到 Netlify。最后，作者鼓励读者通过阅读完整的代码示例来加深对干净设计和架构的理解，并提供了一个开源的代码库供读者参考。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windi CSS]]></title>
         <id>https://windicss.org/posts/sunsetting.html</id>
@@ -188,33 +216,5 @@
         <link href="https://dzone.com//articles/why-you-should-write-blog-post"/>
         <updated>2023-04-06T12:28:53.407Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dzone.com//articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></p><p><strong>概要：</strong></p><p>本文列举了维护博客的几个原因，包括技术备忘录、分享知识、职业简历、记录人生和保持联系等。博客可以成为你未来自己的技术备忘录，也可以与他人分享你的发现，同时也是展示你职业能力和价值观的一个平台。此外，博客还可以成为记录你人生的一部分，帮助你保持与远方朋友的联系。无论如何，开始写博客吧，即使你认为自己没有什么好写的或者不够好的写手。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 年从两个角度学习 React]]></title>
-        <id>https://www.robinwieruch.de/learning-react/</id>
-        <link href="https://www.robinwieruch.de/learning-react/"/>
-        <updated>2023-04-05T08:20:21.736Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.robinwieruch.de/learning-react/">Learning React from two Angles in 2023</a></p><p><strong>概要：</strong></p><p>本文讨论了如何在 2023 年学习 React，提出了两种不同的方法：作为一个库或者作为一个框架。新版 React 文档建议使用完全集成的框架（例如 Next.js）而不是像 Vite 或 Parcel 这样的打包工具来使用 React。作者认为，在完全转向框架之前，仍然推荐使用其他 React 入门工具。文章还回顾了过去 10 年 Web 应用程序发展的历程，从服务器端渲染到客户端渲染再到现在的服务器端渲染。最后，作者建议初学者既要学习 React 的基础知识，也要学习如何将其应用于框架中。可以先从框架开始，但遇到 React 的基础知识时，需要回到 React 的文档中去学习。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从 Webpack 迁移到 Remix]]></title>
-        <id>https://remix.run/blog/migrate-from-webpack</id>
-        <link href="https://remix.run/blog/migrate-from-webpack"/>
-        <updated>2023-04-05T00:43:08.586Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://remix.run/blog/migrate-from-webpack">Migrate from Webpack to Remix</a></p><p><strong>概要：</strong></p><p>Remix 宣布推出基于 Webpack 的编译器和开发服务器，以帮助使用 Webpack 的应用程序逐步迁移到 Remix。该公司表示，这个演示版本可以让用户从第一天开始使用所有的 Webpack 加载器和插件，并逐渐将每个路由迁移到 Remix。Remix 表示，它正在积极支持更多流行的 CSS 模式，但目前还有细节和权衡需要解决，以确保不会影响 Remix 的默认性能。Remix 还提供了一个迁移指南，以帮助 Webpack 用户更容易地进行迁移。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微软从头开始重建了 Teams，承诺提供 2 倍更快的性能。]]></title>
-        <id>https://techcrunch.com/2023/03/27/microsoft-rebuilds-teams-promises-2x-faster-performance/</id>
-        <link href="https://techcrunch.com/2023/03/27/microsoft-rebuilds-teams-promises-2x-faster-performance/"/>
-        <updated>2023-04-04T06:17:50.245Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://techcrunch.com/2023/03/27/microsoft-rebuilds-teams-promises-2x-faster-performance/">Microsoft rebuilt Teams from the ground up, promises 2x faster performance</a></p><p><strong>概要：</strong></p><p>微软的团队协作工具 Teams 一直以来都因其运行速度慢、资源占用高而声名狼藉。现在，微软推出了全新的 Teams 预览版，微软称这是 “从头重新构想的 Teams”，承诺新应用程序的性能将提高两倍，同时只使用以前的一半内存。加入会议现在应该会快 2 倍，而在聊天和频道之间切换将快 1.7 倍。此外，公司还重新设计了整体用户体验。微软在 1 月份发布的财报中指出，Teams 现在拥有 2.8 亿月活跃用户，这比 2021 年 7 月的 2.5 亿和 2022 年 1 月的 2.7 亿都要多。该公司计划在今年晚些时候向所有用户提供这个新版本的 Teams，但现在正在向选择公司公共预览计划的 Windows 用户推出（尽管管理员可能需要为您的组织启用此功能）。一旦启用，用户可以轻松地在新旧版本之间切换。微软</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust 的黄金法则]]></title>
-        <id>https://steveklabnik.com/writing/rusts-golden-rule</id>
-        <link href="https://steveklabnik.com/writing/rusts-golden-rule"/>
-        <updated>2023-04-02T14:09:41.420Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://steveklabnik.com/writing/rusts-golden-rule">Rust's Golden Rule</a></p><p><strong>概要：</strong></p><p>本文介绍了 Rust 的一个设计原则：签名即契约。这个原则指出，当函数体与函数签名相矛盾时，函数签名优先；签名是正确的，函数体是错误的。这个原则使得 Rust 具有模块化和内存安全等优点，但也导致一些问题，如 “借用分裂” 或 “部分借用”。作者认为，这个原则让他在解决问题时更关注函数签名而不是函数体，同时也影响了类型之间的关系和测试驱动开发。</p>]]></content>
     </entry>
 </feed>
