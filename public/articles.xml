@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-18T08:13:42.392Z</updated>
+    <updated>2023-04-19T01:03:42.680Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[发布 v10.0.0・immerjs/immer]]></title>
+        <id>https://github.com/immerjs/immer/releases/tag/v10.0.0</id>
+        <link href="https://github.com/immerjs/immer/releases/tag/v10.0.0"/>
+        <updated>2023-04-19T00:42:12.350Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/immerjs/immer/releases/tag/v10.0.0">Release v10.0.0 · immerjs/immer</a></p><p><strong>概要：</strong></p><p>Immer 10 发布了，支持现代浏览器，不再支持 UMD 构建和 Promise-based reducers。默认情况下忽略纯对象上的 getter 和 setter，提供了显著的性能提升。ES5 模式已被删除，缩短 JSON 数组长度现在会生成删除补丁。此外，Immer 现在是一个 ESM 包，可以直接在浏览器中导入。对于迁移，如果有任何 enableES5 () 调用，则不进行迁移，使用 getter/setter icmw 纯对象时，在启动时调用 useStrictShallowCopy (true)，替换所有默认导入，将 import produce from "immer" 替换为 import {produce} from "immer"，将所有对 enableAllPlugins () 的调用替换为 enablePatches (); enableMapSet ()。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node v20.0.0]]></title>
+        <id>https://nodejs.org/en/blog/release/v20.0.0</id>
+        <link href="https://nodejs.org/en/blog/release/v20.0.0"/>
+        <updated>2023-04-19T00:09:46.699Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nodejs.org/en/blog/release/v20.0.0">Node v20.0.0</a></p><p><strong>概要：</strong></p><p>Node.js v20.0.0 (Current)更新了很多功能。Permission Model是其中一个实验性功能，它允许开发人员在程序执行期间限制对特定资源（例如文件系统操作、子进程生成和工作线程创建）的访问。通过启用标志--experimental-permission，可以限制对所有可用权限的访问。使用此功能，开发人员可以防止应用程序访问或修改敏感数据或运行潜在有害代码。此外，ESM hooks现在在专用线程上运行，与主线程隔离，确保加载器和应用程序代码之间没有交叉污染。V8引擎更新到11.3版本，增加了一些新的功能，例如String.prototype.isWellFormed和toWellFormed、Resizable ArrayBuffer和growable SharedArrayBuffer等。测试运行器模块已经被标记为稳定模块，而不再是实验性模块。URL解析器Ada 2.0也得到了升级，带来了显著的性能提升。ARM64 Windows现在也得到了官方支持。同时，url.parse()将不再接受端口号不是数字的URL，这可能会导致意外输入的主机名欺骗。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 TypeScript 5.1 Beta - TypeScript。]]></title>
+        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/</id>
+        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/"/>
+        <updated>2023-04-19T00:09:46.499Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/">Announcing TypeScript 5.1 Beta - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 beta has been released, featuring easier implicit returns for undefined-returning functions and unrelated types for getters and setters. The release also includes decoupled type-checking between JSX elements and JSX tag types, namespaced JSX attributes and the ability to edit multiple locations at the same time automatically. TypeScript now provides snippet completions when typing out a @param tag in both TypeScript and JavaScript files. The release also features optimisations including avoiding unnecessary type instantiation and reduced calls into scanner for JSDoc parsing. However, ES2020 and Node.js 14.17 are now the minimum runtime requirements.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一个 README 模板 - 带有自动生成的目录・Matthias Ott - 用户体验设计师]]></title>
         <id>https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents</id>
@@ -195,26 +216,5 @@
         <link href="https://github.com/ds300/lazyrepo"/>
         <updated>2023-04-11T13:28:51.241Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/ds300/lazyrepo">GitHub - ds300/lazyrepo: Caching task runner for npm/pnpm/yarn monorepos.</a></p><p><strong>概要：</strong></p><p>lazyrepo 是一个针对 npm/pnpm/yarn monorepos 的零配置缓存任务运行器。它适合于 turborepo 所开创的领域：使 package.json “scripts” 扩展，而无需采用像 nx、bazel、rush 或 buck 这样的大型工业级构建系统。lazyrepo 非常快速，尽管它是用 TypeScript 编写而不是一些年轻、英俊、聪明、有趣的系统语言，但它比 turborepo 要快得多。除了性能之外，lazyrepo 还带来了一些重要的生活质量改善。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何成为一名 - 10x 工程师]]></title>
-        <id>https://taylor.town/-10x</id>
-        <link href="https://taylor.town/-10x"/>
-        <updated>2023-04-07T04:26:48.406Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://taylor.town/-10x">How to be a -10x Engineer</a></p><p><strong>概要：</strong></p><p>本文指出，虽然 “10 倍工程师” 可能是神话，但确实存在 “-10 倍工程师”。为了成为一名 “-10 倍工程师”，可以采用以下策略：使 10 个工程师的输出无效；尽可能在开发过程中更改需求以避免责任；创建 400 小时的忙碌工作；让团队执行类似于工作的任务；创建毫无意义的仪式等。此外，还可以浪费 400 小时的编译 / 构建时间，编写毫无意义的测试，将 10 个工程师困在技术讨论中等等。文章最后呼吁不要雇佣 “0 倍工程师” 和 “-1 倍工程师”，并且不要阻止 “-1 倍工程师” 被解雇。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[程序员被打断：中断和上下文切换的真正成本]]></title>
-        <id>https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/</id>
-        <link href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/"/>
-        <updated>2023-04-07T04:23:25.035Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a></p><p><strong>概要：</strong></p><p>编程中的中断和上下文切换是直接影响程序员日常生产力的两个最昂贵因素。虽然没有永久避免它们的方法，但有一些有趣的策略可以最小化它们的影响。根据各种科学研究，经过中断后需要至少 10-15 分钟才能重新进入 “区域”（Parnin:10，vanSolingen:98）。基于任务的复杂性和你的精神能量，肯定需要更多的时间。当你有很多未完成的代码时，中断发生时，返回到流状态可能会更具挑战性。在编程人员中，这个概念是众所周知的，但可能只有少数人听说过双钟表匠寓言，它完美地捕捉了所有这些细节，即使对于非程序员来说也是如此。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 13.3]]></title>
-        <id>https://nextjs.org/blog/next-13-3</id>
-        <link href="https://nextjs.org/blog/next-13-3"/>
-        <updated>2023-04-07T02:03:49.198Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/next-13-3">Next.js 13.3</a></p><p><strong>概要：</strong></p><p>Next.js 13.3 发布，新增了社区请求的流行功能，包括：基于文件的元数据 API、动态 Open Graph 图像、应用程序路由器的静态导出、并行路由和拦截等。其中，基于文件的元数据 API 可以方便地自定义页面以改善 SEO 和 Web 共享；动态 Open Graph 图像可以使用 JSX、HTML 和 CSS 生成 OG 图像；应用程序路由器的静态导出支持完全静态导出，可避免在客户端加载不必要的 JavaScript 代码，减小捆绑大小并实现更快的页面加载；并行路由和拦截可以同时在同一视图中呈现一个或多个页面，如复杂的仪表板或模态框。</p>]]></content>
     </entry>
 </feed>
