@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-19T01:03:42.680Z</updated>
+    <updated>2023-04-20T14:47:55.598Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[介绍 npm 包 provenance | GitHub 博客]]></title>
+        <id>https://github.blog/2023-04-19-introducing-npm-package-provenance/</id>
+        <link href="https://github.blog/2023-04-19-introducing-npm-package-provenance/"/>
+        <updated>2023-04-20T07:15:21.619Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-04-19-introducing-npm-package-provenance/">Introducing npm package provenance | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub has added a feature to its Actions tool that enables developers to publish provenance alongside their npm projects. The feature provides a verifiable link between a package and its source repository, as well as the build instructions used to publish it. The aim is to increase trust in open source projects by enabling developers to ensure the integrity of their software supply chain. The Supply-chain Levels for Software Artifacts (SLSA) specification was created for this purpose and is being used for GitHub's npm provenance statements. The company also requires packages to be built on a trusted CI/CD platform.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何编写类型安全的 CSS 模块 - LogRocket 博客]]></title>
+        <id>http://blog.logrocket.com/write-type-safe-css-modules/</id>
+        <link href="http://blog.logrocket.com/write-type-safe-css-modules/"/>
+        <updated>2023-04-20T04:51:28.985Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://blog.logrocket.com/write-type-safe-css-modules/">How to write type-safe CSS Modules - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 TypeScript 自动化 CSS Modules 类型定义。CSS Modules 提供了一种在现代 Web 应用程序中编写模块化和作用域 CSS 样式的方法，但是类名在运行时生成并且在构建之间更改，因此很难以类型安全的方式使用它们。手动创建每个 CSS Module 的类型定义文件更新繁琐，容易出错。本文介绍了如何使用 typed-css-modules 包自动生成类型定义，并提供脚本来验证生成的类型是否是最新的。通过自动化这些过程，可以减少开发人员对类型系统的不信任感，让团队专注于构建优秀的产品。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js 20 现已推出！| Node.js]]></title>
+        <id>https://nodejs.org/en/blog/announcements/v20-release-announce</id>
+        <link href="https://nodejs.org/en/blog/announcements/v20-release-announce"/>
+        <updated>2023-04-20T04:50:59.309Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nodejs.org/en/blog/announcements/v20-release-announce">Node.js 20 is now available! | Node.js</a></p><p><strong>概要：</strong></p><p>Node.js 20 发布了，其中包括了新的 Node.js 权限模型、同步 import.meta.resolve、稳定的测试运行器、更新到 V8 JavaScript 引擎 11.3 版本和 Ada 到 2.0 等。此次更新还包括对基础部分的改进，如 URL、fetch () 和 EventTarget 等。值得注意的是，Permission Model 是一项实验性机制，用于在执行期间限制对特定资源的访问。该项目继续在多个领域取得进展，许多新功能和修复已流入现有的 LTS 版本中。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马克斯・莱特尔]]></title>
+        <id>https://maxleiter.com/blog/build-a-blog-with-nextjs-13</id>
+        <link href="https://maxleiter.com/blog/build-a-blog-with-nextjs-13"/>
+        <updated>2023-04-20T04:28:00.583Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://maxleiter.com/blog/build-a-blog-with-nextjs-13">Max Leiter</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Next.js 13 和 React Server Components 构建博客，并提供了实际示例。文章包括设置项目、文件结构、动态路由、获取和呈现 Markdown、SEO、部署等内容。作者还介绍了如何使用 next-mdx-remote 和 Bright 进行语法高亮。本文旨在帮助读者快速搭建自己的博客，并鼓励读者进行自己的实验和探索。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成为 Astro 维护者]]></title>
+        <id>https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/</id>
+        <link href="https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/"/>
+        <updated>2023-04-20T04:27:40.850Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/">Becoming an Astro maintainer</a></p><p><strong>概要：</strong></p><p>本文介绍了作者如何开始参与开源，并最终成为 Astro 的维护者。作者分享了自己的经验和故事，包括加入 Astro Discord 社区、提交第一个 PR 和发表有关 Astro 的演讲等。作者还提出了自己作为 Astro 维护者的目标，包括推出大使计划、改进文档和优化开发体验等。最后，作者表示很高兴能够成为 Astro 社区的一员，并希望在更广泛的开源领域中产生积极影响。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何训练自己的大型语言模型]]></title>
+        <id>https://blog.replit.com/llm-training</id>
+        <link href="https://blog.replit.com/llm-training"/>
+        <updated>2023-04-20T04:23:36.827Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/llm-training">How to train your own Large Language Models</a></p><p><strong>概要：</strong></p><p>Replit 介绍了如何使用 Databricks、Hugging Face 和 MosaicML 训练大型语言模型（LLM）。该公司投资了大量基础设施来从头开始训练自己的 LLM，以实现定制化、减少依赖和成本效益。他们使用 The Stack 作为主要数据源，并使用 Databricks 进行数据处理。在令牌化和词汇训练之前，他们使用自定义词汇表。最后，他们使用 MosaicML 进行模型训练，并使用 NVIDIA 的 FasterTransformer 和 Triton Server 加速推理过程。 Replit 表示，他们计划在未来的博客文章中深入探讨这些步骤的详细信息。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布 v10.0.0・immerjs/immer]]></title>
         <id>https://github.com/immerjs/immer/releases/tag/v10.0.0</id>
@@ -174,47 +216,5 @@
         <link href="https://github.com/shadcn/taxonomy"/>
         <updated>2023-04-13T00:18:33.348Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/shadcn/taxonomy">GitHub - shadcn/taxonomy: An open source application built using the new router, server components and everything new in Next.js 13.</a></p><p><strong>概要：</strong></p><p>这是一个使用 Next.js 13 和服务器组件构建的开源应用程序，包括身份验证、订阅、API 路由、静态页面等功能。作者正在使用此项目作为实验来测试现代应用程序在 Next.js 13 和服务器组件中的工作方式。该应用程序使用 Radix UI 构建 UI 组件，使用 Prisma ORM 管理数据库，使用 Stripe 实现订阅功能，并使用 Zod 进行验证。目前还存在一些问题，例如 GitHub 身份验证不可用，但作者会继续更新并改进该应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v1.32.0・microsoft/playwright]]></title>
-        <id>https://github.com/microsoft/playwright/releases/tag/v1.32.0</id>
-        <link href="https://github.com/microsoft/playwright/releases/tag/v1.32.0"/>
-        <updated>2023-04-13T00:16:33.115Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/microsoft/playwright/releases/tag/v1.32.0">Release v1.32.0 · microsoft/playwright</a></p><p><strong>概要：</strong></p><p>Playwright v1.32 发布了 UI Mode（预览版），该模式允许您探索、运行和调试测试，并带有内置的观察模式。新的 API 包括页面.routeFromHAR () 和 browserContext.routeFromHAR () 中的选项 option: updateMode 和 option: updateContent，以及 TestInfo.testId 的新属性和 Tracing.startChunk () 方法中的新选项名称。注意：组件测试有一个重大变化，现在 @playwright/experimental-ct-react 仅支持 React 18。此版本还针对以下稳定通道进行了测试：Google Chrome 111 和 Microsoft Edge 111。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 WordPress Playground 和 WebAssembly 在浏览器中构建 WordPress 体验 - Chrome 开发者]]></title>
-        <id>https://developer.chrome.com/en/blog/wordpress-playground/</id>
-        <link href="https://developer.chrome.com/en/blog/wordpress-playground/"/>
-        <updated>2023-04-13T00:06:26.166Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/wordpress-playground/">Build in-browser WordPress experiences with WordPress Playground and WebAssembly - Chrome Developers</a></p><p><strong>概要：</strong></p><p>WordPress Playground 是一个完整的 WordPress 技术堆栈，包括 PHP 和数据库，直接在浏览器中运行。用户可以免费使用和定制嵌入在 playground.wordpress.net 上的 WordPress。此外，用户还可以将 WordPress Playground 嵌入到应用程序中，并使用 JavaScript 进行控制。该文章介绍了 WordPress Playground 如何帮助 WordPress 开发人员、它是如何工作的以及它对 WordPress 未来的意义。WordPress Playground 还支持 WebAssembly PHP，这使得用户可以在不安装 WordPress 的情况下使用它。最后，该文章提出了未来可能出现的一些新功能，例如交互式教程、多人编辑会话、分布式 WordPress 等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Replit 赏金：打造和推出 MVP 的最佳场所]]></title>
-        <id>https://blog.replit.com/bounties-nat-dev</id>
-        <link href="https://blog.replit.com/bounties-nat-dev"/>
-        <updated>2023-04-12T04:39:27.047Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/bounties-nat-dev">Replit Bounties: The Best Place to Build and Launch MVPs</a></p><p><strong>概要：</strong></p><p>Nat Friedman, former CEO of GitHub, has launched a new project called nat.dev, a playground for developers to test and compare different large language models (LLMs). The project was created through Replit Bounties, a marketplace where anyone can work with software creators from the Replit community. Zain Huda, a software engineer at Meta, was selected as the developer to execute the full vision for the bounty after impressing Friedman with a working prototype of his vision. The website went on to become the most popular LLM-comparison tool in February 2023 and the team had to implement a credit system to mitigate costs. In April 2023, Nat open sourced the code to allow others to build their own playgrounds.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DRY vs SoC，一个艰难的选择 | Swizec Teller]]></title>
-        <id>https://swizec.com/blog/dry-vs-soc-a-difficult-choice/</id>
-        <link href="https://swizec.com/blog/dry-vs-soc-a-difficult-choice/"/>
-        <updated>2023-04-12T04:38:08.724Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://swizec.com/blog/dry-vs-soc-a-difficult-choice/">DRY vs SoC, a difficult choice | Swizec Teller</a></p><p><strong>概要：</strong></p><p>本文探讨了软件工程中两个重要的概念：DRY（不要重复自己）和 SoC（关注点分离）。作者指出，这两个概念并不是针对代码的规则，而是针对概念的规则。在应用这些概念时，需要关注的是业务概念是否相同，如果相同则可以使用 DRY，否则需要进行关注点分离。作者还提供了一些示例来说明如何应用这些概念。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3.4 · Nuxt]]></title>
-        <id>https://nuxt.com/blog/v3-4</id>
-        <link href="https://nuxt.com/blog/v3-4"/>
-        <updated>2023-04-12T04:20:53.077Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-4">Nuxt 3.4 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt.js, the open-source framework for building Vue.js applications, has released version 3.4, which includes experimental support for Chromium-based browsers' new View Transitions API. This allows native browser transitions between unrelated elements on different pages. The release also features enhanced payload handling, including support for rich JavaScript types such as regular expressions, dates, Map and Set and BigInt, as well as NuxtError and Vue-specific objects like ref, reactive, shallowRef and shallowReactive. Other upgrades include better context transforms, object-syntax Nuxt plugins, and improvements to layers.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - ds300/lazyrepo: 用于 npm/pnpm/yarn monorepos 的缓存任务运行器。]]></title>
-        <id>https://github.com/ds300/lazyrepo</id>
-        <link href="https://github.com/ds300/lazyrepo"/>
-        <updated>2023-04-11T13:28:51.241Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/ds300/lazyrepo">GitHub - ds300/lazyrepo: Caching task runner for npm/pnpm/yarn monorepos.</a></p><p><strong>概要：</strong></p><p>lazyrepo 是一个针对 npm/pnpm/yarn monorepos 的零配置缓存任务运行器。它适合于 turborepo 所开创的领域：使 package.json “scripts” 扩展，而无需采用像 nx、bazel、rush 或 buck 这样的大型工业级构建系统。lazyrepo 非常快速，尽管它是用 TypeScript 编写而不是一些年轻、英俊、聪明、有趣的系统语言，但它比 turborepo 要快得多。除了性能之外，lazyrepo 还带来了一些重要的生活质量改善。</p>]]></content>
     </entry>
 </feed>
