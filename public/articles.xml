@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-21T00:27:57.312Z</updated>
+    <updated>2023-04-21T00:32:56.137Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Deno vs. Node：没有人准备好迎接这个变化 | .cult by Honeypot]]></title>
+        <id>https://cult.honeypot.io/reads/deno-vs-node-main-differences/</id>
+        <link href="https://cult.honeypot.io/reads/deno-vs-node-main-differences/"/>
+        <updated>2023-04-21T00:30:49.371Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cult.honeypot.io/reads/deno-vs-node-main-differences/">Deno vs. Node: No One is Ready for the Move | .cult by Honeypot</a></p><p><strong>概要：</strong></p><p>本文介绍了 Node.js 和 Deno 两个 JavaScript 运行环境的比较。Node.js 是一个流行的服务器端、开源、跨平台的 JavaScript 运行环境，自 2009 年以来一直占据着 Web 开发世界的主导地位。它专注于事件驱动的 HTTP 服务器，并使用单线程的事件循环处理请求。与大多数竞争对手不同的是，Node.js 基于回调函数的扩展机制可以在最小内存使用下处理更多的请求。相比之下，Deno 在设计上有所改进，提供了更安全的框架和现代特性，由 Node.js 的创始人 Ryan Dahl 推出。然而，尽管 Deno 解决了 Node.js 的一些设计缺陷，但采用 Deno 的速度非常缓慢，大多数开发人员仍然满意于 Node.js。本文将探讨这种现象背后的原因，并对 Node.js 和 Deno 进行比较，从第三方包管理、API、安全性和 TypeScript 支持等方面进行分析。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[宣布 Rust 1.69.0 | Rust 博客]]></title>
         <id>https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html</id>
@@ -209,12 +216,5 @@
         <link href="https://www.izzy.co/blogs/robo-boys.html"/>
         <updated>2023-04-13T04:16:32.348Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.izzy.co/blogs/robo-boys.html">Replacing my best friends with an LLM trained on 500,000 group chat messages</a></p><p><strong>概要：</strong></p><p>作者用一个大型语言模型训练了他和他的好友们在大学时期使用的聊天记录，并通过 Modal 和 Hex 完成了这个项目。作者将原始聊天数据转换成了可供微调的格式，然后使用 LLaMa 进行微调。最终，作者将模型部署到了 Modal 上，并建立了一个类似于 iMessage 的前端界面，使得所有人都可以与 “机器人男孩” 聊天。作者强烈鼓励大家尝试这种无聊但复杂的 AI 项目，因为它是一个入门级别的 AI 项目，可以让你更深入地了解 LLMs 以及如何针对特定场景进行微调。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RFC：`next/third-parties`・vercel/next.js・讨论 #48256]]></title>
-        <id>https://github.com/vercel/next.js/discussions/48256</id>
-        <link href="https://github.com/vercel/next.js/discussions/48256"/>
-        <updated>2023-04-13T00:21:35.665Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vercel/next.js/discussions/48256">RFC: `next/third-parties` · vercel/next.js · Discussion #48256</a></p><p><strong>概要：</strong></p><p>Next.js 计划推出 next/third-parties 包，以简化开发人员在应用程序中加载流行第三方库的体验。该包将提供预配置的包装器组件，以确保流行的第三方资源能够高效加载，并随着最佳实践的演变而持续高效。为了避免增加 Next.js 的安装 / 包大小，这个包可以单独存在于核心 next 库之外，但仍然在同一个 monorepo 中。此外，Next.js 还将考虑支持其他流行的第三方库，例如 Sentry、DataDog 和 Facebook Pixel。</p>]]></content>
     </entry>
 </feed>
