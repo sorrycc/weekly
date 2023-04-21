@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-20T14:47:55.598Z</updated>
+    <updated>2023-04-21T00:27:57.312Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[宣布 Rust 1.69.0 | Rust 博客]]></title>
+        <id>https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html"/>
+        <updated>2023-04-21T00:20:26.179Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html">Announcing Rust 1.69.0 | Rust Blog</a></p><p><strong>概要：</strong></p><p>Rust 1.69.0 版本发布，包含 3000 多个提交和 500 多个贡献者的小改进。其中，Cargo 现在建议自动修复一些警告，支持自动修复一些简单的 Clippy 警告。为了吸引更多关注，当检测到可以自动修复的警告时，Cargo 将建议运行 cargo fix 或 cargo clippy --fix。此外，为了提高编译速度，默认情况下不再在构建脚本中包含调试信息。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 Vite 4.3。]]></title>
+        <id>https://vitejs.dev/blog/announcing-vite4-3.html</id>
+        <link href="https://vitejs.dev/blog/announcing-vite4-3.html"/>
+        <updated>2023-04-20T14:49:02.877Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vitejs.dev/blog/announcing-vite4-3.html">Announcing Vite 4.3</a></p><p><strong>概要：</strong></p><p>Vite 4.3 发布，主要改进了开发服务器的性能。该版本优化了解析逻辑，改进了热路径，并实现了智能缓存，以查找 package.json、TS 配置文件和已解决的 URL。与 Vite 4.2 相比，这次更新在各方面都有速度提升。此外，该团队正在开发一个官方基准测试工具，以获取每个 Pull Request 的性能指标，并通过 vite-plugin-inspect 提供更多的性能相关功能来帮助用户识别应用程序的瓶颈。明年他们将发布 Vite 5，这将是今年唯一的 Vite 主要版本，同时也会放弃对 Node.js 14 和 16 的支持。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[介绍 npm 包 provenance | GitHub 博客]]></title>
         <id>https://github.blog/2023-04-19-introducing-npm-package-provenance/</id>
@@ -202,19 +216,5 @@
         <link href="https://github.com/vercel/next.js/discussions/48256"/>
         <updated>2023-04-13T00:21:35.665Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vercel/next.js/discussions/48256">RFC: `next/third-parties` · vercel/next.js · Discussion #48256</a></p><p><strong>概要：</strong></p><p>Next.js 计划推出 next/third-parties 包，以简化开发人员在应用程序中加载流行第三方库的体验。该包将提供预配置的包装器组件，以确保流行的第三方资源能够高效加载，并随着最佳实践的演变而持续高效。为了避免增加 Next.js 的安装 / 包大小，这个包可以单独存在于核心 next 库之外，但仍然在同一个 monorepo 中。此外，Next.js 还将考虑支持其他流行的第三方库，例如 Sentry、DataDog 和 Facebook Pixel。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何快速制作「九宫格」拼图：基于 ImageMagick 和快捷指令的方案 | 少数派会员 π+Prime]]></title>
-        <id>https://sspai.com/prime/story/tile-cropping-magick-shortcuts</id>
-        <link href="https://sspai.com/prime/story/tile-cropping-magick-shortcuts"/>
-        <updated>2023-04-13T00:21:18.160Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sspai.com/prime/story/tile-cropping-magick-shortcuts">怎样快速制作「九宫格」拼图：基于 ImageMagick 和快捷指令的方案 ｜ 少数派会员  π+Prime</a></p><p><strong>概要：</strong></p><p>本文介绍如何通过 ImageMagick 或快捷指令，简单免费地制作九宫格拼图。九宫格的制作往往需要第三方软件辅助，也是乱收费和侵犯隐私的重灾区。作者推荐基于 ImageMagick 的终端脚本版本；快捷指令版本可以作为 iOS 平台的后备方案。其中，-background 用来指定背景色，可以是颜色名称、HEX 值或 RGB 值等，不指定则默认用白色。-margin 用来指定四周的额外留白，接受的值是相对于原图长边的百分比，不指定则默认不额外留白。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - shadcn/taxonomy：一个使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。]]></title>
-        <id>https://github.com/shadcn/taxonomy</id>
-        <link href="https://github.com/shadcn/taxonomy"/>
-        <updated>2023-04-13T00:18:33.348Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/shadcn/taxonomy">GitHub - shadcn/taxonomy: An open source application built using the new router, server components and everything new in Next.js 13.</a></p><p><strong>概要：</strong></p><p>这是一个使用 Next.js 13 和服务器组件构建的开源应用程序，包括身份验证、订阅、API 路由、静态页面等功能。作者正在使用此项目作为实验来测试现代应用程序在 Next.js 13 和服务器组件中的工作方式。该应用程序使用 Radix UI 构建 UI 组件，使用 Prisma ORM 管理数据库，使用 Stripe 实现订阅功能，并使用 Zod 进行验证。目前还存在一些问题，例如 GitHub 身份验证不可用，但作者会继续更新并改进该应用程序。</p>]]></content>
     </entry>
 </feed>
