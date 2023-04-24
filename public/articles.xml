@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-21T02:21:36.578Z</updated>
+    <updated>2023-04-24T00:40:54.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么你应该在社区大学教书]]></title>
+        <id>https://timozander.de/blog/why-you-should-teach/</id>
+        <link href="https://timozander.de/blog/why-you-should-teach/"/>
+        <updated>2023-04-24T00:36:52.865Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://timozander.de/blog/why-you-should-teach/">Why you should teach at a Community College</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了作者作为软件开发者教授 IT 课程的经历，并总结了教学对于软件开发者的好处。首先，教学可以帮助开发者更好地了解普通用户的需求和使用习惯，从而改善软件的用户体验；其次，教学可以提高开发者的语言表达能力，让他们更好地将复杂概念简单易懂地传达给学生；最后，教学本身也是一种学习，通过教学可以不断提升自己的技能和知识水平。作者建议开发者在编写指导文档时要详细、清晰地说明每一个步骤，同时要注意避免使用过多的技术术语和缩略语。此外，作者还鼓励有志于成为教师的人士加入到 STEM 教育中来，为缓解教师短缺问题做出贡献。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么在 React 中你不需要信号（Signals）]]></title>
+        <id>https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/</id>
+        <link href="https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/"/>
+        <updated>2023-04-24T00:36:07.525Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/">Why You Don't Need Signals in React</a></p><p><strong>概要：</strong></p><p>本文介绍了信号在 React 中的两个方面：反应式原语和绕过 diffing。反应式是 React 的一个关键特性，可以通过 useState 创建反应式原语来定义状态，并触发重新渲染。为了简化全局状态的定义和使用，第三方库 Jotai 可以很有用。Jotai 提供了 atoms 来定义全局状态，这些 atoms 可以表示状态的定义，也可以定义依赖于其他 atoms 的派生状态。与 useState 不同，useAtom 不是局部状态，可以在另一个组件中使用来共享 atom 状态。另一个重要的特性是绕过 diffing。React 通过比较 UI 的先前和当前表示来更新 DOM，以确定已更改的内容并仅更新 DOM 的那些部分，从而实现更好的性能和响应性。然而，绕过 diffing 可能会导致 UI 不一致，并使应用程序更难理解。因此，在决定绕过 diffing 之前，需要全面评估性能收益并权衡潜在风险。总之，Jotai 提供了一种更简单</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[说不要 "闪烁" 的 UI：使用 useLayoutEffect，绘画和浏览器故事]]></title>
+        <id>https://www.developerway.com/posts/no-more-flickering-ui</id>
+        <link href="https://www.developerway.com/posts/no-more-flickering-ui"/>
+        <updated>2023-04-24T00:34:43.692Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/no-more-flickering-ui">Say no to "flickering" UI: useLayoutEffect, painting and browsers story</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中如何根据 DOM 测量更改元素的基础知识。文章首先通过一个响应式导航组件的例子，讲解了如何使用 useEffect 来计算容器大小和每个元素的尺寸，并且根据这些信息来调整元素的数量。然而，这种方法会导致初始渲染时出现闪烁问题。为了解决这个问题，文章介绍了 useLayoutEffect 的用法，并解释了浏览器渲染、绘制和事件循环等相关概念。最后，文章还讨论了在 Next.js 等服务器端渲染框架中使用 useLayoutEffect 的问题。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🔥 掌握 ReactJS 优化 - ITNEXT]]></title>
+        <id>https://itnext.io/mastering-reactjs-optimization-d75b0af09a2f</id>
+        <link href="https://itnext.io/mastering-reactjs-optimization-d75b0af09a2f"/>
+        <updated>2023-04-24T00:19:26.031Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://itnext.io/mastering-reactjs-optimization-d75b0af09a2f">🔥 Mastering ReactJS optimization - ITNEXT</a></p><p><strong>概要：</strong></p><p>本文介绍了一些优化 React 应用程序的关键技术。首先，文章列举了常见的性能瓶颈，如大型包大小、慢渲染和网络请求不优化等。接着，文章介绍了一些优化策略，包括代码分割、懒加载、记忆化、分析器和服务器端渲染。通过掌握这些技术，可以创建快速响应、用户体验良好的 React 应用程序。其中，代码分割是将代码拆分成小块，在需要时按需加载，从而减少初始加载时间的强有力的优化技术；懒加载则是仅在需要时加载模块，而不是预加载所有内容，同样可以提高应用程序的性能。此外，文章还介绍了记忆化、分析器和服务器端渲染等其他优化技术。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们如何让 Vite 4.3 更快]]></title>
+        <id>https://sun0day.github.io/blog/vite/why-vite4_3-is-faster.html</id>
+        <link href="https://sun0day.github.io/blog/vite/why-vite4_3-is-faster.html"/>
+        <updated>2023-04-22T02:32:50.851Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sun0day.github.io/blog/vite/why-vite4_3-is-faster.html">How we made Vite 4.3 faaaaster</a></p><p><strong>概要：</strong></p><p>Vite 4.3 是一个快速的 JavaScript 构建工具，它在性能方面进行了改进。这篇文章介绍了 Vite 4.3 是如何通过优化解析策略、使用异步函数、并行处理和 JavaScript 优化等方式来提高性能的。此外，该文章还介绍了一些与 Vite 4.3 相关的基准测试生态系统和插件。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布 v5.80.0・webpack/webpack]]></title>
         <id>https://github.com/webpack/webpack/releases/tag/v5.80.0</id>
@@ -181,40 +216,5 @@
         <link href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer"/>
         <updated>2023-04-16T14:50:52.717Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer">Arend van Beelen jr.</a></p><p><strong>概要：</strong></p><p>本文讨论了成为最有价值的程序员（MVP）的概念。与 “最小可行产品” 类似，MVP 并不是一个具体的概念，而是一个追求的目标。这篇文章提供了一些建议，帮助程序员成为更有价值的人，包括不要过度关注代码风格、正确性、DRY 和性能，而是关注业务需求、解决问题以及与同事沟通。此外，作者还提到了保持身心健康的重要性，因为只有这样才能保持高效率和创造力。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“过度从事工作” 的赚钱者利用 ChatGPT 来接受更多全职工作。]]></title>
-        <id>https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs</id>
-        <link href="https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs"/>
-        <updated>2023-04-16T12:06:35.817Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs">‘Overemployed’ Hustlers Exploit ChatGPT To Take On Even More Full-Time Jobs</a></p><p><strong>概要：</strong></p><p>The COVID-19 pandemic has led to a rise in multi-job hustlers who use artificial intelligence (AI) chatbots to automate their work, according to an article by Vice's Motherboard. The overemployed community refers to themselves as the "overemployed" and use AI tools such as OpenAI's ChatGPT to create reports, presentations, and even cover letters for job applications. The article raises concerns about the potential effects of AI on the international job market, but for those using the technology, it has become an opportunity to increase income or ease the burden of holding down multiple jobs. However, members of the overemployed community are aware that what they're doing is frowned upon by corporate leaders and have requested anonymity to avoid losing their jobs.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT 的工作原理：深入探究 | Dan Hollick 🇿🇦]]></title>
-        <id>https://typefully.com/DanHollick/yA3ppZC</id>
-        <link href="https://typefully.com/DanHollick/yA3ppZC"/>
-        <updated>2023-04-14T00:40:29.438Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://typefully.com/DanHollick/yA3ppZC">How ChatGPT works: a deep dive | Dan Hollick 🇿🇦</a></p><p><strong>概要：</strong></p><p>本文介绍了大型语言模型 ChatGPT 的工作原理。这些模型通过计算输入和输出之间的概率来预测下一个单词或符号。为了实现这一点，它们使用神经网络来处理输入并生成输出的概率。在简单的情况下，神经网络由输入层、隐藏层和输出层组成，其中每个神经元都与相邻层中的神经元相连，并具有一个权重。当输入值通过神经元时，它会乘以该神经元的权重，并将结果传递给下一层中的所有神经元。然后，神经元将这些值相加，并将结果压缩到 - 1 到 1 之间，并将其传递给下一层中的每个神经元。最后一个隐藏层的神经元也是如此，但是将值压缩到 0 到 1 之间，并将其传递到输出层。在训练神经网络时，我们提供已知答案的图像，并计算答案和网络计算的概</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在页面退出时显示未保存的表单数据警告。]]></title>
-        <id>https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit</id>
-        <link href="https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit"/>
-        <updated>2023-04-14T00:40:07.652Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit">Display Warning for Unsaved Form Data on Page Exit</a></p><p><strong>概要：</strong></p><p>本文介绍了如何实现一个 FormPrompt 组件，以提高 Web 应用程序的用户体验。该组件可以在用户尝试离开具有未保存更改的页面时发出警告。作者讨论了使用纯 JavaScript 的 beforeunload 事件处理此类情况，以及使用 React Router v5 中的 Prompt 组件和 React Router v6 中的 useBeforeUnload 和 unstable_useBlocker 钩子的 React 特定解决方案。最后，作者演示了在前一篇文章中稍作修改的多步骤表单示例中如何使用 FormPrompt 组件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon CodeWhisperer，个人免费使用，现已普遍提供 | Amazon Web Services]]></title>
-        <id>https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/</id>
-        <link href="https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/"/>
-        <updated>2023-04-14T00:38:09.328Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/">Amazon CodeWhisperer, Free for Individual Use, is Now Generally Available | Amazon Web Services</a></p><p><strong>概要：</strong></p><p>Amazon CodeWhisperer 是一款实时 AI 编码助手，现已正式推出。它可以帮助开发人员快速、安全地编写代码，而无需离开他们的 IDE 进行研究。CodeWhisperer 可以在多个 IDE 中使用，包括 Visual Studio Code、IntelliJ IDEA 等，并支持 Python、Java、JavaScript、TypeScript 和 C# 等多种语言。此外，它还具有筛选可能被认为是有偏见或不公平的代码建议的功能，以及扫描生成和开发人员编写的代码以查找难以检测的漏洞并提供修复建议的安全扫描功能。CodeWhisperer 的个人版免费使用，可通过电子邮件注册。专业版则提供了更多的管理功能和安全扫描限制。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Replit 部署 - 从想法到生产的最快方式]]></title>
-        <id>https://blog.replit.com/deployments-launch</id>
-        <link href="https://blog.replit.com/deployments-launch"/>
-        <updated>2023-04-13T04:39:32.564Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/deployments-launch">Replit Deployments - the fastest way from idea → production</a></p><p><strong>概要：</strong></p><p>Replit has launched its Deployments feature, which separates development and production environments to allow users to work on their app without affecting live users. It also enables users to add features and fix bugs and only deploy to users when ready. The feature includes isolated VM resources for improved security and performance, custom domain linking, and control over when apps are released to users. Replit Deployments is built on Google Cloud Platform and offers industry-leading security features such as data encryption in transit and at rest. The company is planning to add more features in the coming weeks and months.</p>]]></content>
     </entry>
 </feed>
