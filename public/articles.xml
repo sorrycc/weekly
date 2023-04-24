@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-24T00:40:54.621Z</updated>
+    <updated>2023-04-24T01:03:29.399Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[职业建议：辞职时提前通知很重要]]></title>
+        <id>https://davidlaprade.github.io/give-a-lot-of-notice</id>
+        <link href="https://davidlaprade.github.io/give-a-lot-of-notice"/>
+        <updated>2023-04-24T01:03:24.977Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://davidlaprade.github.io/give-a-lot-of-notice">Career Advice No One Gave Me: Give a Lot of Notice When You Quit</a></p><p><strong>概要：</strong></p><p>在辞职时，通常给予两周的提前通知是黄金标准。但是，给予更长时间的通知实际上有很多好处。这些好处包括：只做自己最喜欢的工作部分、消除所有工作压力、获得相同的薪水、延长福利期限、休假时间没有使用、股票归属权增加、获得奖金、留下积极的印象、受到感谢和赞赏等。如果你是一名能干的软件工程师，并且在公司中地位良好，那么给予超过两周的通知通常对所有人都是有利的。此外，给予更长时间的通知还可以使公司更顺利地进行转型，减少风险等。
+
+为什么公司会同意这样做呢？通常情况下，需要签署延长通知期的人是工程师的经理，可能还包括人力资源部门。但是，如果你的</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[是时候学习 oklch 颜色了。]]></title>
+        <id>https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/</id>
+        <link href="https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/"/>
+        <updated>2023-04-24T01:01:10.314Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/">It's time to learn oklch color</a></p><p><strong>概要：</strong></p><p>本文介绍了最新的 CSS 颜色标记法，包括 hwb ()、lab ()、lch ()、oklab ()、oklch () 和 color ()。文章推荐学习 oklch () 标记法，因为它基于人眼感知而不是技术限制，可以定义任何颜色，并且支持更广泛的色域。此外，文章还提到了使用 oklch () 时需要注意的一些问题，如 chroma 值的范围和 hue 值的变化等。最后，文章推荐了一个在线颜色选择器 oklch.com，方便调试和转换其他颜色格式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[批判性思维是软件工程师最重要的技能吗？]]></title>
+        <id>https://blog.pragmaticengineer.com/critical-thinking/</id>
+        <link href="https://blog.pragmaticengineer.com/critical-thinking/"/>
+        <updated>2023-04-24T01:00:31.080Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.pragmaticengineer.com/critical-thinking/">Is Critical Thinking the Most Important Skill for Software Engineers?</a></p><p><strong>概要：</strong></p><p>这篇文章谈到了两个现象：技术术语的使用和 “思想领袖” 在社交媒体上的崛起，以及这些现象对批判性思维的影响。作者认为，过度使用技术术语可能掩盖了人们对某一概念的真正理解，而 “思想领袖” 的观点也不应该被轻易地接受，需要进行深入的研究和验证。作者建议人们提高批判性思维能力，包括理解技术术语、验证信息、问 “为什么” 和 “如何”，并避免跟风。最后，作者强调批判性思维将在未来变得越来越重要，因为随着人工智能工具的普及，我们需要更多的人来质疑和思考。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么你应该在社区大学教书]]></title>
         <id>https://timozander.de/blog/why-you-should-teach/</id>
@@ -195,26 +218,5 @@
         <link href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose"/>
         <updated>2023-04-17T00:22:40.984Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose">Breaking React Query's API on purpose</a></p><p><strong>概要：</strong></p><p>React Query在其即将发布的v5版本中删除了useQuery的回调。做出这个决定是因为回调不一致，可能导致错误，特别是在用于状态同步时。虽然一些用户对失去直观的API表示担忧，但React Query建议使用全局缓存级回调或Query上的元字段来代替。移除回调是一个例子，说明主要的版本跳跃可以用来纠正次优的设计决策。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[到期与长期知识]]></title>
-        <id>https://collabfund.com/blog/expiring-vs-lt-knowledge/</id>
-        <link href="https://collabfund.com/blog/expiring-vs-lt-knowledge/"/>
-        <updated>2023-04-16T14:54:36.131Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://collabfund.com/blog/expiring-vs-lt-knowledge/">Expiring vs. Long-Term Knowledge</a></p><p><strong>概要：</strong></p><p>根据麻省理工学院的捐赠基金，我们所消费的大部分信息的半衰期是以天或月计算的。虽然这种即将到期的知识可以帮助今天的决策，但它没有长期价值。长期的知识，例如了解为什么会发生某事，并且有可能再次发生，更难被注意到，因为它被埋藏在书中，而不是在头条新闻中爆料。然而，它的好处是巨大的，因为它很少过期，并随着时间的推移而复合，这意味着它可以被翻译并与其他主题互动。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有两种类型的软件工程师]]></title>
-        <id>https://registerspill.thorstenball.com/p/two-types-of-software-engineers</id>
-        <link href="https://registerspill.thorstenball.com/p/two-types-of-software-engineers"/>
-        <updated>2023-04-16T14:53:19.613Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://registerspill.thorstenball.com/p/two-types-of-software-engineers">Two types of software engineers</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了两种软件工程师的思维方式。第一种类型认为问题很容易解决，只需要要求人们做 X 即可。而第二种类型则认为问题很难解决，因为它需要人们去做 X。第一种类型认为只要不是技术问题就很容易解决，因为 “我们可以要求人们做 X”。而第二种类型则认为这很难，因为它不是技术问题。作者称第一种类型的工程师相信大写字母 E 的工程学，认为存在着冷酷、坚实的真理；有数学和物理；是应用科学。而第二种类型的工程师则更注重人，他们知道在所有的工程工作（和问题）中，人是核心所在。他们接受了事情变得混乱的事实，并迎接了一个更大的挑战，尽管这会带来混乱，但仍然要做出有价值和有影响力的工作。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿伦德・范・贝伦（Arend van Beelen jr.）]]></title>
-        <id>https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer</id>
-        <link href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer"/>
-        <updated>2023-04-16T14:50:52.717Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://arendjr.nl/2023/04/mvp-the-most-valuable-programmer">Arend van Beelen jr.</a></p><p><strong>概要：</strong></p><p>本文讨论了成为最有价值的程序员（MVP）的概念。与 “最小可行产品” 类似，MVP 并不是一个具体的概念，而是一个追求的目标。这篇文章提供了一些建议，帮助程序员成为更有价值的人，包括不要过度关注代码风格、正确性、DRY 和性能，而是关注业务需求、解决问题以及与同事沟通。此外，作者还提到了保持身心健康的重要性，因为只有这样才能保持高效率和创造力。</p>]]></content>
     </entry>
 </feed>
