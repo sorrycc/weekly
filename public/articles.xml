@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-24T01:03:29.399Z</updated>
+    <updated>2023-04-24T08:47:19.054Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[2023 年，Rust 能否击败 JavaScript？]]></title>
+        <id>https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023</id>
+        <link href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023"/>
+        <updated>2023-04-24T08:43:58.611Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023">Can Rust Beat JavaScript in 2023?</a></p><p><strong>概要：</strong></p><p>本文介绍了 Rust 作为 Web 开发语言的优势。尽管在过去，一些人认为使用 Rust 前端开发（通过 WASM）比 JavaScript 慢或者不够成熟，但是现在已经不再是问题。实际测试表明，Rust WASM 框架如 Leptos 和 Dioxus 在性能上超越了大多数 JavaScript 框架，同时 Rust 也有着出色的后端性能，在 TechEmpower 的排名中占据了五个前十名的位置。此外，Rust 还具有良好的开发体验和错误处理机制，并且拥有完善的生态系统来支持数据库、Redis、Stripe 支付等服务。最后，文章介绍了 Shuttle 作为部署 Rust 应用的工具。总之，Rust 是一个非常值得使用的 Web 开发语言，可以提供更好的性能、更低的内存占用和更好的服务稳定性。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[职业建议：辞职时提前通知很重要]]></title>
         <id>https://davidlaprade.github.io/give-a-lot-of-notice</id>
@@ -211,12 +218,5 @@
         <link href="https://windicss.org/posts/sunsetting.html"/>
         <updated>2023-04-17T00:25:55.750Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://windicss.org/posts/sunsetting.html">Windi CSS</a></p><p><strong>概要：</strong></p><p>Windi CSS 宣布将停止维护。Windi CSS 是一个用于解决 Tailwind 的性能问题的框架，其高效和强大的按需方法激发了 Tailwind 实现他们的 “JIT” 引擎。该项目已经开发出了许多增强开发人员体验的功能，包括 Variant Group、Shortcuts、Attributify Mode 和 Visual Analyzer 等。然而，由于团队成员追求新机会，他们无法再继续积极地开发和维护该项目，因此决定停止维护 Windi CSS。虽然不会添加新功能，但仍会提供安全修复程序。对于新项目，建议考虑 UnoCSS 或 Tailwind CSS 等替代方案。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[故意破坏 React Query 的 API]]></title>
-        <id>https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose</id>
-        <link href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose"/>
-        <updated>2023-04-17T00:22:40.984Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose">Breaking React Query's API on purpose</a></p><p><strong>概要：</strong></p><p>React Query在其即将发布的v5版本中删除了useQuery的回调。做出这个决定是因为回调不一致，可能导致错误，特别是在用于状态同步时。虽然一些用户对失去直观的API表示担忧，但React Query建议使用全局缓存级回调或Query上的元字段来代替。移除回调是一个例子，说明主要的版本跳跃可以用来纠正次优的设计决策。</p>]]></content>
     </entry>
 </feed>
