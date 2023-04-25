@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-24T08:47:19.054Z</updated>
+    <updated>2023-04-25T01:07:05.352Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[我作为新经理所犯的一些错误]]></title>
+        <id>https://www.benkuhn.net/newmgr/</id>
+        <link href="https://www.benkuhn.net/newmgr/"/>
+        <updated>2023-04-25T00:56:17.319Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.benkuhn.net/newmgr/">Some mistakes I made as a new manager</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了作者成为管理者的经历，以及他在这个过程中犯下的错误和解决策略。作者指出，作为一名管理者，最初的困难之一是难以确定自己的工作是否有用。他提供了三种应对策略：与上级领导沟通，寻求反馈，多元化生活体验。此外，作者还分享了其他的经验教训，如管理的重要性、任务相关成熟度、拖延维护、直接询问等。最后，作者总结了成为新管理者的困难所在，并鼓励读者不要害怕犯错，因为这是成长的必经之路。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 装饰器：完整指南]]></title>
+        <id>https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/</id>
+        <link href="https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/"/>
+        <updated>2023-04-25T00:45:02.471Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/">TypeScript Decorators: A complete guide</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 的装饰器，装饰器本质上是函数，可以用于给类、方法、属性等应用可重用的行为。不同类型的装饰器包括类装饰器、方法装饰器、属性装饰器、访问器装饰器和参数装饰器。装饰器可以用于实现各种功能，如前 / 后钩子、监视属性更改和方法调用、转换参数、自动序列化和反序列化、依赖注入等。使用装饰器的优点包括跨越关注点、依赖注入、验证和代码组织。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - partykit/partykit：有了朋友，一切都更好。]]></title>
+        <id>https://github.com/partykit/partykit</id>
+        <link href="https://github.com/partykit/partykit"/>
+        <updated>2023-04-25T00:43:43.337Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/partykit/partykit">GitHub - partykit/partykit: Everything's better with friends.</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 partykit 的软件开发工具包，可以用于构建实时协作应用程序。用户可以将其与现有的 Web 应用程序一起使用，也可以从头开始构建新的应用程序。该工具包提供了简单易用的服务器和客户端代码，使用户能够轻松地添加实时协作功能，如协同编辑器、多人游戏等。此外，文章还介绍了 y-partykit 和 party.io 两个相关的库，可以帮助用户更方便地构建协作应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新的断点侧边栏如何帮助您更快地进行调试 - Chrome 开发者]]></title>
+        <id>https://developer.chrome.com/en/blog/breakpoint-ux-redesign/</id>
+        <link href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/"/>
+        <updated>2023-04-25T00:23:16.053Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/">How the new Breakpoints sidebar helps you debug faster - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Google Chrome 最新版本的调试工具已经更新了断点侧边栏的设计。这个更新旨在提高断点调试的效率，通过提供更好的断点概览、更直观易用的用户工作流程和更可见的断点特性来实现。更新后的断点侧边栏集中于使现有功能更加直观易用，而非添加新功能。更新后的功能包括：暂停异常以调查代码错误、管理断点（展开相关断点组、折叠其他组、单击跳转到代码位置、删除或启用 / 禁用断点）以及使用条件断点和日志点等不太常用的断点特性。如果您有进一步的建议或反馈，请通过 crbug.com 提交。同时，建议使用 Chrome Canary、Dev 或 Beta 版本作为默认开发浏览器，以获得最新的 DevTools 功能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“const” 欺骗]]></title>
+        <id>https://www.joshwcomeau.com/javascript/the-const-deception/</id>
+        <link href="https://www.joshwcomeau.com/javascript/the-const-deception/"/>
+        <updated>2023-04-25T00:12:35.864Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/javascript/the-const-deception/">The “const” Deception</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中的 const 关键字，它用于声明常量。虽然 const 声明的对象是不可重新赋值的，但我们仍然可以修改该对象的属性或元素。文章讲解了变量名作为标签、重新分配标签和修改数据等概念，并介绍了原始数据类型的特点。最后，作者推荐了一些深入学习 JavaScript 的资源。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023 年，Rust 能否击败 JavaScript？]]></title>
         <id>https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023</id>
@@ -183,40 +218,5 @@
         <link href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/"/>
         <updated>2023-04-18T06:01:20.978Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/">What's new in ECMAScript 2023 | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>JavaScript 的新功能列表已经确定，最终版本的 ECMAScript 规范预计将于 6 月底发布。这些新功能包括在 Array 和 TypedArray 原型上添加 findLast () 和 findLastIndex () 方法、标准化 Hashbang 语法、允许使用符号作为 WeakMap 键以及在 Array.prototype 上添加返回新副本的方法等。这些功能都已达到第 4 阶段，并预计将包含在即将发布的 ECMAScript 版本中。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[编程游乐场列表]]></title>
-        <id>https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/</id>
-        <link href="https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/"/>
-        <updated>2023-04-18T04:54:42.797Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/">A list of programming playgrounds</a></p><p><strong>概要：</strong></p><p>本文介绍了一些编程工具，包括编译器、着色器、Arduino/IoT、CSS/HTML/JS、正则表达式、DNS、nginx、varnish、SQLite、SQL、Git、.NET bytecode、Python bytecode、数据格式、编程语言等等。这些工具可以帮助程序员在浏览器中快速测试和调试代码，并提高开发效率。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 LangChainJS 支持多个 JS 环境]]></title>
-        <id>https://blog.langchain.dev/js-envs/</id>
-        <link href="https://blog.langchain.dev/js-envs/"/>
-        <updated>2023-04-18T04:47:37.003Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.langchain.dev/js-envs/">Announcing LangChainJS Support for Multiple JS Environments</a></p><p><strong>概要：</strong></p><p>LangChain.js 宣布支持在浏览器、Cloudflare Workers、Vercel/Next.js、Deno、Supabase Edge Functions 等多个 JavaScript 环境中运行。该库最初只能在 Node.js 上运行，但收到了许多用户的请求，要求在其他环境中使用。为了实现这一目标，开发团队对代码进行了修改，例如将其转换为 ESM 格式，并使用 fetch 替换了 OpenAI 请求。此外，他们还重新设计了第三方集成的暴露方式，以避免不必要的代码加载和打包问题。虽然这些更改可能会导致某些旧代码无法正常工作，但该团队表示他们已经尽力确保兼容性，并欢迎社区贡献者提交更多测试用例。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[负载均衡]]></title>
-        <id>https://samwho.dev/load-balancing/</id>
-        <link href="https://samwho.dev/load-balancing/"/>
-        <updated>2023-04-18T04:47:05.157Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://samwho.dev/load-balancing/">Load Balancing</a></p><p><strong>概要：</strong></p><p>本文讨论了负载均衡算法的不同类型，以及它们在 HTTP 请求分发中的应用。从最简单的 “轮询” 算法开始，到更复杂的 “加权轮询” 和 “最小连接数” 算法，再到结合了动态加权轮询和最小连接数的 “峰值指数加权移动平均” 算法。文章还讨论了优化 HTTP 负载均衡算法的目标是延迟而不是丢失请求，并提供了一些实际模拟数据来支持这些算法的比较和评估。最后，作者还提供了一个交互式的模拟器，可以让读者自己尝试调整参数并观察结果。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SvelteKit 的干净前端架构：前言]]></title>
-        <id>https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/</id>
-        <link href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/"/>
-        <updated>2023-04-18T04:46:27.277Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/">Clean Frontend Architecture with SvelteKit: Preface</a></p><p><strong>概要：</strong></p><p>本文介绍了什么是干净的前端设计和架构，以及如何避免应用程序成为遗留代码。作者提到，干净的设计模式独立于技术决策和外部副作用，因此可以在应用程序框架内或外创建干净的设计。同时，干净的设计也不需要软件工程师拥有数学分析和功能编程的博士学位，只需要编写干净的代码即可。本文还介绍了一些实践指南，包括发现用例、使用网关处理外部依赖、域建模、服务器端路由和组件、验收测试和将站点部署到 Netlify。最后，作者鼓励读者通过阅读完整的代码示例来加深对干净设计和架构的理解，并提供了一个开源的代码库供读者参考。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windi CSS]]></title>
-        <id>https://windicss.org/posts/sunsetting.html</id>
-        <link href="https://windicss.org/posts/sunsetting.html"/>
-        <updated>2023-04-17T00:25:55.750Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://windicss.org/posts/sunsetting.html">Windi CSS</a></p><p><strong>概要：</strong></p><p>Windi CSS 宣布将停止维护。Windi CSS 是一个用于解决 Tailwind 的性能问题的框架，其高效和强大的按需方法激发了 Tailwind 实现他们的 “JIT” 引擎。该项目已经开发出了许多增强开发人员体验的功能，包括 Variant Group、Shortcuts、Attributify Mode 和 Visual Analyzer 等。然而，由于团队成员追求新机会，他们无法再继续积极地开发和维护该项目，因此决定停止维护 Windi CSS。虽然不会添加新功能，但仍会提供安全修复程序。对于新项目，建议考虑 UnoCSS 或 Tailwind CSS 等替代方案。</p>]]></content>
     </entry>
 </feed>
