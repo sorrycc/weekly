@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-27T01:21:43.547Z</updated>
+    <updated>2023-04-27T04:47:59.619Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[React 渲染交互指南]]></title>
+        <id>https://ui.dev/why-react-renders</id>
+        <link href="https://ui.dev/why-react-renders"/>
+        <updated>2023-04-27T04:47:36.154Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://ui.dev/why-react-renders">The Interactive Guide to Rendering in React</a></p><p><strong>概要：</strong></p><p>本文主要介绍了 React 的渲染机制，即 React 只有在状态改变时才会重新渲染组件。当事件处理程序被调用时，如果其中包含 useState 的更新函数，并且新状态与快照中的状态不同，React 将触发重新渲染。此外，本文还介绍了 React 的批处理算法和 StrictMode 组件。最后，作者提醒读者，在实际开发中需要注意组件的纯度和性能问题。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何使用 Rust 和 Napi rs 在 NodeJs 中将 CSV 文件处理速度提高五倍]]></title>
         <id>https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs</id>
@@ -211,12 +218,5 @@
         <link href="https://blog.replit.com/llm-training"/>
         <updated>2023-04-20T04:23:36.827Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/llm-training">How to train your own Large Language Models</a></p><p><strong>概要：</strong></p><p>Replit 介绍了如何使用 Databricks、Hugging Face 和 MosaicML 训练大型语言模型（LLM）。该公司投资了大量基础设施来从头开始训练自己的 LLM，以实现定制化、减少依赖和成本效益。他们使用 The Stack 作为主要数据源，并使用 Databricks 进行数据处理。在令牌化和词汇训练之前，他们使用自定义词汇表。最后，他们使用 MosaicML 进行模型训练，并使用 NVIDIA 的 FasterTransformer 和 Triton Server 加速推理过程。 Replit 表示，他们计划在未来的博客文章中深入探讨这些步骤的详细信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v10.0.0・immerjs/immer]]></title>
-        <id>https://github.com/immerjs/immer/releases/tag/v10.0.0</id>
-        <link href="https://github.com/immerjs/immer/releases/tag/v10.0.0"/>
-        <updated>2023-04-19T00:42:12.350Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/immerjs/immer/releases/tag/v10.0.0">Release v10.0.0 · immerjs/immer</a></p><p><strong>概要：</strong></p><p>Immer 10 发布了，支持现代浏览器，不再支持 UMD 构建和 Promise-based reducers。默认情况下忽略纯对象上的 getter 和 setter，提供了显著的性能提升。ES5 模式已被删除，缩短 JSON 数组长度现在会生成删除补丁。此外，Immer 现在是一个 ESM 包，可以直接在浏览器中导入。对于迁移，如果有任何 enableES5 () 调用，则不进行迁移，使用 getter/setter icmw 纯对象时，在启动时调用 useStrictShallowCopy (true)，替换所有默认导入，将 import produce from "immer" 替换为 import {produce} from "immer"，将所有对 enableAllPlugins () 的调用替换为 enablePatches (); enableMapSet ()。</p>]]></content>
     </entry>
 </feed>
