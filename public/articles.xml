@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-25T01:07:06.796Z</updated>
+    <updated>2023-04-27T01:21:43.547Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何使用 Rust 和 Napi rs 在 NodeJs 中将 CSV 文件处理速度提高五倍]]></title>
+        <id>https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs</id>
+        <link href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs"/>
+        <updated>2023-04-27T00:47:13.797Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs">How to process a CSV file five times faster in NodeJs with Rust and Napi rs</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 和 Napi rs 在 NodeJs 中处理 CSV 文件。作者使用了 readline 模块来处理 CSV 文件，并记录了处理时间和吞吐量。然后作者使用了 Rust 编写了相同的代码，并通过 pv 命令进行了基准测试，发现 Rust 版本比 Nodejs 版本快五倍。最后，作者介绍了如何使用 Napi rs 将 Rust 代码编译成动态库，并在 Nodejs 中调用。总之，结合 Rust 和 Nodejs 可以实现更好的性能和效率。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 useReducer 的创造性方式]]></title>
+        <id>https://www.code-insights.dev/posts/creative-ways-of-using-usereducer</id>
+        <link href="https://www.code-insights.dev/posts/creative-ways-of-using-usereducer"/>
+        <updated>2023-04-27T00:36:42.149Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.code-insights.dev/posts/creative-ways-of-using-usereducer">Creative ways of using useReducer</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 中的 useReducer 钩子函数，它可以用于管理复杂状态。通过传递一个 reducer 函数、一个初始值和一个可选的初始化函数，useReducer 返回一个包含当前状态和 dispatch 函数的数组。使用 dispatch 函数更新状态时，它会调用 reducer 函数并返回下一个状态。但是，由于函数式 JavaScript 的宽容性质，useReducer 还可以以不同的方式创造性地使用。文章提供了一些例子，如简单的开关、增量按钮、增强状态和安全状态等，演示了使用 useReducer 管理状态的优势。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 年在哪里托管您的 Remix 应用程序？]]></title>
+        <id>https://www.jacobparis.com/guides/where-to-host-remix</id>
+        <link href="https://www.jacobparis.com/guides/where-to-host-remix"/>
+        <updated>2023-04-27T00:36:17.402Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jacobparis.com/guides/where-to-host-remix">Where to host your Remix app in 2023</a></p><p><strong>概要：</strong></p><p>本文介绍了多种应用托管方式，包括无服务器函数、Netlify、Vercel、Cloudflare Pages、Fastly、AWS Lambda 和长期运行的服务器。对于每种托管方式，文章列出了其优点和缺点，以及支持的功能和限制。需要根据自己的应用需求选择适合的托管方式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实现 experimental_useFormStatus by acdlite・Pull Request #26722・facebook/react]]></title>
+        <id>https://github.com/facebook/react/pull/26722</id>
+        <link href="https://github.com/facebook/react/pull/26722"/>
+        <updated>2023-04-27T00:32:22.463Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/facebook/react/pull/26722">Implement experimental_useFormStatus by acdlite · Pull Request #26722 · facebook/react</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个新的 React Hook，可以读取其祖先表单组件的状态，用于实现加载指示器等功能。目前该 Hook 只在实验通道中可用，随着其稳定性的提高，将会发布更多 API 和文档。该 Hook 内部使用 startTransition 和上下文对象实现，但实际实现细节可能会发生变化。由于表单元素不能嵌套，因此实现者不需要跟踪多个嵌套的 “转换提供者”。虽然它使用通用的 Fiber 配置方法进行实现，但它目前仍基于 React DOM 的要求进行一些假设。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[岛屿的温和介绍]]></title>
+        <id>https://deno.com/blog/intro-to-islands</id>
+        <link href="https://deno.com/blog/intro-to-islands"/>
+        <updated>2023-04-27T00:31:14.024Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/intro-to-islands">A Gentle Introduction to Islands</a></p><p><strong>概要：</strong></p><p>本文介绍了一种名为 “Islands” 的解决方案，用于应对那些需要一定交互性但不需要大量 JavaScript 的网站。Islands 是指使用 Preact 组件来实现交互，并在静态渲染的 HTML 页面中进行客户端渲染。这种方法避免了将整个框架打包发送到客户端的问题，同时也使开发人员能够更加有意识地选择何时使用 JavaScript。文章还提到了其他一些解决方案，如 React Server Components 和 Quik 的可恢复性，以及 Astro 和 Marko 等框架中类似的技术。总之，Islands 是一种简单而有效的解决方案，可以帮助开发人员更好地控制网站的交互性和 JavaScript 的使用。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我作为新经理所犯的一些错误]]></title>
         <id>https://www.benkuhn.net/newmgr/</id>
@@ -183,40 +218,5 @@
         <link href="https://github.com/immerjs/immer/releases/tag/v10.0.0"/>
         <updated>2023-04-19T00:42:12.350Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/immerjs/immer/releases/tag/v10.0.0">Release v10.0.0 · immerjs/immer</a></p><p><strong>概要：</strong></p><p>Immer 10 发布了，支持现代浏览器，不再支持 UMD 构建和 Promise-based reducers。默认情况下忽略纯对象上的 getter 和 setter，提供了显著的性能提升。ES5 模式已被删除，缩短 JSON 数组长度现在会生成删除补丁。此外，Immer 现在是一个 ESM 包，可以直接在浏览器中导入。对于迁移，如果有任何 enableES5 () 调用，则不进行迁移，使用 getter/setter icmw 纯对象时，在启动时调用 useStrictShallowCopy (true)，替换所有默认导入，将 import produce from "immer" 替换为 import {produce} from "immer"，将所有对 enableAllPlugins () 的调用替换为 enablePatches (); enableMapSet ()。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node v20.0.0]]></title>
-        <id>https://nodejs.org/en/blog/release/v20.0.0</id>
-        <link href="https://nodejs.org/en/blog/release/v20.0.0"/>
-        <updated>2023-04-19T00:09:46.699Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nodejs.org/en/blog/release/v20.0.0">Node v20.0.0</a></p><p><strong>概要：</strong></p><p>Node.js v20.0.0 (Current)更新了很多功能。Permission Model是其中一个实验性功能，它允许开发人员在程序执行期间限制对特定资源（例如文件系统操作、子进程生成和工作线程创建）的访问。通过启用标志--experimental-permission，可以限制对所有可用权限的访问。使用此功能，开发人员可以防止应用程序访问或修改敏感数据或运行潜在有害代码。此外，ESM hooks现在在专用线程上运行，与主线程隔离，确保加载器和应用程序代码之间没有交叉污染。V8引擎更新到11.3版本，增加了一些新的功能，例如String.prototype.isWellFormed和toWellFormed、Resizable ArrayBuffer和growable SharedArrayBuffer等。测试运行器模块已经被标记为稳定模块，而不再是实验性模块。URL解析器Ada 2.0也得到了升级，带来了显著的性能提升。ARM64 Windows现在也得到了官方支持。同时，url.parse()将不再接受端口号不是数字的URL，这可能会导致意外输入的主机名欺骗。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 TypeScript 5.1 Beta - TypeScript。]]></title>
-        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/</id>
-        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/"/>
-        <updated>2023-04-19T00:09:46.499Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/">Announcing TypeScript 5.1 Beta - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 beta has been released, featuring easier implicit returns for undefined-returning functions and unrelated types for getters and setters. The release also includes decoupled type-checking between JSX elements and JSX tag types, namespaced JSX attributes and the ability to edit multiple locations at the same time automatically. TypeScript now provides snippet completions when typing out a @param tag in both TypeScript and JavaScript files. The release also features optimisations including avoiding unnecessary type instantiation and reduced calls into scanner for JSDoc parsing. However, ES2020 and Node.js 14.17 are now the minimum runtime requirements.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一个 README 模板 - 带有自动生成的目录・Matthias Ott - 用户体验设计师]]></title>
-        <id>https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents</id>
-        <link href="https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents"/>
-        <updated>2023-04-18T08:11:21.420Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents">A README Template – With an Automatically Generated Table of Contents · Matthias Ott – User Experience Designer</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何在项目中编写 README 文件，作者提供了一个包含重要部分的模板，并且还介绍了一个自动生成目录的工具 DocToc。此外，作者还推荐了一个名为 Readme.so 的编辑器，可以通过拖放和调整文本来创建个性化的 README 文件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - yoavbls/pretty-ts-errors：🔵 在 VSCode 中使 TypeScript 错误更漂亮和易读 🎀]]></title>
-        <id>https://github.com/yoavbls/pretty-ts-errors</id>
-        <link href="https://github.com/yoavbls/pretty-ts-errors"/>
-        <updated>2023-04-18T07:00:29.280Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/yoavbls/pretty-ts-errors">GitHub - yoavbls/pretty-ts-errors: 🔵 Make TypeScript errors prettier and human-readable in VSCode 🎀</a></p><p><strong>概要：</strong></p><p>这是一个名为“Pretty TypeScript Errors”的Visual Studio Code扩展，旨在让TypeScript错误变得更加美观和易于阅读。当类型的复杂性增加时，TypeScript错误会变得越来越混乱。这个扩展能帮助您更好地理解错误信息。主要功能包括：为错误信息中的类型提供语法高亮，支持深色和浅色主题；在错误信息中的类型旁边提供一个按钮，可以跳转到相关类型声明；提供一个按钮，可以将您导航到typescript.tv，那里有详细的解释，有时还有视频；提供一个按钮，可以将您导航到ts-error-translator，那里可以用简单的英语阅读错误。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ECMAScript 2023 有什么新特性 | pawelgrzybek.com]]></title>
-        <id>https://pawelgrzybek.com/whats-new-in-ecmascript-2023/</id>
-        <link href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/"/>
-        <updated>2023-04-18T06:01:20.978Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/whats-new-in-ecmascript-2023/">What's new in ECMAScript 2023 | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>JavaScript 的新功能列表已经确定，最终版本的 ECMAScript 规范预计将于 6 月底发布。这些新功能包括在 Array 和 TypedArray 原型上添加 findLast () 和 findLastIndex () 方法、标准化 Hashbang 语法、允许使用符号作为 WeakMap 键以及在 Array.prototype 上添加返回新副本的方法等。这些功能都已达到第 4 阶段，并预计将包含在即将发布的 ECMAScript 版本中。</p>]]></content>
     </entry>
 </feed>
