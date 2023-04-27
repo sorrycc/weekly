@@ -12,7 +12,7 @@ MDH 前端周刊源于 2021 年的一次临时起意，通过公开立 Flag + �
 
 <strong>如何订阅？</strong>
 
-你可以通过 [RSS](/rss.xml) 的方式订阅；也可扫下方二维码关注我的公众号，然后每周一早上 9 点会准时收到推送。
+你可以通过 [RSS](/public/articles.xml) 的方式订阅；也可扫下方二维码关注我的公众号，然后每周一早上 9 点会准时收到推送。
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01PBdSNj1SIBGJTJn52_!!6000000002223-2-tps-840-855.png_200x200.jpg" width="200" height="200" style="margin:0;" />
 
