@@ -15,6 +15,7 @@ draft: true
 
  - Rollup 文档[中文站](https://cn.rollupjs.org/)。
  - Rollup [v3.21.0](https://github.com/rollup/rollup/releases/tag/v3.21.0) 发布，支持 import tree shake 。
+ - React 文档[中文站](https://zh-hans.react.dev/)。
  - Github actions 启用 [macos-13](https://github.blog/changelog/2023-04-24-github-actions-macos-13-is-now-available/) 。
  - [zustand](https://github.com/pmndrs/zustand) 30k stars 。
  - Cypress [v12.11.0](https://docs.cypress.io/guides/references/changelog#12-11-0) 发布，支持 Angular v16 。
