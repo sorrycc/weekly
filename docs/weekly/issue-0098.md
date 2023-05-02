@@ -11,7 +11,7 @@ draft: true
 。
 
 ## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
+> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔。
 
  - Rollup 文档[中文站](https://cn.rollupjs.org/)。
  - Rollup [v3.21.0](https://github.com/rollup/rollup/releases/tag/v3.21.0) 发布，支持 import tree shake 。
