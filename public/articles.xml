@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-04T05:56:38.930Z</updated>
+    <updated>2023-05-04T06:53:53.855Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Canaries：在 Meta 之外启用增量功能发布的 React]]></title>
+        <id>https://react.dev/blog/2023/05/03/react-canaries</id>
+        <link href="https://react.dev/blog/2023/05/03/react-canaries"/>
+        <updated>2023-05-04T06:53:29.142Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/05/03/react-canaries">React Canaries: Enabling Incremental Feature Rollout Outside Meta – React</a></p><p><strong>概要：</strong></p><p>React 团队推出了一个新的官方支持的 Canary 版本，让开发者可以在稳定版本发布之前就采用新功能。这个 Canary 版本只包含 React 团队相信已经准备好被采用的特性，而不像实验性版本那样可能会有重大变化。Canary 版本可以让框架在全局 React 发布计划之外单独采用 React 特性，也可以让框架在自己的次要版本中发布 React 相关的重大变更，而不会破坏 semver。React 将按照 semver 规范每个稳定版本进行更新，同时也会在博客上发布 Canary 版本中的重大变更和新特性。Canary 版本需要被固定版本号，以避免包含重大变更。除此之外，React 的稳定版本不会有任何改变。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一个文件中多个样式表・Issue #5629・w3c/csswg-drafts]]></title>
         <id>https://github.com/w3c/csswg-drafts/issues/5629</id>
@@ -209,12 +216,5 @@
         <link href="https://www.joshwcomeau.com/javascript/the-const-deception/"/>
         <updated>2023-04-25T00:12:35.864Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/javascript/the-const-deception/">The “const” Deception</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中的 const 关键字，它用于声明常量。虽然 const 声明的对象是不可重新赋值的，但我们仍然可以修改该对象的属性或元素。文章讲解了变量名作为标签、重新分配标签和修改数据等概念，并介绍了原始数据类型的特点。最后，作者推荐了一些深入学习 JavaScript 的资源。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 年，Rust 能否击败 JavaScript？]]></title>
-        <id>https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023</id>
-        <link href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023"/>
-        <updated>2023-04-24T08:43:58.611Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023">Can Rust Beat JavaScript in 2023?</a></p><p><strong>概要：</strong></p><p>本文介绍了 Rust 作为 Web 开发语言的优势。尽管在过去，一些人认为使用 Rust 前端开发（通过 WASM）比 JavaScript 慢或者不够成熟，但是现在已经不再是问题。实际测试表明，Rust WASM 框架如 Leptos 和 Dioxus 在性能上超越了大多数 JavaScript 框架，同时 Rust 也有着出色的后端性能，在 TechEmpower 的排名中占据了五个前十名的位置。此外，Rust 还具有良好的开发体验和错误处理机制，并且拥有完善的生态系统来支持数据库、Redis、Stripe 支付等服务。最后，文章介绍了 Shuttle 作为部署 Rust 应用的工具。总之，Rust 是一个非常值得使用的 Web 开发语言，可以提供更好的性能、更低的内存占用和更好的服务稳定性。</p>]]></content>
     </entry>
 </feed>
