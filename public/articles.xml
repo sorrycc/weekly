@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-04T04:42:00.753Z</updated>
+    <updated>2023-05-04T05:56:38.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[一个文件中多个样式表・Issue #5629・w3c/csswg-drafts]]></title>
+        <id>https://github.com/w3c/csswg-drafts/issues/5629</id>
+        <link href="https://github.com/w3c/csswg-drafts/issues/5629"/>
+        <updated>2023-05-04T04:50:11.466Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/w3c/csswg-drafts/issues/5629">Multiple stylesheets per file · Issue #5629 · w3c/csswg-drafts</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了在 JS 中导入 CSSStyleSheets 的问题。目前的解决方法是将 CSS 编译为 JS 模块，但这会降低浏览器直接加载和解析 CSS 的性能。Web Bundles 可能会通用地解决这个问题，但其未来在多个浏览器上的应用尚不确定。作者提出了一个新的解决方案：引入一个 @sheet 规则，它包含整个样式表作为其内容，以允许 CSS 的打包。该提议对于管理 JS 中的 CSSStyleSheets 的代码最为相关，并且也可以作为用户自定义 CSS 加载程序的桥梁，通过标准化打包，可以使用客户端实用程序进行作用域限定。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[熊猫 CSS - 无运行时开销的 CSS-in-JS]]></title>
+        <id>https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/</id>
+        <link href="https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/"/>
+        <updated>2023-05-04T04:49:11.860Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/">Panda CSS – CSS-in-JS without Runtime Overhead</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 Panda CSS 的前端工具库，它提供了一组实用类、模式和配方，用于在 Web 应用程序中构建现代和响应式用户界面。相比于纯字符串的方法，Panda CSS 提供了一种声明性的方法来使用 JavaScript 对象对组件进行样式设置，使其更易读和易维护。此外，本文还介绍了如何在 Next.js 项目中使用 Panda CSS，并探讨了其主题、模式和配方等高级用法。最后，本文指出，尽管 Panda CSS 目前仍处于实验阶段，但它有望成为前端开发流程中的重要组成部分。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么我喜欢使用地图（和 WeakMaps）来处理 DOM 节点]]></title>
+        <id>https://www.macarthur.me/posts/maps-for-dom-nodes</id>
+        <link href="https://www.macarthur.me/posts/maps-for-dom-nodes"/>
+        <updated>2023-05-04T04:47:53.139Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.macarthur.me/posts/maps-for-dom-nodes">Why I Like Using Maps (and WeakMaps) for Handling DOM Nodes</a></p><p><strong>概要：</strong></p><p>本文介绍了在处理大量 DOM 节点时，Maps（和 WeakMaps）是特别有用的工具的原因。与使用对象作为键 / 值存储相比，使用 Map 可以更简单、更强大、更高效地管理状态，并且不需要设置或读取唯一属性。此外，Map 还具有自动垃圾回收的功能，可以更有效地管理内存。总之，Map 对于处理大量 DOM 节点非常有用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RegExGPT]]></title>
+        <id>https://regexgpt.app/</id>
+        <link href="https://regexgpt.app/"/>
+        <updated>2023-05-04T04:47:06.555Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://regexgpt.app/">RegExGPT</a></p><p><strong>概要：</strong></p><p>RegExGPT 是一种工具，它可以让人们通过输入文本转换的示例和期望结果来生成正则表达式模式。用户还可以使用自然语言输入来解释他们想匹配的模式，并选择输出的编程语言。使用 RegExGPT 时，需要输入要转换的文本示例和期望结果，选择编程语言并点击 “生成” 按钮来生成正则表达式模式。生成的正则表达式模式可以在代码中使用，将输入文本转换为期望的结果。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 React Native macOS 0.71 | React Native]]></title>
+        <id>https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/</id>
+        <link href="https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/"/>
+        <updated>2023-05-04T04:42:51.689Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/">Introducing React Native macOS 0.71 | React Native</a></p><p><strong>概要：</strong></p><p>React Native macOS 发布了 0.71 版本，这是该平台首次与 iOS、Android 和 Windows 保持同步。为了实现这个目标，开发团队不得不跳过了一些中间版本，并开始着手 0.72 版本。此外，该版本还加入了对 Fabric 的实验性支持，但需要注意的是这只是一个概念验证，存在不稳定性。除此之外，该版本也进行了许多清理和修复工作，以使未来的发布更加顺畅。具体变化请参考 GitHub Release。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebContainers 现在可以在 Safari、iOS 和 iPadOS 上运行。]]></title>
         <id>https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/</id>
@@ -181,42 +216,5 @@
         <link href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023"/>
         <updated>2023-04-24T08:43:58.611Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023">Can Rust Beat JavaScript in 2023?</a></p><p><strong>概要：</strong></p><p>本文介绍了 Rust 作为 Web 开发语言的优势。尽管在过去，一些人认为使用 Rust 前端开发（通过 WASM）比 JavaScript 慢或者不够成熟，但是现在已经不再是问题。实际测试表明，Rust WASM 框架如 Leptos 和 Dioxus 在性能上超越了大多数 JavaScript 框架，同时 Rust 也有着出色的后端性能，在 TechEmpower 的排名中占据了五个前十名的位置。此外，Rust 还具有良好的开发体验和错误处理机制，并且拥有完善的生态系统来支持数据库、Redis、Stripe 支付等服务。最后，文章介绍了 Shuttle 作为部署 Rust 应用的工具。总之，Rust 是一个非常值得使用的 Web 开发语言，可以提供更好的性能、更低的内存占用和更好的服务稳定性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[职业建议：辞职时提前通知很重要]]></title>
-        <id>https://davidlaprade.github.io/give-a-lot-of-notice</id>
-        <link href="https://davidlaprade.github.io/give-a-lot-of-notice"/>
-        <updated>2023-04-24T01:03:24.977Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://davidlaprade.github.io/give-a-lot-of-notice">Career Advice No One Gave Me: Give a Lot of Notice When You Quit</a></p><p><strong>概要：</strong></p><p>在辞职时，通常给予两周的提前通知是黄金标准。但是，给予更长时间的通知实际上有很多好处。这些好处包括：只做自己最喜欢的工作部分、消除所有工作压力、获得相同的薪水、延长福利期限、休假时间没有使用、股票归属权增加、获得奖金、留下积极的印象、受到感谢和赞赏等。如果你是一名能干的软件工程师，并且在公司中地位良好，那么给予超过两周的通知通常对所有人都是有利的。此外，给予更长时间的通知还可以使公司更顺利地进行转型，减少风险等。
-
-为什么公司会同意这样做呢？通常情况下，需要签署延长通知期的人是工程师的经理，可能还包括人力资源部门。但是，如果你的</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[是时候学习 oklch 颜色了。]]></title>
-        <id>https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/</id>
-        <link href="https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/"/>
-        <updated>2023-04-24T01:01:10.314Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/">It's time to learn oklch color</a></p><p><strong>概要：</strong></p><p>本文介绍了最新的 CSS 颜色标记法，包括 hwb ()、lab ()、lch ()、oklab ()、oklch () 和 color ()。文章推荐学习 oklch () 标记法，因为它基于人眼感知而不是技术限制，可以定义任何颜色，并且支持更广泛的色域。此外，文章还提到了使用 oklch () 时需要注意的一些问题，如 chroma 值的范围和 hue 值的变化等。最后，文章推荐了一个在线颜色选择器 oklch.com，方便调试和转换其他颜色格式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[批判性思维是软件工程师最重要的技能吗？]]></title>
-        <id>https://blog.pragmaticengineer.com/critical-thinking/</id>
-        <link href="https://blog.pragmaticengineer.com/critical-thinking/"/>
-        <updated>2023-04-24T01:00:31.080Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.pragmaticengineer.com/critical-thinking/">Is Critical Thinking the Most Important Skill for Software Engineers?</a></p><p><strong>概要：</strong></p><p>这篇文章谈到了两个现象：技术术语的使用和 “思想领袖” 在社交媒体上的崛起，以及这些现象对批判性思维的影响。作者认为，过度使用技术术语可能掩盖了人们对某一概念的真正理解，而 “思想领袖” 的观点也不应该被轻易地接受，需要进行深入的研究和验证。作者建议人们提高批判性思维能力，包括理解技术术语、验证信息、问 “为什么” 和 “如何”，并避免跟风。最后，作者强调批判性思维将在未来变得越来越重要，因为随着人工智能工具的普及，我们需要更多的人来质疑和思考。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么你应该在社区大学教书]]></title>
-        <id>https://timozander.de/blog/why-you-should-teach/</id>
-        <link href="https://timozander.de/blog/why-you-should-teach/"/>
-        <updated>2023-04-24T00:36:52.865Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://timozander.de/blog/why-you-should-teach/">Why you should teach at a Community College</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了作者作为软件开发者教授 IT 课程的经历，并总结了教学对于软件开发者的好处。首先，教学可以帮助开发者更好地了解普通用户的需求和使用习惯，从而改善软件的用户体验；其次，教学可以提高开发者的语言表达能力，让他们更好地将复杂概念简单易懂地传达给学生；最后，教学本身也是一种学习，通过教学可以不断提升自己的技能和知识水平。作者建议开发者在编写指导文档时要详细、清晰地说明每一个步骤，同时要注意避免使用过多的技术术语和缩略语。此外，作者还鼓励有志于成为教师的人士加入到 STEM 教育中来，为缓解教师短缺问题做出贡献。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么在 React 中你不需要信号（Signals）]]></title>
-        <id>https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/</id>
-        <link href="https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/"/>
-        <updated>2023-04-24T00:36:07.525Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.axlight.com/posts/why-you-dont-need-signals-in-react/">Why You Don't Need Signals in React</a></p><p><strong>概要：</strong></p><p>本文介绍了信号在 React 中的两个方面：反应式原语和绕过 diffing。反应式是 React 的一个关键特性，可以通过 useState 创建反应式原语来定义状态，并触发重新渲染。为了简化全局状态的定义和使用，第三方库 Jotai 可以很有用。Jotai 提供了 atoms 来定义全局状态，这些 atoms 可以表示状态的定义，也可以定义依赖于其他 atoms 的派生状态。与 useState 不同，useAtom 不是局部状态，可以在另一个组件中使用来共享 atom 状态。另一个重要的特性是绕过 diffing。React 通过比较 UI 的先前和当前表示来更新 DOM，以确定已更改的内容并仅更新 DOM 的那些部分，从而实现更好的性能和响应性。然而，绕过 diffing 可能会导致 UI 不一致，并使应用程序更难理解。因此，在决定绕过 diffing 之前，需要全面评估性能收益并权衡潜在风险。总之，Jotai 提供了一种更简单</p>]]></content>
     </entry>
 </feed>
