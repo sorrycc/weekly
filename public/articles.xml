@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-04T06:53:53.855Z</updated>
+    <updated>2023-05-04T09:07:09.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[10 种使用 ChatGPT 学习更好的方法 - 斯科特・H・扬]]></title>
+        <id>https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/</id>
+        <link href="https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/"/>
+        <updated>2023-05-04T09:01:50.070Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/">10 Ways You Can Use ChatGPT to Learn Better - Scott H Young</a></p><p><strong>概要：</strong></p><p>这篇文章总结了读者们如何使用大型语言模型（LLMs）来学习和研究的建议，并探讨了使用这些工具的优缺点。作者提醒读者要注意，虽然 ChatGPT 可以进行人类般的对话，但它并不是真正的人类，有时会提供错误的答案。然而，ChatGPT 在许多任务上都很有用，例如作为个人导师、语言教练、生成摘要、与长文本对话、简化专业术语等。作者还提到了一些不应该使用 AI 工具的情况，例如期望它们正确地获取事实、引用和数学等方面。最后，作者邀请读者分享他们使用 ChatGPT 或其他 AI 工具进行学习的经验和建议。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Canaries：在 Meta 之外启用增量功能发布的 React]]></title>
         <id>https://react.dev/blog/2023/05/03/react-canaries</id>
@@ -209,12 +216,5 @@
         <link href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/"/>
         <updated>2023-04-25T00:23:16.053Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/">How the new Breakpoints sidebar helps you debug faster - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Google Chrome 最新版本的调试工具已经更新了断点侧边栏的设计。这个更新旨在提高断点调试的效率，通过提供更好的断点概览、更直观易用的用户工作流程和更可见的断点特性来实现。更新后的断点侧边栏集中于使现有功能更加直观易用，而非添加新功能。更新后的功能包括：暂停异常以调查代码错误、管理断点（展开相关断点组、折叠其他组、单击跳转到代码位置、删除或启用 / 禁用断点）以及使用条件断点和日志点等不太常用的断点特性。如果您有进一步的建议或反馈，请通过 crbug.com 提交。同时，建议使用 Chrome Canary、Dev 或 Beta 版本作为默认开发浏览器，以获得最新的 DevTools 功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“const” 欺骗]]></title>
-        <id>https://www.joshwcomeau.com/javascript/the-const-deception/</id>
-        <link href="https://www.joshwcomeau.com/javascript/the-const-deception/"/>
-        <updated>2023-04-25T00:12:35.864Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/javascript/the-const-deception/">The “const” Deception</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 中的 const 关键字，它用于声明常量。虽然 const 声明的对象是不可重新赋值的，但我们仍然可以修改该对象的属性或元素。文章讲解了变量名作为标签、重新分配标签和修改数据等概念，并介绍了原始数据类型的特点。最后，作者推荐了一些深入学习 JavaScript 的资源。</p>]]></content>
     </entry>
 </feed>
