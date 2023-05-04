@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-04-27T04:47:59.619Z</updated>
+    <updated>2023-05-04T02:06:56.974Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[介绍 Vercel 上的存储功能 - Vercel]]></title>
+        <id>https://vercel.com/blog/vercel-storage</id>
+        <link href="https://vercel.com/blog/vercel-storage"/>
+        <updated>2023-05-04T01:58:00.921Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-storage">Introducing storage on Vercel – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel宣布了一套无服务器存储解决方案，包括Vercel KV，一个无服务器的Redis解决方案；Vercel Postgres，一个为前端建立的无服务器SQL数据库；以及Vercel Blob，一个在边缘上传和服务文件的解决方案。这些解决方案旨在使数据库成为Vercel前端云的一流部分，并使开发人员能够管理他们的前端存储需求，而不必担心基础设施。此举是由性能和个性化的需求所驱动的，因为框架变成了服务器优先和边缘优先，世界也从单体架构转向可组合的架构。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 Deno KV。]]></title>
+        <id>https://deno.com/blog/kv</id>
+        <link href="https://deno.com/blog/kv"/>
+        <updated>2023-05-04T01:56:27.393Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/kv">Announcing Deno KV</a></p><p><strong>概要：</strong></p><p>Deno KV 是一款全球复制、强一致性的键值数据库，可在 35 个地区实现低延迟读取。它可以无缝集成到开源 Deno 运行时中，无需任何配置即可在本地或作为托管服务运行。Deno KV 是一个简单但功能强大的一流原语，只暴露了少量方法来存储、检索、删除和枚举数据。它支持原子事务，提供外部一致性和线性化，并可通过 consistency："eventual" 选项放松一致性约束以提高读取操作的响应速度。Deno KV 适用于各种应用场景，如实时协作、用户数据管理和身份验证等。此外，它还提供了一些演示应用程序，如多人井字游戏、像素画板和共享任务列表等，以展示其能力。在未来几个月中，我们将推出更多功能，进一步简化构建和部署应用程序的过程。在 beta 期间，用户可以免费使用最多 1</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自主 GPT-4：从 ChatGPT 到 AutoGPT、AgentGPT、BabyAGI、HuggingGPT 等等。]]></title>
+        <id>https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e</id>
+        <link href="https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e"/>
+        <updated>2023-05-03T10:36:11.064Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e">Autonomous GPT-4: From ChatGPT to AutoGPT, AgentGPT, BabyAGI, HuggingGPT, and Beyond</a></p><p><strong>概要：</strong></p><p>本文介绍了 ChatGPT 和 LLM 技术的兴起，这些先进的语言模型已经引起了开发者、爱好者和组织的广泛关注。为了更好地整合和构建这些先进模型，出现了像 LangChain 和 LlamaIndex 这样的平台。随着自动化任务和 AI 代理越来越多地利用 GPT-4 的能力，这些创新平台正在重新定义我们与 LLMs 互动的方式。本文还介绍了几个基于 GPT-4 的自主 AI 工具和应用，包括 Auto-GPT、AgentGPT、BabyAGI、HuggingGPT、Web LLM、God Mode 和 CAMEL。这些工具和应用可以分为命令行界面（CLI）和基于浏览器的解决方案两类。这些平台正在推动人工智能领域的突破性创新和进步。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React 渲染交互指南]]></title>
         <id>https://ui.dev/why-react-renders</id>
@@ -197,26 +218,5 @@
         <link href="https://nodejs.org/en/blog/announcements/v20-release-announce"/>
         <updated>2023-04-20T04:50:59.309Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nodejs.org/en/blog/announcements/v20-release-announce">Node.js 20 is now available! | Node.js</a></p><p><strong>概要：</strong></p><p>Node.js 20 发布了，其中包括了新的 Node.js 权限模型、同步 import.meta.resolve、稳定的测试运行器、更新到 V8 JavaScript 引擎 11.3 版本和 Ada 到 2.0 等。此次更新还包括对基础部分的改进，如 URL、fetch () 和 EventTarget 等。值得注意的是，Permission Model 是一项实验性机制，用于在执行期间限制对特定资源的访问。该项目继续在多个领域取得进展，许多新功能和修复已流入现有的 LTS 版本中。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马克斯・莱特尔]]></title>
-        <id>https://maxleiter.com/blog/build-a-blog-with-nextjs-13</id>
-        <link href="https://maxleiter.com/blog/build-a-blog-with-nextjs-13"/>
-        <updated>2023-04-20T04:28:00.583Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://maxleiter.com/blog/build-a-blog-with-nextjs-13">Max Leiter</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Next.js 13 和 React Server Components 构建博客，并提供了实际示例。文章包括设置项目、文件结构、动态路由、获取和呈现 Markdown、SEO、部署等内容。作者还介绍了如何使用 next-mdx-remote 和 Bright 进行语法高亮。本文旨在帮助读者快速搭建自己的博客，并鼓励读者进行自己的实验和探索。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[成为 Astro 维护者]]></title>
-        <id>https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/</id>
-        <link href="https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/"/>
-        <updated>2023-04-20T04:27:40.850Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/">Becoming an Astro maintainer</a></p><p><strong>概要：</strong></p><p>本文介绍了作者如何开始参与开源，并最终成为 Astro 的维护者。作者分享了自己的经验和故事，包括加入 Astro Discord 社区、提交第一个 PR 和发表有关 Astro 的演讲等。作者还提出了自己作为 Astro 维护者的目标，包括推出大使计划、改进文档和优化开发体验等。最后，作者表示很高兴能够成为 Astro 社区的一员，并希望在更广泛的开源领域中产生积极影响。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何训练自己的大型语言模型]]></title>
-        <id>https://blog.replit.com/llm-training</id>
-        <link href="https://blog.replit.com/llm-training"/>
-        <updated>2023-04-20T04:23:36.827Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.replit.com/llm-training">How to train your own Large Language Models</a></p><p><strong>概要：</strong></p><p>Replit 介绍了如何使用 Databricks、Hugging Face 和 MosaicML 训练大型语言模型（LLM）。该公司投资了大量基础设施来从头开始训练自己的 LLM，以实现定制化、减少依赖和成本效益。他们使用 The Stack 作为主要数据源，并使用 Databricks 进行数据处理。在令牌化和词汇训练之前，他们使用自定义词汇表。最后，他们使用 MosaicML 进行模型训练，并使用 NVIDIA 的 FasterTransformer 和 Triton Server 加速推理过程。 Replit 表示，他们计划在未来的博客文章中深入探讨这些步骤的详细信息。</p>]]></content>
     </entry>
 </feed>
