@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-04T02:06:56.974Z</updated>
+    <updated>2023-05-04T02:53:20.335Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[即时工程 vs 盲目提示]]></title>
+        <id>https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting</id>
+        <link href="https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting"/>
+        <updated>2023-05-04T02:52:35.944Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting">Prompt Engineering vs. Blind Prompting</a></p><p><strong>概要：</strong></p><p>本文介绍了 Prompt Engineering，即利用提示来有效地从语言模型中提取信息的过程，通常用于实际应用。文章指出，许多人声称正在进行 Prompt Engineering，但实际上只是盲目提示。因此，本文提供了一种基于实验方法的 Prompt Engineering 示例，以展示如何为应用程序构建可靠的功能。作者强调了选择问题、演示集、提示候选项和测试提示等步骤的重要性，并解释了如何选择最终的提示方案。最后，作者呼吁更多的实验研究来支持 Prompt Engineering 技术的发展。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 Rust 在 10 分钟或更短的时间内构建和部署 URL 缩短器]]></title>
+        <id>https://www.shuttle.rs/blog/2022/03/13/url-shortener</id>
+        <link href="https://www.shuttle.rs/blog/2022/03/13/url-shortener"/>
+        <updated>2023-05-04T02:48:50.993Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.shuttle.rs/blog/2022/03/13/url-shortener">Building and Deploying a URL shortener with Rust in 10 minutes or less</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了一个软件开发人员在凌晨时分突然想到的一个想法：能否在不需要担心基础架构的情况下快速构建一个有用的应用程序。他使用了 Rust 编程语言，结合 serverless 平台 Shuttle 和 Postgres 数据库，最终成功地构建了一个简单的 URL 缩短服务。作者认为，虽然现实中的软件工程很复杂，涉及到不同团队和技能集的协作，但这种新型的无需关注基础架构的开发模式是可行的，并且可以带来更好的体验。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么到了 2023 年，OAuth 仍然很难？| Nango 博客]]></title>
+        <id>https://www.nango.dev/blog/why-is-oauth-still-hard</id>
+        <link href="https://www.nango.dev/blog/why-is-oauth-still-hard"/>
+        <updated>2023-05-04T02:48:20.045Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.nango.dev/blog/why-is-oauth-still-hard">Why is OAuth still hard in 2023? | Nango Blog</a></p><p><strong>概要：</strong></p><p>OAuth 是一个标准协议，但在实际应用中，每个 API 都有自己的解释和实现方式，使得 OAuth 变得非常复杂。许多 API 还添加了非标准扩展，使得调试变得困难。此外，许多 API 需要进行审核才能使用，并且 OAuth 安全性也是一个不断变化的目标。为了解决这些问题，Nango 正在开发一种新的方法，该方法提供预构建的 OAuth 流程、安全令牌存储和自动令牌刷新，支持超过 90 个 OAuth API。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[朝着更好的 1 对 1：一个尴尬的宣言]]></title>
+        <id>https://tylercipriani.com/blog/2023/04/22/better-1on1s/</id>
+        <link href="https://tylercipriani.com/blog/2023/04/22/better-1on1s/"/>
+        <updated>2023-05-04T02:47:00.683Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tylercipriani.com/blog/2023/04/22/better-1on1s/">Towards better 1-on-1s: an awkward manifesto</a></p><p><strong>概要：</strong></p><p>本文介绍了一种有效的 1-on-1s（一对一会议）流程，以帮助工程管理人员和个人贡献者更好地进行每周例会。作者提供了一个简单的 POP（目的、结果、过程）日程安排，包括检查团队成员的状况、更新目标、更新 “自夸文档”、给予反馈等内容。此外，作者还分享了自己的笔记和待办事项系统，以及一些有趣的问题来引导讨论。最后，作者指出成功的 1-on-1s 的关键在于真正关心你的直接报告，才能获得他们的关注和参与。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我想谈谈 WebGPU。]]></title>
+        <id>https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu</id>
+        <link href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu"/>
+        <updated>2023-05-04T02:40:46.869Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu">I want to talk about WebGPU</a></p><p><strong>概要：</strong></p><p>WebGPU 是一种新的 WebGL，可以在 Web 浏览器中绘制 3D。它很好用，甚至可能取代 Canvas 成为 Web 浏览器中绘制 2D 的新方式，并取代 Vulkan 和 OpenGL 成为任何编程语言中绘制的标准方式。WebGPU 已经在 Chrome 113 中发布，到年底将会在所有浏览器中普及。对于程序员来说，使用 WebGPU 需要构建一个或多个管道对象，描述 “我运行哪些着色器，以及可以输入什么样的数据” 等信息。此外，WebGPU 提供了 JavaScript、Rust/C++ 等多种语言实现方式。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[介绍 Vercel 上的存储功能 - Vercel]]></title>
         <id>https://vercel.com/blog/vercel-storage</id>
@@ -183,40 +218,5 @@
         <link href="https://cult.honeypot.io/reads/deno-vs-node-main-differences/"/>
         <updated>2023-04-21T00:30:49.371Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cult.honeypot.io/reads/deno-vs-node-main-differences/">Deno vs. Node: No One is Ready for the Move | .cult by Honeypot</a></p><p><strong>概要：</strong></p><p>本文介绍了 Node.js 和 Deno 两个 JavaScript 运行环境的比较。Node.js 是一个流行的服务器端、开源、跨平台的 JavaScript 运行环境，自 2009 年以来一直占据着 Web 开发世界的主导地位。它专注于事件驱动的 HTTP 服务器，并使用单线程的事件循环处理请求。与大多数竞争对手不同的是，Node.js 基于回调函数的扩展机制可以在最小内存使用下处理更多的请求。相比之下，Deno 在设计上有所改进，提供了更安全的框架和现代特性，由 Node.js 的创始人 Ryan Dahl 推出。然而，尽管 Deno 解决了 Node.js 的一些设计缺陷，但采用 Deno 的速度非常缓慢，大多数开发人员仍然满意于 Node.js。本文将探讨这种现象背后的原因，并对 Node.js 和 Deno 进行比较，从第三方包管理、API、安全性和 TypeScript 支持等方面进行分析。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Rust 1.69.0 | Rust 博客]]></title>
-        <id>https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html"/>
-        <updated>2023-04-21T00:20:26.179Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html">Announcing Rust 1.69.0 | Rust Blog</a></p><p><strong>概要：</strong></p><p>Rust 1.69.0 版本发布，包含 3000 多个提交和 500 多个贡献者的小改进。其中，Cargo 现在建议自动修复一些警告，支持自动修复一些简单的 Clippy 警告。为了吸引更多关注，当检测到可以自动修复的警告时，Cargo 将建议运行 cargo fix 或 cargo clippy --fix。此外，为了提高编译速度，默认情况下不再在构建脚本中包含调试信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Vite 4.3。]]></title>
-        <id>https://vitejs.dev/blog/announcing-vite4-3.html</id>
-        <link href="https://vitejs.dev/blog/announcing-vite4-3.html"/>
-        <updated>2023-04-20T14:49:02.877Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vitejs.dev/blog/announcing-vite4-3.html">Announcing Vite 4.3</a></p><p><strong>概要：</strong></p><p>Vite 4.3 发布，主要改进了开发服务器的性能。该版本优化了解析逻辑，改进了热路径，并实现了智能缓存，以查找 package.json、TS 配置文件和已解决的 URL。与 Vite 4.2 相比，这次更新在各方面都有速度提升。此外，该团队正在开发一个官方基准测试工具，以获取每个 Pull Request 的性能指标，并通过 vite-plugin-inspect 提供更多的性能相关功能来帮助用户识别应用程序的瓶颈。明年他们将发布 Vite 5，这将是今年唯一的 Vite 主要版本，同时也会放弃对 Node.js 14 和 16 的支持。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 npm 包 provenance | GitHub 博客]]></title>
-        <id>https://github.blog/2023-04-19-introducing-npm-package-provenance/</id>
-        <link href="https://github.blog/2023-04-19-introducing-npm-package-provenance/"/>
-        <updated>2023-04-20T07:15:21.619Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-04-19-introducing-npm-package-provenance/">Introducing npm package provenance | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub has added a feature to its Actions tool that enables developers to publish provenance alongside their npm projects. The feature provides a verifiable link between a package and its source repository, as well as the build instructions used to publish it. The aim is to increase trust in open source projects by enabling developers to ensure the integrity of their software supply chain. The Supply-chain Levels for Software Artifacts (SLSA) specification was created for this purpose and is being used for GitHub's npm provenance statements. The company also requires packages to be built on a trusted CI/CD platform.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何编写类型安全的 CSS 模块 - LogRocket 博客]]></title>
-        <id>http://blog.logrocket.com/write-type-safe-css-modules/</id>
-        <link href="http://blog.logrocket.com/write-type-safe-css-modules/"/>
-        <updated>2023-04-20T04:51:28.985Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://blog.logrocket.com/write-type-safe-css-modules/">How to write type-safe CSS Modules - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 TypeScript 自动化 CSS Modules 类型定义。CSS Modules 提供了一种在现代 Web 应用程序中编写模块化和作用域 CSS 样式的方法，但是类名在运行时生成并且在构建之间更改，因此很难以类型安全的方式使用它们。手动创建每个 CSS Module 的类型定义文件更新繁琐，容易出错。本文介绍了如何使用 typed-css-modules 包自动生成类型定义，并提供脚本来验证生成的类型是否是最新的。通过自动化这些过程，可以减少开发人员对类型系统的不信任感，让团队专注于构建优秀的产品。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js 20 现已推出！| Node.js]]></title>
-        <id>https://nodejs.org/en/blog/announcements/v20-release-announce</id>
-        <link href="https://nodejs.org/en/blog/announcements/v20-release-announce"/>
-        <updated>2023-04-20T04:50:59.309Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nodejs.org/en/blog/announcements/v20-release-announce">Node.js 20 is now available! | Node.js</a></p><p><strong>概要：</strong></p><p>Node.js 20 发布了，其中包括了新的 Node.js 权限模型、同步 import.meta.resolve、稳定的测试运行器、更新到 V8 JavaScript 引擎 11.3 版本和 Ada 到 2.0 等。此次更新还包括对基础部分的改进，如 URL、fetch () 和 EventTarget 等。值得注意的是，Permission Model 是一项实验性机制，用于在执行期间限制对特定资源的访问。该项目继续在多个领域取得进展，许多新功能和修复已流入现有的 LTS 版本中。</p>]]></content>
     </entry>
 </feed>
