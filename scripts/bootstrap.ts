@@ -21,7 +21,7 @@ draft: true
 。
 
 ## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔，推荐关注他的 Telegram 频道[《咲奈的平行时空》](https://t.me/SakinaSpace)，更新频率很高，通过此可了解大部分前端相关资讯。
+> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔。
 
 - 。
 
