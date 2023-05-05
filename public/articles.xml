@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-04T09:07:09.308Z</updated>
+    <updated>2023-05-05T01:13:52.988Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Vercel Spaces 实现规模化的高质量软件 - Vercel]]></title>
+        <id>https://vercel.com/blog/vercel-spaces</id>
+        <link href="https://vercel.com/blog/vercel-spaces"/>
+        <updated>2023-05-05T00:18:14.981Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-spaces">Quality software at scale with Vercel Spaces – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel推出了Vercel Spaces，它提供了强大的工具和惯例，可以与monorepo设置集成，使开发人员能够在保持质量的同时有效地扩展。Spaces仪表板提供了对开发工作流程、代码健康状况和构建日志的洞察力，并包括通过Conformance、Code Owners和Vercel Runs提升效率和消除障碍的新功能。Conformance可以在开发生命周期的早期自动检测前端产品的关键问题，Code Owners可以帮助确定谁对代码负责，并确保代码变更由正确的人审查，而Vercel Runs通过交互式用户界面提供了一种更简单的调试任务的方式。Vercel Spaces可供Vercel企业客户提前使用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angular v16 已经发布了！- Angular 博客]]></title>
+        <id>https://blog.angular.io/angular-v16-is-here-4d7a28ec680d</id>
+        <link href="https://blog.angular.io/angular-v16-is-here-4d7a28ec680d"/>
+        <updated>2023-05-05T00:03:11.942Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.angular.io/angular-v16-is-here-4d7a28ec680d">Angular v16 is here! - Angular Blog</a></p><p><strong>概要：</strong></p><p>Angular 发布了最大的版本更新，包括改进响应性、服务器端渲染和工具等方面。其中最重要的是引入了全新的响应性模型，提高了性能和开发者体验。该版本还支持服务端渲染和水合，提供了更好的工具和单独的 API，以及其他许多改进。此外，Angular 还计划在未来一年内推出更多的改进和功能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TailwindCSS vs. UnoCSS
+
+TailwindCSS 与 UnoCSS]]></title>
+        <id>https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53</id>
+        <link href="https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53"/>
+        <updated>2023-05-05T00:02:05.363Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53">TailwindCSS vs. UnoCSS</a></p><p><strong>概要：</strong></p><p>本文对比了 TailwindCSS 和 UnoCSS 两个工具，总结了它们的特点、语言、文档、自定义样式和编辑器支持等方面。TailwindCSS 拥有完整的 CSS 特性类名，可以通过任意值、变体和属性来进行全面的样式设计，而 UnoCSS 则支持所有 TailwindCSS 的功能，并提供了一些额外的功能，如变体组、CSS 网格流体列和更多动画效果。在语言方面，TailwindCSS 有一个相对规范的类名命名方式，UnoCSS 则更加灵活。在文档和自定义样式方面，两者都有不错的表现，但 UnoCSS 的交互式文档和颜色提示更加出色。在编辑器支持方面，TailwindCSS 支持较好，但存在一些缺陷，而 UnoCSS 的高亮显示和颜色提示则更为出色。作者认为，如果你看重灵活性和额外的功能，你可能会喜欢 UnoCSS，但如果你看重约束和更清晰的编写语言，则应该选择</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 13.4]]></title>
+        <id>https://nextjs.org/blog/next-13-4</id>
+        <link href="https://nextjs.org/blog/next-13-4"/>
+        <updated>2023-05-04T23:58:36.281Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/next-13-4">Next.js 13.4</a></p><p><strong>概要：</strong></p><p>Next.js 13.4 是一个重要的版本，标志着 App Router 的稳定性。这个版本增加了许多新特性，包括 React Server Components、嵌套路由和布局、简化数据获取、流式渲染和 Suspense、内置 SEO 支持等。其中最重要的是 App Router，它是 Next.js 的核心组件，可以让开发者更方便地定义页面布局和数据获取方式。此外，Turbopack 也是一个值得关注的新功能，它可以加速本地开发和生产构建过程。最后，Server Actions 是一个实验性的功能，可以在服务器端直接修改数据，不需要客户端 JavaScript。总之，Next.js 13.4 为开发者提供了更强大的工具，帮助他们更轻松地构建动态、个性化和全球化的 Web 应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何测试您的类型]]></title>
+        <id>https://www.totaltypescript.com/how-to-test-your-types</id>
+        <link href="https://www.totaltypescript.com/how-to-test-your-types"/>
+        <updated>2023-05-04T12:52:44.759Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/how-to-test-your-types">How to test your types</a></p><p><strong>概要：</strong></p><p>本文介绍了三种测试 TypeScript 类型的方法。首先是使用 vitest，这是一个基于 Vite 的强大测试运行器，可以用来测试运行时代码和类型。其次是自己编写测试代码，可以使用 Expect 和 Equal 等类型帮助工具来测试特定类型，并在测试套件中运行 tsc 检查类型测试是否失败。最后，还介绍了一个名为 tsd 的库，它与 vitest 很相似，但包含了所有必要的内容，使得测试更加方便。对于应用程序开发而言，测试类型并不是必须的，但对于任何将被大量人使用的库而言，测试类型是至关重要的。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 种使用 ChatGPT 学习更好的方法 - 斯科特・H・扬]]></title>
         <id>https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/</id>
@@ -181,40 +218,5 @@
         <link href="https://github.com/facebook/react/pull/26722"/>
         <updated>2023-04-27T00:32:22.463Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/facebook/react/pull/26722">Implement experimental_useFormStatus by acdlite · Pull Request #26722 · facebook/react</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个新的 React Hook，可以读取其祖先表单组件的状态，用于实现加载指示器等功能。目前该 Hook 只在实验通道中可用，随着其稳定性的提高，将会发布更多 API 和文档。该 Hook 内部使用 startTransition 和上下文对象实现，但实际实现细节可能会发生变化。由于表单元素不能嵌套，因此实现者不需要跟踪多个嵌套的 “转换提供者”。虽然它使用通用的 Fiber 配置方法进行实现，但它目前仍基于 React DOM 的要求进行一些假设。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[岛屿的温和介绍]]></title>
-        <id>https://deno.com/blog/intro-to-islands</id>
-        <link href="https://deno.com/blog/intro-to-islands"/>
-        <updated>2023-04-27T00:31:14.024Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/intro-to-islands">A Gentle Introduction to Islands</a></p><p><strong>概要：</strong></p><p>本文介绍了一种名为 “Islands” 的解决方案，用于应对那些需要一定交互性但不需要大量 JavaScript 的网站。Islands 是指使用 Preact 组件来实现交互，并在静态渲染的 HTML 页面中进行客户端渲染。这种方法避免了将整个框架打包发送到客户端的问题，同时也使开发人员能够更加有意识地选择何时使用 JavaScript。文章还提到了其他一些解决方案，如 React Server Components 和 Quik 的可恢复性，以及 Astro 和 Marko 等框架中类似的技术。总之，Islands 是一种简单而有效的解决方案，可以帮助开发人员更好地控制网站的交互性和 JavaScript 的使用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我作为新经理所犯的一些错误]]></title>
-        <id>https://www.benkuhn.net/newmgr/</id>
-        <link href="https://www.benkuhn.net/newmgr/"/>
-        <updated>2023-04-25T00:56:17.319Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.benkuhn.net/newmgr/">Some mistakes I made as a new manager</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了作者成为管理者的经历，以及他在这个过程中犯下的错误和解决策略。作者指出，作为一名管理者，最初的困难之一是难以确定自己的工作是否有用。他提供了三种应对策略：与上级领导沟通，寻求反馈，多元化生活体验。此外，作者还分享了其他的经验教训，如管理的重要性、任务相关成熟度、拖延维护、直接询问等。最后，作者总结了成为新管理者的困难所在，并鼓励读者不要害怕犯错，因为这是成长的必经之路。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript 装饰器：完整指南]]></title>
-        <id>https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/</id>
-        <link href="https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/"/>
-        <updated>2023-04-25T00:45:02.471Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deadsimplechat.com/blog/typescript-decorators-a-complete-guide/">TypeScript Decorators: A complete guide</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 的装饰器，装饰器本质上是函数，可以用于给类、方法、属性等应用可重用的行为。不同类型的装饰器包括类装饰器、方法装饰器、属性装饰器、访问器装饰器和参数装饰器。装饰器可以用于实现各种功能，如前 / 后钩子、监视属性更改和方法调用、转换参数、自动序列化和反序列化、依赖注入等。使用装饰器的优点包括跨越关注点、依赖注入、验证和代码组织。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - partykit/partykit：有了朋友，一切都更好。]]></title>
-        <id>https://github.com/partykit/partykit</id>
-        <link href="https://github.com/partykit/partykit"/>
-        <updated>2023-04-25T00:43:43.337Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/partykit/partykit">GitHub - partykit/partykit: Everything's better with friends.</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 partykit 的软件开发工具包，可以用于构建实时协作应用程序。用户可以将其与现有的 Web 应用程序一起使用，也可以从头开始构建新的应用程序。该工具包提供了简单易用的服务器和客户端代码，使用户能够轻松地添加实时协作功能，如协同编辑器、多人游戏等。此外，文章还介绍了 y-partykit 和 party.io 两个相关的库，可以帮助用户更方便地构建协作应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新的断点侧边栏如何帮助您更快地进行调试 - Chrome 开发者]]></title>
-        <id>https://developer.chrome.com/en/blog/breakpoint-ux-redesign/</id>
-        <link href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/"/>
-        <updated>2023-04-25T00:23:16.053Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/en/blog/breakpoint-ux-redesign/">How the new Breakpoints sidebar helps you debug faster - Chrome Developers</a></p><p><strong>概要：</strong></p><p>Google Chrome 最新版本的调试工具已经更新了断点侧边栏的设计。这个更新旨在提高断点调试的效率，通过提供更好的断点概览、更直观易用的用户工作流程和更可见的断点特性来实现。更新后的断点侧边栏集中于使现有功能更加直观易用，而非添加新功能。更新后的功能包括：暂停异常以调查代码错误、管理断点（展开相关断点组、折叠其他组、单击跳转到代码位置、删除或启用 / 禁用断点）以及使用条件断点和日志点等不太常用的断点特性。如果您有进一步的建议或反馈，请通过 crbug.com 提交。同时，建议使用 Chrome Canary、Dev 或 Beta 版本作为默认开发浏览器，以获得最新的 DevTools 功能。</p>]]></content>
     </entry>
 </feed>
