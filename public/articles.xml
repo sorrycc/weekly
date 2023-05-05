@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-05T01:29:36.684Z</updated>
+    <updated>2023-05-05T13:00:22.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Mojo 可能是数十年来最大的编程语言进步。]]></title>
+        <id>https://www.fast.ai/posts/2023-05-03-mojo-launch.html</id>
+        <link href="https://www.fast.ai/posts/2023-05-03-mojo-launch.html"/>
+        <updated>2023-05-05T12:59:37.147Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.fast.ai/posts/2023-05-03-mojo-launch.html">Mojo may be the biggest programming language advance in decades</a></p><p><strong>概要：</strong></p><p>文章介绍了一种名为 Mojo 的新编程语言，它是 Python 的超集，并且可以通过使用 “fn” 和 “struct” 等新语法来实现高性能代码。该语言建立在强大的基础上，包括 LLVM 和 MLIR 等核心技术，使其快速发展和易于开发。作者认为 Mojo 将成为 AI 模型开发的替代 Python 的重要工具，并且预计它将比预期更快地发展和扩展。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.js 13.4 在 Vercel 上 - Vercel]]></title>
         <id>https://vercel.com/changelog/next-js-13-4</id>
@@ -211,12 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs"/>
         <updated>2023-04-27T00:47:13.797Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs">How to process a CSV file five times faster in NodeJs with Rust and Napi rs</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 和 Napi rs 在 NodeJs 中处理 CSV 文件。作者使用了 readline 模块来处理 CSV 文件，并记录了处理时间和吞吐量。然后作者使用了 Rust 编写了相同的代码，并通过 pv 命令进行了基准测试，发现 Rust 版本比 Nodejs 版本快五倍。最后，作者介绍了如何使用 Napi rs 将 Rust 代码编译成动态库，并在 Nodejs 中调用。总之，结合 Rust 和 Nodejs 可以实现更好的性能和效率。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 useReducer 的创造性方式]]></title>
-        <id>https://www.code-insights.dev/posts/creative-ways-of-using-usereducer</id>
-        <link href="https://www.code-insights.dev/posts/creative-ways-of-using-usereducer"/>
-        <updated>2023-04-27T00:36:42.149Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.code-insights.dev/posts/creative-ways-of-using-usereducer">Creative ways of using useReducer</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 中的 useReducer 钩子函数，它可以用于管理复杂状态。通过传递一个 reducer 函数、一个初始值和一个可选的初始化函数，useReducer 返回一个包含当前状态和 dispatch 函数的数组。使用 dispatch 函数更新状态时，它会调用 reducer 函数并返回下一个状态。但是，由于函数式 JavaScript 的宽容性质，useReducer 还可以以不同的方式创造性地使用。文章提供了一些例子，如简单的开关、增量按钮、增强状态和安全状态等，演示了使用 useReducer 管理状态的优势。</p>]]></content>
     </entry>
 </feed>
