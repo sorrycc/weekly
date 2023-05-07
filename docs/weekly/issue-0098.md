@@ -22,6 +22,24 @@ draft: true
  - Deno 支持实验性 [KV](https://deno.com/manual@v1.33.0/runtime/kv) 。
  - Vercel 面板支持查看 [OG](https://vercel.com/changelog/open-graph-link-sharing-inspector) 。
  - [Deno](https://deno.com/blog/v1.33) 2 即将发布。
+ - [Safari](https://gs.statcounter.com/browser-market-share) 成为使用人数第二的浏览器。
+ - Vercel 推出 [KV](https://vercel.com/blog/vercel-storage) 、[防火墙](https://vercel.com/blog/vercel-security) 、[在线编辑](https://vercel.com/blog/visual-editing) 等存储和安全产品。
+ - [inert](https://caniuse.com/?search=inert) 现在跨浏览器支持。
+ - 网络上的 [30%](https://radar.cloudflare.com/) 是机器人。
+ - Chrome 将更换[锁定图标](https://blog.chromium.org/2023/05/an-update-on-lock-icon.html)。
+ - Qwik [v1.0.0](https://github.com/BuilderIO/qwik/releases/tag/v1.0.0) 发布。
+ - Pnpm [v8.4.0](https://github.com/pnpm/pnpm/releases/tag/v8.4.0) 发布，支持包校验等。
+ - Remix [v1.16.0](https://github.com/remix-run/remix/releases/tag/remix%401.16.0) 发布，Postcss 改进等。
+ - React 发布 [canary](https://react.dev/blog/2023/05/03/react-canaries) 版本。
+ - Angular [v16](https://github.com/angular/angular/releases/tag/16.0.0) 发布，SSR 增强等。
+ - styled-components [v6.0.0-rc.0](https://github.com/styled-components/styled-components/releases/tag/v6.0.0-rc.0) 发布，修复依赖等。
+ - Chrome [v113](https://developer.chrome.com/en/blog/new-in-chrome-113/) 发布，WebGPU 可用等。
+ - Chrome [v114](https://developer.chrome.com/en/blog/chrome-114-beta/) Beta 发布，文本平衡等。
+ - VSCode [v1.78](https://code.visualstudio.com/updates/v1_78) 发布，体验改善等。
+ - Nextjs [v13.4](https://nextjs.org/blog/next-13-4) 发布，App Router 稳定等。
+ - [Dan](https://twitter.com/dan_abramov/status/1654323788811468800) 认为 React 是 PHP 。
+ - Webkit 新[文档](https://docs.webkit.org/)。
+ - Astro [v2.4](https://github.com/withastro/astro/releases/tag/astro%402.4.0) 发布，新增中间件功能等。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
