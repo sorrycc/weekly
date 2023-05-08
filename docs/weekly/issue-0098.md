@@ -1,5 +1,5 @@
 ---
-title: "Angular 16、Vercel Storage、类型测试、React Canaries、Panda CSS、WebContainers、Qwik 1、WebGPU"
+title: "Angular 16、Vercel Storage、类型测试、React Canaries、WebContainers、Qwik 1、WebGPU"
 titleImage: "https://img.alicdn.com/imgextra/i1/O1CN01Lvp0Uj1RKBPE51v4j_!!6000000002092-2-tps-1456-816.png_1200x1200.jpg"
 titleImageCaption: "rainy day, a water wheel in the green river, green plants and flowers in the foreground, mountains and water in the distance"
 publishedAt: "2023/05/08"
@@ -56,7 +56,7 @@ publishedAt: "2023/05/08"
 - [《RegExGPT》](https://regexgpt.app/)。RegExGPT 是一种工具，它可以让人们通过输入文本转换的示例和期望结果来生成正则表达式模式。用户还可以使用自然语言输入来解释他们想匹配的模式，并选择输出的编程语言。使用 RegExGPT 时，需要输入要转换的文本示例和期望结果，选择编程语言并点击 “生成” 按钮来生成正则表达式模式。
 - [《React Native macOS 发布 0.71》](https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/)。React Native macOS 发布了 0.71 版本，这是该平台首次与 iOS、Android 和 Windows 保持同步。为了实现这个目标，开发团队不得不跳过了一些中间版本，并开始着手 0.72 版本。此外，该版本还加入了对 Fabric 的实验性支持，但需要注意的是这只是一个概念验证，存在不稳定性。
 - [《WebContainers 现在可以在 Safari、iOS 和 iPadOS 上运行。》](https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/)。StackBlitz 宣布其 WebContainers 已经可以在 Safari、iOS 和 iPadOS 上运行。用户现在可以在 iPhone 或 iPad 上尝试交互式代码示例和 playground，Safari 支持目前处于 beta 版本。StackBlitz 的 WebContainers 是基于未来技术构建的，包括 Wasm threads 和 SharedArrayBuffer，这些技术在 Safari 上得到了支持。
-- [《使用 React 服务器组件在您的博客上显示一个视图计数器。》](https://scastiel.dev/view-counter-react-server-components)。本文介绍了如何在个人博客中使用 React Server Components、Streaming 和 Suspense 实现浏览量计数器。作者使用 Plausible 工具的 API 获取页面的浏览量，然后将其渲染到页面上。传统的方法是在客户端和服务器之间进行通信，但是使用 React Server Components 可以更加优雅地处理这个问题。通过在 <PageViews /> 组件中调用 getCountForPage 函数，然后在页面.tsx 文件中渲染计数，可以实现此目的。而使用 Streaming 则可以让服务器先发送一个初始版本的页面，然后保持连接打开，并稍后发送第二个版本（包含浏览量）。
+- [《使用 React 服务器组件在您的博客上显示一个视图计数器。》](https://scastiel.dev/view-counter-react-server-components)。本文介绍了如何在个人博客中使用 React Server Components、Streaming 和 Suspense 实现浏览量计数器。作者使用 Plausible 工具的 API 获取页面的浏览量，然后将其渲染到页面上。传统的方法是在客户端和服务器之间进行通信，但是使用 React Server Components 可以更加优雅地处理这个问题。通过在 `<PageViews />` 组件中调用 getCountForPage 函数，然后在页面.tsx 文件中渲染计数，可以实现此目的。而使用 Streaming 则可以让服务器先发送一个初始版本的页面，然后保持连接打开，并稍后发送第二个版本（包含浏览量）。
 - [《如何在 React 中编写注释：好的、坏的和丑陋的》](https://dmitripavlutin.com/react-comments/)。这篇文章介绍了在 React 中添加注释的三种方法。第一种是使用 JSX 注释语法，但这种方式有些冗长；第二种是在 JSX 标签外使用 JavaScript 注释，可以更简洁地添加注释；第三种是在 JSX 标签内部使用 JavaScript 注释，可以针对特定元素添加注释。作者认为第三种方法最好，因为它简洁明了且针对性强。
 - [《React Router 发布 v6.11.0》](https://github.com/remix-run/react-router/releases/tag/react-router%406.11.0)。这篇文章介绍了 React Router 版本 6.11.0 的更新内容。其中，一些小的改动包括在 useFetcher 中启用 basename 支持，更新 @remix-run/router 依赖等。此外，fetchers 不再在搜索参数更改或路由到相同 URL 时重新验证，并且只会在操作提交或 router.revalidate 调用时重新验证。
 - [《Qwik 发布 v1.0》](https://www.builder.io/blog/qwik-v1)。Qwik 是一个全栈 Web 框架，旨在通过 JavaScript 流式传输和延迟执行等技术提供快速、可扩展和易维护的 Web 应用程序。Qwik 提供了许多功能，包括 JSX、基于目录的路由、数据获取、中间件逻辑、UI 组件、国际化、身份验证、CMS、样式和测试等。
