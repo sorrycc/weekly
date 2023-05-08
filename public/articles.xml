@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-05T13:00:22.517Z</updated>
+    <updated>2023-05-08T06:34:28.911Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[在 React 中使用 useContext：全面指南 - Michael Gold - Medium]]></title>
+        <id>https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8</id>
+        <link href="https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8"/>
+        <updated>2023-05-08T04:44:16.047Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8">Using useContext in React: a comprehensive guide - Michael Gold - Medium</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 中的 useContext 钩子，它可以方便地在多个组件之间共享数据而无需通过 props 传递。文章详细介绍了什么是 React 中的 Context 机制，以及为什么使用 useContext 很重要，包括避免 prop drilling 和共享数据等优点。文章还提供了一个实际例子来演示如何使用 useContext 创建主题切换器。此外，文章还比较了 useContext 和 Redux 之间的区别和用法，并提供了一些最佳实践和限制。最后，文章总结了 useContext 是 React 开发人员工具箱中有价值的工具之一。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些开发者控制台技巧]]></title>
+        <id>https://gomakethings.com/a-few-developer-console-tricks/</id>
+        <link href="https://gomakethings.com/a-few-developer-console-tricks/"/>
+        <updated>2023-05-08T04:42:31.114Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://gomakethings.com/a-few-developer-console-tricks/">A few developer console tricks</a></p><p><strong>概要：</strong></p><p>本文介绍了一些在浏览器控制台中使用的技巧，包括打开控制台、使用 $() 和 $$() 方法获取元素、使用 $0 变量获取当前选定的元素等。作者认为控制台是前端工作中最好的功能之一。建议使用 Chromium 或 Firefox 进行 JavaScript 开发，因为 Safari 的开发者工具功能较少。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 服务器组件是什么？]]></title>
+        <id>https://www.viget.com/articles/what-even-are-react-server-components/</id>
+        <link href="https://www.viget.com/articles/what-even-are-react-server-components/"/>
+        <updated>2023-05-08T04:42:10.356Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.viget.com/articles/what-even-are-react-server-components/">What Even Are React Server Components</a></p><p><strong>概要：</strong></p><p>React Server Components 是在服务器上渲染的 React 组件，旨在减少网络瀑布效应。与传统的服务器端渲染 (SSR)、并行获取和架构更改相比，Server Components 具有更好的用户体验、更快的构建速度和更易于维护的特点。Server Components 可以通过在 JS 和 HTML 中填充一些初始数据来减少客户端请求次数，而且这种方式可以嵌套使用，只需要向顶层组件和其子组件发出一次请求即可。Server Components 还可以减小 JS 包的大小，只发送必要的数据给客户端，从而提高性能。Server Components 看起来就像普通的 React 组件，但是客户端无法与之交互，如果需要交互，则需要将一个 React Client Component 插入到 Server Component 中。目前，Server Components 还处于测试阶段，不适合在生产环境中使用，但可以在实验应用程序中进行尝试。NextJS v13 的 App Router 是目前唯一支持 Server Components 的框架，但 React 团队正在帮</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 LLM 的八件事 | Swizec Teller]]></title>
+        <id>https://swizec.com/blog/eight-things-to-know-about-llms/</id>
+        <link href="https://swizec.com/blog/eight-things-to-know-about-llms/"/>
+        <updated>2023-05-06T02:20:42.799Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://swizec.com/blog/eight-things-to-know-about-llms/">Eight things to know about LLMs | Swizec Teller</a></p><p><strong>概要：</strong></p><p>这篇文章总结了最近人工智能（AI）的进展和引起人们兴奋的原因。其中提到了以下几点：1. 大型语言模型（LLMs）随着规模的增大而变得更好；2.LLMs 具有出人意料的新颖能力，包括 few-shot 和上下文学习；3.LLMs 表现出 “心理模型”；4. 无法可靠地控制 LLMs；5. 目前还没有人知道 LLMs 是如何工作的；6.LLMs 可以胜过人类；7.LLMs 存在偏见问题；8.LLMs 表现很好。作者还提供了一些资源来帮助读者更深入地了解这些问题。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mojo 可能是数十年来最大的编程语言进步。]]></title>
         <id>https://www.fast.ai/posts/2023-05-03-mojo-launch.html</id>
@@ -190,33 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://vercel.com/blog/vercel-storage"/>
         <updated>2023-05-04T01:58:00.921Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-storage">Introducing storage on Vercel – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel宣布了一套无服务器存储解决方案，包括Vercel KV，一个无服务器的Redis解决方案；Vercel Postgres，一个为前端建立的无服务器SQL数据库；以及Vercel Blob，一个在边缘上传和服务文件的解决方案。这些解决方案旨在使数据库成为Vercel前端云的一流部分，并使开发人员能够管理他们的前端存储需求，而不必担心基础设施。此举是由性能和个性化的需求所驱动的，因为框架变成了服务器优先和边缘优先，世界也从单体架构转向可组合的架构。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Deno KV。]]></title>
-        <id>https://deno.com/blog/kv</id>
-        <link href="https://deno.com/blog/kv"/>
-        <updated>2023-05-04T01:56:27.393Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/kv">Announcing Deno KV</a></p><p><strong>概要：</strong></p><p>Deno KV 是一款全球复制、强一致性的键值数据库，可在 35 个地区实现低延迟读取。它可以无缝集成到开源 Deno 运行时中，无需任何配置即可在本地或作为托管服务运行。Deno KV 是一个简单但功能强大的一流原语，只暴露了少量方法来存储、检索、删除和枚举数据。它支持原子事务，提供外部一致性和线性化，并可通过 consistency："eventual" 选项放松一致性约束以提高读取操作的响应速度。Deno KV 适用于各种应用场景，如实时协作、用户数据管理和身份验证等。此外，它还提供了一些演示应用程序，如多人井字游戏、像素画板和共享任务列表等，以展示其能力。在未来几个月中，我们将推出更多功能，进一步简化构建和部署应用程序的过程。在 beta 期间，用户可以免费使用最多 1</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自主 GPT-4：从 ChatGPT 到 AutoGPT、AgentGPT、BabyAGI、HuggingGPT 等等。]]></title>
-        <id>https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e</id>
-        <link href="https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e"/>
-        <updated>2023-05-03T10:36:11.064Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pub.towardsai.net/autonomous-gpt-4-from-chatgpt-to-autogpt-agentgpt-babyagi-hugginggpt-and-beyond-9871ceabd69e">Autonomous GPT-4: From ChatGPT to AutoGPT, AgentGPT, BabyAGI, HuggingGPT, and Beyond</a></p><p><strong>概要：</strong></p><p>本文介绍了 ChatGPT 和 LLM 技术的兴起，这些先进的语言模型已经引起了开发者、爱好者和组织的广泛关注。为了更好地整合和构建这些先进模型，出现了像 LangChain 和 LlamaIndex 这样的平台。随着自动化任务和 AI 代理越来越多地利用 GPT-4 的能力，这些创新平台正在重新定义我们与 LLMs 互动的方式。本文还介绍了几个基于 GPT-4 的自主 AI 工具和应用，包括 Auto-GPT、AgentGPT、BabyAGI、HuggingGPT、Web LLM、God Mode 和 CAMEL。这些工具和应用可以分为命令行界面（CLI）和基于浏览器的解决方案两类。这些平台正在推动人工智能领域的突破性创新和进步。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 渲染交互指南]]></title>
-        <id>https://ui.dev/why-react-renders</id>
-        <link href="https://ui.dev/why-react-renders"/>
-        <updated>2023-04-27T04:47:36.154Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://ui.dev/why-react-renders">The Interactive Guide to Rendering in React</a></p><p><strong>概要：</strong></p><p>本文主要介绍了 React 的渲染机制，即 React 只有在状态改变时才会重新渲染组件。当事件处理程序被调用时，如果其中包含 useState 的更新函数，并且新状态与快照中的状态不同，React 将触发重新渲染。此外，本文还介绍了 React 的批处理算法和 StrictMode 组件。最后，作者提醒读者，在实际开发中需要注意组件的纯度和性能问题。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何使用 Rust 和 Napi rs 在 NodeJs 中将 CSV 文件处理速度提高五倍]]></title>
-        <id>https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs</id>
-        <link href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs"/>
-        <updated>2023-04-27T00:47:13.797Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.alxolr.com/articles/how-to-process-a-csv-file-five-times-faster-in-node-js-with-rust-and-napi-rs">How to process a CSV file five times faster in NodeJs with Rust and Napi rs</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 和 Napi rs 在 NodeJs 中处理 CSV 文件。作者使用了 readline 模块来处理 CSV 文件，并记录了处理时间和吞吐量。然后作者使用了 Rust 编写了相同的代码，并通过 pv 命令进行了基准测试，发现 Rust 版本比 Nodejs 版本快五倍。最后，作者介绍了如何使用 Napi rs 将 Rust 代码编译成动态库，并在 Nodejs 中调用。总之，结合 Rust 和 Nodejs 可以实现更好的性能和效率。</p>]]></content>
     </entry>
 </feed>
