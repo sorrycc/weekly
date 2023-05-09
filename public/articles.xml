@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-08T06:34:28.911Z</updated>
+    <updated>2023-05-09T02:35:03.807Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[粘性菜单的问题及替代方案]]></title>
+        <id>https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/</id>
+        <link href="https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/"/>
+        <updated>2023-05-09T02:33:14.398Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/">The problem with sticky menus and what to do instead</a></p><p><strong>概要：</strong></p><p>本文讨论了粘性菜单（即固定在视口边缘的菜单）对用户体验的负面影响。这些菜单会占用页面空间、遮挡内容、缩放时出现问题、难以访问、容易使内部页面锚点失效、距离键盘用户较远并遮挡链接和其他可聚焦元素。作者建议解决根本原因，让页面变短，让用户自由滚动；将相关链接放入上下文中；使用返回顶部链接等方式来替代粘性菜单。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在 React 中使用 useContext：全面指南 - Michael Gold - Medium]]></title>
         <id>https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8</id>
@@ -211,12 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu"/>
         <updated>2023-05-04T02:40:46.869Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu">I want to talk about WebGPU</a></p><p><strong>概要：</strong></p><p>WebGPU 是一种新的 WebGL，可以在 Web 浏览器中绘制 3D。它很好用，甚至可能取代 Canvas 成为 Web 浏览器中绘制 2D 的新方式，并取代 Vulkan 和 OpenGL 成为任何编程语言中绘制的标准方式。WebGPU 已经在 Chrome 113 中发布，到年底将会在所有浏览器中普及。对于程序员来说，使用 WebGPU 需要构建一个或多个管道对象，描述 “我运行哪些着色器，以及可以输入什么样的数据” 等信息。此外，WebGPU 提供了 JavaScript、Rust/C++ 等多种语言实现方式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Vercel 上的存储功能 - Vercel]]></title>
-        <id>https://vercel.com/blog/vercel-storage</id>
-        <link href="https://vercel.com/blog/vercel-storage"/>
-        <updated>2023-05-04T01:58:00.921Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-storage">Introducing storage on Vercel – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel宣布了一套无服务器存储解决方案，包括Vercel KV，一个无服务器的Redis解决方案；Vercel Postgres，一个为前端建立的无服务器SQL数据库；以及Vercel Blob，一个在边缘上传和服务文件的解决方案。这些解决方案旨在使数据库成为Vercel前端云的一流部分，并使开发人员能够管理他们的前端存储需求，而不必担心基础设施。此举是由性能和个性化的需求所驱动的，因为框架变成了服务器优先和边缘优先，世界也从单体架构转向可组合的架构。</p>]]></content>
     </entry>
 </feed>
