@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-09T02:35:03.807Z</updated>
+    <updated>2023-05-10T03:10:59.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - dai-shi/will-this-react-global-state-work-in-concurrent-rendering: 在 React 并发渲染中测试撕裂和分支。]]></title>
+        <id>https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering</id>
+        <link href="https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering"/>
+        <updated>2023-05-10T01:49:33.357Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering">GitHub - dai-shi/will-this-react-global-state-work-in-concurrent-rendering: Test tearing and branching in React concurrent rendering</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 18 中的一个新特性 —— 并发渲染，以及在全局状态下可能出现的 “tearing” 问题。作者通过测试不同的全局状态库，如 react-redux、zustand、recoil 等，来验证它们在并发渲染下的表现。测试包括更新和挂载时是否存在 tearing，以及暂时是否存在 tearing 等情况。文章指出，这些测试结果仅供参考，因为 tearing 和状态分支可能取决于应用程序的要求，并且测试方法有限。此外，作者还提到了另一个仓库，用于列出全局状态库的比较，欢迎贡献。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不阻塞事件循环的实用指南]]></title>
+        <id>https://www.bbss.dev/posts/eventloop/</id>
+        <link href="https://www.bbss.dev/posts/eventloop/"/>
+        <updated>2023-05-09T08:34:39.705Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bbss.dev/posts/eventloop/">Practical Guide To Not Blocking The Event Loop</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 在单线程环境下的事件循环机制，以及如何避免同步任务阻塞事件循环。作者提出了三种解决方案：增加节点数量、将同步任务改为异步任务、将同步任务转移到另一个线程。其中，将同步任务转移到另一个线程需要使用 Worker，并且有数据传输限制。作者还介绍了将同步任务改为异步任务的具体实现方法，即通过将代码块分散到事件循环中来添加同步执行之间的间隙，从而让事件循环得以运行。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2.4 | 天文学]]></title>
+        <id>https://astro.build/blog/astro-240/</id>
+        <link href="https://astro.build/blog/astro-240/"/>
+        <updated>2023-05-09T08:33:23.736Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-240/">Astro 2.4 | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.4 发布了，新增了几个功能：更强大的 CSS 作用域、升级了 <Code /> 组件、在站点地图中支持服务器端渲染、中间件（实验性）和 CSS 内联（实验性）。其中，scopedStyleStrategy 允许使用类选择器来配置更高的特异性，<Code /> 组件升级到了 Shiki 0.14 版本，@astrojs/sitemaps 包更新以支持服务器端渲染，中间件支持拦截请求和响应并动态注入行为，CSS 内联可以通过配置将样式表嵌入到 < style > 标签中。此外，还包括一些 bug 修复和集成功能。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[粘性菜单的问题及替代方案]]></title>
         <id>https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/</id>
@@ -197,26 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://www.shuttle.rs/blog/2022/03/13/url-shortener"/>
         <updated>2023-05-04T02:48:50.993Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.shuttle.rs/blog/2022/03/13/url-shortener">Building and Deploying a URL shortener with Rust in 10 minutes or less</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了一个软件开发人员在凌晨时分突然想到的一个想法：能否在不需要担心基础架构的情况下快速构建一个有用的应用程序。他使用了 Rust 编程语言，结合 serverless 平台 Shuttle 和 Postgres 数据库，最终成功地构建了一个简单的 URL 缩短服务。作者认为，虽然现实中的软件工程很复杂，涉及到不同团队和技能集的协作，但这种新型的无需关注基础架构的开发模式是可行的，并且可以带来更好的体验。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么到了 2023 年，OAuth 仍然很难？| Nango 博客]]></title>
-        <id>https://www.nango.dev/blog/why-is-oauth-still-hard</id>
-        <link href="https://www.nango.dev/blog/why-is-oauth-still-hard"/>
-        <updated>2023-05-04T02:48:20.045Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.nango.dev/blog/why-is-oauth-still-hard">Why is OAuth still hard in 2023? | Nango Blog</a></p><p><strong>概要：</strong></p><p>OAuth 是一个标准协议，但在实际应用中，每个 API 都有自己的解释和实现方式，使得 OAuth 变得非常复杂。许多 API 还添加了非标准扩展，使得调试变得困难。此外，许多 API 需要进行审核才能使用，并且 OAuth 安全性也是一个不断变化的目标。为了解决这些问题，Nango 正在开发一种新的方法，该方法提供预构建的 OAuth 流程、安全令牌存储和自动令牌刷新，支持超过 90 个 OAuth API。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[朝着更好的 1 对 1：一个尴尬的宣言]]></title>
-        <id>https://tylercipriani.com/blog/2023/04/22/better-1on1s/</id>
-        <link href="https://tylercipriani.com/blog/2023/04/22/better-1on1s/"/>
-        <updated>2023-05-04T02:47:00.683Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tylercipriani.com/blog/2023/04/22/better-1on1s/">Towards better 1-on-1s: an awkward manifesto</a></p><p><strong>概要：</strong></p><p>本文介绍了一种有效的 1-on-1s（一对一会议）流程，以帮助工程管理人员和个人贡献者更好地进行每周例会。作者提供了一个简单的 POP（目的、结果、过程）日程安排，包括检查团队成员的状况、更新目标、更新 “自夸文档”、给予反馈等内容。此外，作者还分享了自己的笔记和待办事项系统，以及一些有趣的问题来引导讨论。最后，作者指出成功的 1-on-1s 的关键在于真正关心你的直接报告，才能获得他们的关注和参与。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我想谈谈 WebGPU。]]></title>
-        <id>https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu</id>
-        <link href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu"/>
-        <updated>2023-05-04T02:40:46.869Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu">I want to talk about WebGPU</a></p><p><strong>概要：</strong></p><p>WebGPU 是一种新的 WebGL，可以在 Web 浏览器中绘制 3D。它很好用，甚至可能取代 Canvas 成为 Web 浏览器中绘制 2D 的新方式，并取代 Vulkan 和 OpenGL 成为任何编程语言中绘制的标准方式。WebGPU 已经在 Chrome 113 中发布，到年底将会在所有浏览器中普及。对于程序员来说，使用 WebGPU 需要构建一个或多个管道对象，描述 “我运行哪些着色器，以及可以输入什么样的数据” 等信息。此外，WebGPU 提供了 JavaScript、Rust/C++ 等多种语言实现方式。</p>]]></content>
     </entry>
 </feed>
