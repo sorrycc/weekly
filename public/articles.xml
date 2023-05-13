@@ -2,11 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-10T03:10:59.533Z</updated>
+    <updated>2023-05-13T07:46:01.034Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Fresh、OpenAI 和 Supabase 构建您自己的 ChatGPT 风格文档搜索。]]></title>
+        <id>https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh</id>
+        <link href="https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh"/>
+        <updated>2023-05-13T07:30:37.930Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh">Build your own ChatGPT-style doc search with Fresh, OpenAI, and Supabase</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 OpenAI Text Completion API 创建自定义的 ChatGPT 风格文档搜索，以及如何在 Supabase 的免费托管 PostgresDB 中存储嵌入和执行向量相似性搜索。文章详细介绍了构建自定义 ChatGPT 的四个步骤，包括预处理知识库、存储嵌入、运行时执行向量相似性搜索和将内容注入到 OpenAI GPT-3 文本完成提示中并将响应流式传输给客户端。此外，文章还提供了一些有关使用 OpenAI 和 ChatGPT 构建的其他资源。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 Deno 在 Rust 中运行 JavaScript]]></title>
+        <id>https://austinpoor.com/blog/js-in-rs</id>
+        <link href="https://austinpoor.com/blog/js-in-rs"/>
+        <updated>2023-05-13T07:28:48.597Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://austinpoor.com/blog/js-in-rs">Running JavaScript in Rust with Deno</a></p><p><strong>概要：</strong></p><p>本文介绍了作者创建的一个名为 “js-in-rs” 的基于 Rust 的 CLI 工具，用于使用 JavaScript 表达式过滤文件。与 grep 工具使用正则表达式不同，js-in-rs 使用 JavaScript 表达式进行过滤。文章详细介绍了 js-in-rs 的工作原理和代码实现，并探讨了在 Rust 应用程序中运行 JavaScript 代码的潜在应用，例如 Web 服务器、数据管道和数据库用户定义函数等。此外，作者还提到 Deno 运行时具有有趣的权限管理方法，允许用户开启或关闭运行时功能，以防止恶意代码访问资源。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jQuery 3.7.0 发布：保持顺序]]></title>
+        <id>https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/</id>
+        <link href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/"/>
+        <updated>2023-05-13T07:28:14.090Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/">jQuery 3.7.0 Released: Staying in Order</a></p><p><strong>概要：</strong></p><p>jQuery 3.7.0 发布了，包含了 bug 修复、新方法和性能提升等内容。此次更新中，jQuery 删除了其长期使用的选择器引擎 Sizzle，并将其代码直接放入了 jQuery 核心中，以便为未来版本的选择做准备。同时，jQuery 增加了一个可链接的.uniqueSort () 方法，解决了某些情况下.prevAll () 方法返回元素顺序相反的问题。jQuery 还添加了对更多 CSS 属性的支持，避免自动添加 “px” 单位。此外，该版本还优化了.manipulation () 方法的性能，修复了在 IE 中焦点事件异步触发的问题。该版本与之前的版本兼容，可以从 jQuery CDN 或 npm 获取。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 Vue 3.3 | Vue 点击]]></title>
+        <id>https://blog.vuejs.org/posts/vue-3-3</id>
+        <link href="https://blog.vuejs.org/posts/vue-3-3"/>
+        <updated>2023-05-13T07:13:47.996Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.vuejs.org/posts/vue-3-3">Announcing Vue 3.3 | The Vue Point</a></p><p><strong>概要：</strong></p><p>Vue 3.3 "Rurouni Kenshin" has been released, with a focus on improving developer experience when using Vue with TypeScript. The update includes improvements to SFC <script setup> usage with TypeScript, imported and complex types support in macros, generic components, more ergonomic defineEmits, typed slots with defineSlots, and experimental features such as reactive props destructure and defineModel. Other notable features include defineOptions, better getter support with toRef and toValue, and JSX import source support. Maintenance infrastructure improvements have also been made, allowing for faster builds, tests, and types generation. The Vue team plans to make smaller and more frequent feature releases starting in 2023.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 协调：它是如何工作的，为什么我们应该关心]]></title>
+        <id>https://www.developerway.com/posts/reconciliation-in-react</id>
+        <link href="https://www.developerway.com/posts/reconciliation-in-react"/>
+        <updated>2023-05-13T07:12:20.250Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/reconciliation-in-react">React reconciliation: how it works and why should we care</a></p><p><strong>概要：</strong></p><p>本文详细介绍了 React 的协调算法，以及它如何影响我们的日常代码。文章探讨了条件渲染、"key" 属性和为什么不应该在其他组件内声明组件等问题，并提供了解决方法。作者通过分析 React 的虚拟 DOM 和状态更新过程，解释了为什么在条件渲染中声明组件会重新挂载，以及为什么需要使用 "key" 属性来避免组件重复挂载或保证元素的唯一性。最后，作者提供了多个示例来说明这些概念。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 Deopt Explorer - TypeScript]]></title>
+        <id>https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/</id>
+        <link href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/"/>
+        <updated>2023-05-13T01:41:30.924Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/">Introducing Deopt Explorer - TypeScript</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用内联缓存（inline caching）优化 JavaScript 代码的性能，并讲解了在 TypeScript 编译器中如何使用 Deopt Explorer 工具来分析性能问题和减少多态现象。文章详细介绍了内联缓存的概念、不同类型的缓存以及多态现象的产生原因。通过实例分析，作者展示了如何使用 Deopt Explorer 工具来分析 V8 引擎生成的 ICs 和对象类型，并通过优化 Symbol 类型的属性访问，将编译时间平均缩短了 8-10%。最后，作者介绍了 Deopt Explorer 工具的使用方法和开源地址。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何使用性能 API 测量页面加载时间]]></title>
+        <id>https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/</id>
+        <link href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/"/>
+        <updated>2023-05-11T01:09:04.045Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/">How to measure page loading time with Performance API</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Performance API 来测量网页的加载时间。作者最初从 Tim Kadlec 的博客中发现了一个显示页面加载时间的特性，但是在调整代码时遇到了一些问题。最终，作者通过使用 Performance API 的 performance.mark () 方法来解决了这个问题，并分享了获取页面加载时间的最终代码。此外，作者还提供了一个名为 page-loaded-in 的 NPM 包来帮助读者快速实现该特性。文章强调了在开发基于 Web 的项目时优化性能的重要性，并提供了使用 Performance API 来衡量页面性能的方法。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的混音之路]]></title>
+        <id>https://redd.one/blog/my-struggle-with-remix</id>
+        <link href="https://redd.one/blog/my-struggle-with-remix"/>
+        <updated>2023-05-11T01:08:33.697Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://redd.one/blog/my-struggle-with-remix">My Struggle With Remix</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了作者使用 Remix 框架的经验和遇到的问题。作者认为 Remix 是一个很好的框架，但是也存在一些缺点。作者提出了四个主要问题：开发体验、路由过于神秘、仍然不够成熟以及控制不是默认的。作者指出，Remix 在某些方面缺乏对开发者的控制权，例如构建过程和静态资源处理。此外，Remix 的路由语法可能会使人感到困惑，并且更新时可能会出现问题。尽管存在这些问题，作者仍然认为 Remix 是一个优秀的框架，特别适用于数据密集型应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[滑动进入动画]]></title>
+        <id>https://antfu.me/posts/sliding-enter-animation</id>
+        <link href="https://antfu.me/posts/sliding-enter-animation"/>
+        <updated>2023-05-11T01:07:22.715Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/sliding-enter-animation">Sliding Enter Animation</a></p><p><strong>概要：</strong></p><p>本文介绍了一种通过 CSS 动画实现页面元素滑动进入的效果，并提供了一个示例代码。作者在文章中还尝试了使用 CSS 计数器来简化应用到 Markdown 页面内容的过程，但由于计数器函数返回字符串而无法直接转换为数字，因此最终采用了 nth-child () 选择器来手动实现该效果。最后，作者将该效果应用到了自己的博客页面中，并分享了源代码。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - dai-shi/will-this-react-global-state-work-in-concurrent-rendering: 在 React 并发渲染中测试撕裂和分支。]]></title>
         <id>https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering</id>
@@ -155,68 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://www.macarthur.me/posts/maps-for-dom-nodes"/>
         <updated>2023-05-04T04:47:53.139Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.macarthur.me/posts/maps-for-dom-nodes">Why I Like Using Maps (and WeakMaps) for Handling DOM Nodes</a></p><p><strong>概要：</strong></p><p>本文介绍了在处理大量 DOM 节点时，Maps（和 WeakMaps）是特别有用的工具的原因。与使用对象作为键 / 值存储相比，使用 Map 可以更简单、更强大、更高效地管理状态，并且不需要设置或读取唯一属性。此外，Map 还具有自动垃圾回收的功能，可以更有效地管理内存。总之，Map 对于处理大量 DOM 节点非常有用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RegExGPT]]></title>
-        <id>https://regexgpt.app/</id>
-        <link href="https://regexgpt.app/"/>
-        <updated>2023-05-04T04:47:06.555Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://regexgpt.app/">RegExGPT</a></p><p><strong>概要：</strong></p><p>RegExGPT 是一种工具，它可以让人们通过输入文本转换的示例和期望结果来生成正则表达式模式。用户还可以使用自然语言输入来解释他们想匹配的模式，并选择输出的编程语言。使用 RegExGPT 时，需要输入要转换的文本示例和期望结果，选择编程语言并点击 “生成” 按钮来生成正则表达式模式。生成的正则表达式模式可以在代码中使用，将输入文本转换为期望的结果。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 React Native macOS 0.71 | React Native]]></title>
-        <id>https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/</id>
-        <link href="https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/"/>
-        <updated>2023-05-04T04:42:51.689Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/">Introducing React Native macOS 0.71 | React Native</a></p><p><strong>概要：</strong></p><p>React Native macOS 发布了 0.71 版本，这是该平台首次与 iOS、Android 和 Windows 保持同步。为了实现这个目标，开发团队不得不跳过了一些中间版本，并开始着手 0.72 版本。此外，该版本还加入了对 Fabric 的实验性支持，但需要注意的是这只是一个概念验证，存在不稳定性。除此之外，该版本也进行了许多清理和修复工作，以使未来的发布更加顺畅。具体变化请参考 GitHub Release。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebContainers 现在可以在 Safari、iOS 和 iPadOS 上运行。]]></title>
-        <id>https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/</id>
-        <link href="https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/"/>
-        <updated>2023-05-04T04:37:40.445Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/">WebContainers now run on Safari, iOS, and iPadOS</a></p><p><strong>概要：</strong></p><p>StackBlitz 宣布其 WebContainers 已经可以在 Safari、iOS 和 iPadOS 上运行。用户现在可以在 iPhone 或 iPad 上尝试交互式代码示例和 playground，Safari 支持目前处于 beta 版本。StackBlitz 的 WebContainers 是基于未来技术构建的，包括 Wasm threads 和 SharedArrayBuffer，这些技术在 Safari 上得到了支持。WebContainers 在复杂项目中的运行速度比本地快得多，StackBlitz 团队仍在不断优化。此外，StackBlitz 团队通过加入 Bytecode Alliance，致力于推动 Web 技术的发展。用户可以在所有最新的桌面浏览器上使用 WebContainers，包括 Chrome、Firefox 和 Safari，对于移动设备而言，Android 上的 Chrome、Chromium-based 浏览器和 Firefox 可以使用 WebContainers，iOS 和 iPadOS 上的 Safari 目前处于 beta 版本。StackBlitz 团队将继续改进 WebContainers，并计划在今年内推出一系列重大更新。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 React 服务器组件在您的博客上显示一个视图计数器。]]></title>
-        <id>https://scastiel.dev/view-counter-react-server-components</id>
-        <link href="https://scastiel.dev/view-counter-react-server-components"/>
-        <updated>2023-05-04T04:36:19.199Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://scastiel.dev/view-counter-react-server-components">Display a view counter on your blog with React Server Components</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在个人博客中使用 React Server Components、Streaming 和 Suspense 实现浏览量计数器。作者使用 Plausible 工具的 API 获取页面的浏览量，然后将其渲染到页面上。传统的方法是在客户端和服务器之间进行通信，但是使用 React Server Components 可以更加优雅地处理这个问题。通过在 <PageViews /> 组件中调用 getCountForPage 函数，然后在页面.tsx 文件中渲染计数，可以实现此目的。而使用 Streaming 则可以让服务器先发送一个初始版本的页面，然后保持连接打开，并稍后发送第二个版本（包含浏览量）。最终，读者将看到完整的页面，其中包括浏览量计数器。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在 React 中编写注释：好的、坏的和丑陋的]]></title>
-        <id>https://dmitripavlutin.com/react-comments/</id>
-        <link href="https://dmitripavlutin.com/react-comments/"/>
-        <updated>2023-05-04T04:35:39.416Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dmitripavlutin.com/react-comments/">How to Write Comments in React: The Good, the Bad and the Ugly</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了在 React 中添加注释的三种方法。第一种是使用 JSX 注释语法，但这种方式有些冗长；第二种是在 JSX 标签外使用 JavaScript 注释，可以更简洁地添加注释；第三种是在 JSX 标签内部使用 JavaScript 注释，可以针对特定元素添加注释。作者认为第三种方法最好，因为它简洁明了且针对性强。总之，读者可以根据自己的喜好选择合适的注释方式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v6.11.0・remix-run/react-router]]></title>
-        <id>https://github.com/remix-run/react-router/releases/tag/react-router%406.11.0</id>
-        <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.11.0"/>
-        <updated>2023-05-04T02:58:08.940Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/react-router/releases/tag/react-router%406.11.0">Release v6.11.0 · remix-run/react-router</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 React Router 版本 6.11.0 的更新内容。其中，一些小的改动包括在 useFetcher 中启用 basename 支持，更新 @remix-run/router 依赖等。在补丁方面，使用 RouterProvider 时，通过 @remix-run/router 实例处理相对路由，可以稳定地使用 useNavigate/useSubmit/fetcher.submit，而 BrowserRouter 仍然依赖于 useLocation ()，因此这些钩子在位置更改时仍不稳定。此外，fetchers 不再在搜索参数更改或路由到相同 URL 时重新验证，并且只会在操作提交或 router.revalidate 调用时重新验证。还修复了一些错误，如使用 Component 而不是 element 时的重新渲染问题，<Link to="//"> 和其他无效 URL 值的优雅失败等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwik 达到了 v1.0 版本。]]></title>
-        <id>https://www.builder.io/blog/qwik-v1</id>
-        <link href="https://www.builder.io/blog/qwik-v1"/>
-        <updated>2023-05-04T02:57:48.314Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/qwik-v1">Qwik Reaches v1.0</a></p><p><strong>概要：</strong></p><p>Qwik 是一个全栈 Web 框架，旨在通过 JavaScript 流式传输和延迟执行等技术提供快速、可扩展和易维护的 Web 应用程序。它借鉴了 React、Vue、Angular、Svelte 等框架的优点，并提供了一套强大的工具集，使开发人员能够快速高效地构建 Web 应用程序。Qwik 还提供了许多功能，包括 JSX、基于目录的路由、数据获取、中间件逻辑、UI 组件、国际化、身份验证、CMS、样式和测试等。此外，Qwik 社区不断增长，为开发人员提供了支持和协作的平台。如果想要尝试使用 Qwik，可以查看其入门页面、教程或 Stackblitz。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[即时工程 vs 盲目提示]]></title>
-        <id>https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting</id>
-        <link href="https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting"/>
-        <updated>2023-05-04T02:52:35.944Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting">Prompt Engineering vs. Blind Prompting</a></p><p><strong>概要：</strong></p><p>本文介绍了 Prompt Engineering，即利用提示来有效地从语言模型中提取信息的过程，通常用于实际应用。文章指出，许多人声称正在进行 Prompt Engineering，但实际上只是盲目提示。因此，本文提供了一种基于实验方法的 Prompt Engineering 示例，以展示如何为应用程序构建可靠的功能。作者强调了选择问题、演示集、提示候选项和测试提示等步骤的重要性，并解释了如何选择最终的提示方案。最后，作者呼吁更多的实验研究来支持 Prompt Engineering 技术的发展。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Rust 在 10 分钟或更短的时间内构建和部署 URL 缩短器]]></title>
-        <id>https://www.shuttle.rs/blog/2022/03/13/url-shortener</id>
-        <link href="https://www.shuttle.rs/blog/2022/03/13/url-shortener"/>
-        <updated>2023-05-04T02:48:50.993Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.shuttle.rs/blog/2022/03/13/url-shortener">Building and Deploying a URL shortener with Rust in 10 minutes or less</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了一个软件开发人员在凌晨时分突然想到的一个想法：能否在不需要担心基础架构的情况下快速构建一个有用的应用程序。他使用了 Rust 编程语言，结合 serverless 平台 Shuttle 和 Postgres 数据库，最终成功地构建了一个简单的 URL 缩短服务。作者认为，虽然现实中的软件工程很复杂，涉及到不同团队和技能集的协作，但这种新型的无需关注基础架构的开发模式是可行的，并且可以带来更好的体验。</p>]]></content>
     </entry>
 </feed>
