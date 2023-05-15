@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-13T07:46:01.034Z</updated>
+    <updated>2023-05-15T01:54:11.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[掌握 TypeScript 中的 infer - JavaScript in Plain English]]></title>
+        <id>https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86</id>
+        <link href="https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86"/>
+        <updated>2023-05-14T16:28:12.103Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86">Mastering infer in TypeScript - JavaScript in Plain English</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 中 infer 关键字的用法，它可以从现有的代码中提取和推断类型。使用 infer 关键字可以增加代码的类型安全性、效率和组织性。infer 关键字可以在泛型类型、函数参数和返回值、映射类型中使用，但只能在条件类型中使用。同时，文章还提供了一些实际的例子来展示 infer 关键字的使用方法。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 Dart 3 - Dart - Medium]]></title>
+        <id>https://medium.com/dartlang/announcing-dart-3-53f065a10635</id>
+        <link href="https://medium.com/dartlang/announcing-dart-3-53f065a10635"/>
+        <updated>2023-05-14T16:11:21.730Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://medium.com/dartlang/announcing-dart-3-53f065a10635">Announcing Dart 3 - Dart - Medium</a></p><p><strong>概要：</strong></p><p>Google 在 I/O 2023 上宣布了 Dart 3 的发布，这是迄今为止最大的 Dart 版本，包括三个主要进展：100％的声音空安全、记录、模式和类修饰符的重大新语言特性以及通过 Wasm 编译实现对 Web 的本地代码支持。其中，100％空安全意味着 Dart 具有可靠的类型系统，可以避免某些编码错误，如空指针异常，并允许编译器和运行时优化代码。此外，Dart 3 还引入了记录、模式和类修饰符等新功能，使 Dart 更加表达和精简，同时提供了一种详细控制大型 API 表面的方法。最后，Dart 3 还提供了未来的预览，即通过 Wasm 编译实现对 Web 的本地代码支持。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用 Fresh、OpenAI 和 Supabase 构建您自己的 ChatGPT 风格文档搜索。]]></title>
         <id>https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh</id>
@@ -204,19 +218,5 @@ TailwindCSS 与 UnoCSS]]></title>
         <link href="https://github.com/w3c/csswg-drafts/issues/5629"/>
         <updated>2023-05-04T04:50:11.466Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/w3c/csswg-drafts/issues/5629">Multiple stylesheets per file · Issue #5629 · w3c/csswg-drafts</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了在 JS 中导入 CSSStyleSheets 的问题。目前的解决方法是将 CSS 编译为 JS 模块，但这会降低浏览器直接加载和解析 CSS 的性能。Web Bundles 可能会通用地解决这个问题，但其未来在多个浏览器上的应用尚不确定。作者提出了一个新的解决方案：引入一个 @sheet 规则，它包含整个样式表作为其内容，以允许 CSS 的打包。该提议对于管理 JS 中的 CSSStyleSheets 的代码最为相关，并且也可以作为用户自定义 CSS 加载程序的桥梁，通过标准化打包，可以使用客户端实用程序进行作用域限定。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[熊猫 CSS - 无运行时开销的 CSS-in-JS]]></title>
-        <id>https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/</id>
-        <link href="https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/"/>
-        <updated>2023-05-04T04:49:11.860Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/">Panda CSS – CSS-in-JS without Runtime Overhead</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 Panda CSS 的前端工具库，它提供了一组实用类、模式和配方，用于在 Web 应用程序中构建现代和响应式用户界面。相比于纯字符串的方法，Panda CSS 提供了一种声明性的方法来使用 JavaScript 对象对组件进行样式设置，使其更易读和易维护。此外，本文还介绍了如何在 Next.js 项目中使用 Panda CSS，并探讨了其主题、模式和配方等高级用法。最后，本文指出，尽管 Panda CSS 目前仍处于实验阶段，但它有望成为前端开发流程中的重要组成部分。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么我喜欢使用地图（和 WeakMaps）来处理 DOM 节点]]></title>
-        <id>https://www.macarthur.me/posts/maps-for-dom-nodes</id>
-        <link href="https://www.macarthur.me/posts/maps-for-dom-nodes"/>
-        <updated>2023-05-04T04:47:53.139Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.macarthur.me/posts/maps-for-dom-nodes">Why I Like Using Maps (and WeakMaps) for Handling DOM Nodes</a></p><p><strong>概要：</strong></p><p>本文介绍了在处理大量 DOM 节点时，Maps（和 WeakMaps）是特别有用的工具的原因。与使用对象作为键 / 值存储相比，使用 Map 可以更简单、更强大、更高效地管理状态，并且不需要设置或读取唯一属性。此外，Map 还具有自动垃圾回收的功能，可以更有效地管理内存。总之，Map 对于处理大量 DOM 节点非常有用。</p>]]></content>
     </entry>
 </feed>
