@@ -9,7 +9,20 @@ draft: true
 ## 一周新闻
 > 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔。
 
-- 。
+ - Vue [v3.3](https://xlog.sxzz.moe/vue-3-3) 新特性详解。
+ - Github 启用新[代码搜索](https://github.blog/changelog/2023-05-08-the-new-code-search-and-code-view-is-now-generally-available/)。
+ - Firefox [v113](https://www.mozilla.org/en-US/firefox/113.0/releasenotes/) 发布，优化搜索等。
+ - lerna [v7.0.0-alpha.0](https://github.com/lerna/lerna/releases/tag/7.0.0-alpha.0) 发布，默认使用 nx 等。
+ - CodeSandbox 支持 [Tailwind](https://twitter.com/CompuIves/status/1656359660230971395) 提示。
+ - [Svelte](https://twitter.com/Rich_Harris/status/1656381997348995074) 迁移 TS 至 JSDoc 。
+ - Vue Router [v4.2.0](https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md) 发布，守卫中可获取数据。
+ - Github mobile 支持编辑 [workflow](https://github.blog/changelog/2023-05-11-edit-workflow-files-on-github-mobile/) 文件。
+ - Vercel [即时回滚](https://vercel.com/changelog/instant-rollback-is-now-available-to-revert-deployments)普遍可用。
+ - 网络平台新增 [Baseline](https://web.dev/introducing-baseline/) 规范。
+ - Remix Conf [2023](https://www.youtube.com/watch?v=wobP9yhrmhQ) 举行。
+ - CSS in [2023](https://developer.chrome.com/en/blog/whats-new-css-ui-2023/) 。
+ - esbuild [v0.17.19](https://github.com/evanw/esbuild/releases/tag/v0.17.19) 发布，修正 CSS 嵌套等。
+ - Rome [v12.1.0](https://github.com/rome/tools/releases/tag/cli%2Fv12.1.0) 发布，支持装饰器等。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
