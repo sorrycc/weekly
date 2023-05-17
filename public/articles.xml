@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-15T01:54:11.443Z</updated>
+    <updated>2023-05-17T05:34:45.831Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[馒头捆绑器]]></title>
+        <id>https://bun.sh/blog/bun-bundler</id>
+        <link href="https://bun.sh/blog/bun-bundler"/>
+        <updated>2023-05-17T04:41:23.198Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-bundler">The Bun Bundler</a></p><p><strong>概要：</strong></p><p>Bun bundler 是一个快速的本地打包工具，现在已经进入了 beta 测试阶段。它可以通过 bun build CLI 命令或新的 Bun.build () JavaScript API 来使用。该工具可以用于构建前端应用程序，并提供了内置的 Bun.build () 函数和 bun build CLI 命令。文章指出，JavaScript 生态系统的复杂性不断增加，如何运行 TypeScript 文件、如何为生产环境构建 / 打包代码等问题使得开发变得越来越复杂。Bun bundler 的目标是将打包引入 JavaScript 运行时，从而使前端和全栈代码的发布更简单、更快速。该工具的优点包括：插件执行快速、生成预转换文件以提高运行性能、统一的插件 API、构建输出数组、支持 ESM 模块系统、支持 tree-shaking、支持源码映射、支持 JS 压缩器等。未来，Bun bundler 还将与 Bun 的 HTTP 服务器 API（Bun.serve）集成，从而实现用简单的声明式 API 代替</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[充满惊喜的JavaScript生态圈]]></title>
+        <id>https://fly.io/blog/js-ecosystem-delightfully-wierd/</id>
+        <link href="https://fly.io/blog/js-ecosystem-delightfully-wierd/"/>
+        <updated>2023-05-16T01:46:08.086Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fly.io/blog/js-ecosystem-delightfully-wierd/">The JavaScript Ecosystem is Delightfully Weird</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了 JavaScript 生态系统的奇怪之处。作者认为，JavaScript 在不到 10 年前非常糟糕，缺乏许多现代语言特性，而且主要运行在浏览器的 DOM 中，很难处理。然而，随着时间的推移，JavaScript 的发展迅速改善，出现了许多编译器和转换工具，如 CoffeeScript、Babel 和 esbuild，使得开发人员可以使用更加现代化的语言特性来编写 JavaScript 代码。同时，JavaScript 生态系统也变得越来越庞大，涵盖了许多框架和库，但是这些框架和库并没有完全遵循 ECMAScript 标准，而是进行了一些自己的扩展和修改，例如 TypeScript 和 JSX。最近，React Server Components (RSC) 出现了，它通过与打包工具的合作，实现了将 React 组件编译成 HTML 或 JSON 流的功能，从而引发了人们对于 JavaScript 语言本身的重新思考。总</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用Qt和Rust构建一个桌面应用程序 - LogRocket博客]]></title>
+        <id>https://blog.logrocket.com/build-desktop-app-qt-rust/</id>
+        <link href="https://blog.logrocket.com/build-desktop-app-qt-rust/"/>
+        <updated>2023-05-15T07:17:16.737Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/build-desktop-app-qt-rust/">Build a desktop app with Qt and Rust - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 和 Qt 框架构建桌面应用程序。作者首先讨论了桌面应用程序的优点，然后介绍了 Rust 在桌面应用程序开发中的流行程度和可靠性。接着，作者演示了如何使用 Qt 和 Rust 构建一个简单的 “Hello World” 应用程序，并逐步添加了加密和解密功能。最后，作者还介绍了如何使用 GitHub CI 工作流程来确保代码正确性。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[将Next.js App Router用于生产的5条经验之谈]]></title>
+        <id>https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production</id>
+        <link href="https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production"/>
+        <updated>2023-05-15T04:52:42.154Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production">5 Lessons Learned From Taking Next.js App Router to Production</a></p><p><strong>概要：</strong></p><p>Next.js 13 的新功能 App Router 引入了 Nested Layouts、Server Components 和 Streaming 等多项新特性，是第一个开源实现 React 18 原语的工具。从 Next.js 13.4 开始，App Router 已被认为是生产就绪状态。使用 App Router 可以更轻松地在路由之间共享 UI、更好地利用服务器组件、更快地展示页面部分内容以及准备未来。但是，在应用 App Router 时需要注意两个缓存、URL 搜索参数在布局服务器组件中的问题、文件结构的优点以及学习新技术和资源有限的挑战。建议先仔细阅读官方文档，如果遇到问题可以查看 GitHub 和 Twitter 上的讨论，并且分享经验和解决方案有助于建立更加实质性的知识库。总体而言，采用 App Router 可以提高用户和开发者的体验，但需要耐心和深入挖掘。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[理解useRef和useState用于跟踪React中的组件渲染次数]]></title>
+        <id>https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/</id>
+        <link href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/"/>
+        <updated>2023-05-15T04:52:16.782Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/">Understanding useRef and useState for Tracking Component Render Count in React</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中使用 useRef 和 useState 来追踪组件渲染次数的实际例子。通过自定义一个名为 useComponentRenderCount 的 hook，使用 useRef 来存储渲染次数，并使用 useState 来管理组件内的不同状态值。通过将状态值分开控制，可以提高代码可读性并更轻松地管理每个值的状态更新。理解何时使用 useRef 以及如何与 useState 一起使用对于管理复杂的组件行为至关重要。在开发 React 应用程序时，需要平衡性能和功能，才能创建高质量的应用程序。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[反应全局状态为局部状态]]></title>
+        <id>https://webup.org/blog/react-global-state-as-local-state/</id>
+        <link href="https://webup.org/blog/react-global-state-as-local-state/"/>
+        <updated>2023-05-15T04:51:55.382Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/react-global-state-as-local-state/">React Global State as Local State</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种基于 React 的全局状态管理方案，使用 useGlobalState 钩子来读取全局存储对象，并在其更新时强制所有已订阅的组件重新渲染。相比于 Redux 和 Context，这种方案更加简单且没有繁琐的代码。该方案不需要依赖库，支持测试和 TypeScript。文章详细介绍了如何实现这个钩子，包括 JavaScript 和 TypeScript 的实现以及测试用例。作者表示这种方案虽然简单，但也具有可扩展性，可以在其上构建中间件、错误处理和动作等功能。作者在几个项目中尝试了 createGlobalState，目前已成为他的默认选择。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[罗马 v12.1.0]]></title>
+        <id>https://rome.tools/blog/2023/05/10/rome12_1/</id>
+        <link href="https://rome.tools/blog/2023/05/10/rome12_1/"/>
+        <updated>2023-05-15T02:08:46.595Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rome.tools/blog/2023/05/10/rome12_1/">Rome v12.1.0</a></p><p><strong>概要：</strong></p><p>Rome v12.1.0 发布了，支持新的 Stage 3 装饰器、VCS 集成和新的 lint 规则。现在，Rome 可以解析和格式化大多数框架中的装饰器，并且支持 git VCS 集成。此外，还添加了许多新的 lint 规则，并提供了一个新的命令来更新配置文件。还有一个新的 CLI 帮助提示库，可以从源代码生成输出。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[掌握 TypeScript 中的 infer - JavaScript in Plain English]]></title>
         <id>https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86</id>
@@ -167,56 +216,5 @@
         <link href="https://vercel.com/blog/vercel-spaces"/>
         <updated>2023-05-05T00:18:14.981Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-spaces">Quality software at scale with Vercel Spaces – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel推出了Vercel Spaces，它提供了强大的工具和惯例，可以与monorepo设置集成，使开发人员能够在保持质量的同时有效地扩展。Spaces仪表板提供了对开发工作流程、代码健康状况和构建日志的洞察力，并包括通过Conformance、Code Owners和Vercel Runs提升效率和消除障碍的新功能。Conformance可以在开发生命周期的早期自动检测前端产品的关键问题，Code Owners可以帮助确定谁对代码负责，并确保代码变更由正确的人审查，而Vercel Runs通过交互式用户界面提供了一种更简单的调试任务的方式。Vercel Spaces可供Vercel企业客户提前使用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angular v16 已经发布了！- Angular 博客]]></title>
-        <id>https://blog.angular.io/angular-v16-is-here-4d7a28ec680d</id>
-        <link href="https://blog.angular.io/angular-v16-is-here-4d7a28ec680d"/>
-        <updated>2023-05-05T00:03:11.942Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.angular.io/angular-v16-is-here-4d7a28ec680d">Angular v16 is here! - Angular Blog</a></p><p><strong>概要：</strong></p><p>Angular 发布了最大的版本更新，包括改进响应性、服务器端渲染和工具等方面。其中最重要的是引入了全新的响应性模型，提高了性能和开发者体验。该版本还支持服务端渲染和水合，提供了更好的工具和单独的 API，以及其他许多改进。此外，Angular 还计划在未来一年内推出更多的改进和功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TailwindCSS vs. UnoCSS
-
-TailwindCSS 与 UnoCSS]]></title>
-        <id>https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53</id>
-        <link href="https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53"/>
-        <updated>2023-05-05T00:02:05.363Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53">TailwindCSS vs. UnoCSS</a></p><p><strong>概要：</strong></p><p>本文对比了 TailwindCSS 和 UnoCSS 两个工具，总结了它们的特点、语言、文档、自定义样式和编辑器支持等方面。TailwindCSS 拥有完整的 CSS 特性类名，可以通过任意值、变体和属性来进行全面的样式设计，而 UnoCSS 则支持所有 TailwindCSS 的功能，并提供了一些额外的功能，如变体组、CSS 网格流体列和更多动画效果。在语言方面，TailwindCSS 有一个相对规范的类名命名方式，UnoCSS 则更加灵活。在文档和自定义样式方面，两者都有不错的表现，但 UnoCSS 的交互式文档和颜色提示更加出色。在编辑器支持方面，TailwindCSS 支持较好，但存在一些缺陷，而 UnoCSS 的高亮显示和颜色提示则更为出色。作者认为，如果你看重灵活性和额外的功能，你可能会喜欢 UnoCSS，但如果你看重约束和更清晰的编写语言，则应该选择</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 13.4]]></title>
-        <id>https://nextjs.org/blog/next-13-4</id>
-        <link href="https://nextjs.org/blog/next-13-4"/>
-        <updated>2023-05-04T23:58:36.281Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/next-13-4">Next.js 13.4</a></p><p><strong>概要：</strong></p><p>Next.js 13.4 是一个重要的版本，标志着 App Router 的稳定性。这个版本增加了许多新特性，包括 React Server Components、嵌套路由和布局、简化数据获取、流式渲染和 Suspense、内置 SEO 支持等。其中最重要的是 App Router，它是 Next.js 的核心组件，可以让开发者更方便地定义页面布局和数据获取方式。此外，Turbopack 也是一个值得关注的新功能，它可以加速本地开发和生产构建过程。最后，Server Actions 是一个实验性的功能，可以在服务器端直接修改数据，不需要客户端 JavaScript。总之，Next.js 13.4 为开发者提供了更强大的工具，帮助他们更轻松地构建动态、个性化和全球化的 Web 应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何测试您的类型]]></title>
-        <id>https://www.totaltypescript.com/how-to-test-your-types</id>
-        <link href="https://www.totaltypescript.com/how-to-test-your-types"/>
-        <updated>2023-05-04T12:52:44.759Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/how-to-test-your-types">How to test your types</a></p><p><strong>概要：</strong></p><p>本文介绍了三种测试 TypeScript 类型的方法。首先是使用 vitest，这是一个基于 Vite 的强大测试运行器，可以用来测试运行时代码和类型。其次是自己编写测试代码，可以使用 Expect 和 Equal 等类型帮助工具来测试特定类型，并在测试套件中运行 tsc 检查类型测试是否失败。最后，还介绍了一个名为 tsd 的库，它与 vitest 很相似，但包含了所有必要的内容，使得测试更加方便。对于应用程序开发而言，测试类型并不是必须的，但对于任何将被大量人使用的库而言，测试类型是至关重要的。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 种使用 ChatGPT 学习更好的方法 - 斯科特・H・扬]]></title>
-        <id>https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/</id>
-        <link href="https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/"/>
-        <updated>2023-05-04T09:01:50.070Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.scotthyoung.com/blog/2023/05/02/chatgpt-learning-tips/">10 Ways You Can Use ChatGPT to Learn Better - Scott H Young</a></p><p><strong>概要：</strong></p><p>这篇文章总结了读者们如何使用大型语言模型（LLMs）来学习和研究的建议，并探讨了使用这些工具的优缺点。作者提醒读者要注意，虽然 ChatGPT 可以进行人类般的对话，但它并不是真正的人类，有时会提供错误的答案。然而，ChatGPT 在许多任务上都很有用，例如作为个人导师、语言教练、生成摘要、与长文本对话、简化专业术语等。作者还提到了一些不应该使用 AI 工具的情况，例如期望它们正确地获取事实、引用和数学等方面。最后，作者邀请读者分享他们使用 ChatGPT 或其他 AI 工具进行学习的经验和建议。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canaries：在 Meta 之外启用增量功能发布的 React]]></title>
-        <id>https://react.dev/blog/2023/05/03/react-canaries</id>
-        <link href="https://react.dev/blog/2023/05/03/react-canaries"/>
-        <updated>2023-05-04T06:53:29.142Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://react.dev/blog/2023/05/03/react-canaries">React Canaries: Enabling Incremental Feature Rollout Outside Meta – React</a></p><p><strong>概要：</strong></p><p>React 团队推出了一个新的官方支持的 Canary 版本，让开发者可以在稳定版本发布之前就采用新功能。这个 Canary 版本只包含 React 团队相信已经准备好被采用的特性，而不像实验性版本那样可能会有重大变化。Canary 版本可以让框架在全局 React 发布计划之外单独采用 React 特性，也可以让框架在自己的次要版本中发布 React 相关的重大变更，而不会破坏 semver。React 将按照 semver 规范每个稳定版本进行更新，同时也会在博客上发布 Canary 版本中的重大变更和新特性。Canary 版本需要被固定版本号，以避免包含重大变更。除此之外，React 的稳定版本不会有任何改变。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一个文件中多个样式表・Issue #5629・w3c/csswg-drafts]]></title>
-        <id>https://github.com/w3c/csswg-drafts/issues/5629</id>
-        <link href="https://github.com/w3c/csswg-drafts/issues/5629"/>
-        <updated>2023-05-04T04:50:11.466Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/w3c/csswg-drafts/issues/5629">Multiple stylesheets per file · Issue #5629 · w3c/csswg-drafts</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了在 JS 中导入 CSSStyleSheets 的问题。目前的解决方法是将 CSS 编译为 JS 模块，但这会降低浏览器直接加载和解析 CSS 的性能。Web Bundles 可能会通用地解决这个问题，但其未来在多个浏览器上的应用尚不确定。作者提出了一个新的解决方案：引入一个 @sheet 规则，它包含整个样式表作为其内容，以允许 CSS 的打包。该提议对于管理 JS 中的 CSSStyleSheets 的代码最为相关，并且也可以作为用户自定义 CSS 加载程序的桥梁，通过标准化打包，可以使用客户端实用程序进行作用域限定。</p>]]></content>
     </entry>
 </feed>
