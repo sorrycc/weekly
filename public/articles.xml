@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-17T05:34:45.831Z</updated>
+    <updated>2023-05-19T01:06:17.832Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Nuxt 3.5 - Nuxt]]></title>
+        <id>https://nuxt.com/blog/v3-5</id>
+        <link href="https://nuxt.com/blog/v3-5"/>
+        <updated>2023-05-19T01:04:44.665Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-5">Nuxt 3.5 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt 3.5.0 发布了，带来了许多令人兴奋的功能，特别是在类型支持方面。此外还有 Nitropack v2.4 和丰富的 JSON 负载等更新。Nuxt 3.5.0 还支持交互式服务器组件、环境配置、完全类型化页面和 “捆绑器” 模块解析等功能。除此之外，该版本还修复了一些错误和问题。建议升级到最新版本，并阅读完整的发行说明和变更日志。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 TypeScript 5.1 RC - TypeScript]]></title>
+        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/</id>
+        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/"/>
+        <updated>2023-05-19T00:31:59.629Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/">Announcing TypeScript 5.1 RC - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 has been released as a Release Candidate, with no further changes expected before the stable release apart from critical bug fixes. The new version includes easier implicit returns for undefined-returning functions, unrelated types for getters and setters, decoupled type-checking between JSX elements and JSX tag types, namespaced JSX attributes, and more. TypeScript 5.1 also supports linked cursors for JSX tags, snippet completions for @param JSDoc tags, and optimizations such as avoiding unnecessary type instantiation and negative case checks for union literals. However, there are also breaking changes, such as ES2020 and Node.js 14.17 being minimum runtime requirements, and explicit typeRoots disabling upward walks for node_modules/@types. The TypeScript team is already working on TypeScript 5.2, with a public iteration plan available.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在科技会议上从参会者到演讲者的9个技巧 | GitHub博客]]></title>
+        <id>https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/</id>
+        <link href="https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/"/>
+        <updated>2023-05-19T00:30:35.220Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/">9 tips to go from attendee to speaker at a tech conference | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub Universe 是一年一度的全球开发者和客户活动，今年将于 11 月 8 日至 9 日在线上和线下举行。文章提供了一些撰写成功演讲提案的技巧，例如标题要吸引人、具体说明内容的收获、突出会议性质等。此外，还提供了演讲者个人介绍的公式和其他有用资源，如往年活动的回顾、联系前任演讲者、关注行业热点等。最后，文章呼吁有兴趣参加演讲的人提交他们的想法，并列出了被选中的好处。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - DukeLuo/eslint-plugin-check-file：ESLint规则的一致的文件名和文件夹。允许你为文件名和文件夹强制执行一致的命名模式。]]></title>
+        <id>https://github.com/DukeLuo/eslint-plugin-check-file</id>
+        <link href="https://github.com/DukeLuo/eslint-plugin-check-file"/>
+        <updated>2023-05-19T00:27:28.162Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/DukeLuo/eslint-plugin-check-file">GitHub - DukeLuo/eslint-plugin-check-file: ESLint rules for consistent filename and folder. Allows you to enforce a consistent naming pattern for the filename and folder.</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 eslint-plugin-check-file 的 ESLint 插件，该插件可以帮助开发者强制规范化文件和文件夹的命名方式。插件支持多种规则，例如强制指定文件夹名称、文件名命名规范等。开发者只需要在.eslintrc 配置文件中添加相应的规则即可使用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么我们选择Astro而不是Nuxt]]></title>
+        <id>https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/</id>
+        <link href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/"/>
+        <updated>2023-05-19T00:26:56.550Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/">Why we chose Astro over Nuxt</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个网站建设过程中的问题：由于使用了 Three.js 等大量 JavaScript 库，导致页面加载缓慢和卡顿。为了解决这个问题，作者尝试了 Astro 框架，它可以将 JavaScript 编译成 HTML 和 CSS，从而减少页面的 JavaScript 代码量。作者发现，对于博客和静态营销网站等项目，Astro 是一个很好的选择。但对于有交互部分的网站，如头条 Shopify 网站或单页应用程序，则更适合使用 Nuxt 框架。文章最后总结了两种框架的优缺点。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[揭开魔法的面纱：探索各种框架的反应性]]></title>
+        <id>https://www.builder.io/blog/reactivity-across-frameworks</id>
+        <link href="https://www.builder.io/blog/reactivity-across-frameworks"/>
+        <updated>2023-05-19T00:26:15.754Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/reactivity-across-frameworks">Unveiling the Magic: Exploring Reactivity Across Various Frameworks</a></p><p><strong>概要：</strong></p><p>本文深入探讨了各种前端框架中的响应性（reactivity）机制，着重比较了粗粒度和细粒度响应性之间的差异。React 和 Angular 属于粗粒度系统，需要重新执行组件树来检测更改并更新 DOM；Svelte、Vue、Qwik 和 Solid 属于细粒度系统，可以更加高效地检测和更新 DOM。Qwik 是唯一一个不需要预热的框架，它通过 SSR/SSG 将状态与 DOM 相关联，并在客户端恢复这些信息，从而避免了下载大量应用代码的问题。作者认为，虽然粗粒度系统 “随便用” 会更方便，但是使用细粒度系统可能会更高效，因为后者已经进行了优化。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍一下Legend-State 1.0：更快地构建更快的应用程序]]></title>
+        <id>https://legendapp.com/open-source/legend-state-v1/</id>
+        <link href="https://legendapp.com/open-source/legend-state-v1/"/>
+        <updated>2023-05-19T00:25:43.116Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://legendapp.com/open-source/legend-state-v1/">Introducing Legend-State 1.0: Build faster apps faster</a></p><p><strong>概要：</strong></p><p>文章介绍了一个名为 Legend-State 的 React 状态库，它具有极快的速度、易用性、自然的细粒度反应和内置持久性等四个主要优点。该库基于可观察对象实现，使用 Proxy 跟踪对象中的路径，从而在速度和内存使用方面超越其他 React 状态库。使用该库不需要繁琐的模板代码和上下文、动作、规约、分派器等，只需调用 get () 获取原始数据并使用 set () 更改数据即可。此外，该库还支持细粒度反应，使得组件能够在特定值更改时更新，从而减少重新渲染的次数。最后，该库还内置了持久化功能，可以保存和同步应用程序状态。未来，该库将添加更多的持久化插件和辅助可观察对象和钩子函数。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[管理GitHub通知 - GitHub维护者峰会2023]]></title>
+        <id>https://antfu.me/posts/manage-github-notifcations-2023</id>
+        <link href="https://antfu.me/posts/manage-github-notifcations-2023"/>
+        <updated>2023-05-17T15:43:54.393Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/manage-github-notifcations-2023">Manage GitHub Notifications - GitHub Maintainer Summit 2023</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种名为 “Notification-driven Developement” 的方法来管理 GitHub 上的项目。该作者通过使用 GitHub 的通知系统来管理他所维护的各种规模的项目，以保持项目的活跃度和稳定性。他提出了 “Inbox-Zero” 概念，即每天处理完所有收到的通知，以便快速响应社区成员并控制维护工作量。文章还分享了一些减少通知数量和组织通知的技巧，并介绍了一个用户脚本来自动化通知处理。最后，作者强调了享受工作和保持良好的工作与生活平衡的重要性。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[馒头捆绑器]]></title>
         <id>https://bun.sh/blog/bun-bundler</id>
@@ -160,61 +216,5 @@
         <link href="https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/"/>
         <updated>2023-05-09T02:33:14.398Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/">The problem with sticky menus and what to do instead</a></p><p><strong>概要：</strong></p><p>本文讨论了粘性菜单（即固定在视口边缘的菜单）对用户体验的负面影响。这些菜单会占用页面空间、遮挡内容、缩放时出现问题、难以访问、容易使内部页面锚点失效、距离键盘用户较远并遮挡链接和其他可聚焦元素。作者建议解决根本原因，让页面变短，让用户自由滚动；将相关链接放入上下文中；使用返回顶部链接等方式来替代粘性菜单。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 React 中使用 useContext：全面指南 - Michael Gold - Medium]]></title>
-        <id>https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8</id>
-        <link href="https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8"/>
-        <updated>2023-05-08T04:44:16.047Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://medium.com/@msgold/using-usecontext-in-react-a-comprehensive-guide-8a9f5271f7a8">Using useContext in React: a comprehensive guide - Michael Gold - Medium</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 中的 useContext 钩子，它可以方便地在多个组件之间共享数据而无需通过 props 传递。文章详细介绍了什么是 React 中的 Context 机制，以及为什么使用 useContext 很重要，包括避免 prop drilling 和共享数据等优点。文章还提供了一个实际例子来演示如何使用 useContext 创建主题切换器。此外，文章还比较了 useContext 和 Redux 之间的区别和用法，并提供了一些最佳实践和限制。最后，文章总结了 useContext 是 React 开发人员工具箱中有价值的工具之一。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一些开发者控制台技巧]]></title>
-        <id>https://gomakethings.com/a-few-developer-console-tricks/</id>
-        <link href="https://gomakethings.com/a-few-developer-console-tricks/"/>
-        <updated>2023-05-08T04:42:31.114Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://gomakethings.com/a-few-developer-console-tricks/">A few developer console tricks</a></p><p><strong>概要：</strong></p><p>本文介绍了一些在浏览器控制台中使用的技巧，包括打开控制台、使用 $() 和 $$() 方法获取元素、使用 $0 变量获取当前选定的元素等。作者认为控制台是前端工作中最好的功能之一。建议使用 Chromium 或 Firefox 进行 JavaScript 开发，因为 Safari 的开发者工具功能较少。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 服务器组件是什么？]]></title>
-        <id>https://www.viget.com/articles/what-even-are-react-server-components/</id>
-        <link href="https://www.viget.com/articles/what-even-are-react-server-components/"/>
-        <updated>2023-05-08T04:42:10.356Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.viget.com/articles/what-even-are-react-server-components/">What Even Are React Server Components</a></p><p><strong>概要：</strong></p><p>React Server Components 是在服务器上渲染的 React 组件，旨在减少网络瀑布效应。与传统的服务器端渲染 (SSR)、并行获取和架构更改相比，Server Components 具有更好的用户体验、更快的构建速度和更易于维护的特点。Server Components 可以通过在 JS 和 HTML 中填充一些初始数据来减少客户端请求次数，而且这种方式可以嵌套使用，只需要向顶层组件和其子组件发出一次请求即可。Server Components 还可以减小 JS 包的大小，只发送必要的数据给客户端，从而提高性能。Server Components 看起来就像普通的 React 组件，但是客户端无法与之交互，如果需要交互，则需要将一个 React Client Component 插入到 Server Component 中。目前，Server Components 还处于测试阶段，不适合在生产环境中使用，但可以在实验应用程序中进行尝试。NextJS v13 的 App Router 是目前唯一支持 Server Components 的框架，但 React 团队正在帮</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于 LLM 的八件事 | Swizec Teller]]></title>
-        <id>https://swizec.com/blog/eight-things-to-know-about-llms/</id>
-        <link href="https://swizec.com/blog/eight-things-to-know-about-llms/"/>
-        <updated>2023-05-06T02:20:42.799Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://swizec.com/blog/eight-things-to-know-about-llms/">Eight things to know about LLMs | Swizec Teller</a></p><p><strong>概要：</strong></p><p>这篇文章总结了最近人工智能（AI）的进展和引起人们兴奋的原因。其中提到了以下几点：1. 大型语言模型（LLMs）随着规模的增大而变得更好；2.LLMs 具有出人意料的新颖能力，包括 few-shot 和上下文学习；3.LLMs 表现出 “心理模型”；4. 无法可靠地控制 LLMs；5. 目前还没有人知道 LLMs 是如何工作的；6.LLMs 可以胜过人类；7.LLMs 存在偏见问题；8.LLMs 表现很好。作者还提供了一些资源来帮助读者更深入地了解这些问题。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mojo 可能是数十年来最大的编程语言进步。]]></title>
-        <id>https://www.fast.ai/posts/2023-05-03-mojo-launch.html</id>
-        <link href="https://www.fast.ai/posts/2023-05-03-mojo-launch.html"/>
-        <updated>2023-05-05T12:59:37.147Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.fast.ai/posts/2023-05-03-mojo-launch.html">Mojo may be the biggest programming language advance in decades</a></p><p><strong>概要：</strong></p><p>文章介绍了一种名为 Mojo 的新编程语言，它是 Python 的超集，并且可以通过使用 “fn” 和 “struct” 等新语法来实现高性能代码。该语言建立在强大的基础上，包括 LLVM 和 MLIR 等核心技术，使其快速发展和易于开发。作者认为 Mojo 将成为 AI 模型开发的替代 Python 的重要工具，并且预计它将比预期更快地发展和扩展。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 13.4 在 Vercel 上 - Vercel]]></title>
-        <id>https://vercel.com/changelog/next-js-13-4</id>
-        <link href="https://vercel.com/changelog/next-js-13-4"/>
-        <updated>2023-05-05T01:26:06.105Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/changelog/next-js-13-4">Next.js 13.4 on Vercel – Vercel</a></p><p><strong>概要：</strong></p><p>Next.js 13.4 中的 App Router 现已稳定，Vercel 提供预配置的全局框架定义基础设施，支持构建数据驱动、个性化体验，并实现优化的全球性能自动部署。嵌套路由和布局可轻松共享 UI，同时保留状态并避免昂贵的重新渲染。Next.js App router 原生支持流式响应，可在 Node 和 Edge 运行时进行流式传输，无需代码更改，在 Vercel 上部署为 Edge Functions，提供大幅度的 SEO 和性能改进。服务器组件允许您在组件级别定义数据获取，并轻松表达缓存和重验证策略。Next.js 还提供了内置的 SEO 支持和数据获取支持，以及 Turbopack（Beta）和 Server Actions（Alpha）。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Tauri 1.3.0 | Tauri 应用程序]]></title>
-        <id>https://tauri.app/blog/2023/05/03/tauri-1-3/</id>
-        <link href="https://tauri.app/blog/2023/05/03/tauri-1-3/"/>
-        <updated>2023-05-05T01:25:41.841Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tauri.app/blog/2023/05/03/tauri-1-3/">Announcing Tauri 1.3.0 | Tauri Apps</a></p><p><strong>概要：</strong></p><p>Tauri 团队发布了 1.3 版本，包括安全改进、新功能和重要的错误修复。该版本新增了 NSIS，可以使用 NSIS 创建 Windows 应用程序安装程序，还有其他一些改进和修复。其中最重要的是对外部 API 访问、浏览器参数和 Bundler 进行了加固，以提高应用程序的安全性。同时，开发者需要注意更新 NPM 和 Cargo 依赖项，以确保应用程序的稳定性和安全性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Vercel Spaces 实现规模化的高质量软件 - Vercel]]></title>
-        <id>https://vercel.com/blog/vercel-spaces</id>
-        <link href="https://vercel.com/blog/vercel-spaces"/>
-        <updated>2023-05-05T00:18:14.981Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/vercel-spaces">Quality software at scale with Vercel Spaces – Vercel</a></p><p><strong>概要：</strong></p><p>Vercel推出了Vercel Spaces，它提供了强大的工具和惯例，可以与monorepo设置集成，使开发人员能够在保持质量的同时有效地扩展。Spaces仪表板提供了对开发工作流程、代码健康状况和构建日志的洞察力，并包括通过Conformance、Code Owners和Vercel Runs提升效率和消除障碍的新功能。Conformance可以在开发生命周期的早期自动检测前端产品的关键问题，Code Owners可以帮助确定谁对代码负责，并确保代码变更由正确的人审查，而Vercel Runs通过交互式用户界面提供了一种更简单的调试任务的方式。Vercel Spaces可供Vercel企业客户提前使用。</p>]]></content>
     </entry>
 </feed>
