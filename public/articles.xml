@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-21T08:24:10.238Z</updated>
+    <updated>2023-05-22T01:58:20.565Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[React服务器组件、Next.js应用程序路由器和实例]]></title>
+        <id>https://addyosmani.com/blog/react-server-components-app-router/</id>
+        <link href="https://addyosmani.com/blog/react-server-components-app-router/"/>
+        <updated>2023-05-22T01:58:11.076Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/react-server-components-app-router/">React Server Components, Next.js App Router and examples</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 社区最近关于 Server Components、Next.js App Router 和工具与渲染方法未来的讨论，以及对这些概念的简要总结。文章解释了什么是 React Server Components，它们与 Next.js App Router 的关系，以及为什么选择生产框架（如 Next.js 或 Remix）而不是 Create React App。文章还提到了 RSC 实现的可用性和 “混合” 渲染的趋势，即将构建时间、服务器和客户端渲染相结合，创造更灵活的 Web 开发方法。最后，文章推荐了一些 RSC + Next App Router 的示例。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[把Python当作Rust来写]]></title>
+        <id>https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html</id>
+        <link href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html"/>
+        <updated>2023-05-22T01:57:30.687Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html">Writing Python like it's Rust</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在使用 Rust 后如何将其中的一些概念应用到 Python 编程中，以提高程序的严谨性和可读性。具体来说，作者建议在函数签名和类属性中尽可能使用类型提示，使用 dataclass 代替元组或字典，使用 union type 模拟 Rust 中的 algebraic data types，使用 newtype 提高代码的可读性，使用构造函数代替 __init__ 方法，并使用类型系统来编码不变量。通过这些方法，作者认为可以减少代码中的错误和 bug，提高代码的可维护性和可扩展性。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[来自其他语言和框架的模式来增强你的前端项目]]></title>
+        <id>https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects</id>
+        <link href="https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects"/>
+        <updated>2023-05-22T01:55:36.453Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects">Patterns from Other Languages and Frameworks to Enhance Your Frontend Projects</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了作者在编程过程中学到的一些规则、工具和模式，以及如何将它们应用到前端项目中。作者分享了他对这些规则的理解和使用方法，并提供了一些实用的技巧和建议。通过这篇文章，读者可以学习到如何提高前端项目的质量和效率。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[了解React并发性]]></title>
+        <id>https://www.bbss.dev/posts/react-concurrency/</id>
+        <link href="https://www.bbss.dev/posts/react-concurrency/"/>
+        <updated>2023-05-22T01:52:46.884Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bbss.dev/posts/react-concurrency/">Understanding React Concurrency</a></p><p><strong>概要：</strong></p><p>React v18.0 引入了一项期待已久的功能：并发模式！尽管有大量资源解释如何使用它，但对其工作原理的解释很少。基本上，React 并发模式是重新设计渲染过程，使得在渲染下一个视图时，当前视图保持响应性。由于这是一项低级特性，理解 React 的并发模式的想法并不关键，但也无妨。React 团队最初计划通过并发模式来提高应用程序性能，但由于向后兼容性原因，该计划未能实现，转而推出了一组新 API，即并发特性，以选择性地启用并发渲染。目前，React 已经引入了两个新钩子来选择并发渲染：useTransition 和 useDeferredValue。这篇文章介绍了这两个钩子的用法和注意事项，并提到了它们在 Suspense 组件中的作用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工人浏览器渲染API进入公开测试阶段]]></title>
+        <id>https://blog.cloudflare.com/browser-rendering-open-beta/</id>
+        <link href="https://blog.cloudflare.com/browser-rendering-open-beta/"/>
+        <updated>2023-05-22T01:44:09.461Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/browser-rendering-open-beta/">Workers Browser Rendering API enters open beta</a></p><p><strong>概要：</strong></p><p>Cloudflare 宣布开放其 Workers Browser Rendering API 的公测，该 API 允许开发者编程控制和交互无头浏览器实例，并为应用程序和产品创建自动化流程。通过 Wrangler 命令行工具配置、构建和部署应用程序，开发者可以使用 Browser Rendering API 绑定与 Cloudflare 开发平台上的资源进行交互。此外，Cloudflare 还推出了 Puppeteer，这是一个流行的库，它抽象了低级别的 DevTools 协议，提供了高级 API，使开发者能够轻松地操纵 Chrome/Chromium 并自动化浏览会话。在未来，Cloudflare 将更新 Puppeteer 以匹配其基础设施中运行的 Chromium 实例版本。该公司表示，他们已经广泛使用 Browser Rendering API 进行屏幕截图、测试 Web 应用程序等任务，而且还计划将其用于 URL 扫描器等项目。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你可能不需要React Query]]></title>
         <id>https://tkdodo.eu/blog/you-might-not-need-react-query</id>
@@ -181,40 +216,5 @@
         <link href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/"/>
         <updated>2023-05-11T01:09:04.045Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/">How to measure page loading time with Performance API</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Performance API 来测量网页的加载时间。作者最初从 Tim Kadlec 的博客中发现了一个显示页面加载时间的特性，但是在调整代码时遇到了一些问题。最终，作者通过使用 Performance API 的 performance.mark () 方法来解决了这个问题，并分享了获取页面加载时间的最终代码。此外，作者还提供了一个名为 page-loaded-in 的 NPM 包来帮助读者快速实现该特性。文章强调了在开发基于 Web 的项目时优化性能的重要性，并提供了使用 Performance API 来衡量页面性能的方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的混音之路]]></title>
-        <id>https://redd.one/blog/my-struggle-with-remix</id>
-        <link href="https://redd.one/blog/my-struggle-with-remix"/>
-        <updated>2023-05-11T01:08:33.697Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://redd.one/blog/my-struggle-with-remix">My Struggle With Remix</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了作者使用 Remix 框架的经验和遇到的问题。作者认为 Remix 是一个很好的框架，但是也存在一些缺点。作者提出了四个主要问题：开发体验、路由过于神秘、仍然不够成熟以及控制不是默认的。作者指出，Remix 在某些方面缺乏对开发者的控制权，例如构建过程和静态资源处理。此外，Remix 的路由语法可能会使人感到困惑，并且更新时可能会出现问题。尽管存在这些问题，作者仍然认为 Remix 是一个优秀的框架，特别适用于数据密集型应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[滑动进入动画]]></title>
-        <id>https://antfu.me/posts/sliding-enter-animation</id>
-        <link href="https://antfu.me/posts/sliding-enter-animation"/>
-        <updated>2023-05-11T01:07:22.715Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/sliding-enter-animation">Sliding Enter Animation</a></p><p><strong>概要：</strong></p><p>本文介绍了一种通过 CSS 动画实现页面元素滑动进入的效果，并提供了一个示例代码。作者在文章中还尝试了使用 CSS 计数器来简化应用到 Markdown 页面内容的过程，但由于计数器函数返回字符串而无法直接转换为数字，因此最终采用了 nth-child () 选择器来手动实现该效果。最后，作者将该效果应用到了自己的博客页面中，并分享了源代码。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - dai-shi/will-this-react-global-state-work-in-concurrent-rendering: 在 React 并发渲染中测试撕裂和分支。]]></title>
-        <id>https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering</id>
-        <link href="https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering"/>
-        <updated>2023-05-10T01:49:33.357Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/dai-shi/will-this-react-global-state-work-in-concurrent-rendering">GitHub - dai-shi/will-this-react-global-state-work-in-concurrent-rendering: Test tearing and branching in React concurrent rendering</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 18 中的一个新特性 —— 并发渲染，以及在全局状态下可能出现的 “tearing” 问题。作者通过测试不同的全局状态库，如 react-redux、zustand、recoil 等，来验证它们在并发渲染下的表现。测试包括更新和挂载时是否存在 tearing，以及暂时是否存在 tearing 等情况。文章指出，这些测试结果仅供参考，因为 tearing 和状态分支可能取决于应用程序的要求，并且测试方法有限。此外，作者还提到了另一个仓库，用于列出全局状态库的比较，欢迎贡献。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不阻塞事件循环的实用指南]]></title>
-        <id>https://www.bbss.dev/posts/eventloop/</id>
-        <link href="https://www.bbss.dev/posts/eventloop/"/>
-        <updated>2023-05-09T08:34:39.705Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bbss.dev/posts/eventloop/">Practical Guide To Not Blocking The Event Loop</a></p><p><strong>概要：</strong></p><p>本文介绍了 JavaScript 在单线程环境下的事件循环机制，以及如何避免同步任务阻塞事件循环。作者提出了三种解决方案：增加节点数量、将同步任务改为异步任务、将同步任务转移到另一个线程。其中，将同步任务转移到另一个线程需要使用 Worker，并且有数据传输限制。作者还介绍了将同步任务改为异步任务的具体实现方法，即通过将代码块分散到事件循环中来添加同步执行之间的间隙，从而让事件循环得以运行。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.4 | 天文学]]></title>
-        <id>https://astro.build/blog/astro-240/</id>
-        <link href="https://astro.build/blog/astro-240/"/>
-        <updated>2023-05-09T08:33:23.736Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-240/">Astro 2.4 | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.4 发布了，新增了几个功能：更强大的 CSS 作用域、升级了 <Code /> 组件、在站点地图中支持服务器端渲染、中间件（实验性）和 CSS 内联（实验性）。其中，scopedStyleStrategy 允许使用类选择器来配置更高的特异性，<Code /> 组件升级到了 Shiki 0.14 版本，@astrojs/sitemaps 包更新以支持服务器端渲染，中间件支持拦截请求和响应并动态注入行为，CSS 内联可以通过配置将样式表嵌入到 < style > 标签中。此外，还包括一些 bug 修复和集成功能。</p>]]></content>
     </entry>
 </feed>
