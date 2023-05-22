@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-22T01:58:20.565Z</updated>
+    <updated>2023-05-22T02:14:51.284Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[健康学习到150岁 - 人体系统调优不完全指南]]></title>
+        <id>https://github.com/zijie0/HumanSystemOptimization</id>
+        <link href="https://github.com/zijie0/HumanSystemOptimization"/>
+        <updated>2023-05-22T02:14:38.416Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/zijie0/HumanSystemOptimization">健康学习到150岁 - 人体系统调优不完全指南</a></p><p><strong>概要：</strong></p><p>本文介绍了神经科学教授 Andrew Huberman 的一些关于提升日常工作、学习表现的方法和工具。其中睡眠是最重要的前提，生物钟对睡眠的控制机理是光照和体温。因此，控制接收光照的时间点、类型和时长以及保持适当的体温可以提升睡眠质量。其他实践包括锻炼、饮食、呼吸和注意力训练等方面。这些方法都基于高质量、peer reviewed 的科学研究成果，可以像调优软件程序那样来 “调优” 我们自身的人体系统。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React服务器组件、Next.js应用程序路由器和实例]]></title>
         <id>https://addyosmani.com/blog/react-server-components-app-router/</id>
@@ -209,12 +216,5 @@
         <link href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/"/>
         <updated>2023-05-13T01:41:30.924Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/">Introducing Deopt Explorer - TypeScript</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用内联缓存（inline caching）优化 JavaScript 代码的性能，并讲解了在 TypeScript 编译器中如何使用 Deopt Explorer 工具来分析性能问题和减少多态现象。文章详细介绍了内联缓存的概念、不同类型的缓存以及多态现象的产生原因。通过实例分析，作者展示了如何使用 Deopt Explorer 工具来分析 V8 引擎生成的 ICs 和对象类型，并通过优化 Symbol 类型的属性访问，将编译时间平均缩短了 8-10%。最后，作者介绍了 Deopt Explorer 工具的使用方法和开源地址。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何使用性能 API 测量页面加载时间]]></title>
-        <id>https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/</id>
-        <link href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/"/>
-        <updated>2023-05-11T01:09:04.045Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.silvestar.codes/articles/how-to-measure-page-loading-time-with-performance-api/">How to measure page loading time with Performance API</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Performance API 来测量网页的加载时间。作者最初从 Tim Kadlec 的博客中发现了一个显示页面加载时间的特性，但是在调整代码时遇到了一些问题。最终，作者通过使用 Performance API 的 performance.mark () 方法来解决了这个问题，并分享了获取页面加载时间的最终代码。此外，作者还提供了一个名为 page-loaded-in 的 NPM 包来帮助读者快速实现该特性。文章强调了在开发基于 Web 的项目时优化性能的重要性，并提供了使用 Performance API 来衡量页面性能的方法。</p>]]></content>
     </entry>
 </feed>
