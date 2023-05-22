@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-22T02:14:51.284Z</updated>
+    <updated>2023-05-22T04:20:28.045Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - pengxiao-song/LaWGPT: 🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型]]></title>
+        <id>https://github.com/pengxiao-song/LaWGPT</id>
+        <link href="https://github.com/pengxiao-song/LaWGPT"/>
+        <updated>2023-05-22T03:03:46.056Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/pengxiao-song/LaWGPT">GitHub - pengxiao-song/LaWGPT: 🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型</a></p><p><strong>概要：</strong></p><p>LaWGPT 是一系列基于中文法律知识的开源大语言模型，通过扩充法律领域专有词表和大规模中文法律语料预训练，增强了大模型在法律领域的基础语义理解能力。在此基础上，构造法律领域对话问答数据集、中国司法考试数据集进行指令精调，提升了模型对法律内容的理解和执行能力。该项目持续开展，法律领域数据集及系列模型后续相继开源。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[健康学习到150岁 - 人体系统调优不完全指南]]></title>
         <id>https://github.com/zijie0/HumanSystemOptimization</id>
@@ -209,12 +216,5 @@
         <link href="https://www.developerway.com/posts/reconciliation-in-react"/>
         <updated>2023-05-13T07:12:20.250Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/reconciliation-in-react">React reconciliation: how it works and why should we care</a></p><p><strong>概要：</strong></p><p>本文详细介绍了 React 的协调算法，以及它如何影响我们的日常代码。文章探讨了条件渲染、"key" 属性和为什么不应该在其他组件内声明组件等问题，并提供了解决方法。作者通过分析 React 的虚拟 DOM 和状态更新过程，解释了为什么在条件渲染中声明组件会重新挂载，以及为什么需要使用 "key" 属性来避免组件重复挂载或保证元素的唯一性。最后，作者提供了多个示例来说明这些概念。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 Deopt Explorer - TypeScript]]></title>
-        <id>https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/</id>
-        <link href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/"/>
-        <updated>2023-05-13T01:41:30.924Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/introducing-deopt-explorer/">Introducing Deopt Explorer - TypeScript</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用内联缓存（inline caching）优化 JavaScript 代码的性能，并讲解了在 TypeScript 编译器中如何使用 Deopt Explorer 工具来分析性能问题和减少多态现象。文章详细介绍了内联缓存的概念、不同类型的缓存以及多态现象的产生原因。通过实例分析，作者展示了如何使用 Deopt Explorer 工具来分析 V8 引擎生成的 ICs 和对象类型，并通过优化 Symbol 类型的属性访问，将编译时间平均缩短了 8-10%。最后，作者介绍了 Deopt Explorer 工具的使用方法和开源地址。</p>]]></content>
     </entry>
 </feed>
