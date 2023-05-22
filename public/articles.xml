@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-22T04:20:28.045Z</updated>
+    <updated>2023-05-22T05:51:30.462Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - imartinez/privateGPT: 利用GPT的力量私下与你的文件互动，100%私下进行，没有数据泄露。]]></title>
+        <id>https://github.com/imartinez/privateGPT</id>
+        <link href="https://github.com/imartinez/privateGPT"/>
+        <updated>2023-05-22T05:48:32.440Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/imartinez/privateGPT">GitHub - imartinez/privateGPT: Interact privately with your documents using the power of GPT, 100% privately, no data leaks</a></p><p><strong>概要：</strong></p><p>本文介绍了一种使用 LLMs 进行离线问答的方法，完全私密，不需要互联网连接。用户可以将文件导入并提出问题，而无需互联网连接。该方法使用 LangChain、GPT4All、LlamaCpp、Chroma 和 SentenceTransformers 构建。用户需要设置环境并下载 LLM 模型，然后将数据集放入指定目录中，支持多种格式的文件。用户可以使用命令行工具提出问题，并且可以使用命令行参数修改脚本的行为。该方法使用本地模型和 LangChain 的强大功能，在不泄露任何数据的情况下运行整个流程，并具有合理的性能。但是，该方法仅用于测试，不适用于生产环境，选择的模型也不是针对性能优化的。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[同一个站点]]></title>
+        <id>https://www.engineersneedart.com/blog/samestop/samestop.html</id>
+        <link href="https://www.engineersneedart.com/blog/samestop/samestop.html"/>
+        <updated>2023-05-22T05:46:55.519Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.engineersneedart.com/blog/samestop/samestop.html">Same Stop</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了一位前苹果程序员退休后又重新开始编程的经历。虽然最初他感到解脱，但不久之后又开始尝试用 Python 和 Javascript 写小项目。现在他突然重返编程世界，重新沉迷于 C 语言和游戏开发。他回顾了自己从事编程的经历，并思考了编程对于工程师们来说是一份工作还是一种爱好。他认为，早期的程序员都是出于热情而从事编程的，但现在的工程师们可能更多地将其视为一份工作。最后，他对自己重返编程世界的经历感到惊讶和欣喜，同时也提醒自己要注意保持平衡。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - pengxiao-song/LaWGPT: 🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型]]></title>
         <id>https://github.com/pengxiao-song/LaWGPT</id>
@@ -202,19 +216,5 @@
         <link href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/"/>
         <updated>2023-05-13T07:28:14.090Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/">jQuery 3.7.0 Released: Staying in Order</a></p><p><strong>概要：</strong></p><p>jQuery 3.7.0 发布了，包含了 bug 修复、新方法和性能提升等内容。此次更新中，jQuery 删除了其长期使用的选择器引擎 Sizzle，并将其代码直接放入了 jQuery 核心中，以便为未来版本的选择做准备。同时，jQuery 增加了一个可链接的.uniqueSort () 方法，解决了某些情况下.prevAll () 方法返回元素顺序相反的问题。jQuery 还添加了对更多 CSS 属性的支持，避免自动添加 “px” 单位。此外，该版本还优化了.manipulation () 方法的性能，修复了在 IE 中焦点事件异步触发的问题。该版本与之前的版本兼容，可以从 jQuery CDN 或 npm 获取。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Vue 3.3 | Vue 点击]]></title>
-        <id>https://blog.vuejs.org/posts/vue-3-3</id>
-        <link href="https://blog.vuejs.org/posts/vue-3-3"/>
-        <updated>2023-05-13T07:13:47.996Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.vuejs.org/posts/vue-3-3">Announcing Vue 3.3 | The Vue Point</a></p><p><strong>概要：</strong></p><p>Vue 3.3 "Rurouni Kenshin" has been released, with a focus on improving developer experience when using Vue with TypeScript. The update includes improvements to SFC <script setup> usage with TypeScript, imported and complex types support in macros, generic components, more ergonomic defineEmits, typed slots with defineSlots, and experimental features such as reactive props destructure and defineModel. Other notable features include defineOptions, better getter support with toRef and toValue, and JSX import source support. Maintenance infrastructure improvements have also been made, allowing for faster builds, tests, and types generation. The Vue team plans to make smaller and more frequent feature releases starting in 2023.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 协调：它是如何工作的，为什么我们应该关心]]></title>
-        <id>https://www.developerway.com/posts/reconciliation-in-react</id>
-        <link href="https://www.developerway.com/posts/reconciliation-in-react"/>
-        <updated>2023-05-13T07:12:20.250Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/reconciliation-in-react">React reconciliation: how it works and why should we care</a></p><p><strong>概要：</strong></p><p>本文详细介绍了 React 的协调算法，以及它如何影响我们的日常代码。文章探讨了条件渲染、"key" 属性和为什么不应该在其他组件内声明组件等问题，并提供了解决方法。作者通过分析 React 的虚拟 DOM 和状态更新过程，解释了为什么在条件渲染中声明组件会重新挂载，以及为什么需要使用 "key" 属性来避免组件重复挂载或保证元素的唯一性。最后，作者提供了多个示例来说明这些概念。</p>]]></content>
     </entry>
 </feed>
