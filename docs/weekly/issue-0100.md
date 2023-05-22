@@ -1,15 +1,17 @@
 ---
-title: "React Query、演讲、Reactivity、Bun Bundler、Rome、infer"
+title: "React Query、技术演讲、Reactivity、Bun Bundler、Rome、infer"
 titleImage: "https://img.alicdn.com/imgextra/i3/O1CN012NfNlw1dhKp20MNdF_!!6000000003767-2-tps-2284-1106.png_1200x1200.jpg"
 titleImageCaption: "王国之泪"
 publishedAt: "2023/05/22"
-draft: true
 ---
 
-## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔。
+## 一周要事
 
-- 。
+经过近两年的时间，我们的 "MDH Weekly" 已经写了 100 期，感谢大家这段时间的支持和阅读。
+
+由于个人的原因，目前精力上变成了 Rust、AI 和前端三等分。同时我们发现，有些事 AI 可能比人能完成地更好，大家已经看到，近期周刊中好文阅读的总结是由 AI 完成的。所以在这个时间点上，我觉得需要重新思考 MDH Weekly 的定位和书写方式，所以决定暂时停止更新。这并不是结束，而是一个新的开始。我们需要一些时间来思考和规划，以确保我们的内容能够继续满足需求。
+
+如果大家对 MDH Weekly 有啥感受或对于以后有啥建议，欢迎留言或邮件联系 sorrycc#gmail.com 。期待在不久的将来能再次与你们相见。
 
 ## 深度好文
 > 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
