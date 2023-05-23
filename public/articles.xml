@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-22T05:51:30.462Z</updated>
+    <updated>2023-05-23T11:06:59.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用TypeScript的React组件库]]></title>
+        <id>https://atlassc.net/2023/05/23/react-component-library-with-typescript</id>
+        <link href="https://atlassc.net/2023/05/23/react-component-library-with-typescript"/>
+        <updated>2023-05-23T11:06:54.357Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://atlassc.net/2023/05/23/react-component-library-with-typescript">React Component Library With TypeScript</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 TypeScript 创建 React 组件库的步骤。首先需要创建一个新目录并初始化 npm 包，然后安装必要的依赖项，包括 TypeScript、React 和 Rollup 等。接下来需要创建 tsconfig.json 和 rollup.config.js 文件，并在 src 目录中创建组件文件。最后可以使用 Rollup 进行打包并测试组件库。通过这些步骤，可以轻松地创建自己的基于 TypeScript 的 React 组件库。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿童木2.5 | 阿童木]]></title>
+        <id>https://astro.build/blog/astro-250/</id>
+        <link href="https://astro.build/blog/astro-250/"/>
+        <updated>2023-05-23T11:06:18.103Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-250/">Astro 2.5 | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.5 发布了，其中包括数据集合和引用、混合渲染、自定义客户端指令、HTML 压缩、并行渲染和多态类型助手等功能。数据集合和引用允许用户在 src/content/ 文件夹中存储 JSON 和 YAML 文件，并从其他集合中引用这些数据；混合渲染允许在大多数静态站点中使用服务器路由；自定义客户端指令允许集成作者定义自己的客户端加载机制；HTML 压缩可以选择压缩 Astro 模板；并行渲染可以加速同时进行数据加载的多个组件的渲染；多态类型助手可以定义接受与内置元素相同道具的组件。此外，该版本还包括其他 bug 修复和改进。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[更快的Sandpack Transpiler之旅]]></title>
+        <id>https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler</id>
+        <link href="https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler"/>
+        <updated>2023-05-23T11:05:04.827Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler">The Journey To a Faster Sandpack Transpiler</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Sandpack 团队为了解决性能问题而进行的优化和重构工作。他们一开始使用 babel 和 meriyah 进行转译，但是由于需要在客户端上转译更多的代码，他们寻找了一个更快的转译器，最终选择了 Sucrase。然而，Sucrase 在处理大文件时存在问题，因此他们对其进行了优化和重写，使其比 esbuild 更快。接下来，他们决定使用 Rust 语言重写 Sucrase，以获得更好的内存管理和更高的性能。他们首先重写了解析器，使用 Ropey 库和字符向量来提高性能，然后重写了转换器，使用状态字符迭代器和字符串引用来减少拷贝和提高性能。最终，经过测试，新的 Sucrase 比之前的版本快两倍以上，并且还有更多的优化空间。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用Bun.js作为捆绑器]]></title>
+        <id>https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/</id>
+        <link href="https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/"/>
+        <updated>2023-05-23T11:04:24.777Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/">Using Bun.js as a bundler</a></p><p><strong>概要：</strong></p><p>Bun.js 是一个新的 JavaScript 运行时，旨在实现极速。作者 Jarred Sumner 在 Twitter 上宣布他们已经发布了一个新的代码捆绑器的 beta 版本，展示了与其他捆绑器相比的惊人速度提升。该文章介绍了作者如何使用 Bun.js 来加速他的构建系统，并讨论了他在使用过程中遇到的问题和解决方案。尽管 Bun.js 还处于开发阶段，但其速度和功能使其成为一个非常有用的工具。最后，作者推广了他的一个 iPad / 平板应用程序 KidzFun.art，这是一个适合孩子们画图、做数学题、制作 GIF 等的 PWA 应用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我正在建立一个公司]]></title>
+        <id>https://cpojer.net/posts/building-a-company</id>
+        <link href="https://cpojer.net/posts/building-a-company"/>
+        <updated>2023-05-23T11:00:18.900Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cpojer.net/posts/building-a-company">I'm Building a Company</a></p><p><strong>概要：</strong></p><p>文章介绍了作者创立的新游戏公司 Nakazawa Tech，以及他们正在制作的第一款游戏 Athena Crisis。作者提到自己希望通过建立这个公司来实现新的个人目标和原则，例如：构建他所希望存在的事物、关注真正重要的事情、创造难忘的体验和艺术等。同时，作者还强调了开源对于公司的重要性，并分享了他们最近发布的一些小型库。最后，作者邀请读者注册早期访问 Athena Crisis，并表示公司正在寻找故事设计师、社区经理和后端托管合作伙伴。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用Sprite-Diffuser修改《帝国时代II》的内容]]></title>
+        <id>https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/</id>
+        <link href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/"/>
+        <updated>2023-05-22T08:31:07.811Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/">Modding Age of Empires II with a Sprite-Diffuser</a></p><p><strong>概要：</strong></p><p>本文介绍了作者如何利用 Stable Diffusion Web UI 和 Python 创建一个多功能的基于提示的图像生成器，以制作自定义文明精灵。作者在 Photoshop 中使用 Alpaca 开始实验，并尝试在不同风格下生成 Age of Empires II 游戏截图，探索模型的行为和选择保留和丢弃的形状和纹理。作者还使用 Control Net 和 Loopbacks 等技术来优化输出结果，并提出了一些其他的实验和思考。最终，作者认为这种模型非常灵活，未来的游戏可以利用它来种植用户生成的故事或内部开发。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - imartinez/privateGPT: 利用GPT的力量私下与你的文件互动，100%私下进行，没有数据泄露。]]></title>
         <id>https://github.com/imartinez/privateGPT</id>
@@ -174,47 +216,5 @@
         <link href="https://webup.org/blog/react-global-state-as-local-state/"/>
         <updated>2023-05-15T04:51:55.382Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/react-global-state-as-local-state/">React Global State as Local State</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种基于 React 的全局状态管理方案，使用 useGlobalState 钩子来读取全局存储对象，并在其更新时强制所有已订阅的组件重新渲染。相比于 Redux 和 Context，这种方案更加简单且没有繁琐的代码。该方案不需要依赖库，支持测试和 TypeScript。文章详细介绍了如何实现这个钩子，包括 JavaScript 和 TypeScript 的实现以及测试用例。作者表示这种方案虽然简单，但也具有可扩展性，可以在其上构建中间件、错误处理和动作等功能。作者在几个项目中尝试了 createGlobalState，目前已成为他的默认选择。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[罗马 v12.1.0]]></title>
-        <id>https://rome.tools/blog/2023/05/10/rome12_1/</id>
-        <link href="https://rome.tools/blog/2023/05/10/rome12_1/"/>
-        <updated>2023-05-15T02:08:46.595Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rome.tools/blog/2023/05/10/rome12_1/">Rome v12.1.0</a></p><p><strong>概要：</strong></p><p>Rome v12.1.0 发布了，支持新的 Stage 3 装饰器、VCS 集成和新的 lint 规则。现在，Rome 可以解析和格式化大多数框架中的装饰器，并且支持 git VCS 集成。此外，还添加了许多新的 lint 规则，并提供了一个新的命令来更新配置文件。还有一个新的 CLI 帮助提示库，可以从源代码生成输出。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[掌握 TypeScript 中的 infer - JavaScript in Plain English]]></title>
-        <id>https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86</id>
-        <link href="https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86"/>
-        <updated>2023-05-14T16:28:12.103Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://javascript.plainenglish.io/mastering-infer-in-typescript-6cf3f93cca86">Mastering infer in TypeScript - JavaScript in Plain English</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 中 infer 关键字的用法，它可以从现有的代码中提取和推断类型。使用 infer 关键字可以增加代码的类型安全性、效率和组织性。infer 关键字可以在泛型类型、函数参数和返回值、映射类型中使用，但只能在条件类型中使用。同时，文章还提供了一些实际的例子来展示 infer 关键字的使用方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 Dart 3 - Dart - Medium]]></title>
-        <id>https://medium.com/dartlang/announcing-dart-3-53f065a10635</id>
-        <link href="https://medium.com/dartlang/announcing-dart-3-53f065a10635"/>
-        <updated>2023-05-14T16:11:21.730Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://medium.com/dartlang/announcing-dart-3-53f065a10635">Announcing Dart 3 - Dart - Medium</a></p><p><strong>概要：</strong></p><p>Google 在 I/O 2023 上宣布了 Dart 3 的发布，这是迄今为止最大的 Dart 版本，包括三个主要进展：100％的声音空安全、记录、模式和类修饰符的重大新语言特性以及通过 Wasm 编译实现对 Web 的本地代码支持。其中，100％空安全意味着 Dart 具有可靠的类型系统，可以避免某些编码错误，如空指针异常，并允许编译器和运行时优化代码。此外，Dart 3 还引入了记录、模式和类修饰符等新功能，使 Dart 更加表达和精简，同时提供了一种详细控制大型 API 表面的方法。最后，Dart 3 还提供了未来的预览，即通过 Wasm 编译实现对 Web 的本地代码支持。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Fresh、OpenAI 和 Supabase 构建您自己的 ChatGPT 风格文档搜索。]]></title>
-        <id>https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh</id>
-        <link href="https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh"/>
-        <updated>2023-05-13T07:30:37.930Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/build-chatgpt-doc-search-with-supabase-fresh">Build your own ChatGPT-style doc search with Fresh, OpenAI, and Supabase</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 OpenAI Text Completion API 创建自定义的 ChatGPT 风格文档搜索，以及如何在 Supabase 的免费托管 PostgresDB 中存储嵌入和执行向量相似性搜索。文章详细介绍了构建自定义 ChatGPT 的四个步骤，包括预处理知识库、存储嵌入、运行时执行向量相似性搜索和将内容注入到 OpenAI GPT-3 文本完成提示中并将响应流式传输给客户端。此外，文章还提供了一些有关使用 OpenAI 和 ChatGPT 构建的其他资源。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Deno 在 Rust 中运行 JavaScript]]></title>
-        <id>https://austinpoor.com/blog/js-in-rs</id>
-        <link href="https://austinpoor.com/blog/js-in-rs"/>
-        <updated>2023-05-13T07:28:48.597Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://austinpoor.com/blog/js-in-rs">Running JavaScript in Rust with Deno</a></p><p><strong>概要：</strong></p><p>本文介绍了作者创建的一个名为 “js-in-rs” 的基于 Rust 的 CLI 工具，用于使用 JavaScript 表达式过滤文件。与 grep 工具使用正则表达式不同，js-in-rs 使用 JavaScript 表达式进行过滤。文章详细介绍了 js-in-rs 的工作原理和代码实现，并探讨了在 Rust 应用程序中运行 JavaScript 代码的潜在应用，例如 Web 服务器、数据管道和数据库用户定义函数等。此外，作者还提到 Deno 运行时具有有趣的权限管理方法，允许用户开启或关闭运行时功能，以防止恶意代码访问资源。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[jQuery 3.7.0 发布：保持顺序]]></title>
-        <id>https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/</id>
-        <link href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/"/>
-        <updated>2023-05-13T07:28:14.090Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.jquery.com/2023/05/11/jquery-3-7-0-released-staying-in-order/">jQuery 3.7.0 Released: Staying in Order</a></p><p><strong>概要：</strong></p><p>jQuery 3.7.0 发布了，包含了 bug 修复、新方法和性能提升等内容。此次更新中，jQuery 删除了其长期使用的选择器引擎 Sizzle，并将其代码直接放入了 jQuery 核心中，以便为未来版本的选择做准备。同时，jQuery 增加了一个可链接的.uniqueSort () 方法，解决了某些情况下.prevAll () 方法返回元素顺序相反的问题。jQuery 还添加了对更多 CSS 属性的支持，避免自动添加 “px” 单位。此外，该版本还优化了.manipulation () 方法的性能，修复了在 IE 中焦点事件异步触发的问题。该版本与之前的版本兼容，可以从 jQuery CDN 或 npm 获取。</p>]]></content>
     </entry>
 </feed>
