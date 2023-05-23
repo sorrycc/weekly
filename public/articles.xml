@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-23T11:06:59.108Z</updated>
+    <updated>2023-05-23T16:10:31.346Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun v0.6.3]]></title>
+        <id>https://bun.sh/blog/bun-v0.6.3</id>
+        <link href="https://bun.sh/blog/bun-v0.6.3"/>
+        <updated>2023-05-23T16:03:31.793Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-v0.6.3">Bun v0.6.3</a></p><p><strong>概要：</strong></p><p>Bun.js has released support for node:vm, improvements to node:tls and node:http, test.todo(), test timeouts, and better preloading. The release also includes fixes to Bun's bundler, such as a crash when merging adjacent top-level variable declarations, assets copying to an incorrect output path, and minifier bugs involving template literals being incorrectly merged. Additionally, two memory leaks found in fetch() have been fixed, and improvements have been made to console.log(). Changes to WebSocket include a breaking change to publishToSelf behaviour and buffer support in WebSocket messages. Other bug fixes include fs.writeFile({ flag: "a" }) now appending to files instead of overwriting it and N-API finalizers being called with the correct data pointer and finalizer hint.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用TypeScript的React组件库]]></title>
         <id>https://atlassc.net/2023/05/23/react-component-library-with-typescript</id>
@@ -209,12 +216,5 @@
         <link href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/"/>
         <updated>2023-05-15T04:52:16.782Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/">Understanding useRef and useState for Tracking Component Render Count in React</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中使用 useRef 和 useState 来追踪组件渲染次数的实际例子。通过自定义一个名为 useComponentRenderCount 的 hook，使用 useRef 来存储渲染次数，并使用 useState 来管理组件内的不同状态值。通过将状态值分开控制，可以提高代码可读性并更轻松地管理每个值的状态更新。理解何时使用 useRef 以及如何与 useState 一起使用对于管理复杂的组件行为至关重要。在开发 React 应用程序时，需要平衡性能和功能，才能创建高质量的应用程序。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[反应全局状态为局部状态]]></title>
-        <id>https://webup.org/blog/react-global-state-as-local-state/</id>
-        <link href="https://webup.org/blog/react-global-state-as-local-state/"/>
-        <updated>2023-05-15T04:51:55.382Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/react-global-state-as-local-state/">React Global State as Local State</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种基于 React 的全局状态管理方案，使用 useGlobalState 钩子来读取全局存储对象，并在其更新时强制所有已订阅的组件重新渲染。相比于 Redux 和 Context，这种方案更加简单且没有繁琐的代码。该方案不需要依赖库，支持测试和 TypeScript。文章详细介绍了如何实现这个钩子，包括 JavaScript 和 TypeScript 的实现以及测试用例。作者表示这种方案虽然简单，但也具有可扩展性，可以在其上构建中间件、错误处理和动作等功能。作者在几个项目中尝试了 createGlobalState，目前已成为他的默认选择。</p>]]></content>
     </entry>
 </feed>
