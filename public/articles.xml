@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-23T16:10:31.346Z</updated>
+    <updated>2023-05-26T09:52:55.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - vanjs-org/van: 🍦VanJS（Vanilla JavaScript）：世界上最小的反应式UI框架]]></title>
+        <id>https://github.com/vanjs-org/van</id>
+        <link href="https://github.com/vanjs-org/van"/>
+        <updated>2023-05-26T04:14:24.030Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vanjs-org/van">GitHub - vanjs-org/van: 🍦VanJS (Vanilla JavaScript): World's smallest reactive UI framework</a></p><p><strong>概要：</strong></p><p>VanJS 是一个超轻量级、零依赖和无偏见的反应式 UI 框架，基于纯粹的 vanilla JavaScript 和 DOM。它提供了声明性 DOM 树组合、可重用组件、响应式状态绑定等功能，类似于 React，但不需要 React、JSX、转换、虚拟 DOM 或任何隐藏逻辑。VanJS 非常容易学习，只有四个导出函数在 API 中，并且提供了 TypeScript 支持。它的打包大小仅为 1.2kB，比大多数流行的 UI 框架小 100 倍以上。VanJS 旨在通过降低 UI 编程的入门门槛来构建更好的世界，没有商业化的意图或计划。如果您发现 VanJS 有趣或将来可能对您有用，请考虑支持该项目。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023年如何免费托管你的副业项目：从Auth到数据库]]></title>
+        <id>https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im</id>
+        <link href="https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im"/>
+        <updated>2023-05-26T04:13:50.663Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im">How to host your side-projects for free in 2023: from Auth to Database</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在 2023 年免费托管你的项目。涵盖了身份验证、数据库、网站托管、后端托管、定时任务和键值存储等方面。Clerk 可用于处理用户身份验证，PlanetScale 提供 MySQL 数据库服务，Vercel 和 Netlify 可用于网站托管，Fly.io 适用于 Docker 镜像托管，Upstash 则提供定时任务和 Redis 缓存服务。这些服务可以帮助你免费托管你的项目，并且随着你的项目发展，它们也可以进行扩展。这些服务都是基于无服务器技术，因为无服务器技术可以根据需要自动缩放，从而使成本保持低廉。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 1.34: deno编译支持npm包]]></title>
+        <id>https://deno.com/blog/v1.34</id>
+        <link href="https://deno.com/blog/v1.34"/>
+        <updated>2023-05-26T04:12:29.885Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/v1.34">Deno 1.34: deno compile supports npm packages</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Deno 1.34 的更新内容，包括支持 npm 包的 deno compile、在 deno.json 和 CLI 标志中支持 Glob、使用 IP 地址的 TLS 证书等。此外，还有许多改进和错误修复，如配置文件改进、语言服务器改进、Deno API 更改、npm 和 Node 兼容性改进、V8 11.5 和 TypeScript 5.0.4 等。最后，文章还提到了 Deno KV，这是一个全球分布式数据库，现已进入 beta 测试阶段。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node JS与Bun的基准测试]]></title>
+        <id>https://decode.sh/benchmarking-node-js-vs-bun</id>
+        <link href="https://decode.sh/benchmarking-node-js-vs-bun"/>
+        <updated>2023-05-24T00:09:51.755Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://decode.sh/benchmarking-node-js-vs-bun">Benchmarking Node JS vs Bun</a></p><p><strong>概要：</strong></p><p>这篇文章测试了使用 Bun 和 Node 的默认 HTTP 模块进行编译和未编译的性能表现。结果显示，未编译的 Bun 代码是四种方法中最快的，比第二快的未编译 Node 快 250％。尽管 Bun 仍不够稳定并且文档需要改进，但它的速度让人兴奋，可能会在未来的项目中使用。此外，文章还介绍了其他主题，如 Warp Terminal、设置 Node.js 用于生产和 Javascript 循环。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun v0.6.3]]></title>
         <id>https://bun.sh/blog/bun-v0.6.3</id>
@@ -188,33 +216,5 @@
         <link href="https://bun.sh/blog/bun-bundler"/>
         <updated>2023-05-17T04:41:23.198Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-bundler">The Bun Bundler</a></p><p><strong>概要：</strong></p><p>Bun bundler 是一个快速的本地打包工具，现在已经进入了 beta 测试阶段。它可以通过 bun build CLI 命令或新的 Bun.build () JavaScript API 来使用。该工具可以用于构建前端应用程序，并提供了内置的 Bun.build () 函数和 bun build CLI 命令。文章指出，JavaScript 生态系统的复杂性不断增加，如何运行 TypeScript 文件、如何为生产环境构建 / 打包代码等问题使得开发变得越来越复杂。Bun bundler 的目标是将打包引入 JavaScript 运行时，从而使前端和全栈代码的发布更简单、更快速。该工具的优点包括：插件执行快速、生成预转换文件以提高运行性能、统一的插件 API、构建输出数组、支持 ESM 模块系统、支持 tree-shaking、支持源码映射、支持 JS 压缩器等。未来，Bun bundler 还将与 Bun 的 HTTP 服务器 API（Bun.serve）集成，从而实现用简单的声明式 API 代替</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[充满惊喜的JavaScript生态圈]]></title>
-        <id>https://fly.io/blog/js-ecosystem-delightfully-wierd/</id>
-        <link href="https://fly.io/blog/js-ecosystem-delightfully-wierd/"/>
-        <updated>2023-05-16T01:46:08.086Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fly.io/blog/js-ecosystem-delightfully-wierd/">The JavaScript Ecosystem is Delightfully Weird</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了 JavaScript 生态系统的奇怪之处。作者认为，JavaScript 在不到 10 年前非常糟糕，缺乏许多现代语言特性，而且主要运行在浏览器的 DOM 中，很难处理。然而，随着时间的推移，JavaScript 的发展迅速改善，出现了许多编译器和转换工具，如 CoffeeScript、Babel 和 esbuild，使得开发人员可以使用更加现代化的语言特性来编写 JavaScript 代码。同时，JavaScript 生态系统也变得越来越庞大，涵盖了许多框架和库，但是这些框架和库并没有完全遵循 ECMAScript 标准，而是进行了一些自己的扩展和修改，例如 TypeScript 和 JSX。最近，React Server Components (RSC) 出现了，它通过与打包工具的合作，实现了将 React 组件编译成 HTML 或 JSON 流的功能，从而引发了人们对于 JavaScript 语言本身的重新思考。总</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用Qt和Rust构建一个桌面应用程序 - LogRocket博客]]></title>
-        <id>https://blog.logrocket.com/build-desktop-app-qt-rust/</id>
-        <link href="https://blog.logrocket.com/build-desktop-app-qt-rust/"/>
-        <updated>2023-05-15T07:17:16.737Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.logrocket.com/build-desktop-app-qt-rust/">Build a desktop app with Qt and Rust - LogRocket Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 和 Qt 框架构建桌面应用程序。作者首先讨论了桌面应用程序的优点，然后介绍了 Rust 在桌面应用程序开发中的流行程度和可靠性。接着，作者演示了如何使用 Qt 和 Rust 构建一个简单的 “Hello World” 应用程序，并逐步添加了加密和解密功能。最后，作者还介绍了如何使用 GitHub CI 工作流程来确保代码正确性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[将Next.js App Router用于生产的5条经验之谈]]></title>
-        <id>https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production</id>
-        <link href="https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production"/>
-        <updated>2023-05-15T04:52:42.154Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production">5 Lessons Learned From Taking Next.js App Router to Production</a></p><p><strong>概要：</strong></p><p>Next.js 13 的新功能 App Router 引入了 Nested Layouts、Server Components 和 Streaming 等多项新特性，是第一个开源实现 React 18 原语的工具。从 Next.js 13.4 开始，App Router 已被认为是生产就绪状态。使用 App Router 可以更轻松地在路由之间共享 UI、更好地利用服务器组件、更快地展示页面部分内容以及准备未来。但是，在应用 App Router 时需要注意两个缓存、URL 搜索参数在布局服务器组件中的问题、文件结构的优点以及学习新技术和资源有限的挑战。建议先仔细阅读官方文档，如果遇到问题可以查看 GitHub 和 Twitter 上的讨论，并且分享经验和解决方案有助于建立更加实质性的知识库。总体而言，采用 App Router 可以提高用户和开发者的体验，但需要耐心和深入挖掘。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[理解useRef和useState用于跟踪React中的组件渲染次数]]></title>
-        <id>https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/</id>
-        <link href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/"/>
-        <updated>2023-05-15T04:52:16.782Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://peterkellner.net//2023/05/05/Understanding-useRef-and-useState-for-Tracking-Component-Render-Count-in-React/">Understanding useRef and useState for Tracking Component Render Count in React</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 中使用 useRef 和 useState 来追踪组件渲染次数的实际例子。通过自定义一个名为 useComponentRenderCount 的 hook，使用 useRef 来存储渲染次数，并使用 useState 来管理组件内的不同状态值。通过将状态值分开控制，可以提高代码可读性并更轻松地管理每个值的状态更新。理解何时使用 useRef 以及如何与 useState 一起使用对于管理复杂的组件行为至关重要。在开发 React 应用程序时，需要平衡性能和功能，才能创建高质量的应用程序。</p>]]></content>
     </entry>
 </feed>
