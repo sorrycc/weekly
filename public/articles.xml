@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-26T09:52:55.108Z</updated>
+    <updated>2023-05-29T09:55:09.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[你需要多少内存来运行100万个并发任务？]]></title>
+        <id>https://pkolaczk.github.io/memory-consumption-of-async/</id>
+        <link href="https://pkolaczk.github.io/memory-consumption-of-async/"/>
+        <updated>2023-05-29T09:52:11.366Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pkolaczk.github.io/memory-consumption-of-async/">How Much Memory Do You Need to Run 1 Million Concurrent Tasks?</a></p><p><strong>概要：</strong></p><p>本文对比了异步和多线程编程在 Rust、Go、Java、C#、Python、Node.js 和 Elixir 等流行语言中的内存消耗。作者创建了一个基准程序，通过同时启动 N 个任务并等待它们完成来测试各种语言的内存消耗。结果显示，不同语言的运行时具有不同的权衡，有些轻量级且适用于少量任务，但随着任务数量的增加而扩展性差，而另一些初始开销高，可以轻松处理高工作负载。文章还指出，除了内存消耗之外，任务启动时间和通信速度等其他因素也同样重要。值得注意的是，在启动 100,000 个任务时，有些程序已经无法正常工作。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写总结比读更多的书更重要 - Andreas Fragner]]></title>
+        <id>https://www.andreasfragner.com/writing/writing-summaries</id>
+        <link href="https://www.andreasfragner.com/writing/writing-summaries"/>
+        <updated>2023-05-29T09:51:33.514Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.andreasfragner.com/writing/writing-summaries">Writing summaries is more important than reading more books — Andreas Fragner</a></p><p><strong>概要：</strong></p><p>本文作者认为，阅读并非追求页数或速度，而是要注重理解和思考。为了提高理解能力，读者需要在阅读时自问问题，并尝试回答这些问题。作者建议使用一个简单的框架来写书摘，包括总结书籍主旨、中心问题和个人所学到的重要内容。此外，作者还介绍了两种选择好书的方法：主题阅读和检视阅读。最后，作者提出了另一种分享阅读体验的方式，即与他人讨论所读书籍的思想和观点。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - MineDojo/Voyager：一个具有大型语言模型的开放式体现型代理]]></title>
+        <id>https://github.com/MineDojo/Voyager</id>
+        <link href="https://github.com/MineDojo/Voyager"/>
+        <updated>2023-05-27T06:55:10.187Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/MineDojo/Voyager">GitHub - MineDojo/Voyager: An Open-Ended Embodied Agent with Large Language Models</a></p><p><strong>概要：</strong></p><p>本文介绍了 Voyager，这是一个基于大型语言模型的具有开放式体验的生命学习代理，可以在 Minecraft 中持续探索世界、获得多样化技能并进行新颖的发现。Voyager 包括三个关键组成部分：1）自动课程设置，最大限度地促进探索；2）可执行代码的不断增长的技能库，用于存储和检索复杂行为；3）一种新的迭代提示机制，结合环境反馈、执行错误和自我验证以改进程序。Voyager 通过黑盒查询与 GPT-4 交互，避免了模型参数微调的需要。经验上，Voyager 表现出强大的场景下的生命学习能力，并展示了在玩 Minecraft 方面的卓越熟练度。它获得了比先前 SOTA 更多的独特物品（3.3 倍）、行程更长（2.3 倍），以及解锁关键技术树里程碑的速</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7.22.0版发布：明确的资源管理支持和导入属性解析 - Babel]]></title>
+        <id>https://babeljs.io/blog/2023/05/26/7.22.0</id>
+        <link href="https://babeljs.io/blog/2023/05/26/7.22.0"/>
+        <updated>2023-05-27T04:50:50.460Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://babeljs.io/blog/2023/05/26/7.22.0">7.22.0 Released: Explicit Resource Management support and Import Attributes parsing · Babel</a></p><p><strong>概要：</strong></p><p>Babel 7.22.0 发布了，支持解析 / 转换明确资源管理提案的同步和异步变体，并支持导入属性的解析。此外，更新了装饰器的实现，添加了对 TypeScript 导入和导出语句的支持，以及将所有稳定 ECMAScript 功能的插件从 “-proposal-” 重命名为 “-transform-”。Babel 还提供 Open Collective 捐赠和直接与其合作实现新的 ECMAScript 提案的机会。更新还包括：明确资源管理、导入属性、装饰器更新和重命名软件包等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - vanjs-org/van: 🍦VanJS（Vanilla JavaScript）：世界上最小的反应式UI框架]]></title>
         <id>https://github.com/vanjs-org/van</id>
@@ -188,33 +216,5 @@
         <link href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/"/>
         <updated>2023-05-19T00:26:56.550Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/">Why we chose Astro over Nuxt</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个网站建设过程中的问题：由于使用了 Three.js 等大量 JavaScript 库，导致页面加载缓慢和卡顿。为了解决这个问题，作者尝试了 Astro 框架，它可以将 JavaScript 编译成 HTML 和 CSS，从而减少页面的 JavaScript 代码量。作者发现，对于博客和静态营销网站等项目，Astro 是一个很好的选择。但对于有交互部分的网站，如头条 Shopify 网站或单页应用程序，则更适合使用 Nuxt 框架。文章最后总结了两种框架的优缺点。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[揭开魔法的面纱：探索各种框架的反应性]]></title>
-        <id>https://www.builder.io/blog/reactivity-across-frameworks</id>
-        <link href="https://www.builder.io/blog/reactivity-across-frameworks"/>
-        <updated>2023-05-19T00:26:15.754Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/reactivity-across-frameworks">Unveiling the Magic: Exploring Reactivity Across Various Frameworks</a></p><p><strong>概要：</strong></p><p>本文深入探讨了各种前端框架中的响应性（reactivity）机制，着重比较了粗粒度和细粒度响应性之间的差异。React 和 Angular 属于粗粒度系统，需要重新执行组件树来检测更改并更新 DOM；Svelte、Vue、Qwik 和 Solid 属于细粒度系统，可以更加高效地检测和更新 DOM。Qwik 是唯一一个不需要预热的框架，它通过 SSR/SSG 将状态与 DOM 相关联，并在客户端恢复这些信息，从而避免了下载大量应用代码的问题。作者认为，虽然粗粒度系统 “随便用” 会更方便，但是使用细粒度系统可能会更高效，因为后者已经进行了优化。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍一下Legend-State 1.0：更快地构建更快的应用程序]]></title>
-        <id>https://legendapp.com/open-source/legend-state-v1/</id>
-        <link href="https://legendapp.com/open-source/legend-state-v1/"/>
-        <updated>2023-05-19T00:25:43.116Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://legendapp.com/open-source/legend-state-v1/">Introducing Legend-State 1.0: Build faster apps faster</a></p><p><strong>概要：</strong></p><p>文章介绍了一个名为 Legend-State 的 React 状态库，它具有极快的速度、易用性、自然的细粒度反应和内置持久性等四个主要优点。该库基于可观察对象实现，使用 Proxy 跟踪对象中的路径，从而在速度和内存使用方面超越其他 React 状态库。使用该库不需要繁琐的模板代码和上下文、动作、规约、分派器等，只需调用 get () 获取原始数据并使用 set () 更改数据即可。此外，该库还支持细粒度反应，使得组件能够在特定值更改时更新，从而减少重新渲染的次数。最后，该库还内置了持久化功能，可以保存和同步应用程序状态。未来，该库将添加更多的持久化插件和辅助可观察对象和钩子函数。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[管理GitHub通知 - GitHub维护者峰会2023]]></title>
-        <id>https://antfu.me/posts/manage-github-notifcations-2023</id>
-        <link href="https://antfu.me/posts/manage-github-notifcations-2023"/>
-        <updated>2023-05-17T15:43:54.393Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/manage-github-notifcations-2023">Manage GitHub Notifications - GitHub Maintainer Summit 2023</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种名为 “Notification-driven Developement” 的方法来管理 GitHub 上的项目。该作者通过使用 GitHub 的通知系统来管理他所维护的各种规模的项目，以保持项目的活跃度和稳定性。他提出了 “Inbox-Zero” 概念，即每天处理完所有收到的通知，以便快速响应社区成员并控制维护工作量。文章还分享了一些减少通知数量和组织通知的技巧，并介绍了一个用户脚本来自动化通知处理。最后，作者强调了享受工作和保持良好的工作与生活平衡的重要性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[馒头捆绑器]]></title>
-        <id>https://bun.sh/blog/bun-bundler</id>
-        <link href="https://bun.sh/blog/bun-bundler"/>
-        <updated>2023-05-17T04:41:23.198Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-bundler">The Bun Bundler</a></p><p><strong>概要：</strong></p><p>Bun bundler 是一个快速的本地打包工具，现在已经进入了 beta 测试阶段。它可以通过 bun build CLI 命令或新的 Bun.build () JavaScript API 来使用。该工具可以用于构建前端应用程序，并提供了内置的 Bun.build () 函数和 bun build CLI 命令。文章指出，JavaScript 生态系统的复杂性不断增加，如何运行 TypeScript 文件、如何为生产环境构建 / 打包代码等问题使得开发变得越来越复杂。Bun bundler 的目标是将打包引入 JavaScript 运行时，从而使前端和全栈代码的发布更简单、更快速。该工具的优点包括：插件执行快速、生成预转换文件以提高运行性能、统一的插件 API、构建输出数组、支持 ESM 模块系统、支持 tree-shaking、支持源码映射、支持 JS 压缩器等。未来，Bun bundler 还将与 Bun 的 HTTP 服务器 API（Bun.serve）集成，从而实现用简单的声明式 API 代替</p>]]></content>
     </entry>
 </feed>
