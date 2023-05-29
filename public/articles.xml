@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-29T09:55:09.818Z</updated>
+    <updated>2023-05-29T12:59:59.421Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何做在创业小厂里做技术领导]]></title>
+        <id>https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html</id>
+        <link href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html"/>
+        <updated>2023-05-29T12:53:59.400Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html">如何做在创业小厂里做技术领导</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了在创业小厂中如何找到技术研发带头人以及如何管理技术团队。作者认为，技术领导的首要工作是提升团队的短板，可以通过工具、流程、规范等手段来实现。推荐使用 Git、自动化测试、代码静态分析、故障收集等工具来提升代码质量；同时，建议采用敏捷开发方法，包括每日立会、需求评审会、技术评审会等流程来保证团队稳定可靠高效地输出技术产品。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - vadimdemedes/pastel: 🎨类似Next.js的框架，用于用Ink制作的CLI。]]></title>
+        <id>https://github.com/vadimdemedes/pastel</id>
+        <link href="https://github.com/vadimdemedes/pastel"/>
+        <updated>2023-05-29T12:50:43.689Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vadimdemedes/pastel">GitHub - vadimdemedes/pastel: 🎨 Next.js-like framework for CLIs made with Ink</a></p><p><strong>概要：</strong></p><p>Pastel 是一个基于 Ink 开发的类似于 Next.js 的 CLI 框架。它允许用户在 commands 文件夹中创建文件来添加命令，支持定义选项和参数，并使用 Zod 实现完全类型安全。此外，Pastel 还自动生成命令、选项和参数的帮助信息，并在底层使用经过测试的 Commander 包。Pastel 可以通过 create-pastel-app 快速搭建一个带有 TypeScript、linter 和测试设置的应用程序，也可以手动设置新项目并安装 Pastel 和 TypeScript。 Pastel 支持索引命令、默认命令、子命令和别名，并支持字符串、数字、布尔、枚举、数组和集合等类型的选项和参数。Pastel 还允许用户自定义应用程序名称、描述和版本，并提供了一组 API 来初始化 Pastel 应用程序并运行它们。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React API的演变和代码重用]]></title>
+        <id>https://frontendmastery.com/posts/the-evolution-of-react-patterns/</id>
+        <link href="https://frontendmastery.com/posts/the-evolution-of-react-patterns/"/>
+        <updated>2023-05-29T12:39:54.110Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://frontendmastery.com/posts/the-evolution-of-react-patterns/">The evolution of React APIs and code reuse</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 的演变历程和不同的代码重用模式，深入探讨了它们背后的思维模型和权衡。从最初的 Mixins 到 Higher-order components、Render props 和 Hooks，React 逐渐发展出更加简洁、灵活和易于理解的编程范式。作者指出，React 是一个提供低级原语的库，强调构建在稳定基础之上的架构和模式，以及应该优先考虑用户体验而非开发者体验。同时，随着 React 扩展到客户端和服务器端，我们需要更好地理解全栈 React 的边界和组合方式，以便更好地进行本地推理和代码管理。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我为什么离开拉斯特]]></title>
+        <id>https://www.jntrnr.com/why-i-left-rust/</id>
+        <link href="https://www.jntrnr.com/why-i-left-rust/"/>
+        <updated>2023-05-29T12:36:21.559Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jntrnr.com/why-i-left-rust/">Why I left Rust</a></p><p><strong>概要：</strong></p><p>文章主要讲述了作者为何离开 Rust 项目。起因是 JeanHeyd Meneide 被选为 RustConf 的主题演讲嘉宾，但由于他在博客中对 Rust 反射的看法引起了一些团队成员的不满，导致 Rust 领导层将其从主题演讲嘉宾降级为普通演讲嘉宾。作者认为这样的行为极度不尊重专家，并且暴露了 Rust 组织的冷酷和无情。此外，JeanHeyd 曾批评 Rust 缺乏黑人代表性，因此作者也认为这次事件背后可能还有更深层次的问题。最后，作者呼吁 Rust 组织要对这次事件负责并采取措施避免类似事件再次发生。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3种方法来找到你最糟糕的页面加载的JavaScript违规者]]></title>
+        <id>https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load</id>
+        <link href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load"/>
+        <updated>2023-05-29T12:35:49.355Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load">3 ways to find your worst JavaScript offenders for page load</a></p><p><strong>概要：</strong></p><p>本文介绍了三种方法来评估 JavaScript 文件在页面加载中的影响。首先，使用 Lighthouse Treemap 根据字节大小排名 JavaScript 文件和模块，以便快速找出最大的依赖项。其次，使用 Chrome Dev Tools 性能选项卡根据脚本运行时间排名单个域的所有脚本。最后，使用 WebPageTest 根据阻塞时间排名脚本来源。作者建议使用这些方法来找到可以快速优化的低垂果实，然后再着手解决更复杂的问题。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何在React Router v6测试中避免嘲弄？]]></title>
+        <id>https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/</id>
+        <link href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/"/>
+        <updated>2023-05-29T12:35:28.875Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/">How to Avoid Mocking in React Router v6 Tests</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 React Router (v6) 测试应用程序，并提供了一个示例包装函数，以帮助您可靠地测试页面导航。这个包装函数建立在 React Testing Library（RTL）的 render () 函数之上，并抽象了一个数据路由器提供者，以便您可以在不模拟的情况下进行编程测试。文章还介绍了 renderWithRouter 函数的实现和测试用例，并提供了一个 codesandbox 示例。最后，作者提到了关于测试主题的后续计划，包括如何避免 mocking。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React应用中的状态管理]]></title>
+        <id>https://reacthandbook.dev/state-management</id>
+        <link href="https://reacthandbook.dev/state-management"/>
+        <updated>2023-05-29T12:35:04.783Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reacthandbook.dev/state-management">State Management in React Applications</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 应用程序中管理应用状态的一种非常灵活的方法。具体而言，这适用于 SPA（单页应用程序）构建架构。本指南的目标受众是 React 工程师和架构师，他们不是初学者，要么正在寻求构建新应用程序的指导，要么正在理解其他人为他们所工作的应用程序做出的决策。本文详细介绍了 5 种不同类型的 React 应用程序状态，并探讨了使用 React API、数据获取库和全局存储来管理这些状态的最佳实践。同时，本文还提到了一些常见的 React 生态系统中的库，如 Redux、Zustand、Jotai 等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你需要多少内存来运行100万个并发任务？]]></title>
         <id>https://pkolaczk.github.io/memory-consumption-of-async/</id>
@@ -167,54 +216,5 @@
         <link href="https://www.bbss.dev/posts/react-concurrency/"/>
         <updated>2023-05-22T01:52:46.884Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bbss.dev/posts/react-concurrency/">Understanding React Concurrency</a></p><p><strong>概要：</strong></p><p>React v18.0 引入了一项期待已久的功能：并发模式！尽管有大量资源解释如何使用它，但对其工作原理的解释很少。基本上，React 并发模式是重新设计渲染过程，使得在渲染下一个视图时，当前视图保持响应性。由于这是一项低级特性，理解 React 的并发模式的想法并不关键，但也无妨。React 团队最初计划通过并发模式来提高应用程序性能，但由于向后兼容性原因，该计划未能实现，转而推出了一组新 API，即并发特性，以选择性地启用并发渲染。目前，React 已经引入了两个新钩子来选择并发渲染：useTransition 和 useDeferredValue。这篇文章介绍了这两个钩子的用法和注意事项，并提到了它们在 Suspense 组件中的作用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工人浏览器渲染API进入公开测试阶段]]></title>
-        <id>https://blog.cloudflare.com/browser-rendering-open-beta/</id>
-        <link href="https://blog.cloudflare.com/browser-rendering-open-beta/"/>
-        <updated>2023-05-22T01:44:09.461Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/browser-rendering-open-beta/">Workers Browser Rendering API enters open beta</a></p><p><strong>概要：</strong></p><p>Cloudflare 宣布开放其 Workers Browser Rendering API 的公测，该 API 允许开发者编程控制和交互无头浏览器实例，并为应用程序和产品创建自动化流程。通过 Wrangler 命令行工具配置、构建和部署应用程序，开发者可以使用 Browser Rendering API 绑定与 Cloudflare 开发平台上的资源进行交互。此外，Cloudflare 还推出了 Puppeteer，这是一个流行的库，它抽象了低级别的 DevTools 协议，提供了高级 API，使开发者能够轻松地操纵 Chrome/Chromium 并自动化浏览会话。在未来，Cloudflare 将更新 Puppeteer 以匹配其基础设施中运行的 Chromium 实例版本。该公司表示，他们已经广泛使用 Browser Rendering API 进行屏幕截图、测试 Web 应用程序等任务，而且还计划将其用于 URL 扫描器等项目。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你可能不需要React Query]]></title>
-        <id>https://tkdodo.eu/blog/you-might-not-need-react-query</id>
-        <link href="https://tkdodo.eu/blog/you-might-not-need-react-query"/>
-        <updated>2023-05-21T07:32:00.451Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/you-might-not-need-react-query">You Might Not Need React Query</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了 React Server Components 是否会取代 React Query。作者认为，每个工具都应该帮助我们解决我们遇到的问题。传统上，React 在数据获取方面并不强调如何处理，这就是 React Query 和 swr 等库产生的原因。随着服务端渲染的出现，React Query 也扮演了重要的角色。但是，随着 React Server Components 的出现，如果您的数据获取仅发生在服务器上，那么您可能不需要 React Query。作者认为，在新的 Server Components 世界中，React Query 仍然可以很好地与应用程序集成。最后，作者提醒读者，不要盲目追随新技术，一切都有权衡。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt 3.5 - Nuxt]]></title>
-        <id>https://nuxt.com/blog/v3-5</id>
-        <link href="https://nuxt.com/blog/v3-5"/>
-        <updated>2023-05-19T01:04:44.665Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nuxt.com/blog/v3-5">Nuxt 3.5 · Nuxt</a></p><p><strong>概要：</strong></p><p>Nuxt 3.5.0 发布了，带来了许多令人兴奋的功能，特别是在类型支持方面。此外还有 Nitropack v2.4 和丰富的 JSON 负载等更新。Nuxt 3.5.0 还支持交互式服务器组件、环境配置、完全类型化页面和 “捆绑器” 模块解析等功能。除此之外，该版本还修复了一些错误和问题。建议升级到最新版本，并阅读完整的发行说明和变更日志。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 TypeScript 5.1 RC - TypeScript]]></title>
-        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/</id>
-        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/"/>
-        <updated>2023-05-19T00:31:59.629Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/">Announcing TypeScript 5.1 RC - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 has been released as a Release Candidate, with no further changes expected before the stable release apart from critical bug fixes. The new version includes easier implicit returns for undefined-returning functions, unrelated types for getters and setters, decoupled type-checking between JSX elements and JSX tag types, namespaced JSX attributes, and more. TypeScript 5.1 also supports linked cursors for JSX tags, snippet completions for @param JSDoc tags, and optimizations such as avoiding unnecessary type instantiation and negative case checks for union literals. However, there are also breaking changes, such as ES2020 and Node.js 14.17 being minimum runtime requirements, and explicit typeRoots disabling upward walks for node_modules/@types. The TypeScript team is already working on TypeScript 5.2, with a public iteration plan available.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在科技会议上从参会者到演讲者的9个技巧 | GitHub博客]]></title>
-        <id>https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/</id>
-        <link href="https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/"/>
-        <updated>2023-05-19T00:30:35.220Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/">9 tips to go from attendee to speaker at a tech conference | The GitHub Blog</a></p><p><strong>概要：</strong></p><p>GitHub Universe 是一年一度的全球开发者和客户活动，今年将于 11 月 8 日至 9 日在线上和线下举行。文章提供了一些撰写成功演讲提案的技巧，例如标题要吸引人、具体说明内容的收获、突出会议性质等。此外，还提供了演讲者个人介绍的公式和其他有用资源，如往年活动的回顾、联系前任演讲者、关注行业热点等。最后，文章呼吁有兴趣参加演讲的人提交他们的想法，并列出了被选中的好处。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - DukeLuo/eslint-plugin-check-file：ESLint规则的一致的文件名和文件夹。允许你为文件名和文件夹强制执行一致的命名模式。]]></title>
-        <id>https://github.com/DukeLuo/eslint-plugin-check-file</id>
-        <link href="https://github.com/DukeLuo/eslint-plugin-check-file"/>
-        <updated>2023-05-19T00:27:28.162Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/DukeLuo/eslint-plugin-check-file">GitHub - DukeLuo/eslint-plugin-check-file: ESLint rules for consistent filename and folder. Allows you to enforce a consistent naming pattern for the filename and folder.</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 eslint-plugin-check-file 的 ESLint 插件，该插件可以帮助开发者强制规范化文件和文件夹的命名方式。插件支持多种规则，例如强制指定文件夹名称、文件名命名规范等。开发者只需要在.eslintrc 配置文件中添加相应的规则即可使用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么我们选择Astro而不是Nuxt]]></title>
-        <id>https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/</id>
-        <link href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/"/>
-        <updated>2023-05-19T00:26:56.550Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.blackspike.com/blog/why-we-chose-astro-over-nuxt/">Why we chose Astro over Nuxt</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个网站建设过程中的问题：由于使用了 Three.js 等大量 JavaScript 库，导致页面加载缓慢和卡顿。为了解决这个问题，作者尝试了 Astro 框架，它可以将 JavaScript 编译成 HTML 和 CSS，从而减少页面的 JavaScript 代码量。作者发现，对于博客和静态营销网站等项目，Astro 是一个很好的选择。但对于有交互部分的网站，如头条 Shopify 网站或单页应用程序，则更适合使用 Nuxt 框架。文章最后总结了两种框架的优缺点。</p>]]></content>
     </entry>
 </feed>
