@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-31T01:45:48.669Z</updated>
+    <updated>2023-05-31T15:12:32.612Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[发布 v2.0.0-beta.0 - reduxjs/redux-toolkit]]></title>
+        <id>https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0</id>
+        <link href="https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0"/>
+        <updated>2023-05-31T15:11:21.022Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0">Release v2.0.0-beta.0 · reduxjs/redux-toolkit</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Redux Toolkit 2.0 beta 版的更新内容，包括更新了许多 TS 类型以提高类型安全和行为，更新了 entityAdapter.getSelectors () 以接受一个 createSelector 选项，依赖于最新的 redux@5.0-beta.0 版本，并包括了 2.0 alpha 版之前的所有更改。此版本具有破坏性更改。文章还列出了一些新功能和破坏性更改的详细信息。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代HTML电子邮件（不再需要表格）。]]></title>
+        <id>https://fullystacked.net/posts/modern-html-email/</id>
+        <link href="https://fullystacked.net/posts/modern-html-email/"/>
+        <updated>2023-05-31T04:23:22.582Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fullystacked.net/posts/modern-html-email/">Modern HTML email (tables no longer required)</a></p><p><strong>概要：</strong></p><p>本文讨论了电子邮件开发中的问题，尤其是 Outlook 在 Windows 上的支持不足。传统的基于表格的布局已经成为过去式，现代的 HTML 和 CSS 标准开始被广泛采用。文章介绍了使用 div 元素、内联 CSS 和 AMP（加速移动页面）等技术来构建电子邮件的方法，并探讨了这些技术的优缺点。虽然电子邮件行业的进展缓慢，但它正在向着更一致和更现代的方向前进。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在30秒内用TypeScript为WebAssembly分享Rust类型]]></title>
         <id>https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds</id>
@@ -202,19 +216,5 @@
         <link href="https://github.com/zijie0/HumanSystemOptimization"/>
         <updated>2023-05-22T02:14:38.416Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/zijie0/HumanSystemOptimization">健康学习到150岁 - 人体系统调优不完全指南</a></p><p><strong>概要：</strong></p><p>本文介绍了神经科学教授 Andrew Huberman 的一些关于提升日常工作、学习表现的方法和工具。其中睡眠是最重要的前提，生物钟对睡眠的控制机理是光照和体温。因此，控制接收光照的时间点、类型和时长以及保持适当的体温可以提升睡眠质量。其他实践包括锻炼、饮食、呼吸和注意力训练等方面。这些方法都基于高质量、peer reviewed 的科学研究成果，可以像调优软件程序那样来 “调优” 我们自身的人体系统。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React服务器组件、Next.js应用程序路由器和实例]]></title>
-        <id>https://addyosmani.com/blog/react-server-components-app-router/</id>
-        <link href="https://addyosmani.com/blog/react-server-components-app-router/"/>
-        <updated>2023-05-22T01:58:11.076Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/react-server-components-app-router/">React Server Components, Next.js App Router and examples</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 社区最近关于 Server Components、Next.js App Router 和工具与渲染方法未来的讨论，以及对这些概念的简要总结。文章解释了什么是 React Server Components，它们与 Next.js App Router 的关系，以及为什么选择生产框架（如 Next.js 或 Remix）而不是 Create React App。文章还提到了 RSC 实现的可用性和 “混合” 渲染的趋势，即将构建时间、服务器和客户端渲染相结合，创造更灵活的 Web 开发方法。最后，文章推荐了一些 RSC + Next App Router 的示例。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[把Python当作Rust来写]]></title>
-        <id>https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html</id>
-        <link href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html"/>
-        <updated>2023-05-22T01:57:30.687Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html">Writing Python like it's Rust</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在使用 Rust 后如何将其中的一些概念应用到 Python 编程中，以提高程序的严谨性和可读性。具体来说，作者建议在函数签名和类属性中尽可能使用类型提示，使用 dataclass 代替元组或字典，使用 union type 模拟 Rust 中的 algebraic data types，使用 newtype 提高代码的可读性，使用构造函数代替 __init__ 方法，并使用类型系统来编码不变量。通过这些方法，作者认为可以减少代码中的错误和 bug，提高代码的可维护性和可扩展性。</p>]]></content>
     </entry>
 </feed>
