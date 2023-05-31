@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-30T14:29:03.957Z</updated>
+    <updated>2023-05-31T01:45:48.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[在30秒内用TypeScript为WebAssembly分享Rust类型]]></title>
+        <id>https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds</id>
+        <link href="https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds"/>
+        <updated>2023-05-31T01:44:26.406Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds">Share Rust Types With TypeScript for WebAssembly in 30 Seconds</a></p><p><strong>概要：</strong></p><p>本文介绍了在 Rust 中生成 WebAssembly 模块的 TypeScript 类型定义的问题，并提供了一种解决方案。作者使用了 wasm-pack 和 wasm-bindgen 来编译 Rust 代码为 WebAssembly，但生成的 TypeScript 定义中有许多 “any” 类型，不够友好。为了解决这个问题，作者使用了 Tsify 库来自动生成 TypeScript 绑定，并对 Rust 代码进行了一些修改。最终生成的 TypeScript 定义更加清晰易懂。文章还介绍了 Voy，一个基于 WebAssembly 的语义搜索引擎，以及其他几个生成 TypeScript 定义的库。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于RustConf的主题演讲 | Rust博客]]></title>
         <id>https://blog.rust-lang.org/2023/05/29/RustConf.html</id>
@@ -209,12 +216,5 @@
         <link href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html"/>
         <updated>2023-05-22T01:57:30.687Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html">Writing Python like it's Rust</a></p><p><strong>概要：</strong></p><p>本文介绍了作者在使用 Rust 后如何将其中的一些概念应用到 Python 编程中，以提高程序的严谨性和可读性。具体来说，作者建议在函数签名和类属性中尽可能使用类型提示，使用 dataclass 代替元组或字典，使用 union type 模拟 Rust 中的 algebraic data types，使用 newtype 提高代码的可读性，使用构造函数代替 __init__ 方法，并使用类型系统来编码不变量。通过这些方法，作者认为可以减少代码中的错误和 bug，提高代码的可维护性和可扩展性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[来自其他语言和框架的模式来增强你的前端项目]]></title>
-        <id>https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects</id>
-        <link href="https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects"/>
-        <updated>2023-05-22T01:55:36.453Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackernoon.com/patterns-from-other-languages-and-frameworks-to-enhance-your-frontend-projects">Patterns from Other Languages and Frameworks to Enhance Your Frontend Projects</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了作者在编程过程中学到的一些规则、工具和模式，以及如何将它们应用到前端项目中。作者分享了他对这些规则的理解和使用方法，并提供了一些实用的技巧和建议。通过这篇文章，读者可以学习到如何提高前端项目的质量和效率。</p>]]></content>
     </entry>
 </feed>
