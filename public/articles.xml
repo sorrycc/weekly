@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-02T04:34:39.341Z</updated>
+    <updated>2023-06-02T06:37:26.542Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun中的JavaScript宏]]></title>
+        <id>https://bun.sh/blog/bun-macros</id>
+        <link href="https://bun.sh/blog/bun-macros"/>
+        <updated>2023-06-02T04:35:34.091Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-macros">JavaScript Macros in Bun</a></p><p><strong>概要：</strong></p><p>Bun 发布了一个新功能 ——Bun Macros，它是一种在打包时运行 JavaScript 函数的机制，返回值直接嵌入到打包文件中。这个功能可以用于一些小的打包任务，也支持执行一些特权操作，比如读取数据库等。但如果需要大量运行代码，则应该考虑使用服务器。Bun Macros 是通过导入语句来实现的，需要使用 {type: 'macro'} 属性注解。该功能支持异步操作和 Promise，但输入参数必须是静态可分析的，并且返回值必须可序列化。此外，为了减少恶意软件攻击的可能性，它不能在 node_modules 目录中执行。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我认为Zig很难......但值得。]]></title>
         <id>http://ratfactor.com/zig/hard</id>
@@ -209,12 +216,5 @@
         <link href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/"/>
         <updated>2023-05-22T08:31:07.811Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/">Modding Age of Empires II with a Sprite-Diffuser</a></p><p><strong>概要：</strong></p><p>本文介绍了作者如何利用 Stable Diffusion Web UI 和 Python 创建一个多功能的基于提示的图像生成器，以制作自定义文明精灵。作者在 Photoshop 中使用 Alpaca 开始实验，并尝试在不同风格下生成 Age of Empires II 游戏截图，探索模型的行为和选择保留和丢弃的形状和纹理。作者还使用 Control Net 和 Loopbacks 等技术来优化输出结果，并提出了一些其他的实验和思考。最终，作者认为这种模型非常灵活，未来的游戏可以利用它来种植用户生成的故事或内部开发。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - imartinez/privateGPT: 利用GPT的力量私下与你的文件互动，100%私下进行，没有数据泄露。]]></title>
-        <id>https://github.com/imartinez/privateGPT</id>
-        <link href="https://github.com/imartinez/privateGPT"/>
-        <updated>2023-05-22T05:48:32.440Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/imartinez/privateGPT">GitHub - imartinez/privateGPT: Interact privately with your documents using the power of GPT, 100% privately, no data leaks</a></p><p><strong>概要：</strong></p><p>本文介绍了一种使用 LLMs 进行离线问答的方法，完全私密，不需要互联网连接。用户可以将文件导入并提出问题，而无需互联网连接。该方法使用 LangChain、GPT4All、LlamaCpp、Chroma 和 SentenceTransformers 构建。用户需要设置环境并下载 LLM 模型，然后将数据集放入指定目录中，支持多种格式的文件。用户可以使用命令行工具提出问题，并且可以使用命令行参数修改脚本的行为。该方法使用本地模型和 LangChain 的强大功能，在不泄露任何数据的情况下运行整个流程，并具有合理的性能。但是，该方法仅用于测试，不适用于生产环境，选择的模型也不是针对性能优化的。</p>]]></content>
     </entry>
 </feed>
