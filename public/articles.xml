@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-05-31T15:12:32.612Z</updated>
+    <updated>2023-06-02T04:34:39.341Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[我认为Zig很难......但值得。]]></title>
+        <id>http://ratfactor.com/zig/hard</id>
+        <link href="http://ratfactor.com/zig/hard"/>
+        <updated>2023-06-02T04:25:44.474Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://ratfactor.com/zig/hard">I think Zig is hard...but worth it</a></p><p><strong>概要：</strong></p><p>本文介绍了 Zig 编程语言的学习难度。虽然许多人认为 Zig 很容易学习，但对于像作者这样的程序员来说，它仍然是有挑战性的。文章列举了几个原因，包括 Zig 是一门新语言、Zig 强制你做出选择、Zig 是一门严谨的语言、Zig 具有 comptime 等特点。尽管 Zig 可能不容易掌握，但它力求简单、统一和正确，值得投资学习。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布 TypeScript 5.1 - TypeScript]]></title>
+        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/</id>
+        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/"/>
+        <updated>2023-06-02T04:23:18.447Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/">Announcing TypeScript 5.1 - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 已经发布，这个版本带来了一些新特性和优化。其中包括对 undefined-Returning 函数的隐式返回更容易、Getter 和 Setter 的无关类型、JSX 元素和 JSX 标记类型之间解耦的类型检查、命名空间 JSX 属性、typeRoots 在模块解析中的咨询、链接光标、@param JSDoc 标记的代码片段完成、避免不必要的类型实例化等。此外，TypeScript 5.1 还需要 ECMAScript 2020 和 Node.js 14.17 作为最小运行时要求。 TypeScript 团队正在努力开发 TypeScript 5.2，并计划在未来几个月内发布。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布Rust 1.70.0 | Rust博客]]></title>
+        <id>https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html"/>
+        <updated>2023-06-02T04:21:38.125Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html">Announcing Rust 1.70.0 | Rust Blog</a></p><p><strong>概要：</strong></p><p>Rust 1.70.0 版本已发布，该版本包括了一些新特性和 API 的稳定化。其中，Cargo 的 “sparse” 协议现在默认启用，这将大大提高从 crates.io 索引中获取信息的性能。此外，还稳定了两个新类型 OnceCell 和 OnceLock，用于共享数据的一次性初始化，以及新增了一个名为 IsTerminal 的特征，用于确定给定文件描述符或句柄是否表示终端或 TTY。同时，还稳定了许多 API，包括 Default for std::collections、Rc::into_inner、Arc::into_inner 等。此外，该版本还修复了一些 bug，完善了一些文档和测试。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布 v2.0.0-beta.0 - reduxjs/redux-toolkit]]></title>
         <id>https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0</id>
@@ -195,26 +216,5 @@
         <link href="https://github.com/imartinez/privateGPT"/>
         <updated>2023-05-22T05:48:32.440Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/imartinez/privateGPT">GitHub - imartinez/privateGPT: Interact privately with your documents using the power of GPT, 100% privately, no data leaks</a></p><p><strong>概要：</strong></p><p>本文介绍了一种使用 LLMs 进行离线问答的方法，完全私密，不需要互联网连接。用户可以将文件导入并提出问题，而无需互联网连接。该方法使用 LangChain、GPT4All、LlamaCpp、Chroma 和 SentenceTransformers 构建。用户需要设置环境并下载 LLM 模型，然后将数据集放入指定目录中，支持多种格式的文件。用户可以使用命令行工具提出问题，并且可以使用命令行参数修改脚本的行为。该方法使用本地模型和 LangChain 的强大功能，在不泄露任何数据的情况下运行整个流程，并具有合理的性能。但是，该方法仅用于测试，不适用于生产环境，选择的模型也不是针对性能优化的。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[同一个站点]]></title>
-        <id>https://www.engineersneedart.com/blog/samestop/samestop.html</id>
-        <link href="https://www.engineersneedart.com/blog/samestop/samestop.html"/>
-        <updated>2023-05-22T05:46:55.519Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.engineersneedart.com/blog/samestop/samestop.html">Same Stop</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了一位前苹果程序员退休后又重新开始编程的经历。虽然最初他感到解脱，但不久之后又开始尝试用 Python 和 Javascript 写小项目。现在他突然重返编程世界，重新沉迷于 C 语言和游戏开发。他回顾了自己从事编程的经历，并思考了编程对于工程师们来说是一份工作还是一种爱好。他认为，早期的程序员都是出于热情而从事编程的，但现在的工程师们可能更多地将其视为一份工作。最后，他对自己重返编程世界的经历感到惊讶和欣喜，同时也提醒自己要注意保持平衡。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - pengxiao-song/LaWGPT: 🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型]]></title>
-        <id>https://github.com/pengxiao-song/LaWGPT</id>
-        <link href="https://github.com/pengxiao-song/LaWGPT"/>
-        <updated>2023-05-22T03:03:46.056Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/pengxiao-song/LaWGPT">GitHub - pengxiao-song/LaWGPT: 🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型</a></p><p><strong>概要：</strong></p><p>LaWGPT 是一系列基于中文法律知识的开源大语言模型，通过扩充法律领域专有词表和大规模中文法律语料预训练，增强了大模型在法律领域的基础语义理解能力。在此基础上，构造法律领域对话问答数据集、中国司法考试数据集进行指令精调，提升了模型对法律内容的理解和执行能力。该项目持续开展，法律领域数据集及系列模型后续相继开源。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[健康学习到150岁 - 人体系统调优不完全指南]]></title>
-        <id>https://github.com/zijie0/HumanSystemOptimization</id>
-        <link href="https://github.com/zijie0/HumanSystemOptimization"/>
-        <updated>2023-05-22T02:14:38.416Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/zijie0/HumanSystemOptimization">健康学习到150岁 - 人体系统调优不完全指南</a></p><p><strong>概要：</strong></p><p>本文介绍了神经科学教授 Andrew Huberman 的一些关于提升日常工作、学习表现的方法和工具。其中睡眠是最重要的前提，生物钟对睡眠的控制机理是光照和体温。因此，控制接收光照的时间点、类型和时长以及保持适当的体温可以提升睡眠质量。其他实践包括锻炼、饮食、呼吸和注意力训练等方面。这些方法都基于高质量、peer reviewed 的科学研究成果，可以像调优软件程序那样来 “调优” 我们自身的人体系统。</p>]]></content>
     </entry>
 </feed>
