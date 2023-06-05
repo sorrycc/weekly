@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-02T06:37:26.542Z</updated>
+    <updated>2023-06-05T13:48:41.182Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[前端Rust开发WebAssembly与Swc插件快速入门_咲奈的博客-CSDN博客]]></title>
+        <id>https://sakina.blog.csdn.net/article/details/131028238</id>
+        <link href="https://sakina.blog.csdn.net/article/details/131028238"/>
+        <updated>2023-06-05T10:05:40.846Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sakina.blog.csdn.net/article/details/131028238">前端Rust开发WebAssembly与Swc插件快速入门_咲奈的博客-CSDN博客</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 进行前端开发，包括开发 wasm、swc 插件和代码处理工具。其中，开发 wasm 可以利用浏览器运行 wasm 的优势，在 wasm 中进行大量复杂的计算、音视频、图像处理等；开发 swc 插件可以替代 babel 插件实现代码转换；开发代码处理工具可以借助 Swc 来解析 JavaScript、TypeScript 代码，从而实现代码信息提取、转换、编译等。文章还介绍了如何初始化项目、构建产物和运行二进制包，并指出了各种方法的优缺点。最后，文章强调了不断精进 Rust，组织出更优雅的代码结构，实现更高的执行效率的重要性。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun中的JavaScript宏]]></title>
         <id>https://bun.sh/blog/bun-macros</id>
@@ -209,12 +216,5 @@
         <link href="https://cpojer.net/posts/building-a-company"/>
         <updated>2023-05-23T11:00:18.900Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cpojer.net/posts/building-a-company">I'm Building a Company</a></p><p><strong>概要：</strong></p><p>文章介绍了作者创立的新游戏公司 Nakazawa Tech，以及他们正在制作的第一款游戏 Athena Crisis。作者提到自己希望通过建立这个公司来实现新的个人目标和原则，例如：构建他所希望存在的事物、关注真正重要的事情、创造难忘的体验和艺术等。同时，作者还强调了开源对于公司的重要性，并分享了他们最近发布的一些小型库。最后，作者邀请读者注册早期访问 Athena Crisis，并表示公司正在寻找故事设计师、社区经理和后端托管合作伙伴。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用Sprite-Diffuser修改《帝国时代II》的内容]]></title>
-        <id>https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/</id>
-        <link href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/"/>
-        <updated>2023-05-22T08:31:07.811Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.engine.study/blog/modding-age-of-empires-ii-with-a-sprite-diffuser/">Modding Age of Empires II with a Sprite-Diffuser</a></p><p><strong>概要：</strong></p><p>本文介绍了作者如何利用 Stable Diffusion Web UI 和 Python 创建一个多功能的基于提示的图像生成器，以制作自定义文明精灵。作者在 Photoshop 中使用 Alpaca 开始实验，并尝试在不同风格下生成 Age of Empires II 游戏截图，探索模型的行为和选择保留和丢弃的形状和纹理。作者还使用 Control Net 和 Loopbacks 等技术来优化输出结果，并提出了一些其他的实验和思考。最终，作者认为这种模型非常灵活，未来的游戏可以利用它来种植用户生成的故事或内部开发。</p>]]></content>
     </entry>
 </feed>
