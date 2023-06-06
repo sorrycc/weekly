@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-05T13:48:41.182Z</updated>
+    <updated>2023-06-06T05:42:22.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[一些博客迷思]]></title>
+        <id>https://jvns.ca/blog/2023/06/05/some-blogging-myths/</id>
+        <link href="https://jvns.ca/blog/2023/06/05/some-blogging-myths/"/>
+        <updated>2023-06-06T05:41:07.589Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jvns.ca/blog/2023/06/05/some-blogging-myths/">Some blogging myths</a></p><p><strong>概要：</strong></p><p>本文主要讨论了一些阻止人们写博客的迷思，包括需要原创、需要专家水平、文章必须 100% 正确、写无聊的文章是不好的、需要解释每个概念、页面浏览量很重要以及更多材料总是更好等。作者认为这些迷思都是错误的，并提供了自己的看法和经验。例如，作者认为你只需要了解读者不知道的 1-2 件有趣的事情，而且不必担心预测什么会让人感兴趣。此外，作者还强调了个人故事的重要性，并分享了如何处理评论中的挑剔或恶意言论。最后，作者鼓励人们写博客，并表示他喜欢阅读关于计算机技术的个人故事。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何只用一个JavaScript函数就能画出任何规则的形状 | MDN博客]]></title>
+        <id>https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/</id>
+        <link href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/"/>
+        <updated>2023-06-06T05:38:13.028Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/">How to draw any regular shape with just one JavaScript function | MDN Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 JavaScript 和 <canvas> 元素绘制多边形。作者首先展示了如何绘制六边形，然后通过修改角度和线条数量的方式，演示了如何绘制三角形、正方形和八边形等不同形状。接着，作者将这些代码封装成一个函数，使得用户可以通过传递中心点、半径和边数等参数来绘制不同的多边形。最后，作者提供了一些扩展思路，例如添加内半径、曲线和镶嵌等。文章还介绍了一些用于计算多边形顶点位置的数学和三角函数，以及一些基本的 < canvas > 绘图方法。读者可以在 MDN Web Docs Discord server 上与作者交流。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - cpojer/remdx：美丽的极简主义React & MDX演示文稿]]></title>
+        <id>https://github.com/cpojer/remdx</id>
+        <link href="https://github.com/cpojer/remdx"/>
+        <updated>2023-06-06T05:36:34.492Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/cpojer/remdx">GitHub - cpojer/remdx: Beautiful Minimalist React & MDX Presentations</a></p><p><strong>概要：</strong></p><p>ReMDX 是一个基于 React 和 MDX 的漂亮的极简主义演示文稿创建工具。它提供了一些自定义设置和使用方法，可以通过添加组件来扩展功能。每个幻灯片都可以通过三条横线分隔开，并且可以在顶部插入前置块。它还支持自定义主题和背景图片，并使用 shiki-twoslash 进行代码块样式设置。ReMDX 受到 mdx-deck、Spectacle 和 Slidev 等工具的启发，但是它专注于快速、轻量级和可组合性。如果需要添加新的功能，可以 fork 并提交 PR。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端Rust开发WebAssembly与Swc插件快速入门_咲奈的博客-CSDN博客]]></title>
         <id>https://sakina.blog.csdn.net/article/details/131028238</id>
@@ -195,26 +216,5 @@
         <link href="https://astro.build/blog/astro-250/"/>
         <updated>2023-05-23T11:06:18.103Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-250/">Astro 2.5 | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.5 发布了，其中包括数据集合和引用、混合渲染、自定义客户端指令、HTML 压缩、并行渲染和多态类型助手等功能。数据集合和引用允许用户在 src/content/ 文件夹中存储 JSON 和 YAML 文件，并从其他集合中引用这些数据；混合渲染允许在大多数静态站点中使用服务器路由；自定义客户端指令允许集成作者定义自己的客户端加载机制；HTML 压缩可以选择压缩 Astro 模板；并行渲染可以加速同时进行数据加载的多个组件的渲染；多态类型助手可以定义接受与内置元素相同道具的组件。此外，该版本还包括其他 bug 修复和改进。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[更快的Sandpack Transpiler之旅]]></title>
-        <id>https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler</id>
-        <link href="https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler"/>
-        <updated>2023-05-23T11:05:04.827Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://codesandbox.io/blog/the-journey-to-a-faster-sandpack-transpiler">The Journey To a Faster Sandpack Transpiler</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Sandpack 团队为了解决性能问题而进行的优化和重构工作。他们一开始使用 babel 和 meriyah 进行转译，但是由于需要在客户端上转译更多的代码，他们寻找了一个更快的转译器，最终选择了 Sucrase。然而，Sucrase 在处理大文件时存在问题，因此他们对其进行了优化和重写，使其比 esbuild 更快。接下来，他们决定使用 Rust 语言重写 Sucrase，以获得更好的内存管理和更高的性能。他们首先重写了解析器，使用 Ropey 库和字符向量来提高性能，然后重写了转换器，使用状态字符迭代器和字符串引用来减少拷贝和提高性能。最终，经过测试，新的 Sucrase 比之前的版本快两倍以上，并且还有更多的优化空间。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用Bun.js作为捆绑器]]></title>
-        <id>https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/</id>
-        <link href="https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/"/>
-        <updated>2023-05-23T11:04:24.777Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://shaneosullivan.wordpress.com/2023/05/17/using-bun-js-as-a-bundler/">Using Bun.js as a bundler</a></p><p><strong>概要：</strong></p><p>Bun.js 是一个新的 JavaScript 运行时，旨在实现极速。作者 Jarred Sumner 在 Twitter 上宣布他们已经发布了一个新的代码捆绑器的 beta 版本，展示了与其他捆绑器相比的惊人速度提升。该文章介绍了作者如何使用 Bun.js 来加速他的构建系统，并讨论了他在使用过程中遇到的问题和解决方案。尽管 Bun.js 还处于开发阶段，但其速度和功能使其成为一个非常有用的工具。最后，作者推广了他的一个 iPad / 平板应用程序 KidzFun.art，这是一个适合孩子们画图、做数学题、制作 GIF 等的 PWA 应用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我正在建立一个公司]]></title>
-        <id>https://cpojer.net/posts/building-a-company</id>
-        <link href="https://cpojer.net/posts/building-a-company"/>
-        <updated>2023-05-23T11:00:18.900Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cpojer.net/posts/building-a-company">I'm Building a Company</a></p><p><strong>概要：</strong></p><p>文章介绍了作者创立的新游戏公司 Nakazawa Tech，以及他们正在制作的第一款游戏 Athena Crisis。作者提到自己希望通过建立这个公司来实现新的个人目标和原则，例如：构建他所希望存在的事物、关注真正重要的事情、创造难忘的体验和艺术等。同时，作者还强调了开源对于公司的重要性，并分享了他们最近发布的一些小型库。最后，作者邀请读者注册早期访问 Athena Crisis，并表示公司正在寻找故事设计师、社区经理和后端托管合作伙伴。</p>]]></content>
     </entry>
 </feed>
