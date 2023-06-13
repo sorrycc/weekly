@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-07T02:33:22.448Z</updated>
+    <updated>2023-06-13T02:23:37.570Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun v0.6.8]]></title>
+        <id>https://bun.sh/blog/bun-v0.6.8</id>
+        <link href="https://bun.sh/blog/bun-v0.6.8"/>
+        <updated>2023-06-13T02:08:15.614Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-v0.6.8">Bun v0.6.8</a></p><p><strong>概要：</strong></p><p>Bun 发布了一系列更新，包括引入 JavaScript 打包器、提高性能、实现 node:vm 等功能。最新版本还加入了安全密码哈希 API、函数模拟和 toMatchObject 匹配器，以及实验性的检查员模式。此外，bun:sqlite 的.values () 方法现在返回 [] 而不是 null，同时发布了 bun-devtools 来简化开发人员的工作。该团队正在招聘 C/C++ 和 Zig 工程师，共同构建 JavaScript 的未来。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - evanw/polywasm]]></title>
+        <id>https://github.com/evanw/polywasm</id>
+        <link href="https://github.com/evanw/polywasm"/>
+        <updated>2023-06-13T02:07:26.651Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/polywasm">GitHub - evanw/polywasm</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 polywasm 的 WebAssembly polyfill，它可以在 JavaScript 环境中运行缺少 WebAssembly 实现的.wasm 文件。这个库的存在是为了解决某些现代 JavaScript 环境禁用 WebAssembly 的问题，同时也可以用于调试和玩耍 WebAssembly 执行。该库的局限性包括没有完全验证 WebAssembly、不支持 NaN 位模式等。此外，文章还介绍了该库的性能和实现细节，包括数字表示和 AST 格式以及优化策略等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布v0.18.0 - evanw/esbuild]]></title>
+        <id>https://github.com/evanw/esbuild/releases/tag/v0.18.0</id>
+        <link href="https://github.com/evanw/esbuild/releases/tag/v0.18.0"/>
+        <updated>2023-06-13T02:06:44.327Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/esbuild/releases/tag/v0.18.0">Release v0.18.0 · evanw/esbuild</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 esbuild 的新版本，主要是为了修复一些长期存在的问题，特别是与 tsconfig.json 文件的处理有关。该版本包含了向后不兼容的更改，建议在 package.json 文件中固定 esbuild 的确切版本或使用仅接受补丁升级的版本范围语法。更新内容包括：增加在线试用 esbuild 的方式、更改 TypeScript 装饰器的处理方式、支持 TypeScript 5.0 的多重继承、忽略 node_modules 中的 tsconfig.json 文件等。此外，还添加了针对 Safari 16.2 及更早版本的 bug 的解决方法，并修复了 CSS 嵌套转换的伪元素问题。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[骄傲的动画旗帜]]></title>
         <id>https://www.joshwcomeau.com/animation/pride-flags/</id>
@@ -195,26 +216,5 @@
         <link href="https://deno.com/blog/v1.34"/>
         <updated>2023-05-26T04:12:29.885Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/v1.34">Deno 1.34: deno compile supports npm packages</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Deno 1.34 的更新内容，包括支持 npm 包的 deno compile、在 deno.json 和 CLI 标志中支持 Glob、使用 IP 地址的 TLS 证书等。此外，还有许多改进和错误修复，如配置文件改进、语言服务器改进、Deno API 更改、npm 和 Node 兼容性改进、V8 11.5 和 TypeScript 5.0.4 等。最后，文章还提到了 Deno KV，这是一个全球分布式数据库，现已进入 beta 测试阶段。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node JS与Bun的基准测试]]></title>
-        <id>https://decode.sh/benchmarking-node-js-vs-bun</id>
-        <link href="https://decode.sh/benchmarking-node-js-vs-bun"/>
-        <updated>2023-05-24T00:09:51.755Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://decode.sh/benchmarking-node-js-vs-bun">Benchmarking Node JS vs Bun</a></p><p><strong>概要：</strong></p><p>这篇文章测试了使用 Bun 和 Node 的默认 HTTP 模块进行编译和未编译的性能表现。结果显示，未编译的 Bun 代码是四种方法中最快的，比第二快的未编译 Node 快 250％。尽管 Bun 仍不够稳定并且文档需要改进，但它的速度让人兴奋，可能会在未来的项目中使用。此外，文章还介绍了其他主题，如 Warp Terminal、设置 Node.js 用于生产和 Javascript 循环。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bun v0.6.3]]></title>
-        <id>https://bun.sh/blog/bun-v0.6.3</id>
-        <link href="https://bun.sh/blog/bun-v0.6.3"/>
-        <updated>2023-05-23T16:03:31.793Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-v0.6.3">Bun v0.6.3</a></p><p><strong>概要：</strong></p><p>Bun.js has released support for node:vm, improvements to node:tls and node:http, test.todo(), test timeouts, and better preloading. The release also includes fixes to Bun's bundler, such as a crash when merging adjacent top-level variable declarations, assets copying to an incorrect output path, and minifier bugs involving template literals being incorrectly merged. Additionally, two memory leaks found in fetch() have been fixed, and improvements have been made to console.log(). Changes to WebSocket include a breaking change to publishToSelf behaviour and buffer support in WebSocket messages. Other bug fixes include fs.writeFile({ flag: "a" }) now appending to files instead of overwriting it and N-API finalizers being called with the correct data pointer and finalizer hint.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用TypeScript的React组件库]]></title>
-        <id>https://atlassc.net/2023/05/23/react-component-library-with-typescript</id>
-        <link href="https://atlassc.net/2023/05/23/react-component-library-with-typescript"/>
-        <updated>2023-05-23T11:06:54.357Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://atlassc.net/2023/05/23/react-component-library-with-typescript">React Component Library With TypeScript</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 TypeScript 创建 React 组件库的步骤。首先需要创建一个新目录并初始化 npm 包，然后安装必要的依赖项，包括 TypeScript、React 和 Rollup 等。接下来需要创建 tsconfig.json 和 rollup.config.js 文件，并在 src 目录中创建组件文件。最后可以使用 Rollup 进行打包并测试组件库。通过这些步骤，可以轻松地创建自己的基于 TypeScript 的 React 组件库。</p>]]></content>
     </entry>
 </feed>
