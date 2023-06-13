@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-13T02:23:37.570Z</updated>
+    <updated>2023-06-13T03:19:11.237Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Astro 2.6: 中间件 | Astro]]></title>
+        <id>https://astro.build/blog/astro-260/</id>
+        <link href="https://astro.build/blog/astro-260/"/>
+        <updated>2023-06-13T03:11:44.817Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-260/">Astro 2.6: Middleware | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.6 是一个大版本更新，包括几个实验性功能已经被标记为稳定，并且可以在所有 Astro 项目中使用。这些功能包括 Middleware、Hybrid SSR 输出模式、自定义客户端指令和 CSS 内联等。此外，Astro 2.6 还引入了新功能和改进，包括管理重定向的实验性功能、Markdoc 改进和语言工具改进等。Astro 2.6 的更新由社区成员贡献，其中一些功能最初是通过公共路线图和 RFC 过程提出的。Astro 团队还与 Stripe 的 Markdoc 团队密切合作，以改善 Astro 中的 Markdoc 支持。Astro 的语言工具也得到了升级，包括 Astro VSCode 扩展和 Astro 语言服务器。Astro 团队使用 Volar 框架来提高语言工具的性能和稳定性。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NakedJSX - 在没有React的情况下使用JSX]]></title>
+        <id>https://nakedjsx.org/</id>
+        <link href="https://nakedjsx.org/"/>
+        <updated>2023-06-13T02:35:25.153Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nakedjsx.org/">NakedJSX - Use JSX without React</a></p><p><strong>概要：</strong></p><p>NakedJSX 是一个命令行工具，可以从 JSX 生成 HTML 文件。输出的内容是纯 HTML 和 CSS，除非你选择添加自己的 JavaScript。它不需要设置 Node.js 项目，只需在 NakedJSX 内容目录上运行 npx 命令即可构建站点到输出文件夹中。它还提供了一个带有实时刷新构建和 Web 服务器的开发模式，并提供了一个可选的小型运行时，允许客户端 JavaScript 使用 JSX。NakedJSX 支持多种功能，包括嵌套 CSS、CSS 最小化和去重、图像转换为 webp 格式等。NakedJSX 的设计哲学是纯 HTML 和 CSS 输出、低摩擦、API 稳定性、保守依赖选择和安全合规。该项目目前处于设计更改的状态，但反馈非常受欢迎。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - HeyPuter/kv.js：用于JavaScript的高级内存缓存模块。]]></title>
+        <id>https://github.com/HeyPuter/kv.js</id>
+        <link href="https://github.com/HeyPuter/kv.js"/>
+        <updated>2023-06-13T02:35:02.009Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/HeyPuter/kv.js">GitHub - HeyPuter/kv.js: Advanced in-memory caching module for JavaScript.</a></p><p><strong>概要：</strong></p><p>KV.JS 是一个快速的纯 JavaScript 内存数据存储，受到 Redis 和 Memcached 的启发。它能够处理多种数据类型，包括字符串、列表、集合、排序集、哈希和地理空间索引。此外，KV.JS 支持超过 140 个函数，涵盖了从 SET、GET、EXPIRE、DEL 到 INCR、DECR、LPUSH、RPUSH、SADD、SREM、HSET、HGET 等广泛的操作。它适用于需要缓存但运行 Redis 会过度的场景。该项目遵循 MIT 许可证发布。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在WebContainers中已经支持npm、yarn和pnpm。]]></title>
+        <id>https://blog.stackblitz.com/posts/announcing-native-package-manager-support/</id>
+        <link href="https://blog.stackblitz.com/posts/announcing-native-package-manager-support/"/>
+        <updated>2023-06-13T02:33:49.359Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.stackblitz.com/posts/announcing-native-package-manager-support/">npm, yarn and pnpm are now supported natively in WebContainers</a></p><p><strong>概要：</strong></p><p>WebContainers 团队一直在不断改进和重构其构建模块，以确保其速度和安全性。去年他们已经为 WebContainers 提供了 pnpm 和 yarn 的本地支持，现在他们又宣布了 npm 的本地支持，这将使得开发者可以在 StackBlitz 上无缝使用所有主要的包管理器。此外，他们还实现了比本地快 5 倍的速度，这是通过多年的研究和加速依赖项解析和快速磁盘链接来实现的。同时，他们也宣布将于 2024 年 1 月 1 日废弃 Turbo，转而支持原生的 npm。在这个过程中，可能会出现一些兼容性问题，但 WebContainers 团队已经在努力解决这些问题，并承诺将在未来几周内发布更多功能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何用稳定扩散法制作二维码 - 稳定扩散法艺术]]></title>
+        <id>https://stable-diffusion-art.com/qr-code/</id>
+        <link href="https://stable-diffusion-art.com/qr-code/"/>
+        <updated>2023-06-13T02:29:06.404Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://stable-diffusion-art.com/qr-code/">How to make a QR code with Stable Diffusion - Stable Diffusion Art</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用 Stable Diffusion 生成艺术 QR 码。首先需要生成一个高容错率的 QR 码，然后使用 AUTOMATIC1111 Stable Diffusion GUI 进行图像处理。通过调整参数和添加提示，可以生成类似于 QR 码的艺术图像。文章还提供了一些其他提示和示例，包括机械女孩、日本女孩、机器人和户外市场等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS Sonoma 14 Beta上的网络应用]]></title>
+        <id>https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/</id>
+        <link href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/"/>
+        <updated>2023-06-13T02:26:14.701Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/">Web Apps on macOS Sonoma 14 Beta</a></p><p><strong>概要：</strong></p><p>本文介绍了苹果公司在 macOS Sonoma 中推出的可安装 Web 应用程序。这些应用程序高度集成在整个 macOS 体验中，不显示任何 Safari 用户界面。用户可以通过将网站添加到 Dock 来安装应用程序，并可以自定义名称和图标。这些应用程序支持 AutoFill 凭据、摄像头、麦克风和位置权限，并且支持 Web 推送、标记和所有通常由 WebKit 实现的 Web 标准。文章还列出了一些对苹果公司的建议和 Chrome 的改进建议。总之，Web 应用程序在 macOS 上具有巨大的潜力，并且可以成功地融入操作系统体验。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun v0.6.8]]></title>
         <id>https://bun.sh/blog/bun-v0.6.8</id>
@@ -174,47 +216,5 @@
         <link href="https://pkolaczk.github.io/memory-consumption-of-async/"/>
         <updated>2023-05-29T09:52:11.366Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pkolaczk.github.io/memory-consumption-of-async/">How Much Memory Do You Need to Run 1 Million Concurrent Tasks?</a></p><p><strong>概要：</strong></p><p>本文对比了异步和多线程编程在 Rust、Go、Java、C#、Python、Node.js 和 Elixir 等流行语言中的内存消耗。作者创建了一个基准程序，通过同时启动 N 个任务并等待它们完成来测试各种语言的内存消耗。结果显示，不同语言的运行时具有不同的权衡，有些轻量级且适用于少量任务，但随着任务数量的增加而扩展性差，而另一些初始开销高，可以轻松处理高工作负载。文章还指出，除了内存消耗之外，任务启动时间和通信速度等其他因素也同样重要。值得注意的是，在启动 100,000 个任务时，有些程序已经无法正常工作。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[写总结比读更多的书更重要 - Andreas Fragner]]></title>
-        <id>https://www.andreasfragner.com/writing/writing-summaries</id>
-        <link href="https://www.andreasfragner.com/writing/writing-summaries"/>
-        <updated>2023-05-29T09:51:33.514Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.andreasfragner.com/writing/writing-summaries">Writing summaries is more important than reading more books — Andreas Fragner</a></p><p><strong>概要：</strong></p><p>本文作者认为，阅读并非追求页数或速度，而是要注重理解和思考。为了提高理解能力，读者需要在阅读时自问问题，并尝试回答这些问题。作者建议使用一个简单的框架来写书摘，包括总结书籍主旨、中心问题和个人所学到的重要内容。此外，作者还介绍了两种选择好书的方法：主题阅读和检视阅读。最后，作者提出了另一种分享阅读体验的方式，即与他人讨论所读书籍的思想和观点。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - MineDojo/Voyager：一个具有大型语言模型的开放式体现型代理]]></title>
-        <id>https://github.com/MineDojo/Voyager</id>
-        <link href="https://github.com/MineDojo/Voyager"/>
-        <updated>2023-05-27T06:55:10.187Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/MineDojo/Voyager">GitHub - MineDojo/Voyager: An Open-Ended Embodied Agent with Large Language Models</a></p><p><strong>概要：</strong></p><p>本文介绍了 Voyager，这是一个基于大型语言模型的具有开放式体验的生命学习代理，可以在 Minecraft 中持续探索世界、获得多样化技能并进行新颖的发现。Voyager 包括三个关键组成部分：1）自动课程设置，最大限度地促进探索；2）可执行代码的不断增长的技能库，用于存储和检索复杂行为；3）一种新的迭代提示机制，结合环境反馈、执行错误和自我验证以改进程序。Voyager 通过黑盒查询与 GPT-4 交互，避免了模型参数微调的需要。经验上，Voyager 表现出强大的场景下的生命学习能力，并展示了在玩 Minecraft 方面的卓越熟练度。它获得了比先前 SOTA 更多的独特物品（3.3 倍）、行程更长（2.3 倍），以及解锁关键技术树里程碑的速</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7.22.0版发布：明确的资源管理支持和导入属性解析 - Babel]]></title>
-        <id>https://babeljs.io/blog/2023/05/26/7.22.0</id>
-        <link href="https://babeljs.io/blog/2023/05/26/7.22.0"/>
-        <updated>2023-05-27T04:50:50.460Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://babeljs.io/blog/2023/05/26/7.22.0">7.22.0 Released: Explicit Resource Management support and Import Attributes parsing · Babel</a></p><p><strong>概要：</strong></p><p>Babel 7.22.0 发布了，支持解析 / 转换明确资源管理提案的同步和异步变体，并支持导入属性的解析。此外，更新了装饰器的实现，添加了对 TypeScript 导入和导出语句的支持，以及将所有稳定 ECMAScript 功能的插件从 “-proposal-” 重命名为 “-transform-”。Babel 还提供 Open Collective 捐赠和直接与其合作实现新的 ECMAScript 提案的机会。更新还包括：明确资源管理、导入属性、装饰器更新和重命名软件包等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - vanjs-org/van: 🍦VanJS（Vanilla JavaScript）：世界上最小的反应式UI框架]]></title>
-        <id>https://github.com/vanjs-org/van</id>
-        <link href="https://github.com/vanjs-org/van"/>
-        <updated>2023-05-26T04:14:24.030Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vanjs-org/van">GitHub - vanjs-org/van: 🍦VanJS (Vanilla JavaScript): World's smallest reactive UI framework</a></p><p><strong>概要：</strong></p><p>VanJS 是一个超轻量级、零依赖和无偏见的反应式 UI 框架，基于纯粹的 vanilla JavaScript 和 DOM。它提供了声明性 DOM 树组合、可重用组件、响应式状态绑定等功能，类似于 React，但不需要 React、JSX、转换、虚拟 DOM 或任何隐藏逻辑。VanJS 非常容易学习，只有四个导出函数在 API 中，并且提供了 TypeScript 支持。它的打包大小仅为 1.2kB，比大多数流行的 UI 框架小 100 倍以上。VanJS 旨在通过降低 UI 编程的入门门槛来构建更好的世界，没有商业化的意图或计划。如果您发现 VanJS 有趣或将来可能对您有用，请考虑支持该项目。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年如何免费托管你的副业项目：从Auth到数据库]]></title>
-        <id>https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im</id>
-        <link href="https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im"/>
-        <updated>2023-05-26T04:13:50.663Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/livecycle/how-to-host-your-side-projects-for-free-in-2023-from-auth-to-database-42im">How to host your side-projects for free in 2023: from Auth to Database</a></p><p><strong>概要：</strong></p><p>本文介绍了如何在 2023 年免费托管你的项目。涵盖了身份验证、数据库、网站托管、后端托管、定时任务和键值存储等方面。Clerk 可用于处理用户身份验证，PlanetScale 提供 MySQL 数据库服务，Vercel 和 Netlify 可用于网站托管，Fly.io 适用于 Docker 镜像托管，Upstash 则提供定时任务和 Redis 缓存服务。这些服务可以帮助你免费托管你的项目，并且随着你的项目发展，它们也可以进行扩展。这些服务都是基于无服务器技术，因为无服务器技术可以根据需要自动缩放，从而使成本保持低廉。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno 1.34: deno编译支持npm包]]></title>
-        <id>https://deno.com/blog/v1.34</id>
-        <link href="https://deno.com/blog/v1.34"/>
-        <updated>2023-05-26T04:12:29.885Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/v1.34">Deno 1.34: deno compile supports npm packages</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Deno 1.34 的更新内容，包括支持 npm 包的 deno compile、在 deno.json 和 CLI 标志中支持 Glob、使用 IP 地址的 TLS 证书等。此外，还有许多改进和错误修复，如配置文件改进、语言服务器改进、Deno API 更改、npm 和 Node 兼容性改进、V8 11.5 和 TypeScript 5.0.4 等。最后，文章还提到了 Deno KV，这是一个全球分布式数据库，现已进入 beta 测试阶段。</p>]]></content>
     </entry>
 </feed>
