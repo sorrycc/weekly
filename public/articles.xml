@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-15T10:23:45.552Z</updated>
+    <updated>2023-06-15T10:40:42.623Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - 7PH/powerglitch：小小的JS库，可以让网络上的任何东西出现故障。]]></title>
+        <id>https://github.com/7PH/powerglitch</id>
+        <link href="https://github.com/7PH/powerglitch"/>
+        <updated>2023-06-15T10:40:37.360Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/7PH/powerglitch">GitHub - 7PH/powerglitch: Tiny JS library to glitch anything on the web</a></p><p><strong>概要：</strong></p><p>PowerGlitch 是一个独立的库，无需外部依赖。它利用 CSS 动画在网页上产生任何故障效果，无需使用 canvas。其压缩后的大小不到 2kb。你可以通过包管理器安装 PowerGlitch，或者在脚本标签中导入网络捆绑包（或将其保存在本地）。然后找到一个元素进行故障处理，导入 PowerGlitch，就可以使元素出现故障效果了。该项目还提供了优化和使用技巧的使用指南。此外，PowerGlitch 还支持 React 和 Vue 的集成。如果你遇到问题、发现错误或想要贡献，欢迎开放问题或创建拉取请求。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；为Mac平台自动提取短信验证码，2FHey的免费替代品]]></title>
         <id>https://github.com/LeeeSe/MessAuto</id>
@@ -209,12 +216,5 @@
         <link href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load"/>
         <updated>2023-05-29T12:35:49.355Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load">3 ways to find your worst JavaScript offenders for page load</a></p><p><strong>概要：</strong></p><p>本文介绍了三种方法来评估 JavaScript 文件在页面加载中的影响。首先，使用 Lighthouse Treemap 根据字节大小排名 JavaScript 文件和模块，以便快速找出最大的依赖项。其次，使用 Chrome Dev Tools 性能选项卡根据脚本运行时间排名单个域的所有脚本。最后，使用 WebPageTest 根据阻塞时间排名脚本来源。作者建议使用这些方法来找到可以快速优化的低垂果实，然后再着手解决更复杂的问题。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在React Router v6测试中避免嘲弄？]]></title>
-        <id>https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/</id>
-        <link href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/"/>
-        <updated>2023-05-29T12:35:28.875Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/">How to Avoid Mocking in React Router v6 Tests</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 React Router (v6) 测试应用程序，并提供了一个示例包装函数，以帮助您可靠地测试页面导航。这个包装函数建立在 React Testing Library（RTL）的 render () 函数之上，并抽象了一个数据路由器提供者，以便您可以在不模拟的情况下进行编程测试。文章还介绍了 renderWithRouter 函数的实现和测试用例，并提供了一个 codesandbox 示例。最后，作者提到了关于测试主题的后续计划，包括如何避免 mocking。</p>]]></content>
     </entry>
 </feed>
