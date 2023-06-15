@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-15T10:40:42.623Z</updated>
+    <updated>2023-06-15T10:48:43.152Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[完成你的项目]]></title>
+        <id>https://github.com/readme/guides/finish-your-projects</id>
+        <link href="https://github.com/readme/guides/finish-your-projects"/>
+        <updated>2023-06-15T10:41:48.487Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/readme/guides/finish-your-projects">Finish your projects</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了如何完成一个项目的挑战，以及完成一个项目所带来的满足感。开始一个新项目总是充满无限可能性和乐趣，但随着时间的推移，这种快乐会逐渐变成痛苦的工作。许多人在这个阶段失去了兴趣，放弃了项目。然而，只有坚持到最后，完成项目的人才能体验到深深的满足感。
+
+完成一个项目需要付出努力，也需要勇气。首先，你需要接受这个事实：完成一个项目不可能一直都是有趣的。你必须习惯于项目的最后 10% 的艰苦奋斗。其次，你需要克服发布项目的恐惧，这通常源自于害怕自己的工作和自己受到批评。
+
+作者分享了他的生产力方法：设定一段时间，提前决定要做什么，全力以赴地专注于那件事。他还建议找出适合自己的方式，给自己每一个可能的优势，因为完成工作是困难的。
+
+完成一个项目本身就是一种奖励。无论项目的结果如何，你都应该为自己感到骄傲，因为你已经完成了一项任务。你是一个能够完成事情的人。不断地完成项目，你的工作成果将随着时间的推移而增长。完成是一种技能，你可以磨练它。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - 7PH/powerglitch：小小的JS库，可以让网络上的任何东西出现故障。]]></title>
         <id>https://github.com/7PH/powerglitch</id>
@@ -209,12 +222,5 @@
         <link href="https://www.jntrnr.com/why-i-left-rust/"/>
         <updated>2023-05-29T12:36:21.559Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jntrnr.com/why-i-left-rust/">Why I left Rust</a></p><p><strong>概要：</strong></p><p>文章主要讲述了作者为何离开 Rust 项目。起因是 JeanHeyd Meneide 被选为 RustConf 的主题演讲嘉宾，但由于他在博客中对 Rust 反射的看法引起了一些团队成员的不满，导致 Rust 领导层将其从主题演讲嘉宾降级为普通演讲嘉宾。作者认为这样的行为极度不尊重专家，并且暴露了 Rust 组织的冷酷和无情。此外，JeanHeyd 曾批评 Rust 缺乏黑人代表性，因此作者也认为这次事件背后可能还有更深层次的问题。最后，作者呼吁 Rust 组织要对这次事件负责并采取措施避免类似事件再次发生。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3种方法来找到你最糟糕的页面加载的JavaScript违规者]]></title>
-        <id>https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load</id>
-        <link href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load"/>
-        <updated>2023-05-29T12:35:49.355Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load">3 ways to find your worst JavaScript offenders for page load</a></p><p><strong>概要：</strong></p><p>本文介绍了三种方法来评估 JavaScript 文件在页面加载中的影响。首先，使用 Lighthouse Treemap 根据字节大小排名 JavaScript 文件和模块，以便快速找出最大的依赖项。其次，使用 Chrome Dev Tools 性能选项卡根据脚本运行时间排名单个域的所有脚本。最后，使用 WebPageTest 根据阻塞时间排名脚本来源。作者建议使用这些方法来找到可以快速优化的低垂果实，然后再着手解决更复杂的问题。</p>]]></content>
     </entry>
 </feed>
