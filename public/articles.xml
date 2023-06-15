@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-13T03:19:11.237Z</updated>
+    <updated>2023-06-15T10:23:45.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；为Mac平台自动提取短信验证码，2FHey的免费替代品]]></title>
+        <id>https://github.com/LeeeSe/MessAuto</id>
+        <link href="https://github.com/LeeeSe/MessAuto"/>
+        <updated>2023-06-15T10:23:31.622Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/LeeeSe/MessAuto">GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；Automatic extraction of SMS verification code for Mac platform, free alternatives to 2FHey</a></p><p><strong>概要：</strong></p><p>MessAuto 是一款由 Rust 开发的 macOS 平台软件，能自动提取短信验证码并粘贴回车。它可以在任何 APP 中使用，是 2FHey 的免费替代品。该软件支持多语言，占用存储和内存较小，没有 GUI，只有一个任务栏托盘图标。使用方法是通过菜单栏操作，包括自动粘贴、自动回车、暂时隐藏、永久隐藏和登录时启动等功能。但需要注意的是，ARM64 版本打开时可能会提示文件损坏，因为需要 Apple 开发者签名才能正常启动。作者开发这款软件的初衷是希望将 Safari 浏览器的自动获取验证码功能扩展到所有 APP 上。使用此软件需要 macOS 系统，并能接收 iPhone 的短信，还需要完全磁盘访问权限和辅助功能权限。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你可以停止对React.FC的憎恨]]></title>
+        <id>https://www.totaltypescript.com/you-can-stop-hating-react-fc</id>
+        <link href="https://www.totaltypescript.com/you-can-stop-hating-react-fc"/>
+        <updated>2023-06-15T08:47:44.021Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/you-can-stop-hating-react-fc">You Can Stop Hating React.FC</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 5.1 和 React 18 中 React.FC 的改进，使其成为一种完全可行的组件类型定义方式。React.FC 曾经因为在 props 类型中默认包含 children 而备受争议，但现在已经不再包含 children，并且可以返回 undefined、string 或 number。虽然作者仍然建议直接注释 props 来定义组件类型，但是如果你的代码库中使用了 React.FC，也没有必要将其移除。总之，React.FC 不再是一个反模式，而是一种可选的组件类型定义方式。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Astro 2.6: 中间件 | Astro]]></title>
         <id>https://astro.build/blog/astro-260/</id>
@@ -202,19 +216,5 @@
         <link href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/"/>
         <updated>2023-05-29T12:35:28.875Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://webup.org/blog/how-to-avoid-mocking-in-react-router-v6-tests/">How to Avoid Mocking in React Router v6 Tests</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 React Router (v6) 测试应用程序，并提供了一个示例包装函数，以帮助您可靠地测试页面导航。这个包装函数建立在 React Testing Library（RTL）的 render () 函数之上，并抽象了一个数据路由器提供者，以便您可以在不模拟的情况下进行编程测试。文章还介绍了 renderWithRouter 函数的实现和测试用例，并提供了一个 codesandbox 示例。最后，作者提到了关于测试主题的后续计划，包括如何避免 mocking。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React应用中的状态管理]]></title>
-        <id>https://reacthandbook.dev/state-management</id>
-        <link href="https://reacthandbook.dev/state-management"/>
-        <updated>2023-05-29T12:35:04.783Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://reacthandbook.dev/state-management">State Management in React Applications</a></p><p><strong>概要：</strong></p><p>本文介绍了在 React 应用程序中管理应用状态的一种非常灵活的方法。具体而言，这适用于 SPA（单页应用程序）构建架构。本指南的目标受众是 React 工程师和架构师，他们不是初学者，要么正在寻求构建新应用程序的指导，要么正在理解其他人为他们所工作的应用程序做出的决策。本文详细介绍了 5 种不同类型的 React 应用程序状态，并探讨了使用 React API、数据获取库和全局存储来管理这些状态的最佳实践。同时，本文还提到了一些常见的 React 生态系统中的库，如 Redux、Zustand、Jotai 等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你需要多少内存来运行100万个并发任务？]]></title>
-        <id>https://pkolaczk.github.io/memory-consumption-of-async/</id>
-        <link href="https://pkolaczk.github.io/memory-consumption-of-async/"/>
-        <updated>2023-05-29T09:52:11.366Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pkolaczk.github.io/memory-consumption-of-async/">How Much Memory Do You Need to Run 1 Million Concurrent Tasks?</a></p><p><strong>概要：</strong></p><p>本文对比了异步和多线程编程在 Rust、Go、Java、C#、Python、Node.js 和 Elixir 等流行语言中的内存消耗。作者创建了一个基准程序，通过同时启动 N 个任务并等待它们完成来测试各种语言的内存消耗。结果显示，不同语言的运行时具有不同的权衡，有些轻量级且适用于少量任务，但随着任务数量的增加而扩展性差，而另一些初始开销高，可以轻松处理高工作负载。文章还指出，除了内存消耗之外，任务启动时间和通信速度等其他因素也同样重要。值得注意的是，在启动 100,000 个任务时，有些程序已经无法正常工作。</p>]]></content>
     </entry>
 </feed>
