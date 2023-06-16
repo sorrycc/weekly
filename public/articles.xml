@@ -2,11 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-15T10:48:43.152Z</updated>
+    <updated>2023-06-16T05:55:33.352Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[宣布Tauri 1.4.0 | Tauri Apps]]></title>
+        <id>https://tauri.app/blog/2023/06/14/tauri-1-4/</id>
+        <link href="https://tauri.app/blog/2023/06/14/tauri-1-4/"/>
+        <updated>2023-06-16T04:46:06.846Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tauri.app/blog/2023/06/14/tauri-1-4/">Announcing Tauri 1.4.0 | Tauri Apps</a></p><p><strong>概要：</strong></p><p>Tauri 团队宣布推出 1.4 版本。这个版本包括了一些新功能和重要的错误修复，比如 CLI 补全、单元测试能力和 Windows 安装程序的改进。确保更新 NPM 和 Cargo 依赖到 1.4.0 版本。Tauri CLI 现在可以为 Bash、Zsh、PowerShell 和 Fish 生成 shell 补全。窗口的最大化、最小化和关闭按钮现在可以通过配置或 API 调用来禁用。1.4.0 版本包括了几项 NSIS 捆绑增强：自定义语言文件、自定义安装模板（.nsi 文件）、支持荷兰语、日语、韩语、波斯语、瑞典语和土耳其语等。如果你的应用程序是通过 WiX 安装的，安装程序会提示用户卸载它。Tauri 1.4 仍然支持 Rust 1.60 版本，但由于一些依赖性不兼容问题，我们不再固定 time, ignore, 和 winnow crate 的补丁版本。tauri crate 现在在 test Cargo feature 下暴露了 test 模块。这个模块还不稳定，但允许你通过创建一个可以在不生成窗口的情况下执行的 tauri::App 实例来对你的应用程序进行单元测试。从 v1.4.0 开始，我们的更新日志格式已经得到了改进。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fresh 1.2 - 欢迎全职维护者，在岛屿之间共享状态，有限的npm支持，以及更多]]></title>
+        <id>https://deno.com/blog/fresh-1.2</id>
+        <link href="https://deno.com/blog/fresh-1.2"/>
+        <updated>2023-06-16T04:45:27.494Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/fresh-1.2">Fresh 1.2 – welcoming a full-time maintainer, sharing state between islands, limited npm support, and more</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Fresh 1.0，一种现代化、以 Deno 为首的全栈 Web 框架。自去年推出以来，Fresh 在 GitHub 上获得了大量的关注，并取得了显著的增长。然而，对于 Deno 团队是否会持续维护 Fresh，人们一直有疑问。尽管团队一直表示会坚定不移地维护，但现实情况更为复杂。由于主要维护者没有足够的时间专注于 Fresh，因此很多问题得不到及时解决。
+
+为了改变这种情况，团队找到了新的主要维护者 Marvin Hagemeister，他是 Preact 的维护者和 Preact DevTools 的构建者。他将全职领导 Fresh 项目的开发。预计在未来几个月内，Fresh 在易用性、功能、性能和项目维护等方面都将有显著的提升。
+
+最后，文章介绍了 Fresh 1.2 的一些亮点特性，包括传递信号、Uint8Arrays 和循环数据到岛屿属性，支持自定义 HEAD 处理器，HandlerContext.render 的状态和头部覆盖，./islands 文件夹中的子目录，异步插件渲染，简化 Fresh 项目的测试等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js中的调试介绍]]></title>
+        <id>https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/</id>
+        <link href="https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/"/>
+        <updated>2023-06-16T04:44:13.520Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/">An introduction to debugging in Node.js</a></p><p><strong>概要：</strong></p><p>本文主要讲解了 Node.js 的调试技巧。Node.js 是一种使用 Google Chrome 浏览器的 V8 引擎的流行 JavaScript 运行时，可用于创建服务器端 Web 应用、构建工具、命令行应用等。然而，当代码出现问题时，情况就不那么明朗了。调试是修复软件缺陷的艺术，找到错误原因可能需要花费大量时间。
+
+为避免错误，作者提出了以下建议：使用带有行号、颜色编码、linting、自动完成、括号匹配、参数提示等功能的好的代码编辑器；使用像 Git 这样的源代码控制系统来管理代码修订；采用像 Jira、FogBugz 或 Bugzilla 这样的 bug 跟踪系统；使用测试驱动开发（TDD）；尝试代码解释或配对编程等技术与其他开发人员合作。
+
+此外，文章还介绍了如何通过环境变量、命令行选项、控制台日志、Node.js V8 检查器以及 VS Code 等方式进行 Node.js 调试。最后，文章还提供了一份关于调试的术语表，以帮助读者更好地理解调试过程中可能遇到的各种专业术语。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[完成你的项目]]></title>
         <id>https://github.com/readme/guides/finish-your-projects</id>
@@ -201,26 +230,5 @@
         <link href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html"/>
         <updated>2023-05-29T12:53:59.400Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html">如何做在创业小厂里做技术领导</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了在创业小厂中如何找到技术研发带头人以及如何管理技术团队。作者认为，技术领导的首要工作是提升团队的短板，可以通过工具、流程、规范等手段来实现。推荐使用 Git、自动化测试、代码静态分析、故障收集等工具来提升代码质量；同时，建议采用敏捷开发方法，包括每日立会、需求评审会、技术评审会等流程来保证团队稳定可靠高效地输出技术产品。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - vadimdemedes/pastel: 🎨类似Next.js的框架，用于用Ink制作的CLI。]]></title>
-        <id>https://github.com/vadimdemedes/pastel</id>
-        <link href="https://github.com/vadimdemedes/pastel"/>
-        <updated>2023-05-29T12:50:43.689Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vadimdemedes/pastel">GitHub - vadimdemedes/pastel: 🎨 Next.js-like framework for CLIs made with Ink</a></p><p><strong>概要：</strong></p><p>Pastel 是一个基于 Ink 开发的类似于 Next.js 的 CLI 框架。它允许用户在 commands 文件夹中创建文件来添加命令，支持定义选项和参数，并使用 Zod 实现完全类型安全。此外，Pastel 还自动生成命令、选项和参数的帮助信息，并在底层使用经过测试的 Commander 包。Pastel 可以通过 create-pastel-app 快速搭建一个带有 TypeScript、linter 和测试设置的应用程序，也可以手动设置新项目并安装 Pastel 和 TypeScript。 Pastel 支持索引命令、默认命令、子命令和别名，并支持字符串、数字、布尔、枚举、数组和集合等类型的选项和参数。Pastel 还允许用户自定义应用程序名称、描述和版本，并提供了一组 API 来初始化 Pastel 应用程序并运行它们。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React API的演变和代码重用]]></title>
-        <id>https://frontendmastery.com/posts/the-evolution-of-react-patterns/</id>
-        <link href="https://frontendmastery.com/posts/the-evolution-of-react-patterns/"/>
-        <updated>2023-05-29T12:39:54.110Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://frontendmastery.com/posts/the-evolution-of-react-patterns/">The evolution of React APIs and code reuse</a></p><p><strong>概要：</strong></p><p>本文介绍了 React 的演变历程和不同的代码重用模式，深入探讨了它们背后的思维模型和权衡。从最初的 Mixins 到 Higher-order components、Render props 和 Hooks，React 逐渐发展出更加简洁、灵活和易于理解的编程范式。作者指出，React 是一个提供低级原语的库，强调构建在稳定基础之上的架构和模式，以及应该优先考虑用户体验而非开发者体验。同时，随着 React 扩展到客户端和服务器端，我们需要更好地理解全栈 React 的边界和组合方式，以便更好地进行本地推理和代码管理。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我为什么离开拉斯特]]></title>
-        <id>https://www.jntrnr.com/why-i-left-rust/</id>
-        <link href="https://www.jntrnr.com/why-i-left-rust/"/>
-        <updated>2023-05-29T12:36:21.559Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jntrnr.com/why-i-left-rust/">Why I left Rust</a></p><p><strong>概要：</strong></p><p>文章主要讲述了作者为何离开 Rust 项目。起因是 JeanHeyd Meneide 被选为 RustConf 的主题演讲嘉宾，但由于他在博客中对 Rust 反射的看法引起了一些团队成员的不满，导致 Rust 领导层将其从主题演讲嘉宾降级为普通演讲嘉宾。作者认为这样的行为极度不尊重专家，并且暴露了 Rust 组织的冷酷和无情。此外，JeanHeyd 曾批评 Rust 缺乏黑人代表性，因此作者也认为这次事件背后可能还有更深层次的问题。最后，作者呼吁 Rust 组织要对这次事件负责并采取措施避免类似事件再次发生。</p>]]></content>
     </entry>
 </feed>
