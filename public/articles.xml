@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-16T05:55:33.352Z</updated>
+    <updated>2023-06-16T06:12:43.278Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GPT-4的本地JSON输出]]></title>
+        <id>https://yonom.substack.com/p/native-json-output-from-gpt-4</id>
+        <link href="https://yonom.substack.com/p/native-json-output-from-gpt-4"/>
+        <updated>2023-06-16T05:57:17.063Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://yonom.substack.com/p/native-json-output-from-gpt-4">Native JSON Output From GPT-4</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 OpenAI 在 2023 年 6 月 13 日发布的新功能 —— 函数调用，该功能使得在产品中集成大型语言模型（LLMs）时生成结构化数据（如 JSON）变得更简单。文章通过一个名为 “食谱创建器” 的演示应用来说明这个新功能的使用方法和优点。
+
+新 API 引入了两个新参数：functions（一个包含可供 GPT 使用的函数数组，每个函数都有名称、描述和参数的 JSON Schema）和 function_call（可选地指定无或 { "name": "<function_name>" }，可以强制 GPT 使用特定函数，或明确禁止调用任何函数）。通过设置 function_call 参数，你可以从 GPT 调用中可靠地获取 JSON 响应，而不再是字符串。
+
+此外，新 API 还改变了我们与 OpenAI LLMs 交互的方式，除了明显的插件使用案例外，还可以生成 JSON 输出。以前需要通过提示工程来完成这一步骤，但这种方法对于简单的情况效果良好，但容易出错。现在，通过对大型语言模型的低级访问，你可以做得更好。例如，通过降低令牌使用，可以使 API 调用更快、更便宜。
+
+最后，作者认为新 API 的另一个优点是减少了生成正确输出所需的提示工程，使得 LLMs 更容易作为无代码后端使用。并且，OpenAI 的 API 似乎支持 JSON Schema 的特性，如 #ref（递归）和 oneOf（多选），意味着你应该能够在单个 API 请求中通过 JSON schema 实现更复杂的代理和递归思考过程。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[宣布Tauri 1.4.0 | Tauri Apps]]></title>
         <id>https://tauri.app/blog/2023/06/14/tauri-1-4/</id>
@@ -223,12 +236,5 @@
         <link href="https://blog.rust-lang.org/2023/05/29/RustConf.html"/>
         <updated>2023-05-30T10:49:43.151Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/05/29/RustConf.html">On the RustConf keynote | Rust Blog</a></p><p><strong>概要：</strong></p><p>2023 年 5 月 26 日，JeanHeyd Meneide 宣布他们不再在 RustConf 2023 上发言。他们被邀请在会议上发表主题演讲，但两周后被告知该演讲将被降级为普通演讲，原因是 Rust 项目领导层做出的决定。这个决定是错误的，我们首先要公开道歉造成的伤害。我们辜负了你，JeanHeyd。邀请后降低演讲的想法是侮辱性的，任何领导人都不应该愿意接受。领导层正在努力全面弄清楚发生了什么以及如何防止这种情况再次发生。然而，我们希望分享一些措施，以减少类似事件再次发生的风险。失败的主要原因是领导层聊天的决策和沟通过程。领导层聊天是在 2021 年底前的 Moderation Team 辞</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何做在创业小厂里做技术领导]]></title>
-        <id>https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html</id>
-        <link href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html"/>
-        <updated>2023-05-29T12:53:59.400Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/management/how-to-be-a-tech-leader-in-startup.html">如何做在创业小厂里做技术领导</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了在创业小厂中如何找到技术研发带头人以及如何管理技术团队。作者认为，技术领导的首要工作是提升团队的短板，可以通过工具、流程、规范等手段来实现。推荐使用 Git、自动化测试、代码静态分析、故障收集等工具来提升代码质量；同时，建议采用敏捷开发方法，包括每日立会、需求评审会、技术评审会等流程来保证团队稳定可靠高效地输出技术产品。</p>]]></content>
     </entry>
 </feed>
