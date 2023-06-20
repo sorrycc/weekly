@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-16T06:12:43.278Z</updated>
+    <updated>2023-06-20T04:17:36.279Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[你不能相信谷歌]]></title>
+        <id>https://world.hey.com/dhh/you-can-t-trust-google-f7d64064</id>
+        <link href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064"/>
+        <updated>2023-06-20T04:16:49.440Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064">You can't trust Google</a></p><p><strong>概要：</strong></p><p>文章作者 David Heinemeier Hansson 警告，如果 Google 无法通过广告直接实现数十亿规模的盈利，那么它最终会关闭你关心的每一项服务。他认为，Google 在产品或服务业务中的能力有限，因为这些都不是 Google 的主要收入来源，广告才是。他以客户服务为例，指出 Google 的客户服务一直很差，因为帮助解决 Workspaces 或 Google Cloud Platform 上的问题永远不会像帮助广告商获取注意力那样有利可图。他提到了 Google 刚刚关闭其域名注册商 Google Domains 的事情，尽管这个业务每年可以带来 1.8 亿美元的收入，并服务了 1000 万个域名。此外，他还提到了 Google Home / Nest 的失败案例。他建议，无论是协作、电子邮件还是家庭安全系统，用户最好都有备份计划，因为任何标有 "由 Google 制造" 的产品或服务都可能随时被 Google 放弃。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - kaleidawave/ezno：一个用Rust编写的JavaScript编译器和TypeScript检查器，专注于静态分析和运行时性能。]]></title>
+        <id>https://github.com/kaleidawave/ezno</id>
+        <link href="https://github.com/kaleidawave/ezno"/>
+        <updated>2023-06-17T04:50:19.451Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/kaleidawave/ezno">GitHub - kaleidawave/ezno: A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Ezno，一个用 Rust 编写的 JavaScript 编译器和 TypeScript 检查器，重点关注静态分析和运行时性能。Ezno 是一个 JavaScript 类型检查器，可以作为库使用，也可以与可选的编译器基础设施（解析器、CLI、LSP 等）一起使用。它提供完全类型化的程序，保证类型安全，并旨在通过更好的静态分析实现类型的准确性和追踪。此外，Ezno 还具有命令式类型系统，事件追踪和评估函数副作用。
+
+然而，Ezno 并不是一个二进制可执行文件生成器，它将 JavaScript（或 TS/Ezno 超集）编译为 JavaScript。此过程更像是编译而不是转译。尽管你可以使用其事件 IR 生成一个较低级别的格式，但 Ezno 目前还不能使用，离实用还有很长的路要走。
+
+此外，该项目还包含了一些箱子，如 checker 和 parser 等。同时，作者也邀请读者参与贡献，查看问题并参与讨论。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GPT-4的本地JSON输出]]></title>
         <id>https://yonom.substack.com/p/native-json-output-from-gpt-4</id>
@@ -222,19 +240,5 @@
         <link href="https://fullystacked.net/posts/modern-html-email/"/>
         <updated>2023-05-31T04:23:22.582Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fullystacked.net/posts/modern-html-email/">Modern HTML email (tables no longer required)</a></p><p><strong>概要：</strong></p><p>本文讨论了电子邮件开发中的问题，尤其是 Outlook 在 Windows 上的支持不足。传统的基于表格的布局已经成为过去式，现代的 HTML 和 CSS 标准开始被广泛采用。文章介绍了使用 div 元素、内联 CSS 和 AMP（加速移动页面）等技术来构建电子邮件的方法，并探讨了这些技术的优缺点。虽然电子邮件行业的进展缓慢，但它正在向着更一致和更现代的方向前进。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在30秒内用TypeScript为WebAssembly分享Rust类型]]></title>
-        <id>https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds</id>
-        <link href="https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds"/>
-        <updated>2023-05-31T01:44:26.406Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds">Share Rust Types With TypeScript for WebAssembly in 30 Seconds</a></p><p><strong>概要：</strong></p><p>本文介绍了在 Rust 中生成 WebAssembly 模块的 TypeScript 类型定义的问题，并提供了一种解决方案。作者使用了 wasm-pack 和 wasm-bindgen 来编译 Rust 代码为 WebAssembly，但生成的 TypeScript 定义中有许多 “any” 类型，不够友好。为了解决这个问题，作者使用了 Tsify 库来自动生成 TypeScript 绑定，并对 Rust 代码进行了一些修改。最终生成的 TypeScript 定义更加清晰易懂。文章还介绍了 Voy，一个基于 WebAssembly 的语义搜索引擎，以及其他几个生成 TypeScript 定义的库。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于RustConf的主题演讲 | Rust博客]]></title>
-        <id>https://blog.rust-lang.org/2023/05/29/RustConf.html</id>
-        <link href="https://blog.rust-lang.org/2023/05/29/RustConf.html"/>
-        <updated>2023-05-30T10:49:43.151Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/05/29/RustConf.html">On the RustConf keynote | Rust Blog</a></p><p><strong>概要：</strong></p><p>2023 年 5 月 26 日，JeanHeyd Meneide 宣布他们不再在 RustConf 2023 上发言。他们被邀请在会议上发表主题演讲，但两周后被告知该演讲将被降级为普通演讲，原因是 Rust 项目领导层做出的决定。这个决定是错误的，我们首先要公开道歉造成的伤害。我们辜负了你，JeanHeyd。邀请后降低演讲的想法是侮辱性的，任何领导人都不应该愿意接受。领导层正在努力全面弄清楚发生了什么以及如何防止这种情况再次发生。然而，我们希望分享一些措施，以减少类似事件再次发生的风险。失败的主要原因是领导层聊天的决策和沟通过程。领导层聊天是在 2021 年底前的 Moderation Team 辞</p>]]></content>
     </entry>
 </feed>
