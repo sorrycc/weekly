@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-21T01:13:48.261Z</updated>
+    <updated>2023-06-21T01:37:17.111Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[TIL: 无效的CSS循环依赖和有效的空回退值，使用裸逗号| pawelgrzybek.com]]></title>
+        <id>https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/</id>
+        <link href="https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/"/>
+        <updated>2023-06-21T01:29:20.588Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/">TIL: invalid CSS cyclic dependencies and a valid empty fallback value using a bare comma | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>今天我阅读了 Roman Komarov 的一篇名为 “Cyclic Dependency Space Toggles” 的文章，这是我近期阅读过的最令人费解的 CSS 文章之一。它让我思考了我们在过去几年中探索的所有使用 CSS 自定义属性的模式，以及我们还有多少需要发现的。我从这篇文章中学到了两个令人兴奋的概念，让我与你们分享一下。
+
+无效的循环依赖
+当自定义属性相互引用时，循环中的所有自定义属性都是无效的。规范中的一个引述：这可能会产生循环依赖性，其中一个自定义属性使用 var () 引用自身，或者两个或更多的自定义属性试图相互引用。[…] 如果依赖关系图中存在循环，那么循环中的所有自定义属性在计算值时都是无效的。
+
+有效的空回退值使用裸逗号
+如果传递给 var () 函数的初始值缺失或无效，但其后跟着一个裸逗号，则计算值为有效的空回退值。规范中的解释是：[…] 一个裸逗号，后面没有任何东西，必须被视为在 var () 中有效，表示一个空的回退值。
+
+这两个概念如何有用？
+如果你想知道这些对你有何帮助，我建议你阅读 Roman 的文章，该文提出了一个强大的值切换用例。当然，这不是利用自定义属性的有效 / 无效评估的唯一方式。看看这个简化的例子。
+
+--color 自定义属性的值决定了 --is-default, --is-red 和 --is-green 的有效性。然后，应用相应的背景颜色回退值（灰色，</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万维网联盟宣布在线支付的新网络标准]]></title>
+        <id>https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/</id>
+        <link href="https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/"/>
+        <updated>2023-06-21T01:28:09.161Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/">W3C announces new Web standard for online payments</a></p><p><strong>概要：</strong></p><p>世界广域网联盟（W3C）宣布了一种新的网络标准，这是一种新的浏览器能力，有助于简化用户认证并在网页结账时提高支付安全性。该标准名为 “安全支付确认”（SPC），可以帮助商家、银行、支付服务提供商、卡网络等降低强大客户认证的摩擦，并产生用户同意的密码证据，这两者都是欧洲支付服务指令（PSD2）等监管要求的重要方面。目前，该标准已经作为候选建议可用，这意味着功能集是稳定的，并且已经得到了广泛的审查。
+
+W3C 表示，该标准的创建是为了应对基于网络的电子商务的增加以及随之而来的支付欺诈的增加。自 2019 年以来，W3C 一直在开发安全支付确认，以帮助实现强大的客户认证要求，同时降低结账摩擦。Stripe 进行了一个早期实施 SPC 的试点，并在 2020 年 3 月报告称，与一次性密码（OTP）相比，SPC 认证使转化率增加了 8%，同时结账速度提高了 3 倍。
+
+安全支付确认不仅适用于卡支付。网络支付工作组定期讨论如何将 SPC 整合到其他支付生态系统中，如开放银行、巴西的 PIX 以及专有支付流程中。目前，SPC 在 MacOS、Windows 和 Android 上的 Chrome 和 Edge 中可用。在候选推荐期间，网络支付工作组将寻求在其他浏览器和环境中实施 —— 考虑到苹果在 W3C 和 FIDO 的参与，S</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简介]]></title>
+        <id>https://vinejs.dev/docs/introduction</id>
+        <link href="https://vinejs.dev/docs/introduction"/>
+        <updated>2023-06-21T01:27:27.486Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vinejs.dev/docs/introduction">Introduction</a></p><p><strong>概要：</strong></p><p>VineJS 是一个用于 Node.js 的表单数据验证库，可用于验证后端应用中的 HTTP 请求体。它是 Node.js 生态系统中最快的验证库之一，并提供运行时和静态类型安全性。VineJS 专为验证表单数据和 JSON 负载而构建，支持自定义错误消息和格式化错误，并附带 50 多个验证规则和 12 种模式类型。你可以向 VineJS 添加自定义规则和模式类型，我们还让测试自定义验证规则变得非常简单。
+
+在与 Yup、Zod 和 VineJS 验证一个简单对象的性能比较中，VineJS 是最快的。在验证 HTTP 请求体的情况下，VineJS 的性能比 Zod 好 5 倍到 10 倍，处理了许多 HTML 表单序列化的怪癖（Zod 没有），并为定义自定义错误消息和格式化错误提供了更好的工作流程。
+
+然而，VineJS 不是一个通用的验证库，因此你不能用它来验证 JavaScript 数据类型，如函数、映射或集合。VineJS 是在 Node.js 运行时环境中使用的后端环境，因此你不能在浏览器内运行它。
+
+VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS 核心团队维护。VineJS 是现有的 AdonisJS 验证器代码库的改进版本，作为一个独立的库发布，以便与任何 Node.js 项目一起工作。该项目通过 Github 赞助商资助，如果你或你的企业从 VineJS 中获益，请考虑赞助我们以支持项目的开发。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SvelteKit的新功能：轻松优化你的应用程序 - Vercel]]></title>
+        <id>https://vercel.com/blog/feature-complete-sveltekit</id>
+        <link href="https://vercel.com/blog/feature-complete-sveltekit"/>
+        <updated>2023-06-21T01:24:36.768Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/feature-complete-sveltekit">New features for SvelteKit: Optimize your application with ease – Vercel</a></p><p><strong>概要：</strong></p><p>Svelte 已经在 Web 开发框架的世界中崭露头角，这要归功于其将组件转化为优化的 JavaScript 模块的独特方法。这种创新的渲染应用程序的方式消除了传统框架中存在的开销，从而提高了应用程序的性能和效率。随着 SvelteKit 1.0 的发布，开发者可以充分利用全栈 Svelte 的强大功能，而不必担心会产生破坏性的改变。此外，SvelteKit 还在不断发展，提供了一套强大的功能，并与各种部署环境（包括 Vercel）无缝集成。Vercel 采用了基于框架定义的基础设施（FDI），并已经接纳了 SvelteKit，最近添加了对每个路由的无服务器和边缘函数配置、增量静态再生（ISR）以及与一系列 Vercel 产品更容易兼容的支持。在本文中，我们将探讨如何使您的应用程序更具性能，可扩展性和用户友好性。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布v0.18.5 - evanw/esbuild]]></title>
         <id>https://github.com/evanw/esbuild/releases/tag/v0.18.5</id>
@@ -218,33 +267,5 @@
         <link href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/"/>
         <updated>2023-06-06T05:38:13.028Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/">How to draw any regular shape with just one JavaScript function | MDN Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 JavaScript 和 <canvas> 元素绘制多边形。作者首先展示了如何绘制六边形，然后通过修改角度和线条数量的方式，演示了如何绘制三角形、正方形和八边形等不同形状。接着，作者将这些代码封装成一个函数，使得用户可以通过传递中心点、半径和边数等参数来绘制不同的多边形。最后，作者提供了一些扩展思路，例如添加内半径、曲线和镶嵌等。文章还介绍了一些用于计算多边形顶点位置的数学和三角函数，以及一些基本的 < canvas > 绘图方法。读者可以在 MDN Web Docs Discord server 上与作者交流。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - cpojer/remdx：美丽的极简主义React & MDX演示文稿]]></title>
-        <id>https://github.com/cpojer/remdx</id>
-        <link href="https://github.com/cpojer/remdx"/>
-        <updated>2023-06-06T05:36:34.492Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/cpojer/remdx">GitHub - cpojer/remdx: Beautiful Minimalist React & MDX Presentations</a></p><p><strong>概要：</strong></p><p>ReMDX 是一个基于 React 和 MDX 的漂亮的极简主义演示文稿创建工具。它提供了一些自定义设置和使用方法，可以通过添加组件来扩展功能。每个幻灯片都可以通过三条横线分隔开，并且可以在顶部插入前置块。它还支持自定义主题和背景图片，并使用 shiki-twoslash 进行代码块样式设置。ReMDX 受到 mdx-deck、Spectacle 和 Slidev 等工具的启发，但是它专注于快速、轻量级和可组合性。如果需要添加新的功能，可以 fork 并提交 PR。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[前端Rust开发WebAssembly与Swc插件快速入门_咲奈的博客-CSDN博客]]></title>
-        <id>https://sakina.blog.csdn.net/article/details/131028238</id>
-        <link href="https://sakina.blog.csdn.net/article/details/131028238"/>
-        <updated>2023-06-05T10:05:40.846Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sakina.blog.csdn.net/article/details/131028238">前端Rust开发WebAssembly与Swc插件快速入门_咲奈的博客-CSDN博客</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 Rust 进行前端开发，包括开发 wasm、swc 插件和代码处理工具。其中，开发 wasm 可以利用浏览器运行 wasm 的优势，在 wasm 中进行大量复杂的计算、音视频、图像处理等；开发 swc 插件可以替代 babel 插件实现代码转换；开发代码处理工具可以借助 Swc 来解析 JavaScript、TypeScript 代码，从而实现代码信息提取、转换、编译等。文章还介绍了如何初始化项目、构建产物和运行二进制包，并指出了各种方法的优缺点。最后，文章强调了不断精进 Rust，组织出更优雅的代码结构，实现更高的执行效率的重要性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bun中的JavaScript宏]]></title>
-        <id>https://bun.sh/blog/bun-macros</id>
-        <link href="https://bun.sh/blog/bun-macros"/>
-        <updated>2023-06-02T04:35:34.091Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-macros">JavaScript Macros in Bun</a></p><p><strong>概要：</strong></p><p>Bun 发布了一个新功能 ——Bun Macros，它是一种在打包时运行 JavaScript 函数的机制，返回值直接嵌入到打包文件中。这个功能可以用于一些小的打包任务，也支持执行一些特权操作，比如读取数据库等。但如果需要大量运行代码，则应该考虑使用服务器。Bun Macros 是通过导入语句来实现的，需要使用 {type: 'macro'} 属性注解。该功能支持异步操作和 Promise，但输入参数必须是静态可分析的，并且返回值必须可序列化。此外，为了减少恶意软件攻击的可能性，它不能在 node_modules 目录中执行。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我认为Zig很难......但值得。]]></title>
-        <id>http://ratfactor.com/zig/hard</id>
-        <link href="http://ratfactor.com/zig/hard"/>
-        <updated>2023-06-02T04:25:44.474Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://ratfactor.com/zig/hard">I think Zig is hard...but worth it</a></p><p><strong>概要：</strong></p><p>本文介绍了 Zig 编程语言的学习难度。虽然许多人认为 Zig 很容易学习，但对于像作者这样的程序员来说，它仍然是有挑战性的。文章列举了几个原因，包括 Zig 是一门新语言、Zig 强制你做出选择、Zig 是一门严谨的语言、Zig 具有 comptime 等特点。尽管 Zig 可能不容易掌握，但它力求简单、统一和正确，值得投资学习。</p>]]></content>
     </entry>
 </feed>
