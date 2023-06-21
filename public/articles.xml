@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-21T01:37:17.111Z</updated>
+    <updated>2023-06-21T15:33:01.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[工人们的KV在新的架构下比以前更快]]></title>
+        <id>https://blog.cloudflare.com/faster-workers-kv-architecture/</id>
+        <link href="https://blog.cloudflare.com/faster-workers-kv-architecture/"/>
+        <updated>2023-06-21T15:28:20.529Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/faster-workers-kv-architecture/">Workers KV is faster than ever with a new architecture</a></p><p><strong>概要：</strong></p><p>Cloudflare 宣布了对 Workers KV 的重大性能改进，这一改进主要集中在显著提高冷读性能和降低延迟，甚至对于长尾访问模式也是如此。开发人员使用 KV 时，热读取性能很好，但他们会问为什么他们的 95% 分位延迟 —— 通常是在一个关键（或一组关键）上，这个关键最近没有被访问过或者在该地区没有被访问过 —— 比预期的要高。因此，Cloudflare 已经在幕后为 KV 开发了一个新的缓存层，使客户能够实现更频繁的热读取，减少最差情况下的延迟时间，更好地控制缓存 TTL，并且比以前的版本快得多。最好的部分是，使用 KV 的开发人员不需要改变任何东西就可以从这种增强的性能中受益。
+
+Workers KV 是 Cloudflare 网络支持的针对读取密集型用例和应用程序设计的键值存储。KV 专注于读取密集型用例，使其能够在毫秒内提供热（缓存）读取，这使其成为存储每个应用程序或客户配置数据、路由配置、多变量（A/B 测试）配置，甚至需要快速提供的小资产数据的理想选择。你可以将任何可以序列化并且需要快速获取的东西存储在 KV 中，每个单独的键可以存储高达 25 MiB 的数据，总数据存储没有上限。
+
+Cloudflare 已经重新设计了 Workers KV，由新的分层缓存实现驱动。这个实现是作为 Worker 服务编写的。我们重用了为平</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么快速工作比它看起来更重要 " jsomers.net博客]]></title>
+        <id>http://jsomers.net/blog/speed-matters</id>
+        <link href="http://jsomers.net/blog/speed-matters"/>
+        <updated>2023-06-21T02:03:05.204Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://jsomers.net/blog/speed-matters">Why working quickly is more important than it seems « the jsomers.net blog</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了工作效率的重要性。作者指出，快速工作不仅可以在单位时间内完成更多的工作，而且会使新任务在你的心中看起来成本更低，因此你会倾向于做更多的事情。相反，如果你做事慢，那么你可能会继续保持这种状态，因为提高速度的唯一方法就是多做。
+
+作者还发现，如果他能快速回复人们的邮件，他们就会给他发送更多的邮件。这是因为发件人期望得到回复，这种期待促使他们写信。换句话说，速度本身就能吸引他们发邮件，因为他们知道自己的努力会有回报。
+
+同样，网站响应速度慢会导致用户流失。谷歌以其搜索速度著名，他们意识到如果搜索速度快，你就更可能去搜索。原因是它鼓励你尝试，得到反馈，然后再次尝试。当你想到一个问题时，你知道谷歌已经在那里了。没有思考和行动之间的延迟，没有失去寻找答案的冲动。谷歌搜索的预计成本几乎为零，它感觉就像你思维的延伸。
+
+此外，如果你想做某件事并且变得擅长 —— 比如写作或修复错误 —— 你应该试着更快地去做。这并不意味着草率行事，但确实意味着，你需要推动自己比你认为健康的速度更快。因为这样，任务在你的心中的成本会</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[杀人社区]]></title>
+        <id>https://www.marginalia.nu/log/82_killing_community/</id>
+        <link href="https://www.marginalia.nu/log/82_killing_community/"/>
+        <updated>2023-06-21T02:02:07.939Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.marginalia.nu/log/82_killing_community/">Killing Community</a></p><p><strong>概要：</strong></p><p>这篇文章主要探讨了社交媒体平台的发展模式，以及这种模式对在线社区的影响。作者将在线社区比作一个村庄，其中有熟悉的面孔、集体经验和共享价值观等。然而，当这些 “村庄” 不能承受持续大量的陌生人涌入时，它们就会变得不再像村庄，更像是火车站，人们来来去去，没有真正的归属感。在这样的环境中，人们总是保持警惕，因为他们总是在与陌生人打交道。这种环境是压抑的，使人感到孤立无援，无力改变。作者认为，如果你想彻底摧毁一个关于建立社区和结识新朋友的网站，那么就让这个网站和所有的社区尽可能地增长。这样，你会得到一个每个人都是陌生人的地方，粗鲁成为常态，没有归属感。最后，作者提出，对 Reddit 这类社区型网站来说，停止增长甚至稍微缩小规模可能是最好的选择，这将使社区能够稳定下来，重新变得像村庄一样，从社区的角度看，网站将因此变得更好。但从商业角度看，这是一个真正的困境，因为唯一赚钱的方式就是增长，而唯一增长的方式就是破坏社区。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TIL: 无效的CSS循环依赖和有效的空回退值，使用裸逗号| pawelgrzybek.com]]></title>
         <id>https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/</id>
@@ -246,26 +277,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://github.com/evanw/esbuild/releases/tag/v0.18.0"/>
         <updated>2023-06-13T02:06:44.327Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/esbuild/releases/tag/v0.18.0">Release v0.18.0 · evanw/esbuild</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 esbuild 的新版本，主要是为了修复一些长期存在的问题，特别是与 tsconfig.json 文件的处理有关。该版本包含了向后不兼容的更改，建议在 package.json 文件中固定 esbuild 的确切版本或使用仅接受补丁升级的版本范围语法。更新内容包括：增加在线试用 esbuild 的方式、更改 TypeScript 装饰器的处理方式、支持 TypeScript 5.0 的多重继承、忽略 node_modules 中的 tsconfig.json 文件等。此外，还添加了针对 Safari 16.2 及更早版本的 bug 的解决方法，并修复了 CSS 嵌套转换的伪元素问题。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[骄傲的动画旗帜]]></title>
-        <id>https://www.joshwcomeau.com/animation/pride-flags/</id>
-        <link href="https://www.joshwcomeau.com/animation/pride-flags/"/>
-        <updated>2023-06-07T02:28:32.902Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.joshwcomeau.com/animation/pride-flags/">Animated Pride Flags</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用 CSS 和 React 构建一个波浪的像素化彩虹旗。作者通过 CSS 关键帧动画、线性渐变等技巧来实现旗帜的波动效果，并且使用 CSS 变量和 JavaScript 函数来动态生成不同彩虹旗的颜色渐变。此外，作者还分享了一些额外的技巧，例如控制旗帜波动的程度、设置圆角、隐藏初始设置等。最后，作者呼吁人们支持跨性别群体，并推荐了一些 LGBTQIA + 慈善机构。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一些博客迷思]]></title>
-        <id>https://jvns.ca/blog/2023/06/05/some-blogging-myths/</id>
-        <link href="https://jvns.ca/blog/2023/06/05/some-blogging-myths/"/>
-        <updated>2023-06-06T05:41:07.589Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jvns.ca/blog/2023/06/05/some-blogging-myths/">Some blogging myths</a></p><p><strong>概要：</strong></p><p>本文主要讨论了一些阻止人们写博客的迷思，包括需要原创、需要专家水平、文章必须 100% 正确、写无聊的文章是不好的、需要解释每个概念、页面浏览量很重要以及更多材料总是更好等。作者认为这些迷思都是错误的，并提供了自己的看法和经验。例如，作者认为你只需要了解读者不知道的 1-2 件有趣的事情，而且不必担心预测什么会让人感兴趣。此外，作者还强调了个人故事的重要性，并分享了如何处理评论中的挑剔或恶意言论。最后，作者鼓励人们写博客，并表示他喜欢阅读关于计算机技术的个人故事。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何只用一个JavaScript函数就能画出任何规则的形状 | MDN博客]]></title>
-        <id>https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/</id>
-        <link href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/"/>
-        <updated>2023-06-06T05:38:13.028Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/">How to draw any regular shape with just one JavaScript function | MDN Blog</a></p><p><strong>概要：</strong></p><p>本文介绍了如何使用 JavaScript 和 <canvas> 元素绘制多边形。作者首先展示了如何绘制六边形，然后通过修改角度和线条数量的方式，演示了如何绘制三角形、正方形和八边形等不同形状。接着，作者将这些代码封装成一个函数，使得用户可以通过传递中心点、半径和边数等参数来绘制不同的多边形。最后，作者提供了一些扩展思路，例如添加内半径、曲线和镶嵌等。文章还介绍了一些用于计算多边形顶点位置的数学和三角函数，以及一些基本的 < canvas > 绘图方法。读者可以在 MDN Web Docs Discord server 上与作者交流。</p>]]></content>
     </entry>
 </feed>
