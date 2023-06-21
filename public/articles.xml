@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-20T04:17:36.279Z</updated>
+    <updated>2023-06-21T01:13:48.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[发布v0.18.5 - evanw/esbuild]]></title>
+        <id>https://github.com/evanw/esbuild/releases/tag/v0.18.5</id>
+        <link href="https://github.com/evanw/esbuild/releases/tag/v0.18.5"/>
+        <updated>2023-06-21T01:12:29.081Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/esbuild/releases/tag/v0.18.5">Release v0.18.5 · evanw/esbuild</a></p><p><strong>概要：</strong></p><p>这个版本实现了即将出现的 JavaScript 装饰器提案中的新的自动访问器语法。这种语法尚未成为 JavaScript 的一部分，但已在 TypeScript 4.9 版本中加入。如果目标设置为除 esnext 之外的其他内容，将会对自动访问器进行转换。现在也可以在 esbuild 的 TypeScript 实验性装饰器转换中使用自动访问器，行为应与装饰底层 getter/setter 对相同。
+
+此版本还使 esbuild 现在从即将出现的 JavaScript 装饰器提案中解析装饰器，并将它们原样传递到输出（只要语言目标设置为 esnext）。还没有实现将 JavaScript 装饰器转换为不支持它们的环境。目前 esbuild 实现的唯一装饰器变换仍然是 TypeScript 实验性装饰器变换，这只在.ts 文件中工作，并且需要在你的 tsconfig.json 文件中设置 "experimentalDecorators": true。
+
+此外，如果可能，现在使用静态块来使用具有赋值语义的静态字段。以前，这是通过从类体中移除字段并在类声明后添加赋值语句来完成的。但是，这也导致任何私有字段也必须降低（以防字段初始化器使用私有符号，直接或间接）。此版本将此转换更改为使用内联静态块（如果支持的话），这避免了在此场景中需要降低私有字段。
+
+最后，修复了 TypeScript 实验性装饰器与 --mangle-props 设置结合使用时可能导致的崩溃问题。现在可以安全地将这两个功能结合在一起使用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍一下HTTP/3的优先次序]]></title>
+        <id>https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/</id>
+        <link href="https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/"/>
+        <updated>2023-06-21T01:11:42.840Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/">Introducing HTTP/3 Prioritization</a></p><p><strong>概要：</strong></p><p>今天，Cloudflare 宣布全面支持 HTTP/3 可扩展优先级，这是一种新的标准，可以将网页的加载速度提高高达 37%。Cloudflare 与标准构建者紧密合作，帮助形成 HTTP/3 优先级的规范，并很高兴能推动网络前进。HTTP/3 可扩展优先级适用于 Cloudflare 的所有计划。对于付费用户，有一个增强版本可进一步提高性能。网页由许多必须在处理和呈现给用户之前下载的对象组成。并非所有对象对网页性能的重要性都相等。HTTP 优先级的作用是在最适当的时机加载正确的字节，以实现最佳结果。在多个对象都在竞争同一受限资源时，优先级最为重要。在 HTTP/3 中，这个资源就是 QUIC 连接。在大多数情况下，从服务器到客户端的带宽是瓶颈。选择将带宽分配给哪些对象，或在哪些对象之间共享带宽，是网页性能的关键基础。如果出现错误，我们在其上构建的其他优化可能会受到影响。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NestJS v10现已上市 - Trilon Consulting]]></title>
+        <id>https://trilon.io/blog/nestjs-10-is-now-available</id>
+        <link href="https://trilon.io/blog/nestjs-10-is-now-available"/>
+        <updated>2023-06-21T01:11:00.769Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://trilon.io/blog/nestjs-10-is-now-available">NestJS v10 is now available - Trilon Consulting</a></p><p><strong>概要：</strong></p><p>NestJS 10 正式发布，带来了许多错误修复、改进和新功能。其中最令人兴奋的新特性包括对 SWC（Speedy Web Compiler）的支持，这是一个可用于编译和打包的基于 Rust 的可扩展平台，使用 SWC 与 Nest CLI 可以显著加快开发过程；测试中模块的覆盖功能，这在需要模拟整个模块而不是单独模拟每个提供者时非常有用；对 Redis 通配符订阅的支持，该功能允许你订阅所有匹配给定模式的消息；CacheModule 已从 @nestjs/common 包中移除，并作为独立包 @nestjs/cache-manager 提供；此外，NestJS 10 不再支持 Node.js v12，而需要 Node.js v16 或更高版本。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - dtinth/superwhite: 在支持HDR的显示器上显示非常明亮的白色]]></title>
+        <id>https://github.com/dtinth/superwhite</id>
+        <link href="https://github.com/dtinth/superwhite"/>
+        <updated>2023-06-21T01:10:35.940Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/dtinth/superwhite">GitHub - dtinth/superwhite: display a very bright white color on HDR-enabled displays</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何在支持 HDR 的显示器上展示非常亮的白色。通过使用 Final Cut Pro 创建一个带有宽色域 HDR 颜色处理设置的库，然后创建一个项目，添加一个纯白色的颜色生成器，并将其设置为亮白色，同时将图形 HDR 级别调整到 100。接着添加 HDR 工具视频效果，将模式设置为 SDR 到 HDR (PQ)，并将峰值亮度调整到 5000 尼特。最后用 HEVC 10 位作为编解码器导出视频。若在支持 HDR 的 Mac 显示器或者最新的 iPhone 或 iPad（低电量模式关闭）上查看此页面，你应该能看到一个比 #ffffff 更亮的白色。在不支持的显示器上，你会看到正常的白色。作者还提醒读者不要滥用这个技术。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你不能相信谷歌]]></title>
         <id>https://world.hey.com/dhh/you-can-t-trust-google-f7d64064</id>
@@ -212,33 +246,5 @@
         <link href="http://ratfactor.com/zig/hard"/>
         <updated>2023-06-02T04:25:44.474Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://ratfactor.com/zig/hard">I think Zig is hard...but worth it</a></p><p><strong>概要：</strong></p><p>本文介绍了 Zig 编程语言的学习难度。虽然许多人认为 Zig 很容易学习，但对于像作者这样的程序员来说，它仍然是有挑战性的。文章列举了几个原因，包括 Zig 是一门新语言、Zig 强制你做出选择、Zig 是一门严谨的语言、Zig 具有 comptime 等特点。尽管 Zig 可能不容易掌握，但它力求简单、统一和正确，值得投资学习。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布 TypeScript 5.1 - TypeScript]]></title>
-        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/</id>
-        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/"/>
-        <updated>2023-06-02T04:23:18.447Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/">Announcing TypeScript 5.1 - TypeScript</a></p><p><strong>概要：</strong></p><p>TypeScript 5.1 已经发布，这个版本带来了一些新特性和优化。其中包括对 undefined-Returning 函数的隐式返回更容易、Getter 和 Setter 的无关类型、JSX 元素和 JSX 标记类型之间解耦的类型检查、命名空间 JSX 属性、typeRoots 在模块解析中的咨询、链接光标、@param JSDoc 标记的代码片段完成、避免不必要的类型实例化等。此外，TypeScript 5.1 还需要 ECMAScript 2020 和 Node.js 14.17 作为最小运行时要求。 TypeScript 团队正在努力开发 TypeScript 5.2，并计划在未来几个月内发布。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布Rust 1.70.0 | Rust博客]]></title>
-        <id>https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html"/>
-        <updated>2023-06-02T04:21:38.125Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html">Announcing Rust 1.70.0 | Rust Blog</a></p><p><strong>概要：</strong></p><p>Rust 1.70.0 版本已发布，该版本包括了一些新特性和 API 的稳定化。其中，Cargo 的 “sparse” 协议现在默认启用，这将大大提高从 crates.io 索引中获取信息的性能。此外，还稳定了两个新类型 OnceCell 和 OnceLock，用于共享数据的一次性初始化，以及新增了一个名为 IsTerminal 的特征，用于确定给定文件描述符或句柄是否表示终端或 TTY。同时，还稳定了许多 API，包括 Default for std::collections、Rc::into_inner、Arc::into_inner 等。此外，该版本还修复了一些 bug，完善了一些文档和测试。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布 v2.0.0-beta.0 - reduxjs/redux-toolkit]]></title>
-        <id>https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0</id>
-        <link href="https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0"/>
-        <updated>2023-05-31T15:11:21.022Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-beta.0">Release v2.0.0-beta.0 · reduxjs/redux-toolkit</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Redux Toolkit 2.0 beta 版的更新内容，包括更新了许多 TS 类型以提高类型安全和行为，更新了 entityAdapter.getSelectors () 以接受一个 createSelector 选项，依赖于最新的 redux@5.0-beta.0 版本，并包括了 2.0 alpha 版之前的所有更改。此版本具有破坏性更改。文章还列出了一些新功能和破坏性更改的详细信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现代HTML电子邮件（不再需要表格）。]]></title>
-        <id>https://fullystacked.net/posts/modern-html-email/</id>
-        <link href="https://fullystacked.net/posts/modern-html-email/"/>
-        <updated>2023-05-31T04:23:22.582Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fullystacked.net/posts/modern-html-email/">Modern HTML email (tables no longer required)</a></p><p><strong>概要：</strong></p><p>本文讨论了电子邮件开发中的问题，尤其是 Outlook 在 Windows 上的支持不足。传统的基于表格的布局已经成为过去式，现代的 HTML 和 CSS 标准开始被广泛采用。文章介绍了使用 div 元素、内联 CSS 和 AMP（加速移动页面）等技术来构建电子邮件的方法，并探讨了这些技术的优缺点。虽然电子邮件行业的进展缓慢，但它正在向着更一致和更现代的方向前进。</p>]]></content>
     </entry>
 </feed>
