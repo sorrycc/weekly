@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-25T13:49:23.908Z</updated>
+    <updated>2023-06-25T13:57:39.833Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[跟大家聊聊当下卖课的现状]]></title>
+        <id>https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html</id>
+        <link href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html"/>
+        <updated>2023-06-25T13:52:19.567Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html">跟大家聊聊当下卖课的现状</a></p><p><strong>概要：</strong></p><p>文章作者分享了他在制作在线课程方面的经验。首先，他提到了平台分成问题，大部分平台会收取 50% 的服务费，再加上苹果设备用户需要支付 30% 的税，最终讲师能拿到的收入并不多。其次，课程内容的选择也是一个问题，新人讲师往往无法接到热门选题，而自己感兴趣的选题可能平台不愿意接受。此外，如果想自行销售课程，除非有大量的粉丝基础，否则难以获得成功。最后，由于网络技术更新快速，课程的生命周期较短，因此很难实现稳定的收入。总的来说，作者建议想做在线课程的人在开始前应该仔细考虑各种因素，找出更适合自己的方向。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React中的远程传输：定位、堆叠上下文和传送门]]></title>
         <id>https://www.developerway.com/posts/positioning-and-portals-in-react</id>
@@ -296,12 +303,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://astro.build/blog/astro-260/"/>
         <updated>2023-06-13T03:11:44.817Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-260/">Astro 2.6: Middleware | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.6 是一个大版本更新，包括几个实验性功能已经被标记为稳定，并且可以在所有 Astro 项目中使用。这些功能包括 Middleware、Hybrid SSR 输出模式、自定义客户端指令和 CSS 内联等。此外，Astro 2.6 还引入了新功能和改进，包括管理重定向的实验性功能、Markdoc 改进和语言工具改进等。Astro 2.6 的更新由社区成员贡献，其中一些功能最初是通过公共路线图和 RFC 过程提出的。Astro 团队还与 Stripe 的 Markdoc 团队密切合作，以改善 Astro 中的 Markdoc 支持。Astro 的语言工具也得到了升级，包括 Astro VSCode 扩展和 Astro 语言服务器。Astro 团队使用 Volar 框架来提高语言工具的性能和稳定性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NakedJSX - 在没有React的情况下使用JSX]]></title>
-        <id>https://nakedjsx.org/</id>
-        <link href="https://nakedjsx.org/"/>
-        <updated>2023-06-13T02:35:25.153Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nakedjsx.org/">NakedJSX - Use JSX without React</a></p><p><strong>概要：</strong></p><p>NakedJSX 是一个命令行工具，可以从 JSX 生成 HTML 文件。输出的内容是纯 HTML 和 CSS，除非你选择添加自己的 JavaScript。它不需要设置 Node.js 项目，只需在 NakedJSX 内容目录上运行 npx 命令即可构建站点到输出文件夹中。它还提供了一个带有实时刷新构建和 Web 服务器的开发模式，并提供了一个可选的小型运行时，允许客户端 JavaScript 使用 JSX。NakedJSX 支持多种功能，包括嵌套 CSS、CSS 最小化和去重、图像转换为 webp 格式等。NakedJSX 的设计哲学是纯 HTML 和 CSS 输出、低摩擦、API 稳定性、保守依赖选择和安全合规。该项目目前处于设计更改的状态，但反馈非常受欢迎。</p>]]></content>
     </entry>
 </feed>
