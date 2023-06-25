@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-21T15:33:01.541Z</updated>
+    <updated>2023-06-25T13:23:16.677Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 5.2的新关键词："using"。]]></title>
+        <id>https://www.totaltypescript.com/typescript-5-2-new-keyword-using</id>
+        <link href="https://www.totaltypescript.com/typescript-5-2-new-keyword-using"/>
+        <updated>2023-06-25T13:23:00.586Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/typescript-5-2-new-keyword-using">TypeScript 5.2's New Keyword: 'using'</a></p><p><strong>概要：</strong></p><p>TypeScript 5.2 将引入一个新的关键字 - 'using'，你可以用它在离开作用域时处理任何带有 Symbol.dispose 函数的东西。
+
+这基于 TC39 提案，该提案最近达到了第 3 阶段，表明它将被引入 JavaScript。'using' 对于管理诸如文件句柄、数据库连接等资源将非常有用。
+
+Symbol.dispose 是 JavaScript 中的一个新的全局符号。任何赋予 Symbol.dispose 函数的东西都会被视为一个 “资源” - “具有特定生命周期的对象”，并可以与 using 关键字一起使用。
+
+你还可以使用 Symbol.asyncDispose 和 await using 来处理需要异步处理的资源。
+
+这将在继续之前等待 Symbol.asyncDispose 函数。这对于数据库连接等资源非常有用，你希望确保程序继续之前连接已经关闭。
+
+使用案例：
+
+文件句柄：通过节点中的文件处理器访问文件系统可能会因为 using 变得更容易。
+
+数据库连接：管理数据库连接是 C# 中使用 using 的一个常见用例。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[99.9成功率！Mac运行赛博朋克2077，使用Game Porting Toolkit]]></title>
+        <id>https://www.bilibili.com/read/cv24310042</id>
+        <link href="https://www.bilibili.com/read/cv24310042"/>
+        <updated>2023-06-25T13:03:57.380Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bilibili.com/read/cv24310042">99.9成功率！Mac运行赛博朋克2077，使用Game Porting Toolkit</a></p><p><strong>概要：</strong></p><p>这篇文章主要介绍了如何在苹果 M 芯片 Mac 上运行赛博朋克 2077 游戏。首先，需要通过 Game Porting Toolkit 工具将 Direct3D 指令转译成 Metal 指令，使得 Windows 游戏能够在 Apple Silicon Mac 上运行。然后，作者详细介绍了准备所需资源、安装 macOS14 Beta、安装 Game Porting Toolkit、配置 Wine Prefix 环境和安装 Steam 等步骤。最后，通过 Wine 直接启动赛博朋克 2077 游戏。全程操作较为复杂，需要耐心且对计算机有一定的了解。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[具有稳定扩散性的风格化二维码]]></title>
+        <id>https://antfu.me/posts/ai-qrcode</id>
+        <link href="https://antfu.me/posts/ai-qrcode"/>
+        <updated>2023-06-25T12:42:53.686Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/ai-qrcode">Stylistic QR Code with Stable Diffusion</a></p><p><strong>概要：</strong></p><p>这篇文章是作者分享如何使用 Stable Diffusion 和 ControlNet 创建一个既可以扫描的 QR 码又是一幅艺术插图的过程。首先，作者介绍了他对 AI 技术的兴趣，并提到了一些重要的工具和模型。然后，他详细描述了创建 QR 码图像的步骤，包括设置环境、生成 QR 码、将文本转化为图像、调整细节和放大图像等。最后，他展示了最终结果并总结了自己的学习经历。作者希望这篇文章能够给读者提供一些基础概念或启发他们开始自己的创作之旅。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[工人们的KV在新的架构下比以前更快]]></title>
         <id>https://blog.cloudflare.com/faster-workers-kv-architecture/</id>
@@ -256,26 +291,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/"/>
         <updated>2023-06-13T02:26:14.701Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/">Web Apps on macOS Sonoma 14 Beta</a></p><p><strong>概要：</strong></p><p>本文介绍了苹果公司在 macOS Sonoma 中推出的可安装 Web 应用程序。这些应用程序高度集成在整个 macOS 体验中，不显示任何 Safari 用户界面。用户可以通过将网站添加到 Dock 来安装应用程序，并可以自定义名称和图标。这些应用程序支持 AutoFill 凭据、摄像头、麦克风和位置权限，并且支持 Web 推送、标记和所有通常由 WebKit 实现的 Web 标准。文章还列出了一些对苹果公司的建议和 Chrome 的改进建议。总之，Web 应用程序在 macOS 上具有巨大的潜力，并且可以成功地融入操作系统体验。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bun v0.6.8]]></title>
-        <id>https://bun.sh/blog/bun-v0.6.8</id>
-        <link href="https://bun.sh/blog/bun-v0.6.8"/>
-        <updated>2023-06-13T02:08:15.614Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-v0.6.8">Bun v0.6.8</a></p><p><strong>概要：</strong></p><p>Bun 发布了一系列更新，包括引入 JavaScript 打包器、提高性能、实现 node:vm 等功能。最新版本还加入了安全密码哈希 API、函数模拟和 toMatchObject 匹配器，以及实验性的检查员模式。此外，bun:sqlite 的.values () 方法现在返回 [] 而不是 null，同时发布了 bun-devtools 来简化开发人员的工作。该团队正在招聘 C/C++ 和 Zig 工程师，共同构建 JavaScript 的未来。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - evanw/polywasm]]></title>
-        <id>https://github.com/evanw/polywasm</id>
-        <link href="https://github.com/evanw/polywasm"/>
-        <updated>2023-06-13T02:07:26.651Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/polywasm">GitHub - evanw/polywasm</a></p><p><strong>概要：</strong></p><p>本文介绍了一个名为 polywasm 的 WebAssembly polyfill，它可以在 JavaScript 环境中运行缺少 WebAssembly 实现的.wasm 文件。这个库的存在是为了解决某些现代 JavaScript 环境禁用 WebAssembly 的问题，同时也可以用于调试和玩耍 WebAssembly 执行。该库的局限性包括没有完全验证 WebAssembly、不支持 NaN 位模式等。此外，文章还介绍了该库的性能和实现细节，包括数字表示和 AST 格式以及优化策略等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布v0.18.0 - evanw/esbuild]]></title>
-        <id>https://github.com/evanw/esbuild/releases/tag/v0.18.0</id>
-        <link href="https://github.com/evanw/esbuild/releases/tag/v0.18.0"/>
-        <updated>2023-06-13T02:06:44.327Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/esbuild/releases/tag/v0.18.0">Release v0.18.0 · evanw/esbuild</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 esbuild 的新版本，主要是为了修复一些长期存在的问题，特别是与 tsconfig.json 文件的处理有关。该版本包含了向后不兼容的更改，建议在 package.json 文件中固定 esbuild 的确切版本或使用仅接受补丁升级的版本范围语法。更新内容包括：增加在线试用 esbuild 的方式、更改 TypeScript 装饰器的处理方式、支持 TypeScript 5.0 的多重继承、忽略 node_modules 中的 tsconfig.json 文件等。此外，还添加了针对 Safari 16.2 及更早版本的 bug 的解决方法，并修复了 CSS 嵌套转换的伪元素问题。</p>]]></content>
     </entry>
 </feed>
