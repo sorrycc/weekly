@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-25T13:23:16.677Z</updated>
+    <updated>2023-06-25T13:49:23.908Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[React中的远程传输：定位、堆叠上下文和传送门]]></title>
+        <id>https://www.developerway.com/posts/positioning-and-portals-in-react</id>
+        <link href="https://www.developerway.com/posts/positioning-and-portals-in-react"/>
+        <updated>2023-06-25T13:45:53.262Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/positioning-and-portals-in-react">Teleportation in React: Positioning, Stacking Context, and Portals</a></p><p><strong>概要：</strong></p><p>这篇文章详细讨论了 CSS 定位的工作原理，堆叠上下文（Stacking Context）是什么，如何使用 CSS 逃离 overflow:hidden，为什么我们不能用 CSS 做所有事情而需要 Portals，以及 Portals 是如何工作的。文章首先解释了 CSS 的绝对定位，并指出绝对并不完全是绝对的，它实际上是相对于设置了任何值的最近元素的位置。然后，文章介绍了堆叠上下文，这是一个三维的视角来看待 HTML 元素。接着，文章讨论了如何使用 CSS 逃离内容剪裁，为什么我们不能用 CSS 做所有事情而需要 Portals，以及 Portals 是如何实际工作的。文章还深入探讨了 React Portal 如何解决这个问题，以及 React 生命周期，重渲染，Context 和 Portals 之间的关系。最后，文章总结了在使用 Portals 时的规则：在 React 中发生的事情保持在 React 层次结构中，在 React 之外的事情遵循 DOM 结构规则。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - a16z-infra/ai-getting-started：一个用于周末项目的Javascript AI入门栈，包括图像/文本模型、矢量存储、授权和部署配置。]]></title>
+        <id>https://github.com/a16z-infra/ai-getting-started</id>
+        <link href="https://github.com/a16z-infra/ai-getting-started"/>
+        <updated>2023-06-25T13:45:22.332Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/a16z-infra/ai-getting-started">GitHub - a16z-infra/ai-getting-started: A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs</a></p><p><strong>概要：</strong></p><p>这篇文章是关于如何开始使用 AI 的指南，包括了一些主要技术栈和操作步骤。技术栈包括 Auth：Clerk、应用逻辑：Next.js、VectorDB：Pinecone / Supabase pgvector、LLM Orchestration：Langchain.js、图像模型：Replicate、文本模型：OpenAI、文本流：ai sdk、部署：Fly 等。
+
+文章详细介绍了如何在本地测试这个技术栈，并理解每个组件的工作方式。首先需要从 Github 账户复制并克隆仓库，然后安装依赖项。接着填写 Clerk Secrets、OpenAI API key、Replicate API key、Pinecone API key 和 Supabase API key。注意，默认情况下，此模板使用 Pinecone 作为向量存储，但你可以轻松开启 Supabase pgvector。
+
+之后，生成嵌入并将其存储在向量数据库中以供未来查询。然后在本地运行应用程序进行测试。最后，将应用程序部署到 fly.io。
+
+此外，文章还介绍了如何为该仓库做出贡献，包括代码贡献工作流程和其他贡献方式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么是CDN？内容交付网络的无偏见指南]]></title>
+        <id>https://calibreapp.com/blog/content-delivery-networks-guide</id>
+        <link href="https://calibreapp.com/blog/content-delivery-networks-guide"/>
+        <updated>2023-06-25T13:43:12.424Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://calibreapp.com/blog/content-delivery-networks-guide">What is a CDN? An Unbiased Guide to Content Delivery Networks</a></p><p><strong>概要：</strong></p><p>内容分发网络（CDN）是提高网站性能和可靠性的最佳方式之一。它可以帮助提高页面速度，抵御拒绝服务攻击，并优化内容以实现更快的传输。选择合适的 CDN 对于网站来说是一个重要的决定，因此你需要进行研究。然而，大部分关于 CDN 的搜索结果都来自销售 CDN 的公司，这让人很难相信由销售人员写的博客文章。好消息是我们不销售 CDN，但作为网络性能专家，我们对此有深入了解。我们编写了这篇指南，帮助你在选择 CDN 时做出明智的决定。
+
+CDN 是全球分布的服务器网络，可以托管你的内容并快速将其传送给访问者。CDN 通过减少延迟、提高可靠性，甚至优化内容以实现更快的传输，来支持你的主机服务器。CDN 就像是遍布全球的小型本地仓库。当访问者请求内容时，这些本地仓库从你的中央仓库（主机服务器）接收内容并存储起来。这样，我们可以快速可靠地传输内容，因为 CDN 服务器的位置遍布全球，如果一个服务器出现故障，其他服务器可以接替其工作。
+
+CDN 的工作原理是在全球各地的战略位置拥有服务器，从而更快地为你传送内容。CDN 通过在全球范围内提前存储你的内容来解决这些问题。因此，当有请求时，CDN 会将数据存储在悉尼的服务器上，以便更快地传送到新西兰。
+
+CDN 的好</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宣布Svelte 4]]></title>
+        <id>https://svelte.dev/blog/svelte-4</id>
+        <link href="https://svelte.dev/blog/svelte-4"/>
+        <updated>2023-06-25T13:40:29.417Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/svelte-4">Announcing Svelte 4</a></p><p><strong>概要：</strong></p><p>Svelte 4 稳定版已经发布，它主要是一个维护版本，提升了性能，改进了开发者体验，并对网站进行了更新。Svelte 4 的包大小减少了近 75%，从 10.6MB 降到 2.8MB，这意味着在执行 npm install 时等待时间更短。此外，Svelte 的依赖项数量也从 61 个大幅度减少到 16 个，这不仅可以加快用户的下载速度，还可以降低供应链攻击的风险。对于 Web 组件的使用者来说，最大的变化是改变了使用 Svelte 来创建自定义元素的方式。此外，Svelte 4 还改进了 IDE 编写体验，更新了官方网站、文档和教程，并为即将发布的 Svelte 5 做好了准备。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript 5.2的新关键词："using"。]]></title>
         <id>https://www.totaltypescript.com/typescript-5-2-new-keyword-using</id>
@@ -263,33 +303,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://nakedjsx.org/"/>
         <updated>2023-06-13T02:35:25.153Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nakedjsx.org/">NakedJSX - Use JSX without React</a></p><p><strong>概要：</strong></p><p>NakedJSX 是一个命令行工具，可以从 JSX 生成 HTML 文件。输出的内容是纯 HTML 和 CSS，除非你选择添加自己的 JavaScript。它不需要设置 Node.js 项目，只需在 NakedJSX 内容目录上运行 npx 命令即可构建站点到输出文件夹中。它还提供了一个带有实时刷新构建和 Web 服务器的开发模式，并提供了一个可选的小型运行时，允许客户端 JavaScript 使用 JSX。NakedJSX 支持多种功能，包括嵌套 CSS、CSS 最小化和去重、图像转换为 webp 格式等。NakedJSX 的设计哲学是纯 HTML 和 CSS 输出、低摩擦、API 稳定性、保守依赖选择和安全合规。该项目目前处于设计更改的状态，但反馈非常受欢迎。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - HeyPuter/kv.js：用于JavaScript的高级内存缓存模块。]]></title>
-        <id>https://github.com/HeyPuter/kv.js</id>
-        <link href="https://github.com/HeyPuter/kv.js"/>
-        <updated>2023-06-13T02:35:02.009Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/HeyPuter/kv.js">GitHub - HeyPuter/kv.js: Advanced in-memory caching module for JavaScript.</a></p><p><strong>概要：</strong></p><p>KV.JS 是一个快速的纯 JavaScript 内存数据存储，受到 Redis 和 Memcached 的启发。它能够处理多种数据类型，包括字符串、列表、集合、排序集、哈希和地理空间索引。此外，KV.JS 支持超过 140 个函数，涵盖了从 SET、GET、EXPIRE、DEL 到 INCR、DECR、LPUSH、RPUSH、SADD、SREM、HSET、HGET 等广泛的操作。它适用于需要缓存但运行 Redis 会过度的场景。该项目遵循 MIT 许可证发布。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现在WebContainers中已经支持npm、yarn和pnpm。]]></title>
-        <id>https://blog.stackblitz.com/posts/announcing-native-package-manager-support/</id>
-        <link href="https://blog.stackblitz.com/posts/announcing-native-package-manager-support/"/>
-        <updated>2023-06-13T02:33:49.359Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.stackblitz.com/posts/announcing-native-package-manager-support/">npm, yarn and pnpm are now supported natively in WebContainers</a></p><p><strong>概要：</strong></p><p>WebContainers 团队一直在不断改进和重构其构建模块，以确保其速度和安全性。去年他们已经为 WebContainers 提供了 pnpm 和 yarn 的本地支持，现在他们又宣布了 npm 的本地支持，这将使得开发者可以在 StackBlitz 上无缝使用所有主要的包管理器。此外，他们还实现了比本地快 5 倍的速度，这是通过多年的研究和加速依赖项解析和快速磁盘链接来实现的。同时，他们也宣布将于 2024 年 1 月 1 日废弃 Turbo，转而支持原生的 npm。在这个过程中，可能会出现一些兼容性问题，但 WebContainers 团队已经在努力解决这些问题，并承诺将在未来几周内发布更多功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何用稳定扩散法制作二维码 - 稳定扩散法艺术]]></title>
-        <id>https://stable-diffusion-art.com/qr-code/</id>
-        <link href="https://stable-diffusion-art.com/qr-code/"/>
-        <updated>2023-06-13T02:29:06.404Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://stable-diffusion-art.com/qr-code/">How to make a QR code with Stable Diffusion - Stable Diffusion Art</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用 Stable Diffusion 生成艺术 QR 码。首先需要生成一个高容错率的 QR 码，然后使用 AUTOMATIC1111 Stable Diffusion GUI 进行图像处理。通过调整参数和添加提示，可以生成类似于 QR 码的艺术图像。文章还提供了一些其他提示和示例，包括机械女孩、日本女孩、机器人和户外市场等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MacOS Sonoma 14 Beta上的网络应用]]></title>
-        <id>https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/</id>
-        <link href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/"/>
-        <updated>2023-06-13T02:26:14.701Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/">Web Apps on macOS Sonoma 14 Beta</a></p><p><strong>概要：</strong></p><p>本文介绍了苹果公司在 macOS Sonoma 中推出的可安装 Web 应用程序。这些应用程序高度集成在整个 macOS 体验中，不显示任何 Safari 用户界面。用户可以通过将网站添加到 Dock 来安装应用程序，并可以自定义名称和图标。这些应用程序支持 AutoFill 凭据、摄像头、麦克风和位置权限，并且支持 Web 推送、标记和所有通常由 WebKit 实现的 Web 标准。文章还列出了一些对苹果公司的建议和 Chrome 的改进建议。总之，Web 应用程序在 macOS 上具有巨大的潜力，并且可以成功地融入操作系统体验。</p>]]></content>
     </entry>
 </feed>
