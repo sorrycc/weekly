@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-25T13:57:39.833Z</updated>
+    <updated>2023-06-26T02:01:45.856Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[2023年的React Ecosystem。]]></title>
+        <id>https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4</id>
+        <link href="https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4"/>
+        <updated>2023-06-26T01:58:53.568Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4">React Ecosystem in 2023.</a></p><p><strong>概要：</strong></p><p>这篇文章主要介绍了 2023 年的 React 生态系统，包括一些可供学习和成为 React 开发者的库。最近，推出了一款名为 million.js 的工具，它使 React 的速度提高了 70%。对于初学者来说，选择正确的库可能相当具有挑战性。
+
+文章列举了一些 React 库，包括构建工具（如 vite、nextjs、Webpack）、路由（如 react router、tanstack router）、客户端状态管理（如 redux toolkit、zustand）、服务器状态管理（如 tanstack query、redux-toolkit query、Apollo Client、jotai）、表单处理（如 Formik、React Hook Form）、测试（如 Vitest、React Testing library、Play-write）、样式（如 Tailwindcss、Styled-components、Emotion、Bootstrap）、UI 组件库（如 Material UI、Man time UI、Ant Design、Chakra UI、Headless UI (tailwindcss)、DaisyUI (Tailwindcss)、shadcn UI (Tailwindcss)、React Bootstrap）、动画（如 React Spring、Framer motion）、数据可视化（如 Victory charts、React Charts js、Recharts）、表格（如 Tanstack table）、国际化（如 react-i18next、formatjs）以及开发工具（如 react developer tools、Redux dev tool、testing playground、react hook form dev tools、AxeDev Tool (Accessibility)、Tanstack query dev tools）。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第四部分：编写简洁高效的React代码--最佳实践和优化技术]]></title>
+        <id>https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d</id>
+        <link href="https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d"/>
+        <updated>2023-06-26T01:58:29.603Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d">Part 4: Writing Clean and Efficient React Code- Best Practices and Optimization Techniques</a></p><p><strong>概要：</strong></p><p>本文是 "2023 年 React 最佳实践" 系列的第四部分，探讨了如何编写清晰、高效的 React 应用程序代码。以下是一些最佳实践：
+
+1. 实现错误边界来优雅地处理组件错误。
+2. 对于功能组件，使用 React.memo 以避免不必要的重渲染。
+3. 使用 Linting 工具（如 ESLint）来提高代码质量和一致性。
+4. 避免默认导出，因为它可能使理解哪些组件被导入和在其他文件中使用变得困难。
+5. 使用对象解构，这是一种更简洁、优雅的方式来提取对象属性。
+6. 使用片段来避免在渲染多个元素时产生不必要的包装 div。
+7. 优先传递对象而不是多个 props。
+8. 使用箭头函数，它提供了更简洁的语法和词法范围。
+9. 使用枚举代替数字或字符串。
+10. 对布尔 props 使用简写。
+11. 避免使用索引作为 key props。
+12. 在小函数中使用隐式返回。
+13. 使用 PropTypes 进行类型检查。
+14. 优先使用模板文字。
+15. 避免使用庞大的组件。
+
+以上最佳实践可以提高代码的可维护性、性能和可读性。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[跟大家聊聊当下卖课的现状]]></title>
         <id>https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html</id>
@@ -289,19 +323,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://github.com/LeeeSe/MessAuto"/>
         <updated>2023-06-15T10:23:31.622Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/LeeeSe/MessAuto">GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；Automatic extraction of SMS verification code for Mac platform, free alternatives to 2FHey</a></p><p><strong>概要：</strong></p><p>MessAuto 是一款由 Rust 开发的 macOS 平台软件，能自动提取短信验证码并粘贴回车。它可以在任何 APP 中使用，是 2FHey 的免费替代品。该软件支持多语言，占用存储和内存较小，没有 GUI，只有一个任务栏托盘图标。使用方法是通过菜单栏操作，包括自动粘贴、自动回车、暂时隐藏、永久隐藏和登录时启动等功能。但需要注意的是，ARM64 版本打开时可能会提示文件损坏，因为需要 Apple 开发者签名才能正常启动。作者开发这款软件的初衷是希望将 Safari 浏览器的自动获取验证码功能扩展到所有 APP 上。使用此软件需要 macOS 系统，并能接收 iPhone 的短信，还需要完全磁盘访问权限和辅助功能权限。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你可以停止对React.FC的憎恨]]></title>
-        <id>https://www.totaltypescript.com/you-can-stop-hating-react-fc</id>
-        <link href="https://www.totaltypescript.com/you-can-stop-hating-react-fc"/>
-        <updated>2023-06-15T08:47:44.021Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/you-can-stop-hating-react-fc">You Can Stop Hating React.FC</a></p><p><strong>概要：</strong></p><p>本文介绍了 TypeScript 5.1 和 React 18 中 React.FC 的改进，使其成为一种完全可行的组件类型定义方式。React.FC 曾经因为在 props 类型中默认包含 children 而备受争议，但现在已经不再包含 children，并且可以返回 undefined、string 或 number。虽然作者仍然建议直接注释 props 来定义组件类型，但是如果你的代码库中使用了 React.FC，也没有必要将其移除。总之，React.FC 不再是一个反模式，而是一种可选的组件类型定义方式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Astro 2.6: 中间件 | Astro]]></title>
-        <id>https://astro.build/blog/astro-260/</id>
-        <link href="https://astro.build/blog/astro-260/"/>
-        <updated>2023-06-13T03:11:44.817Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-260/">Astro 2.6: Middleware | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.6 是一个大版本更新，包括几个实验性功能已经被标记为稳定，并且可以在所有 Astro 项目中使用。这些功能包括 Middleware、Hybrid SSR 输出模式、自定义客户端指令和 CSS 内联等。此外，Astro 2.6 还引入了新功能和改进，包括管理重定向的实验性功能、Markdoc 改进和语言工具改进等。Astro 2.6 的更新由社区成员贡献，其中一些功能最初是通过公共路线图和 RFC 过程提出的。Astro 团队还与 Stripe 的 Markdoc 团队密切合作，以改善 Astro 中的 Markdoc 支持。Astro 的语言工具也得到了升级，包括 Astro VSCode 扩展和 Astro 语言服务器。Astro 团队使用 Volar 框架来提高语言工具的性能和稳定性。</p>]]></content>
     </entry>
 </feed>
