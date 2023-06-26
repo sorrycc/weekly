@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-26T02:01:45.856Z</updated>
+    <updated>2023-06-26T13:53:29.192Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Bright - 语法高亮的React服务器组件]]></title>
+        <id>https://bright.codehike.org/</id>
+        <link href="https://bright.codehike.org/"/>
+        <updated>2023-06-26T10:56:40.259Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bright.codehike.org/">Bright - Syntax Highlighting React Server Component</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了 React 服务器组件用于语法高亮的内容。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年的React Ecosystem。]]></title>
         <id>https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4</id>
@@ -316,12 +323,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://github.com/7PH/powerglitch"/>
         <updated>2023-06-15T10:40:37.360Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/7PH/powerglitch">GitHub - 7PH/powerglitch: Tiny JS library to glitch anything on the web</a></p><p><strong>概要：</strong></p><p>PowerGlitch 是一个独立的库，无需外部依赖。它利用 CSS 动画在网页上产生任何故障效果，无需使用 canvas。其压缩后的大小不到 2kb。你可以通过包管理器安装 PowerGlitch，或者在脚本标签中导入网络捆绑包（或将其保存在本地）。然后找到一个元素进行故障处理，导入 PowerGlitch，就可以使元素出现故障效果了。该项目还提供了优化和使用技巧的使用指南。此外，PowerGlitch 还支持 React 和 Vue 的集成。如果你遇到问题、发现错误或想要贡献，欢迎开放问题或创建拉取请求。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；为Mac平台自动提取短信验证码，2FHey的免费替代品]]></title>
-        <id>https://github.com/LeeeSe/MessAuto</id>
-        <link href="https://github.com/LeeeSe/MessAuto"/>
-        <updated>2023-06-15T10:23:31.622Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/LeeeSe/MessAuto">GitHub - LeeeSe/MessAuto: 自动提取Mac平台的短信验证码，2FHey的免费替代品；Automatic extraction of SMS verification code for Mac platform, free alternatives to 2FHey</a></p><p><strong>概要：</strong></p><p>MessAuto 是一款由 Rust 开发的 macOS 平台软件，能自动提取短信验证码并粘贴回车。它可以在任何 APP 中使用，是 2FHey 的免费替代品。该软件支持多语言，占用存储和内存较小，没有 GUI，只有一个任务栏托盘图标。使用方法是通过菜单栏操作，包括自动粘贴、自动回车、暂时隐藏、永久隐藏和登录时启动等功能。但需要注意的是，ARM64 版本打开时可能会提示文件损坏，因为需要 Apple 开发者签名才能正常启动。作者开发这款软件的初衷是希望将 Safari 浏览器的自动获取验证码功能扩展到所有 APP 上。使用此软件需要 macOS 系统，并能接收 iPhone 的短信，还需要完全磁盘访问权限和辅助功能权限。</p>]]></content>
     </entry>
 </feed>
