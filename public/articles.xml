@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-26T13:53:29.192Z</updated>
+    <updated>2023-06-27T03:06:44.948Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[用键盘锁API实现更好的全屏模式 - Chrome开发人员]]></title>
+        <id>https://developer.chrome.com/blog/better-full-screen-mode/</id>
+        <link href="https://developer.chrome.com/blog/better-full-screen-mode/"/>
+        <updated>2023-06-27T03:01:02.572Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/better-full-screen-mode/">Better full screen mode with the Keyboard Lock API - Chrome Developers</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用键盘锁 API 来在全屏模式下捕获 Escape 键。作者指出，当用户在全屏游戏中打开一个对话框，本能地用 Escape 键取消时，可能会被强制退出全屏模式，这是由于对话框和全屏模式对 Escape 键的 “争夺”。默认情况下，全屏模式总是胜出。但通过使用键盘锁 API，可以让对话框成为 Escape 键的 “赢家”。该 API 可以在 navigator.keyboard 上使用，lock () 方法可以在启用后捕获物理键盘上所有键的按键。此方法只能捕获操作系统授权访问的键，幸运的是 Escape 键就是其中之一。如果你的应用有全屏模式，可以在请求全屏时捕获 Escape 键，以此作为渐进增强的手段。当用户离开全屏模式时，通过 Keyboard 接口的 unlock () 方法解锁（即不再捕获）键盘。这样，在全屏模式下，按下 Escape 键将默认取消对话框。如果用户长按 Escape 键，仍然可以退出全屏模式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在VSCode中提高生产力的6个快速技巧]]></title>
+        <id>https://techhub.iodigital.com/articles/6-vscode-tips</id>
+        <link href="https://techhub.iodigital.com/articles/6-vscode-tips"/>
+        <updated>2023-06-27T03:00:42.843Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://techhub.iodigital.com/articles/6-vscode-tips">6 Quick Tips to Boost Your Productivity in VSCode</a></p><p><strong>概要：</strong></p><p>这篇文章分享了六个 VSCode 的使用技巧，帮助开发者优化工作流程。1. 通过快捷键 cmd + option + o（Windows 上为 Shift + Alt + o）可以方便地删除无用的引入，使代码库更整洁。2. 在 VSCode 中，可以通过 F2 键轻松重命名变量，系统会自动更新代码中所有该变量的实例，节省时间并保证一致性。3. 对于频繁使用的命令或扩展，可以设置快捷键，提高工作效率。在 “代码> 首选项 > 键盘快捷方式” 中搜索需要的操作，双击快捷方式列并设定你喜欢的快捷键。4. 可以设置一个快速修复 ESLint 问题的自定义快捷键。将以下代码复制到 keybindings.json 文件中，并分配一个未被 VSCode 使用的键组合，即可立即触发 ESLint 的自动修复功能。5. VSCode 内置的 “快速修复” 功能能够显示当前上下文所有可用的快速修复方案，例如添加缺失的引入、修复 linting 问题或向单行箭头函数添加花括号。6. 可以创建一个 “快速修复：添加所有缺失的引入” 的快捷键，比如设定为 cmd + '，当遇到未解决的引入时，只需使用这个快捷键就能自动添加必要的引入，无需手动搜索、输入和导入。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bright - 语法高亮的React服务器组件]]></title>
         <id>https://bright.codehike.org/</id>
@@ -303,25 +317,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
 为避免错误，作者提出了以下建议：使用带有行号、颜色编码、linting、自动完成、括号匹配、参数提示等功能的好的代码编辑器；使用像 Git 这样的源代码控制系统来管理代码修订；采用像 Jira、FogBugz 或 Bugzilla 这样的 bug 跟踪系统；使用测试驱动开发（TDD）；尝试代码解释或配对编程等技术与其他开发人员合作。
 
 此外，文章还介绍了如何通过环境变量、命令行选项、控制台日志、Node.js V8 检查器以及 VS Code 等方式进行 Node.js 调试。最后，文章还提供了一份关于调试的术语表，以帮助读者更好地理解调试过程中可能遇到的各种专业术语。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[完成你的项目]]></title>
-        <id>https://github.com/readme/guides/finish-your-projects</id>
-        <link href="https://github.com/readme/guides/finish-your-projects"/>
-        <updated>2023-06-15T10:41:48.487Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/readme/guides/finish-your-projects">Finish your projects</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了如何完成一个项目的挑战，以及完成一个项目所带来的满足感。开始一个新项目总是充满无限可能性和乐趣，但随着时间的推移，这种快乐会逐渐变成痛苦的工作。许多人在这个阶段失去了兴趣，放弃了项目。然而，只有坚持到最后，完成项目的人才能体验到深深的满足感。
-
-完成一个项目需要付出努力，也需要勇气。首先，你需要接受这个事实：完成一个项目不可能一直都是有趣的。你必须习惯于项目的最后 10% 的艰苦奋斗。其次，你需要克服发布项目的恐惧，这通常源自于害怕自己的工作和自己受到批评。
-
-作者分享了他的生产力方法：设定一段时间，提前决定要做什么，全力以赴地专注于那件事。他还建议找出适合自己的方式，给自己每一个可能的优势，因为完成工作是困难的。
-
-完成一个项目本身就是一种奖励。无论项目的结果如何，你都应该为自己感到骄傲，因为你已经完成了一项任务。你是一个能够完成事情的人。不断地完成项目，你的工作成果将随着时间的推移而增长。完成是一种技能，你可以磨练它。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - 7PH/powerglitch：小小的JS库，可以让网络上的任何东西出现故障。]]></title>
-        <id>https://github.com/7PH/powerglitch</id>
-        <link href="https://github.com/7PH/powerglitch"/>
-        <updated>2023-06-15T10:40:37.360Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/7PH/powerglitch">GitHub - 7PH/powerglitch: Tiny JS library to glitch anything on the web</a></p><p><strong>概要：</strong></p><p>PowerGlitch 是一个独立的库，无需外部依赖。它利用 CSS 动画在网页上产生任何故障效果，无需使用 canvas。其压缩后的大小不到 2kb。你可以通过包管理器安装 PowerGlitch，或者在脚本标签中导入网络捆绑包（或将其保存在本地）。然后找到一个元素进行故障处理，导入 PowerGlitch，就可以使元素出现故障效果了。该项目还提供了优化和使用技巧的使用指南。此外，PowerGlitch 还支持 React 和 Vue 的集成。如果你遇到问题、发现错误或想要贡献，欢迎开放问题或创建拉取请求。</p>]]></content>
     </entry>
 </feed>
