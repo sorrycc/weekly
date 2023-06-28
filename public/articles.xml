@@ -2,11 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-27T03:06:44.948Z</updated>
+    <updated>2023-06-28T02:34:41.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[对Svelte(Kit)的看法，一年后30亿次的请求]]></title>
+        <id>https://claudioholanda.ch/en/blog/svelte-kit-after-3-billion-requests/</id>
+        <link href="https://claudioholanda.ch/en/blog/svelte-kit-after-3-billion-requests/"/>
+        <updated>2023-06-28T02:20:57.195Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://claudioholanda.ch/en/blog/svelte-kit-after-3-billion-requests/">Thoughts on Svelte(Kit), one year and 3 billion requests later</a></p><p><strong>概要：</strong></p><p>去年，我的公司接到了建设一个新闻网站的任务。自从项目上线以来，它经历了显著的观众增长，每天处理数十万的访客。在过去的 12 个月中，每个访客都在页面及其组件上进行导航和交互，大约产生了 30 亿次请求。
+
+我选择 Svelte 作为这个项目的开发框架，并分享了我认为使用 Svelte 和 SvelteKit 工作的好坏两面。
+
+我们的客户给我们带来了一个多年前制作的网站，该网站采用了旧技术，难以添加新功能，性能差，且垂直基础设施昂贵。经过几次会议，我们得出的结论是，最好的方法是暂停旧网站的开发，使用最佳技术和实践从头开始构建一个新的。考虑到这个项目的可塑性和可扩展性需求，还需要从零开始构建一个新的 CMS。
+
+SvelteKit 具有强大的 SSR 解决方案，因此我选择了它。尽管 React 是一个拥有庞大社区和繁荣生态系统的优秀反应式库，但一旦你离开这条路径，你可能会在某个时候遇到麻烦。而有些项目你不想（或不能）因为你选择的 UI 开发工具而冒险遇到麻烦。所以我们选择了 Svelte/SvelteKit 而不是 React/Next.js。
+
+然而，Svelte 也存在一些问题，比如缺乏 “Svelte” 组件，很多项目都是一个人的军队，缺乏已经建立的模式和优秀的教程等。但总的来说，Svelte 对于我们的团队</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - mrjooz/password-generator: 密码生成工具]]></title>
+        <id>https://github.com/mrjooz/password-generator</id>
+        <link href="https://github.com/mrjooz/password-generator"/>
+        <updated>2023-06-28T02:16:42.518Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/mrjooz/password-generator">GitHub - mrjooz/password-generator: 密码生成工具</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了在使用 Git 时，如果已经存在与提供的分支名相同的标签，可能会导致一些问题。因为很多 Git 命令同时接受标签和分支名，所以创建这个分支可能会引发意外的行为。作者询问读者是否确定要创建这个分支。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通过使用Node.js的AsyncLocalStorage来避免参数钻取| pawelgrzybek.com]]></title>
+        <id>https://pawelgrzybek.com/avoid-parameter-drilling-by-using-the-node-js-asynclocalstorage/</id>
+        <link href="https://pawelgrzybek.com/avoid-parameter-drilling-by-using-the-node-js-asynclocalstorage/"/>
+        <updated>2023-06-28T02:12:40.147Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/avoid-parameter-drilling-by-using-the-node-js-asynclocalstorage/">Avoid parameter drilling by using the Node.js AsyncLocalStorage | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>虽然全局变量被认为是一种不好的做法，但它可能是共享上下文的最简单形式。在这个例子中，我定义了全局变量 context，并用它在主函数和 logger 函数之间共享 uuid 值。这种方法对于同步代码来说工作得很好，但是当我们引入异步操作时，问题就出现了。让我通过添加一个 http 服务器来说明这个问题：每个后续的请求都会更新全局上下文，logger 函数总是记录 uuid 的最后一个值，而不一定是与请求相关的那个值。将 uuid 作为参数传递给 logger（参数钻取）或将其粘贴到 req 对象是解决此问题的常见解决方案。尽管如此，它们都可能很快变得繁琐。
+
+自 Node.js 13.10 以来，AsyncLocalStorage 类提供了一种在 web 请求或任何其他异步操作的生命周期内存储特定上下文数据的方法。它类似于不同编程语言中使用的线程本地存储（TLS）概念。让我们利用这个 API 并重写我们的示例：现在，所有连续的请求都将记录正确的 uuid 值，而无需担心相互干扰。关联 ID 只是 AsyncLocalStorage API 的许多用例之一。它可以用于存储当前用户、事务 ID、报告数据等。
+
+Node.js AsyncLocalStorage API 的广泛用例激发了社区成员提出 JavaScript 的异步上下文。我希望这个提案能够迅速成为 ECMAScript 标准的一部分。
+
+感谢 Syntax.fm 的一集启发了我去探索这个主题并写下这篇文章。感谢 Wes 和 Scott 创造的优秀内容！</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在焦点上刷新React服务器组件]]></title>
+        <id>https://buildui.com/recipes/refresh-react-server-component-on-focus</id>
+        <link href="https://buildui.com/recipes/refresh-react-server-component-on-focus"/>
+        <updated>2023-06-28T02:08:39.348Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://buildui.com/recipes/refresh-react-server-component-on-focus">Refresh React Server Component on Focus</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 <RefreshOnFocus /> 的组件，它可以被插入到 Next.js 应用中的任何 React 服务器组件中，使其在浏览器窗口被聚焦时刷新。页面上的卡片使用与它们的动态数据相关的键来运行 CSS 动画，每当它们的数据发生变化时都会触发动画。文章还提供了代码和使用方法，以及使用的库 ——Next.js 13 App Directory。同时，文章也邀请读者加入 Build UI Newsletter，以便在发布新的配方时接收通知。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布v1.18.0 - remix-run/remix]]></title>
+        <id>https://github.com/remix-run/remix/releases/tag/remix%401.18.0</id>
+        <link href="https://github.com/remix-run/remix/releases/tag/remix%401.18.0"/>
+        <updated>2023-06-28T02:06:28.873Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/remix-run/remix/releases/tag/remix%401.18.0">Release v1.18.0 · remix-run/remix</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Remix 1.18.0 的新特性和改进。包括：
+
+1. 稳定的 V2 开发服务器：这个新版本正式稳定化了 "New Dev Server"，并带有 HMR/HDR。
+
+2. JSON/Text 提交：如果你不是 FormData 的粉丝，Remix 1.18.0 更新了对 react-router-dom@6.14.0 的支持，它带来了在 useSubmit/fetcher.submit 中选择 application/json 或 text/plain 编码的支持，并添加了相应的 navigation.json/navigation.text 和 fetcher.json/fetcher.text 字段。
+
+3. 视口驱动的预获取：Link 组件现在可以通过新的 <Link prefetch="viewport"> 属性值自动预获取路由数据和 JS 模块。
+
+4. 更新的 ESLint 配置：我们已经更新了 @remix-run/eslint-config，以继承来自 @typescript-eslint/recommended 的推荐规则集，而不是手动维护我们自己的 TS 相关规则。
+
+5. 性能改进：我们过去几周大量投入到性能提升上，你可能会看到一些改善（大约快 10%），但我们也亲眼看到在一些极端情况下构建和重建时间大幅缩短。
+
+此外，还修复了一些问题，包括使用 React 17 时的类型问题、pathless 布局路由下的嵌套路径段的错误等，并更新了 React Router 依赖项至最新版本。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用键盘锁API实现更好的全屏模式 - Chrome开发人员]]></title>
         <id>https://developer.chrome.com/blog/better-full-screen-mode/</id>
@@ -264,58 +325,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064"/>
         <updated>2023-06-20T04:16:49.440Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064">You can't trust Google</a></p><p><strong>概要：</strong></p><p>文章作者 David Heinemeier Hansson 警告，如果 Google 无法通过广告直接实现数十亿规模的盈利，那么它最终会关闭你关心的每一项服务。他认为，Google 在产品或服务业务中的能力有限，因为这些都不是 Google 的主要收入来源，广告才是。他以客户服务为例，指出 Google 的客户服务一直很差，因为帮助解决 Workspaces 或 Google Cloud Platform 上的问题永远不会像帮助广告商获取注意力那样有利可图。他提到了 Google 刚刚关闭其域名注册商 Google Domains 的事情，尽管这个业务每年可以带来 1.8 亿美元的收入，并服务了 1000 万个域名。此外，他还提到了 Google Home / Nest 的失败案例。他建议，无论是协作、电子邮件还是家庭安全系统，用户最好都有备份计划，因为任何标有 "由 Google 制造" 的产品或服务都可能随时被 Google 放弃。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - kaleidawave/ezno：一个用Rust编写的JavaScript编译器和TypeScript检查器，专注于静态分析和运行时性能。]]></title>
-        <id>https://github.com/kaleidawave/ezno</id>
-        <link href="https://github.com/kaleidawave/ezno"/>
-        <updated>2023-06-17T04:50:19.451Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/kaleidawave/ezno">GitHub - kaleidawave/ezno: A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Ezno，一个用 Rust 编写的 JavaScript 编译器和 TypeScript 检查器，重点关注静态分析和运行时性能。Ezno 是一个 JavaScript 类型检查器，可以作为库使用，也可以与可选的编译器基础设施（解析器、CLI、LSP 等）一起使用。它提供完全类型化的程序，保证类型安全，并旨在通过更好的静态分析实现类型的准确性和追踪。此外，Ezno 还具有命令式类型系统，事件追踪和评估函数副作用。
-
-然而，Ezno 并不是一个二进制可执行文件生成器，它将 JavaScript（或 TS/Ezno 超集）编译为 JavaScript。此过程更像是编译而不是转译。尽管你可以使用其事件 IR 生成一个较低级别的格式，但 Ezno 目前还不能使用，离实用还有很长的路要走。
-
-此外，该项目还包含了一些箱子，如 checker 和 parser 等。同时，作者也邀请读者参与贡献，查看问题并参与讨论。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-4的本地JSON输出]]></title>
-        <id>https://yonom.substack.com/p/native-json-output-from-gpt-4</id>
-        <link href="https://yonom.substack.com/p/native-json-output-from-gpt-4"/>
-        <updated>2023-06-16T05:57:17.063Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://yonom.substack.com/p/native-json-output-from-gpt-4">Native JSON Output From GPT-4</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 OpenAI 在 2023 年 6 月 13 日发布的新功能 —— 函数调用，该功能使得在产品中集成大型语言模型（LLMs）时生成结构化数据（如 JSON）变得更简单。文章通过一个名为 “食谱创建器” 的演示应用来说明这个新功能的使用方法和优点。
-
-新 API 引入了两个新参数：functions（一个包含可供 GPT 使用的函数数组，每个函数都有名称、描述和参数的 JSON Schema）和 function_call（可选地指定无或 { "name": "<function_name>" }，可以强制 GPT 使用特定函数，或明确禁止调用任何函数）。通过设置 function_call 参数，你可以从 GPT 调用中可靠地获取 JSON 响应，而不再是字符串。
-
-此外，新 API 还改变了我们与 OpenAI LLMs 交互的方式，除了明显的插件使用案例外，还可以生成 JSON 输出。以前需要通过提示工程来完成这一步骤，但这种方法对于简单的情况效果良好，但容易出错。现在，通过对大型语言模型的低级访问，你可以做得更好。例如，通过降低令牌使用，可以使 API 调用更快、更便宜。
-
-最后，作者认为新 API 的另一个优点是减少了生成正确输出所需的提示工程，使得 LLMs 更容易作为无代码后端使用。并且，OpenAI 的 API 似乎支持 JSON Schema 的特性，如 #ref（递归）和 oneOf（多选），意味着你应该能够在单个 API 请求中通过 JSON schema 实现更复杂的代理和递归思考过程。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布Tauri 1.4.0 | Tauri Apps]]></title>
-        <id>https://tauri.app/blog/2023/06/14/tauri-1-4/</id>
-        <link href="https://tauri.app/blog/2023/06/14/tauri-1-4/"/>
-        <updated>2023-06-16T04:46:06.846Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tauri.app/blog/2023/06/14/tauri-1-4/">Announcing Tauri 1.4.0 | Tauri Apps</a></p><p><strong>概要：</strong></p><p>Tauri 团队宣布推出 1.4 版本。这个版本包括了一些新功能和重要的错误修复，比如 CLI 补全、单元测试能力和 Windows 安装程序的改进。确保更新 NPM 和 Cargo 依赖到 1.4.0 版本。Tauri CLI 现在可以为 Bash、Zsh、PowerShell 和 Fish 生成 shell 补全。窗口的最大化、最小化和关闭按钮现在可以通过配置或 API 调用来禁用。1.4.0 版本包括了几项 NSIS 捆绑增强：自定义语言文件、自定义安装模板（.nsi 文件）、支持荷兰语、日语、韩语、波斯语、瑞典语和土耳其语等。如果你的应用程序是通过 WiX 安装的，安装程序会提示用户卸载它。Tauri 1.4 仍然支持 Rust 1.60 版本，但由于一些依赖性不兼容问题，我们不再固定 time, ignore, 和 winnow crate 的补丁版本。tauri crate 现在在 test Cargo feature 下暴露了 test 模块。这个模块还不稳定，但允许你通过创建一个可以在不生成窗口的情况下执行的 tauri::App 实例来对你的应用程序进行单元测试。从 v1.4.0 开始，我们的更新日志格式已经得到了改进。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fresh 1.2 - 欢迎全职维护者，在岛屿之间共享状态，有限的npm支持，以及更多]]></title>
-        <id>https://deno.com/blog/fresh-1.2</id>
-        <link href="https://deno.com/blog/fresh-1.2"/>
-        <updated>2023-06-16T04:45:27.494Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/fresh-1.2">Fresh 1.2 – welcoming a full-time maintainer, sharing state between islands, limited npm support, and more</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了 Fresh 1.0，一种现代化、以 Deno 为首的全栈 Web 框架。自去年推出以来，Fresh 在 GitHub 上获得了大量的关注，并取得了显著的增长。然而，对于 Deno 团队是否会持续维护 Fresh，人们一直有疑问。尽管团队一直表示会坚定不移地维护，但现实情况更为复杂。由于主要维护者没有足够的时间专注于 Fresh，因此很多问题得不到及时解决。
-
-为了改变这种情况，团队找到了新的主要维护者 Marvin Hagemeister，他是 Preact 的维护者和 Preact DevTools 的构建者。他将全职领导 Fresh 项目的开发。预计在未来几个月内，Fresh 在易用性、功能、性能和项目维护等方面都将有显著的提升。
-
-最后，文章介绍了 Fresh 1.2 的一些亮点特性，包括传递信号、Uint8Arrays 和循环数据到岛屿属性，支持自定义 HEAD 处理器，HandlerContext.render 的状态和头部覆盖，./islands 文件夹中的子目录，异步插件渲染，简化 Fresh 项目的测试等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js中的调试介绍]]></title>
-        <id>https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/</id>
-        <link href="https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/"/>
-        <updated>2023-06-16T04:44:13.520Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs/">An introduction to debugging in Node.js</a></p><p><strong>概要：</strong></p><p>本文主要讲解了 Node.js 的调试技巧。Node.js 是一种使用 Google Chrome 浏览器的 V8 引擎的流行 JavaScript 运行时，可用于创建服务器端 Web 应用、构建工具、命令行应用等。然而，当代码出现问题时，情况就不那么明朗了。调试是修复软件缺陷的艺术，找到错误原因可能需要花费大量时间。
-
-为避免错误，作者提出了以下建议：使用带有行号、颜色编码、linting、自动完成、括号匹配、参数提示等功能的好的代码编辑器；使用像 Git 这样的源代码控制系统来管理代码修订；采用像 Jira、FogBugz 或 Bugzilla 这样的 bug 跟踪系统；使用测试驱动开发（TDD）；尝试代码解释或配对编程等技术与其他开发人员合作。
-
-此外，文章还介绍了如何通过环境变量、命令行选项、控制台日志、Node.js V8 检查器以及 VS Code 等方式进行 Node.js 调试。最后，文章还提供了一份关于调试的术语表，以帮助读者更好地理解调试过程中可能遇到的各种专业术语。</p>]]></content>
     </entry>
 </feed>
