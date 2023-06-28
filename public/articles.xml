@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-28T02:34:41.221Z</updated>
+    <updated>2023-06-28T14:35:34.595Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun v0.6.10]]></title>
+        <id>https://bun.sh/blog/bun-v0.6.10</id>
+        <link href="https://bun.sh/blog/bun-v0.6.10"/>
+        <updated>2023-06-28T14:24:16.954Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/bun-v0.6.10">Bun v0.6.10</a></p><p><strong>概要：</strong></p><p>我们正在招聘 C/C++ 和 Zig 工程师来构建 JavaScript 的未来！加入我们的团队→最近，我们对 Bun 进行了许多更改，以下是一些重要更新：
+
+v0.6.0 - 引入 bun build，Bun 的新 JavaScript 打包器。
+v0.6.2 - 性能提升：JSON.parse 速度提高 20%，Proxy 和 arguments 速度提高 2 倍。
+v0.6.3 - 实现 node:vm，对 node:http 和 node:tls 进行了大量修复。
+v0.6.4 - 实现 require.cache，process.env.TZ，并使 bun test 速度提高 80%。
+v0.6.5 - 对 CommonJS 模块的原生支持（之前，Bun 将 CJS 转换为 ESM）。
+v0.6.6 - bun test 的改进，包括 Github Actions 支持，test.only ()，test.if ()，describe.skip () 以及 15 + 个 expect () 匹配器；还有使用 fetch () 进行文件上传。
+v0.6.7 - Node.js 兼容性改进，以解决 Discord.js、Prisma 和 Puppeteer 的问题。
+v0.6.8 - 引入 Bun.password，bun test 中的 mocking 和 toMatchObject ()。
+v0.6.9 - 内存使用减少，支持非 ascii 文件名。
+
+此外，我们对 CommonJS 的支持也有所改善，使得在 Bun 中加载 npm 包更加可靠。我们修复了与加载 CommonJS 模块相关的许多崩溃，并改进了我们的 CommonJS 模块加载器，使其更兼容 Node.js。
+
+我们还修复了 Bun 客户端 WebSocket 实现中的一个编码错误，这可能会导致 latin1 编码的文本帧被截断。感谢这些更改，puppeteer 在 Bun 中的支持已经得到改善。
+
+另外，我们对 bun:test 进行了改进，现在支持更多的匹配</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布v6.0.0 - styled-components/styled-components]]></title>
+        <id>https://github.com/styled-components/styled-components/releases/tag/v6.0.0</id>
+        <link href="https://github.com/styled-components/styled-components/releases/tag/v6.0.0"/>
+        <updated>2023-06-28T14:22:35.169Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/styled-components/styled-components/releases/tag/v6.0.0">Release v6.0.0 · styled-components/styled-components</a></p><p><strong>概要：</strong></p><p>这篇文章是关于一个版本更新的说明，主要包含以下改动：
+
+在此版本中进行了一些修复和改进，例如防止样式属性上的 prop 渗漏，通过 "CSS" 命名空间来传输 csstype，提升 stylis 至 4.3 版本，并减少了一些不必要的分支逻辑。
+
+在 v6 版本中有一些重大变化，包括现在使用 stylis v4（如果使用 stylis-plugin-rtl，你需要升级到新版本），styled-components 现在提供自己的类型；如果你过去安装过 @types/styled-components，你会想要移除它。此外，还删除了 $as 和 $forwardedAs props（使用 as 或 forwardedAs 替代），以及自动 prop 过滤；对于你不希望传递给子组件 / HTML 的内容，使用瞬态 props（$ 前缀）。
+
+StyleSheetManager 也做出了一些更改，比如用 enableVendorPrefixes prop 替换了 disableVendorPrefixes，取消了自动供应商前缀；如果你需要支持旧的浏览器，可以使用上述 prop 轻松重新启用。
+
+此外，还删除了已弃用的 withComponent API（87f511a）；现在需要使用 "as" prop。并且需要 node >= 14。
+
+完整的更改日志可以查看：v5.3.7...v6.0.0。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[对Svelte(Kit)的看法，一年后30亿次的请求]]></title>
         <id>https://claudioholanda.ch/en/blog/svelte-kit-after-3-billion-requests/</id>
@@ -311,19 +351,5 @@ VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS �
         <link href="https://trilon.io/blog/nestjs-10-is-now-available"/>
         <updated>2023-06-21T01:11:00.769Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://trilon.io/blog/nestjs-10-is-now-available">NestJS v10 is now available - Trilon Consulting</a></p><p><strong>概要：</strong></p><p>NestJS 10 正式发布，带来了许多错误修复、改进和新功能。其中最令人兴奋的新特性包括对 SWC（Speedy Web Compiler）的支持，这是一个可用于编译和打包的基于 Rust 的可扩展平台，使用 SWC 与 Nest CLI 可以显著加快开发过程；测试中模块的覆盖功能，这在需要模拟整个模块而不是单独模拟每个提供者时非常有用；对 Redis 通配符订阅的支持，该功能允许你订阅所有匹配给定模式的消息；CacheModule 已从 @nestjs/common 包中移除，并作为独立包 @nestjs/cache-manager 提供；此外，NestJS 10 不再支持 Node.js v12，而需要 Node.js v16 或更高版本。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - dtinth/superwhite: 在支持HDR的显示器上显示非常明亮的白色]]></title>
-        <id>https://github.com/dtinth/superwhite</id>
-        <link href="https://github.com/dtinth/superwhite"/>
-        <updated>2023-06-21T01:10:35.940Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/dtinth/superwhite">GitHub - dtinth/superwhite: display a very bright white color on HDR-enabled displays</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何在支持 HDR 的显示器上展示非常亮的白色。通过使用 Final Cut Pro 创建一个带有宽色域 HDR 颜色处理设置的库，然后创建一个项目，添加一个纯白色的颜色生成器，并将其设置为亮白色，同时将图形 HDR 级别调整到 100。接着添加 HDR 工具视频效果，将模式设置为 SDR 到 HDR (PQ)，并将峰值亮度调整到 5000 尼特。最后用 HEVC 10 位作为编解码器导出视频。若在支持 HDR 的 Mac 显示器或者最新的 iPhone 或 iPad（低电量模式关闭）上查看此页面，你应该能看到一个比 #ffffff 更亮的白色。在不支持的显示器上，你会看到正常的白色。作者还提醒读者不要滥用这个技术。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你不能相信谷歌]]></title>
-        <id>https://world.hey.com/dhh/you-can-t-trust-google-f7d64064</id>
-        <link href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064"/>
-        <updated>2023-06-20T04:16:49.440Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064">You can't trust Google</a></p><p><strong>概要：</strong></p><p>文章作者 David Heinemeier Hansson 警告，如果 Google 无法通过广告直接实现数十亿规模的盈利，那么它最终会关闭你关心的每一项服务。他认为，Google 在产品或服务业务中的能力有限，因为这些都不是 Google 的主要收入来源，广告才是。他以客户服务为例，指出 Google 的客户服务一直很差，因为帮助解决 Workspaces 或 Google Cloud Platform 上的问题永远不会像帮助广告商获取注意力那样有利可图。他提到了 Google 刚刚关闭其域名注册商 Google Domains 的事情，尽管这个业务每年可以带来 1.8 亿美元的收入，并服务了 1000 万个域名。此外，他还提到了 Google Home / Nest 的失败案例。他建议，无论是协作、电子邮件还是家庭安全系统，用户最好都有备份计划，因为任何标有 "由 Google 制造" 的产品或服务都可能随时被 Google 放弃。</p>]]></content>
     </entry>
 </feed>
