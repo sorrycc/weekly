@@ -2,11 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-06-28T14:35:34.595Z</updated>
+    <updated>2023-07-06T04:33:56.121Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Next.js应用程序路由器更新]]></title>
+        <id>https://nextjs.org/blog/june-2023-update</id>
+        <link href="https://nextjs.org/blog/june-2023-update"/>
+        <updated>2023-07-06T03:02:01.177Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/june-2023-update">Next.js App Router Update</a></p><p><strong>概要：</strong></p><p>Next.js 团队正在专注于改进性能、稳定性和开发者教育。他们已经设计了一种新的基础设施 ——App Router，以满足更大规模应用的需求。这个新工具允许开发者逐步迁移到新的 API，而不需要对整个应用进行重写。目前，团队正在探索更多使增量采用变得更容易的机会。在性能方面，他们正在专注于提高本地迭代速度、生产构建时间和无服务器性能。他们还在努力优化现有的 webpack 架构的性能，并计划用 Turbopack 替换 webpack。为了改善稳定性，他们正在修复 App Router 中的 bug，并感谢社区的反馈。最后，他们正在重新编写 Next.js 的文档，并计划发布更多的教育资源，以帮助开发者理解新的特性和概念。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[npm生态系统核心的巨大错误]]></title>
+        <id>https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem</id>
+        <link href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem"/>
+        <updated>2023-07-06T03:01:33.182Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem">The massive bug at the heart of the npm ecosystem</a></p><p><strong>概要：</strong></p><p>文章是由前 npm CLI 团队的工程经理撰写，主要讨论了 npm 包的 "manifest confusion" 问题。npm 包的清单与其 tarball 独立发布，且从未完全验证过它们的内容是否一致。这导致任何使用公共注册表的工具或洞察可能易受攻击或不准确，恶意行为者可以在直接或转移依赖项中隐藏恶意软件和脚本而不被检测到。作者认为，应该进一步调查以确定受影响的注册表条目的范围，并尽快记录 npm 公共注册表 API 及其各自的请求 / 响应对象。同时，建议开发者联系任何已知依赖于 npm 注册表的 manifest 数据的工具作者 / 维护者，并确保他们在适当时开始使用包的内容作为元数据。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[高级macOS命令 - saurabhs.org]]></title>
+        <id>https://saurabhs.org/advanced-macos-commands</id>
+        <link href="https://saurabhs.org/advanced-macos-commands"/>
+        <updated>2023-07-06T03:00:40.075Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://saurabhs.org/advanced-macos-commands">Advanced macOS Commands - saurabhs.org</a></p><p><strong>概要：</strong></p><p>文章介绍了 macOS 系统中的一些高级命令行工具，包括 Unix 标准工具和 macOS 特有的功能。这些工具包括：caffeinate 用于设置 Mac 的睡眠行为；pbcopy 和 pbpaste 用于与系统剪贴板交互；networkQuality 用于测量互联网速度；sips 用于图像操作；open 用于打开文件和应用程序；textutil 是文档文件转换器；mdfind 和 mdls 用于使用 Spotlight 进行搜索；screencapture 用于截屏；taskpolicy 用于控制进程的调度；say 是文本转语音引擎；pmset 用于配置电源管理；networksetup 用于配置网络设置；softwareupdate 用于管理操作系统更新；system_profiler 用于查看系统信息。每个工具都有详细的使用说明和例子，可以通过运行 man <command> 查看完整的文档。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代JavaScript中的安全数据获取]]></title>
+        <id>https://www.builder.io/blog/safe-data-fetching</id>
+        <link href="https://www.builder.io/blog/safe-data-fetching"/>
+        <updated>2023-07-06T02:59:43.875Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/safe-data-fetching">Safe Data Fetching in Modern JavaScript</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了 JavaScript 中 Fetch 函数的使用方法和常见问题，作者指出直接使用 Fetch 可能会遇到错误处理不当和信息丢失等问题。为了解决这些问题，作者提出了创建自定义错误类和封装 Fetch 函数的方法，使得错误处理更加智能和方便。但是，这种方法仍然需要开发者每次都写一定量的样板代码。因此，作者推荐使用 Axios、Redaxios 和 Wretch 等开源解决方案，它们可以自动处理上述问题，同时还有更多的文档、测试和社区支持。无论选择哪种方式，作者强调要正确地获取数据，以保证用户体验和团队效率。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现代Javascript：过去10年中你错过的一切]]></title>
+        <id>https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years</id>
+        <link href="https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years"/>
+        <updated>2023-07-06T02:59:21.311Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years">Modern Javascript: Everything you missed over the last 10 years</a></p><p><strong>概要：</strong></p><p>这篇文章是一份 JavaScript 的速查表，作者总结了近年来在现代浏览器中广泛支持的 JavaScript 新语法和功能。包括内置数组函数、const/let 关键字、空值合并和可选链运算符、Async/Await 关键字、箭头函数、for...of 循环、异步迭代、类、get/set 函数、函数默认参数、命名参数、剩余参数、Object.assign 和展开运算符、解构、简写函数、Promise.all、模板字面量、代理以及模块导入 / 导出等。每个主题都附有示例代码和进一步文档的链接。此外，作者还提供了其他参考资源，如 Map、Set、生成器、严格模式、数组方法、对象静态方法、反射、URL 等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ember 5.0发布]]></title>
+        <id>https://blog.emberjs.com/ember-5-0-released/</id>
+        <link href="https://blog.emberjs.com/ember-5-0-released/"/>
+        <updated>2023-07-06T02:53:30.631Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.emberjs.com/ember-5-0-released/">Ember 5.0 Released</a></p><p><strong>概要：</strong></p><p>EmberJS 5.0 代表了开发者对 Ember 生态系统稳定性和可靠性的承诺。Ember 团队努力去除所有弃用的部分，并向 Polaris 迈进。这篇文章介绍了我们的发布策略，如何升级，预期结果，以及被移除的过时 API。
+这是根据 RFC 830 提出的新发布策略和目标下的第一个主要版本。总结来说，每 12 个小版本，Ember 将发布一个新的主要版本，移除任何针对该主要版本的过时代码。
+在引入新功能时，Ember 通常旨在在小版本中发布新功能，同时为现有代码提供向后兼容性，同时让开发者有机会尝试新功能。这种方法减少了团队面临的主要升级挑战，相比于制作带有大量新功能的大型、突破性、引人注目的主要版本。
+在 Ember 4.x 的小版本中，我们添加了一些特性（当然还有各种错误修复）：
+在 Ember 4.1 中，我们发布了一系列改善生活质量的改进：
+缓存昂贵 getter 的 @cached 装饰器
+@service 装饰器，所以你不再需要导入 {inject as service}
+Ember 路由器上的刷新方法，使整个当前路由树的数据刷新更容易
+在 Ember 4.4 中，我们发布了一个 {{unique-id}} 助手，使编写可访问表单更容易，并通过改进 setupTest 的蓝图使测试定制更容易。
+在 Ember 4.5 中，我们使得可以使用普通的 JavaScript 函数作为助手：不再需要用 helper () 包裹它们！
+我们还发布了一个新的测试原语，renderSettled</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CommonJS是不会消失的]]></title>
+        <id>https://bun.sh/blog/commonjs-is-not-going-away</id>
+        <link href="https://bun.sh/blog/commonjs-is-not-going-away"/>
+        <updated>2023-07-06T02:48:37.350Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/commonjs-is-not-going-away">CommonJS is not going away</a></p><p><strong>概要：</strong></p><p>文章讨论了 JavaScript 的未来，特别是关于 CommonJS 和 ES 模块（ESM）的使用。尽管 ESM 被视为 JavaScript 的未来，但 CommonJS 仍然有其存在的价值。数据显示，ESM 在 npm 上的使用率为 9%，而 CJS（CommonJS）的使用率为 73.6%。CommonJS 在 2009 年开发并由 Node.js 推广，它允许文件将属性分配给名为 exports 的特殊变量，然后其他文件可以通过特殊的 require 函数引用 exports 对象的属性。相比之下，ESM 在 2015 年作为 ES6 的一部分引入，它使用 export 关键字声明其导出，并使用 import 关键字从其他文件导入。与 CommonJS 不同，ESM 设计用于在浏览器中工作，预期文件会通过网络加载，这就是 ES 模块被称为异步的原因。文章还指出，CommonJS 启动速度更快，允许动态模块加载，并且已经在 npm 发布了数百万个模块。最后，Bun v0.6.5 开始原生实现 CommonJS，而且 Bun 也增加了对__esModule 注解的支持，这是 CommonJS 模块表明 exports.default 应被解释为默认导出的事实标准方式。总的来说，CommonJS 已经在这里并将继续存在，Bun 将其视为一等公民。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remotion 4.0 | Remotion | 在React中以编程方式制作视频]]></title>
+        <id>https://www.remotion.dev/blog/4-0</id>
+        <link href="https://www.remotion.dev/blog/4-0"/>
+        <updated>2023-07-06T02:47:30.098Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.remotion.dev/blog/4-0">Remotion 4.0 | Remotion | Make videos programmatically in React</a></p><p><strong>概要：</strong></p><p>Remotion 4.0 发布了最大的更新，为每个工作流程带来了重大改进。这次更新引入了 Remotion Studio，并增加了一些方便的功能。现在，用户可以通过图形界面直接编辑数字、字符串、数组、对象、枚举和日期等属性，甚至可以可视化和编辑嵌套的数据结构。此外，该版本还增加了渲染按钮，用户只需按下按钮就可以渲染资产。新版本还使用 Rust 二进制文件加速了当前和未来的功能，并内置了 FFmpeg。此外，Remotion 4.0 还提供了对 WebP 和 PDF 生成的支持，简化了数据驱动视频的制作，并升级了所有模板以使用新特性。此外，该版本还增加了许多新功能，包括 @remotion/rive 包、@remotion/shapes 包、@remotion/tailwind 包、音频编解码器的调整、Lambda 的改进、新的 PHP 和 Go SDKs、播放器的改进、ES 模块支持、字体选择器、新的核心 API 等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用Rust写一个Node库]]></title>
+        <id>https://blog.metlo.com/writing-a-node-library-in-rust/</id>
+        <link href="https://blog.metlo.com/writing-a-node-library-in-rust/"/>
+        <updated>2023-07-06T02:34:14.724Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.metlo.com/writing-a-node-library-in-rust/">Writing a Node Library in Rust</a></p><p><strong>概要：</strong></p><p>Metlo 是一个开源 API 安全工具，可以在 15 分钟内设置完成，对你的端点进行清单，检测恶意行为者并实时阻止恶意流量。通过使用 Rust 编程语言，Metlo 能够创建一个 C 兼容库，这样就可以用各种 FFI 库或低延迟通信系统（如 GRPC 或管道）来使用它。文章中以 Node.js 为例，介绍了如何利用基于 Rust 的库 Neon 来实现，并探讨了 Rust 在处理不同任务时的性能提升。Neon 可以让我们在 Node.js 代码中运行 Rust 代码。Metlo 使用这些绑定来支持多个框架，几乎无需配置即可使用。在 Metlo，他们能够支持所有三种 node 框架，因为他们的核心逻辑现在都是用 rust 编写的。此外，他们的 rust 代理是内存安全的，非阻塞的，并且最多只会增加几百微秒的延迟。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun v0.6.10]]></title>
         <id>https://bun.sh/blog/bun-v0.6.10</id>
@@ -255,101 +328,5 @@ Symbol.dispose 是 JavaScript 中的一个新的全局符号。任何赋予 Symb
 Workers KV 是 Cloudflare 网络支持的针对读取密集型用例和应用程序设计的键值存储。KV 专注于读取密集型用例，使其能够在毫秒内提供热（缓存）读取，这使其成为存储每个应用程序或客户配置数据、路由配置、多变量（A/B 测试）配置，甚至需要快速提供的小资产数据的理想选择。你可以将任何可以序列化并且需要快速获取的东西存储在 KV 中，每个单独的键可以存储高达 25 MiB 的数据，总数据存储没有上限。
 
 Cloudflare 已经重新设计了 Workers KV，由新的分层缓存实现驱动。这个实现是作为 Worker 服务编写的。我们重用了为平</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么快速工作比它看起来更重要 " jsomers.net博客]]></title>
-        <id>http://jsomers.net/blog/speed-matters</id>
-        <link href="http://jsomers.net/blog/speed-matters"/>
-        <updated>2023-06-21T02:03:05.204Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="http://jsomers.net/blog/speed-matters">Why working quickly is more important than it seems « the jsomers.net blog</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了工作效率的重要性。作者指出，快速工作不仅可以在单位时间内完成更多的工作，而且会使新任务在你的心中看起来成本更低，因此你会倾向于做更多的事情。相反，如果你做事慢，那么你可能会继续保持这种状态，因为提高速度的唯一方法就是多做。
-
-作者还发现，如果他能快速回复人们的邮件，他们就会给他发送更多的邮件。这是因为发件人期望得到回复，这种期待促使他们写信。换句话说，速度本身就能吸引他们发邮件，因为他们知道自己的努力会有回报。
-
-同样，网站响应速度慢会导致用户流失。谷歌以其搜索速度著名，他们意识到如果搜索速度快，你就更可能去搜索。原因是它鼓励你尝试，得到反馈，然后再次尝试。当你想到一个问题时，你知道谷歌已经在那里了。没有思考和行动之间的延迟，没有失去寻找答案的冲动。谷歌搜索的预计成本几乎为零，它感觉就像你思维的延伸。
-
-此外，如果你想做某件事并且变得擅长 —— 比如写作或修复错误 —— 你应该试着更快地去做。这并不意味着草率行事，但确实意味着，你需要推动自己比你认为健康的速度更快。因为这样，任务在你的心中的成本会</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[杀人社区]]></title>
-        <id>https://www.marginalia.nu/log/82_killing_community/</id>
-        <link href="https://www.marginalia.nu/log/82_killing_community/"/>
-        <updated>2023-06-21T02:02:07.939Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.marginalia.nu/log/82_killing_community/">Killing Community</a></p><p><strong>概要：</strong></p><p>这篇文章主要探讨了社交媒体平台的发展模式，以及这种模式对在线社区的影响。作者将在线社区比作一个村庄，其中有熟悉的面孔、集体经验和共享价值观等。然而，当这些 “村庄” 不能承受持续大量的陌生人涌入时，它们就会变得不再像村庄，更像是火车站，人们来来去去，没有真正的归属感。在这样的环境中，人们总是保持警惕，因为他们总是在与陌生人打交道。这种环境是压抑的，使人感到孤立无援，无力改变。作者认为，如果你想彻底摧毁一个关于建立社区和结识新朋友的网站，那么就让这个网站和所有的社区尽可能地增长。这样，你会得到一个每个人都是陌生人的地方，粗鲁成为常态，没有归属感。最后，作者提出，对 Reddit 这类社区型网站来说，停止增长甚至稍微缩小规模可能是最好的选择，这将使社区能够稳定下来，重新变得像村庄一样，从社区的角度看，网站将因此变得更好。但从商业角度看，这是一个真正的困境，因为唯一赚钱的方式就是增长，而唯一增长的方式就是破坏社区。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TIL: 无效的CSS循环依赖和有效的空回退值，使用裸逗号| pawelgrzybek.com]]></title>
-        <id>https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/</id>
-        <link href="https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/"/>
-        <updated>2023-06-21T01:29:20.588Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/til-invalid-css-cyclic-dependencies-and-a-valid-empty-fallback-value-using-a-bare-comma/">TIL: invalid CSS cyclic dependencies and a valid empty fallback value using a bare comma | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>今天我阅读了 Roman Komarov 的一篇名为 “Cyclic Dependency Space Toggles” 的文章，这是我近期阅读过的最令人费解的 CSS 文章之一。它让我思考了我们在过去几年中探索的所有使用 CSS 自定义属性的模式，以及我们还有多少需要发现的。我从这篇文章中学到了两个令人兴奋的概念，让我与你们分享一下。
-
-无效的循环依赖
-当自定义属性相互引用时，循环中的所有自定义属性都是无效的。规范中的一个引述：这可能会产生循环依赖性，其中一个自定义属性使用 var () 引用自身，或者两个或更多的自定义属性试图相互引用。[…] 如果依赖关系图中存在循环，那么循环中的所有自定义属性在计算值时都是无效的。
-
-有效的空回退值使用裸逗号
-如果传递给 var () 函数的初始值缺失或无效，但其后跟着一个裸逗号，则计算值为有效的空回退值。规范中的解释是：[…] 一个裸逗号，后面没有任何东西，必须被视为在 var () 中有效，表示一个空的回退值。
-
-这两个概念如何有用？
-如果你想知道这些对你有何帮助，我建议你阅读 Roman 的文章，该文提出了一个强大的值切换用例。当然，这不是利用自定义属性的有效 / 无效评估的唯一方式。看看这个简化的例子。
-
---color 自定义属性的值决定了 --is-default, --is-red 和 --is-green 的有效性。然后，应用相应的背景颜色回退值（灰色，</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万维网联盟宣布在线支付的新网络标准]]></title>
-        <id>https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/</id>
-        <link href="https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/"/>
-        <updated>2023-06-21T01:28:09.161Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.applemust.com/w3c-announces-new-web-standard-for-online-payments/">W3C announces new Web standard for online payments</a></p><p><strong>概要：</strong></p><p>世界广域网联盟（W3C）宣布了一种新的网络标准，这是一种新的浏览器能力，有助于简化用户认证并在网页结账时提高支付安全性。该标准名为 “安全支付确认”（SPC），可以帮助商家、银行、支付服务提供商、卡网络等降低强大客户认证的摩擦，并产生用户同意的密码证据，这两者都是欧洲支付服务指令（PSD2）等监管要求的重要方面。目前，该标准已经作为候选建议可用，这意味着功能集是稳定的，并且已经得到了广泛的审查。
-
-W3C 表示，该标准的创建是为了应对基于网络的电子商务的增加以及随之而来的支付欺诈的增加。自 2019 年以来，W3C 一直在开发安全支付确认，以帮助实现强大的客户认证要求，同时降低结账摩擦。Stripe 进行了一个早期实施 SPC 的试点，并在 2020 年 3 月报告称，与一次性密码（OTP）相比，SPC 认证使转化率增加了 8%，同时结账速度提高了 3 倍。
-
-安全支付确认不仅适用于卡支付。网络支付工作组定期讨论如何将 SPC 整合到其他支付生态系统中，如开放银行、巴西的 PIX 以及专有支付流程中。目前，SPC 在 MacOS、Windows 和 Android 上的 Chrome 和 Edge 中可用。在候选推荐期间，网络支付工作组将寻求在其他浏览器和环境中实施 —— 考虑到苹果在 W3C 和 FIDO 的参与，S</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[简介]]></title>
-        <id>https://vinejs.dev/docs/introduction</id>
-        <link href="https://vinejs.dev/docs/introduction"/>
-        <updated>2023-06-21T01:27:27.486Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vinejs.dev/docs/introduction">Introduction</a></p><p><strong>概要：</strong></p><p>VineJS 是一个用于 Node.js 的表单数据验证库，可用于验证后端应用中的 HTTP 请求体。它是 Node.js 生态系统中最快的验证库之一，并提供运行时和静态类型安全性。VineJS 专为验证表单数据和 JSON 负载而构建，支持自定义错误消息和格式化错误，并附带 50 多个验证规则和 12 种模式类型。你可以向 VineJS 添加自定义规则和模式类型，我们还让测试自定义验证规则变得非常简单。
-
-在与 Yup、Zod 和 VineJS 验证一个简单对象的性能比较中，VineJS 是最快的。在验证 HTTP 请求体的情况下，VineJS 的性能比 Zod 好 5 倍到 10 倍，处理了许多 HTML 表单序列化的怪癖（Zod 没有），并为定义自定义错误消息和格式化错误提供了更好的工作流程。
-
-然而，VineJS 不是一个通用的验证库，因此你不能用它来验证 JavaScript 数据类型，如函数、映射或集合。VineJS 是在 Node.js 运行时环境中使用的后端环境，因此你不能在浏览器内运行它。
-
-VineJS 是由 Harminder Virk 最初创建的独立开源项目，由 AdonisJS 核心团队维护。VineJS 是现有的 AdonisJS 验证器代码库的改进版本，作为一个独立的库发布，以便与任何 Node.js 项目一起工作。该项目通过 Github 赞助商资助，如果你或你的企业从 VineJS 中获益，请考虑赞助我们以支持项目的开发。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SvelteKit的新功能：轻松优化你的应用程序 - Vercel]]></title>
-        <id>https://vercel.com/blog/feature-complete-sveltekit</id>
-        <link href="https://vercel.com/blog/feature-complete-sveltekit"/>
-        <updated>2023-06-21T01:24:36.768Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/feature-complete-sveltekit">New features for SvelteKit: Optimize your application with ease – Vercel</a></p><p><strong>概要：</strong></p><p>Svelte 已经在 Web 开发框架的世界中崭露头角，这要归功于其将组件转化为优化的 JavaScript 模块的独特方法。这种创新的渲染应用程序的方式消除了传统框架中存在的开销，从而提高了应用程序的性能和效率。随着 SvelteKit 1.0 的发布，开发者可以充分利用全栈 Svelte 的强大功能，而不必担心会产生破坏性的改变。此外，SvelteKit 还在不断发展，提供了一套强大的功能，并与各种部署环境（包括 Vercel）无缝集成。Vercel 采用了基于框架定义的基础设施（FDI），并已经接纳了 SvelteKit，最近添加了对每个路由的无服务器和边缘函数配置、增量静态再生（ISR）以及与一系列 Vercel 产品更容易兼容的支持。在本文中，我们将探讨如何使您的应用程序更具性能，可扩展性和用户友好性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发布v0.18.5 - evanw/esbuild]]></title>
-        <id>https://github.com/evanw/esbuild/releases/tag/v0.18.5</id>
-        <link href="https://github.com/evanw/esbuild/releases/tag/v0.18.5"/>
-        <updated>2023-06-21T01:12:29.081Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/evanw/esbuild/releases/tag/v0.18.5">Release v0.18.5 · evanw/esbuild</a></p><p><strong>概要：</strong></p><p>这个版本实现了即将出现的 JavaScript 装饰器提案中的新的自动访问器语法。这种语法尚未成为 JavaScript 的一部分，但已在 TypeScript 4.9 版本中加入。如果目标设置为除 esnext 之外的其他内容，将会对自动访问器进行转换。现在也可以在 esbuild 的 TypeScript 实验性装饰器转换中使用自动访问器，行为应与装饰底层 getter/setter 对相同。
-
-此版本还使 esbuild 现在从即将出现的 JavaScript 装饰器提案中解析装饰器，并将它们原样传递到输出（只要语言目标设置为 esnext）。还没有实现将 JavaScript 装饰器转换为不支持它们的环境。目前 esbuild 实现的唯一装饰器变换仍然是 TypeScript 实验性装饰器变换，这只在.ts 文件中工作，并且需要在你的 tsconfig.json 文件中设置 "experimentalDecorators": true。
-
-此外，如果可能，现在使用静态块来使用具有赋值语义的静态字段。以前，这是通过从类体中移除字段并在类声明后添加赋值语句来完成的。但是，这也导致任何私有字段也必须降低（以防字段初始化器使用私有符号，直接或间接）。此版本将此转换更改为使用内联静态块（如果支持的话），这避免了在此场景中需要降低私有字段。
-
-最后，修复了 TypeScript 实验性装饰器与 --mangle-props 设置结合使用时可能导致的崩溃问题。现在可以安全地将这两个功能结合在一起使用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍一下HTTP/3的优先次序]]></title>
-        <id>https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/</id>
-        <link href="https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/"/>
-        <updated>2023-06-21T01:11:42.840Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/better-http-3-prioritization-for-a-faster-web/">Introducing HTTP/3 Prioritization</a></p><p><strong>概要：</strong></p><p>今天，Cloudflare 宣布全面支持 HTTP/3 可扩展优先级，这是一种新的标准，可以将网页的加载速度提高高达 37%。Cloudflare 与标准构建者紧密合作，帮助形成 HTTP/3 优先级的规范，并很高兴能推动网络前进。HTTP/3 可扩展优先级适用于 Cloudflare 的所有计划。对于付费用户，有一个增强版本可进一步提高性能。网页由许多必须在处理和呈现给用户之前下载的对象组成。并非所有对象对网页性能的重要性都相等。HTTP 优先级的作用是在最适当的时机加载正确的字节，以实现最佳结果。在多个对象都在竞争同一受限资源时，优先级最为重要。在 HTTP/3 中，这个资源就是 QUIC 连接。在大多数情况下，从服务器到客户端的带宽是瓶颈。选择将带宽分配给哪些对象，或在哪些对象之间共享带宽，是网页性能的关键基础。如果出现错误，我们在其上构建的其他优化可能会受到影响。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NestJS v10现已上市 - Trilon Consulting]]></title>
-        <id>https://trilon.io/blog/nestjs-10-is-now-available</id>
-        <link href="https://trilon.io/blog/nestjs-10-is-now-available"/>
-        <updated>2023-06-21T01:11:00.769Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://trilon.io/blog/nestjs-10-is-now-available">NestJS v10 is now available - Trilon Consulting</a></p><p><strong>概要：</strong></p><p>NestJS 10 正式发布，带来了许多错误修复、改进和新功能。其中最令人兴奋的新特性包括对 SWC（Speedy Web Compiler）的支持，这是一个可用于编译和打包的基于 Rust 的可扩展平台，使用 SWC 与 Nest CLI 可以显著加快开发过程；测试中模块的覆盖功能，这在需要模拟整个模块而不是单独模拟每个提供者时非常有用；对 Redis 通配符订阅的支持，该功能允许你订阅所有匹配给定模式的消息；CacheModule 已从 @nestjs/common 包中移除，并作为独立包 @nestjs/cache-manager 提供；此外，NestJS 10 不再支持 Node.js v12，而需要 Node.js v16 或更高版本。</p>]]></content>
     </entry>
 </feed>
