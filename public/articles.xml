@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-07T09:57:53.271Z</updated>
+    <updated>2023-07-07T10:04:53.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[宣布regex 1.9 | Rust博客]]></title>
+        <id>https://blog.rust-lang.org/2023/07/05/regex-1.9.html</id>
+        <link href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"/>
+        <updated>2023-07-07T10:00:52.513Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html">Announcing regex 1.9 | Rust Blog</a></p><p><strong>概要：</strong></p><p>正则表达式小组宣布发布了 regex 1.9 版本。regex 库由 Rust 项目维护，是在 Rust 中使用正则表达式的推荐方式。其定义特性是保证最坏情况下线性时间搜索，相对于被搜索字符串的大小。虽然 regex 库的发布通常不会在此博客上公告，但由于在 1.9 版本中，其内部的大部分已经被重写，因此这个公告旨在鼓励额外的审查。如果你遇到任何问题或性能回归，请在问题跟踪器上报告或在讨论论坛上提问。新版本进行了一些 API 添加，值得一提的是 Captures::extract 方法，这将使在某些情况下获取捕获组更加方便。否则，人们应该看到的主要变化是搜索时间更快。你可以在 CHANGELOG 和更深入的关于 regex 库内部作为库的博客文章中阅读更多信息。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript Gom Jabbar]]></title>
         <id>https://frantic.im/javascript-gom-jabbar/</id>
@@ -307,26 +314,5 @@ CDN 的好</p>]]></content>
         <link href="https://svelte.dev/blog/svelte-4"/>
         <updated>2023-06-25T13:40:29.417Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/svelte-4">Announcing Svelte 4</a></p><p><strong>概要：</strong></p><p>Svelte 4 稳定版已经发布，它主要是一个维护版本，提升了性能，改进了开发者体验，并对网站进行了更新。Svelte 4 的包大小减少了近 75%，从 10.6MB 降到 2.8MB，这意味着在执行 npm install 时等待时间更短。此外，Svelte 的依赖项数量也从 61 个大幅度减少到 16 个，这不仅可以加快用户的下载速度，还可以降低供应链攻击的风险。对于 Web 组件的使用者来说，最大的变化是改变了使用 Svelte 来创建自定义元素的方式。此外，Svelte 4 还改进了 IDE 编写体验，更新了官方网站、文档和教程，并为即将发布的 Svelte 5 做好了准备。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript 5.2的新关键词："using"。]]></title>
-        <id>https://www.totaltypescript.com/typescript-5-2-new-keyword-using</id>
-        <link href="https://www.totaltypescript.com/typescript-5-2-new-keyword-using"/>
-        <updated>2023-06-25T13:23:00.586Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.totaltypescript.com/typescript-5-2-new-keyword-using">TypeScript 5.2's New Keyword: 'using'</a></p><p><strong>概要：</strong></p><p>TypeScript 5.2 将引入一个新的关键字 - 'using'，你可以用它在离开作用域时处理任何带有 Symbol.dispose 函数的东西。
-
-这基于 TC39 提案，该提案最近达到了第 3 阶段，表明它将被引入 JavaScript。'using' 对于管理诸如文件句柄、数据库连接等资源将非常有用。
-
-Symbol.dispose 是 JavaScript 中的一个新的全局符号。任何赋予 Symbol.dispose 函数的东西都会被视为一个 “资源” - “具有特定生命周期的对象”，并可以与 using 关键字一起使用。
-
-你还可以使用 Symbol.asyncDispose 和 await using 来处理需要异步处理的资源。
-
-这将在继续之前等待 Symbol.asyncDispose 函数。这对于数据库连接等资源非常有用，你希望确保程序继续之前连接已经关闭。
-
-使用案例：
-
-文件句柄：通过节点中的文件处理器访问文件系统可能会因为 using 变得更容易。
-
-数据库连接：管理数据库连接是 C# 中使用 using 的一个常见用例。</p>]]></content>
     </entry>
 </feed>
