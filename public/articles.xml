@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-06T04:33:56.121Z</updated>
+    <updated>2023-07-07T09:57:53.271Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Gom Jabbar]]></title>
+        <id>https://frantic.im/javascript-gom-jabbar/</id>
+        <link href="https://frantic.im/javascript-gom-jabbar/"/>
+        <updated>2023-07-07T09:42:16.725Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://frantic.im/javascript-gom-jabbar/">JavaScript Gom Jabbar</a></p><p><strong>概要：</strong></p><p>这篇文章描述了一个拥有 10 年 JavaScript 经验的开发者面对一项任务：打开并阅读一个充满挑战的 package.json 文件。作者表达出对各种编程问题和困扰的痛苦，包括版本管理、包命名冲突、模块迁移、复杂的脚本、依赖管理等。他提到了许多具体的库和工具，如 Isomorphic JavaScript, watchman, gulp, left-pad, moment.js, eslint, postcss, jest 等，以及它们带来的问题。同时，他也表达了对维护过时依赖包、处理编译错误、配置测试运行器等任务的恐惧和压力。尽管如此，他仍然坚持下去，因为他知道这是程序员的日常工作。最后，他鼓励读者订阅他的博客以获取更多编程、软件设计和项目相关的信息。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lenz Weber-Tronic (phryneas) - 我对当前React与服务器组件争议的看法]]></title>
+        <id>https://phryneas.de/react-server-components-controversy</id>
+        <link href="https://phryneas.de/react-server-components-controversy"/>
+        <updated>2023-07-07T09:41:07.910Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://phryneas.de/react-server-components-controversy">Lenz Weber-Tronic (phryneas) - My take on the current React & Server Components controversy</a></p><p><strong>概要：</strong></p><p>这篇文章是一位技术人员对 React Server Components（RSC）和 React 团队的沟通方式表达了自己的挫败感。他认为，虽然每个人都有自己的立场，但我们大多数人都以最不生产的方式进行交流。
+
+文章作者身为 Apollo Client、Redux Toolkit 和 RTK Query 等库的维护者，他发现帮助用户变得更加困难。因为人们遇到了一些奇怪的问题，他无法为他们解决所有问题。比如，StackOverflow 上的用户面临着他们无法理解的错误信息。他们在 React 主页上创建了一个新的 React 项目，然后只是应用了默认设置。他们不知道什么是 Server Component，但他们现在正在编写 Server Components。而这三个库在 Server Components 中的工作方式与之前完全不同。
+
+作者还提出了一些建议，包括在 Canaries 中隐藏实验性功能，试图使客户端和服务器用户体验保持一致，以及提供一些缺失的 API 等。他希望通过这篇文章引起人们的关注，并愿意就这些想法进行交谈并提供帮助。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在2023年与SVG-in-JS决裂]]></title>
+        <id>https://kurtextrem.de/posts/svg-in-js</id>
+        <link href="https://kurtextrem.de/posts/svg-in-js"/>
+        <updated>2023-07-07T09:40:25.177Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kurtextrem.de/posts/svg-in-js">Breaking Up with SVG-in-JS in 2023</a></p><p><strong>概要：</strong></p><p>去年 12 月，一篇题为 “为什么我们要和 CSS-in-JS 分手” 的文章引起了轰动，解释了为什么你不再希望在 JS 包中包含 CSS。然而，现在 JS 包中不仅有 CSS，还有 SVG，正如 Preact 的作者 Jason Miller 所展示的那样：“请不要将 SVG 作为 JSX 导入，这是最昂贵的形式，比其他技术至少贵 3 倍，而且会影响运行时（渲染）性能和内存使用。” 他还指出，一个流行网站的包中，几乎 50% 都是 SVG 图标（250kb），大部分都没有用到。因此，我们需要把 SVG 从 JS 包中移出，重新回归到 HTML 中。本文将探讨在保持 JS 包小巧和高效的同时，更好地使用 SVG 的技术。这些技术包括：使用 < img > 标签加载 SVG、使用 < use > 创建 SVG 精灵、通过 CSS 和 currentcolor 移除更多的 JS、使用 React 的服务器组件等。另外，如果遇到 CORS 问题，可以使用 CSS 进行救援。此外，我们还需要权衡性能和加载时间，决定是否内联 SVG。最后，我们可以使用一些工具和代码片段来实现这些操作。总的来说，通过使用这些技巧，你可以使你的 JavaScript 包变得更小、更高效，这对于旧设备和慢速设备非常有帮助，也使互联网变得更加包容。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.js应用程序路由器更新]]></title>
         <id>https://nextjs.org/blog/june-2023-update</id>
@@ -303,30 +328,5 @@ Symbol.dispose 是 JavaScript 中的一个新的全局符号。任何赋予 Symb
 文件句柄：通过节点中的文件处理器访问文件系统可能会因为 using 变得更容易。
 
 数据库连接：管理数据库连接是 C# 中使用 using 的一个常见用例。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[99.9成功率！Mac运行赛博朋克2077，使用Game Porting Toolkit]]></title>
-        <id>https://www.bilibili.com/read/cv24310042</id>
-        <link href="https://www.bilibili.com/read/cv24310042"/>
-        <updated>2023-06-25T13:03:57.380Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.bilibili.com/read/cv24310042">99.9成功率！Mac运行赛博朋克2077，使用Game Porting Toolkit</a></p><p><strong>概要：</strong></p><p>这篇文章主要介绍了如何在苹果 M 芯片 Mac 上运行赛博朋克 2077 游戏。首先，需要通过 Game Porting Toolkit 工具将 Direct3D 指令转译成 Metal 指令，使得 Windows 游戏能够在 Apple Silicon Mac 上运行。然后，作者详细介绍了准备所需资源、安装 macOS14 Beta、安装 Game Porting Toolkit、配置 Wine Prefix 环境和安装 Steam 等步骤。最后，通过 Wine 直接启动赛博朋克 2077 游戏。全程操作较为复杂，需要耐心且对计算机有一定的了解。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[具有稳定扩散性的风格化二维码]]></title>
-        <id>https://antfu.me/posts/ai-qrcode</id>
-        <link href="https://antfu.me/posts/ai-qrcode"/>
-        <updated>2023-06-25T12:42:53.686Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/ai-qrcode">Stylistic QR Code with Stable Diffusion</a></p><p><strong>概要：</strong></p><p>这篇文章是作者分享如何使用 Stable Diffusion 和 ControlNet 创建一个既可以扫描的 QR 码又是一幅艺术插图的过程。首先，作者介绍了他对 AI 技术的兴趣，并提到了一些重要的工具和模型。然后，他详细描述了创建 QR 码图像的步骤，包括设置环境、生成 QR 码、将文本转化为图像、调整细节和放大图像等。最后，他展示了最终结果并总结了自己的学习经历。作者希望这篇文章能够给读者提供一些基础概念或启发他们开始自己的创作之旅。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工人们的KV在新的架构下比以前更快]]></title>
-        <id>https://blog.cloudflare.com/faster-workers-kv-architecture/</id>
-        <link href="https://blog.cloudflare.com/faster-workers-kv-architecture/"/>
-        <updated>2023-06-21T15:28:20.529Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.cloudflare.com/faster-workers-kv-architecture/">Workers KV is faster than ever with a new architecture</a></p><p><strong>概要：</strong></p><p>Cloudflare 宣布了对 Workers KV 的重大性能改进，这一改进主要集中在显著提高冷读性能和降低延迟，甚至对于长尾访问模式也是如此。开发人员使用 KV 时，热读取性能很好，但他们会问为什么他们的 95% 分位延迟 —— 通常是在一个关键（或一组关键）上，这个关键最近没有被访问过或者在该地区没有被访问过 —— 比预期的要高。因此，Cloudflare 已经在幕后为 KV 开发了一个新的缓存层，使客户能够实现更频繁的热读取，减少最差情况下的延迟时间，更好地控制缓存 TTL，并且比以前的版本快得多。最好的部分是，使用 KV 的开发人员不需要改变任何东西就可以从这种增强的性能中受益。
-
-Workers KV 是 Cloudflare 网络支持的针对读取密集型用例和应用程序设计的键值存储。KV 专注于读取密集型用例，使其能够在毫秒内提供热（缓存）读取，这使其成为存储每个应用程序或客户配置数据、路由配置、多变量（A/B 测试）配置，甚至需要快速提供的小资产数据的理想选择。你可以将任何可以序列化并且需要快速获取的东西存储在 KV 中，每个单独的键可以存储高达 25 MiB 的数据，总数据存储没有上限。
-
-Cloudflare 已经重新设计了 Workers KV，由新的分层缓存实现驱动。这个实现是作为 Worker 服务编写的。我们重用了为平</p>]]></content>
     </entry>
 </feed>
