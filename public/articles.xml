@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-11T09:33:05.445Z</updated>
+    <updated>2023-07-11T09:35:46.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[循环依赖空间切换]]></title>
+        <id>https://kizu.dev/cyclic-toggles/</id>
+        <link href="https://kizu.dev/cyclic-toggles/"/>
+        <updated>2023-07-11T09:35:32.067Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kizu.dev/cyclic-toggles/">Cyclic Dependency Space Toggles</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种新的 CSS 技术，即通过切换单个自定义属性从列表中选择值。作者首先展示了代码，然后解释了这种被称为 “循环切换” 的技术。这种技术利用了 CSS 变量的循环依赖性，使得当我们跨引用自定义属性时，所有变量都会变成 “保证无效值”。作者还探讨了这种技术的限制，包括继承、动画和命名等问题。此外，作者也提到了这种技术的使用案例，如主题选择、组件 API 等。最后，作者强调了分享和请求特定功能的重要性，因为这有助于推动 CSS 的发展。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[亲身体验Node.js测试运行器]]></title>
         <id>https://www.sonarsource.com/blog/node-js-test-runner/</id>
@@ -295,12 +302,5 @@ Node.js AsyncLocalStorage API 的广泛用例激发了社区成员提出 JavaScr
         <link href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html"/>
         <updated>2023-06-25T13:52:19.567Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html">跟大家聊聊当下卖课的现状</a></p><p><strong>概要：</strong></p><p>文章作者分享了他在制作在线课程方面的经验。首先，他提到了平台分成问题，大部分平台会收取 50% 的服务费，再加上苹果设备用户需要支付 30% 的税，最终讲师能拿到的收入并不多。其次，课程内容的选择也是一个问题，新人讲师往往无法接到热门选题，而自己感兴趣的选题可能平台不愿意接受。此外，如果想自行销售课程，除非有大量的粉丝基础，否则难以获得成功。最后，由于网络技术更新快速，课程的生命周期较短，因此很难实现稳定的收入。总的来说，作者建议想做在线课程的人在开始前应该仔细考虑各种因素，找出更适合自己的方向。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React中的远程传输：定位、堆叠上下文和传送门]]></title>
-        <id>https://www.developerway.com/posts/positioning-and-portals-in-react</id>
-        <link href="https://www.developerway.com/posts/positioning-and-portals-in-react"/>
-        <updated>2023-06-25T13:45:53.262Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.developerway.com/posts/positioning-and-portals-in-react">Teleportation in React: Positioning, Stacking Context, and Portals</a></p><p><strong>概要：</strong></p><p>这篇文章详细讨论了 CSS 定位的工作原理，堆叠上下文（Stacking Context）是什么，如何使用 CSS 逃离 overflow:hidden，为什么我们不能用 CSS 做所有事情而需要 Portals，以及 Portals 是如何工作的。文章首先解释了 CSS 的绝对定位，并指出绝对并不完全是绝对的，它实际上是相对于设置了任何值的最近元素的位置。然后，文章介绍了堆叠上下文，这是一个三维的视角来看待 HTML 元素。接着，文章讨论了如何使用 CSS 逃离内容剪裁，为什么我们不能用 CSS 做所有事情而需要 Portals，以及 Portals 是如何实际工作的。文章还深入探讨了 React Portal 如何解决这个问题，以及 React 生命周期，重渲染，Context 和 Portals 之间的关系。最后，文章总结了在使用 Portals 时的规则：在 React 中发生的事情保持在 React 层次结构中，在 React 之外的事情遵循 DOM 结构规则。</p>]]></content>
     </entry>
 </feed>
