@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-11T09:40:20.511Z</updated>
+    <updated>2023-07-12T05:40:44.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[使用耳语转录播客]]></title>
+        <id>https://www.swyx.io/whisper-for-podcasts</id>
+        <link href="https://www.swyx.io/whisper-for-podcasts"/>
+        <updated>2023-07-12T04:33:06.092Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.swyx.io/whisper-for-podcasts">Using Whisper to Transcribe Podcasts</a></p><p><strong>概要：</strong></p><p>该文章是作者在邀请读者订阅他们的时事通讯，包括 AI 新闻和 DevRel/DevTools 新闻。目前已有超过 10,000 的订阅者，并会不定期更新新的帖子和项目。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - privatenumber/minification-benchmarks: 🏃‍♂️🏃‍♀️🏃 JS minification benchmarks: babel-minify, esbuild, terser, uglify-js, swc, google closure compiler, tdewolff/minify]]></title>
+        <id>https://github.com/privatenumber/minification-benchmarks</id>
+        <link href="https://github.com/privatenumber/minification-benchmarks"/>
+        <updated>2023-07-12T04:29:20.988Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/privatenumber/minification-benchmarks">GitHub - privatenumber/minification-benchmarks: 🏃‍♂️🏃‍♀️🏃 JS minification benchmarks: babel-minify, esbuild, terser, uglify-js, swc, google closure compiler, tdewolff/minify</a></p><p><strong>概要：</strong></p><p>这篇文章是一个关于 JavaScript 压缩器性能对比的报告，涵盖了 babel-minify、esbuild、google-closure-compiler、minify-js、swc、tdewolff/minify、terser 和 uglify-js 等多种压缩器。每个压缩器都在自己的进程中执行，设定了 20 秒的超时时间，并在压缩前后进行了完整性测试。压缩器的排名依据是压缩后文件的大小。测试结果显示，在多数情况下，uglify-js 和 swc 的表现最佳，它们不仅能有效地减小文件大小，还能在较短的时间内完成压缩任务。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sass：浏览器中的Sass]]></title>
+        <id>https://sass-lang.com/blog/sass-in-the-browser/</id>
+        <link href="https://sass-lang.com/blog/sass-in-the-browser/"/>
+        <updated>2023-07-12T01:33:34.590Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sass-lang.com/blog/sass-in-the-browser/">Sass: Sass in the Browser</a></p><p><strong>概要：</strong></p><p>Natalie Weizenbaum 在 2023 年 7 月 7 日发布的文章中提到，Sass 现在可以直接在浏览器中运行。这得益于 Dart Sass 1.63 版本的发布，它正式支持 sass npm 包在浏览器中直接运行，不再需要通过服务器来编译 Sass。此外，Sass 还可以通过多种方式加载，包括 CommonJS require () 和 ES6 import，也可以通过打包工具（如 esbuild、Rollup、Vite 和 webpack）或者直接在浏览器中无需打包就可以加载。唯一的注意事项是，如果你在没有任何打包的情况下使用它，你需要设置一个导入地图以找到它所依赖的 Immutable 库。此外，Sass 网站上新增了一个长期期待的功能：Sass Playground，用户可以在浏览器中直接测试 Sass，并且始终使用最新版本的所有最新功能。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[循环依赖空间切换]]></title>
         <id>https://kizu.dev/cyclic-toggles/</id>
@@ -261,46 +282,5 @@ Node.js AsyncLocalStorage API 的广泛用例激发了社区成员提出 JavaScr
         <link href="https://bright.codehike.org/"/>
         <updated>2023-06-26T10:56:40.259Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bright.codehike.org/">Bright - Syntax Highlighting React Server Component</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了 React 服务器组件用于语法高亮的内容。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年的React Ecosystem。]]></title>
-        <id>https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4</id>
-        <link href="https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4"/>
-        <updated>2023-06-26T01:58:53.568Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/ihteshamulhaq510/react-ecosystem-in-2023-5aj4">React Ecosystem in 2023.</a></p><p><strong>概要：</strong></p><p>这篇文章主要介绍了 2023 年的 React 生态系统，包括一些可供学习和成为 React 开发者的库。最近，推出了一款名为 million.js 的工具，它使 React 的速度提高了 70%。对于初学者来说，选择正确的库可能相当具有挑战性。
-
-文章列举了一些 React 库，包括构建工具（如 vite、nextjs、Webpack）、路由（如 react router、tanstack router）、客户端状态管理（如 redux toolkit、zustand）、服务器状态管理（如 tanstack query、redux-toolkit query、Apollo Client、jotai）、表单处理（如 Formik、React Hook Form）、测试（如 Vitest、React Testing library、Play-write）、样式（如 Tailwindcss、Styled-components、Emotion、Bootstrap）、UI 组件库（如 Material UI、Man time UI、Ant Design、Chakra UI、Headless UI (tailwindcss)、DaisyUI (Tailwindcss)、shadcn UI (Tailwindcss)、React Bootstrap）、动画（如 React Spring、Framer motion）、数据可视化（如 Victory charts、React Charts js、Recharts）、表格（如 Tanstack table）、国际化（如 react-i18next、formatjs）以及开发工具（如 react developer tools、Redux dev tool、testing playground、react hook form dev tools、AxeDev Tool (Accessibility)、Tanstack query dev tools）。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第四部分：编写简洁高效的React代码--最佳实践和优化技术]]></title>
-        <id>https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d</id>
-        <link href="https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d"/>
-        <updated>2023-06-26T01:58:29.603Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/sathishskdev/part-4-writing-clean-and-efficient-react-code-best-practices-and-optimization-techniques-423d">Part 4: Writing Clean and Efficient React Code- Best Practices and Optimization Techniques</a></p><p><strong>概要：</strong></p><p>本文是 "2023 年 React 最佳实践" 系列的第四部分，探讨了如何编写清晰、高效的 React 应用程序代码。以下是一些最佳实践：
-
-1. 实现错误边界来优雅地处理组件错误。
-2. 对于功能组件，使用 React.memo 以避免不必要的重渲染。
-3. 使用 Linting 工具（如 ESLint）来提高代码质量和一致性。
-4. 避免默认导出，因为它可能使理解哪些组件被导入和在其他文件中使用变得困难。
-5. 使用对象解构，这是一种更简洁、优雅的方式来提取对象属性。
-6. 使用片段来避免在渲染多个元素时产生不必要的包装 div。
-7. 优先传递对象而不是多个 props。
-8. 使用箭头函数，它提供了更简洁的语法和词法范围。
-9. 使用枚举代替数字或字符串。
-10. 对布尔 props 使用简写。
-11. 避免使用索引作为 key props。
-12. 在小函数中使用隐式返回。
-13. 使用 PropTypes 进行类型检查。
-14. 优先使用模板文字。
-15. 避免使用庞大的组件。
-
-以上最佳实践可以提高代码的可维护性、性能和可读性。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[跟大家聊聊当下卖课的现状]]></title>
-        <id>https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html</id>
-        <link href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html"/>
-        <updated>2023-06-25T13:52:19.567Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.meathill.com/share/lets-talk-about-be-a-tutorial-video-creator.html">跟大家聊聊当下卖课的现状</a></p><p><strong>概要：</strong></p><p>文章作者分享了他在制作在线课程方面的经验。首先，他提到了平台分成问题，大部分平台会收取 50% 的服务费，再加上苹果设备用户需要支付 30% 的税，最终讲师能拿到的收入并不多。其次，课程内容的选择也是一个问题，新人讲师往往无法接到热门选题，而自己感兴趣的选题可能平台不愿意接受。此外，如果想自行销售课程，除非有大量的粉丝基础，否则难以获得成功。最后，由于网络技术更新快速，课程的生命周期较短，因此很难实现稳定的收入。总的来说，作者建议想做在线课程的人在开始前应该仔细考虑各种因素，找出更适合自己的方向。</p>]]></content>
     </entry>
 </feed>
