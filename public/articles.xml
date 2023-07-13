@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-13T06:09:24.504Z</updated>
+    <updated>2023-07-13T06:18:42.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[无需 Figma 的网页设计]]></title>
+        <id>https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218</id>
+        <link href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218"/>
+        <updated>2023-07-13T06:10:35.094Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218">Design for the web without Figma</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 Figma 设计工具的使用和网页设计的最佳实践。虽然 Figma 是一个非常出色的设计工具，被 37signals 等公司广泛使用，但在开发 Basecamp 或 HEY 等网络应用时，他们并不主要依赖 Figma，而是直接在 HTML 和 CSS 中进行设计。因为无论 Figma 多么优秀，它仍然是一种中间抽象层，像之前的 Photoshop 一样。如果你在网络上工作，没有这种抽象层的设计过程会使程序员和设计师的协作更加顺畅。37signals 的两人团队就是通过这种方式提高生产力和可行性的。他们所有的网络设计师都直接使用 HTML、CSS，甚至大量的 JavaScript 和 Ruby。设计过程及其迭代通过更新真实运行的应用程序的代码，并尽快对真实数据进行反馈。作者认为，创造力源于限制，设计师应该熟练掌握网络的材料，而不必成为前端开发的专家。他们应该努力提高他们的 HTML、CSS、JavaScript 技能，甚至后端语言技能，作为他们职业发展的关键部分。虽然找到既能设计又能实现创意的设计师可能很难，但 37signals 已经多次做到了，从而大大提高了生产力。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[克劳德 2]]></title>
         <id>https://www.anthropic.com/index/claude-2</id>
@@ -275,12 +282,5 @@ Node.js AsyncLocalStorage API 的广泛用例激发了社区成员提出 JavaScr
 5. 性能改进：我们过去几周大量投入到性能提升上，你可能会看到一些改善（大约快 10%），但我们也亲眼看到在一些极端情况下构建和重建时间大幅缩短。
 
 此外，还修复了一些问题，包括使用 React 17 时的类型问题、pathless 布局路由下的嵌套路径段的错误等，并更新了 React Router 依赖项至最新版本。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用键盘锁API实现更好的全屏模式 - Chrome开发人员]]></title>
-        <id>https://developer.chrome.com/blog/better-full-screen-mode/</id>
-        <link href="https://developer.chrome.com/blog/better-full-screen-mode/"/>
-        <updated>2023-06-27T03:01:02.572Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/better-full-screen-mode/">Better full screen mode with the Keyboard Lock API - Chrome Developers</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用键盘锁 API 来在全屏模式下捕获 Escape 键。作者指出，当用户在全屏游戏中打开一个对话框，本能地用 Escape 键取消时，可能会被强制退出全屏模式，这是由于对话框和全屏模式对 Escape 键的 “争夺”。默认情况下，全屏模式总是胜出。但通过使用键盘锁 API，可以让对话框成为 Escape 键的 “赢家”。该 API 可以在 navigator.keyboard 上使用，lock () 方法可以在启用后捕获物理键盘上所有键的按键。此方法只能捕获操作系统授权访问的键，幸运的是 Escape 键就是其中之一。如果你的应用有全屏模式，可以在请求全屏时捕获 Escape 键，以此作为渐进增强的手段。当用户离开全屏模式时，通过 Keyboard 接口的 unlock () 方法解锁（即不再捕获）键盘。这样，在全屏模式下，按下 Escape 键将默认取消对话框。如果用户长按 Escape 键，仍然可以退出全屏模式。</p>]]></content>
     </entry>
 </feed>
