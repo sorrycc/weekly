@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-12T14:59:33.483Z</updated>
+    <updated>2023-07-13T06:09:24.504Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[克劳德 2]]></title>
+        <id>https://www.anthropic.com/index/claude-2</id>
+        <link href="https://www.anthropic.com/index/claude-2"/>
+        <updated>2023-07-13T06:09:09.973Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.anthropic.com/index/claude-2">Claude 2</a></p><p><strong>概要：</strong></p><p>我们很高兴地宣布推出新模型 Claude 2。Claude 2 的性能得到了提升，响应更长，可以通过 API 以及新的公开测试网站 claude.ai 进行访问。用户反馈称，Claude 易于交谈，清晰解释其思考过程，不太可能产生有害输出，并且记忆力更强。我们在编码、数学和推理方面对上一代模型进行了改进。例如，我们的最新模型在律师资格考试的多项选择题部分得分为 76.5%，比 Claude 1.3 的 73.0% 有所提高。Claude 2 在 GRE 阅读和写作考试中的得分超过了 90% 的申请研究生的成绩，而在定量推理方面的得分与中位数申请人相似。Claude 2 的输入和输出长度都得到了增加，用户可以在每个提示中输入多达 100K 的标记，这意味着 Claude 可以处理数百页的技术文档甚至一本书。Claude 现在也可以一次性写出更长的文件 —— 从备忘录到信件到故事，所有这些都可以一次性完成。此外，我们的最新模型在编码技能方面有了显著的提高。Claude 2 在 Codex HumanEval 的 Python 编码测试中得分为 71.2%，高于 56.0%。在 GSM8k（一套大型小学数学问题集）中，Claude 2 的得分为 88.0%，高于 85.2%。我们已经为 Claude 2 规划了一系列令人兴奋的功能改进计划，并将在未来几个月中逐步部署。Claude 2 目前在美国和英国普遍可用，我们正在</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[您可能不需要Jest - Node.js原生测试运行器非常棒 | pawelgrzybek.com]]></title>
         <id>https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/</id>
@@ -275,12 +282,5 @@ Node.js AsyncLocalStorage API 的广泛用例激发了社区成员提出 JavaScr
         <link href="https://developer.chrome.com/blog/better-full-screen-mode/"/>
         <updated>2023-06-27T03:01:02.572Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/better-full-screen-mode/">Better full screen mode with the Keyboard Lock API - Chrome Developers</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了如何使用键盘锁 API 来在全屏模式下捕获 Escape 键。作者指出，当用户在全屏游戏中打开一个对话框，本能地用 Escape 键取消时，可能会被强制退出全屏模式，这是由于对话框和全屏模式对 Escape 键的 “争夺”。默认情况下，全屏模式总是胜出。但通过使用键盘锁 API，可以让对话框成为 Escape 键的 “赢家”。该 API 可以在 navigator.keyboard 上使用，lock () 方法可以在启用后捕获物理键盘上所有键的按键。此方法只能捕获操作系统授权访问的键，幸运的是 Escape 键就是其中之一。如果你的应用有全屏模式，可以在请求全屏时捕获 Escape 键，以此作为渐进增强的手段。当用户离开全屏模式时，通过 Keyboard 接口的 unlock () 方法解锁（即不再捕获）键盘。这样，在全屏模式下，按下 Escape 键将默认取消对话框。如果用户长按 Escape 键，仍然可以退出全屏模式。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在VSCode中提高生产力的6个快速技巧]]></title>
-        <id>https://techhub.iodigital.com/articles/6-vscode-tips</id>
-        <link href="https://techhub.iodigital.com/articles/6-vscode-tips"/>
-        <updated>2023-06-27T03:00:42.843Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://techhub.iodigital.com/articles/6-vscode-tips">6 Quick Tips to Boost Your Productivity in VSCode</a></p><p><strong>概要：</strong></p><p>这篇文章分享了六个 VSCode 的使用技巧，帮助开发者优化工作流程。1. 通过快捷键 cmd + option + o（Windows 上为 Shift + Alt + o）可以方便地删除无用的引入，使代码库更整洁。2. 在 VSCode 中，可以通过 F2 键轻松重命名变量，系统会自动更新代码中所有该变量的实例，节省时间并保证一致性。3. 对于频繁使用的命令或扩展，可以设置快捷键，提高工作效率。在 “代码> 首选项 > 键盘快捷方式” 中搜索需要的操作，双击快捷方式列并设定你喜欢的快捷键。4. 可以设置一个快速修复 ESLint 问题的自定义快捷键。将以下代码复制到 keybindings.json 文件中，并分配一个未被 VSCode 使用的键组合，即可立即触发 ESLint 的自动修复功能。5. VSCode 内置的 “快速修复” 功能能够显示当前上下文所有可用的快速修复方案，例如添加缺失的引入、修复 linting 问题或向单行箭头函数添加花括号。6. 可以创建一个 “快速修复：添加所有缺失的引入” 的快捷键，比如设定为 cmd + '，当遇到未解决的引入时，只需使用这个快捷键就能自动添加必要的引入，无需手动搜索、输入和导入。</p>]]></content>
     </entry>
 </feed>
