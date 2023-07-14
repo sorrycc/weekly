@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-14T01:02:04.505Z</updated>
+    <updated>2023-07-14T15:23:25.903Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[交互设计的隐形细节]]></title>
+        <id>https://rauno.me/craft/interaction-design</id>
+        <link href="https://rauno.me/craft/interaction-design"/>
+        <updated>2023-07-14T12:14:37.127Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rauno.me/craft/interaction-design">Invisible Details of Interaction Design</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了交互设计的科学性和直觉性，作者通过深入研究并试图解构出优秀的交互设计背后的原因。他认为，伟大的设计启示往往源于创造过程中遇到的问题，而不仅仅是坐下来深思熟虑。文章还分析了一些常用但很少被思考的交互细节，如隐喻、动态物理、滑动手势、反应式手势等，并强调了设计决策的重要性。作者认为，交互设计不仅需要形式和功能之间的平衡，也需要对人类行为的深入理解。此外，文章还讨论了如何通过反思和模仿界面来建立更强的设计直觉和词汇表，并提出了 “无输入” 即上下文作为输入的理念，以及 Fitts 定律等概念。最后，作者强调了理解和阐述为何某样东西感觉对的重要性，这有助于培养品味，提高执行水平，并增加对卓越追求的欣赏。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3种常见的测试自动化类型]]></title>
         <id>https://web.dev/ta-types/</id>
@@ -235,12 +242,5 @@ Ember 路由器上的刷新方法，使整个当前路由树的数据刷新更�
         <link href="https://bun.sh/blog/commonjs-is-not-going-away"/>
         <updated>2023-07-06T02:48:37.350Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/commonjs-is-not-going-away">CommonJS is not going away</a></p><p><strong>概要：</strong></p><p>文章讨论了 JavaScript 的未来，特别是关于 CommonJS 和 ES 模块（ESM）的使用。尽管 ESM 被视为 JavaScript 的未来，但 CommonJS 仍然有其存在的价值。数据显示，ESM 在 npm 上的使用率为 9%，而 CJS（CommonJS）的使用率为 73.6%。CommonJS 在 2009 年开发并由 Node.js 推广，它允许文件将属性分配给名为 exports 的特殊变量，然后其他文件可以通过特殊的 require 函数引用 exports 对象的属性。相比之下，ESM 在 2015 年作为 ES6 的一部分引入，它使用 export 关键字声明其导出，并使用 import 关键字从其他文件导入。与 CommonJS 不同，ESM 设计用于在浏览器中工作，预期文件会通过网络加载，这就是 ES 模块被称为异步的原因。文章还指出，CommonJS 启动速度更快，允许动态模块加载，并且已经在 npm 发布了数百万个模块。最后，Bun v0.6.5 开始原生实现 CommonJS，而且 Bun 也增加了对__esModule 注解的支持，这是 CommonJS 模块表明 exports.default 应被解释为默认导出的事实标准方式。总的来说，CommonJS 已经在这里并将继续存在，Bun 将其视为一等公民。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remotion 4.0 | Remotion | 在React中以编程方式制作视频]]></title>
-        <id>https://www.remotion.dev/blog/4-0</id>
-        <link href="https://www.remotion.dev/blog/4-0"/>
-        <updated>2023-07-06T02:47:30.098Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.remotion.dev/blog/4-0">Remotion 4.0 | Remotion | Make videos programmatically in React</a></p><p><strong>概要：</strong></p><p>Remotion 4.0 发布了最大的更新，为每个工作流程带来了重大改进。这次更新引入了 Remotion Studio，并增加了一些方便的功能。现在，用户可以通过图形界面直接编辑数字、字符串、数组、对象、枚举和日期等属性，甚至可以可视化和编辑嵌套的数据结构。此外，该版本还增加了渲染按钮，用户只需按下按钮就可以渲染资产。新版本还使用 Rust 二进制文件加速了当前和未来的功能，并内置了 FFmpeg。此外，Remotion 4.0 还提供了对 WebP 和 PDF 生成的支持，简化了数据驱动视频的制作，并升级了所有模板以使用新特性。此外，该版本还增加了许多新功能，包括 @remotion/rive 包、@remotion/shapes 包、@remotion/tailwind 包、音频编解码器的调整、Lambda 的改进、新的 PHP 和 Go SDKs、播放器的改进、ES 模块支持、字体选择器、新的核心 API 等。</p>]]></content>
     </entry>
 </feed>
