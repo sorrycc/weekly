@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-14T15:23:25.903Z</updated>
+    <updated>2023-07-17T02:00:41.296Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub - tc39/proposal-defer-import-eval：关于引入模块延迟评估方法的建议]]></title>
+        <id>https://github.com/tc39/proposal-defer-import-eval</id>
+        <link href="https://github.com/tc39/proposal-defer-import-eval"/>
+        <updated>2023-07-17T00:05:33.260Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/tc39/proposal-defer-import-eval">GitHub - tc39/proposal-defer-import-eval: A proposal for introducing a way to defer evaluate of a module</a></p><p><strong>概要：</strong></p><p>文章介绍了一种名为 "推迟模块评估"（曾被称为 "懒惰模块初始化"）的新技术，其目标是提高大型 JavaScript 应用程序的性能。这项技术旨在解决在应用程序初始化期间由于代码编写方式导致的 CPU 瓶颈问题。推迟模块评估的提案是引入一种新的语法形式，该形式只会返回一个命名空间异构对象。使用此形式时，模块及其依赖项不会被执行，但会在模块图被认为已加载之前完全加载到可执行状态。只有在访问此模块的属性时，才会执行执行操作（如果需要）。这样，模块命名空间异构对象就像是模块评估的代理，有效地触发同步评估并返回定义的绑定。然而，这项技术还存在一些问题，例如无法推迟执行使用顶级等待的模块的评估，以及在导入使用推迟导入语法的模块时，其异步依赖项及其自身的传递依赖项将被积极评估，只有图形的同步部分被推迟。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[交互设计的隐形细节]]></title>
         <id>https://rauno.me/craft/interaction-design</id>
@@ -235,12 +242,5 @@ Ember 路由器上的刷新方法，使整个当前路由树的数据刷新更�
 在 Ember 4.4 中，我们发布了一个 {{unique-id}} 助手，使编写可访问表单更容易，并通过改进 setupTest 的蓝图使测试定制更容易。
 在 Ember 4.5 中，我们使得可以使用普通的 JavaScript 函数作为助手：不再需要用 helper () 包裹它们！
 我们还发布了一个新的测试原语，renderSettled</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CommonJS是不会消失的]]></title>
-        <id>https://bun.sh/blog/commonjs-is-not-going-away</id>
-        <link href="https://bun.sh/blog/commonjs-is-not-going-away"/>
-        <updated>2023-07-06T02:48:37.350Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://bun.sh/blog/commonjs-is-not-going-away">CommonJS is not going away</a></p><p><strong>概要：</strong></p><p>文章讨论了 JavaScript 的未来，特别是关于 CommonJS 和 ES 模块（ESM）的使用。尽管 ESM 被视为 JavaScript 的未来，但 CommonJS 仍然有其存在的价值。数据显示，ESM 在 npm 上的使用率为 9%，而 CJS（CommonJS）的使用率为 73.6%。CommonJS 在 2009 年开发并由 Node.js 推广，它允许文件将属性分配给名为 exports 的特殊变量，然后其他文件可以通过特殊的 require 函数引用 exports 对象的属性。相比之下，ESM 在 2015 年作为 ES6 的一部分引入，它使用 export 关键字声明其导出，并使用 import 关键字从其他文件导入。与 CommonJS 不同，ESM 设计用于在浏览器中工作，预期文件会通过网络加载，这就是 ES 模块被称为异步的原因。文章还指出，CommonJS 启动速度更快，允许动态模块加载，并且已经在 npm 发布了数百万个模块。最后，Bun v0.6.5 开始原生实现 CommonJS，而且 Bun 也增加了对__esModule 注解的支持，这是 CommonJS 模块表明 exports.default 应被解释为默认导出的事实标准方式。总的来说，CommonJS 已经在这里并将继续存在，Bun 将其视为一等公民。</p>]]></content>
     </entry>
 </feed>
