@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-17T02:00:41.296Z</updated>
+    <updated>2023-07-17T10:36:13.105Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[不健康冲突与健康冲突]]></title>
+        <id>https://addyosmani.com/blog/healthy-unhealthy-conflict/</id>
+        <link href="https://addyosmani.com/blog/healthy-unhealthy-conflict/"/>
+        <updated>2023-07-17T10:36:07.588Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/healthy-unhealthy-conflict/">Unhealthy conflict vs. healthy conflict</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了健康冲突和不健康冲突的区别，以及如何利用冲突的积极方面促进成长。不健康的冲突以对抗性心态为特征，人们将彼此视为对手，重点在于个人胜利而非解决问题。健康的冲突则将分歧视为需要共同解决的问题，这种心态培养出合作和相互尊重的氛围。文章还提供了一些策略来培养健康冲突的文化，包括设定基本的尊重沟通原则、积极倾听他人的观点、使用 "I" 语句表达自己的感受和观察、寻找共同立场以及提供和接受妥协。健康的冲突可以成为促进成长的催化剂。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[尽可能长时间地坚持乏味的建筑风格]]></title>
+        <id>https://addyosmani.com/blog/boring-architecture/</id>
+        <link href="https://addyosmani.com/blog/boring-architecture/"/>
+        <updated>2023-07-17T10:35:36.345Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/boring-architecture/">Stick to boring architecture for as long as possible</a></p><p><strong>概要：</strong></p><p>Kelsey Hightower 建议在新项目开始时，尽可能坚持使用 "无聊" 的架构，并将大部分时间和资源投入到客户愿意付费的产品建设中。他认为，虽然工程师们天生对新奇的解决方案有吸引力，但是区分什么是激动人心的，什么是适合你的用例是至关重要的。通常，“无聊” 的技术 —— 那些稳定、被理解并且可能是上一代的工具 —— 有很多可以提供的。它们经过试验和测试，已证明可扩展性，且配有详细的文档和社区支持。在采用新技术之前，需要问自己：这是否解决了一个特定的问题或显著增强了我的产品？这是否值得学习曲线和潜在的不稳定性？这是否会在未来帮助我们？Hightower 还提出了 "创新点原则"，即每个项目都有一个 “创新点”，可以用来采用 “激动人心” 的技术或架构。这个单一的点迫使你做出深思熟虑的选择。除非新技术显然给你的项目增加了实质价值，否则应依赖于你知道的有效工作。最后，他建议从基于良好理解的技术的坚实基础开始你的项目，随着项目的发展和你对挑战的深入理解，评估是否有充分的理由引入更先进的技术。这是一种有意识的进展：从无聊开始，然后有策略地创新。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub - tc39/proposal-defer-import-eval：关于引入模块延迟评估方法的建议]]></title>
         <id>https://github.com/tc39/proposal-defer-import-eval</id>
@@ -218,29 +232,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://www.builder.io/blog/safe-data-fetching"/>
         <updated>2023-07-06T02:59:43.875Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/safe-data-fetching">Safe Data Fetching in Modern JavaScript</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了 JavaScript 中 Fetch 函数的使用方法和常见问题，作者指出直接使用 Fetch 可能会遇到错误处理不当和信息丢失等问题。为了解决这些问题，作者提出了创建自定义错误类和封装 Fetch 函数的方法，使得错误处理更加智能和方便。但是，这种方法仍然需要开发者每次都写一定量的样板代码。因此，作者推荐使用 Axios、Redaxios 和 Wretch 等开源解决方案，它们可以自动处理上述问题，同时还有更多的文档、测试和社区支持。无论选择哪种方式，作者强调要正确地获取数据，以保证用户体验和团队效率。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现代Javascript：过去10年中你错过的一切]]></title>
-        <id>https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years</id>
-        <link href="https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years"/>
-        <updated>2023-07-06T02:59:21.311Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years">Modern Javascript: Everything you missed over the last 10 years</a></p><p><strong>概要：</strong></p><p>这篇文章是一份 JavaScript 的速查表，作者总结了近年来在现代浏览器中广泛支持的 JavaScript 新语法和功能。包括内置数组函数、const/let 关键字、空值合并和可选链运算符、Async/Await 关键字、箭头函数、for...of 循环、异步迭代、类、get/set 函数、函数默认参数、命名参数、剩余参数、Object.assign 和展开运算符、解构、简写函数、Promise.all、模板字面量、代理以及模块导入 / 导出等。每个主题都附有示例代码和进一步文档的链接。此外，作者还提供了其他参考资源，如 Map、Set、生成器、严格模式、数组方法、对象静态方法、反射、URL 等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ember 5.0发布]]></title>
-        <id>https://blog.emberjs.com/ember-5-0-released/</id>
-        <link href="https://blog.emberjs.com/ember-5-0-released/"/>
-        <updated>2023-07-06T02:53:30.631Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.emberjs.com/ember-5-0-released/">Ember 5.0 Released</a></p><p><strong>概要：</strong></p><p>EmberJS 5.0 代表了开发者对 Ember 生态系统稳定性和可靠性的承诺。Ember 团队努力去除所有弃用的部分，并向 Polaris 迈进。这篇文章介绍了我们的发布策略，如何升级，预期结果，以及被移除的过时 API。
-这是根据 RFC 830 提出的新发布策略和目标下的第一个主要版本。总结来说，每 12 个小版本，Ember 将发布一个新的主要版本，移除任何针对该主要版本的过时代码。
-在引入新功能时，Ember 通常旨在在小版本中发布新功能，同时为现有代码提供向后兼容性，同时让开发者有机会尝试新功能。这种方法减少了团队面临的主要升级挑战，相比于制作带有大量新功能的大型、突破性、引人注目的主要版本。
-在 Ember 4.x 的小版本中，我们添加了一些特性（当然还有各种错误修复）：
-在 Ember 4.1 中，我们发布了一系列改善生活质量的改进：
-缓存昂贵 getter 的 @cached 装饰器
-@service 装饰器，所以你不再需要导入 {inject as service}
-Ember 路由器上的刷新方法，使整个当前路由树的数据刷新更容易
-在 Ember 4.4 中，我们发布了一个 {{unique-id}} 助手，使编写可访问表单更容易，并通过改进 setupTest 的蓝图使测试定制更容易。
-在 Ember 4.5 中，我们使得可以使用普通的 JavaScript 函数作为助手：不再需要用 helper () 包裹它们！
-我们还发布了一个新的测试原语，renderSettled</p>]]></content>
     </entry>
 </feed>
