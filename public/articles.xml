@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-17T10:36:13.105Z</updated>
+    <updated>2023-07-18T06:12:43.175Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[软件工程：解决问题和批判性思维]]></title>
+        <id>https://addyosmani.com/blog/softeng-problem-solving/</id>
+        <link href="https://addyosmani.com/blog/softeng-problem-solving/"/>
+        <updated>2023-07-18T04:44:54.270Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/softeng-problem-solving/">Software engineering: problem-solving and critical-thinking</a></p><p><strong>概要：</strong></p><p>这篇文章强调了软件工程不仅仅是编码，更重要的是解决问题和批判性思考。软件工程被误解为只涉及编码，但实际上，它涉及到解决问题和批判性思考的方面，编码只是冰山一角，是分析严谨、抽象推理和创造性问题解决过程的具体输出。软件工程的核心不仅仅在于编码，更在于进行编码之前的过程。在软件工程中，每一个软件都是为了解决特定的问题或一系列问题而创建的，工程师首先需要理解他们需要解决的问题，然后概念化可能的解决方案。批判性思考是软件工程的基础，它涉及到对问题的客观分析和评估以形成判断，在设计阶段、实施阶段和测试阶段都需要应用批判性思考。总的来说，软件工程是解决问题和批判性思考的复杂结合，编码只是其表现形式。随着软件越来越深入地融入我们社会的结构中，软件工程师的角色也在扩大，他们不仅需要擅长编码，还必须是熟练的问题解决者和批判性思考者。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博雅发布 v0.17 - Boa]]></title>
+        <id>https://boajs.dev/posts/2023-07-08-boa-release-17/</id>
+        <link href="https://boajs.dev/posts/2023-07-08-boa-release-17/"/>
+        <updated>2023-07-18T04:09:46.861Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://boajs.dev/posts/2023-07-08-boa-release-17/">Boa release v0.17 - Boa</a></p><p><strong>概要：</strong></p><p>Boa v0.17 已经发布，这是自项目开始以来最大的一次 Boa 发布。在大约 7 个月的开发后，我们很高兴向您展示 Boa JavaScript 引擎的最新版本。Boa 使得在你的项目中嵌入 JS 引擎变得简单，你甚至可以从 WebAssembly 中使用它。在此版本中，我们的符合性从官方 ECMAScript 测试套件（Test262）的 74.53% 增长到 78.74%，我们现在通过了比上一版本多 6079 个测试。此外，此版本的重大变化不在于符合性，而在于巨大的内部增强和新的 API。此次大规模发布部分得益于 Lit Protocol 的资助。此外，Boa 现在有了一个新的域名 boajs.dev。在此版本中，我们添加了 HostHooks 和 JobQueue 特性到 Context，这将允许主机实现自定义事件循环和其他主机特定功能。此外，Boa 现在有了国际化支持，尽管我们还在努力完全符合 ecma402 规范，但我们已经有了一些 Intl 工具。此版本的 Boa 还包含了一些新的功能，如 JsPromise, JsRegExp, JsGenerator, JsDate 和 JsDataView 等内置对象包装器。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不健康冲突与健康冲突]]></title>
         <id>https://addyosmani.com/blog/healthy-unhealthy-conflict/</id>
@@ -218,19 +232,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem"/>
         <updated>2023-07-06T03:01:33.182Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem">The massive bug at the heart of the npm ecosystem</a></p><p><strong>概要：</strong></p><p>文章是由前 npm CLI 团队的工程经理撰写，主要讨论了 npm 包的 "manifest confusion" 问题。npm 包的清单与其 tarball 独立发布，且从未完全验证过它们的内容是否一致。这导致任何使用公共注册表的工具或洞察可能易受攻击或不准确，恶意行为者可以在直接或转移依赖项中隐藏恶意软件和脚本而不被检测到。作者认为，应该进一步调查以确定受影响的注册表条目的范围，并尽快记录 npm 公共注册表 API 及其各自的请求 / 响应对象。同时，建议开发者联系任何已知依赖于 npm 注册表的 manifest 数据的工具作者 / 维护者，并确保他们在适当时开始使用包的内容作为元数据。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[高级macOS命令 - saurabhs.org]]></title>
-        <id>https://saurabhs.org/advanced-macos-commands</id>
-        <link href="https://saurabhs.org/advanced-macos-commands"/>
-        <updated>2023-07-06T03:00:40.075Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://saurabhs.org/advanced-macos-commands">Advanced macOS Commands - saurabhs.org</a></p><p><strong>概要：</strong></p><p>文章介绍了 macOS 系统中的一些高级命令行工具，包括 Unix 标准工具和 macOS 特有的功能。这些工具包括：caffeinate 用于设置 Mac 的睡眠行为；pbcopy 和 pbpaste 用于与系统剪贴板交互；networkQuality 用于测量互联网速度；sips 用于图像操作；open 用于打开文件和应用程序；textutil 是文档文件转换器；mdfind 和 mdls 用于使用 Spotlight 进行搜索；screencapture 用于截屏；taskpolicy 用于控制进程的调度；say 是文本转语音引擎；pmset 用于配置电源管理；networksetup 用于配置网络设置；softwareupdate 用于管理操作系统更新；system_profiler 用于查看系统信息。每个工具都有详细的使用说明和例子，可以通过运行 man <command> 查看完整的文档。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现代JavaScript中的安全数据获取]]></title>
-        <id>https://www.builder.io/blog/safe-data-fetching</id>
-        <link href="https://www.builder.io/blog/safe-data-fetching"/>
-        <updated>2023-07-06T02:59:43.875Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/safe-data-fetching">Safe Data Fetching in Modern JavaScript</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了 JavaScript 中 Fetch 函数的使用方法和常见问题，作者指出直接使用 Fetch 可能会遇到错误处理不当和信息丢失等问题。为了解决这些问题，作者提出了创建自定义错误类和封装 Fetch 函数的方法，使得错误处理更加智能和方便。但是，这种方法仍然需要开发者每次都写一定量的样板代码。因此，作者推荐使用 Axios、Redaxios 和 Wretch 等开源解决方案，它们可以自动处理上述问题，同时还有更多的文档、测试和社区支持。无论选择哪种方式，作者强调要正确地获取数据，以保证用户体验和团队效率。</p>]]></content>
     </entry>
 </feed>
