@@ -2,11 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-18T06:12:43.175Z</updated>
+    <updated>2023-07-19T00:54:28.048Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Fresh 1.3 - 简化的路由组件及其他]]></title>
+        <id>https://deno.com/blog/fresh-1.3</id>
+        <link href="https://deno.com/blog/fresh-1.3"/>
+        <updated>2023-07-19T00:44:37.401Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/fresh-1.3">Fresh 1.3 – Simplified Route Components and More</a></p><p><strong>概要：</strong></p><p>自从我们发布 Fresh 1.2 后仅过去一个月，我们已经回来发布另一个版本！我们计划每个月都发布新的小版本。这个周期包含了社区的许多令人难以置信的 PR，这简直太棒了！文档得到了扩展和改进，修复了许多错误并添加了新功能。感谢所有帮助完成此次发布的人。但话不多说，让我们看看我们对 Fresh 进行了哪些改进。
+
+异步路由组件
+从插件中添加路由和 / 或中间件
+500 错误模板回退
+错误边界
+在同一文件中导出多个岛屿
+Fresh linting 规则
+支持 Deno.serve
+更多提高生活质量的改进
+
+异步路由组件我们听到很多反馈，从路由处理程序传递数据到页面的组件需要一些烦人的样板文件。为了确保类型安全，你总是需要为组件的 props 创建一个接口，将其作为通用的传递给 Handlers 类型，并在组件定义中使用它。这真是很多步骤！
+由于 GET 处理程序往往与它将呈现的组件高度耦合，显而易见的问题是，为什么我们不直接将两者合并在一起？这正是我们所做的。在 Fresh 1.3 中，我们可以大大简化之前的代码片段：
+由于处理程序和组件都在同一个函数中，因此无需声明一个中间接口来在两者之间传递数据；你可以直接传递数据。
+但是别担心，没有必要重写所有的路由。实际上，我们并不喜欢重写代码。新的方式只是一个额外的选项，可以使简单的路由更容易编写。使用异步路由并非</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot 7 月 14 日更新]]></title>
+        <id>https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/</id>
+        <link href="https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/"/>
+        <updated>2023-07-19T00:26:16.401Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/">GitHub Copilot July 14th Update</a></p><p><strong>概要：</strong></p><p>2023 年 7 月 14 日，GitHub 为其 Visual Studio Code 和 Visual Studio 扩展中的 Chat 功能进行了许多改进，并为管理员提供了新的能力。首先，他们推出了针对 Copilot for Business 的 User Management API（beta），使管理员可以列出所有启用 Copilot 的组织成员及其详细信息，并为个人和团队添加 / 删除访问权限，从而实现大规模的自动化访问管理。此外，他们还在 Visual Studio Code 1.80 中引入了新的创建命令，如 /search, /createWorkspace 等，以帮助用户创建项目和笔记本，并在工作空间中搜索文本。同时，他们还对 Visual Studio 扩展进行了改进，包括更好地支持其他编程语言，保存和恢复聊天历史，清除聊天历史，多行提示框，显示内容的流媒体支持，测试生成的特定插入，以及改善整个聊天体验的各种生活质量更新。最后，他们还引入了基于嵌入的上下文感知操作，如文档，解释和生成测试，这些操作利用现有的内联上下文并制定特定的意图，以提供最佳的任务体验。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 18 如何提高应用程序性能 - Vercel]]></title>
+        <id>https://vercel.com/blog/how-react-18-improves-application-performance</id>
+        <link href="https://vercel.com/blog/how-react-18-improves-application-performance"/>
+        <updated>2023-07-19T00:24:43.774Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/how-react-18-improves-application-performance">How React 18 Improves Application Performance – Vercel</a></p><p><strong>概要：</strong></p><p>React 18 引入了并发特性，从根本上改变了 React 应用的渲染方式。当我们在浏览器中运行 JavaScript 时，JavaScript 引擎在单线程环境中执行代码，这通常被称为主线程。主线程负责处理其他任务，包括管理用户交互、处理网络事件、定时器、更新动画和管理浏览器重排和重绘。任何运行时间超过 50 毫秒的任务都被视为 "长任务"。React 18 引入了一个新的并发渲染器，它在后台操作。这个渲染器为我们提供了一些方法，使得某些渲染标记为非紧急。此外，这个并发渲染器能够 “并发” 地在后台渲染组件树的多个版本，而不是立即提交结果。React 服务器组件是 React 18 的实验性功能，但已经准备好让框架采用。使用 Suspense，我们可以延迟渲染一个组件，直到满足某些条件，如从远程源加载数据。总的来说，React 18 的最新特性在很多方面提高了性能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 年的 Npm 状态：概述]]></title>
+        <id>https://blog.sandworm.dev/state-of-npm-2023-the-overview</id>
+        <link href="https://blog.sandworm.dev/state-of-npm-2023-the-overview"/>
+        <updated>2023-07-18T10:52:05.295Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.sandworm.dev/state-of-npm-2023-the-overview">State Of Npm 2023: The Overview</a></p><p><strong>概要：</strong></p><p>这篇文章是 "npm 状态 2023" 系列的一部分。在这个系列中，Sandworm 团队深入探讨了 npm 的当前状况，挖掘出了有趣的统计数据，并揭示了有关注册表的引人入胜的事实。
+
+在软件开发的广阔领域中，一个名字已经成为 JavaScript 生态系统的代名词：npm。作为全球数百万开发者的首选包管理器，npm 在革新我们构建和分享 JavaScript 代码的方式上发挥了关键作用。随着其庞大的注册表不断收纳更多的包，npm 已经成为了一种不可或缺的工具，推动创新并赋予开发者轻松创建出色应用的能力。
+
+在本系列中，Sandworm 团队深入探讨了 npm 的当前状况，挖掘出了有趣的统计数据，并揭示了有关注册表的引人入胜的事实。从包的数量到最受欢迎的库，我们将探索这个为 JavaScript 社区提供动力的强大工具的内部运作。让我们一起来更深入地了解 npm 的状态，并洞察其中的趋势、模式和充满活力的生态系统。
+
+npm 的初始提交是由 Isaac Z. Schlueter（isaacs）在 2009 年 9 月 29 日推送的。它最初是一个在 VPS 上的单一 CouchDB 服务。"npm" 原本代表 "Node Package Manager"，但后来被改为递归的反向首字母缩写，意思是 "npm 不是首字母缩写"。npm 在 2014 年作为一家公司成立，当时它筹集了 260 万美元以持续资助其迅速增长的社</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - 0xpayne/gpt-migrate：轻松地将代码库从一个框架或语言迁移到另一个框架或语言。]]></title>
+        <id>https://github.com/0xpayne/gpt-migrate</id>
+        <link href="https://github.com/0xpayne/gpt-migrate"/>
+        <updated>2023-07-18T08:16:27.616Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/0xpayne/gpt-migrate">GitHub - 0xpayne/gpt-migrate: Easily migrate your codebase from one framework or language to another.</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 GPT-Migrate 的项目，该项目能够帮助用户轻松地将代码库从一个框架或语言迁移到另一个。尽管迁移是一个昂贵、繁琐且非平凡的问题，但借助开源社区的集体智慧和大型语言模型的当前状态，这个问题变得可以处理。GPT-Migrate 首先为目标语言创建一个 Docker 环境，然后评估现有代码以识别第三方依赖项，并选择相应的目标语言依赖项。接着，它从指定的源文件开始递归地构建新的目标语言代码。然后，它启动带有新代码库的 Docker 环境，并根据需要进行迭代调试。它使用 Python 的 unittest 框架开发单元测试，并可选择性地针对运行中的原始应用程序进行测试。最后，它会在日志、错误消息、相关文件和目录结构的上下文中为你迭代地调试代码。新的代码库完成后将存在于目标目录中。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[软件工程：解决问题和批判性思维]]></title>
         <id>https://addyosmani.com/blog/softeng-problem-solving/</id>
@@ -193,44 +248,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"/>
         <updated>2023-07-07T10:00:52.513Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html">Announcing regex 1.9 | Rust Blog</a></p><p><strong>概要：</strong></p><p>正则表达式小组宣布发布了 regex 1.9 版本。regex 库由 Rust 项目维护，是在 Rust 中使用正则表达式的推荐方式。其定义特性是保证最坏情况下线性时间搜索，相对于被搜索字符串的大小。虽然 regex 库的发布通常不会在此博客上公告，但由于在 1.9 版本中，其内部的大部分已经被重写，因此这个公告旨在鼓励额外的审查。如果你遇到任何问题或性能回归，请在问题跟踪器上报告或在讨论论坛上提问。新版本进行了一些 API 添加，值得一提的是 Captures::extract 方法，这将使在某些情况下获取捕获组更加方便。否则，人们应该看到的主要变化是搜索时间更快。你可以在 CHANGELOG 和更深入的关于 regex 库内部作为库的博客文章中阅读更多信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript Gom Jabbar]]></title>
-        <id>https://frantic.im/javascript-gom-jabbar/</id>
-        <link href="https://frantic.im/javascript-gom-jabbar/"/>
-        <updated>2023-07-07T09:42:16.725Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://frantic.im/javascript-gom-jabbar/">JavaScript Gom Jabbar</a></p><p><strong>概要：</strong></p><p>这篇文章描述了一个拥有 10 年 JavaScript 经验的开发者面对一项任务：打开并阅读一个充满挑战的 package.json 文件。作者表达出对各种编程问题和困扰的痛苦，包括版本管理、包命名冲突、模块迁移、复杂的脚本、依赖管理等。他提到了许多具体的库和工具，如 Isomorphic JavaScript, watchman, gulp, left-pad, moment.js, eslint, postcss, jest 等，以及它们带来的问题。同时，他也表达了对维护过时依赖包、处理编译错误、配置测试运行器等任务的恐惧和压力。尽管如此，他仍然坚持下去，因为他知道这是程序员的日常工作。最后，他鼓励读者订阅他的博客以获取更多编程、软件设计和项目相关的信息。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lenz Weber-Tronic (phryneas) - 我对当前React与服务器组件争议的看法]]></title>
-        <id>https://phryneas.de/react-server-components-controversy</id>
-        <link href="https://phryneas.de/react-server-components-controversy"/>
-        <updated>2023-07-07T09:41:07.910Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://phryneas.de/react-server-components-controversy">Lenz Weber-Tronic (phryneas) - My take on the current React & Server Components controversy</a></p><p><strong>概要：</strong></p><p>这篇文章是一位技术人员对 React Server Components（RSC）和 React 团队的沟通方式表达了自己的挫败感。他认为，虽然每个人都有自己的立场，但我们大多数人都以最不生产的方式进行交流。
-
-文章作者身为 Apollo Client、Redux Toolkit 和 RTK Query 等库的维护者，他发现帮助用户变得更加困难。因为人们遇到了一些奇怪的问题，他无法为他们解决所有问题。比如，StackOverflow 上的用户面临着他们无法理解的错误信息。他们在 React 主页上创建了一个新的 React 项目，然后只是应用了默认设置。他们不知道什么是 Server Component，但他们现在正在编写 Server Components。而这三个库在 Server Components 中的工作方式与之前完全不同。
-
-作者还提出了一些建议，包括在 Canaries 中隐藏实验性功能，试图使客户端和服务器用户体验保持一致，以及提供一些缺失的 API 等。他希望通过这篇文章引起人们的关注，并愿意就这些想法进行交谈并提供帮助。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在2023年与SVG-in-JS决裂]]></title>
-        <id>https://kurtextrem.de/posts/svg-in-js</id>
-        <link href="https://kurtextrem.de/posts/svg-in-js"/>
-        <updated>2023-07-07T09:40:25.177Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kurtextrem.de/posts/svg-in-js">Breaking Up with SVG-in-JS in 2023</a></p><p><strong>概要：</strong></p><p>去年 12 月，一篇题为 “为什么我们要和 CSS-in-JS 分手” 的文章引起了轰动，解释了为什么你不再希望在 JS 包中包含 CSS。然而，现在 JS 包中不仅有 CSS，还有 SVG，正如 Preact 的作者 Jason Miller 所展示的那样：“请不要将 SVG 作为 JSX 导入，这是最昂贵的形式，比其他技术至少贵 3 倍，而且会影响运行时（渲染）性能和内存使用。” 他还指出，一个流行网站的包中，几乎 50% 都是 SVG 图标（250kb），大部分都没有用到。因此，我们需要把 SVG 从 JS 包中移出，重新回归到 HTML 中。本文将探讨在保持 JS 包小巧和高效的同时，更好地使用 SVG 的技术。这些技术包括：使用 < img > 标签加载 SVG、使用 < use > 创建 SVG 精灵、通过 CSS 和 currentcolor 移除更多的 JS、使用 React 的服务器组件等。另外，如果遇到 CORS 问题，可以使用 CSS 进行救援。此外，我们还需要权衡性能和加载时间，决定是否内联 SVG。最后，我们可以使用一些工具和代码片段来实现这些操作。总的来说，通过使用这些技巧，你可以使你的 JavaScript 包变得更小、更高效，这对于旧设备和慢速设备非常有帮助，也使互联网变得更加包容。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js应用程序路由器更新]]></title>
-        <id>https://nextjs.org/blog/june-2023-update</id>
-        <link href="https://nextjs.org/blog/june-2023-update"/>
-        <updated>2023-07-06T03:02:01.177Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://nextjs.org/blog/june-2023-update">Next.js App Router Update</a></p><p><strong>概要：</strong></p><p>Next.js 团队正在专注于改进性能、稳定性和开发者教育。他们已经设计了一种新的基础设施 ——App Router，以满足更大规模应用的需求。这个新工具允许开发者逐步迁移到新的 API，而不需要对整个应用进行重写。目前，团队正在探索更多使增量采用变得更容易的机会。在性能方面，他们正在专注于提高本地迭代速度、生产构建时间和无服务器性能。他们还在努力优化现有的 webpack 架构的性能，并计划用 Turbopack 替换 webpack。为了改善稳定性，他们正在修复 App Router 中的 bug，并感谢社区的反馈。最后，他们正在重新编写 Next.js 的文档，并计划发布更多的教育资源，以帮助开发者理解新的特性和概念。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[npm生态系统核心的巨大错误]]></title>
-        <id>https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem</id>
-        <link href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem"/>
-        <updated>2023-07-06T03:01:33.182Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem">The massive bug at the heart of the npm ecosystem</a></p><p><strong>概要：</strong></p><p>文章是由前 npm CLI 团队的工程经理撰写，主要讨论了 npm 包的 "manifest confusion" 问题。npm 包的清单与其 tarball 独立发布，且从未完全验证过它们的内容是否一致。这导致任何使用公共注册表的工具或洞察可能易受攻击或不准确，恶意行为者可以在直接或转移依赖项中隐藏恶意软件和脚本而不被检测到。作者认为，应该进一步调查以确定受影响的注册表条目的范围，并尽快记录 npm 公共注册表 API 及其各自的请求 / 响应对象。同时，建议开发者联系任何已知依赖于 npm 注册表的 manifest 数据的工具作者 / 维护者，并确保他们在适当时开始使用包的内容作为元数据。</p>]]></content>
     </entry>
 </feed>
