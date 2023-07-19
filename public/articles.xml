@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-19T00:54:28.048Z</updated>
+    <updated>2023-07-19T01:26:46.513Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[动画 SVG 徽标]]></title>
+        <id>https://antfu.me/posts/animated-svg-logo</id>
+        <link href="https://antfu.me/posts/animated-svg-logo"/>
+        <updated>2023-07-19T01:21:42.778Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/animated-svg-logo">Animated SVG Logo</a></p><p><strong>概要：</strong></p><p>文章作者 Anthony Fu 分享了他如何将网站左上角的 Logo 替换为动态 SVG。首次看到这种 SVG 描边动画是在 Vjacheslav Trushkin 的 Material Line Icons 中，但直到在 Mu-An Chiou 的网站上看到类似的设计，才萌生了自己也要做一个的想法。通过研究 Mu-An 的 SVG 代码和参考 Material Line Icons，作者发现他们是通过动画化 stroke-dasharray 来实现这种效果的。原始 Logo 是 8 年前作者用 Surface Pro 4 上的压感笔绘制的，之后用 Adobe Illustrator 进行图像追踪得到 SVG 版本。作者需要用单个描边重新绘制 Logo，然后手动添加样式到导出的 SVG 中，从而得到一个不错的动态 Logo。唯一的缺点是描边在所有地方都均匀粗细，使其看起来不太像签名。作者试图寻找解决方案，最后发现 SVG 支持遮罩功能，于是尝试让描边在遮罩内部动画，并取得了成功。虽然这种方法并非完美，因为无法控制描边宽度，所以描边会稍微偏离遮罩，但作者认为这已经很好了。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fresh 1.3 - 简化的路由组件及其他]]></title>
         <id>https://deno.com/blog/fresh-1.3</id>
@@ -241,12 +248,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://svelte.dev/blog/svelte-dev-overhaul"/>
         <updated>2023-07-11T09:30:19.823Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/svelte-dev-overhaul">svelte.dev: A complete overhaul</a></p><p><strong>概要：</strong></p><p>Svelte 的新网站发布了，采用全新设计，并增加了多项新功能和底部导航栏。新网站对旧版进行了全面改革，文档已经分为多个页面，所有页面在右侧边栏列出各自的章节。新网站还配备了搜索栏，可以通过它在文档和 API 表面进行搜索。此外，新网站还提供 JavaScript / TypeScript 切换功能，使用户可以以自己喜欢的方式查看文档。新网站还添加了深色模式开关，并与操作系统的深色模式设置同步。此外，REPL 也被重新编写，完全类型安全，并带有深色模式等功能。新网站的首页也得到了更新，与 kit.svelte.dev 保持一致，并展示了由 @vedam 制作的美丽的 Svelte Machine。最后，新网站还实现了网站的统一，现在 svelte.dev、kit.svelte.dev 和 learn.svelte.dev 都使用相同的设计系统，彼此之间更加一致，这使得在网站之间导航变得更加容易，也使维护工作变得更加容易。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宣布regex 1.9 | Rust博客]]></title>
-        <id>https://blog.rust-lang.org/2023/07/05/regex-1.9.html</id>
-        <link href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"/>
-        <updated>2023-07-07T10:00:52.513Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html">Announcing regex 1.9 | Rust Blog</a></p><p><strong>概要：</strong></p><p>正则表达式小组宣布发布了 regex 1.9 版本。regex 库由 Rust 项目维护，是在 Rust 中使用正则表达式的推荐方式。其定义特性是保证最坏情况下线性时间搜索，相对于被搜索字符串的大小。虽然 regex 库的发布通常不会在此博客上公告，但由于在 1.9 版本中，其内部的大部分已经被重写，因此这个公告旨在鼓励额外的审查。如果你遇到任何问题或性能回归，请在问题跟踪器上报告或在讨论论坛上提问。新版本进行了一些 API 添加，值得一提的是 Captures::extract 方法，这将使在某些情况下获取捕获组更加方便。否则，人们应该看到的主要变化是搜索时间更快。你可以在 CHANGELOG 和更深入的关于 regex 库内部作为库的博客文章中阅读更多信息。</p>]]></content>
     </entry>
 </feed>
