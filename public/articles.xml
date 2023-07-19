@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-19T01:26:46.513Z</updated>
+    <updated>2023-07-19T01:29:43.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[在网络上使用表情符号]]></title>
+        <id>https://fullystacked.net/posts/using-emoji-on-the-web/</id>
+        <link href="https://fullystacked.net/posts/using-emoji-on-the-web/"/>
+        <updated>2023-07-19T01:29:38.563Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fullystacked.net/posts/using-emoji-on-the-web/">Using emoji on the web</a></p><p><strong>概要：</strong></p><p>文章讨论了在不同操作系统和浏览器上使用表情符号的问题。大多数浏览器默认使用操作系统提供的表情字体，例如 ChromeOS 和大多数 Android 设备使用 Google 的 Noto Color Emoji，iOS 和 macOS 使用 Apple Color Emoji，Windows 使用 Microsoft Segoe Color Emoji。然而，Firefox 在 Windows 和 Linux 上是个例外，它使用 Twitter 的 Twemoji 字体。在 HTML 标记中使用表情符号通常可以正常工作，但也存在一些问题。例如，一些旧的表情符号可能以单色图标或多色表情符号呈现；Windows 用户（除 Firefox 浏览器外）无法看到国家旗帜的表情符号；老版本操作系统的用户无法获取新的表情符号。解决方案包括显式设置表情字体、使用 CSS 属性 font-variant-emoji、使用 color fonts 等。此外，还可以使用开源的 color emoji 字体，如 Google 的 Noto Color、Adobe 的 Emoji One、Twitter 的 Twemoji、Mozilla 的 FxEmoji 和 Microsoft 的 Fluent Emoji。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[动画 SVG 徽标]]></title>
         <id>https://antfu.me/posts/animated-svg-logo</id>
@@ -241,12 +248,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/"/>
         <updated>2023-07-11T09:31:00.549Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/">Introducing the MDN Playground: Bring your code to life! | MDN Blog</a></p><p><strong>概要：</strong></p><p>Mozilla 宣布推出 MDN Playground，这是一个可以预览 HTML、CSS 和 JavaScript 的简单方式。MDN Playground 提供了快速原型设计和测试想法的无障碍方式，用户只需将代码粘贴到 playground 中，就可以立即在预览区域看到结果。此外，它还支持实时交互，使用户能够实时与代码进行交互，进行更改并立即观察其效果。MDN Playground 还扩展了代码示例，解决了在文档中阅读代码示例而无法立即试验的问题。当用户在 MDN 上遇到代码示例时，现在会找到一个方便的 “播放” 按钮，点击它将在 MDN Playground 中打开示例，准备供用户探索和修改。此外，MDN Playground 还支持协作，使得与同事合作或寻求社区帮助变得比以往任何时候都更容易。用户可以与他人分享代码 playground，让他们查看和重新混合代码。要开始使用 MDN Playground，只需访问 developer.mozilla.org/en-US/play 并深入交互式 Web 开发的世界。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[svelte.dev：全面改版]]></title>
-        <id>https://svelte.dev/blog/svelte-dev-overhaul</id>
-        <link href="https://svelte.dev/blog/svelte-dev-overhaul"/>
-        <updated>2023-07-11T09:30:19.823Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://svelte.dev/blog/svelte-dev-overhaul">svelte.dev: A complete overhaul</a></p><p><strong>概要：</strong></p><p>Svelte 的新网站发布了，采用全新设计，并增加了多项新功能和底部导航栏。新网站对旧版进行了全面改革，文档已经分为多个页面，所有页面在右侧边栏列出各自的章节。新网站还配备了搜索栏，可以通过它在文档和 API 表面进行搜索。此外，新网站还提供 JavaScript / TypeScript 切换功能，使用户可以以自己喜欢的方式查看文档。新网站还添加了深色模式开关，并与操作系统的深色模式设置同步。此外，REPL 也被重新编写，完全类型安全，并带有深色模式等功能。新网站的首页也得到了更新，与 kit.svelte.dev 保持一致，并展示了由 @vedam 制作的美丽的 Svelte Machine。最后，新网站还实现了网站的统一，现在 svelte.dev、kit.svelte.dev 和 learn.svelte.dev 都使用相同的设计系统，彼此之间更加一致，这使得在网站之间导航变得更加容易，也使维护工作变得更加容易。</p>]]></content>
     </entry>
 </feed>
