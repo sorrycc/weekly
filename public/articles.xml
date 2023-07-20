@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-19T01:29:43.907Z</updated>
+    <updated>2023-07-20T00:55:38.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[不要指望每天都有动力]]></title>
+        <id>https://addyosmani.com/blog/motivation/</id>
+        <link href="https://addyosmani.com/blog/motivation/"/>
+        <updated>2023-07-20T00:51:20.291Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/motivation/">Don't expect to be motivated everyday</a></p><p><strong>概要：</strong></p><p>这篇文章强调了纪律对于实现目标的重要性，而不是仅仅依赖动力。动力虽然能驱使我们完成伟大的事情，但它并不可靠且短暂。作者建议通过以下三种策略来培养纪律：开始小，比如每天写 100 个单词或完成 5 分钟的锻炼；保持一致，选择一个特定的时间或提示来执行你的习惯，并将其变成日常生活中不可更改的部分；接受失败，理解挫折是过程的自然部分，当你犯错误时，从中学习并继续前进。纪律为创建习惯奠定基础，从而形成例行公事，最终定义我们每天的自我。因此，下次当你缺乏动力时，不要感到绝望，而是依赖你的纪律帮助你度过困难时期并保持对目标的追求。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[是时候升级显示器了]]></title>
+        <id>https://tonsky.me/blog/monitors/</id>
+        <link href="https://tonsky.me/blog/monitors/"/>
+        <updated>2023-07-20T00:48:28.727Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tonsky.me/blog/monitors/">Time to upgrade your monitor</a></p><p><strong>概要：</strong></p><p>这篇文章是作者根据自身经验，讨论了编程人员最佳显示器选择的观点。他认为，对于大多数编程工作，高分辨率和清晰的字体显示至关重要。他建议购买 4K 分辨率的显示器，并使用 2 倍的缩放以获得更好的文本渲染效果。此外，作者还推荐使用 120Hz 的刷新率，尽管这对于文本工作并非必须，但可以提供更流畅的动画和滚动效果，使系统感觉更加响应迅速。不过，他也指出，在 MacOS 上运行 4K 120Hz 显示可能会遇到一些问题，需要进行一些设置调整。总的来说，作者认为独立的高分辨率显示器对于编程工作来说是最佳选择。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[故事书 7.1]]></title>
+        <id>https://storybook.js.org/blog/storybook-7-1/</id>
+        <link href="https://storybook.js.org/blog/storybook-7-1/"/>
+        <updated>2023-07-20T00:45:07.545Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://storybook.js.org/blog/storybook-7-1/">Storybook 7.1</a></p><p><strong>概要：</strong></p><p>Storybook 是 UI 组件开发、文档编写和测试的行业标准工作室，被 Twitter、GitHub、BBC 和纽约时报等团队使用。自今年四月发布 Storybook 7.0 后，我们计划推出更频繁且体积更小的未来版本，以便 Storybook 能够与前端生态系统中的变化保持同步，同时使我们的用户升级过程更加顺畅。今天，我们很高兴为您带来这些版本中的第一个：Storybook 7.1，其中包含了许多改进。此外，Storybook 支持 React、Vue、Angular、Web 组件、Svelte、Webpack 和 Vite 以及超过 400 种集成，使其成为迄今为止最强大的组件工作室。在 Storybook 7.1 中，我们通过为新用户引入入门流程来降低学习曲线。此外，Storybook 7.1 还为 Tailwind、Material UI、Emotion 和 styled-components 等提供了零配置样式支持。我们还为配置文件、ArgTypes 和 Doc 块引入了 API 参考文档，并将 Storybook 的文档制作为 TypeScript 优先，因为 TS 占据了所有 Storybook 项目的 80% 以上。此外，我们还增加了对 Vue 3 源片段和反应性改进的支持，并为文档添加了目录。我们还为 Figma 设计插件提供了官方支持，并进行了数百项修复和改进。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[构建自己的 FaaS：在 Fly 上自主托管 Cloudflare Worker 和 javascript 函数 | BreakpDev 博客]]></title>
+        <id>https://www.breakp.dev/blog/build-your-own-faas/</id>
+        <link href="https://www.breakp.dev/blog/build-your-own-faas/"/>
+        <updated>2023-07-19T03:25:22.732Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.breakp.dev/blog/build-your-own-faas/">Build your own FaaS: Self-host Cloudflare workers and javascript functions on Fly and everywhere | BreakpDev Blog</a></p><p><strong>概要：</strong></p><p>本文提供了如何构建和自我托管一个完整的 FaaS（Function as a Service）架构的逐步指南。文章首先解释了什么是云计算中的函数以及 FaaS，然后阐述了为什么要自我托管 FaaS。接着，文章详细介绍了如何创建自己的 FaaS，包括设置发布者和工作人员、准备配置、进行干运行和部署等步骤。最后，文章还提供了一些额外的内容，如保护发布者 API、在发布时自动重启工作人员、发布命令行工具等。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在网络上使用表情符号]]></title>
         <id>https://fullystacked.net/posts/using-emoji-on-the-web/</id>
@@ -220,33 +248,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
         <link href="https://github.com/privatenumber/minification-benchmarks"/>
         <updated>2023-07-12T04:29:20.988Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/privatenumber/minification-benchmarks">GitHub - privatenumber/minification-benchmarks: 🏃‍♂️🏃‍♀️🏃 JS minification benchmarks: babel-minify, esbuild, terser, uglify-js, swc, google closure compiler, tdewolff/minify</a></p><p><strong>概要：</strong></p><p>这篇文章是一个关于 JavaScript 压缩器性能对比的报告，涵盖了 babel-minify、esbuild、google-closure-compiler、minify-js、swc、tdewolff/minify、terser 和 uglify-js 等多种压缩器。每个压缩器都在自己的进程中执行，设定了 20 秒的超时时间，并在压缩前后进行了完整性测试。压缩器的排名依据是压缩后文件的大小。测试结果显示，在多数情况下，uglify-js 和 swc 的表现最佳，它们不仅能有效地减小文件大小，还能在较短的时间内完成压缩任务。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sass：浏览器中的Sass]]></title>
-        <id>https://sass-lang.com/blog/sass-in-the-browser/</id>
-        <link href="https://sass-lang.com/blog/sass-in-the-browser/"/>
-        <updated>2023-07-12T01:33:34.590Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sass-lang.com/blog/sass-in-the-browser/">Sass: Sass in the Browser</a></p><p><strong>概要：</strong></p><p>Natalie Weizenbaum 在 2023 年 7 月 7 日发布的文章中提到，Sass 现在可以直接在浏览器中运行。这得益于 Dart Sass 1.63 版本的发布，它正式支持 sass npm 包在浏览器中直接运行，不再需要通过服务器来编译 Sass。此外，Sass 还可以通过多种方式加载，包括 CommonJS require () 和 ES6 import，也可以通过打包工具（如 esbuild、Rollup、Vite 和 webpack）或者直接在浏览器中无需打包就可以加载。唯一的注意事项是，如果你在没有任何打包的情况下使用它，你需要设置一个导入地图以找到它所依赖的 Immutable 库。此外，Sass 网站上新增了一个长期期待的功能：Sass Playground，用户可以在浏览器中直接测试 Sass，并且始终使用最新版本的所有最新功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[循环依赖空间切换]]></title>
-        <id>https://kizu.dev/cyclic-toggles/</id>
-        <link href="https://kizu.dev/cyclic-toggles/"/>
-        <updated>2023-07-11T09:35:32.067Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://kizu.dev/cyclic-toggles/">Cyclic Dependency Space Toggles</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一种新的 CSS 技术，即通过切换单个自定义属性从列表中选择值。作者首先展示了代码，然后解释了这种被称为 “循环切换” 的技术。这种技术利用了 CSS 变量的循环依赖性，使得当我们跨引用自定义属性时，所有变量都会变成 “保证无效值”。作者还探讨了这种技术的限制，包括继承、动画和命名等问题。此外，作者也提到了这种技术的使用案例，如主题选择、组件 API 等。最后，作者强调了分享和请求特定功能的重要性，因为这有助于推动 CSS 的发展。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[亲身体验Node.js测试运行器]]></title>
-        <id>https://www.sonarsource.com/blog/node-js-test-runner/</id>
-        <link href="https://www.sonarsource.com/blog/node-js-test-runner/"/>
-        <updated>2023-07-11T09:32:39.333Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.sonarsource.com/blog/node-js-test-runner/">Hands on with the Node.js test runner</a></p><p><strong>概要：</strong></p><p>Node.js 在 18 版本中发布了一个实验性的测试运行器，并在 20 版本中将其稳定化。这意味着我们作为 JavaScript 开发者可以使用内置的测试运行器，而无需依赖第三方包，如 Mocha、Jasmine 或 Jest。这减少了维护成本和配置复杂性。此外，该测试运行器还提供了一套基础原语，供测试框架标准化使用。文章还介绍了如何使用 Node.js 测试运行器编写测试，包括创建测试文件、执行测试命令、使用断言模块、跳过测试等操作。最后，文章表示，尽管 Node.js 测试运行器还提供了内置的模拟功能、实验性的观察模式和测试覆盖率收集，但对于小型项目，测试运行器和断言模块已经足够用来编写测试套件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 MDN Playground：让您的代码栩栩如生！| MDN 博客]]></title>
-        <id>https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/</id>
-        <link href="https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/"/>
-        <updated>2023-07-11T09:31:00.549Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/">Introducing the MDN Playground: Bring your code to life! | MDN Blog</a></p><p><strong>概要：</strong></p><p>Mozilla 宣布推出 MDN Playground，这是一个可以预览 HTML、CSS 和 JavaScript 的简单方式。MDN Playground 提供了快速原型设计和测试想法的无障碍方式，用户只需将代码粘贴到 playground 中，就可以立即在预览区域看到结果。此外，它还支持实时交互，使用户能够实时与代码进行交互，进行更改并立即观察其效果。MDN Playground 还扩展了代码示例，解决了在文档中阅读代码示例而无法立即试验的问题。当用户在 MDN 上遇到代码示例时，现在会找到一个方便的 “播放” 按钮，点击它将在 MDN Playground 中打开示例，准备供用户探索和修改。此外，MDN Playground 还支持协作，使得与同事合作或寻求社区帮助变得比以往任何时候都更容易。用户可以与他人分享代码 playground，让他们查看和重新混合代码。要开始使用 MDN Playground，只需访问 developer.mozilla.org/en-US/play 并深入交互式 Web 开发的世界。</p>]]></content>
     </entry>
 </feed>
