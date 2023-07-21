@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-20T07:10:08.310Z</updated>
+    <updated>2023-07-21T01:49:19.009Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Persson Dennis - 为何选择服务器组件 - 网络简史]]></title>
+        <id>https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web</id>
+        <link href="https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web"/>
+        <updated>2023-07-21T01:37:12.848Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web">Persson Dennis - Why Server Components - A Brief History of Web</a></p><p><strong>概要：</strong></p><p>根据 Stack Overflow 2023 年的调查，Next.js 现在是开发人员最想要的 web 框架中的第三名，也是最受欢迎的第六名。尽管他们的旧版 Pages Router 非常出色，但他们在框架的第 13 版中引入了新的 App Router。随着这个变化，他们还迁移到使用 Server Components，这可以被视为下一级别的服务器渲染。本文将从网络的起源开始，通过各种类型的服务器渲染及其所有优点，到最新的 Next.js Server Components 的网络开发状态，来帮助你理解为什么 Next.js 和 Server Components 不仅仅是传统的客户端 React 应用程序。文章中还详细讨论了服务器渲染与 SPA 的转变，以及客户端组件与服务器组件的对比等内容。总的来说，Next.js 现在允许为每个组件决定是否应该在服务器上预渲染，或者是否需要在客户端上渲染。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于最大化 Rust 代码的性能 | Jonathan Becker]]></title>
+        <id>https://jbecker.dev/research/on-writing-performant-rust</id>
+        <link href="https://jbecker.dev/research/on-writing-performant-rust"/>
+        <updated>2023-07-21T01:31:31.958Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jbecker.dev/research/on-writing-performant-rust">On Maximizing Your Rust Code's Performance | Jonathan Becker</a></p><p><strong>概要：</strong></p><p>文章内容为空，无法进行总结。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JPEG XL 的崛起：苹果公司的支持和图像压缩见解]]></title>
+        <id>https://cloudinary.com/blog/jpeg-xl-how-it-started-how-its-going</id>
+        <link href="https://cloudinary.com/blog/jpeg-xl-how-it-started-how-its-going"/>
+        <updated>2023-07-21T01:26:45.140Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://cloudinary.com/blog/jpeg-xl-how-it-started-how-its-going">Rise of JPEG XL: Apple's Support and Image Compression Insights</a></p><p><strong>概要：</strong></p><p>在上个月的全球开发者大会上，苹果宣布支持 JPEG XL。JPEG XL 是 2018 年 JPEG 委员会启动的下一代图像压缩提案中的一个，由 Google 的 PIK 和 Cloudinary 的 FUIF 提案合并而成。到 2020 年底，主要技术工作完成，比特流冻结，即不再做任何会改变解码器视角的格式更改。然后，在 2023 年 6 月 5 日，苹果的年度全球开发者大会 (WWDC23) 上，Safari 浏览器的新功能列表中出现了 “JPEG XL”。Safari 17 不仅将添加 JPEG XL 支持，新版本的 iOS、iPadOS、macOS、watchOS 和 visionOS 也将支持 JPEG XL。这对 JPEG XL 的采用无疑是好消息。图像压缩是我们在 Cloudinary 的重要工作，我们需要深入理解何时使用哪种编码器，或者说，使用哪种编码器和设置。因此，我们做了一个大实验，创建了 Cloudinary Image Dataset (CID22)，一个大型的人工注释压缩图像数据集。这有助于我们更好地理解压缩对感知质量的影响。目前，JPEG XL 是平均压缩性能最好的编码器，但各种图像的表现存在很大的差异。因此，我们正在研究一个 AI 驱动的新版本的 f_auto,q_auto 特性，可以自动选择最优的格式。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Next13 中使用服务器组件的 5 个常见陷阱（附示例）]]></title>
+        <id>https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples</id>
+        <link href="https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples"/>
+        <updated>2023-07-21T01:18:56.684Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples">5 Common Pitfalls with Server Components in Next13 (with examples)</a></p><p><strong>概要：</strong></p><p>NextJS 13 引入了一个新特性 ——App Router，现已成为创建新的 NextJS 应用时推荐的选项，这有效地取代了 Pages Router。App Router 最显著的不同之处在于，默认情况下所有组件都是服务器组件，而非客户端组件。服务器组件与客户端组件有几个重大的差异，可能会引起混淆。本文主要解析了以下几个常见问题：1. 在服务器组件中使用 React Hooks；2. 在服务器组件中使用事件处理器（如 onClick）；3. 直接将服务器组件导入到客户端组件中；4. 假设服务器组件会重新渲染；5. 在服务器组件中设置 cookies；6. 尝试从服务器传递非序列化属性到客户端。对于每个问题，文章都提供了修复方法和替代方案。总的来说，虽然服务器组件是 Next13 的强大功能，但也需要注意一些潜在问题。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么 Zustand Typescript 的实现如此丑陋？]]></title>
+        <id>https://blog.axlight.com/posts/why-zustand-typescript-implementation-is-so-ugly/</id>
+        <link href="https://blog.axlight.com/posts/why-zustand-typescript-implementation-is-so-ugly/"/>
+        <updated>2023-07-21T01:18:06.716Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.axlight.com/posts/why-zustand-typescript-implementation-is-so-ugly/">Why Zustand Typescript Implementation Is So Ugly</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 Zustand 库在 TypeScript 中的实现。虽然 Zustand 的 JavaScript 实现非常简洁，但其在 TypeScript 中的实现却相当复杂。文章分析了其中一个原因 ——SetStateInternal 类型。这种类型使用了 TypeScript 的一种技巧，如果不使用这种技巧，会导致某些情况下无法正常工作。文章强调，作为库的使用者，无需知道这背后的原理，这是 TypeScript 专家应该处理的问题。文章还提到，Zustand 在 TypeScript 中的实现复杂性还有其他原因，可能会在未来的文章中进行探讨。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用 NextJS 13 应用路由器解密 React 服务器组件]]></title>
+        <id>https://demystifying-rsc.vercel.app/</id>
+        <link href="https://demystifying-rsc.vercel.app/"/>
+        <updated>2023-07-21T01:17:39.270Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://demystifying-rsc.vercel.app/">Demystifying React Server Components with NextJS 13 App Router</a></p><p><strong>概要：</strong></p><p>这个应用程序的目的是以一种揭示真实情况的方式展示 NextJS13 中 React Server 组件的概念和代码。目标受众是有经验的 React 开发者，可能对 RSC 不熟悉，或者正在使用 RSC 并希望更深入理解其工作原理。这个教程可以在 GitHub 上克隆。本教程旨在线性步骤中进行，但你可以跳到下面的任何页面。重要内容包括静态内容、虚拟 DOM、整合客户端组件、水合失败、禁用客户端组件的 SSR、禁用服务器端的组件 SSR、客户端组件详情、服务器组件作为客户端组件的子代、将服务器组件导入到客户端组件、异步服务器组件、服务器端暂停流、动态更新服务器渲染内容、RSC 缓存、服务器功能？、RSC 常见问题、App 路由器演示等。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 TypeChat - TypeChat]]></title>
+        <id>https://microsoft.github.io/TypeChat/blog/introducing-typechat/</id>
+        <link href="https://microsoft.github.io/TypeChat/blog/introducing-typechat/"/>
+        <updated>2023-07-21T01:09:00.943Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://microsoft.github.io/TypeChat/blog/introducing-typechat/">Introducing TypeChat - TypeChat</a></p><p><strong>概要：</strong></p><p>2023 年 7 月 20 日，Anders Hejlsberg、Steve Lucco、Daniel Rosenwasser、Pierce Boggan、Umesh Madan、Mike Hopcroft 和 Gayathri Chandrasekaran 发布了一款名为 TypeChat 的实验性库。这个库旨在解决如何将大型语言模型最好地集成到现有的应用界面中，以及如何使用 AI 将用户请求转化为应用可以操作的内容等问题。TypeChat 利用代码库中的类型定义来获取结构化且类型安全的 AI 响应。此外，TypeChat 还能与任何语言模型配合使用。开发者们发现，由于大型语言模型已经看到了许多类型定义，因此类型也可以作为 AI 应该如何响应的指导。TypeChat 是开源的，且设计出来是为了适应各种模型。尽管目前它与 OpenAI API 和 Azure OpenAI 服务有基本的集成，但理论上它应该适用于任何你想使用的聊天补全式 API。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[过去并非真实]]></title>
+        <id>https://sive.rs/pnt</id>
+        <link href="https://sive.rs/pnt"/>
+        <updated>2023-07-20T07:56:20.540Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sive.rs/pnt">The past is not true</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了作者在 17 岁时，因驾驶不慎撞到了一辆迎面而来的车，导致对方司机的脊柱受伤，无法行走。这件事让他背负了巨大的罪恶感，直到 35 岁时才决定去找这个女人道歉。然而当他找到她并道歉时，发现她并没有因为那次事故而丧失行走能力，反而因此更加注重健康，身体状况比以前更好。原来，他们两人都被告知是自己的错，并为此感到内疚了 18 年。这让作者意识到，过去的记忆和故事并非完全真实，微小的误解可以随着时间的推移被放大，形成误解。历史并非绝对真实，我们可以改变历史，因为真正的事实只占很小的一部分，其余都是解释和理解。所以，改变故事永远不会太晚。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不要指望每天都有动力]]></title>
         <id>https://addyosmani.com/blog/motivation/</id>
@@ -192,61 +248,5 @@ WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 
 对于 JavaScript 开发者来说，能够依赖所有 Web 互操作运行时的全面统一 API 表面将是理想的基础。支持浏览器中可用的子集的通用方式，将使开发者和运行时创建者构建新功能更加经济和可持续。
 
 异步上下文是一种简化代码追踪发生情况的方式，通过共享变量。这种分布式追</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[滚动驱动动画性能案例研究 - Chrome Developers]]></title>
-        <id>https://developer.chrome.com/blog/scroll-animation-performance-case-study/</id>
-        <link href="https://developer.chrome.com/blog/scroll-animation-performance-case-study/"/>
-        <updated>2023-07-14T00:52:23.163Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://developer.chrome.com/blog/scroll-animation-performance-case-study/">A case study on scroll-driven animations performance - Chrome Developers</a></p><p><strong>概要：</strong></p><p>文章介绍了滚动驱动动画，这是一种通过用户的滚动位置触发的方式，增加网站或网络应用的互动性和视觉吸引力。过去，创建滚动驱动动画的唯一方式是在主线程上响应滚动事件，这存在两个主要问题：滚动是在单独的进程上执行并异步传递滚动事件；主线程动画容易出现卡顿。因此，创建与滚动同步且高效的滚动驱动动画非常困难。现在，我们引入了一套新的 API 来支持滚动驱动动画，可以通过 CSS 或 JavaScript 使用。新 API 尽可能少地使用主线程资源，使得实现滚动驱动动画更加容易和流畅。文章还通过对比新旧方法，展示了新 API 如何轻松实现平滑的滚动驱动动画。最后，文章指出新 API 不仅限于 CSS，还可以使用 JavaScript 创建流畅的滚动驱动动画，与 CSS 版本的底层技术相同，尽可能少地使用主线程资源，使动画比传统的 JavaScript 方法更流畅。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prisma 5: 默认速度更快]]></title>
-        <id>https://www.prisma.io/blog/prisma-5-f66prwkjx72s</id>
-        <link href="https://www.prisma.io/blog/prisma-5-f66prwkjx72s"/>
-        <updated>2023-07-14T00:51:29.466Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.prisma.io/blog/prisma-5-f66prwkjx72s">Prisma 5: Faster by Default</a></p><p><strong>概要：</strong></p><p>Prisma 4.8.0 版本开始，我们加大了改善 Prisma 性能和开发者体验的努力，特别是在无服务器环境中提高 Prisma 的启动性能。通过改进，我们发现了一些效率问题并解决了它们。为了说明我们提升性能的成果，以下是在我们进行改进之前和之后的 AWS Lambda 部署应用（带有大型 Prisma 模式，含 500 个模型）的启动性能对比图。你可以看到，Prisma 的启动性能有了显著的改善。在 Prisma 4.11.0 版本之前，Prisma 使用类似 GraphQL 的协议在 Prisma 客户端和查询引擎之间通信，这对于 Prisma 客户端的性能产生了影响，尤其是在无服务器环境的冷启动中。我们注意到，当前的实现方式增加了相当大的 CPU 和内存开销，尤其是对于较大的模式。我们的解决方案之一是完全重新设计我们的线协议。使用 JSON，我们能够使 Prisma 客户端和查询引擎之间的通信变得更加高效。此外，我们还优化了查询引擎的内部机制，包括减少了 Prisma 客户端的依赖数量，移除了之前的类似 GraphQL 的协议实现，优化了数据库连接和 Prisma 模式转换等过程，从而显著提高了运行时性能。同时，我们鼓励用户升级到 Prisma 5.0.0 版本，并期待听到您的反馈。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[外部磁盘上的 pnpm]]></title>
-        <id>https://antfu.me/posts/pnpm-external-disk</id>
-        <link href="https://antfu.me/posts/pnpm-external-disk"/>
-        <updated>2023-07-14T00:49:36.458Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/pnpm-external-disk">pnpm on External disk</a></p><p><strong>概要：</strong></p><p>如果你试图在外部磁盘上安装使用 pnpm 的项目，可能无法立即工作，因为 pnpm 严重依赖于符号链接，而这在跨挂载点时无法工作。为了解决这个问题，你可以在.npmrc 中添加以下配置：这将使 pnpm 复制文件而不是创建它们的符号链接，并正确地在 node_modules/.bin 中显示可执行文件。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[无需 Figma 的网页设计]]></title>
-        <id>https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218</id>
-        <link href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218"/>
-        <updated>2023-07-13T06:10:35.094Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218">Design for the web without Figma</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 Figma 设计工具的使用和网页设计的最佳实践。虽然 Figma 是一个非常出色的设计工具，被 37signals 等公司广泛使用，但在开发 Basecamp 或 HEY 等网络应用时，他们并不主要依赖 Figma，而是直接在 HTML 和 CSS 中进行设计。因为无论 Figma 多么优秀，它仍然是一种中间抽象层，像之前的 Photoshop 一样。如果你在网络上工作，没有这种抽象层的设计过程会使程序员和设计师的协作更加顺畅。37signals 的两人团队就是通过这种方式提高生产力和可行性的。他们所有的网络设计师都直接使用 HTML、CSS，甚至大量的 JavaScript 和 Ruby。设计过程及其迭代通过更新真实运行的应用程序的代码，并尽快对真实数据进行反馈。作者认为，创造力源于限制，设计师应该熟练掌握网络的材料，而不必成为前端开发的专家。他们应该努力提高他们的 HTML、CSS、JavaScript 技能，甚至后端语言技能，作为他们职业发展的关键部分。虽然找到既能设计又能实现创意的设计师可能很难，但 37signals 已经多次做到了，从而大大提高了生产力。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[克劳德 2]]></title>
-        <id>https://www.anthropic.com/index/claude-2</id>
-        <link href="https://www.anthropic.com/index/claude-2"/>
-        <updated>2023-07-13T06:09:09.973Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.anthropic.com/index/claude-2">Claude 2</a></p><p><strong>概要：</strong></p><p>我们很高兴地宣布推出新模型 Claude 2。Claude 2 的性能得到了提升，响应更长，可以通过 API 以及新的公开测试网站 claude.ai 进行访问。用户反馈称，Claude 易于交谈，清晰解释其思考过程，不太可能产生有害输出，并且记忆力更强。我们在编码、数学和推理方面对上一代模型进行了改进。例如，我们的最新模型在律师资格考试的多项选择题部分得分为 76.5%，比 Claude 1.3 的 73.0% 有所提高。Claude 2 在 GRE 阅读和写作考试中的得分超过了 90% 的申请研究生的成绩，而在定量推理方面的得分与中位数申请人相似。Claude 2 的输入和输出长度都得到了增加，用户可以在每个提示中输入多达 100K 的标记，这意味着 Claude 可以处理数百页的技术文档甚至一本书。Claude 现在也可以一次性写出更长的文件 —— 从备忘录到信件到故事，所有这些都可以一次性完成。此外，我们的最新模型在编码技能方面有了显著的提高。Claude 2 在 Codex HumanEval 的 Python 编码测试中得分为 71.2%，高于 56.0%。在 GSM8k（一套大型小学数学问题集）中，Claude 2 的得分为 88.0%，高于 85.2%。我们已经为 Claude 2 规划了一系列令人兴奋的功能改进计划，并将在未来几个月中逐步部署。Claude 2 目前在美国和英国普遍可用，我们正在</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[您可能不需要Jest - Node.js原生测试运行器非常棒 | pawelgrzybek.com]]></title>
-        <id>https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/</id>
-        <link href="https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/"/>
-        <updated>2023-07-12T14:59:06.342Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/">You might not need Jest — the Node.js native test runner is great | pawelgrzybek.com</a></p><p><strong>概要：</strong></p><p>文章主要介绍了 Node.js 原生测试运行器的一些特性和使用方法。现代的 JavaScript 运行时环境，如 Deno 和 Bun，以及像 Go 和 Rust 这样的现代编程语言都具备测试功能，Node.js 也在逐步跟上。Node.js 的测试运行器模块在 18 版本中首次实验性引入，并在 20 版本中稳定下来。此模块在出现错误时返回进程退出代码 1，否则返回 0。此外，文章还介绍了如何使用 node:assert 模块简化断言，以及如何执行所有匹配文件的测试。Node.js 在添加测试设施时功能有限，但几次迭代后，我们现在可以使用许多更常用的测试特性，如分组、模拟、挂钩等。此外，Node.js 在 18.11 版本中添加了观察模式，稍后在 19.2 版本中为测试运行器添加了观察模式。默认的人类可读测试报告（spec）可以替换为紧凑（dot）格式，如果这些选项都不符合你的需求，可以使用 npm 安装自定义报告，或者创建一个遵循 TAP（Test Anything Protocol）规范的自定义报告。最后，作者表示，使用 jest 也是可以的。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用耳语转录播客]]></title>
-        <id>https://www.swyx.io/whisper-for-podcasts</id>
-        <link href="https://www.swyx.io/whisper-for-podcasts"/>
-        <updated>2023-07-12T04:33:06.092Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.swyx.io/whisper-for-podcasts">Using Whisper to Transcribe Podcasts</a></p><p><strong>概要：</strong></p><p>该文章是作者在邀请读者订阅他们的时事通讯，包括 AI 新闻和 DevRel/DevTools 新闻。目前已有超过 10,000 的订阅者，并会不定期更新新的帖子和项目。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - privatenumber/minification-benchmarks: 🏃‍♂️🏃‍♀️🏃 JS minification benchmarks: babel-minify, esbuild, terser, uglify-js, swc, google closure compiler, tdewolff/minify]]></title>
-        <id>https://github.com/privatenumber/minification-benchmarks</id>
-        <link href="https://github.com/privatenumber/minification-benchmarks"/>
-        <updated>2023-07-12T04:29:20.988Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/privatenumber/minification-benchmarks">GitHub - privatenumber/minification-benchmarks: 🏃‍♂️🏃‍♀️🏃 JS minification benchmarks: babel-minify, esbuild, terser, uglify-js, swc, google closure compiler, tdewolff/minify</a></p><p><strong>概要：</strong></p><p>这篇文章是一个关于 JavaScript 压缩器性能对比的报告，涵盖了 babel-minify、esbuild、google-closure-compiler、minify-js、swc、tdewolff/minify、terser 和 uglify-js 等多种压缩器。每个压缩器都在自己的进程中执行，设定了 20 秒的超时时间，并在压缩前后进行了完整性测试。压缩器的排名依据是压缩后文件的大小。测试结果显示，在多数情况下，uglify-js 和 swc 的表现最佳，它们不仅能有效地减小文件大小，还能在较短的时间内完成压缩任务。</p>]]></content>
     </entry>
 </feed>
