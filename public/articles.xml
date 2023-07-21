@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-21T01:49:19.009Z</updated>
+    <updated>2023-07-21T01:55:29.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[SvelteJS：我的生态系统比你的大 - HackMD]]></title>
+        <id>https://hackmd.io/@roguegpu/r1RKQMdt3</id>
+        <link href="https://hackmd.io/@roguegpu/r1RKQMdt3"/>
+        <updated>2023-07-21T01:52:32.582Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackmd.io/@roguegpu/r1RKQMdt3">SvelteJS: My ecosystem is bigger than yours  - HackMD</a></p><p><strong>概要：</strong></p><p>文章主要讨论了 Svelte 和 React 之间的差异，以及为何使用 Svelte 可能是更好的选择。作者指出，尽管 Svelte 的生态系统相比 React 较小，但这并不意味着它的功能有所欠缺。事实上，Svelte 的一些特性，如内置的状态管理 API 和转换 API，使得开发者无需寻找额外的库就能解决问题。此外，Svelte 还允许直接在框架中进行样式设置，而无需引入其他库。作者还展示了如何在 Svelte 中使用 ag-grid 和 chart.js 等库，并指出与 React 相比，Svelte 可以更直接地使用这些库，而无需通过封装器。最后，作者总结道，虽然使用 React 可能需要学习更多的封装器，但使用 Svelte 则可以更直接地学习和使用底层库。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Persson Dennis - 为何选择服务器组件 - 网络简史]]></title>
         <id>https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web</id>
@@ -233,20 +240,5 @@ npm 的初始提交是由 Isaac Z. Schlueter（isaacs）在 2009 年 9 月 29 �
         <link href="https://prettier.io/blog/2023/07/05/3.0.0.html"/>
         <updated>2023-07-14T00:53:38.099Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://prettier.io/blog/2023/07/05/3.0.0.html">Prettier 3.0: Hello, ECMAScript Modules! · Prettier</a></p><p><strong>概要：</strong></p><p>Prettier 团队发布了新版本，其中包括对 ECMAScript 模块的全面使用。这一改变极大地提高了开发体验。此次更新带来了一些重大变化，例如在 markdown 格式中，拉丁字符和中文或日文字符之间不再插入空格。另外，trailingComma 的默认值已更改为 "all"。此次发布还对插件接口进行了重大改造，现在 Prettier 支持使用 ECMAScript 模块和异步解析器编写的插件。此外，该版本还包括许多格式化改进和错误修复。如果你赞赏 Prettier 并希望支持我们的工作，请考虑直接通过我们的 OpenCollective 赞助我们，或者赞助我们依赖的项目，如 typescript-eslint、remark 和 Babel。感谢你的持续支持！</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[超越浏览器：JavaScript标准的长远未来]]></title>
-        <id>https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascript-standards/</id>
-        <link href="https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascript-standards/"/>
-        <updated>2023-07-14T00:53:08.776Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascript-standards/">Beyond Browsers: The Longterm Future of JavaScript Standards</a></p><p><strong>概要：</strong></p><p>JavaScript，被许多排名认为是最流行和最广泛使用的语言，已经从浏览器中崭露头角，并在其初始平台之外变得非常有用。然而，该语言的 ECMAScript 标准仍主要受到浏览器需求的驱动。即使在新环境中，如服务器端和嵌入式 JavaScript 运行时，这些运行时仍在使用来自浏览器的 JavaScript 引擎，尽管他们的需求往往大不相同。
-
-WinterCG 社区组织于去年在 W3C 成立，目的是关注浏览器和非浏览器运行时之间的跨运行时互操作性，倡导对服务器端 JavaScript 环境重要的特性，这些特性可能对浏览器并不那么重要。WinterCG 并非一个竞争性的标准机构，而是关于协调的，识别共同需求并通过标准机构或其他地方进行协商。
-
-WinterCG 正在试图协调一种适合服务器的 fetch 版本，以及支持 Web API，如文本编码器和设置超时 API，在各个运行时中以兼容的方式运行。这并不是创建一个新的规范，而是从实际的 fetch 规范开始，剔除对服务器不适用的部分。
-
-对于 JavaScript 开发者来说，能够依赖所有 Web 互操作运行时的全面统一 API 表面将是理想的基础。支持浏览器中可用的子集的通用方式，将使开发者和运行时创建者构建新功能更加经济和可持续。
-
-异步上下文是一种简化代码追踪发生情况的方式，通过共享变量。这种分布式追</p>]]></content>
     </entry>
 </feed>
