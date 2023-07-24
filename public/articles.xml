@@ -2,11 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-21T01:55:29.168Z</updated>
+    <updated>2023-07-24T04:43:07.192Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何取得成功]]></title>
+        <id>https://blog.samaltman.com/how-to-be-successful</id>
+        <link href="https://blog.samaltman.com/how-to-be-successful"/>
+        <updated>2023-07-24T04:41:08.273Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.samaltman.com/how-to-be-successful">How To Be Successful</a></p><p><strong>概要：</strong></p><p>这篇文章是由 Y Combinator 的合伙人 Sam Altman 撰写，分享了他对创业成功的 13 个观点。首先，他强调了复利效应的重要性，建议寻找并创造具有网络效应和极端可扩展性的业务。其次，他提倡培养过度的自我信念，独立思考，并学会销售。他还建议早期在职业生涯中冒险，保持专注并努力工作。此外，他鼓励大胆行事，坚定意志，难以与之竞争，并建立一个网络。他指出，通过拥有价值迅速增长的东西来致富，并主张内驱动。最后，他强调了自我激励的重要性，认为最成功的人通常是由内心驱动的，他们做事是为了给自己留下深刻印象，因为他们感到有必要在世界上做出一些事情。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们如何从典型 Rust SDK 生成 JavaScript 和 Python SDK - PostgresML]]></title>
+        <id>https://postgresml.org/blog/how-we-generate-javascript-and-python-sdks-from-our-canonical-rust-sdk</id>
+        <link href="https://postgresml.org/blog/how-we-generate-javascript-and-python-sdks-from-our-canonical-rust-sdk"/>
+        <updated>2023-07-24T01:57:43.612Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://postgresml.org/blog/how-we-generate-javascript-and-python-sdks-from-our-canonical-rust-sdk">How We Generate JavaScript and Python SDKs From Our Canonical Rust SDK – PostgresML</a></p><p><strong>概要：</strong></p><p>PostgresML 团队正在开发一种新的软件开发工具包（SDK），能够将用 Rust 编写的代码转化为 Python 和 JavaScript 模块。他们选择 Rust 作为主要语言，因为它能使代码更安全并加快开发周期。然而，大多数用户仍在使用 Python 和 JavaScript 等语言，所以他们决定制作一个可以在多种语言中使用的 SDK。他们的目标是只在 Rust 中编写一次 SDK，然后使其在任何目标语言中都可用。为此，他们创建了一种流程，通过使用自定义宏来生成 Pyo3 和 Neon Rust 所需的代码。他们还计划将这些宏推广出去，并添加对更多语言的支持。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jeremy Mikkola - 是什么让开发人员富有成效？]]></title>
+        <id>https://jeremymikkola.com/posts/developer_productivity.html</id>
+        <link href="https://jeremymikkola.com/posts/developer_productivity.html"/>
+        <updated>2023-07-24T01:56:32.036Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jeremymikkola.com/posts/developer_productivity.html">Jeremy Mikkola - What makes developers productive?</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了影响开发者生产力的多个因素。一些因素如构建时间容易衡量，但有些因素如开发者对系统的理解程度则难以直接衡量。文章指出，知道要构建什么、做更少的事情、使用反应迅速的工具、开发者头脑中的知识、有帮助的基础设施、低技术债务、低失败率、实用的生产实践、工程师的专注度和完成任务等都是影响生产力的重要因素。作者强调，尽管不能直接通过仪表板来衡量所有这些不同的因素，但任何开发者都能告诉你哪些因素正在影响他们的生产力。修复这些问题可能会大大提高完成任务的数量。例如，花几个小时写一份文档可能会为公司节省数千个小时。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 查询和 React 上下文]]></title>
+        <id>https://tkdodo.eu/blog/react-query-and-react-context</id>
+        <link href="https://tkdodo.eu/blog/react-query-and-react-context"/>
+        <updated>2023-07-24T01:54:02.854Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/react-query-and-react-context">React Query and React Context</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 React Query 的实践应用，特别是在组件树中使用查询的优势。作者指出，React Query 允许我们在需要数据的地方获取数据，使组件解耦和独立。然而，这并非完美无缺，也存在一些权衡。例如，为了使组件自动化，它必须处理查询数据不可用的情况，如加载和错误状态。此外，还存在隐式依赖性问题，即只存在于我们头脑中的依赖关系，但在代码中却看不到。最后，作者提出了一个解决方案，即通过 React Context 使依赖性显性化。尽管 TypeScript 可能不喜欢这种方法，但我们可以通过添加一个不变量来确保在错误的地方访问 useCurrentUserContext 时能快速失败并给出好的错误信息。总的来说，虽然这种技术可能会产生网络瀑布等问题，但对于子树的必需数据（如用户信息）来说，这仍是一种可行的方法。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最重要的编码习惯]]></title>
+        <id>https://puppycoding.com/2023/07/22/healthy-coding-habits/</id>
+        <link href="https://puppycoding.com/2023/07/22/healthy-coding-habits/"/>
+        <updated>2023-07-24T01:53:42.324Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://puppycoding.com/2023/07/22/healthy-coding-habits/">The Most Important Coding Habits</a></p><p><strong>概要：</strong></p><p>这篇文章的作者分享了他因长时间低头对着键盘编程，导致脊椎间盘突出（俗称 “椎间盘滑脱”）的痛苦经历。他认为，对于程序员来说，最重要的习惯并不是提高代码的可读性、一致性或组织性，而是保持健康的身体以便能长期从事这项工作。他建议大家每天进行拉伸运动，定时休息，避免深夜编程，并改善工作环境，比如使用站立式办公桌等。他希望大家能从他的错误中吸取教训，享受健康编程的乐趣。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[好的代码就像一封情书，写给下一个维护它的开发人员。]]></title>
+        <id>https://addyosmani.com/blog/good-code/</id>
+        <link href="https://addyosmani.com/blog/good-code/"/>
+        <updated>2023-07-24T01:53:22.928Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/good-code/">Good code is like a love letter to the next developer who will maintain it.</a></p><p><strong>概要：</strong></p><p>这篇文章将编程比作写情书，强调了编码的实质是沟通。好的代码就像一封爱情信件，是开发者之间的亲密对话。好的代码个性化、真诚、无需多余复杂性，且考虑到下一个维护它的开发者。我们有设计模式和原则来塑造我们的代码，使其可扩展、可维护、高效，同时也易读和易懂。好的代码会巧妙地利用这些模式，就像熟练的诗人使用诗歌设备来创造共鸣。SOLID, DRY, KISS 和 YAGNI 不仅仅是原则，而是编写好代码的基石。好的代码还遵循既定的最佳实践，如适当的命名规范、模块化和详尽的注释。同样重要的是进行严格的测试和采用测试驱动开发（TDD）的做法。最后，编写他人能阅读、理解和维护的代码，是对专业尊重的体现。因此，好的代码不仅是一封情书，更是我们留给后来者的持久遗产。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有效的代码审查]]></title>
+        <id>https://addyosmani.com/blog/code-reviews/</id>
+        <link href="https://addyosmani.com/blog/code-reviews/"/>
+        <updated>2023-07-24T01:52:59.652Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/code-reviews/">Effective Code Reviews</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了进行有效代码审查的指导方针。对于代码作者，应尊重审查者的时间，首先自我审查代码，分解大的更改列表，自动化简单任务，严格限定代码变更范围，积极回应批评，减少审查轮次之间的延迟，明确询问不清楚的信息，并明确沟通反馈。同时，不要忘记编写文档。对于审查者来说，应验证代码是否必需且设计良好，是否易读且目标明确，注释是否解释了代码存在的原因而非其功能，代码是否过于复杂，是否遵循团队的样式指南，以及是否经过充分测试和文档记录。此外，审查评论应专注于代码本身，避免贬低或模糊的评论，而是提供明确、具体且适当的正面反馈。审查过程中需要考虑多个标准，如代码是否满足需求，逻辑是否正确，是否安全等。总的来说，代码审查应尊重、建设性且有针对性，作者和审查者都在维护代码质量和保证其长期可维护性上发挥关键作用。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - vantezzen/auto-form：基于 zod 模式自动创建 @shadcn/ui 表单的 React 组件。]]></title>
+        <id>https://github.com/vantezzen/auto-form</id>
+        <link href="https://github.com/vantezzen/auto-form"/>
+        <updated>2023-07-24T01:36:39.348Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vantezzen/auto-form">GitHub - vantezzen/auto-form: 🌟  A React component that automatically creates a @shadcn/ui form based on a zod schema.</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 AutoForm 的 React 组件，它能根据 zod 模式自动创建一个 @shadcn/ui 表单。安装该组件需要依赖于 shadcn/ui 的多个组件，如：折叠面板、按钮、日历、卡片、复选框、表单、输入框、标签、弹出窗、单选组、选择器、分隔符、开关、文本区和切换等。目前支持的字段类型有：布尔值（复选框、开关）、日期（日期选择器）、枚举（选择器、单选组）、数字（输入框）和字符串（输入框、文本字段）。使用时只能在客户端的 React 组件中使用，如果在 Next.js 应用中使用，需要将组件标记为 "使用客户端"。你可以通过 describe 方法为每个字段设置标签和描述，如果没有设置标签，将使用字段名称并取消驼峰命名。所有字段默认都是必填的，可以通过 optional 方法将字段设置为可选。你还可以通过 default 方法为字段设置默认值。你可以使用 inputProps 属性将 props 传递给输入组件。你可以使用 description 属性在字段下方添加描述。你可以使用 renderParent 属性自定义输入的父元素。有两种方式可以访问表单数据：onSubmit 和 Controlled form。你可以使用 AutoFormSubmit 组件创建提交按钮。所有传递给 AutoForm 组件的子元素都将在表单下方渲染。最后，该组件的许可证为 MIT。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turborepo 如何从 Go 移植到 Rust - Vercel]]></title>
+        <id>https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust</id>
+        <link href="https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust"/>
+        <updated>2023-07-24T01:33:07.553Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust">How Turborepo is porting from Go to Rust – Vercel</a></p><p><strong>概要：</strong></p><p>文章讲述了为何以及如何将 Turborepo，一个高性能的 JavaScript 和 TypeScript 构建系统，从 Go 语言迁移到 Rust 语言。首先，他们确定了迁移是可行的，并开始了这个过程。在迁移策略上，他们选择了逐步迁移而非全面重写，因为全面重写会带来一些问题，例如需要暂停新功能的开发，可能导致用户体验下降等。逐步迁移则可以保持原有代码的行为不变，同时进行 Go 和 Rust 代码的互操作。他们首先用 Rust 编写了一个小的新功能，然后逐渐将更多的代码迁移到 Rust。在这个过程中，他们遇到了一些挑战，例如在不同的操作系统和 Linux 版本上测试代码时出现的问题，但最终都得到了解决。通过这次迁移，他们认识到序列化对于互操作性非常有用，逐步迁移需要充分的准备和测试，跨平台、跨语言的发布工程非常具有挑战性，但对他们来说，从 Go 迁移到 Rust 是值得的。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 React 中使用 svg 精灵图标]]></title>
+        <id>https://www.jacobparis.com/content/svg-icons</id>
+        <link href="https://www.jacobparis.com/content/svg-icons"/>
+        <updated>2023-07-24T01:32:02.963Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jacobparis.com/content/svg-icons">Use svg sprite icons in React</a></p><p><strong>概要：</strong></p><p>文章介绍了在 React 应用中使用 svg 图标的方法。最直观但效率最低的方式是将 svg 代码直接写入组件作为 JSX，这会增加包的大小。最好的方式是使用 svg spritesheet，它是一种包含许多精灵（本例中的图标）的单个图像。我们可以通过加载一个大图像并通过代码只显示需要的部分来优化图像加载。网站可以使用同样的策略将许多图标存储在一个 svg 文件中，称为 svg spritesheet。每个图标精灵都存储为 svg 文件内的 <symbol> 元素，我们可以通过使用 < use > 元素并引用图标的 id 来显示特定的图标。文章详细介绍了如何构建一个脚本，将一个文件夹的 svg 图标编译成一个单独的 svg spritesheet，以及如何构建一个 React 组件，通过名称显示特定的图标，并为可用的图标提供完全类型安全的自动完成功能。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[制作开发人员想要的东西]]></title>
+        <id>https://leerob.io/blog/make-something-developers-want</id>
+        <link href="https://leerob.io/blog/make-something-developers-want"/>
+        <updated>2023-07-21T06:39:33.921Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://leerob.io/blog/make-something-developers-want">Make Something Developers Want</a></p><p><strong>概要：</strong></p><p>Y Combinator 以他们的建议而闻名：制造人们想要的东西。然而，当这些客户是开发者时，我会认为执行这个建议的方式看起来有所不同，可能与人们通常想要的相反。以下是你应该做的，以制造开发者想要的东西：你应该接受开源；你应该有一个免费的层级；你应该有优秀的文档；你应该能够得到开发者的支持；你应该是一个社区的一部分。1. 你应该接受开源，因为经验丰富的开发者喜欢开源产品，新手开发者也喜欢开源产品，因为他们正在学习帮助他们在职业生涯中提升的技能。2. 你应该有一个免费的层级，开发者不想和你的销售团队交谈，他们想尽可能少的摩擦地试用产品。3. 你应该有优秀的文档，文档越好，开发者就越可能尝试你的产品。4. 你应该能够得到开发者的支持，当开发者在你的文档中找不到答案时，他们会寻求支持。5. 你应该成为一个社区的一部分，开发者去哪里玩？在线和线下社区。你需要在那里提供价值。这是一个长期的游戏，有时需要花费几年时间才能实现价值，但事后看来是显而易见的。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SvelteJS：我的生态系统比你的大 - HackMD]]></title>
         <id>https://hackmd.io/@roguegpu/r1RKQMdt3</id>
@@ -159,86 +236,5 @@ Fresh linting 规则
 在本系列中，Sandworm 团队深入探讨了 npm 的当前状况，挖掘出了有趣的统计数据，并揭示了有关注册表的引人入胜的事实。从包的数量到最受欢迎的库，我们将探索这个为 JavaScript 社区提供动力的强大工具的内部运作。让我们一起来更深入地了解 npm 的状态，并洞察其中的趋势、模式和充满活力的生态系统。
 
 npm 的初始提交是由 Isaac Z. Schlueter（isaacs）在 2009 年 9 月 29 日推送的。它最初是一个在 VPS 上的单一 CouchDB 服务。"npm" 原本代表 "Node Package Manager"，但后来被改为递归的反向首字母缩写，意思是 "npm 不是首字母缩写"。npm 在 2014 年作为一家公司成立，当时它筹集了 260 万美元以持续资助其迅速增长的社</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - 0xpayne/gpt-migrate：轻松地将代码库从一个框架或语言迁移到另一个框架或语言。]]></title>
-        <id>https://github.com/0xpayne/gpt-migrate</id>
-        <link href="https://github.com/0xpayne/gpt-migrate"/>
-        <updated>2023-07-18T08:16:27.616Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/0xpayne/gpt-migrate">GitHub - 0xpayne/gpt-migrate: Easily migrate your codebase from one framework or language to another.</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 GPT-Migrate 的项目，该项目能够帮助用户轻松地将代码库从一个框架或语言迁移到另一个。尽管迁移是一个昂贵、繁琐且非平凡的问题，但借助开源社区的集体智慧和大型语言模型的当前状态，这个问题变得可以处理。GPT-Migrate 首先为目标语言创建一个 Docker 环境，然后评估现有代码以识别第三方依赖项，并选择相应的目标语言依赖项。接着，它从指定的源文件开始递归地构建新的目标语言代码。然后，它启动带有新代码库的 Docker 环境，并根据需要进行迭代调试。它使用 Python 的 unittest 框架开发单元测试，并可选择性地针对运行中的原始应用程序进行测试。最后，它会在日志、错误消息、相关文件和目录结构的上下文中为你迭代地调试代码。新的代码库完成后将存在于目标目录中。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[软件工程：解决问题和批判性思维]]></title>
-        <id>https://addyosmani.com/blog/softeng-problem-solving/</id>
-        <link href="https://addyosmani.com/blog/softeng-problem-solving/"/>
-        <updated>2023-07-18T04:44:54.270Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/softeng-problem-solving/">Software engineering: problem-solving and critical-thinking</a></p><p><strong>概要：</strong></p><p>这篇文章强调了软件工程不仅仅是编码，更重要的是解决问题和批判性思考。软件工程被误解为只涉及编码，但实际上，它涉及到解决问题和批判性思考的方面，编码只是冰山一角，是分析严谨、抽象推理和创造性问题解决过程的具体输出。软件工程的核心不仅仅在于编码，更在于进行编码之前的过程。在软件工程中，每一个软件都是为了解决特定的问题或一系列问题而创建的，工程师首先需要理解他们需要解决的问题，然后概念化可能的解决方案。批判性思考是软件工程的基础，它涉及到对问题的客观分析和评估以形成判断，在设计阶段、实施阶段和测试阶段都需要应用批判性思考。总的来说，软件工程是解决问题和批判性思考的复杂结合，编码只是其表现形式。随着软件越来越深入地融入我们社会的结构中，软件工程师的角色也在扩大，他们不仅需要擅长编码，还必须是熟练的问题解决者和批判性思考者。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博雅发布 v0.17 - Boa]]></title>
-        <id>https://boajs.dev/posts/2023-07-08-boa-release-17/</id>
-        <link href="https://boajs.dev/posts/2023-07-08-boa-release-17/"/>
-        <updated>2023-07-18T04:09:46.861Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://boajs.dev/posts/2023-07-08-boa-release-17/">Boa release v0.17 - Boa</a></p><p><strong>概要：</strong></p><p>Boa v0.17 已经发布，这是自项目开始以来最大的一次 Boa 发布。在大约 7 个月的开发后，我们很高兴向您展示 Boa JavaScript 引擎的最新版本。Boa 使得在你的项目中嵌入 JS 引擎变得简单，你甚至可以从 WebAssembly 中使用它。在此版本中，我们的符合性从官方 ECMAScript 测试套件（Test262）的 74.53% 增长到 78.74%，我们现在通过了比上一版本多 6079 个测试。此外，此版本的重大变化不在于符合性，而在于巨大的内部增强和新的 API。此次大规模发布部分得益于 Lit Protocol 的资助。此外，Boa 现在有了一个新的域名 boajs.dev。在此版本中，我们添加了 HostHooks 和 JobQueue 特性到 Context，这将允许主机实现自定义事件循环和其他主机特定功能。此外，Boa 现在有了国际化支持，尽管我们还在努力完全符合 ecma402 规范，但我们已经有了一些 Intl 工具。此版本的 Boa 还包含了一些新的功能，如 JsPromise, JsRegExp, JsGenerator, JsDate 和 JsDataView 等内置对象包装器。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不健康冲突与健康冲突]]></title>
-        <id>https://addyosmani.com/blog/healthy-unhealthy-conflict/</id>
-        <link href="https://addyosmani.com/blog/healthy-unhealthy-conflict/"/>
-        <updated>2023-07-17T10:36:07.588Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/healthy-unhealthy-conflict/">Unhealthy conflict vs. healthy conflict</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了健康冲突和不健康冲突的区别，以及如何利用冲突的积极方面促进成长。不健康的冲突以对抗性心态为特征，人们将彼此视为对手，重点在于个人胜利而非解决问题。健康的冲突则将分歧视为需要共同解决的问题，这种心态培养出合作和相互尊重的氛围。文章还提供了一些策略来培养健康冲突的文化，包括设定基本的尊重沟通原则、积极倾听他人的观点、使用 "I" 语句表达自己的感受和观察、寻找共同立场以及提供和接受妥协。健康的冲突可以成为促进成长的催化剂。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[尽可能长时间地坚持乏味的建筑风格]]></title>
-        <id>https://addyosmani.com/blog/boring-architecture/</id>
-        <link href="https://addyosmani.com/blog/boring-architecture/"/>
-        <updated>2023-07-17T10:35:36.345Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/boring-architecture/">Stick to boring architecture for as long as possible</a></p><p><strong>概要：</strong></p><p>Kelsey Hightower 建议在新项目开始时，尽可能坚持使用 "无聊" 的架构，并将大部分时间和资源投入到客户愿意付费的产品建设中。他认为，虽然工程师们天生对新奇的解决方案有吸引力，但是区分什么是激动人心的，什么是适合你的用例是至关重要的。通常，“无聊” 的技术 —— 那些稳定、被理解并且可能是上一代的工具 —— 有很多可以提供的。它们经过试验和测试，已证明可扩展性，且配有详细的文档和社区支持。在采用新技术之前，需要问自己：这是否解决了一个特定的问题或显著增强了我的产品？这是否值得学习曲线和潜在的不稳定性？这是否会在未来帮助我们？Hightower 还提出了 "创新点原则"，即每个项目都有一个 “创新点”，可以用来采用 “激动人心” 的技术或架构。这个单一的点迫使你做出深思熟虑的选择。除非新技术显然给你的项目增加了实质价值，否则应依赖于你知道的有效工作。最后，他建议从基于良好理解的技术的坚实基础开始你的项目，随着项目的发展和你对挑战的深入理解，评估是否有充分的理由引入更先进的技术。这是一种有意识的进展：从无聊开始，然后有策略地创新。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - tc39/proposal-defer-import-eval：关于引入模块延迟评估方法的建议]]></title>
-        <id>https://github.com/tc39/proposal-defer-import-eval</id>
-        <link href="https://github.com/tc39/proposal-defer-import-eval"/>
-        <updated>2023-07-17T00:05:33.260Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/tc39/proposal-defer-import-eval">GitHub - tc39/proposal-defer-import-eval: A proposal for introducing a way to defer evaluate of a module</a></p><p><strong>概要：</strong></p><p>文章介绍了一种名为 "推迟模块评估"（曾被称为 "懒惰模块初始化"）的新技术，其目标是提高大型 JavaScript 应用程序的性能。这项技术旨在解决在应用程序初始化期间由于代码编写方式导致的 CPU 瓶颈问题。推迟模块评估的提案是引入一种新的语法形式，该形式只会返回一个命名空间异构对象。使用此形式时，模块及其依赖项不会被执行，但会在模块图被认为已加载之前完全加载到可执行状态。只有在访问此模块的属性时，才会执行执行操作（如果需要）。这样，模块命名空间异构对象就像是模块评估的代理，有效地触发同步评估并返回定义的绑定。然而，这项技术还存在一些问题，例如无法推迟执行使用顶级等待的模块的评估，以及在导入使用推迟导入语法的模块时，其异步依赖项及其自身的传递依赖项将被积极评估，只有图形的同步部分被推迟。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[交互设计的隐形细节]]></title>
-        <id>https://rauno.me/craft/interaction-design</id>
-        <link href="https://rauno.me/craft/interaction-design"/>
-        <updated>2023-07-14T12:14:37.127Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://rauno.me/craft/interaction-design">Invisible Details of Interaction Design</a></p><p><strong>概要：</strong></p><p>这篇文章探讨了交互设计的科学性和直觉性，作者通过深入研究并试图解构出优秀的交互设计背后的原因。他认为，伟大的设计启示往往源于创造过程中遇到的问题，而不仅仅是坐下来深思熟虑。文章还分析了一些常用但很少被思考的交互细节，如隐喻、动态物理、滑动手势、反应式手势等，并强调了设计决策的重要性。作者认为，交互设计不仅需要形式和功能之间的平衡，也需要对人类行为的深入理解。此外，文章还讨论了如何通过反思和模仿界面来建立更强的设计直觉和词汇表，并提出了 “无输入” 即上下文作为输入的理念，以及 Fitts 定律等概念。最后，作者强调了理解和阐述为何某样东西感觉对的重要性，这有助于培养品味，提高执行水平，并增加对卓越追求的欣赏。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3种常见的测试自动化类型]]></title>
-        <id>https://web.dev/ta-types/</id>
-        <link href="https://web.dev/ta-types/"/>
-        <updated>2023-07-14T01:01:52.841Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://web.dev/ta-types/">3 common types of test automation</a></p><p><strong>概要：</strong></p><p>这篇文章主要探讨了如何进行 web 开发测试，包括两种一般的测试模式和三种常见的自动化测试类型。首先，我们需要确定我们应用程序质量需要保证的部分以及如何实现。在开始编写实际的测试代码之前，我们需要有一个计划。本文主要关注的是如何进行测试。我们的主要目标是规划正确的测试策略，但我们将在这里介绍最初的步骤：让我们发现可以用来从共同基础开始的测试类型。手动测试和自动化测试是两种基本的测试方式，然后详细介绍了不透明盒子测试（又称黑盒测试）和清晰盒子测试（又称白盒测试）两种测试程序。接着，文章介绍了单元测试、集成测试、端到端测试、视觉 UI 测试和静态分析等五种测试类型。最后，文章提出了五种常见的测试策略：测试金字塔、测试钻石、测试冰锥、测试蜂巢和测试奖杯。在下一篇文章中，我们将更详细地讨论这些不同的策略，并解释如何为你的项目选择最合适的策略。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js中的矢量数据库入门]]></title>
-        <id>https://thecodebarbarian.com/getting-started-with-vector-databases-in-node-js.html</id>
-        <link href="https://thecodebarbarian.com/getting-started-with-vector-databases-in-node-js.html"/>
-        <updated>2023-07-14T00:56:16.725Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://thecodebarbarian.com/getting-started-with-vector-databases-in-node-js.html">Getting Started with Vector Databases in Node.js</a></p><p><strong>概要：</strong></p><p>向量数据库是当前的热门话题，其结合 AI 工具如 ChatGPT，可以实现语义相似性搜索：找出与此物体相似的物品。这种搜索形式比基本搜索引擎或文本搜索更复杂，因为搜索算法能够解释文本的语义，而不仅仅是尝试匹配关键词。一个语义搜索的应用是主题分类：给定一段文本，确定预定列表中哪个类别最符合该文本。例如，给定句子 "apple jumped 10% today"，这句话是关于 "Food" 还是 "Stocks"？传统的关键词搜索在这种区别上会有困难，因为没有办法在不解释文本语义的情况下区分苹果（水果）和 Apple（公司）。本教程将指导你使用 Node.js 和一个名为 Chroma 的向量数据库来构建一个玩具主题分类工具。
-
-要在本地运行 Chroma，你应该克隆 Chroma 的 GitHub 仓库，并按照以下方式运行他们的 docker-compose 文件。一旦你运行了 Chroma，如果你还没有 OpenAI 的密钥，你也应该获取一个。然后，你可以使用你的 OpenAI 密钥在 Chroma 中存储给定句子的嵌入。嵌入是表示给定文本特征的向量。
-
-主题分类的一个简单方法是为每个主题插入一些样本文本的嵌入，对于任何给定的文本，找到最接近该文本的向量。例如，让我们使用 "apple jumped 10% today" 作为 "Stocks" 类别的代表，"i like apple pie" 作为 "Food" 类别的代表。以下代码为这两个句子生成嵌入，并将它们与相关类别的元数据一起插入</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[您应该在项目配置中包含的5个TS编译器标志]]></title>
-        <id>https://egorkonovalov.github.io/flycatcher/posts/3/</id>
-        <link href="https://egorkonovalov.github.io/flycatcher/posts/3/"/>
-        <updated>2023-07-14T00:55:42.107Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://egorkonovalov.github.io/flycatcher/posts/3/">5 TS Compiler Flags You Should Include In Your Project's Config</a></p><p><strong>概要：</strong></p><p>新发布的 TypeScript 5.0 主要更新引入了许多重大变化，如稳定的装饰器，常规枚举被联合枚举替代等。但是，我在阅读发布说明时发现了一些新的编译器选项，这让我思考是否有理由设置自定义编译器设置？简短的答案是 - 是的。本文介绍了五个可以提高开发体验的 TypeScript 编译器标志：noImplicitOverride、noUncheckedIndexedAccess、noPropertyAccessFromIndexSignature、allowUnreachableCode 和 noFallthroughCasesInSwitch。通过利用这些编译器设置，你可以提高代码库的安全性、可读性和可维护性。虽然默认配置已经过测试并且可靠，但花时间探索和调整编译器设置可以提供宝贵的见解和优化。然而，必须在便利和定制之间找到平衡，尝试与团队讨论你将使用的风格，并构建所有人都喜欢的环境。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prettier 3.0: 你好, ECMAScript 模块！- 袩褉芯懈蟹胁芯写褋褌胁械薪薪褘械]]></title>
-        <id>https://prettier.io/blog/2023/07/05/3.0.0.html</id>
-        <link href="https://prettier.io/blog/2023/07/05/3.0.0.html"/>
-        <updated>2023-07-14T00:53:38.099Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://prettier.io/blog/2023/07/05/3.0.0.html">Prettier 3.0: Hello, ECMAScript Modules! · Prettier</a></p><p><strong>概要：</strong></p><p>Prettier 团队发布了新版本，其中包括对 ECMAScript 模块的全面使用。这一改变极大地提高了开发体验。此次更新带来了一些重大变化，例如在 markdown 格式中，拉丁字符和中文或日文字符之间不再插入空格。另外，trailingComma 的默认值已更改为 "all"。此次发布还对插件接口进行了重大改造，现在 Prettier 支持使用 ECMAScript 模块和异步解析器编写的插件。此外，该版本还包括许多格式化改进和错误修复。如果你赞赏 Prettier 并希望支持我们的工作，请考虑直接通过我们的 OpenCollective 赞助我们，或者赞助我们依赖的项目，如 typescript-eslint、remark 和 Babel。感谢你的持续支持！</p>]]></content>
     </entry>
 </feed>
