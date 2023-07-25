@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-24T05:51:39.716Z</updated>
+    <updated>2023-07-25T00:52:33.049Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Hono + htmx + Cloudflare 是一种新的堆栈 - Yusuke Wada]]></title>
+        <id>https://blog.yusu.ke/hono-htmx-cloudflare/</id>
+        <link href="https://blog.yusu.ke/hono-htmx-cloudflare/"/>
+        <updated>2023-07-25T00:49:51.565Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.yusu.ke/hono-htmx-cloudflare/">Hono + htmx + Cloudflare is a new stack - Yusuke Wada</a></p><p><strong>概要：</strong></p><p>文章介绍了一种新的技术栈 Hono + htmx + Cloudflare。Hono 是一个 JavaScript 框架，包括 JSX 中间件，可用于编写 HTML，但仅限于服务器端渲染。htmx 是一个库，可以在不需要编写 JavaScript 的情况下启用 Ajax。这种技术栈还包括 Zod、Tailwind CSS、Cloudflare Workers 和 Cloudflare D1 等组件。Cloudflare D1 是一种在 Cloudflare 边缘运行 SQLite 的数据库服务，虽然目前处于 “alpha” 状态，不推荐用于生产使用，但已经非常快速，完全适合概念验证（PoC）项目。文章中的示例展示了如何使用这个技术栈创建一个真实的 Todo 应用示例，只需 100 行代码就能在边缘的 D1 SQLite 中插入和删除数据，执行速度快（约 100 毫秒），轻量级（gzip 压缩后的 worker 大小：22 KB）。作者表示，这种技术栈让他感到熟悉和舒适，它简单、干净，并且有很多优点，例如可以在边缘运行，可以使用 JavaScript/JSX，通过良好的代码组织可以避免出现意大利面条式代码。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 TypeScript 的 5 个难以启齿的真相]]></title>
+        <id>https://oida.dev/5-truths-about-typescript/</id>
+        <link href="https://oida.dev/5-truths-about-typescript/"/>
+        <updated>2023-07-25T00:47:55.530Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://oida.dev/5-truths-about-typescript/">5 Inconvenient Truths about TypeScript</a></p><p><strong>概要：</strong></p><p>这篇文章是作者关于 TypeScript 的见解和经验分享。作者首先指出，TypeScript 并不能替代 JavaScript，它只是 JavaScript 的超集，继承了 JavaScript 的所有历史、怪癖和陷阱，但可以帮助避免错误，提供动态类型编程语言的支持。其次，TypeScript 会为项目增加复杂性，具有很多配置选项，需要开发者熟悉和掌握。然后，作者强调 TypeScript 并不是类型安全的，尤其在处理用户输入、文件访问、网络数据获取等 I/O 操作时，需要依赖开发者的类型注释或断言。此外，TypeScript 有许多版本和使用方式，每个团队都会找到适合自己的方式和工具。最后，尽管存在上述问题，但作者认为学习和使用 TypeScript 是值得的，因为它能使开发者的工作更有效率，也使代码更易于理解和维护。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布 LangSmith，一个用于调试、测试、评估和监控 LLM 应用程序的统一平台]]></title>
+        <id>https://blog.langchain.dev/announcing-langsmith/</id>
+        <link href="https://blog.langchain.dev/announcing-langsmith/"/>
+        <updated>2023-07-25T00:41:43.750Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.langchain.dev/announcing-langsmith/">Announcing LangSmith, a unified platform for debugging, testing, evaluating, and monitoring your LLM applications</a></p><p><strong>概要：</strong></p><p>LangChain 是一个开源 Python 包，旨在简化 LLM（Large Language Models）驱动的应用程序开发。然而，将应用程序从原型转变为生产版本仍然面临挑战，主要问题在于应用性能。为了解决这个问题，LangChain 推出了 LangSmith 平台，帮助开发者更好地从原型转向生产。该平台提供了一整套工具和实践，包括调试、测试、日志记录、监控等，使开发者可以专注于构建他们的应用程序。LangSmith 目前处于封闭测试阶段。它的五大核心功能包括：调试、测试、评估、监控以及统一平台。LangSmith 已经成功帮助了 Streamlit、Snowflake、波士顿咨询集团等公司实现了智能代理人的原型设计，并在 DeepLearningAI 的 LangChain 课程中帮助学生更好地理解模型。此外，LangSmith 还计划推出新的功能，如分析、协作、即时学习、提示创建等，并支持导出数据集以便进行微调或加载到其他分析引擎中。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何取得成功]]></title>
         <id>https://blog.samaltman.com/how-to-be-successful</id>
@@ -209,32 +230,5 @@ Fresh linting 规则
 由于 GET 处理程序往往与它将呈现的组件高度耦合，显而易见的问题是，为什么我们不直接将两者合并在一起？这正是我们所做的。在 Fresh 1.3 中，我们可以大大简化之前的代码片段：
 由于处理程序和组件都在同一个函数中，因此无需声明一个中间接口来在两者之间传递数据；你可以直接传递数据。
 但是别担心，没有必要重写所有的路由。实际上，我们并不喜欢重写代码。新的方式只是一个额外的选项，可以使简单的路由更容易编写。使用异步路由并非</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot 7 月 14 日更新]]></title>
-        <id>https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/</id>
-        <link href="https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/"/>
-        <updated>2023-07-19T00:26:16.401Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update/">GitHub Copilot July 14th Update</a></p><p><strong>概要：</strong></p><p>2023 年 7 月 14 日，GitHub 为其 Visual Studio Code 和 Visual Studio 扩展中的 Chat 功能进行了许多改进，并为管理员提供了新的能力。首先，他们推出了针对 Copilot for Business 的 User Management API（beta），使管理员可以列出所有启用 Copilot 的组织成员及其详细信息，并为个人和团队添加 / 删除访问权限，从而实现大规模的自动化访问管理。此外，他们还在 Visual Studio Code 1.80 中引入了新的创建命令，如 /search, /createWorkspace 等，以帮助用户创建项目和笔记本，并在工作空间中搜索文本。同时，他们还对 Visual Studio 扩展进行了改进，包括更好地支持其他编程语言，保存和恢复聊天历史，清除聊天历史，多行提示框，显示内容的流媒体支持，测试生成的特定插入，以及改善整个聊天体验的各种生活质量更新。最后，他们还引入了基于嵌入的上下文感知操作，如文档，解释和生成测试，这些操作利用现有的内联上下文并制定特定的意图，以提供最佳的任务体验。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React 18 如何提高应用程序性能 - Vercel]]></title>
-        <id>https://vercel.com/blog/how-react-18-improves-application-performance</id>
-        <link href="https://vercel.com/blog/how-react-18-improves-application-performance"/>
-        <updated>2023-07-19T00:24:43.774Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/how-react-18-improves-application-performance">How React 18 Improves Application Performance – Vercel</a></p><p><strong>概要：</strong></p><p>React 18 引入了并发特性，从根本上改变了 React 应用的渲染方式。当我们在浏览器中运行 JavaScript 时，JavaScript 引擎在单线程环境中执行代码，这通常被称为主线程。主线程负责处理其他任务，包括管理用户交互、处理网络事件、定时器、更新动画和管理浏览器重排和重绘。任何运行时间超过 50 毫秒的任务都被视为 "长任务"。React 18 引入了一个新的并发渲染器，它在后台操作。这个渲染器为我们提供了一些方法，使得某些渲染标记为非紧急。此外，这个并发渲染器能够 “并发” 地在后台渲染组件树的多个版本，而不是立即提交结果。React 服务器组件是 React 18 的实验性功能，但已经准备好让框架采用。使用 Suspense，我们可以延迟渲染一个组件，直到满足某些条件，如从远程源加载数据。总的来说，React 18 的最新特性在很多方面提高了性能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 年的 Npm 状态：概述]]></title>
-        <id>https://blog.sandworm.dev/state-of-npm-2023-the-overview</id>
-        <link href="https://blog.sandworm.dev/state-of-npm-2023-the-overview"/>
-        <updated>2023-07-18T10:52:05.295Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.sandworm.dev/state-of-npm-2023-the-overview">State Of Npm 2023: The Overview</a></p><p><strong>概要：</strong></p><p>这篇文章是 "npm 状态 2023" 系列的一部分。在这个系列中，Sandworm 团队深入探讨了 npm 的当前状况，挖掘出了有趣的统计数据，并揭示了有关注册表的引人入胜的事实。
-
-在软件开发的广阔领域中，一个名字已经成为 JavaScript 生态系统的代名词：npm。作为全球数百万开发者的首选包管理器，npm 在革新我们构建和分享 JavaScript 代码的方式上发挥了关键作用。随着其庞大的注册表不断收纳更多的包，npm 已经成为了一种不可或缺的工具，推动创新并赋予开发者轻松创建出色应用的能力。
-
-在本系列中，Sandworm 团队深入探讨了 npm 的当前状况，挖掘出了有趣的统计数据，并揭示了有关注册表的引人入胜的事实。从包的数量到最受欢迎的库，我们将探索这个为 JavaScript 社区提供动力的强大工具的内部运作。让我们一起来更深入地了解 npm 的状态，并洞察其中的趋势、模式和充满活力的生态系统。
-
-npm 的初始提交是由 Isaac Z. Schlueter（isaacs）在 2009 年 9 月 29 日推送的。它最初是一个在 VPS 上的单一 CouchDB 服务。"npm" 原本代表 "Node Package Manager"，但后来被改为递归的反向首字母缩写，意思是 "npm 不是首字母缩写"。npm 在 2014 年作为一家公司成立，当时它筹集了 260 万美元以持续资助其迅速增长的社</p>]]></content>
     </entry>
 </feed>
