@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-25T00:52:33.049Z</updated>
+    <updated>2023-07-27T06:50:28.323Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Astro 2.9：视图转换（实验性） | Astro]]></title>
+        <id>https://astro.build/blog/astro-290/</id>
+        <link href="https://astro.build/blog/astro-290/"/>
+        <updated>2023-07-27T06:17:03.682Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://astro.build/blog/astro-290/">Astro 2.9: View Transitions (experimental) | Astro</a></p><p><strong>概要：</strong></p><p>Astro 2.9 版本已经发布，新特性包括对视图过渡的实验性支持，重定向配置以及改进的脚本打包。现在，Astro 通过新的 <ViewTransitions /> 组件和 transition:animate 指令支持视图过渡，使得过渡更加顺畅，无需牺牲 MPA 的简单性。此外，重定向配置选项不再是实验性的，你可以在项目中安全地使用重定向。Astro 还改进了静态分析，使其能够确定哪些 < script > 标签需要一起打包，这使得脚本的使用在页面之间进行了优化，并将它们放在文档的头部，以尽可能早地下载。感谢社区贡献者 Ottomated 为这个新功能的开发做出的贡献。此版本还包括其他的错误修复和集成特性。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React 服务器组件提示]]></title>
+        <id>https://echobind.com/post/react-server-components-tips</id>
+        <link href="https://echobind.com/post/react-server-components-tips"/>
+        <updated>2023-07-27T06:07:48.874Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://echobind.com/post/react-server-components-tips">React Server Components Tips</a></p><p><strong>概要：</strong></p><p>React 官方的数据获取解决方案为 React Server Components（RSC）。使用 RSC 需要深度集成打包器，且严格执行组件树结构和模块组合。使用 RSC 时，任何交互代码必须在特殊的客户端组件中完成。但是，RSC 也有诸多优点：可以在组件内部获取数据，避免客户端获取数据时常见的瀑布式获取，可以使用 <Suspense> 流数据以加快初始页面加载速度，可以在服务器上执行更多代码而无需将其发送到客户端，从而保持包大小较小。目前，唯一被广泛接受的 React Server Components 实现是 Next.js App Router。此外，还提供了一些使用 RSC 构建应用程序的技巧，如制作更多的组件，自由使用客户端组件，构建组件以便于组合，不要忘记共享组件等。最后，作为 Server Components 获取数据的对应部分，React 团队引入了 Server Actions 来执行变异。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub - emilkowalski/vaul：React 的非样式抽屉组件。]]></title>
+        <id>https://github.com/emilkowalski/vaul</id>
+        <link href="https://github.com/emilkowalski/vaul"/>
+        <updated>2023-07-26T04:40:19.231Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/emilkowalski/vaul">GitHub - emilkowalski/vaul: An unstyled drawer component for React.</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 Vaul 的 React 抽屉组件，可以用作平板和移动设备上的 Dialog 替代品。它使用 Radix 的 Dialog 原始组件，并受到一条推文的启发。要开始使用这个库，需要在项目中安装它，然后在应用程序中使用这个抽屉。文章还提供了几个例子以及 API 参考，包括 Root、Trigger、Content、Overlay、Title、Description、Close 和 Portal 等部分的详细说明。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 Valibot，小于 1kb 的佐德替代品]]></title>
+        <id>https://www.builder.io/blog/introducing-valibot</id>
+        <link href="https://www.builder.io/blog/introducing-valibot"/>
+        <updated>2023-07-26T04:10:17.404Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/introducing-valibot">Introducing Valibot, a < 1kb Zod Alternative</a></p><p><strong>概要：</strong></p><p>文章宣布了新的开源项目 Valibot，这是一个用于验证结构数据的模式库，与 Zod、Ajv、Joi 和 Yup 等相似。Valibot 的创新之处在于其 API 的模块化设计以及源代码的压缩优化，使得它能通过代码分割和压缩实现前所未有的包大小最小化，成为当前全栈空间创新的完美补充。Valibot 没有依赖性，可以在任何 JavaScript 或 TypeScript 项目中使用，以根据模式验证数据。作者 Fabian 介绍了 Valibot 的工作原理，它与其他解决方案的不同之处，以及它适合的使用场景。Valibot 的核心功能是创建模式，这可以与 TypeScript 中的类型定义进行比较。Valibot 几乎提供了与 TypeScript 相同的选项，例如，你可以用 partial 使对象的值变为可选，或者用 required 使它们变为必需。Valibot 是完全类型安全的，允许你推断模式的输入和输出类型。如果数据与模式不匹配，将抛出一个错误，带有有用的信息来修复问题。如果没有抛出错误，那么数据符合模式并返回类型。Valibot 的 API 设计部分基于 Zod，因为我们在各种项目中使用 Zod，并且它在新的 TypeScript 项目中几乎是标准的。尽管 API 在第一眼看起来与其他解决方案相似，但源代码的实施和结构却非常不同。Valibot 的 API 设计和源代码基于许多小而独立的函数，每个函数只有一个任务。这种模块化设计有几个优点，一方面，可以轻松地用外部代码扩展库的功能；另一</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 React Tweet - Vercel]]></title>
+        <id>https://vercel.com/blog/introducing-react-tweet</id>
+        <link href="https://vercel.com/blog/introducing-react-tweet"/>
+        <updated>2023-07-26T03:12:03.586Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/introducing-react-tweet">Introducing React Tweet – Vercel</a></p><p><strong>概要：</strong></p><p>文章介绍了一个名为 react-tweet 的新工具，它可以将推特嵌入到任何 React 应用中，只需一行代码，且不会牺牲性能。与 Twitter 的原生嵌入相比，react-tweet 的客户端 JavaScript 少 35 倍。它支持 React 服务器组件，内置数据获取和缓存功能，并可与 Next.js、Vite、CRA 等任何 React 框架配合使用。传统上，嵌入推文需要使用 Twitter 的嵌入式 iframe，这会加载 560kb 的客户端 JavaScript，降低网站性能并导致布局移位。而使用 react-tweet，无需使用 iframes，只需一个简单的 React 组件即可。此外，它还改善了用户体验，使浏览器中的推文立即可见（无懒加载），并利用强大的 React 组件抽象进行构建。在对原生 Twitter 嵌入、iframe 嵌入和 react-tweet 进行比较后，react-tweet 所需的客户端 JavaScript 最少，只有 16kb。react-tweet 的工作原理是反向工程 Twitter 的嵌入 API，获取给定推文的数据，并以与 Twitter 的嵌入式 iframe 相同的样式呈现出来。你无需依赖 Twitter API v2 自己获取推文，从而节省了费用，也更容易将推文添加到你的网站上。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hono + htmx + Cloudflare 是一种新的堆栈 - Yusuke Wada]]></title>
         <id>https://blog.yusu.ke/hono-htmx-cloudflare/</id>
@@ -181,54 +216,5 @@
         <link href="https://tonsky.me/blog/monitors/"/>
         <updated>2023-07-20T00:48:28.727Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tonsky.me/blog/monitors/">Time to upgrade your monitor</a></p><p><strong>概要：</strong></p><p>这篇文章是作者根据自身经验，讨论了编程人员最佳显示器选择的观点。他认为，对于大多数编程工作，高分辨率和清晰的字体显示至关重要。他建议购买 4K 分辨率的显示器，并使用 2 倍的缩放以获得更好的文本渲染效果。此外，作者还推荐使用 120Hz 的刷新率，尽管这对于文本工作并非必须，但可以提供更流畅的动画和滚动效果，使系统感觉更加响应迅速。不过，他也指出，在 MacOS 上运行 4K 120Hz 显示可能会遇到一些问题，需要进行一些设置调整。总的来说，作者认为独立的高分辨率显示器对于编程工作来说是最佳选择。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[故事书 7.1]]></title>
-        <id>https://storybook.js.org/blog/storybook-7-1/</id>
-        <link href="https://storybook.js.org/blog/storybook-7-1/"/>
-        <updated>2023-07-20T00:45:07.545Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://storybook.js.org/blog/storybook-7-1/">Storybook 7.1</a></p><p><strong>概要：</strong></p><p>Storybook 是 UI 组件开发、文档编写和测试的行业标准工作室，被 Twitter、GitHub、BBC 和纽约时报等团队使用。自今年四月发布 Storybook 7.0 后，我们计划推出更频繁且体积更小的未来版本，以便 Storybook 能够与前端生态系统中的变化保持同步，同时使我们的用户升级过程更加顺畅。今天，我们很高兴为您带来这些版本中的第一个：Storybook 7.1，其中包含了许多改进。此外，Storybook 支持 React、Vue、Angular、Web 组件、Svelte、Webpack 和 Vite 以及超过 400 种集成，使其成为迄今为止最强大的组件工作室。在 Storybook 7.1 中，我们通过为新用户引入入门流程来降低学习曲线。此外，Storybook 7.1 还为 Tailwind、Material UI、Emotion 和 styled-components 等提供了零配置样式支持。我们还为配置文件、ArgTypes 和 Doc 块引入了 API 参考文档，并将 Storybook 的文档制作为 TypeScript 优先，因为 TS 占据了所有 Storybook 项目的 80% 以上。此外，我们还增加了对 Vue 3 源片段和反应性改进的支持，并为文档添加了目录。我们还为 Figma 设计插件提供了官方支持，并进行了数百项修复和改进。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[构建自己的 FaaS：在 Fly 上自主托管 Cloudflare Worker 和 javascript 函数 | BreakpDev 博客]]></title>
-        <id>https://www.breakp.dev/blog/build-your-own-faas/</id>
-        <link href="https://www.breakp.dev/blog/build-your-own-faas/"/>
-        <updated>2023-07-19T03:25:22.732Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.breakp.dev/blog/build-your-own-faas/">Build your own FaaS: Self-host Cloudflare workers and javascript functions on Fly and everywhere | BreakpDev Blog</a></p><p><strong>概要：</strong></p><p>本文提供了如何构建和自我托管一个完整的 FaaS（Function as a Service）架构的逐步指南。文章首先解释了什么是云计算中的函数以及 FaaS，然后阐述了为什么要自我托管 FaaS。接着，文章详细介绍了如何创建自己的 FaaS，包括设置发布者和工作人员、准备配置、进行干运行和部署等步骤。最后，文章还提供了一些额外的内容，如保护发布者 API、在发布时自动重启工作人员、发布命令行工具等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在网络上使用表情符号]]></title>
-        <id>https://fullystacked.net/posts/using-emoji-on-the-web/</id>
-        <link href="https://fullystacked.net/posts/using-emoji-on-the-web/"/>
-        <updated>2023-07-19T01:29:38.563Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://fullystacked.net/posts/using-emoji-on-the-web/">Using emoji on the web</a></p><p><strong>概要：</strong></p><p>文章讨论了在不同操作系统和浏览器上使用表情符号的问题。大多数浏览器默认使用操作系统提供的表情字体，例如 ChromeOS 和大多数 Android 设备使用 Google 的 Noto Color Emoji，iOS 和 macOS 使用 Apple Color Emoji，Windows 使用 Microsoft Segoe Color Emoji。然而，Firefox 在 Windows 和 Linux 上是个例外，它使用 Twitter 的 Twemoji 字体。在 HTML 标记中使用表情符号通常可以正常工作，但也存在一些问题。例如，一些旧的表情符号可能以单色图标或多色表情符号呈现；Windows 用户（除 Firefox 浏览器外）无法看到国家旗帜的表情符号；老版本操作系统的用户无法获取新的表情符号。解决方案包括显式设置表情字体、使用 CSS 属性 font-variant-emoji、使用 color fonts 等。此外，还可以使用开源的 color emoji 字体，如 Google 的 Noto Color、Adobe 的 Emoji One、Twitter 的 Twemoji、Mozilla 的 FxEmoji 和 Microsoft 的 Fluent Emoji。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[动画 SVG 徽标]]></title>
-        <id>https://antfu.me/posts/animated-svg-logo</id>
-        <link href="https://antfu.me/posts/animated-svg-logo"/>
-        <updated>2023-07-19T01:21:42.778Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://antfu.me/posts/animated-svg-logo">Animated SVG Logo</a></p><p><strong>概要：</strong></p><p>文章作者 Anthony Fu 分享了他如何将网站左上角的 Logo 替换为动态 SVG。首次看到这种 SVG 描边动画是在 Vjacheslav Trushkin 的 Material Line Icons 中，但直到在 Mu-An Chiou 的网站上看到类似的设计，才萌生了自己也要做一个的想法。通过研究 Mu-An 的 SVG 代码和参考 Material Line Icons，作者发现他们是通过动画化 stroke-dasharray 来实现这种效果的。原始 Logo 是 8 年前作者用 Surface Pro 4 上的压感笔绘制的，之后用 Adobe Illustrator 进行图像追踪得到 SVG 版本。作者需要用单个描边重新绘制 Logo，然后手动添加样式到导出的 SVG 中，从而得到一个不错的动态 Logo。唯一的缺点是描边在所有地方都均匀粗细，使其看起来不太像签名。作者试图寻找解决方案，最后发现 SVG 支持遮罩功能，于是尝试让描边在遮罩内部动画，并取得了成功。虽然这种方法并非完美，因为无法控制描边宽度，所以描边会稍微偏离遮罩，但作者认为这已经很好了。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fresh 1.3 - 简化的路由组件及其他]]></title>
-        <id>https://deno.com/blog/fresh-1.3</id>
-        <link href="https://deno.com/blog/fresh-1.3"/>
-        <updated>2023-07-19T00:44:37.401Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/fresh-1.3">Fresh 1.3 – Simplified Route Components and More</a></p><p><strong>概要：</strong></p><p>自从我们发布 Fresh 1.2 后仅过去一个月，我们已经回来发布另一个版本！我们计划每个月都发布新的小版本。这个周期包含了社区的许多令人难以置信的 PR，这简直太棒了！文档得到了扩展和改进，修复了许多错误并添加了新功能。感谢所有帮助完成此次发布的人。但话不多说，让我们看看我们对 Fresh 进行了哪些改进。
-
-异步路由组件
-从插件中添加路由和 / 或中间件
-500 错误模板回退
-错误边界
-在同一文件中导出多个岛屿
-Fresh linting 规则
-支持 Deno.serve
-更多提高生活质量的改进
-
-异步路由组件我们听到很多反馈，从路由处理程序传递数据到页面的组件需要一些烦人的样板文件。为了确保类型安全，你总是需要为组件的 props 创建一个接口，将其作为通用的传递给 Handlers 类型，并在组件定义中使用它。这真是很多步骤！
-由于 GET 处理程序往往与它将呈现的组件高度耦合，显而易见的问题是，为什么我们不直接将两者合并在一起？这正是我们所做的。在 Fresh 1.3 中，我们可以大大简化之前的代码片段：
-由于处理程序和组件都在同一个函数中，因此无需声明一个中间接口来在两者之间传递数据；你可以直接传递数据。
-但是别担心，没有必要重写所有的路由。实际上，我们并不喜欢重写代码。新的方式只是一个额外的选项，可以使简单的路由更容易编写。使用异步路由并非</p>]]></content>
     </entry>
 </feed>
