@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-27T06:50:28.323Z</updated>
+    <updated>2023-07-28T00:58:15.379Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[如何在两分钟内创建标记符编辑器（使用 GitHub Copilot）]]></title>
+        <id>https://dev.to/github/how-to-build-a-markdown-editor-in-two-minutes-with-github-copilot-khb</id>
+        <link href="https://dev.to/github/how-to-build-a-markdown-editor-in-two-minutes-with-github-copilot-khb"/>
+        <updated>2023-07-28T00:11:35.915Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://dev.to/github/how-to-build-a-markdown-editor-in-two-minutes-with-github-copilot-khb">How to build a markdown editor in two minutes (with GitHub Copilot)</a></p><p><strong>概要：</strong></p><p>这篇博客文章介绍了如何使用 GitHub Copilot 在两分钟内构建一个 markdown 编辑器。首先，需要创建一个 Next.js 的 GitHub Codespace 模板，然后安装特定的依赖项，删除 index.js 文件中的代码，并通过注释提示 GitHub Copilot。然后触发 GitHub Copilot 的建议，保存文件并尝试运行。此外，还可以使用 Copilot 聊天来改善 markdown 编辑器的用户界面。但是，由于 GitHub Copilot 和其他生成 AI 工具是非确定性的，所以这些工具有时会生成不同的输出。作者还强调，虽然这个教程对今天（2023 年 6 月）仍然适用，但未来可能会过时。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Astro 2.9：视图转换（实验性） | Astro]]></title>
         <id>https://astro.build/blog/astro-290/</id>
@@ -209,12 +216,5 @@
         <link href="https://addyosmani.com/blog/motivation/"/>
         <updated>2023-07-20T00:51:20.291Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/motivation/">Don't expect to be motivated everyday</a></p><p><strong>概要：</strong></p><p>这篇文章强调了纪律对于实现目标的重要性，而不是仅仅依赖动力。动力虽然能驱使我们完成伟大的事情，但它并不可靠且短暂。作者建议通过以下三种策略来培养纪律：开始小，比如每天写 100 个单词或完成 5 分钟的锻炼；保持一致，选择一个特定的时间或提示来执行你的习惯，并将其变成日常生活中不可更改的部分；接受失败，理解挫折是过程的自然部分，当你犯错误时，从中学习并继续前进。纪律为创建习惯奠定基础，从而形成例行公事，最终定义我们每天的自我。因此，下次当你缺乏动力时，不要感到绝望，而是依赖你的纪律帮助你度过困难时期并保持对目标的追求。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[是时候升级显示器了]]></title>
-        <id>https://tonsky.me/blog/monitors/</id>
-        <link href="https://tonsky.me/blog/monitors/"/>
-        <updated>2023-07-20T00:48:28.727Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tonsky.me/blog/monitors/">Time to upgrade your monitor</a></p><p><strong>概要：</strong></p><p>这篇文章是作者根据自身经验，讨论了编程人员最佳显示器选择的观点。他认为，对于大多数编程工作，高分辨率和清晰的字体显示至关重要。他建议购买 4K 分辨率的显示器，并使用 2 倍的缩放以获得更好的文本渲染效果。此外，作者还推荐使用 120Hz 的刷新率，尽管这对于文本工作并非必须，但可以提供更流畅的动画和滚动效果，使系统感觉更加响应迅速。不过，他也指出，在 MacOS 上运行 4K 120Hz 显示可能会遇到一些问题，需要进行一些设置调整。总的来说，作者认为独立的高分辨率显示器对于编程工作来说是最佳选择。</p>]]></content>
     </entry>
 </feed>
