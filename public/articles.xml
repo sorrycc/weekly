@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-07-28T00:58:15.379Z</updated>
+    <updated>2023-08-02T01:53:29.115Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[dnt - 发布 ESM 和 CommonJS 混合 npm 模块的最简单方法]]></title>
+        <id>https://deno.com/blog/publish-esm-cjs-module-dnt</id>
+        <link href="https://deno.com/blog/publish-esm-cjs-module-dnt"/>
+        <updated>2023-08-02T01:27:12.050Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/publish-esm-cjs-module-dnt">dnt — the easiest way to publish a hybrid npm module for ESM and CommonJS</a></p><p><strong>概要：</strong></p><p>虽然浏览器和 JavaScript 已经取得了长足的进步，但编写和发布 JavaScript 模块仍然很痛苦。为了最大化采用，你的模块应该支持 CommonJS 和 ESM、带有 TypeScript 声明的 JavaScript，并能在 Deno、Node.js 和网络浏览器中工作。为了达到这个目标，许多人不得不使用复杂的发布流程或者维护两份具有略微不同模块语法的代码。dnt 是一个构建工具，可以将 Deno 模块转换成与 Node.js/npm 兼容的包。此外，转换后的包还支持 CommonJS 和 ESM，可以在 Node.js、Deno 和浏览器中运行，同时还支持 TypeScript 和 JavaScript。通过使用 dnt，你可以使用 TypeScript 等现代工具一次性编写模块，并将其转换以支持所有用例。当需要发布时，可以使用 dnt 将其导出为与 Node.js/npm 兼容的格式。此外，dnt 还可以与 GitHub Actions 配合使用，简化每次发布新版本时的操作。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[区分前端框架的最重要因素]]></title>
+        <id>https://themer.dev/blog/the-single-most-important-factor-that-differentiates-front-end-frameworks</id>
+        <link href="https://themer.dev/blog/the-single-most-important-factor-that-differentiates-front-end-frameworks"/>
+        <updated>2023-08-02T00:51:11.692Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://themer.dev/blog/the-single-most-important-factor-that-differentiates-front-end-frameworks">The single most impor­tant factor that dif­fer­enti­ates front-end frame­works</a></p><p><strong>概要：</strong></p><p>文章主要探讨了前端框架如何解决变更检测问题，即检测应用状态的变化以便相应地更新用户界面。主要对比了 React、Angular、Vue 和 Svelte 四个主要框架的变更检测方式。React 通过内部 API 直接更新状态，并在需要时重新渲染组件。Angular 则要求开发者自行处理状态变化并通知框架进行重新渲染，但这种方式在处理复杂应用时可能变得难以管理。Vue 则通过特殊工具监控状态对象的变化，从而实现变更检测。Svelte 采用编译时方法，通过分析组件代码的抽象语法树并在必要时更新 DOM。文章最后指出，选择适合应用需求的变更检测模式非常重要，否则将在项目生命周期中不断与之斗争。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[了解 React 服务器组件 - Vercel]]></title>
+        <id>https://vercel.com/blog/understanding-react-server-components</id>
+        <link href="https://vercel.com/blog/understanding-react-server-components"/>
+        <updated>2023-08-02T00:15:52.124Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/understanding-react-server-components">Understanding React Server Components – Vercel</a></p><p><strong>概要：</strong></p><p>文章介绍了 React Server Components (RSCs) 的基本概念和应用，RSCs 扩展了 React 的基础功能，使其不仅是一个纯粹的渲染库，还能在框架内部整合数据获取和远程客户端 - 服务器通信。文章解释了为何需要创建 RSCs，它们最擅长的工作，以及何时使用它们。文章还讨论了 Next.js 如何通过 App Router 简化和增强 RSC 的实现细节。RSCs 可以帮助减少客户端 JavaScript 包的大小，提高加载性能。在 Next.js 中，RSCs 允许智能数据缓存、单次往返中的多次获取，以及自动 fetch () 请求去重，所有这些都最大限度地提高了将数据发送到客户端的效率。此外，你不再需要像 getServerSideProps () 和 getStaticProps () 这样的 Next.js 特定的页面级方法，这些方法对于单个组件来说控制力不够，而且往往会过度获取数据。总的来说，Next.js App Router 中的 React Server Components 是一种有效、安全、动态获取数据的强大工具，所有数据默认都是缓存的，以提供高性能的用户体验。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust 中的可视化树迭代器]]></title>
+        <id>https://blog.danieljanus.pl/2023/07/20/iterating-trees/</id>
+        <link href="https://blog.danieljanus.pl/2023/07/20/iterating-trees/"/>
+        <updated>2023-07-28T04:16:50.639Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.danieljanus.pl/2023/07/20/iterating-trees/">A visual tree iterator in Rust</a></p><p><strong>概要：</strong></p><p>作者分享了他在学习 Rust 编程语言的过程中，如何使用迭代器重写树打印函数的经历。他希望通过这种方式使代码更具可复用性，并能更容易地为 Cursive 实现一个树形视图。在这个过程中，他遇到了很多问题，但最终成功实现了功能。此外，他还分享了自己在学习过程中的一些心得和感悟，比如 Rust 的学习曲线初始阶段较为陡峭，需要花费大量时间去理解和掌握；而且，他发现在学习过程中反思错误并尝试改正是非常有价值的。最后，他推荐了 Amos 的博客，认为这是学习 Rust 的优秀资源。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何在两分钟内创建标记符编辑器（使用 GitHub Copilot）]]></title>
         <id>https://dev.to/github/how-to-build-a-markdown-editor-in-two-minutes-with-github-copilot-khb</id>
@@ -188,33 +216,5 @@
         <link href="https://blog.axlight.com/posts/why-zustand-typescript-implementation-is-so-ugly/"/>
         <updated>2023-07-21T01:18:06.716Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://blog.axlight.com/posts/why-zustand-typescript-implementation-is-so-ugly/">Why Zustand Typescript Implementation Is So Ugly</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 Zustand 库在 TypeScript 中的实现。虽然 Zustand 的 JavaScript 实现非常简洁，但其在 TypeScript 中的实现却相当复杂。文章分析了其中一个原因 ——SetStateInternal 类型。这种类型使用了 TypeScript 的一种技巧，如果不使用这种技巧，会导致某些情况下无法正常工作。文章强调，作为库的使用者，无需知道这背后的原理，这是 TypeScript 专家应该处理的问题。文章还提到，Zustand 在 TypeScript 中的实现复杂性还有其他原因，可能会在未来的文章中进行探讨。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[利用 NextJS 13 应用路由器解密 React 服务器组件]]></title>
-        <id>https://demystifying-rsc.vercel.app/</id>
-        <link href="https://demystifying-rsc.vercel.app/"/>
-        <updated>2023-07-21T01:17:39.270Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://demystifying-rsc.vercel.app/">Demystifying React Server Components with NextJS 13 App Router</a></p><p><strong>概要：</strong></p><p>这个应用程序的目的是以一种揭示真实情况的方式展示 NextJS13 中 React Server 组件的概念和代码。目标受众是有经验的 React 开发者，可能对 RSC 不熟悉，或者正在使用 RSC 并希望更深入理解其工作原理。这个教程可以在 GitHub 上克隆。本教程旨在线性步骤中进行，但你可以跳到下面的任何页面。重要内容包括静态内容、虚拟 DOM、整合客户端组件、水合失败、禁用客户端组件的 SSR、禁用服务器端的组件 SSR、客户端组件详情、服务器组件作为客户端组件的子代、将服务器组件导入到客户端组件、异步服务器组件、服务器端暂停流、动态更新服务器渲染内容、RSC 缓存、服务器功能？、RSC 常见问题、App 路由器演示等。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[介绍 TypeChat - TypeChat]]></title>
-        <id>https://microsoft.github.io/TypeChat/blog/introducing-typechat/</id>
-        <link href="https://microsoft.github.io/TypeChat/blog/introducing-typechat/"/>
-        <updated>2023-07-21T01:09:00.943Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://microsoft.github.io/TypeChat/blog/introducing-typechat/">Introducing TypeChat - TypeChat</a></p><p><strong>概要：</strong></p><p>2023 年 7 月 20 日，Anders Hejlsberg、Steve Lucco、Daniel Rosenwasser、Pierce Boggan、Umesh Madan、Mike Hopcroft 和 Gayathri Chandrasekaran 发布了一款名为 TypeChat 的实验性库。这个库旨在解决如何将大型语言模型最好地集成到现有的应用界面中，以及如何使用 AI 将用户请求转化为应用可以操作的内容等问题。TypeChat 利用代码库中的类型定义来获取结构化且类型安全的 AI 响应。此外，TypeChat 还能与任何语言模型配合使用。开发者们发现，由于大型语言模型已经看到了许多类型定义，因此类型也可以作为 AI 应该如何响应的指导。TypeChat 是开源的，且设计出来是为了适应各种模型。尽管目前它与 OpenAI API 和 Azure OpenAI 服务有基本的集成，但理论上它应该适用于任何你想使用的聊天补全式 API。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过去并非真实]]></title>
-        <id>https://sive.rs/pnt</id>
-        <link href="https://sive.rs/pnt"/>
-        <updated>2023-07-20T07:56:20.540Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sive.rs/pnt">The past is not true</a></p><p><strong>概要：</strong></p><p>这篇文章讲述了作者在 17 岁时，因驾驶不慎撞到了一辆迎面而来的车，导致对方司机的脊柱受伤，无法行走。这件事让他背负了巨大的罪恶感，直到 35 岁时才决定去找这个女人道歉。然而当他找到她并道歉时，发现她并没有因为那次事故而丧失行走能力，反而因此更加注重健康，身体状况比以前更好。原来，他们两人都被告知是自己的错，并为此感到内疚了 18 年。这让作者意识到，过去的记忆和故事并非完全真实，微小的误解可以随着时间的推移被放大，形成误解。历史并非绝对真实，我们可以改变历史，因为真正的事实只占很小的一部分，其余都是解释和理解。所以，改变故事永远不会太晚。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不要指望每天都有动力]]></title>
-        <id>https://addyosmani.com/blog/motivation/</id>
-        <link href="https://addyosmani.com/blog/motivation/"/>
-        <updated>2023-07-20T00:51:20.291Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/motivation/">Don't expect to be motivated everyday</a></p><p><strong>概要：</strong></p><p>这篇文章强调了纪律对于实现目标的重要性，而不是仅仅依赖动力。动力虽然能驱使我们完成伟大的事情，但它并不可靠且短暂。作者建议通过以下三种策略来培养纪律：开始小，比如每天写 100 个单词或完成 5 分钟的锻炼；保持一致，选择一个特定的时间或提示来执行你的习惯，并将其变成日常生活中不可更改的部分；接受失败，理解挫折是过程的自然部分，当你犯错误时，从中学习并继续前进。纪律为创建习惯奠定基础，从而形成例行公事，最终定义我们每天的自我。因此，下次当你缺乏动力时，不要感到绝望，而是依赖你的纪律帮助你度过困难时期并保持对目标的追求。</p>]]></content>
     </entry>
 </feed>
