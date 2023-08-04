@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-08-02T06:13:51.581Z</updated>
+    <updated>2023-08-04T00:27:44.512Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[Nuxt 3 的 24 个省时技巧]]></title>
+        <id>https://masteringnuxt.com/blog/24-time-saving-tips-for-nuxt3</id>
+        <link href="https://masteringnuxt.com/blog/24-time-saving-tips-for-nuxt3"/>
+        <updated>2023-08-04T00:26:58.024Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://masteringnuxt.com/blog/24-time-saving-tips-for-nuxt3">24 Time Saving Tips for Nuxt 3</a></p><p><strong>概要：</strong></p><p>这篇文章列出了 24 个 Nuxt 的使用技巧，包括何时使用 /assets 和 /public 目录、如何理解通用渲染方式（以及它与 SPA 和 SSR 的区别）、如何添加基础缓存等。其中一些具体技巧包括懒加载组件、预渲染特定路由、使用内置键值存储、自动导入、控制 head 脚本的反应性、获取路由信息、处理客户端错误、嵌套路由、自定义 NuxtLink 组件、页面预取、外部链接、数据获取和关键参数、简单的授权、使用 useAsyncData 和 useFetch 函数、图像压缩、添加基础缓存、理解通用渲染的优点、在新标签页中打开 NuxtLinks、运行时配置和应用配置的选择等。此外，还推荐了一门名为 “Mastering Nuxt 3” 的课程。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[原型的价值在于它所传递的洞察力，而不是代码。]]></title>
+        <id>https://addyosmani.com/blog/prototypes/</id>
+        <link href="https://addyosmani.com/blog/prototypes/"/>
+        <updated>2023-08-04T00:13:43.421Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/prototypes/">The value of a prototype is in the insight it imparts, not the code.</a></p><p><strong>概要：</strong></p><p>原型的价值在于它能提供的洞察，而不是编写的代码。原型设计让我们可以快速且低成本地失败，或者获取决策所需的数据。它帮助回答 "如果我们尝试这个会怎么样？" 的问题。更重要的是，原型设计为我们提供了安全有效地失败的保护栏。失败是学习过程中不可或缺的一部分。
+
+如果你有一个想要验证的想法，一个明确的反馈路径，或者需要进一步数据的提议，那么原型就是合适的工具。它提供关键的洞察来推动前进。通过创建一个你一直在考虑的特性或系统的粗糙版本，你获得了放弃这个想法或全力以赴的灵活性。这是一种帮助产品和工程团队做出关键业务决策的技能。
+
+无论你正在开发的是网站、移动应用还是落地页，验证你的设计决策总是至关重要的。一些开发团队会延迟验证阶段，直到他们有一个几乎完整的解决方案。但这是一个极其危险的策略。因为我们都知道，问题出现得越晚，修复它的成本就越高。幸运的是，无论你处于设计过程的哪个点，都可以构建和测试你概念的具体形象 —— 一个原型。
+
+原型并不专注于解决方案，而是专注于理解问题。它们问的问题是，"当我们尝试这个时会发生什么？" 也许我们会发现这是个好主意，但更可能的是，我们会了解到</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Replit 部署：速度快 3 倍，功能更丰富]]></title>
         <id>https://blog.replit.com/deployments-updates</id>
@@ -202,19 +222,5 @@
         <link href="https://hackmd.io/@roguegpu/r1RKQMdt3"/>
         <updated>2023-07-21T01:52:32.582Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackmd.io/@roguegpu/r1RKQMdt3">SvelteJS: My ecosystem is bigger than yours  - HackMD</a></p><p><strong>概要：</strong></p><p>文章主要讨论了 Svelte 和 React 之间的差异，以及为何使用 Svelte 可能是更好的选择。作者指出，尽管 Svelte 的生态系统相比 React 较小，但这并不意味着它的功能有所欠缺。事实上，Svelte 的一些特性，如内置的状态管理 API 和转换 API，使得开发者无需寻找额外的库就能解决问题。此外，Svelte 还允许直接在框架中进行样式设置，而无需引入其他库。作者还展示了如何在 Svelte 中使用 ag-grid 和 chart.js 等库，并指出与 React 相比，Svelte 可以更直接地使用这些库，而无需通过封装器。最后，作者总结道，虽然使用 React 可能需要学习更多的封装器，但使用 Svelte 则可以更直接地学习和使用底层库。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persson Dennis - 为何选择服务器组件 - 网络简史]]></title>
-        <id>https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web</id>
-        <link href="https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web"/>
-        <updated>2023-07-21T01:37:12.848Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web">Persson Dennis - Why Server Components - A Brief History of Web</a></p><p><strong>概要：</strong></p><p>根据 Stack Overflow 2023 年的调查，Next.js 现在是开发人员最想要的 web 框架中的第三名，也是最受欢迎的第六名。尽管他们的旧版 Pages Router 非常出色，但他们在框架的第 13 版中引入了新的 App Router。随着这个变化，他们还迁移到使用 Server Components，这可以被视为下一级别的服务器渲染。本文将从网络的起源开始，通过各种类型的服务器渲染及其所有优点，到最新的 Next.js Server Components 的网络开发状态，来帮助你理解为什么 Next.js 和 Server Components 不仅仅是传统的客户端 React 应用程序。文章中还详细讨论了服务器渲染与 SPA 的转变，以及客户端组件与服务器组件的对比等内容。总的来说，Next.js 现在允许为每个组件决定是否应该在服务器上预渲染，或者是否需要在客户端上渲染。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于最大化 Rust 代码的性能 | Jonathan Becker]]></title>
-        <id>https://jbecker.dev/research/on-writing-performant-rust</id>
-        <link href="https://jbecker.dev/research/on-writing-performant-rust"/>
-        <updated>2023-07-21T01:31:31.958Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jbecker.dev/research/on-writing-performant-rust">On Maximizing Your Rust Code's Performance | Jonathan Becker</a></p><p><strong>概要：</strong></p><p>文章内容为空，无法进行总结。</p>]]></content>
     </entry>
 </feed>
