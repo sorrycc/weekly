@@ -2,11 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>articles@mdhweekly.com</id>
     <title>MDH Weekly · 深度好文</title>
-    <updated>2023-08-04T00:27:44.512Z</updated>
+    <updated>2023-08-10T02:38:30.902Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mdhweekly.com"/>
     <subtitle>深度好文 from MDH Weekly</subtitle>
     <rights>sorrycc@gmail.com</rights>
+    <entry>
+        <title type="html"><![CDATA[通过应用程序接口发送用户界面]]></title>
+        <id>https://www.builder.io/blog/ui-over-apis</id>
+        <link href="https://www.builder.io/blog/ui-over-apis"/>
+        <updated>2023-08-10T01:43:44.579Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.builder.io/blog/ui-over-apis">Sending UI over APIs</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了一种正在改变我们对用户界面（UI）思考方式的技术，即通过 API 发送 UI，也被称为服务器驱动的 UI。这种方法提供了新的动态性和灵活性，正在改变传统的 UI 开发范式。Instagram、Lyft 和 Airbnb 等科技巨头已经实施了这种方法，利用服务器驱动的 UI 向全球数百万用户提供动态内容和更新。服务器驱动的 UI 在服务器上生成 UI，并通过 API 将其发送到客户端，这种方法可以提供更快的迭代和更个性化的用户体验。尽管存在需要考虑的挑战，如应用商店指南和离线用户体验管理，但服务器驱动的 UI 为 UI 开发的未来提供了一个令人兴奋的方向。Instagram 的服务器驱动 UI 的采用提供了一个引人入胜的案例研究。此外，服务器驱动的 UI 带来了许多好处，包括立即修复错误和更快的迭代，后端开发者可以参与前端开发，动态和个性化的用户体验，以及减少客户端的复杂性。然而，实现服务器驱动的 UI 需要注意应用商店指南、离线用户体验、性能考虑因素和增加的复杂性等挑战。总的来说，通过 API 发送 UI 或服务器驱动的 UI 代表了 UI 开发领域的重大转变，它提供了一种动态性和灵活性的水平，正在重新塑造行业。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用于 React 服务器组件的开发工具]]></title>
+        <id>https://www.alvar.dev/blog/creating-devtools-for-react-server-components</id>
+        <link href="https://www.alvar.dev/blog/creating-devtools-for-react-server-components"/>
+        <updated>2023-08-10T01:42:24.854Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.alvar.dev/blog/creating-devtools-for-react-server-components">Devtools for React Server Components</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了 React Server Components（RSC）的潜力，以及作者如何利用其创建开发工具。RSC 允许服务器在加载和渲染内容时进行流式传输，开发人员可以定义代码内容中可能需要更长时间加载的区域，并在加载时显示回退。这些区域被称为 <Suspense> 边界，它们可以在仍在加载的同时解锁页面的其余部分。现在，加载部分可以在服务器端进行。最近，这一切开始在生产环境中使用。尽管目前对于 RSC 的开发工具并不多，但有大量的数据可以处理。作者编写了一个小型解析器来解析响应，并开始思考如何以更好的方式呈现它。作者创建了 rsc-parser.vercel.app，一个可以复制粘贴使用 RSC 的网络响应站点的页面，并获得更好的数据探索体验。作者还创建了一个浏览器扩展，可以记录响应并在浏览时呈现信息。尽管该扩展仍处于早期阶段，但作者正在寻找方法，利用一些内部 React 代码来解析响应。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介绍 Project IDX：人工智能辅助的全栈应用程序开发环境]]></title>
+        <id>https://addyosmani.com/blog/project-idx/</id>
+        <link href="https://addyosmani.com/blog/project-idx/"/>
+        <updated>2023-08-10T01:41:56.005Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/project-idx/">Introducing Project IDX: An AI-assisted, Full-Stack App Development Environment</a></p><p><strong>概要：</strong></p><p>Google 发布了新的基于浏览器的代码环境项目 IDX，该项目内置有 AI 辅助的代码生成、代码完成和代码解释功能，并支持现代 JavaScript 框架。IDX 基于 VSCode，其愿景是一个具有 AI 智能、使用热门框架的应用程序的快速起点、位于您附近的数据中心的 Linux-based VM，以及快速部署到 Firebase Hosting 和（即将推出的）浏览器中的 Android + iOS 模拟器的全面本地环境。IDX 允许开发者在任何地方、任何设备上进行工作，具有本地开发的全部效果。每个工作空间都具有 Linux-based VM 的全部功能，并配有托管在云中的通用访问权限。你可以将现有的 GitHub 项目导入 IDX，或者使用 Angular, React, Next.js, Svelte, Vue, Flutter 等流行框架的模板创建新项目。IDX 包含内置的网络预览，即将推出的配置完整的 Android 模拟器和嵌入式 iOS 模拟器，所有这些都可以直接在浏览器中使用。IDX AI 功能是这个创新项目的核心，提供智能代码完成、辅助聊天机器人和上下文代码操作。通过 Firebase Hosting 集成，可以更容易地部署应用程序，只需几次点击就可以部署您的网络应用程序的可分享预览或部署到生产环境。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js 的配置地狱问题]]></title>
+        <id>https://deno.com/blog/node-config-hell</id>
+        <link href="https://deno.com/blog/node-config-hell"/>
+        <updated>2023-08-10T01:29:52.700Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://deno.com/blog/node-config-hell">Node.js's Config Hell Problem</a></p><p><strong>概要：</strong></p><p>这篇文章讨论了在使用 Node.js 进行开发时，配置文件可能会阻碍开发者的生产力。例如，在最新版本的 Next.js 中，你将得到多个配置文件。所有软件都需要配置，但我们如何才能避免需要 30 个文件来运行一个项目的情况呢？有效的软件应该通过设定智能默认值来预测用户的需求，这些 “预设设置” 被设计为在不需要手动配置的情况下为大多数用户提供优化的体验。让用户在使用软件之前进行配置可能会损害他们对你的品牌的善意和信任。文章还列出了各种配置文件的作用。最后，作者提出了 Deno 的解决方案，Deno 是一个零配置、自带电池的运行时环境，使你可以立即开始下一个项目并立即提高生产力。它内置了 TypeScript 支持，因此你无需花时间进行设置。Deno 还配备了强大的工具链，包括格式化、linting、测试等，所以你无需自己设置。最后，Deno 使用与 web 兼容的 API，所以如果你已经在为 web 构建，那么你已经熟悉 Deno 了。编程就是要管理复杂性，而简化复杂性就是不需要配置步骤。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[将我的博客从 Gatsby 迁移到 Astro]]></title>
+        <id>https://sapegin.me/blog/gatsby-to-astro/</id>
+        <link href="https://sapegin.me/blog/gatsby-to-astro/"/>
+        <updated>2023-08-10T01:28:49.333Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://sapegin.me/blog/gatsby-to-astro/">Migrating my blog from Gatsby to Astro</a></p><p><strong>概要：</strong></p><p>这篇文章是作者分享了他从 Gatsby 转向 Astro 重构个人网站和博客的经验。他对 Gatsby 的开发体验非常不满，认为其默认设置差劲，GraphQL API 过于复杂。此外，他也希望停止使用 React 渲染静态页面，并将主页和博客合并。在技术要求上，他希望继续使用 React 进行模板设计，并使用基础组件进行样式设计。最后，他选择了 Astro 和 vanilla-extract 来实现这些目标。
+
+Astro 是一个注重性能且灵活的静态网站生成器，支持多种 UI 框架，包括 React、Vue 和 Svelte。它默认生成静态 HTML 页面，无需客户端 JavaScript，但也支持在静态页面中添加动态部分。Astro 的开发体验非常好，提供了许多用于构建博客或其他内容网站的功能，如基于文件的路由、内容集合、Markdown 语法高亮等。
+
+Vanilla-extract 则允许在 JavaScript 中编写零运行时样式，支持主题，并有良好的 TypeScript 支持。但它也有一些限制，比如需要在单独的 *.css.ts 文件中编写样式，不能从 *.css.ts 文件中导出 React 组件，只能导出包含类名的字符串等。
+
+总的来说，作者对 Astro 的评价较高，计划将更多项目从 Gatsby 迁移到 Astro。而对于 Vanilla-extract，虽然它能完成工作，但开发体验并不理想。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发布 TypeScript 5.2 RC - TypeScript]]></title>
+        <id>https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-rc/</id>
+        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-rc/"/>
+        <updated>2023-08-10T00:53:52.777Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-rc/">Announcing TypeScript 5.2 RC - TypeScript</a></p><p><strong>概要：</strong></p><p>2023 年 8 月 9 日，TypeScript 5.2 的发布候选版本正式发布。在 TypeScript 5.2 稳定版发布之前，除了关键的 bug 修复外，不会有其他更改。新版本中包含了许多新特性，如使用声明和显式资源管理、装饰器元数据、命名和匿名元组元素、联合数组的简化方法使用、仅类型导入路径与 TypeScript 实现文件扩展名等。此外，还进行了内联变量重构，优化了持续类型兼容性检查，并进行了一些破坏性变更和正确性修复。在测试阶段，开发团队希望收集用户反馈，并只对新行为引入低风险变更，解决关键问题。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[帮助人们轻松地获取命令行？]]></title>
+        <id>https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/</id>
+        <link href="https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/"/>
+        <updated>2023-08-09T05:58:01.682Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/">What helps people get comfortable on the command line?</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了如何帮助初学者克服对命令行的恐惧，并提供了一些实用的建议。首先，减少风险是非常重要的，例如定期备份数据、使用 git 进行代码管理、避免使用通配符等。其次，找到自己感兴趣的 “杀手级应用” 可以增加动力，如 ripgrep、jq、wget /curl、git 等。此外，观察他人如何高效地使用命令行也能激发学习的欲望。还有一些资源可以帮助初学者更好地理解和使用命令行，如 explainshell 网站、历史记录、标签补全等功能。其他有用的工具包括 fzf（模糊搜索工具）、Raspberry Pi、oh-my-zsh 或 fish 等友好的 shell 设置等。最后，作者还推荐了一些书籍、文章和视频，以供读者进一步学习。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supabase 本地开发：迁移、分支和可观察性]]></title>
+        <id>https://supabase.com/blog/supabase-local-dev</id>
+        <link href="https://supabase.com/blog/supabase-local-dev"/>
+        <updated>2023-08-09T01:00:09.916Z</updated>
+        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://supabase.com/blog/supabase-local-dev">Supabase Local Dev: migrations, branching, and observability</a></p><p><strong>概要：</strong></p><p>Supabase 的目标之一是使 Postgres 开发变得愉快。为此，他们需要简化 CLI、代码编辑器和远程 Postgres 数据库之间的体验。最近，他们收到了关于本地开发体验的反馈，鼓励他们进行改进。这个迭代引入了许多新特性来解决这些反馈。他们推出了 Postgres 语言服务器，它能够直接从浏览器或移动应用程序通过无服务器 API 访问 Postgres 数据库。他们还增加了对 Postgres 的可观察性工具，如调试实用程序，以及通过 supabase 检查 db 命令识别生产问题。他们还简化了数据库备份和迁移，扩展了 CLI 迁移功能，并添加了仪表板支持。此外，他们还简化了数据库测试体验，增加了对 linting 的支持，并添加了对数据库播种的支持。他们还开发了一个官方的 GitHub Action，可以利用 CLI 在每个 PR 上生成类型，或者在每次提交时运行测试。他们还将 Supabase CLI 移至双周稳定发布周期，并为 CLI 添加了 beta 发布通道。最后，他们引入了分支和预览环境功能，这可能是最受期待的功能。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nuxt 3 的 24 个省时技巧]]></title>
         <id>https://masteringnuxt.com/blog/24-time-saving-tips-for-nuxt3</id>
@@ -166,61 +228,5 @@
         <link href="https://tkdodo.eu/blog/react-query-and-react-context"/>
         <updated>2023-07-24T01:54:02.854Z</updated>
         <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://tkdodo.eu/blog/react-query-and-react-context">React Query and React Context</a></p><p><strong>概要：</strong></p><p>这篇文章主要讨论了 React Query 的实践应用，特别是在组件树中使用查询的优势。作者指出，React Query 允许我们在需要数据的地方获取数据，使组件解耦和独立。然而，这并非完美无缺，也存在一些权衡。例如，为了使组件自动化，它必须处理查询数据不可用的情况，如加载和错误状态。此外，还存在隐式依赖性问题，即只存在于我们头脑中的依赖关系，但在代码中却看不到。最后，作者提出了一个解决方案，即通过 React Context 使依赖性显性化。尽管 TypeScript 可能不喜欢这种方法，但我们可以通过添加一个不变量来确保在错误的地方访问 useCurrentUserContext 时能快速失败并给出好的错误信息。总的来说，虽然这种技术可能会产生网络瀑布等问题，但对于子树的必需数据（如用户信息）来说，这仍是一种可行的方法。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最重要的编码习惯]]></title>
-        <id>https://puppycoding.com/2023/07/22/healthy-coding-habits/</id>
-        <link href="https://puppycoding.com/2023/07/22/healthy-coding-habits/"/>
-        <updated>2023-07-24T01:53:42.324Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://puppycoding.com/2023/07/22/healthy-coding-habits/">The Most Important Coding Habits</a></p><p><strong>概要：</strong></p><p>这篇文章的作者分享了他因长时间低头对着键盘编程，导致脊椎间盘突出（俗称 “椎间盘滑脱”）的痛苦经历。他认为，对于程序员来说，最重要的习惯并不是提高代码的可读性、一致性或组织性，而是保持健康的身体以便能长期从事这项工作。他建议大家每天进行拉伸运动，定时休息，避免深夜编程，并改善工作环境，比如使用站立式办公桌等。他希望大家能从他的错误中吸取教训，享受健康编程的乐趣。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[好的代码就像一封情书，写给下一个维护它的开发人员。]]></title>
-        <id>https://addyosmani.com/blog/good-code/</id>
-        <link href="https://addyosmani.com/blog/good-code/"/>
-        <updated>2023-07-24T01:53:22.928Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/good-code/">Good code is like a love letter to the next developer who will maintain it.</a></p><p><strong>概要：</strong></p><p>这篇文章将编程比作写情书，强调了编码的实质是沟通。好的代码就像一封爱情信件，是开发者之间的亲密对话。好的代码个性化、真诚、无需多余复杂性，且考虑到下一个维护它的开发者。我们有设计模式和原则来塑造我们的代码，使其可扩展、可维护、高效，同时也易读和易懂。好的代码会巧妙地利用这些模式，就像熟练的诗人使用诗歌设备来创造共鸣。SOLID, DRY, KISS 和 YAGNI 不仅仅是原则，而是编写好代码的基石。好的代码还遵循既定的最佳实践，如适当的命名规范、模块化和详尽的注释。同样重要的是进行严格的测试和采用测试驱动开发（TDD）的做法。最后，编写他人能阅读、理解和维护的代码，是对专业尊重的体现。因此，好的代码不仅是一封情书，更是我们留给后来者的持久遗产。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有效的代码审查]]></title>
-        <id>https://addyosmani.com/blog/code-reviews/</id>
-        <link href="https://addyosmani.com/blog/code-reviews/"/>
-        <updated>2023-07-24T01:52:59.652Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://addyosmani.com/blog/code-reviews/">Effective Code Reviews</a></p><p><strong>概要：</strong></p><p>这篇文章主要讲述了进行有效代码审查的指导方针。对于代码作者，应尊重审查者的时间，首先自我审查代码，分解大的更改列表，自动化简单任务，严格限定代码变更范围，积极回应批评，减少审查轮次之间的延迟，明确询问不清楚的信息，并明确沟通反馈。同时，不要忘记编写文档。对于审查者来说，应验证代码是否必需且设计良好，是否易读且目标明确，注释是否解释了代码存在的原因而非其功能，代码是否过于复杂，是否遵循团队的样式指南，以及是否经过充分测试和文档记录。此外，审查评论应专注于代码本身，避免贬低或模糊的评论，而是提供明确、具体且适当的正面反馈。审查过程中需要考虑多个标准，如代码是否满足需求，逻辑是否正确，是否安全等。总的来说，代码审查应尊重、建设性且有针对性，作者和审查者都在维护代码质量和保证其长期可维护性上发挥关键作用。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub - vantezzen/auto-form：基于 zod 模式自动创建 @shadcn/ui 表单的 React 组件。]]></title>
-        <id>https://github.com/vantezzen/auto-form</id>
-        <link href="https://github.com/vantezzen/auto-form"/>
-        <updated>2023-07-24T01:36:39.348Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://github.com/vantezzen/auto-form">GitHub - vantezzen/auto-form: 🌟  A React component that automatically creates a @shadcn/ui form based on a zod schema.</a></p><p><strong>概要：</strong></p><p>这篇文章介绍了一个名为 AutoForm 的 React 组件，它能根据 zod 模式自动创建一个 @shadcn/ui 表单。安装该组件需要依赖于 shadcn/ui 的多个组件，如：折叠面板、按钮、日历、卡片、复选框、表单、输入框、标签、弹出窗、单选组、选择器、分隔符、开关、文本区和切换等。目前支持的字段类型有：布尔值（复选框、开关）、日期（日期选择器）、枚举（选择器、单选组）、数字（输入框）和字符串（输入框、文本字段）。使用时只能在客户端的 React 组件中使用，如果在 Next.js 应用中使用，需要将组件标记为 "使用客户端"。你可以通过 describe 方法为每个字段设置标签和描述，如果没有设置标签，将使用字段名称并取消驼峰命名。所有字段默认都是必填的，可以通过 optional 方法将字段设置为可选。你还可以通过 default 方法为字段设置默认值。你可以使用 inputProps 属性将 props 传递给输入组件。你可以使用 description 属性在字段下方添加描述。你可以使用 renderParent 属性自定义输入的父元素。有两种方式可以访问表单数据：onSubmit 和 Controlled form。你可以使用 AutoFormSubmit 组件创建提交按钮。所有传递给 AutoForm 组件的子元素都将在表单下方渲染。最后，该组件的许可证为 MIT。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turborepo 如何从 Go 移植到 Rust - Vercel]]></title>
-        <id>https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust</id>
-        <link href="https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust"/>
-        <updated>2023-07-24T01:33:07.553Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust">How Turborepo is porting from Go to Rust – Vercel</a></p><p><strong>概要：</strong></p><p>文章讲述了为何以及如何将 Turborepo，一个高性能的 JavaScript 和 TypeScript 构建系统，从 Go 语言迁移到 Rust 语言。首先，他们确定了迁移是可行的，并开始了这个过程。在迁移策略上，他们选择了逐步迁移而非全面重写，因为全面重写会带来一些问题，例如需要暂停新功能的开发，可能导致用户体验下降等。逐步迁移则可以保持原有代码的行为不变，同时进行 Go 和 Rust 代码的互操作。他们首先用 Rust 编写了一个小的新功能，然后逐渐将更多的代码迁移到 Rust。在这个过程中，他们遇到了一些挑战，例如在不同的操作系统和 Linux 版本上测试代码时出现的问题，但最终都得到了解决。通过这次迁移，他们认识到序列化对于互操作性非常有用，逐步迁移需要充分的准备和测试，跨平台、跨语言的发布工程非常具有挑战性，但对他们来说，从 Go 迁移到 Rust 是值得的。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 React 中使用 svg 精灵图标]]></title>
-        <id>https://www.jacobparis.com/content/svg-icons</id>
-        <link href="https://www.jacobparis.com/content/svg-icons"/>
-        <updated>2023-07-24T01:32:02.963Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://www.jacobparis.com/content/svg-icons">Use svg sprite icons in React</a></p><p><strong>概要：</strong></p><p>文章介绍了在 React 应用中使用 svg 图标的方法。最直观但效率最低的方式是将 svg 代码直接写入组件作为 JSX，这会增加包的大小。最好的方式是使用 svg spritesheet，它是一种包含许多精灵（本例中的图标）的单个图像。我们可以通过加载一个大图像并通过代码只显示需要的部分来优化图像加载。网站可以使用同样的策略将许多图标存储在一个 svg 文件中，称为 svg spritesheet。每个图标精灵都存储为 svg 文件内的 <symbol> 元素，我们可以通过使用 < use > 元素并引用图标的 id 来显示特定的图标。文章详细介绍了如何构建一个脚本，将一个文件夹的 svg 图标编译成一个单独的 svg spritesheet，以及如何构建一个 React 组件，通过名称显示特定的图标，并为可用的图标提供完全类型安全的自动完成功能。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[制作开发人员想要的东西]]></title>
-        <id>https://leerob.io/blog/make-something-developers-want</id>
-        <link href="https://leerob.io/blog/make-something-developers-want"/>
-        <updated>2023-07-21T06:39:33.921Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://leerob.io/blog/make-something-developers-want">Make Something Developers Want</a></p><p><strong>概要：</strong></p><p>Y Combinator 以他们的建议而闻名：制造人们想要的东西。然而，当这些客户是开发者时，我会认为执行这个建议的方式看起来有所不同，可能与人们通常想要的相反。以下是你应该做的，以制造开发者想要的东西：你应该接受开源；你应该有一个免费的层级；你应该有优秀的文档；你应该能够得到开发者的支持；你应该是一个社区的一部分。1. 你应该接受开源，因为经验丰富的开发者喜欢开源产品，新手开发者也喜欢开源产品，因为他们正在学习帮助他们在职业生涯中提升的技能。2. 你应该有一个免费的层级，开发者不想和你的销售团队交谈，他们想尽可能少的摩擦地试用产品。3. 你应该有优秀的文档，文档越好，开发者就越可能尝试你的产品。4. 你应该能够得到开发者的支持，当开发者在你的文档中找不到答案时，他们会寻求支持。5. 你应该成为一个社区的一部分，开发者去哪里玩？在线和线下社区。你需要在那里提供价值。这是一个长期的游戏，有时需要花费几年时间才能实现价值，但事后看来是显而易见的。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SvelteJS：我的生态系统比你的大 - HackMD]]></title>
-        <id>https://hackmd.io/@roguegpu/r1RKQMdt3</id>
-        <link href="https://hackmd.io/@roguegpu/r1RKQMdt3"/>
-        <updated>2023-07-21T01:52:32.582Z</updated>
-        <content type="html"><![CDATA[<p><strong>原文：</strong></p><p><a href="https://hackmd.io/@roguegpu/r1RKQMdt3">SvelteJS: My ecosystem is bigger than yours  - HackMD</a></p><p><strong>概要：</strong></p><p>文章主要讨论了 Svelte 和 React 之间的差异，以及为何使用 Svelte 可能是更好的选择。作者指出，尽管 Svelte 的生态系统相比 React 较小，但这并不意味着它的功能有所欠缺。事实上，Svelte 的一些特性，如内置的状态管理 API 和转换 API，使得开发者无需寻找额外的库就能解决问题。此外，Svelte 还允许直接在框架中进行样式设置，而无需引入其他库。作者还展示了如何在 Svelte 中使用 ag-grid 和 chart.js 等库，并指出与 React 相比，Svelte 可以更直接地使用这些库，而无需通过封装器。最后，作者总结道，虽然使用 React 可能需要学习更多的封装器，但使用 Svelte 则可以更直接地学习和使用底层库。</p>]]></content>
     </entry>
 </feed>
