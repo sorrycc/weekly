@@ -21,12 +21,10 @@ draft: true
 。
 
 ## 一周新闻
-> 本期一周新闻由 [YingCi](https://github.com/fz6m) 主笔。
 
 - 。
 
 ## 深度好文
-> 好文推荐。好文总结部分基于 ChatGPT 总结 + 人工微调的方式实现，好处是量大、客观和低成本。欢迎通过 https://mdhweekly.com/articles.xml 订阅「深度好文」的实时更新。
 
 - 。
 
