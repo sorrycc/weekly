@@ -1,5 +1,5 @@
 ---
-title: "Safari 17、stylex、Svelte 5、线性代码、"
+title: "Safari 17、stylex、Svelte 5、线性代码"
 titleImage: "https://img.alicdn.com/imgextra/i3/O1CN01oRrRcY1WH2oeNECXy_!!6000000002762-0-tps-1920-1281.jpg_1200x1200.jpg"
 titleImageCaption: "tkristin @ unsplash"
 publishedAt: "2023/09/25"
