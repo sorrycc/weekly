@@ -1,38 +1,36 @@
 ---
-title: "WIP"
-titleImage: ""
-titleImageCaption: ""
+title: "TanStack Query 5、Photoshop Web、命名、开发人员建议、noreplit、useTransition"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01Nu15kD1l1DN368eSd_!!6000000004758-0-tps-1920-1282.jpg_1200x1200.jpg"
+titleImageCaption: "benwhitephotography @ unsplash"
 publishedAt: "2023/10/23"
-draft: true
 ---
-
-## 本周头条
-
-。
 
 ## 一周新闻
 
-- 。
+- [TanStack Query 发布 v5。](https://tanstack.com/blog/announcing-tanstack-query-v5) TanStack Query v5.0.0 版本终于发布，经历了 91 个 alpha 版本、35 个 beta 和 16 个候选版本。该版本相较于 v4 缩小了约 20%，并优化了 API 的使用。主要的突破性变化是删除了大部分代码中的重载，统一了 useQuery 和其他 hooks 的使用方式，提高了开发者体验。其他改变包括重命名参数和状态，移除 useQuery 的回调函数等。新功能方面，该版本提供了简化的乐观更新、可共享的突变状态、对 React Suspense 的一流支持、与 React Server 组件的实验性集成、改进的无限查询、全新的开发者工具和更细致的持久性等。
+- [Remix 官方支持 Vite 作为可选编译器。](https://remix.run/docs/en/dev/future/vite)
+- [Photoshop 现已上 Web。](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a) 这篇文章介绍了Adobe将Photoshop桌面应用程序带到Web的过程。通过WebAssembly + Emscripten、Web Components + Lit、Service Workers + Workbox和新的Web API的支持，Adobe工程师和Chrome等浏览器供应商合作，成功地将高度复杂和图形密集的软件带到了浏览器中。文章详细介绍了新的Web平台功能，如高性能本地文件访问、WebAssembly、P3色域、Web组件和Service Workers等，以及如何优化Photoshop在浏览器中的性能。最后，文章展望了Photoshop在Web上的未来，以及Adobe计划在Web上构建其整个Creative Cloud套件的计划。
+- [Solid 发布 1.8。](https://github.com/solidjs/solid/releases/tag/v1.8.0) 这篇文章介绍了 Solid 1.8 版本的更新内容，主要是在基础架构方面进行了改进。其中最重要的特性是流式序列化的去重，这使得 Solid 能够序列化更复杂的数据结构。此外，还对 Hydration 进行了改进，包括修复了一些旧问题和提高了性能。最后，还介绍了一些其他的改进和修复。作者感谢所有参与这个版本的人，并表示在未来几个月会发布 Solid 2.0 的 RFC，期待与大家讨论 Solid 的未来。
+- [Node 发布 21。](https://nodejs.org/en/blog/announcements/v21-release-announce) Node.js 21发布了，更新了V8 JavaScript引擎、稳定的fetch和WebStreams、内置WebSocket客户端等。Node.js 21 的重要变化包括稳定的fetch/WebStreams、内置WebSocket客户端、V8 11.8、Node.js测试运行器中的glob支持、ESM中的--experimental-default-type标志、模块自定义钩子globalPreload的删除、fs.writeFile函数中的flush选项等。此外，该版本还包括性能改进，如Streams和HTTP的优化。Node.js 21还引入了全局navigator对象，增强了Web互操作性。
+- [Remix 发布 2.1。](https://github.com/remix-run/remix/releases/tag/remix%402.1.0) Remix 发布了新版本 2.1.0，其中包含了一些新特性和修复了一些问题。其中最重要的是实验性支持了 View Transitions API，可以通过 `<Link unstable_viewTransition>` 和 `<NavLink unstable_viewTransition>` 来触发 DOM 更新的动画过渡效果。此外，还修复了一些问题，包括 FOUC、类型错误等。Remix 2.1.0 的完整变更日志可以在文章末尾的链接中查看。
+- [Nuxt 发布 3.8。](https://nuxt.com/blog/v3-8) 该文章概述了 Nuxt 的最新版本 v3.8.0 中引入的一系列新特性和改进。这些包括新版本的 Nuxt CLI 工具、内置的 Nuxt DevTools、自动安装的 Nuxt Image 模块以及更深层次的布局扫描功能。还介绍了 App Manifest 的生成、改进了作用域和上下文处理、优化了 NuxtLink 的默认设置、数据获取功能的显著提升、层改进和夜间发布渠道。此外，文章还强调了通过使用 Node 18 + 中的原生 fetch 功能，生产环境的程序包大小减少了约 40%。
+- [noreplit。](https://noreplit.com/) 在过去的几个月里，Replit.com 大幅调整了定价，以至于根本无法维持。我们和其他许多人都使用 Replit 多年了，但现在我们都在寻找替代品。本网站介绍了所发生的事情、比较、替代方案和社区报价，让大家了解该平台目前存在的问题。
 
 ## 深度好文
 
-- 。
+- [《React useTransition：改变性能还是……？》](https://www.developerway.com/posts/use-transition) 这篇文章讨论了 React 并发渲染中的 useTransition 和 useDeferredValue 钩子的使用，它们可以将某些状态更新标记为 “非关键” 并在 “后台” 计算，避免阻塞主任务流。 但是它们也会导致双重渲染，必须做好 memoization 才能避免性能问题。useTransition 的使用场景非常具体，不能随便使用，需要深入理解 React 生命周期、重新渲染和 memoization。useDeferredValue 也有同样的问题。使用 useTransition 进行防抖也是不可靠的。
+- [《我希望有人告诉我关于配置 VSCode 的事情》](https://www.bryanbraun.com/2023/08/10/things-i-wish-someone-would-have-told-me-about-configuring-vscode/)。 该文章讨论了四个关于Visual Studio Code（VSCode）配置的建议和心得。第一，作者推荐使用.gitignore_global来忽略.vscode文件夹，避免将个人的编辑器设置上传到git仓库。第二，关于格式化和代码检查（如eslint和prettier）的扩展应只在工作区级别启用，以适应特定项目需求。第三，VSCode内置的终端非常强大和方便，支持多窗格和环境变量设置，是一个值得尝试的功能。第四，尽管GitLens扩展很受欢迎，但VSCode内置的Git功能已经足够强大，对于许多用户来说，可能并不需要额外安装GitLens。文章最后还推荐了一些有关VSCode的资源和网站。
+- [《论命名在编程中的重要性》](https://wasp-lang.dev/blog/2023/10/12/on-importance-of-naming-in-programming)。 文章主要讨论编程中命名的重要性。作者认为，合适的命名不仅让代码更清晰，还能改进整体架构。他强调，90% 的清晰代码来自于正确的命名。文章提供了两个实例，展示了不好和好的命名方法。第一个例子中，函数和变量的名字都非常模糊，作者展示了如何通过重命名改进。第二个例子则更复杂，其中一个函数试图做太多事情，导致很难找到一个合适的名字。这实际上是一个设计上的问题标志，需要将函数拆分为多个更小的函数。作者还提出了一些关于如何找到好名字的建议和技巧。比如，好的名字不应该误导、省略或假设。它应该与周围的名字协调，并与代码库中使用的术语和约定保持一致。最重要的是，名字应该反映它所代表的事物的本质。
+- [《我们如何优化 Next.js 中的软件包导入》](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js)。
+- [《基于 WebAssembly 的快速 JavaScript：可移植基线解释器和未来计划》](https://cfallin.org/blog/2023/10/11/spidermonkey-pbl/)。 这篇文章描述了一个可移植的基线解释器 (PBL), 它可以让 SpiderMonkey JavaScript 引擎在 WebAssembly 模块中运行时保持较好的性能，而不需要运行时代码生成。PBL 模仿 SpiderMonkey 原生基线解释器和编译器的行为，但使用纯 C++ 代码实现，可以在任何禁止运行时代码生成的环境中使用。文章详细介绍了 PBL 的设计、实现中的挑战和优化，以及未来可能的方向，包括利用部分求值自动生成优化的 WebAssembly 代码。PBL 已取得 1.26 倍的速度提升，配合 partial evaluator 可以达到 1.58 倍，有望不需要运行时代码生成就接近 SpiderMonkey 原生基线编译器的性能。
+- [《Checksum 简介》](https://levelup.gitconnected.com/a-brief-introduction-to-checksum-33a4fb3bb105)。 本文介绍了校验和的概念和作用。在数字世界中，数据可能会在传输过程中出现错误，校验和就是一种用于检测数据是否被篡改或损坏的方法。校验和算法会将数据转换为固定长度的字符串，这个字符串通常看起来是随机的，但对于每个不同的输入，它都应该是唯一的。本文还介绍了 MD5 算法，它是一种常用的校验和算法，可以将数据压缩成一个 128 位的哈希值。最后，本文列举了校验和的几个主要用途，包括数据完整性检查、错误检测、数据检索和验证、网络传输、安全存储、密码验证和防止重复存储。
+- [《2024 年的 React 生态系统》](https://dev.to/avinashvagh/react-ecosystem-in-2024-418k)。 这篇文章概述了 2024 年 React 生态系统的发展趋势，包括路由、状态管理、表单处理、测试、样式、UI 组件库、动画、数据可视化、表格、国际化、开发者工具、文档、组件开发环境、类型检查、移动应用以及有用的 React 库等各个方面。
+- [《What’s new in CSS? (2023.10.12 @ Frontmania)》](https://www.bram.us/2023/10/13/whats-new-in-css-2022-10-12-frontmania/)。
+- [《GitHub 工程师的沟通方式》](https://github.com/github/how-engineering-communicates/blob/main/how-github-engineering-communicates.md)。 这篇文章概述了 GitHub 工程部门的内部沟通准则，其目的是鼓励不同团队之间采用一致的沟通方式，提高跨团队协作的效率。文章提出了若干原则，比如优先采用异步沟通，将决策过程书面化，开放透明地展示工作进展，善用 GitHub 工具实现协作，并提供了对各种沟通渠道 (聊天、GitHub、文档、会议等) 的建议，以此推动工程组织实现更高效、包容的协作。
+- [《让开发人员生活更美好的 8 条建议》](https://dev.to/wraith/my-8-tips-for-a-better-life-as-a-developer-1hfg)。 这篇文章分享了作者作为软件开发工程师 8 年来的 8 条经验：1) 找到一个你喜欢的工作环境；2) 投资你的硬件设备；3) 找到你喜欢使用的工具；4) 设定目标；5) 保持好奇心并了解原因；6) 在日历上划出专注工作的时间；7) 保持代码合并请求小规模；8) 把一切都记下来。这些建议可以帮助改善开发者的工作生活。
+- [《浅谈一下：如果交给你一件复杂的任务，要该如何处理？本文主要讲述了如何处理复杂的任务，需要有一套完整的处理框架，针对任务复杂程度的不同，可以视情况简化流程，评估需要群策群力，排除风险，负有进度和风险周知，风险预警的责任》](https://blog.csdn.net/qq_27496129/article/details/133784333)。 同时，作者分享了一个复杂任务的案例，包括摸清楚发生了什么，分析处理的必要性，明确处理目标，评估影响面积，拆解任务、逐步施行落地 + 方案优化调整落地，结果检测等步骤。最后，作者总结了一些处理复杂任务的经验，希望能够对读者有所帮助。
+- [《Siganal 的局部性思维》](https://dev.to/this-is-learning/thinking-locally-with-signals-3b7h)。 文章探讨了在前端开发中，特别是在使用如React、SolidJS和Svelte这类现代前端框架时，局部性思维（Locality of Thinking）的重要性。文章强调了由React引入的一些核心设计原则，如单向数据流（Unidirectional Flow）和显式变异（Explicit Mutation），对于保证代码的可维护性和可预测性是多么关键。局部性思维允许开发者仅通过观察单一组件的代码就能理解其行为，从而提高开发效率。作者还深入讨论了如何通过使用Signal模式来实现这种局部性。Signal模式不仅能减少来自父组件的不必要更新，还可以更细粒度地控制数据流，从而提高性能。文章最后强调，只有当我们遵循由React等框架设定的原则，我们才能充分利用Signal等反应性模式的优势，而不会陷入以前的问题，如事件通知的蝴蝶效应。这些原则也被用于SolidJS和Svelte，以达到相同的目的：让开发者能在局部范围内作出准确的决策，而不用担心全局状态或其他组件的行为。
+- [《Docker 最佳实践》](https://dev.to/hazarnenni/docker-best-practices-55j0)。 这篇文章提供了使用Docker进行应用部署的最佳实践和详细示例。主要内容包括：1）使用官方镜像作为基础；2）优化Dockerfile以减小镜像大小；3）创建.dockerignore文件以排除不必要的文件；4）使用多阶段构建以减少生产环境镜像大小；5）用环境变量进行配置；6）在Dockerfile中添加健康检查；7）在Docker-Compose文件中定义资源限制；8）使用Docker日志、ELK堆栈或Prometheus进行全面的日志和监控；9）将自定义镜像推送到私有仓库；10）为镜像添加版本标签。这些最佳实践有助于创建高效、安全且易于维护的Docker容器，从而优化开发和部署流程。
+- [《微前端应是最后的选择》](https://www.breck-mckye.com/blog/2023/05/Microfrontends-should-be-your-last-resort/)。 这篇文章讨论了“微前端”架构的优缺点。作者认为，微前端架构可以使前端应用程序更易于维护和扩展，但是在实践中，这种架构可能会导致代码紧密耦合，难以进行测试和发布。作者建议，在采用微前端架构之前，团队应该先进行领域分解和重构，以确保代码的模块化和解耦。作者认为，单体应用程序和单体应用程序库是更好的选择，因为它们可以更容易地进行重构和测试。
+- [《Why async Rust？这篇文章总结了 Rust 异步编程 (async/await) 的历史，指出 Rust 选择 stackless coroutines 而不是 green threads 的原因，并说明 Iterator 和 Future 的设计如何相似》](https://without.boats/blog/why-async-rust/)。 作者认为 Rust 的设计限制使得这是最佳选择，虽然也存在一些问题。文章后半部分解释了为何选择支持 async, 以及它对 Rust 生态系统的重要性。作者认为虽然有改进空间，但 async 是 Rust 目前的正确选择。
 
-## 工具资源
-
-- 。
-
-## Umi 和我
-> 关于 Umi 和我最近的进展。欢迎订阅我的 Telegram 频道[《云谦的自说自话》](https://t.me/yqtalk)。
-
-- Umi 例行每周四发一版，我觉得有趣的功能包括，1）。
-- 。
-
-## 星球更新
-> 不知不觉我的知识星球已维护近一年，更了 350 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
-
-- 。
-
-## 每周烂梗
-
-。
