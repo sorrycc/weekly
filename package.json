@@ -5,6 +5,8 @@
     "build": "NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
     "release": "esno scripts/release.ts",
+    "yuque": "esno scripts/yuque.ts",
+    "wechat": "esno scripts/wechat.ts",
     "doc:build": "umi docaid build"
   },
   "devDependencies": {
