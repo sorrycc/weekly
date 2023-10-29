@@ -4,6 +4,7 @@
     "setup": "umi setup",
     "build": "NODE_ENV=production npm run doc:build && umi build",
     "bootstrap": "esno scripts/bootstrap.ts",
+    "release": "esno scripts/release.ts",
     "doc:build": "umi docaid build"
   },
   "devDependencies": {

@@ -1,28 +1,14 @@
 import 'zx/globals';
-import assert from 'assert';
-import getGitRepoInfo from 'git-repo-info';
+import { getInfo } from './util';
 
 (async () => {
-  const { branch } = getGitRepoInfo();
-  const pkgName = argv.pkg;
-  assert(pkgName, `pkg name is required, specify with --pkg=xxx`);
-  const pkgPath = path.join(__dirname, '..', pkgName);
-  assert(fs.existsSync(pkgPath), `pkg ${pkgName} not exists`);
-  await $`cd ${pkgPath} && npm run build`;
-  await $`cd ${pkgPath} && npm version patch`;
-  const newVersion = require(path.join(pkgPath, 'package.json')).version;
-  await $`cd ${pkgPath} && npm publish`;
-
-  // modify root pkg
-  const rootPkgPath = path.join(__dirname, '..', 'package.json');
-  const rootPkg = require(rootPkgPath);
-  rootPkg.devDependencies[pkgName] = newVersion;
-  fs.writeFileSync(rootPkgPath, JSON.stringify(rootPkg, null, 2));
-  await $`pnpm i`;
-
-  await $`git commit -am "release: ${pkgName}@${newVersion}"`;
-  await $`git tag ${pkgName}v${newVersion}`;
-  await $`git push origin ${branch} --tags`;
+  const { latestDocNum, nextDocNum } = getInfo();
+  await $`git commit -am '${latestDocNum}'`;
+  await $`npm run build`;
+  await $`npm run bootstrap`;
+  await $`git add ./`;
+  await $`git commit -am 'bootstrap ${nextDocNum}'`;
+  await $`git push`;
 })().catch((e) => {
   console.error(e);
   process.exit(1);
