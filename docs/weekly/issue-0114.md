@@ -1,38 +1,53 @@
 ---
-title: "WIP"
-titleImage: ""
-titleImageCaption: ""
+title: "Vite 5、Prettier 3.1、恶意软件、Framer Motion SVG 动画、桶文件"
+titleImage: "https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg"
+titleImageCaption: "jonathanborba @ unsplash"
 publishedAt: "2023/11/20"
-draft: true
 ---
-
-## 本周头条
-
-。
 
 ## 一周新闻
 
-- 。
+- [waku 发布 1.17。](https://github.com/dai-shi/waku/blob/main/CHANGELOG.md#0170---2023-11-14) 这个版本的 waku 支持通过 SSR 生成 HTML 作为初始载入，Waku 与其他顶级框架相比达到了新的高度。
+- [C# 发布 12。](https://devblogs.microsoft.com/dotnet/announcing-csharp-12/) 微软已发布 C# 12，用户可通过下载.NET 8、最新的 Visual Studio 或 Visual Studio Code 的 C# 开发套件获取。新版中的亮点包括：集合表达式统一语法，提高编译速度；所有类和结构提供主构造函数，减少繁琐代码；可以为任何类型设置别名；Lambda 表达式可以设置默认参数，简化代码编写；新增 ref readonly 参数和内联数组功能，提高代码运行速度。此外，还引入了实验性属性和拦截器，用于实验性功能的反馈收集和 C# 或.NET 的高效开发。
+- [Vercel Cron Jobs 现已全面推出。](https://vercel.com/changelog/vercel-cron-jobs-are-now-generally-available) Vercel 的 Cron Jobs 允许您运行定期任务，如数据备份或归档，触发第三方 API 的更新，发送邮件和 Slack 通知等。通过使用称为 cron 表达式的特定语法，可以定义每个任务的频率和定时。Cron Jobs 可以与任何前端框架一起工作，并且可以在 vercel.json 中定义。在测试阶段，我们通过提供一个名为 CRON_SECRET 的环境变量使 Cron Jobs 更加安全，还新增了对部署保护和即时回滚的支持。现在，所有计划的客户都包括 Cron Jobs。每个帐户，爱好者计划的用户将能使用 2 个 Cron Jobs，专业计划的用户将能使用 40 个 Cron Jobs，企业计划的用户将能使用 100 个 Cron Jobs。
+- [Vite 发布 5。](https://vitejs.dev/blog/announcing-vite5) Vite 团队宣布推出 Vite 5.0 版本。这一版本利用 Rollup 4 技术显著提升了构建性能，并准备在开发服务器上提供更多新的性能优化选项。该版本专注于清理 API（移除过期特性），并通过多项功能实现旧问题的解决。同时，Vite 团队也公布了长期计划，他们正在研发名为 Rolldown 的 Rust 扩展，旨在提升构建和开发性能。Vite 团队对 850 多位对 Vite Core 的贡献者表示感谢，并敦促开发者们参与到对 Vite 5.0 的完善工作中。 Vite 5.0 还内置了 server.warmup 功能，可提高启动时间，预先转换服务器启动时需要的模块。新版本将不再支持 Node.js 14 / 16 / 17 / 19，并需要 Node.js 18 / 20+ 版本。
+- [Remix 发布 2.3。](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230) useBlocker 接口稳定、unstable_flushSync 接口新增、改进 Vite 插件功能等。
+- [Rust 发布 1.74。](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html) Rust 团队发布了新版本的 Rust，1.74.0。在 RFC 3389 的提议下，现在 Cargo.toml 清单可以通过 [lints] 表来配置 lints 的报告级别（禁止，拒绝，警告，允许）。此版还增加了凭证提供商和需要验证的私有注册表等 Cargo 功能，允许自定义获取或生成令牌的方法，并使秘密存储更加安全。同时，编译器现在允许在不透明返回类型（例如 async fn 和 -> impl Trait）中提及 Self 和关联类型。并且增加了一系列稳定的 APIs，修复了一些错误。从此版本开始，Apple 平台的要求也有所增加，macOS 的最低版本为 10.12 Sierra，iOS 和 tvOS 的最低版本为 10。
+- [Prettier 发布 3.1。](https://prettier.io/blog/2023/11/13/3.1.0) 此次发布将缩进再次添加回嵌套三元运算符，并新增 --experimental-ternaries 标志尝试更新颖的 "好奇三元运算符" 格式，以更好地适应深层嵌套条件。此外，我们还添加了对 Angular v17 控制流语法的支持。如果您赞赏 Prettier 并希望支持我们的工作，请通过我们的 OpenCollective 直接赞助我们，或赞助我们依赖的项目，如 typescript-eslint、remark 和 Babel。感谢您的持续支持！。
 
 ## 深度好文
 
-- 。
+- [《那次我编写了恶意软件并被抓到》](https://ntietz.com/blog/that-time-i-wrote-malware/)。 作者在高中时期对安全有着浓厚的兴趣，并尝试编写了自己的第一个恶意软件 ——“毁灭者” Fluffy。这个程序表面上看起来是一只可爱的猫，但实际上却能够控制计算机的功能，例如预防用户更改窗口或关闭程序，迫使用户退出或重启他们的计算机。尽管初次测试时给好友带来了相当多麻烦，但作者之后将程序带到学校，并受到了同学们和老师的欢迎。然而，这个程序后来的被滥用并引发了一些问题。尤其是当学校图书馆馆员以及其他人类似在计算机上运行这个程序后，他们并不觉得这有趣，这使得作者接近失去他的计算机权限。尽管他的编程老师最后帮助他保留了这个权限，但这次经历让他认识到编写恶意软件并非无害，这可能会伤害他人，甚至置自己在风险之中。因此，他警告人们在探索系统、界限以及可能做的事情时，必须保证有他人的同意才行。
+- [《掌握在 React 中使用 Framer Motion 进行 SVG 动画》](https://voskan.host/2023/11/08/svg-animations-in-react-with-framer-motion/)。 本指南探讨了如何在 React 应用程序中使用 Framer Motion 动画库来创建 SVG 动画。首先，我们需要在 React 项目中安装 Framer Motion 并为动画准备 SVG。然后了解 Framer Motion 的动画原理，包括 motion 组件和 animate 属性的使用，在此基础上创建简单和复杂的 SVG 路径动画。进一步讲解了如何为常见的 SVG 形状添加动画，如何使用键盘事件等用户交互事件进行交互性动画设计，以及如何优化动画性能。无论是创建简单的悬停效果还是复杂的入场动画，Framer Motion 都提供了丰富的创意工具，使 SVG 动画的缩放和性能优势得以充分发挥。
+- [《React Router v6：新手指南》](https://www.sitepoint.com/react-router-complete-guide/)。 React Router 是 React 的标准路由库，能够管理具有多个视图的 React 应用的 URL。本教程介绍了 React Router v6 及其用法，包括基础导航路由、嵌套路由、带路径参数的嵌套路由和保护路由。在 React Router v6 中，使用 `<Routes>` 和 `<Route>` 组件进行路由，可以在 `<Routes>` 组件中嵌套 `<Route>` 组件以方便实现嵌套路由。还可以使用 useParams 钩子访问 URL 参数，useNavigate 钩子进行程序化导航。此外提供了用于实现路由保护的自定义路由。React Router v6.4 版本引入了由 Remix 启发的新特性，包括数据加载器和 create BrowserRouter，以改进数据获取和提交。
+- [《async Rust 的四年计划》](https://without.boats/blog/a-four-year-plan/)。 本文作者讨论了四年前 Rust 发布的 async/await 特性，并指出 Rust 项目在此功能上几乎没有扩展。作者认为这是 async Rust 获得负面评价的主要原因。文章中，作者列出了他认为 async Rust 需要的一些功能，包括短期、中期和长期的功能。短期功能主要包括 AsyncIterator 和 async generators；中期功能包括 Objective-safe coroutine 方法和 Async destructors；长期功能包括改变 Rust 的一些基本规则。他建议 Rust 项目应有更清晰的开发方向和与社区的交流，并感谢那些在设计问题上与他交流的项目成员。
+- [《在 Mac 上安装 Python 的正确方法》](https://marvelousmlops.substack.com/p/the-right-way-to-install-python-on)。 在 Twitter 的讨论中，很多人分享了在 MacBook 上安装 Python 的各种方式，如使用 miniconda、docker，或将工作迁移到带有 Linux 和 GPU 的远程服务器。然而，被多次提及的正确方法是使用 pyenv，这是一个必不可少的工具，主要因为它可以在同一系统上无缝管理多个 Python 版本。此外，pyenv-virtualenv 插件增强了 pyenv 的功能，具有虚拟环境 (virtualenv) 能力，允许在每个项目基础上进行精细的依赖管理，避免任何包版本冲突。这种隔离提供了另一层保护，防止系统更新可能修改系统 Python 或其关联库。只需要几个命令，开发人员就可以在版本之间切换。在 Python 开发领域，pyenv 是一种强大而灵活的工具，能够保持项目环境的一致性、跨多个 Python 版本测试，或是简单地将项目从系统更改中隔离出来，因此它是上选。
+- [《使用 AI 进行网页抓取实验（使用 GPT-4 解析 HTML）》](https://serpapi.com/blog/web-scraping-and-parsing-experiment-with-ai-openai/)。 本文作者实验了利用 OpenAI 最新的 GPT-4 Turbo 模型进行网页抓取和数据分析。实验发现，新模型可以准确解析和获取原始 HTML 数据，并可以调整返回的数据格式；同时，比较其与其他搜索引擎结果页面（SERP）API 提供商（如 SerpApi）的性能，虽然在数据解析准确性和返回格式方面表现出色，但在速度和成本方面尚有不足。因此，作者认为该模型还不完全适合生产和商业用途。
+- [《解释 URL - 基本原理》](https://ittavern.com/url-explained-the-fundamentals/)。 这篇文章主要解释了 URL 的语法和使用，并区分了 URI、URL、URN 和 URC 的差异。URL 是通过 `“协议：// [用户信息 @] 主机：端口 / 路径？查询 #片段”` 结构识别信息资源的位置和访问方式。其中，URI 是标识任何逻辑或物理资源的统一资源标识符，是 URL、URN、URC 的超集。URL 定位和访问资源；URN 通过唯一和持久的名字标识资源，而不涉及位置；URC 指向资源的元数据，而非资源本身。
+- [《10 个关于软件工程师工作他们不会告诉你的难以接受的真相》](https://www.mensurdurakovic.com/hard-to-swallow-truths-they-wont-tell-you-about-software-engineer-job/)。 这篇文章是作者与新近毕业、寻求第一份软件工程师工作的学生们的对话，揭示了他们对这份工作有些误解。作者阐述了一些不为人知的事实，让读者明白软件工程师的工作并非只有好处，而是充满了挑战。作者认为，大学并不能完全为你准备好工作，真实工作中，你必须面临庞大的、复杂的项目，需要处理繁重并且常常无聊的任务，还要时常和一些不胜任工作的同事共事。同时，他也强调了提高软技能的重要性，软技能才是事业成功的关键。尽管这份工作有许多不确定性和压力，但软件开发的创新性、灵活性和全球市场需求的旺盛，都让这个行业变得魅力十足。
+- [《学习 Helix（以及可能的其他模态、基于终端的编辑器）的乐趣》](https://pawelgrzybek.com/the-joy-of-learning-helix-and-probably-other-modal-terminal-based-editors/)。 作者分享了其编程工具使用的经历，从 Adobe Dreamweaver 到最终使用 Helix。他喜欢 Helix 的原因包括该工具内置多种功能、配置简单，能在任何设备上使用且无需太多调整，以及能通过使用该工具提高打字技巧。作者也提到，虽然 Helix 默认启用了鼠标模式，但用户尽量不要把手从键盘上移开。他呼吁读者积极尝试新事物，打破常规，获取新的视角，而不只是指使用 Helix 编程工具。
+- [《介绍 GPT Crawler - 只需一个 URL 即可将任何网站转化为自定义 GPT》](https://www.builder.io/blog/custom-gpt)。 这篇文章介绍了一种新的开源项目 —— GPT Crawler，它可以帮助用户创建自定义的 GPT，只需提供一个网站的 URL，它就会爬取该网站并将其作为 GPT 的知识库。这种方法可以应用于任何目标，以从任何网络资源获取最新信息并创建定制的机器人。文章提供了详细步骤，包括克隆仓库，安装依赖，配置爬虫，运行，生成知识文件，创建自定义 GPT 并上传知识文件等。通过这种方式，用户可以在自己的产品中集成定制的助手，或者在 ChatGPT 中创建一个新的 GPT 助手，以更便捷地从文档或任何其他网站获得特定的产品知识。
+- [《将 Javascript 应用程序部署到 Kubernetes 的最快方法》](https://dev.to/odigos/the-fastest-way-to-deploy-your-javascript-app-to-kubernetes-2j33)。 这篇文章教你如何将你的第一个 JavaScript 应用部署到 Kubernetes（一个容器编排平台）上。我们将使用 Minikube 在本地部署一个返回样本 JSON 对象的简单 Express 服务器。首先，我们通过 npm 初始化项目，并在 package.json 中安装 Express.js 框架。然后我们创建一个服务器，并使用 npm 运行它，确保它能够正确响应 GET 请求。接着，我们编写 Dockerfile 并用 Docker 构建和运行容器。最后，我们开启 Minikube，并使用 kubectl 执行部署 yaml 文件，成功将 Express 服务器部署到本地 Kubernetes 中。
+- [《Rust 中的函数式编程模式》](https://blog.devgenius.io/functional-programming-patterns-in-rust-bc14f3fe9626)。 Rust 编程语言以内存安全和并发编程而闻名，但这并不是全部。实际上，Rust 在函数编程模式方面也有很强大的功能。尽管 Rust 不是纯函数式语言，但它借鉴了很多函数式编程的范例，使你能编写出清晰易维护的代码。函数式编程将计算视为数学函数的求值过程，并避免改变状态和可变数据。面向对象编程（OOP）围绕封装了状态（数据）和行为（方法）的对象来展开，依赖类的概念作为对象的蓝图，并常常使用继承来在类之间共享和扩展行为。而函数式编程（FP）侧重于没有状态的函数，它们操作不可变数据，函数充当一等公民，被用于抽象、封装和组合，迭代过程通常通过递归来表达。
+- [《在 Rust 中使用异步流》](https://blog.devgenius.io/working-with-asynchronous-streams-in-rust-c32a538b88f1)。 异步编程在处理随时间产生的数据（如网络响应或文件流）等程序性能提升方面非常有用。在 Rust 中，操作通常是同步的，即它们会阻塞线程直到完成。而异步操作允许在等待操作完成时运行其他任务，特别适用于 IO 绑定任务（如网络或文件操作）。Rust 的流可以被视为迭代器的异步版本，可以在整个序列准备就绪前，按照项目可用的顺序进行处理。Rust 的异步流主要通过 futures 和 tokio crates 实现。当处理大量随时间产生的数据，或无限序列（如股市报价）时，异步流是理想之选。在应用程序大部分时间都在等待 IO 操作的场景下，异步流可以显著提高吞吐量。对于需要实时处理数据的应用程序而言，如聊天应用，实时分析，或直播，异步流也十分有效。
+- [《用 Rust 构建企业级 REST API》](https://medium.com/@patrickkoss/building-an-enterprise-grade-rest-api-in-rust-1ac693f47452)。 本文详细讲解了使用 Rust、Actix 网络框架和关系数据库开发企业级 REST API 的过程。文章从架构原则入手，分析了 API 的分层结构，着重解释了三个核心层级：基础设施层、服务层和存储 / 数据层。它详细介绍了使用各种流行的 Rust 插件和模式如何创建可测试和可维护的企业应用程序。讲解了如何进行单元测试每个层的可靠性，并提供了详细的代码示例。同时，文章指出设计中存在的问题，并讨论了可能的解决方案。最后强调了测试导向的开发方式和运用 OpenAPI 规范进行 API 文档化的重要性。
+- [《2024 年更快的 Web》](https://rviscomi.dev/2023/11/a-faster-web-in-2024/)。 根据 Chrome 团队发表的回顾，更多的网站正在通过核心网络活力（Core Web Vitals）评估，实现更快的加载速度，更出色的交互响应性和布局稳定性。随着 2024 年的临近，必须对如何保持并进一步提升网络速度进行深入研究。然而，衡量交互响应性的度量标准将在 2024 年变化，这可能会带来一些以前未被发现的响应性问题。但该博客的作者认为，通过学习一些新的策略和扩充对网络性能的理解，我们仍然可以应对挑战。此外，虽然即将引入的最新交互指标 Interaction to Next Paint (INP) 可能改变网站交互响应性的评估结果，但最大的性能瓶颈仍然是加载速度，这将是未来继续提升网络性能的主要关注点。
+- [《回到 React》](https://daily.dev/blog/moving-back-to-react)。 日常开发应用（daily.dev）开发团队近日宣布，将其前端框架从 Preact 迁移为 React。据悉，他们在使用 Preact 框架时遭遇了一系列的热加载、错误处理以及运行环境慢的问题，这些问题在开发模式下尤其突出。为解决这些问题，他们决定迁移至 React 框架，并通过尝试运行一个基于 React 的概念验证项目，证实这一决定的可行性。虽然此次迁移成本较高，但他们相信，通过整理和规划，以及优秀的团队合作，React 的迁移工作将能够顺利完成，未来还可以支持更多 React 的新特性，从而为所有应用带来持续、健康的发展。
+- [《浏览器不想让你知道的 67 种怪异调试技巧》](https://alan.norbauer.com/articles/browser-debugging-tricks)。 这篇文章介绍了如何最大化利用浏览器的调试器。具体操作包括使用高级条件断点、Logpoints / Tracepoints， 使用看板中的 console.log，追踪调用堆栈，改变程序行为，快速而简单的性能评估，使用函数元的方式，基于样本和 CSS 的断点等。此外，还可以自动为一个类的每个实例分配唯一的 ID，使用全局布尔值来控制一个或多个条件断点，监控类调用，调用并调试函数，暂停执行 URL 更改，调试属性读取，使用 copy () 将复杂信息直接复制到剪贴板，调试 HTML/CSS。
+- [《我的快速构建 3 倍之旅：修剪桶文件导入》](https://blog.vramana.com/posts/barrel_files_slow_build/)。 我维护的一款小型前端应用（4K LOC）在 Github Actions 上使用 Vite 编译器，生产环境构建时间达到 26 秒，对于如此小的应用来说非常慢。我开始调查原因，发现另一个项目（100K LOC）的构建时间也是 26 秒，这让我确信有问题。我们在项目中使用了 material-ui，我再次检查了输出结果，发现并无冗余模块。我移除了顶级 import，直接导入组件，但构建时间并未改变。最终，我发现问题出在 mui icons 包的顶层导入上，替换为直接导入图标组件后，构建时间减少到 8 秒。结论是，Barrel 文件对于运行性能或打包性能都有很大影响，应当从代码库中去除。
+- [《一个独立创造者的五年》](https://hawstein.com/2023/07/12/five-years-of-an-indie-hacker/)。 文章作者分享了自己从离职成为独立创造者至今的五年经历。在这期间，他通过做软件产品成为了一名 “独立创造者”。他一直致力于开发面向海外用户、订阅收费的 SaaS 产品。他分享了他在做产品和销售产品过程中的观察和经验，例如在开发产品时注重解决客户的实际问题，把客户当作朋友看待，找到产品想法的来源等，并强调了如何充分发挥创造力和对产品的热爱。他认为，生活在这样一个时代，让人可以按照自己喜欢的方式去创造并以此为生，这本身就是一种成功。
+- [《 如何本地部署一个类 Notion 的看板服务：Focalboard》](https://utgd.net/article/20457/)。 Focalboard 是一个可本地部署的开源看板工具，可以实现类似于 Trello 和 Notion 的看板功能，适合个人或团队项目管理和组织工作。相比其他看板工具，Focalboard 界面美观且轻量级，易于部署，并提供了个人桌面版和个人服务器版。支持看板、表格、日历、画廊四种视图，数据互通，并支持常规的自定义字段、筛选、排序、按特定属性分组、搜索等功能。然而，Focalboard 现在还缺少具体时间字段和提醒功能，可从其他工具导入数据稍显复杂。总的来说，Focalboard 是一个简单且通用的看板工具，适合希望 Local-first 的用户。
+- [《我如何使用 ChatGPT》](https://every.to/news/introducing-how-i-use-chatgpt)。 新节目《我如何使用 ChatGPT》由 Every 公司的联合创始人和 CEO Dan Shipper 主持，每周都会采访那些在工作和生活中如何利用 ChatGPT 的人，并详细展示他们的使用过程。第一期访谈的嘉宾是 Gumroad 公司的联合创始人和 CEO Sahil Lavingia，他在节目中分享了如何使用 ChatGPT 进行购房决策、撰写推特、对创新想法进行压力测试等。节目目前可以在 Twitter、Spotify 和 YouTube 平台上观看或收听。
 
 ## 工具资源
 
-- 。
-
-## Umi 和我
-> 关于 Umi 和我最近的进展。欢迎订阅我的 Telegram 频道[《云谦的自说自话》](https://t.me/yqtalk)。
-
-- Umi 例行每周四发一版，我觉得有趣的功能包括，1）。
-- 。
-
-## 星球更新
-> 不知不觉我的知识星球已维护近一年，更了 370 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
-
-- 。
+- [GitPoet。](https://www.gitpoet.dev/) GitPoet 采用人工智能技术，根据您的 git diff 建议准确而有意义的提交信息。我们的工具由 ChatGPT-3.5 和 ChatGPT-4PRO 提供支持，可简化您的工作流程并节省宝贵时间。
+- [Generative AI for Beginners。](https://microsoft.github.io/generative-ai-for-beginners/) 
+- [Rust Developer Roadmap。](https://roadmap.sh/rust) 
+- [Wasm By Example。](https://wasmbyexample.dev/home.en-us.html) 
 
 ## 每周烂梗
 
-。
+![](https://img.alicdn.com/imgextra/i4/O1CN01F8gCh21ql57lS3YsV_!!6000000005535-0-tps-845-1106.jpg)
+
+![](https://img.alicdn.com/imgextra/i4/O1CN01ckVUUU1drPajytOUV_!!6000000003789-0-tps-1184-1617.jpg)
