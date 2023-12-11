@@ -1,38 +1,31 @@
 ---
-title: "WIP"
-titleImage: ""
-titleImageCaption: ""
+title: "stylex、Vitest 1、Astro 4、React Forget、TanStack Router"
+titleImage: "https://img.alicdn.com/imgextra/i4/O1CN01Dzw5La1Qoa9AzalNI_!!6000000002023-0-tps-1920-1280.jpg_1200x1200.jpg"
+titleImageCaption: "tlisbin @ unsplash"
 publishedAt: "2023/12/11"
-draft: true
 ---
-
-## 本周头条
-
-。
 
 ## 一周新闻
 
-- 。
+- [stylex 开源。](https://github.com/facebook/stylex) StyleX 是一个 JavaScript 库，用于定义优化用户界面的样式。开发者可以在 GitHub 上使用并为其贡献，包括错误修复，改进和想法。StyleX 期望所有参与者遵守 Meta 的开源行为规范。在提议更改或添加到 StyleX API 之前，您应熟悉该项目的目标和架构原则。StyleX 采用 MIT 许可。
+- [Django 发布 5。](https://www.djangoproject.com/weblog/2023/dec/04/django-50-released/) Django 团队在 2023 年 12 月 4 日发布了最新版本 Django 5.0。新版本中包含了大量令人兴奋的新功能，主要亮点包括：数据库计算默认值、生成模型字段以及模板系统中的字段组概念等。你可以在我们的下载页面或 Python 包索引中获取 Django 5.0。同时，Django 4.2 的主流支持已经结束，最后的小型错误修复版本，4.2.8，也已发布。鼓励所有用户在 2026 年 4 月前升级至新版本以继续接收安全问题的修复。至于 Django 4.1，其扩展支持已经结束，最后的安全发布（4.1.13）在 11 月 1 日发行，所有 4.1 版本用户都被鼓励升级至 4.2 或更高版本。
+- [Vitest 发布 1。](https://github.com/vitest-dev/vitest/releases/tag/v1.0.0) Vitest 1.0 发布，进行了多项重大改进和新增功能。进行了 API 的重大更改，如增加对 pool 和 poolOptions 的支持，移除了旧标志，并增加了对多个同时子进程的支持。视觉效果更佳的快照，改进了模型和文档。修正了自定义任务的处理，并更新了运行器钩子的命名等。新增了多项功能，如对 Marko 文件的代码覆盖，实现了 provide/inject API 以从主线程传送数据，改进了 expectTypeOf 错误信息，还新增了 test.sequential () api 等。同时，对多项错误进行了修复，提升了性能并对依赖项进行了更新。此更新在 Github 上可进行查看。
+- [Redux Toolkit 发布 2。](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0) Redux Toolkit 2.0 移除了 createSlice 和 createReducer 中过时的对象语法，移除了其他一些禁用的选项，更新了 configureStore 的中间件和增强器选项，以便需要回调，并更新了打包以更好地兼容 ESM/CJS，并现代化了构建输出。该版本包含了 Redux core 5.0，Reselect 5.0 和 Redux Thunk 3.0 的所有改进。此外，还对 RTKQ 的默认订阅行为进行了更新，增加了新的 combineSlices 方法以支持延时加载分片减速器，并且添加了新的 “动态中间件” 中间件以支持运行时添加中间件。该版本还包含许多其他的 TS 调整和改进。
+- [Astro 发布 4。](https://astro.build/blog/astro-4/) Astro 4.0 是一个网页开发工具，目前已在 npm 上可用。它的高光特点包括 Astro 开发工具栏、国际化（i18n）路由、增量内容缓存（实验性）、新的视图转换 API、重新设计的日志和文档。其中，Astro 开发工具栏允许用户在浏览器中进行实时审查和可访问性问题诊断。此外，Astro 4.0 还引入了服务器端渲染（SSR）以自动检测用户的首选语言，协助创建全球可访问的网站。新的实验功能之一，增量内容缓存，可显著提高大型网站的构建性能。以上这些新特性使 Astro 4.0 成为一个功能强大的网页开发工具。
+- [Remix 支持 clientLoader 和 clientAction。](https://github.com/remix-run/remix/discussions/7634) 为了 SPA。
 
 ## 深度好文
 
-- 。
-
-## 工具资源
-
-- 。
-
-## Umi 和我
-> 关于 Umi 和我最近的进展。欢迎订阅我的 Telegram 频道[《云谦的自说自话》](https://t.me/yqtalk)。
-
-- Umi 例行每周四发一版，我觉得有趣的功能包括，1）。
-- 。
-
-## 星球更新
-> 不知不觉我的知识星球已维护近一年，更了 370 多篇文章，包含了我们最新的观点和见解。以下是近一周的星球更新，访问「q.sorrycc.com」了解更多。
-
-- 。
-
-## 每周烂梗
-
-。
+- [《向使用 React 服务器组件、服务器操作和 AuthKit 的 Next.js 网站添加用户管理功能》](https://www.learnwithjason.dev/blog/authkit-next/)。 本教程介绍了如何使用 AuthKit 在 Next.js 项目中添加用户管理。首先，需要在 WorkOS 仪表板中启用认证。然后，我们克隆并运行项目，并添加所需的环境变量。接着，我们获取了用于通过 AuthKit 进行登录或注册的 URL，并在我们的应用中实施。用户授权应用后，我们需要创建回调处理程序来处理成功的认证。由认证代码交换用户信息后，创建一个 JSON 网络令牌，并将它作为 HTTP-only cookie 添加。然后，我们根据用户的登录状态，对 UI 进行更新。最后，如果需要添加新功能或自定义视觉效果，AuthKit 通过 WorkOS Node SDK 提供的用户管理 API，允许在自己的 UI 中进行操作。
+- [《我们对 React Forget 了解多少》](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)。 React 核心团队正在开发一个名为 React Forget 的新功能，其是一个编译器，旨在分析你的 React 代码，并自动对你的组件和 Hook 进行记忆，以消除不必要的重渲染并提升性能。目前，React Forget 还处于测试阶段，并未对外开源，但已在 Meta 的一些实际应用中使用和测试。React Forget 的优势在于，开发者可以专注于 UI，并编写更简洁的代码，让编译器在构建阶段分析代码并实现优化。目前，React Forget 主要优化客户端组件的代码，使其在客户端运行时避免不必要的重渲染，未来版本可能会扩展到服务器端渲染。
+- [《优秀网址设计示例》](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)。 本文提出 URL 设计的重要性，并举例说明了如何做到 URL 设计的优秀。URL 不仅兼顾服务器的需求同时也要满足人类的阅读习惯。例如 StackOverflow 的 URL 同时包含 ID 和人类可读的问题描述，使人类和服务器都能很好的理解 URL 的内容。剖析了 Slack 和 Jessica Hische 等网站的 URL 设计，彰显其富有创新和趣味性，将叙事性引入 URL 的设计。最后还举例了 URL 作为产品本身的重要性，如 GitHub 和 NPM 的 URL 设计都能快速定位到用户想要找的内容。让 URL 设计成为产品的一部分，使其具有更强的功能性和实用性。
+- [《重新定义开发者体验》](https://begin.com/blog/posts/2023-02-28-redefining-developer-experience)。 文章主要讨论了 2023 年看似即将在网络开发行业带来的剧变。主要厂商广泛地用提升开发者体验 (DX) 的承诺推广 JS 框架，然而这对用户体验 (UX) 的负面效应变得愈发明显。作者指出，专注于提升 DX 的做法可能会在像 JS 代码过大，需要依赖正常运行的 JS，代码构建系统和 API 接口的频繁更改等方面削减 UX。然而，作者并不主张放弃 DX，而是重新思考我们对 DX 的定义和诉求，将焦点从追求速度和切身体验转移到满足更多用户的持久性需求。他建议从 HTML、CSS 和 JavaScript 等前端开发基础出发，通过注重性能和无障碍性，交付出色的用户体验。基于浏览器和 HTTP 的网页开发并不是一个短暂的趋势，它的向后兼容性和稳定性使得开发者可以进行长期投资，其产出也能对最终用户产生持久的价值。
+- [《通过构建一个来了解现代 JavaScript 框架是如何工作的》](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)。 作者从自己的角度出发，通过自己的亲身实践，分享了如何从头搭建一个现代 JavaScript 框架。首先，他阐述了现代 JavaScript 框架 (如 Lit, Solid, Svelte, Vue 等) 的特点，包括使用反应性机制进行 DOM 更新，使用克隆的模板进行 DOM 渲染，以及利用现代网络 API (如 < template > 和 Proxy) 来简化上述过程。其次，他分别讲解了如何实现反应性机制和 DOM 渲染，并且将二者结合起来，用状态控制 DOM 更新。最后，他指出现今的 JavaScript 框架还有很多亟待改进和提升的地方，例如实现迭代器，避免每次都克隆模板等等。尽管如此，他表示自己对自己能够成功搭建一个小型框架感到非常满意。
+- [《为什么我们选择使用 AWS 而不是 Vercel 来托管我们的 Next.js 应用程序》](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel)。 Graphite 公司从简单的 SPA 部署迁移到了使用 AWS ECS 的容器化环境，以增强其管理、部署和扩展 Next.js 应用程序的能力。在选择新的主机选项时，他们考虑了各种技术考虑因素，并最终选择在 ECS 上托管 Next.js 应用。他们发现，ECS 在性能、可扩展性、成本效率、一致性和简化、部署灵活性以及安全性和合规性方面收益颇多。他们建议：在承诺迁移或新的托管策略之前，仔细评估当前和未来的基础设施需求；使用 IaC 进行可重复、可靠的部署过程；并保持对使用情况的关注，以在不妨碍必要资源的情况下优化成本。
+- [《TanStack 路由器 —— 为我们其他人提供的现代 React》](https://swizec.com/blog/tanstack-router-modern-react-for-the-rest-of-us/)。 TanStack Router 是由 Tanner 创建的一种工具，它从 Remix、NextJS、TRPC 和 Chicane 中汲取灵感，将最好的部分结合在一起，这使得我们能以较少的努力和一点重新编程的思考来构建下一代应用，无需服务器端渲染。设计的主要特点包括类型安全的路由、路由协调的数据加载、优先设计、可选的基于文件的路由以及嵌套路由。然而，TanStack Router 目前仍属于 beta 阶段，还在积极开发之中，一些小细节还在不断变更。但即使如此，TanStack Router 的发展方向令人充满期待，并且已经开始使用 TanStack Router 来打造完美适配此策略的全新应用。
+- [《LLM 作为函数》](https://blog.vjeux.com/2023/analysis/llm-as-a-function.html)。 语言模型（LLMs）如 ChatGPT，已从多种用例中实现了从提示到文本的转换，变得极其流行。然而更令人兴奋的是，LLMs 也可以作为程序中常规功能的实现方式，这就是我所说的以函数形式的 LLM。例如，可以在网站构建器中使用你所拥有的设计系统中的组件。LLMs 在此中的作用是将任意字符串输入转化为实际值，而不仅仅是字符串。如何实现这一功能？首先需要你的编程语言具有内省 / 代码生成的能力；其次，将输入的类型转化为 JSON 样例并将其增加到提示中；最后，将其转化为 JSON 的结构形式，然后被 JSONFormer 限制输出，使其完全符合这个结构形式。最后输出的 JSON 结构可以被保证，然后可以通过 JSON.parse () 将其转化为我们需求的 JavaScript 对象。这样 LLM 不仅可以提高可靠性，还可以解锁一系列全新的可能性，可以在文本的指导下以返回值的方式运行。
+- [《我作为一名网页开发者在新 MacBook 上安装和设置的所有东西》](https://whitep4nth3r.com/blog/everything-i-install-and-set-up-on-a-new-macbook-as-a-web-developer/)。 作者分享了自己作为一名 web 开发者，在新的 MacBook 上安装和设置的所有工具。首先，他在终端中使用 iTerm2，并用 Homebrew 来管理软件。为了进行版本控制，他生成了 SSH 密钥，并在终端中执行了几个命令来配置 Git。他还安装了一些命令行工具，比如 GitHub CLI 和 Netlify CLI。作为开发环境，他选择 VS Code，并通过它的 “设置同步” 功能来云端管理所有的主题和插件。他还安装了 Docker Desktop 等其他开发工具。在浏览器和插件方面，他使用 Arc 浏览器，并安装了一些重要的浏览器扩展，如 AdBlock、Dashlane 密码管理器等。他还列出了一些实用程序，如默认的 Rectangle 窗口管理、Raycast 替代 Spotlight 等。他还安装了一些音频和视觉应用，例如 Elgato Control Center 等。对于内容创建，他使用 Vanilla 隐藏屏幕顶部的应用程序图标。工作中他使用 MeetingBar 查看日程。
+- [《每次都开发正确的产品，成为一名 10 倍效能工程师：撰写 RFCs 的艺术》](https://dev.to/wasp/develop-the-right-thing-every-time-and-become-a-10x-engineer-the-art-of-writing-rfcs-2mc6)。 本文介绍了请求评论（RFC）的写作方法和其在开发过程中的重要性。RFC 是一种在实现前确定最佳解决方案的方法，适用于开发新概念或修改项目架构的场合。编写 RFC 有助于整理思路，提升团队对代码库的理解和问题的全面性，并提高 PR 审核的流畅度。编写 RFC 的主要步骤包括元数据，问题或目标，非目标，解决方案和实现，以及备注和待解答的问题。文章还建议使用伪代码，查找他人的实践方法，并接受不完美的初稿以促进团队讨论。使用的工具可根据实际情况选择，包括 Google 文档，Notion 和 Github 等。
+- [《在 CI 中增量构建 Rust》](https://earthly.dev/blog/incremental-rust-builds/)。 此篇文章介绍了 lib/rust，一个开源的 Earthly 库，它可被用于 Rust 构建，并优化其在 CI 中的性能。lib/rust 赋予了 Rust 本地快速编译的同样优点，使用简单尽享快速编译。同时，地球库还提供了良好的协作体验，并保持代码的可读性。lib/rust 的高效表现得益于以下几点：存储货物缓存在缓存挂载而非在层缓存中；一个用于 $CARGO_HOME 的挂载缓存在相同 Earthfile 的所有目标下共享；另一个挂载缓存在所有相同的 Earthly 目标中构建中共享；还包括 $CARGO_HOME/.package-cache 在挂载缓存中。这些特性促使了 lib/rust 在构建速度和效率上的提升。
+- [《xxx 与 Panda CSS 相比如何》](https://www.astahmer.dev/posts/how-does-xxx-compares-to-panda-css)。 本文作者主要就 Panda CSS（一种 CSS-in-JS 解决方案）进行了阐述，他认为 Panda CSS 是一个灵活的解决方案，可以在许多不同的环境和方式中使用，相比于其他的 CSS 解决方案，Panda CSS 更适合他的使用场景。然而，使用 Panda CSS 也存在一些局限性，主要与其使用静态分析的方式生成 CSS 有关，过于动态的操作可能不会按预期工作。此外，Panda CSS 通过 CLI 代码生成步骤产生一个轻量级的 JS 运行时，部分人可能不希望添加任何 JS。作者强调，Panda CSS 是否合适取决于个人的使用情况，并欢迎社区进行更深入的比较和试验。
+- [《一个用于 Next.js 的无依赖最小化翻译系统》](https://www.thomasledoux.be/blog/minimal-dependency-free-translation-system-nextjs)。 作者在 Next.js 网站进行性能检查时，发现当前使用的翻译系统增加了很多的 bundle 体积，因此决定创建一个最小化且不增加任何依赖的翻译系统。他在 POEditor 上托管翻译，设置了后端，并在 next.config.js 中添加语言。通过 Fetch API 从 POEditor 获取项目翻译，并创建一个存储翻译的 React Context。在 Next.js 的应用程序入口文件_app.tsx 中，他使用 DictionaryContext，并通过 getStaticProps 在页面中获取翻译。之后创建了自定义的翻译钩子，并在 React 组件中使用了 useTranslation 钩子来获取翻译函数，最后根据给定的 key 来进行翻译。虽然这个翻译系统非常基础，但它适用于作者的使用场景，并已经足够处理他工作中的项目。
